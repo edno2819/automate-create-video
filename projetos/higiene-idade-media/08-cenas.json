@@ -1,0 +1,240 @@
+{
+  "projeto": "higiene-idade-media",
+  "roteiro": "projetos/higiene-idade-media/06-roteiro-final.md",
+  "gerado_em": "2026-10-20",
+  "proporcao": "9:16",
+  "duracao_estimada": "00:26",
+  "total_cenas": 8,
+  "alertas": [],
+  "cenas": [
+    {
+      "trecho": "Mais de 32 banhos públicos. Numa cidade só.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "32",
+      "descricao": "O interior da casa de banho, cheio de vapor e luz de vela; a escala das tinas enfileiradas é o espanto. Banhistas só ao fundo, cobertos pela água e pelo vapor.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "rows of steaming wooden tubs receding under stone arches, candlelight cutting golden rays through dense steam, a few distant bathers in linen shifts sitting in water up to their chests, softly veiled by vapor, a sense of astonishing scale",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. Rows of steaming wooden tubs receding under stone arches, candlelight cutting golden rays through dense steam, a few distant bathers in linen shifts sitting in water up to their chests, softly veiled by vapor, a sense of astonishing scale. Setting: the vaulted interior of a 13th-century Parisian bathhouse, rough stone arches, rows of large wooden tubs bound with iron hoops, linen cloths draped over the rims, beeswax candles in iron holders, thick steam rising toward a smoke-darkened timber ceiling. Props: a large round wooden bathtub made of oak staves bound with dark iron hoops. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L01",
+        "O01"
+      ],
+      "id": "B01-01",
+      "bloco": "B01",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:00",
+      "fim": "00:03",
+      "inicio_s": 0.0,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Dizem que ninguém tomava banho. Paris, século 13.",
+      "tipo": "ilustracao",
+      "descricao": "A rua de Paris do século 13 vista de baixo, com a porta da casa de banho soltando vapor: o mito dito sobre a prova que o contradiz.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the crooked half-timbered houses lean over the narrow street at dusk, a plume of warm white steam billows from the glowing bathhouse doorway into the cold blue air, passersby in wool cloaks turn their heads toward it",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. The crooked half-timbered houses lean over the narrow street at dusk, a plume of warm white steam billows from the glowing bathhouse doorway into the cold blue air, passersby in wool cloaks turn their heads toward it. Setting: a narrow muddy street in 13th-century Paris, crooked half-timbered houses with jettied upper floors and wooden shutters, stone ground floors, a heavy oak door in an arched stone doorway with warm light and white steam pouring out into the street, a distant Gothic church spire. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "palavras": [
+        8,
+        16
+      ],
+      "inicio": "00:03",
+      "fim": "00:06",
+      "inicio_s": 3.2,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Mas em casa, encher uma tina custava caro.",
+      "tipo": "ilustracao",
+      "descricao": "Uma mulher na casa simples, de perfil, junto ao caldeirão no fogo, ao lado de uma tina de madeira vazia: o esforço e o custo de encher a tina.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "a tired woman in a plain wool dress and linen headscarf stands in profile beside an empty wooden bathtub, a small cauldron of water heating over the hearth fire, only a few buckets beside her, the empty tub dominating the room",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. A tired woman in a plain wool dress and linen headscarf stands in profile beside an empty wooden bathtub, a small cauldron of water heating over the hearth fire, only a few buckets beside her, the empty tub dominating the room. Setting: a humble one-room 13th-century Parisian home, wattle-and-daub walls, a packed earth floor, a small hearth with an iron cauldron hanging over the fire, a small window with open wooden shutters onto the street, wooden buckets by the wall. Props: a large round wooden bathtub made of oak staves bound with dark iron hoops. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L03",
+        "O01"
+      ],
+      "id": "B02-01",
+      "bloco": "B02",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:06",
+      "fim": "00:10",
+      "inicio_s": 6.4,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Água carregada e aquecida. No dia a dia, só bacia.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe das mãos lavando-se numa bacia de barro com uma jarra; pela janela aberta, o vapor das casas de banho da rua, ligando a cena doméstica ao tema.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "a pair of hands cupping water over a small glazed clay basin beside a clay jug, warm firelight on the water, through the open shutters behind, white steam from the bathhouses drifts across the street, glowing in the evening light",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. A pair of hands cupping water over a small glazed clay basin beside a clay jug, warm firelight on the water, through the open shutters behind, white steam from the bathhouses drifts across the street, glowing in the evening light. Setting: a wattle-and-daub wall beside a small window with open wooden shutters. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L03"
+      ],
+      "id": "B02-02",
+      "bloco": "B02",
+      "palavras": [
+        8,
+        18
+      ],
+      "inicio": "00:10",
+      "fim": "00:14",
+      "inicio_s": 9.6,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Na rua, banho era negócio. Com guilda e regras.",
+      "tipo": "ilustracao",
+      "descricao": "O dono da casa de banho na porta do seu estabelecimento, entre outros donos, todos com aventais: a virada, o banho como ofício organizado.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the bathhouse keeper stands proudly with arms crossed in front of his steaming doorway, flanked by three other bathhouse keepers in leather aprons, a confident trade gathering, morning light and steam around them",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The bathhouse keeper stands proudly with arms crossed in front of his steaming doorway, flanked by three other bathhouse keepers in leather aprons, a confident trade gathering, morning light and steam around them. Character: the bathhouse keeper, a stout man in his late 40s with ruddy fair skin, a short graying brown beard, a broad crooked nose, wearing a knee-length undyed linen tunic with sleeves rolled up, a damp leather apron and a small brass bell hanging from his belt. Setting: a narrow muddy street in 13th-century Paris, crooked half-timbered houses with jettied upper floors and wooden shutters, stone ground floors, a heavy oak door in an arched stone doorway with warm light and white steam pouring out into the street, a distant Gothic church spire. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "P01",
+        "L02"
+      ],
+      "id": "B03-01",
+      "bloco": "B03",
+      "palavras": [
+        0,
+        9
+      ],
+      "inicio": "00:14",
+      "fim": "00:17",
+      "inicio_s": 13.6,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "Vapor: 2 denários. Banho completo: 4 denários.",
+      "tipo": "ilustracao",
+      "descricao": "A composição da capa: em primeiro plano, uma mão estende duas moedas de prata ao dono, parado na porta com vapor saindo atrás dele.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a hand in the foreground holds out two small silver medieval coins toward the bathhouse keeper, who stands in the doorway with an open palm and a welcoming smile, thick warm steam pouring out behind him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "First-person point-of-view shot. A hand in the foreground holds out two small silver medieval coins toward the bathhouse keeper, who stands in the doorway with an open palm and a welcoming smile, thick warm steam pouring out behind him. Character: the bathhouse keeper, a stout man in his late 40s with ruddy fair skin, a short graying brown beard, a broad crooked nose, wearing a knee-length undyed linen tunic with sleeves rolled up, a damp leather apron and a small brass bell hanging from his belt. Setting: an arched stone doorway with a heavy oak door, warm light and white steam pouring out. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "P01",
+        "L02"
+      ],
+      "id": "B03-02",
+      "bloco": "B03",
+      "palavras": [
+        9,
+        16
+      ],
+      "inicio": "00:17",
+      "fim": "00:20",
+      "inicio_s": 17.2,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Até pregoeiros gritavam pelas ruas, chamando clientes.",
+      "tipo": "ilustracao",
+      "descricao": "Um pregoeiro jovem, de boca aberta, gritando numa rua de Paris, com a mão em concha; passantes se viram para ele.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a lanky street crier in a red hood and patched tunic shouts with one hand cupped to his mouth, the other pointing toward the steaming doorway, townsfolk turning to listen, energetic morning bustle",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. A lanky street crier in a red hood and patched tunic shouts with one hand cupped to his mouth, the other pointing toward the steaming doorway, townsfolk turning to listen, energetic morning bustle. Setting: a narrow muddy street in 13th-century Paris, crooked half-timbered houses with jettied upper floors and wooden shutters, stone ground floors, a heavy oak door in an arched stone doorway with warm light and white steam pouring out into the street, a distant Gothic church spire. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B03-03",
+      "bloco": "B03",
+      "palavras": [
+        16,
+        23
+      ],
+      "inicio": "00:20",
+      "fim": "00:23",
+      "inicio_s": 20.0,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Londres tinha 13. Viena chegou a 29. E Paris...",
+      "tipo": "ilustracao",
+      "descricao": "Espelho da cena 2: a mesma porta da casa de banho em Paris, agora de frente e mais perto, com vapor quente saindo e convidando a entrar; o replay volta ao interior da cena 1.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the glowing bathhouse doorway at dusk seen straight on, the heavy oak door ajar, golden candlelight and billowing steam spilling into the empty street, inviting the eye inside, a quiet suspended moment",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. The glowing bathhouse doorway at dusk seen straight on, the heavy oak door ajar, golden candlelight and billowing steam spilling into the empty street, inviting the eye inside, a quiet suspended moment. Setting: a narrow muddy street in 13th-century Paris, crooked half-timbered houses with jettied upper floors and wooden shutters, stone ground floors, a heavy oak door in an arched stone doorway with warm light and white steam pouring out into the street, a distant Gothic church spire. Style: cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture.",
+      "negativo_final": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B04-01",
+      "bloco": "B04",
+      "palavras": [
+        0,
+        9
+      ],
+      "inicio": "00:23",
+      "fim": "00:26",
+      "inicio_s": 22.8,
+      "duracao_s": 3.6
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "consulta": {
+    "cmd": "tags",
+    "max": 25,
+    "rapido": false,
+    "termos": [
+      "escalar everest",
+      "monte everest",
+      "desafios extremos"
+    ],
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-23 02:36 UTC",
+  "avisos": [
+    "s5dpX6jrFpY: ERROR: [youtube] s5dpX6jrFpY: This video is not available",
+    "Z0XYK9WCxmQ: ERROR: [youtube] Z0XYK9WCxmQ: This video is not available"
+  ],
+  "n_videos": 67,
+  "tags": [
+    {
+      "tag": "tv azteca",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "azteca uno",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "exatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "exatlón méxico",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "exatlón cup",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "exatlón draft",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "videos",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "programas completos",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "reality show",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "avance",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "juegos",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "competencia",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "dónde ver exatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "quien ganó el exatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "atletas exatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "altamontanha",
+      "videos": 2,
+      "views_por_dia": 3625,
+      "exemplo": {
+        "titulo": "Everest Fora da Temporada: Russos Tentam Avançar pela Perigosa Aresta Oeste",
+        "url": "https://www.youtube.com/watch?v=cg3RBqgEd9E",
+        "views_por_dia": 2079
+      }
+    },
+    {
+      "tag": "montanha",
+      "videos": 2,
+      "views_por_dia": 3625,
+      "exemplo": {
+        "titulo": "Everest Fora da Temporada: Russos Tentam Avançar pela Perigosa Aresta Oeste",
+        "url": "https://www.youtube.com/watch?v=cg3RBqgEd9E",
+        "views_por_dia": 2079
+      }
+    },
+    {
+      "tag": "montanhismo",
+      "videos": 2,
+      "views_por_dia": 3625,
+      "exemplo": {
+        "titulo": "Everest Fora da Temporada: Russos Tentam Avançar pela Perigosa Aresta Oeste",
+        "url": "https://www.youtube.com/watch?v=cg3RBqgEd9E",
+        "views_por_dia": 2079
+      }
+    },
+    {
+      "tag": "everest",
+      "videos": 4,
+      "views_por_dia": 2210,
+      "exemplo": {
+        "titulo": "Chinesa é Encontrada Morta Após Pegar Atalho Durante Retorno do Everest Base Camp",
+        "url": "https://www.youtube.com/watch?v=0SI3j6ZME70",
+        "views_por_dia": 1546
+      }
+    },
+    {
+      "tag": "monte everest",
+      "videos": 2,
+      "views_por_dia": 2140,
+      "exemplo": {
+        "titulo": "Everest Fora da Temporada: Russos Tentam Avançar pela Perigosa Aresta Oeste",
+        "url": "https://www.youtube.com/watch?v=cg3RBqgEd9E",
+        "views_por_dia": 2079
+      }
+    },
+    {
+      "tag": "tenzing movie",
+      "videos": 4,
+      "views_por_dia": 1420,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "tenzing norgay movie",
+      "videos": 3,
+      "views_por_dia": 1381,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Tenzing 2026",
+      "videos": 2,
+      "views_por_dia": 1227,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Tenzing trailer",
+      "videos": 2,
+      "views_por_dia": 1227,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Tenzing Norgay",
+      "videos": 2,
+      "views_por_dia": 1227,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Edmund Hillary",
+      "videos": 2,
+      "views_por_dia": 1227,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "news",
+      "videos": 2,
+      "views_por_dia": 1039,
+      "exemplo": {
+        "titulo": "Sosok Letjen Iwan Setiawan Pangkostrad Baru, Jenderal Penakluk Everest Bawa Misi Prabowo",
+        "url": "https://www.youtube.com/watch?v=kq6AJ3Jx1vw",
+        "views_por_dia": 1028
+      }
+    },
+    {
+      "tag": "Top Stories",
+      "videos": 2,
+      "views_por_dia": 1039,
+      "exemplo": {
+        "titulo": "Sosok Letjen Iwan Setiawan Pangkostrad Baru, Jenderal Penakluk Everest Bawa Misi Prabowo",
+        "url": "https://www.youtube.com/watch?v=kq6AJ3Jx1vw",
+        "views_por_dia": 1028
+      }
+    },
+    {
+      "tag": "Everest expedition",
+      "videos": 3,
+      "views_por_dia": 1015,
+      "exemplo": {
+        "titulo": "TENZING (2026) | The Legendary Journey to Mount Everest | Official Trailer",
+        "url": "https://www.youtube.com/watch?v=pPGNK9KHiGc",
+        "views_por_dia": 412
+      }
+    },
+    {
+      "tag": "Tom Hiddleston",
+      "videos": 2,
+      "views_por_dia": 854,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Tenzing",
+      "videos": 2,
+      "views_por_dia": 854,
+      "exemplo": {
+        "titulo": "Tenzing — Official Trailer | Apple TV",
+        "url": "https://www.youtube.com/watch?v=UxCu_8ipbI4",
+        "views_por_dia": 815
+      }
+    },
+    {
+      "tag": "Mount Everest",
+      "videos": 4,
+      "views_por_dia": 718,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "Mount Everest movie",
+      "videos": 2,
+      "views_por_dia": 451,
+      "exemplo": {
+        "titulo": "TENZING (2026) | The Legendary Journey to Mount Everest | Official Trailer",
+        "url": "https://www.youtube.com/watch?v=pPGNK9KHiGc",
+        "views_por_dia": 412
+      }
+    },
+    {
+      "tag": "high altitude",
+      "videos": 2,
+      "views_por_dia": 407,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "himalayas",
+      "videos": 2,
+      "views_por_dia": 280,
+      "exemplo": {
+        "titulo": "একজন পর্বতারোহী কীভাবে বোঝেন সামনে বরফের নিচে বিপদ? | Nurunnaher Nimni | Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=vgp5cLS4WU4",
+        "views_por_dia": 232
+      }
+    },
+    {
+      "tag": "climbing everest",
+      "videos": 2,
+      "views_por_dia": 280,
+      "exemplo": {
+        "titulo": "একজন পর্বতারোহী কীভাবে বোঝেন সামনে বরফের নিচে বিপদ? | Nurunnaher Nimni | Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=vgp5cLS4WU4",
+        "views_por_dia": 232
+      }
+    },
+    {
+      "tag": "Everest Summit",
+      "videos": 2,
+      "views_por_dia": 268,
+      "exemplo": {
+        "titulo": "একজন পর্বতারোহী কীভাবে বোঝেন সামনে বরফের নিচে বিপদ? | Nurunnaher Nimni | Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=vgp5cLS4WU4",
+        "views_por_dia": 232
+      }
+    },
+    {
+      "tag": "Himalayan Adventure",
+      "videos": 2,
+      "views_por_dia": 268,
+      "exemplo": {
+        "titulo": "একজন পর্বতারোহী কীভাবে বোঝেন সামনে বরফের নিচে বিপদ? | Nurunnaher Nimni | Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=vgp5cLS4WU4",
+        "views_por_dia": 232
+      }
+    },
+    {
+      "tag": "indian truck offroad cargo 3d",
+      "videos": 4,
+      "views_por_dia": 134,
+      "exemplo": {
+        "titulo": "Indian Truck Offroad Cargo 3D Driving 2026 Game Android Gameplay.",
+        "url": "https://www.youtube.com/watch?v=1oes5hr2dbg",
+        "views_por_dia": 81
+      }
+    },
+    {
+      "tag": "indian truck offroad cargo",
+      "videos": 4,
+      "views_por_dia": 134,
+      "exemplo": {
+        "titulo": "Indian Truck Offroad Cargo 3D Driving 2026 Game Android Gameplay.",
+        "url": "https://www.youtube.com/watch?v=1oes5hr2dbg",
+        "views_por_dia": 81
+      }
+    }
+  ],
+  "hashtags": [
+    {
+      "tag": "Everest",
+      "videos": 5,
+      "views_por_dia": 116105,
+      "exemplo": {
+        "titulo": "Identity of Mt. Everest’s ‘Green Boots’ finally discovered",
+        "url": "https://www.youtube.com/watch?v=LOcg4RidyE8",
+        "views_por_dia": 94684
+      }
+    },
+    {
+      "tag": "RealityShow",
+      "videos": 7,
+      "views_por_dia": 11263,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Supervivencia",
+      "videos": 7,
+      "views_por_dia": 11249,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "TVAzteca",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "AztecaUNO",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Exatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "ExatlónMéxico",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Exatlón2026",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "ExatlónMéxico2026",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "DécimaTemporada",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "ExatlónDécimaTemporada",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "RojosVsAzules",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "AntonioRosique",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "CompetenciaExtrema",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Atletas",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "AltoRendimiento",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "CircuitosExatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "PruebasFísicas",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Resistencia",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Estrategia",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Fuerza",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Velocidad",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "Villa360",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "VillaExatlón",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "DueloDeEliminación",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "BatallaColosal",
+      "videos": 6,
+      "views_por_dia": 11240,
+      "exemplo": {
+        "titulo": "LOS ROJOS QUIEREN GANAR LA VILLA 360, ¿LO LOGRARÁN? | EXATLÓN MÉXICO DÉCIMA TEMPORADA",
+        "url": "https://www.youtube.com/watch?v=-51H-nKhWlU",
+        "views_por_dia": 4807
+      }
+    },
+    {
+      "tag": "desafíoextremo",
+      "videos": 2,
+      "views_por_dia": 10804,
+      "exemplo": {
+        "titulo": "¿Ganó Juan el reto de MrBeast? La verdad detrás del premio de 1 millón de dólares en la tienda",
+        "url": "https://www.youtube.com/watch?v=lOlh99LIuz0",
+        "views_por_dia": 10788
+      }
+    },
+    {
+      "tag": "EverestBaseCamp",
+      "videos": 3,
+      "views_por_dia": 4482,
+      "exemplo": {
+        "titulo": "যে পথে হাঁটাই কঠিন, সেই পথে সাইকেল নিয়ে হিমালয়ে বীর কুমার | Everest | Independent TV",
+        "url": "https://www.youtube.com/watch?v=Orf_D-m7Uxk",
+        "views_por_dia": 4420
+      }
+    },
+    {
+      "tag": "nepal",
+      "videos": 2,
+      "views_por_dia": 4469,
+      "exemplo": {
+        "titulo": "যে পথে হাঁটাই কঠিন, সেই পথে সাইকেল নিয়ে হিমালয়ে বীর কুমার | Everest | Independent TV",
+        "url": "https://www.youtube.com/watch?v=Orf_D-m7Uxk",
+        "views_por_dia": 4420
+      }
+    },
+    {
+      "tag": "MountEverest",
+      "videos": 6,
+      "views_por_dia": 1185,
+      "exemplo": {
+        "titulo": "TENZING (2026) | The Legendary Journey to Mount Everest | Official Trailer",
+        "url": "https://www.youtube.com/watch?v=pPGNK9KHiGc",
+        "views_por_dia": 412
+      }
+    },
+    {
+      "tag": "nurunnahernimni",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "somoyearth",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "somoytv",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "somoynews",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "somoytvlive",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "somoytvbd",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "sompadokio",
+      "videos": 3,
+      "views_por_dia": 682,
+      "exemplo": {
+        "titulo": "‘এভারেস্টে সমতলের মতো ব্রেইন কাজ করে না’ | Everest Climbing Experience | Mount Everest | Somoy Earth",
+        "url": "https://www.youtube.com/watch?v=YiWEpKW_9YE",
+        "views_por_dia": 371
+      }
+    },
+    {
+      "tag": "NepalTravel",
+      "videos": 2,
+      "views_por_dia": 62,
+      "exemplo": {
+        "titulo": "🏔️ REAL YAKS IN EVEREST REGION, NEPAL 🇳🇵🐂 👍 Like | 💬 Comment | 🔔 Subscribe | ↗️ Share #2026 video",
+        "url": "https://www.youtube.com/watch?v=1vbNSRct_8E",
+        "views_por_dia": 49
+      }
+    },
+    {
+      "tag": "shorts",
+      "videos": 3,
+      "views_por_dia": 35,
+      "exemplo": {
+        "titulo": "Indian Bikes Driving 3D: Trying Crazy Myths & Stunts Live #shorts",
+        "url": "https://www.youtube.com/watch?v=twujOz9W9FM",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "IndianBikesDriving3D",
+      "videos": 2,
+      "views_por_dia": 26,
+      "exemplo": {
+        "titulo": "Indian Bikes Driving 3D: Trying Crazy Myths & Stunts Live #shorts",
+        "url": "https://www.youtube.com/watch?v=twujOz9W9FM",
+        "views_por_dia": 16
+      }
+    }
+  ]
+}

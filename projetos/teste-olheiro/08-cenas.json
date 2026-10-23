@@ -1,0 +1,1320 @@
+{
+  "projeto": "teste-olheiro",
+  "roteiro": "projetos/teste-olheiro/06-roteiro-final.md",
+  "gerado_em": "2026-10-20",
+  "proporcao": "16:9",
+  "duracao_estimada": "04:26",
+  "total_cenas": 48,
+  "alertas": [],
+  "cenas": [
+    {
+      "trecho": "Nível 1: O olheiro.",
+      "tipo": "cartela",
+      "texto_na_tela": "NÍVEL 1 — O OLHEIRO",
+      "descricao": "Cartela de abertura sobre a laje vazia no alto do morro ao amanhecer, com a cadeira virada para a cidade e o pacote de fogos ao lado: o posto antes de ter dono.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "an empty rooftop at dawn, the lone plastic chair facing the city, the bundle of fireworks leaning against the low wall beside it, mist rising over the hillside, quiet and ominous",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "prompt_final": "Wide establishing shot. An empty rooftop at dawn, the lone plastic chair facing the city, the bundle of fireworks leaning against the low wall beside it, mist rising over the hillside, quiet and ominous. Background plate for a title card, calm composition with empty space in the center. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Props: a bundle of handheld skyrocket fireworks, long thin cardboard tubes wrapped in faded red paper, fixed to thin wooden sticks and bound together with rubber bands. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L01",
+        "O02"
+      ],
+      "id": "B01-01",
+      "bloco": "B01",
+      "inicio": "00:00",
+      "fim": "00:02",
+      "inicio_s": 0.0,
+      "duracao_s": 1.6
+    },
+    {
+      "trecho": "Você tem 19 anos. Até março, você era entregador de aplicativo.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "19 ANOS",
+      "descricao": "O protagonista de costas, pilotando uma moto velha pela avenida à noite com a sacola vermelha de entrega: a vida de antes.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L05",
+      "objetos": [
+        "O06"
+      ],
+      "prompt_cena": "the protagonist rides a dented old motorcycle through night traffic, seen from behind at a three-quarter angle, the red delivery backpack on his back, headlights and taillights streaking around him, tired but still moving forward",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The protagonist rides a dented old motorcycle through night traffic, seen from behind at a three-quarter angle, the red delivery backpack on his back, headlights and taillights streaking around him, tired but still moving forward. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a wide multi-lane expressway in Rio de Janeiro's North Zone at night, orange sodium streetlights, concrete barriers and overpasses, heavy truck traffic with streaking headlights. Props: a scuffed square red thermal delivery backpack with no logos. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L05",
+        "O06"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "inicio": "00:02",
+      "fim": "00:06",
+      "inicio_s": 1.6,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "Aí roubaram a sua moto na Avenida Brasil e a parcela continuou chegando todo dia 10.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "TODO DIA 10",
+      "descricao": "O protagonista sozinho no acostamento, de costas, com o capacete numa mão e a chave da moto pendurada na outra, diante do lugar vazio onde a moto estava. A chave sem moto é a dívida que fica.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L05",
+      "objetos": [
+        "O06",
+        "O07"
+      ],
+      "prompt_cena": "the protagonist stands alone on the shoulder of the expressway seen from behind, a helmet in one hand and the motorcycle key dangling from the other, the red delivery backpack dropped at his feet, an empty patch of curb where his motorcycle should be, trucks rushing past",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. The protagonist stands alone on the shoulder of the expressway seen from behind, a helmet in one hand and the motorcycle key dangling from the other, the red delivery backpack dropped at his feet, an empty patch of curb where his motorcycle should be, trucks rushing past. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a wide multi-lane expressway in Rio de Janeiro's North Zone at night, orange sodium streetlights, concrete barriers and overpasses, heavy truck traffic with streaking headlights. Props: a scuffed square red thermal delivery backpack with no logos; a single motorcycle ignition key on a small ring with a cheap red plastic tag. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L05",
+        "O06",
+        "O07"
+      ],
+      "id": "B01-03",
+      "bloco": "B01",
+      "inicio": "00:06",
+      "fim": "00:12",
+      "inicio_s": 6.0,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "Um conhecido do campinho falou que tinha plantão na laje, pagava no fim do dia.",
+      "tipo": "ilustracao",
+      "descricao": "No campinho de terra ao pôr do sol, por cima do ombro do protagonista, um conhecido aponta para o alto do morro. A proposta chega como favor.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01"
+      ],
+      "local": null,
+      "objetos": [],
+      "prompt_cena": "over the protagonist's shoulder on a dirt soccer field at sunset, a shirtless acquaintance in his twenties leans on a rusty goalpost and casually points up toward the top of the favela hill, dust floating in the golden light, an offer made like a favor",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Over-the-shoulder shot. Over the protagonist's shoulder on a dirt soccer field at sunset, a shirtless acquaintance in his twenties leans on a rusty goalpost and casually points up toward the top of the favela hill, dust floating in the golden light, an offer made like a favor. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01"
+      ],
+      "id": "B01-04",
+      "bloco": "B01",
+      "inicio": "00:12",
+      "fim": "00:18",
+      "inicio_s": 12.4,
+      "duracao_s": 6.0
+    },
+    {
+      "trecho": "Ninguém te obrigou, lembra disso. Esse é o detalhe que mais pesa depois.",
+      "tipo": "ilustracao",
+      "descricao": "O protagonista sozinho, de costas, no primeiro degrau da escadaria que sobe o morro, sem ninguém por perto: a escolha foi dele.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the protagonist, completely alone, takes the first step up the long steep alley stairway seen from behind, no one around to push him, the stairs rising into the dusk, his long shadow stretched across the steps",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. The protagonist, completely alone, takes the first step up the long steep alley stairway seen from behind, no one around to push him, the stairs rising into the dusk, his long shadow stretched across the steps. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02"
+      ],
+      "id": "B01-05",
+      "bloco": "B01",
+      "inicio": "00:18",
+      "fim": "00:24",
+      "inicio_s": 18.4,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "O trabalho parece nada. Você fica sentado no alto do morro com um rádio que chia e um pacote de fogos do lado.",
+      "tipo": "ilustracao",
+      "descricao": "Plano geral da laje: o protagonista de costas na cadeira de plástico, o rádio na mão e os fogos no chão, a cidade inteira lá embaixo. Um trabalho que parece não ser nada.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01",
+        "O02"
+      ],
+      "prompt_cena": "the protagonist sits on the plastic chair at the edge of the rooftop seen from behind, the walkie-talkie in his hand and the bundle of fireworks on the floor beside him, the whole favela and city spread out below in the hazy afternoon, stillness and boredom",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. The protagonist sits on the plastic chair at the edge of the rooftop seen from behind, the walkie-talkie in his hand and the bundle of fireworks on the floor beside him, the whole favela and city spread out below in the hazy afternoon, stillness and boredom. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Props: a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body; a bundle of handheld skyrocket fireworks, long thin cardboard tubes wrapped in faded red paper, fixed to thin wooden sticks and bound together with rubber bands. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01",
+        "O01",
+        "O02"
+      ],
+      "id": "B01-06",
+      "bloco": "B01",
+      "inicio": "00:24",
+      "fim": "00:33",
+      "inicio_s": 23.6,
+      "duracao_s": 9.2
+    },
+    {
+      "trecho": "Olha a entrada da favela. Olha a rua lá embaixo. Olha o céu, porque helicóptero também conta.",
+      "tipo": "ilustracao",
+      "descricao": "POV do protagonista: a mão com o rádio no canto do quadro, a entrada da favela e a rua lá embaixo; a câmera sobe até o céu, onde um helicóptero é só um ponto distante.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the protagonist's hand holding the walkie-talkie at the bottom of the frame at the rooftop edge, far below the favela entrance and the street, above them a pale hazy sky with a tiny distant helicopter, watchful tension",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "First-person point-of-view shot. The protagonist's hand holding the walkie-talkie at the bottom of the frame at the rooftop edge, far below the favela entrance and the street, above them a pale hazy sky with a tiny distant helicopter, watchful tension. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background. Props: a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01",
+        "O01"
+      ],
+      "id": "B01-07",
+      "bloco": "B01",
+      "inicio": "00:33",
+      "fim": "00:40",
+      "inicio_s": 32.8,
+      "duracao_s": 6.8
+    },
+    {
+      "trecho": "Se a polícia entra, você solta o fogo. O estouro avisa o morro inteiro antes de qualquer sirene.",
+      "tipo": "ilustracao",
+      "descricao": "Vista aérea do morro à noite: um rojão estoura no céu e tinge os telhados de vermelho, gente sai nas lajes para olhar, e o protagonista é uma silhueta pequena no topo. É o alarme do morro.",
+      "enquadramento": "aereo",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "high above a dark favela hillside at night, a red skyrocket bursts in the sky and washes thousands of rooftops in red light, tiny figures step out onto their rooftops to look, the protagonist a small silhouette on the highest rooftop with his arm still raised",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "prompt_final": "High aerial view. High above a dark favela hillside at night, a red skyrocket bursts in the sky and washes thousands of rooftops in red light, tiny figures step out onto their rooftops to look, the protagonist a small silhouette on the highest rooftop with his arm still raised. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-08",
+      "bloco": "B01",
+      "inicio": "00:40",
+      "fim": "00:47",
+      "inicio_s": 39.6,
+      "duracao_s": 7.2
+    },
+    {
+      "trecho": "12 horas assim, sol na nuca, pagode tocando no vizinho, uma senhora estendendo roupa na laje do lado fingindo que você não existe.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "12 HORAS",
+      "descricao": "O protagonista de perfil sob o sol forte, suor na nuca; na laje vizinha, uma senhora estende roupa de costas para ele, como se ele não existisse.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the protagonist in profile on the rooftop under harsh midday sun, sweat on the back of his neck, the walkie-talkie resting on his knee, on the neighboring rooftop an older woman hangs laundry on a line with her back turned to him, ignoring him, heat shimmer in the air",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The protagonist in profile on the rooftop under harsh midday sun, sweat on the back of his neck, the walkie-talkie resting on his knee, on the neighboring rooftop an older woman hangs laundry on a line with her back turned to him, ignoring him, heat shimmer in the air. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Props: a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01",
+        "O01"
+      ],
+      "id": "B01-09",
+      "bloco": "B01",
+      "inicio": "00:47",
+      "fim": "00:56",
+      "inicio_s": 46.8,
+      "duracao_s": 9.2
+    },
+    {
+      "trecho": "Você ganha 100 e poucos reais por plantão. Dá pra parcela da moto, não dá pra mais nada.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "R$ 100 E POUCOS POR PLANTÃO",
+      "descricao": "Detalhe da palma da mão do protagonista com poucas notas amassadas ao lado da chave da moto, que volta da cena B01-03: o dinheiro do dia já tem destino.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O07"
+      ],
+      "prompt_cena": "the protagonist's open palm at dusk holding a few crumpled worn banknotes next to the motorcycle key, money that barely covers anything, warm fading light on the concrete below",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. The protagonist's open palm at dusk holding a few crumpled worn banknotes next to the motorcycle key, money that barely covers anything, warm fading light on the concrete below. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background. Props: a single motorcycle ignition key on a small ring with a cheap red plastic tag. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01",
+        "O07"
+      ],
+      "id": "B01-10",
+      "bloco": "B01",
+      "inicio": "00:56",
+      "fim": "01:03",
+      "inicio_s": 56.0,
+      "duracao_s": 7.2
+    },
+    {
+      "trecho": "O problema é que você é a pessoa mais visível do tráfico e a menos importante.",
+      "tipo": "ilustracao",
+      "descricao": "Visto de baixo e de longe, o protagonista é uma silhueta pequena na beira da laje mais alta, recortada contra o céu: exposto a todos e sem peso nenhum.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "seen from far below, the protagonist is a small silhouette standing at the edge of the highest rooftop against a vast pale sky, fully exposed, the whole hillside of houses between him and the camera, tiny and alone",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. Seen from far below, the protagonist is a small silhouette standing at the edge of the highest rooftop against a vast pale sky, fully exposed, the whole hillside of houses between him and the camera, tiny and alone. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-11",
+      "bloco": "B01",
+      "inicio": "01:03",
+      "fim": "01:10",
+      "inicio_s": 63.2,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "A polícia sobe procurando quem soltou o fogo.",
+      "tipo": "ilustracao",
+      "descricao": "Silhuetas de policiais sem insígnia sobem a escadaria da viela à noite, com lanternas cortando a fumaça.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "dark silhouettes of police officers in helmets climbing the alley stairs at night, flashlight beams cutting through drifting smoke, searching the doorways, no insignia, tense and oppressive",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. Dark silhouettes of police officers in helmets climbing the alley stairs at night, flashlight beams cutting through drifting smoke, searching the doorways, no insignia, tense and oppressive. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B01-12",
+      "bloco": "B01",
+      "inicio": "01:10",
+      "fim": "01:13",
+      "inicio_s": 69.6,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "A facção cobra de quem não soltou.",
+      "tipo": "ilustracao",
+      "descricao": "Close do gerente na boca, metade do rosto na sombra, olhando para o alto do morro: a cobrança do outro lado.",
+      "enquadramento": "close",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the manager at the corner under the bare fluorescent tube, half of his face in shadow, staring coldly up toward the top of the hill, silent judgment",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. The manager at the corner under the bare fluorescent tube, half of his face in shadow, staring coldly up toward the top of the hill, silent judgment. Character: the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch. Setting: a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P03",
+        "L03"
+      ],
+      "id": "B01-13",
+      "bloco": "B01",
+      "inicio": "01:13",
+      "fim": "01:16",
+      "inicio_s": 72.8,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Se o caveirão chega na boca e ninguém ouviu o estouro,",
+      "tipo": "ilustracao",
+      "descricao": "De baixo, o caveirão parado na esquina da boca, faróis cortando a poeira, banquinhos de plástico derrubados no chão.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O08"
+      ],
+      "prompt_cena": "the armored police truck stopped at the corner, its headlights cutting through dust, plastic stools knocked over on the ground, the corner abandoned in a hurry, menace",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. The armored police truck stopped at the corner, its headlights cutting through dust, plastic stools knocked over on the ground, the corner abandoned in a hurry, menace. Setting: a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness. Props: a hulking matte black armored police truck with narrow slit windows, a reinforced front bumper and no insignia or markings. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L03",
+        "O08"
+      ],
+      "id": "B01-14",
+      "bloco": "B01",
+      "inicio": "01:16",
+      "fim": "01:20",
+      "inicio_s": 75.6,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "lá em cima só existe uma pergunta: Dormiu ou foi comprado?",
+      "tipo": "ilustracao",
+      "texto_na_tela": "DORMIU OU FOI COMPRADO?",
+      "descricao": "A cadeira de plástico vazia na laje à noite e o rádio caído no chão: a pergunta paira sobre quem devia estar ali. Prepara o caso do Paçoca.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the plastic chair standing empty at the edge of the rooftop at night, the walkie-talkie lying on the concrete floor beside it with its small light still on, the dark hillside below, an unanswered question hanging in the air",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The plastic chair standing empty at the edge of the rooftop at night, the walkie-talkie lying on the concrete floor beside it with its small light still on, the dark hillside below, an unanswered question hanging in the air. Setting: a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below. Props: a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L01",
+        "O01"
+      ],
+      "id": "B01-15",
+      "bloco": "B01",
+      "inicio": "01:20",
+      "fim": "01:24",
+      "inicio_s": 80.0,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "Num domingo, o olheiro da laje de baixo, um rapaz que todo mundo chamava de Paçoca, cochilou. 10 minutos.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "10 MINUTOS",
+      "descricao": "Vista do alto da laje do protagonista: lá embaixo, Paçoca cochila na cadeira de plástico de uma laje mais baixa, queixo no peito, o rádio escorregando da mão.",
+      "enquadramento": "plongee",
+      "personagens": [
+        "P02"
+      ],
+      "local": null,
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the sleepy lookout dozes in a plastic chair on a lower rooftop slab seen from the top rooftop above, on a hot Sunday afternoon, chin on his chest, the walkie-talkie slipping from his hand, laundry swaying nearby, a fragile calm",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "High-angle shot. The sleepy lookout dozes in a plastic chair on a lower rooftop slab seen from the top rooftop above, on a hot Sunday afternoon, chin on his chest, the walkie-talkie slipping from his hand, laundry swaying nearby, a fragile calm. Character: the sleepy lookout, a lanky Brazilian man in his early twenties with light brown skin, a round soft face with heavy-lidded eyes, a bleached blond buzz cut, a thin mustache, wearing a faded yellow tank top, blue board shorts and worn blue-and-white rubber flip-flops. Props: a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P02",
+        "O01"
+      ],
+      "id": "B01-16",
+      "bloco": "B01",
+      "inicio": "01:24",
+      "fim": "01:32",
+      "inicio_s": 84.4,
+      "duracao_s": 7.6
+    },
+    {
+      "trecho": "A operação entrou pela outra rua e levou a carga e dois vapores.",
+      "tipo": "ilustracao",
+      "descricao": "Vista aérea de uma rua lateral: o caveirão entra pelo outro lado, policiais carregam sacos apreendidos e levam dois homens de mãos na cabeça.",
+      "enquadramento": "aereo",
+      "personagens": [],
+      "local": null,
+      "objetos": [
+        "O08"
+      ],
+      "prompt_cena": "high aerial view of a narrow side street of the favela at dusk, the armored police truck pushing in from the other end, police silhouettes carrying out seized bags, two men with hands on their heads being led away, blue and red lights reflecting on the walls",
+      "movimento": "descer",
+      "transicao": "corte",
+      "prompt_final": "High aerial view. High aerial view of a narrow side street of the favela at dusk, the armored police truck pushing in from the other end, police silhouettes carrying out seized bags, two men with hands on their heads being led away, blue and red lights reflecting on the walls. Props: a hulking matte black armored police truck with narrow slit windows, a reinforced front bumper and no insignia or markings. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "O08"
+      ],
+      "id": "B01-17",
+      "bloco": "B01",
+      "inicio": "01:32",
+      "fim": "01:37",
+      "inicio_s": 92.0,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "À noite chamaram o Paçoca pra conversar. Ele subiu a viela de chinelo com a mão no bolso, achando que ia levar uma bronca.",
+      "tipo": "ilustracao",
+      "descricao": "Paçoca de costas subindo a escadaria da viela à noite, de chinelo e com a mão no bolso, ombros relaxados, rumo à única lâmpada acesa no alto. Ele não sabe o que o espera.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "seen from behind and slightly below, the sleepy lookout walks up the narrow alley stairs at night, flip-flops on the wet steps, one hand in his pocket, shoulders relaxed and unworried, climbing toward a single bare bulb glowing at the top, darkness closing in",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. Seen from behind and slightly below, the sleepy lookout walks up the narrow alley stairs at night, flip-flops on the wet steps, one hand in his pocket, shoulders relaxed and unworried, climbing toward a single bare bulb glowing at the top, darkness closing in. Character: the sleepy lookout, a lanky Brazilian man in his early twenties with light brown skin, a round soft face with heavy-lidded eyes, a bleached blond buzz cut, a thin mustache, wearing a faded yellow tank top, blue board shorts and worn blue-and-white rubber flip-flops. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P02",
+        "L02"
+      ],
+      "id": "B01-18",
+      "bloco": "B01",
+      "inicio": "01:37",
+      "fim": "01:47",
+      "inicio_s": 97.2,
+      "duracao_s": 9.6
+    },
+    {
+      "trecho": "Na segunda, a mãe dele tava colando cartaz de desaparecido no poste.",
+      "tipo": "ilustracao",
+      "descricao": "De manhã, no pé da viela, a mãe do Paçoca, de costas, prende com fita o cartaz de desaparecido no poste. A violência fica fora do quadro; o que se vê é a consequência.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [
+        "O04"
+      ],
+      "prompt_cena": "morning light at the bottom of the alley, a heavyset grieving woman in her fifties with short gray hair and a dark cardigan, seen from behind, pressing tape onto the missing-person poster on the concrete utility pole, shoulders bowed, passersby looking away",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. Morning light at the bottom of the alley, a heavyset grieving woman in her fifties with short gray hair and a dark cardigan, seen from behind, pressing tape onto the missing-person poster on the concrete utility pole, shoulders bowed, passersby looking away. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a missing-person poster made of cheap white printer paper taped to the pole, with a grainy black-and-white photocopied photo of a young man with a bleached buzz cut, the writing below the photo too faded and smudged to read. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L02",
+        "O04"
+      ],
+      "id": "B01-19",
+      "bloco": "B01",
+      "inicio": "01:47",
+      "fim": "01:52",
+      "inicio_s": 106.8,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "O cartaz ficou lá até a chuva desmanchar.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe do cartaz no poste, encharcado de chuva, o papel descolando e a foto se desfazendo: o tempo apaga o que ninguém investiga.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [
+        "O04"
+      ],
+      "prompt_cena": "the missing-person poster on the utility pole in heavy rain, the paper soaked and peeling at the corners, the photo washing away, water streaming down the concrete, cold gray light",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "prompt_final": "Extreme close-up detail shot. The missing-person poster on the utility pole in heavy rain, the paper soaked and peeling at the corners, the photo washing away, water streaming down the concrete, cold gray light. Setting: uneven concrete steps between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, water trickling down the steps. Props: a missing-person poster made of cheap white printer paper taped to the pole, with a grainy black-and-white photocopied photo of a young man with a bleached buzz cut, the writing below the photo too faded and smudged to read. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L02",
+        "O04"
+      ],
+      "id": "B01-20",
+      "bloco": "B01",
+      "inicio": "01:52",
+      "fim": "01:55",
+      "inicio_s": 111.6,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Você acende o rojão, sempre. Nunca mais fecha o olho naquela laje.",
+      "tipo": "ilustracao",
+      "descricao": "Única vez em que o rosto inteiro do protagonista aparece: close à noite na laje, olhos arregalados de quem não dorme, iluminados pelo vermelho do rojão aceso na mão.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the protagonist's face at night on the rooftop, seen from the front, eyes wide open and red-rimmed from sleeplessness, lit from below by the red glare of a skyrocket burning in his hand, the bundle of fireworks at his side, vigilant and haunted",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. The protagonist's face at night on the rooftop, seen from the front, eyes wide open and red-rimmed from sleeplessness, lit from below by the red glare of a skyrocket burning in his hand, the bundle of fireworks at his side, vigilant and haunted. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background. Props: a bundle of handheld skyrocket fireworks, long thin cardboard tubes wrapped in faded red paper, fixed to thin wooden sticks and bound together with rubber bands. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01",
+        "O02"
+      ],
+      "id": "B01-21",
+      "bloco": "B01",
+      "inicio": "01:55",
+      "fim": "02:00",
+      "inicio_s": 114.8,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "Mas olhar para o céu é o degrau mais baixo dessa escada.",
+      "tipo": "ilustracao",
+      "descricao": "O protagonista sentado no primeiro degrau de uma escadaria imensa que sobe o morro até o anoitecer: a escada dos cargos começa aqui, e ele está embaixo.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the protagonist sits on the lowest step of an endless steep concrete stairway climbing the hillside, seen from behind, looking up at the steps rising far above him into the dusk, small at the bottom of the climb",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. The protagonist sits on the lowest step of an endless steep concrete stairway climbing the hillside, seen from behind, looking up at the steps rising far above him into the dusk, small at the bottom of the climb. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02"
+      ],
+      "id": "B01-22",
+      "bloco": "B01",
+      "inicio": "02:00",
+      "fim": "02:04",
+      "inicio_s": 119.6,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "O próximo começa no dia em que o tráfico decide que você também pode carregar.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe da mochila preta em cima da mesa de plástico da boca, sob a lâmpada fria, esperando alguém. Ela volta no bloco seguinte.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the backpack resting on the scratched plastic table at the corner under the cold fluorescent light, its zipper pull catching the light, waiting for someone to carry it, ominous stillness",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "prompt_final": "Extreme close-up detail shot. The backpack resting on the scratched plastic table at the corner under the cold fluorescent light, its zipper pull catching the light, waiting for someone to carry it, ominous stillness. Setting: a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L03",
+        "O03"
+      ],
+      "id": "B01-23",
+      "bloco": "B01",
+      "inicio": "02:04",
+      "fim": "02:10",
+      "inicio_s": 124.4,
+      "duracao_s": 6.0
+    },
+    {
+      "trecho": "Nível dois, o aviãozinho.",
+      "tipo": "cartela",
+      "texto_na_tela": "NÍVEL 2 — O AVIÃOZINHO",
+      "descricao": "Cartela sobre a escadaria da viela vazia ao entardecer, com a mochila sozinha num degrau: o objeto do novo cargo.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "an empty steep alley stairway at dusk, the backpack resting alone on one of the middle steps, wires overhead against an orange sky, quiet and heavy",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "prompt_final": "Wide establishing shot. An empty steep alley stairway at dusk, the backpack resting alone on one of the middle steps, wires overhead against an orange sky, quiet and heavy. Background plate for a title card, calm composition with empty space in the center. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L02",
+        "O03"
+      ],
+      "id": "B02-01",
+      "bloco": "B02",
+      "inicio": "02:10",
+      "fim": "02:12",
+      "inicio_s": 130.4,
+      "duracao_s": 1.6
+    },
+    {
+      "trecho": "No morro chamam esse cargo de aviãozinho porque durante muito tempo quem fazia isso era criança. Em muito lugar ainda é.",
+      "tipo": "ilustracao",
+      "descricao": "Sem mostrar criança nenhuma: um par de tênis pequenos e gastos e um avião de papel deixados num degrau da viela. O nome do cargo vem daí.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a small pair of worn scuffed sneakers left on a concrete step of the alley next to a folded paper airplane, no people anywhere, late afternoon light, an absence that says too much",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. A small pair of worn scuffed sneakers left on a concrete step of the alley next to a folded paper airplane, no people anywhere, late afternoon light, an absence that says too much. Setting: uneven concrete steps between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, water trickling down the steps. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B02-02",
+      "bloco": "B02",
+      "inicio": "02:12",
+      "fim": "02:20",
+      "inicio_s": 132.0,
+      "duracao_s": 8.4
+    },
+    {
+      "trecho": "É a parte mais triste dessa escada inteira e ninguém na boca tem vergonha dela.",
+      "tipo": "ilustracao",
+      "descricao": "O gerente na mesa de plástico da boca, contando dinheiro e rindo com dois homens, à vontade: ninguém ali tem vergonha.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the manager sits at the plastic table at the corner counting a stack of cash, laughing with two men leaning on the wall, relaxed and unbothered, light from the fluorescent tube, an ordinary evening",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The manager sits at the plastic table at the corner counting a stack of cash, laughing with two men leaning on the wall, relaxed and unbothered, light from the fluorescent tube, an ordinary evening. Character: the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch. Setting: a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P03",
+        "L03"
+      ],
+      "id": "B02-03",
+      "bloco": "B02",
+      "inicio": "02:20",
+      "fim": "02:26",
+      "inicio_s": 140.4,
+      "duracao_s": 6.0
+    },
+    {
+      "trecho": "Você não é criança, mas o nome continua o mesmo.",
+      "tipo": "ilustracao",
+      "descricao": "Close de perfil do protagonista, adulto, mandíbula travada, o boné vermelho: cresceu, mas o cargo continua com nome de criança.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the protagonist in profile at dusk on the rooftop, jaw clenched, looking down the hill, the low light catching the stubble on his face, a grown man carrying a child's job title",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. The protagonist in profile at dusk on the rooftop, jaw clenched, looking down the hill, the low light catching the stubble on his face, a grown man carrying a child's job title. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B02-04",
+      "bloco": "B02",
+      "inicio": "02:26",
+      "fim": "02:30",
+      "inicio_s": 146.4,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Você entra porque não falhou. Três meses de laje, nenhum fogo atrasado.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "3 MESES",
+      "descricao": "Detalhe dos tubos de rojão já usados, empilhados com cuidado num canto da laje ao nascer do sol: três meses sem falhar.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "dozens of spent firework tubes stacked neatly in a corner of the rooftop wall at sunrise, next to the last remaining bundle of fireworks, proof of months without a single mistake",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. Dozens of spent firework tubes stacked neatly in a corner of the rooftop wall at sunrise, next to the last remaining bundle of fireworks, proof of months without a single mistake. Setting: an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background. Props: a bundle of handheld skyrocket fireworks, long thin cardboard tubes wrapped in faded red paper, fixed to thin wooden sticks and bound together with rubber bands. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L01",
+        "O02"
+      ],
+      "id": "B02-05",
+      "bloco": "B02",
+      "inicio": "02:30",
+      "fim": "02:35",
+      "inicio_s": 150.4,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "Um dia o gerente te chama e te dá uma mochila.",
+      "tipo": "ilustracao",
+      "descricao": "Por cima do ombro do protagonista, o gerente estende a mochila preta na boca: uma promoção entregue como presente. A cena B02-24 repete essa composição.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01",
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "over the protagonist's shoulder at the corner, the manager holds out the backpack toward him with one hand and a half smile, the fluorescent tube buzzing above, a promotion handed over like a gift",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Over-the-shoulder shot. Over the protagonist's shoulder at the corner, the manager holds out the backpack toward him with one hand and a half smile, the fluorescent tube buzzing above, a promotion handed over like a gift. Characters: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts; the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch. Setting: a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "P03",
+        "L03",
+        "O03"
+      ],
+      "id": "B02-06",
+      "bloco": "B02",
+      "inicio": "02:35",
+      "fim": "02:40",
+      "inicio_s": 155.2,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "A partir daí você leva e você traz. Sobe com o dinheiro, desce com a mercadoria,",
+      "tipo": "ilustracao",
+      "descricao": "O protagonista de costas, com a mochila, subindo a escadaria da viela no fim da tarde, entre moradores que descem: começa o vaivém.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the protagonist seen from behind climbs the steep alley stairs with the backpack on his shoulders in the late afternoon, residents passing down the steps around him, the endless up and down of the hill",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. The protagonist seen from behind climbs the steep alley stairs with the backpack on his shoulders in the late afternoon, residents passing down the steps around him, the endless up and down of the hill. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-07",
+      "bloco": "B02",
+      "inicio": "02:40",
+      "fim": "02:46",
+      "inicio_s": 159.6,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "entrega para quem está esperando na esquina, no carro parado com o pisca ligado,",
+      "tipo": "ilustracao",
+      "descricao": "POV: um carro parado na esquina à noite, pisca-alerta ligado e vidro meio aberto; a mão do protagonista estende um pacote embrulhado para a mão que sai da janela.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P01"
+      ],
+      "local": null,
+      "objetos": [],
+      "prompt_cena": "a parked sedan at a dark street corner at night with its amber hazard lights blinking, the driver's window half down and a hand reaching out, the protagonist's hand in the foreground passing a small wrapped package, a quick anonymous exchange",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "First-person point-of-view shot. A parked sedan at a dark street corner at night with its amber hazard lights blinking, the driver's window half down and a hand reaching out, the protagonist's hand in the foreground passing a small wrapped package, a quick anonymous exchange. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01"
+      ],
+      "id": "B02-08",
+      "bloco": "B02",
+      "inicio": "02:46",
+      "fim": "02:52",
+      "inicio_s": 166.0,
+      "duracao_s": 5.6
+    },
+    {
+      "trecho": "no portão de uma casa que você nunca vai ver por dentro.",
+      "tipo": "ilustracao",
+      "descricao": "O protagonista de costas diante de um portão de ferro fechado; só uma fresta de luz e uma mão que recebe a entrega. A casa fica para sempre do lado de lá.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": null,
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the protagonist seen from behind at a tall rusty iron gate of a house at night, the backpack on his shoulders, the gate open only a narrow crack of warm light, an unseen person's hand reaching through to take the delivery, the house hidden behind the wall",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. The protagonist seen from behind at a tall rusty iron gate of a house at night, the backpack on his shoulders, the gate open only a narrow crack of warm light, an unseen person's hand reaching through to take the delivery, the house hidden behind the wall. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "O03"
+      ],
+      "id": "B02-09",
+      "bloco": "B02",
+      "inicio": "02:52",
+      "fim": "02:56",
+      "inicio_s": 171.6,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "Você não abre a mochila. Você não pergunta de quem é. Você só anda.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe do zíper fechado, com o puxador vermelho balançando, e da mão do protagonista apertando a alça enquanto anda.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the backpack's closed zipper with its red pull swinging as the protagonist walks, his hand gripping the strap tightly, motion blur on the alley steps behind, not asking, just walking",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. The backpack's closed zipper with its red pull swinging as the protagonist walks, his hand gripping the strap tightly, motion blur on the alley steps behind, not asking, just walking. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: uneven concrete steps between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, water trickling down the steps. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-10",
+      "bloco": "B02",
+      "inicio": "02:56",
+      "fim": "03:02",
+      "inicio_s": 176.4,
+      "duracao_s": 5.6
+    },
+    {
+      "trecho": "O pagamento é por corrida. R$ 1,50 cada uma. Num sábado de baile dá 300.",
+      "tipo": "ilustracao",
+      "descricao": "Noite de baile: a rua lotada de adultos, luzes coloridas e caixas de som; o protagonista, de costas, atravessa a multidão com a mochila, corrida atrás de corrida. Os valores ficam fora da tela até serem conferidos.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": null,
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "a crowded Saturday night street party in the favela, adults dancing under colored lights and stacked speakers, the protagonist seen from behind weaving through the crowd with the backpack, busy and focused, one more run among many",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. A crowded Saturday night street party in the favela, adults dancing under colored lights and stacked speakers, the protagonist seen from behind weaving through the crowd with the backpack, busy and focused, one more run among many. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "O03"
+      ],
+      "id": "B02-11",
+      "bloco": "B02",
+      "inicio": "03:02",
+      "fim": "03:08",
+      "inicio_s": 182.0,
+      "duracao_s": 6.0
+    },
+    {
+      "trecho": "Pela primeira vez sobra dinheiro no fim da semana. Você compra um tênis.",
+      "tipo": "ilustracao",
+      "descricao": "POV do protagonista olhando para os próprios pés: o tênis branco novo, de cadarço vermelho, num degrau de concreto, o par velho largado ao lado.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O05"
+      ],
+      "prompt_cena": "the protagonist's own feet in the brand-new sneakers seen from above as he looks down, on a cracked concrete step, the old worn-out pair tossed aside, morning light, a small private pride",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "First-person point-of-view shot. The protagonist's own feet in the brand-new sneakers seen from above as he looks down, on a cracked concrete step, the old worn-out pair tossed aside, morning light, a small private pride. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: uneven concrete steps between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, water trickling down the steps. Props: a pair of brand-new bright white sneakers with thick soles and red laces, no logos. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02",
+        "O05"
+      ],
+      "id": "B02-12",
+      "bloco": "B02",
+      "inicio": "03:08",
+      "fim": "03:13",
+      "inicio_s": 188.0,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "Sua mãe vê o tênis e não pergunta nada. O silêncio dela fala mais alto que qualquer pergunta.",
+      "tipo": "ilustracao",
+      "descricao": "A mãe na pia da cozinha, de costas, lavando louça sem se virar; em primeiro plano, o tênis novo junto à porta. O silêncio dela é a imagem, e ela fica na tela.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": null,
+      "objetos": [
+        "O05"
+      ],
+      "prompt_cena": "a small favela kitchen with peeling pale green walls and a single warm bulb, a tired woman in her late forties with graying hair in a low bun and a faded floral house dress stands at the sink with her back turned, washing dishes without looking around, the new sneakers in the foreground by the doorway, heavy silence",
+      "movimento": "estatico",
+      "transicao": "fade",
+      "prompt_final": "Medium shot. A small favela kitchen with peeling pale green walls and a single warm bulb, a tired woman in her late forties with graying hair in a low bun and a faded floral house dress stands at the sink with her back turned, washing dishes without looking around, the new sneakers in the foreground by the doorway, heavy silence. Props: a pair of brand-new bright white sneakers with thick soles and red laces, no logos. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "O05"
+      ],
+      "id": "B02-13",
+      "bloco": "B02",
+      "inicio": "03:13",
+      "fim": "03:20",
+      "inicio_s": 193.2,
+      "duracao_s": 7.2
+    },
+    {
+      "trecho": "Só que agora você carrega uma coisa que não é sua",
+      "tipo": "ilustracao",
+      "descricao": "Por cima do ombro: as alças da mochila afundam nos ombros do protagonista enquanto ele olha a viela escura lá embaixo.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "over the protagonist's shoulder, the straps of the backpack dig into his shoulders as he pauses at the top of the dark alley stairs, looking down into the shadows, the weight of something that is not his",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Over-the-shoulder shot. Over the protagonist's shoulder, the straps of the backpack dig into his shoulders as he pauses at the top of the dark alley stairs, looking down into the shadows, the weight of something that is not his. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-14",
+      "bloco": "B02",
+      "inicio": "03:20",
+      "fim": "03:25",
+      "inicio_s": 200.4,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "e no tráfico existe uma regra que ninguém precisa explicar duas vezes. Perdeu, pagou.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "PERDEU, PAGOU.",
+      "descricao": "O gerente visto de baixo, em pé na boca, braços cruzados, encarando: a regra não precisa ser dita.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the manager standing at the corner under the fluorescent tube, arms crossed, looking down at the camera with a cold flat stare, a rule that needs no explanation",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. The manager standing at the corner under the fluorescent tube, arms crossed, looking down at the camera with a cold flat stare, a rule that needs no explanation. Character: the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch. Setting: a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P03",
+        "L03"
+      ],
+      "id": "B02-15",
+      "bloco": "B02",
+      "inicio": "03:25",
+      "fim": "03:30",
+      "inicio_s": 204.8,
+      "duracao_s": 5.6
+    },
+    {
+      "trecho": "Se a polícia te para e leva a mochila, a dívida é sua.",
+      "tipo": "ilustracao",
+      "descricao": "Blitz à noite: o protagonista com as mãos espalmadas no capô de um carro enquanto a mão enluvada de um policial ergue a mochila sob a luz da lanterna.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": null,
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "a night police checkpoint seen from the side, the protagonist leaning with his hands spread flat on the hood of a car, a police officer's gloved hand lifting the backpack away in the harsh beam of a flashlight, blue lights flickering, no insignia",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. A night police checkpoint seen from the side, the protagonist leaning with his hands spread flat on the hood of a car, a police officer's gloved hand lifting the backpack away in the harsh beam of a flashlight, blue lights flickering, no insignia. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "O03"
+      ],
+      "id": "B02-16",
+      "bloco": "B02",
+      "inicio": "03:30",
+      "fim": "03:36",
+      "inicio_s": 210.4,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "Se um [ __ ] te rouba na viela, a dívida é sua. Não interessa como, interessa quanto.",
+      "tipo": "ilustracao",
+      "descricao": "Na viela à noite, um vulto de capuz foge escada abaixo com a mochila; o protagonista, de costas, fica parado e de mãos vazias.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "in the alley at night, a hooded figure sprints down the stairs clutching the backpack, the protagonist seen from behind standing frozen on the steps with empty hands, the figure disappearing into the dark below",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. In the alley at night, a hooded figure sprints down the stairs clutching the backpack, the protagonist seen from behind standing frozen on the steps with empty hands, the figure disappearing into the dark below. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-17",
+      "bloco": "B02",
+      "inicio": "03:36",
+      "fim": "03:42",
+      "inicio_s": 215.6,
+      "duracao_s": 6.0
+    },
+    {
+      "trecho": "Teve um avião antes de você, cabeção.",
+      "tipo": "ilustracao",
+      "descricao": "Close do avião anterior, o Cabeção, encostado na parede da boca com a mochila no ombro: o rosto de quem veio antes.",
+      "enquadramento": "close",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the previous runner leaning against the bare wall at the corner, the backpack hanging from one shoulder, a nervous half grin, the fluorescent light flattening his face, a memory of someone who came before",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. The previous runner leaning against the bare wall at the corner, the backpack hanging from one shoulder, a nervous half grin, the fluorescent light flattening his face, a memory of someone who came before. Character: the previous runner, a skinny Brazilian man in his early twenties with dark brown skin, a noticeably large round head with a close-shaved buzz cut, protruding ears, a gap between his front teeth, wearing an oversized plain white sports jersey with no logos, dark gray shorts and black slides. Setting: a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P04",
+        "L03",
+        "O03"
+      ],
+      "id": "B02-18",
+      "bloco": "B02",
+      "inicio": "03:42",
+      "fim": "03:44",
+      "inicio_s": 221.6,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Na correria de uma blitz ele jogou a mochila num terreno baldio para não ser pego.",
+      "tipo": "ilustracao",
+      "descricao": "À noite, o Cabeção corre e arremessa a mochila por cima do muro baixo, para dentro do terreno baldio, com as luzes da blitz ao fundo.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L04",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "at night the previous runner, mid-stride, hurls the backpack over the low crumbling wall into the overgrown vacant lot, blue police lights flashing at the far end of the street behind him, panic and speed",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. At night the previous runner, mid-stride, hurls the backpack over the low crumbling wall into the overgrown vacant lot, blue police lights flashing at the far end of the street behind him, panic and speed. Character: the previous runner, a skinny Brazilian man in his early twenties with dark brown skin, a noticeably large round head with a close-shaved buzz cut, protruding ears, a gap between his front teeth, wearing an oversized plain white sports jersey with no logos, dark gray shorts and black slides. Setting: an overgrown vacant lot between two brick houses at the edge of the favela, tall dry weeds, a low crumbling brick wall along the street, scattered rubble and an old tire. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P04",
+        "L04",
+        "O03"
+      ],
+      "id": "B02-19",
+      "bloco": "B02",
+      "inicio": "03:44",
+      "fim": "03:51",
+      "inicio_s": 224.4,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "Quando voltou, não estava mais lá. Ele trabalhou seis meses de graça para cobrir a carga.",
+      "tipo": "ilustracao",
+      "descricao": "De madrugada, o Cabeção parado no meio do terreno baldio, olhando o mato amassado onde a mochila caiu e já não está.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "at dawn the previous runner stands in the middle of the vacant lot staring down at a patch of flattened weeds where something used to be, empty hands at his sides, cold blue light, the realization settling in",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Medium shot. At dawn the previous runner stands in the middle of the vacant lot staring down at a patch of flattened weeds where something used to be, empty hands at his sides, cold blue light, the realization settling in. Character: the previous runner, a skinny Brazilian man in his early twenties with dark brown skin, a noticeably large round head with a close-shaved buzz cut, protruding ears, a gap between his front teeth, wearing an oversized plain white sports jersey with no logos, dark gray shorts and black slides. Setting: an overgrown vacant lot between two brick houses at the edge of the favela, tall dry weeds, a low crumbling brick wall along the street, scattered rubble and an old tire. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P04",
+        "L04"
+      ],
+      "id": "B02-20",
+      "bloco": "B02",
+      "inicio": "03:51",
+      "fim": "03:57",
+      "inicio_s": 230.8,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "Seis meses subindo e descendo sem receber um real.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "6 MESES SEM RECEBER",
+      "descricao": "O Cabeção de costas, exausto, subindo a escadaria da viela com a mochila sob um céu cinza de chuva fina.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the previous runner climbs the long alley stairs seen from behind, with the backpack under a gray drizzling sky, shoulders slumped, exhausted, the steps seeming endless above him",
+      "movimento": "subir",
+      "transicao": "corte",
+      "prompt_final": "Low-angle shot. The previous runner climbs the long alley stairs seen from behind, with the backpack under a gray drizzling sky, shoulders slumped, exhausted, the steps seeming endless above him. Character: the previous runner, a skinny Brazilian man in his early twenties with dark brown skin, a noticeably large round head with a close-shaved buzz cut, protruding ears, a gap between his front teeth, wearing an oversized plain white sports jersey with no logos, dark gray shorts and black slides. Setting: a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P04",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-21",
+      "bloco": "B02",
+      "inicio": "03:57",
+      "fim": "04:01",
+      "inicio_s": 237.2,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "No sétimo mês, perdeu outra. Não teve oitavo mês.",
+      "tipo": "ilustracao",
+      "descricao": "A mochila pendurada num prego na parede da boca, sobre um banquinho vazio: o lugar dele à espera do próximo. O fim do Cabeção fica fora do quadro.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the backpack hanging alone from a rusty nail on the bare wall at the corner, an empty plastic stool beneath it, the fluorescent tube flickering, no one there anymore, waiting for the next runner",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "prompt_final": "Extreme close-up detail shot. The backpack hanging alone from a rusty nail on the bare wall at the corner, an empty plastic stool beneath it, the fluorescent tube flickering, no one there anymore, waiting for the next runner. Setting: a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "L03",
+        "O03"
+      ],
+      "id": "B02-22",
+      "bloco": "B02",
+      "inicio": "04:01",
+      "fim": "04:04",
+      "inicio_s": 240.8,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "E se você tá vendo isso e achando que 50 reais por corrida é dinheiro fácil,",
+      "tipo": "ilustracao",
+      "descricao": "Quebra da quarta parede: o rosto de um jovem adulto num quarto escuro, iluminado só pela tela do celular. É o espectador.",
+      "enquadramento": "close",
+      "personagens": [],
+      "local": null,
+      "objetos": [],
+      "prompt_cena": "a young adult man's face in a dark bedroom lit only by the cold glow of a phone screen held below the frame, eyes reflecting the light, wondering if it might be easy money",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. A young adult man's face in a dark bedroom lit only by the cold glow of a phone screen held below the frame, eyes reflecting the light, wondering if it might be easy money. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [],
+      "id": "B02-23",
+      "bloco": "B02",
+      "inicio": "04:04",
+      "fim": "04:11",
+      "inicio_s": 244.4,
+      "duracao_s": 6.4
+    },
+    {
+      "trecho": "se inscreve no canal antes que alguém te ofereça uma mochila achando que tá te fazendo um favor, porque o avião ainda anda.",
+      "tipo": "ilustracao",
+      "descricao": "Espelho da cena B02-06: o gerente estende a mochila com o mesmo gesto, agora direto para a câmera, para quem assiste.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "the manager at the corner holds out the backpack straight toward the camera with one hand and a friendly half smile, as if doing a favor, the same gesture as before now offered to the viewer, the fluorescent tube buzzing above",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "First-person point-of-view shot. The manager at the corner holds out the backpack straight toward the camera with one hand and a friendly half smile, as if doing a favor, the same gesture as before now offered to the viewer, the fluorescent tube buzzing above. Character: the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch. Setting: a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame. Props: a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P03",
+        "L03",
+        "O03"
+      ],
+      "id": "B02-24",
+      "bloco": "B02",
+      "inicio": "04:11",
+      "fim": "04:20",
+      "inicio_s": 250.8,
+      "duracao_s": 9.2
+    },
+    {
+      "trecho": "O próximo cargo para num lugar só e fica ali de cara para o mundo inteiro.",
+      "tipo": "ilustracao",
+      "descricao": "O protagonista de costas, parado sozinho na esquina da boca, de frente para a rua aberta e os faróis: o próximo cargo é ficar exposto num ponto fixo.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the protagonist seen from behind stands motionless at the corner at night, facing the open street and the glare of passing headlights, fully exposed to everyone, rooted in one place",
+      "movimento": "zoom-out",
+      "transicao": "fade",
+      "prompt_final": "Wide establishing shot. The protagonist seen from behind stands motionless at the corner at night, facing the open street and the glare of passing headlights, fully exposed to everyone, rooted in one place. Character: the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts. Setting: a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness. Style: dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood.",
+      "negativo_final": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+      "referencias": [
+        "P01",
+        "L03"
+      ],
+      "id": "B02-25",
+      "bloco": "B02",
+      "inicio": "04:20",
+      "fim": "04:26",
+      "inicio_s": 260.0,
+      "duracao_s": 6.4
+    }
+  ]
+}

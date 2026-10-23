@@ -1,0 +1,379 @@
+[
+  {
+    "trecho": "Nível dois, o aviãozinho.",
+    "tipo": "cartela",
+    "texto_na_tela": "NÍVEL 2 — O AVIÃOZINHO",
+    "descricao": "Cartela sobre a escadaria da viela vazia ao entardecer, com a mochila sozinha num degrau: o objeto do novo cargo.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "an empty steep alley stairway at dusk, the backpack resting alone on one of the middle steps, wires overhead against an orange sky, quiet and heavy",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "No morro chamam esse cargo de aviãozinho porque durante muito tempo quem fazia isso era criança. Em muito lugar ainda é.",
+    "tipo": "ilustracao",
+    "descricao": "Sem mostrar criança nenhuma: um par de tênis pequenos e gastos e um avião de papel deixados num degrau da viela. O nome do cargo vem daí.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a small pair of worn scuffed sneakers left on a concrete step of the alley next to a folded paper airplane, no people anywhere, late afternoon light, an absence that says too much",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "É a parte mais triste dessa escada inteira e ninguém na boca tem vergonha dela.",
+    "tipo": "ilustracao",
+    "descricao": "O gerente na mesa de plástico da boca, contando dinheiro e rindo com dois homens, à vontade: ninguém ali tem vergonha.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the manager sits at the plastic table at the corner counting a stack of cash, laughing with two men leaning on the wall, relaxed and unbothered, light from the fluorescent tube, an ordinary evening",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Você não é criança, mas o nome continua o mesmo.",
+    "tipo": "ilustracao",
+    "descricao": "Close de perfil do protagonista, adulto, mandíbula travada, o boné vermelho: cresceu, mas o cargo continua com nome de criança.",
+    "enquadramento": "close",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the protagonist in profile at dusk on the rooftop, jaw clenched, looking down the hill, the low light catching the stubble on his face, a grown man carrying a child's job title",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Você entra porque não falhou. Três meses de laje, nenhum fogo atrasado.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "3 MESES",
+    "descricao": "Detalhe dos tubos de rojão já usados, empilhados com cuidado num canto da laje ao nascer do sol: três meses sem falhar.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [
+      "O02"
+    ],
+    "prompt_cena": "dozens of spent firework tubes stacked neatly in a corner of the rooftop wall at sunrise, next to the last remaining bundle of fireworks, proof of months without a single mistake",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Um dia o gerente te chama e te dá uma mochila.",
+    "tipo": "ilustracao",
+    "descricao": "Por cima do ombro do protagonista, o gerente estende a mochila preta na boca: uma promoção entregue como presente. A cena B02-24 repete essa composição.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": [
+      "P01",
+      "P03"
+    ],
+    "local": "L03",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "over the protagonist's shoulder at the corner, the manager holds out the backpack toward him with one hand and a half smile, the fluorescent tube buzzing above, a promotion handed over like a gift",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A partir daí você leva e você traz. Sobe com o dinheiro, desce com a mercadoria,",
+    "tipo": "ilustracao",
+    "descricao": "O protagonista de costas, com a mochila, subindo a escadaria da viela no fim da tarde, entre moradores que descem: começa o vaivém.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the protagonist seen from behind climbs the steep alley stairs with the backpack on his shoulders in the late afternoon, residents passing down the steps around him, the endless up and down of the hill",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "entrega para quem está esperando na esquina, no carro parado com o pisca ligado,",
+    "tipo": "ilustracao",
+    "descricao": "POV: um carro parado na esquina à noite, pisca-alerta ligado e vidro meio aberto; a mão do protagonista estende um pacote embrulhado para a mão que sai da janela.",
+    "enquadramento": "pov",
+    "personagens": [
+      "P01"
+    ],
+    "local": null,
+    "objetos": [],
+    "prompt_cena": "a parked sedan at a dark street corner at night with its amber hazard lights blinking, the driver's window half down and a hand reaching out, the protagonist's hand in the foreground passing a small wrapped package, a quick anonymous exchange",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "no portão de uma casa que você nunca vai ver por dentro.",
+    "tipo": "ilustracao",
+    "descricao": "O protagonista de costas diante de um portão de ferro fechado; só uma fresta de luz e uma mão que recebe a entrega. A casa fica para sempre do lado de lá.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01"
+    ],
+    "local": null,
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the protagonist seen from behind at a tall rusty iron gate of a house at night, the backpack on his shoulders, the gate open only a narrow crack of warm light, an unseen person's hand reaching through to take the delivery, the house hidden behind the wall",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Você não abre a mochila. Você não pergunta de quem é. Você só anda.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe do zíper fechado, com o puxador vermelho balançando, e da mão do protagonista apertando a alça enquanto anda.",
+    "enquadramento": "detalhe",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the backpack's closed zipper with its red pull swinging as the protagonist walks, his hand gripping the strap tightly, motion blur on the alley steps behind, not asking, just walking",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O pagamento é por corrida. R$ 1,50 cada uma. Num sábado de baile dá 300.",
+    "tipo": "ilustracao",
+    "descricao": "Noite de baile: a rua lotada de adultos, luzes coloridas e caixas de som; o protagonista, de costas, atravessa a multidão com a mochila, corrida atrás de corrida. Os valores ficam fora da tela até serem conferidos.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": null,
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "a crowded Saturday night street party in the favela, adults dancing under colored lights and stacked speakers, the protagonist seen from behind weaving through the crowd with the backpack, busy and focused, one more run among many",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Pela primeira vez sobra dinheiro no fim da semana. Você compra um tênis.",
+    "tipo": "ilustracao",
+    "descricao": "POV do protagonista olhando para os próprios pés: o tênis branco novo, de cadarço vermelho, num degrau de concreto, o par velho largado ao lado.",
+    "enquadramento": "pov",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O05"
+    ],
+    "prompt_cena": "the protagonist's own feet in the brand-new sneakers seen from above as he looks down, on a cracked concrete step, the old worn-out pair tossed aside, morning light, a small private pride",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Sua mãe vê o tênis e não pergunta nada. O silêncio dela fala mais alto que qualquer pergunta.",
+    "tipo": "ilustracao",
+    "descricao": "A mãe na pia da cozinha, de costas, lavando louça sem se virar; em primeiro plano, o tênis novo junto à porta. O silêncio dela é a imagem, e ela fica na tela.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": null,
+    "objetos": [
+      "O05"
+    ],
+    "prompt_cena": "a small favela kitchen with peeling pale green walls and a single warm bulb, a tired woman in her late forties with graying hair in a low bun and a faded floral house dress stands at the sink with her back turned, washing dishes without looking around, the new sneakers in the foreground by the doorway, heavy silence",
+    "movimento": "estatico",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "Só que agora você carrega uma coisa que não é sua",
+    "tipo": "ilustracao",
+    "descricao": "Por cima do ombro: as alças da mochila afundam nos ombros do protagonista enquanto ele olha a viela escura lá embaixo.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "over the protagonist's shoulder, the straps of the backpack dig into his shoulders as he pauses at the top of the dark alley stairs, looking down into the shadows, the weight of something that is not his",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "e no tráfico existe uma regra que ninguém precisa explicar duas vezes. Perdeu, pagou.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "PERDEU, PAGOU.",
+    "descricao": "O gerente visto de baixo, em pé na boca, braços cruzados, encarando: a regra não precisa ser dita.",
+    "enquadramento": "contra-plongee",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the manager standing at the corner under the fluorescent tube, arms crossed, looking down at the camera with a cold flat stare, a rule that needs no explanation",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Se a polícia te para e leva a mochila, a dívida é sua.",
+    "tipo": "ilustracao",
+    "descricao": "Blitz à noite: o protagonista com as mãos espalmadas no capô de um carro enquanto a mão enluvada de um policial ergue a mochila sob a luz da lanterna.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01"
+    ],
+    "local": null,
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "a night police checkpoint seen from the side, the protagonist leaning with his hands spread flat on the hood of a car, a police officer's gloved hand lifting the backpack away in the harsh beam of a flashlight, blue lights flickering, no insignia",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Se um [ __ ] te rouba na viela, a dívida é sua. Não interessa como, interessa quanto.",
+    "tipo": "ilustracao",
+    "descricao": "Na viela à noite, um vulto de capuz foge escada abaixo com a mochila; o protagonista, de costas, fica parado e de mãos vazias.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "in the alley at night, a hooded figure sprints down the stairs clutching the backpack, the protagonist seen from behind standing frozen on the steps with empty hands, the figure disappearing into the dark below",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Teve um avião antes de você, cabeção.",
+    "tipo": "ilustracao",
+    "descricao": "Close do avião anterior, o Cabeção, encostado na parede da boca com a mochila no ombro: o rosto de quem veio antes.",
+    "enquadramento": "close",
+    "personagens": [
+      "P04"
+    ],
+    "local": "L03",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the previous runner leaning against the bare wall at the corner, the backpack hanging from one shoulder, a nervous half grin, the fluorescent light flattening his face, a memory of someone who came before",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Na correria de uma blitz ele jogou a mochila num terreno baldio para não ser pego.",
+    "tipo": "ilustracao",
+    "descricao": "À noite, o Cabeção corre e arremessa a mochila por cima do muro baixo, para dentro do terreno baldio, com as luzes da blitz ao fundo.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P04"
+    ],
+    "local": "L04",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "at night the previous runner, mid-stride, hurls the backpack over the low crumbling wall into the overgrown vacant lot, blue police lights flashing at the far end of the street behind him, panic and speed",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Quando voltou, não estava mais lá. Ele trabalhou seis meses de graça para cobrir a carga.",
+    "tipo": "ilustracao",
+    "descricao": "De madrugada, o Cabeção parado no meio do terreno baldio, olhando o mato amassado onde a mochila caiu e já não está.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P04"
+    ],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "at dawn the previous runner stands in the middle of the vacant lot staring down at a patch of flattened weeds where something used to be, empty hands at his sides, cold blue light, the realization settling in",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Seis meses subindo e descendo sem receber um real.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "6 MESES SEM RECEBER",
+    "descricao": "O Cabeção de costas, exausto, subindo a escadaria da viela com a mochila sob um céu cinza de chuva fina.",
+    "enquadramento": "contra-plongee",
+    "personagens": [
+      "P04"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the previous runner climbs the long alley stairs seen from behind, with the backpack under a gray drizzling sky, shoulders slumped, exhausted, the steps seeming endless above him",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "No sétimo mês, perdeu outra. Não teve oitavo mês.",
+    "tipo": "ilustracao",
+    "descricao": "A mochila pendurada num prego na parede da boca, sobre um banquinho vazio: o lugar dele à espera do próximo. O fim do Cabeção fica fora do quadro.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the backpack hanging alone from a rusty nail on the bare wall at the corner, an empty plastic stool beneath it, the fluorescent tube flickering, no one there anymore, waiting for the next runner",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "E se você tá vendo isso e achando que 50 reais por corrida é dinheiro fácil,",
+    "tipo": "ilustracao",
+    "descricao": "Quebra da quarta parede: o rosto de um jovem adulto num quarto escuro, iluminado só pela tela do celular. É o espectador.",
+    "enquadramento": "close",
+    "personagens": [],
+    "local": null,
+    "objetos": [],
+    "prompt_cena": "a young adult man's face in a dark bedroom lit only by the cold glow of a phone screen held below the frame, eyes reflecting the light, wondering if it might be easy money",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "se inscreve no canal antes que alguém te ofereça uma mochila achando que tá te fazendo um favor, porque o avião ainda anda.",
+    "tipo": "ilustracao",
+    "descricao": "Espelho da cena B02-06: o gerente estende a mochila com o mesmo gesto, agora direto para a câmera, para quem assiste.",
+    "enquadramento": "pov",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L03",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the manager at the corner holds out the backpack straight toward the camera with one hand and a friendly half smile, as if doing a favor, the same gesture as before now offered to the viewer, the fluorescent tube buzzing above",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O próximo cargo para num lugar só e fica ali de cara para o mundo inteiro.",
+    "tipo": "ilustracao",
+    "descricao": "O protagonista de costas, parado sozinho na esquina da boca, de frente para a rua aberta e os faróis: o próximo cargo é ficar exposto num ponto fixo.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the protagonist seen from behind stands motionless at the corner at night, facing the open street and the glare of passing headlights, fully exposed to everyone, rooted in one place",
+    "movimento": "zoom-out",
+    "transicao": "fade"
+  }
+]

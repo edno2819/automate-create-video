@@ -1,0 +1,76 @@
+{
+  "tema": "mostra os cargos mais interessantes e curiosos sobre as funções de um navio pirata",
+  "descricao": "mostra os cargos mais interessantes e curiosos sobre as funções de um navio pitara, focando nas partes diferentes, assustadoras, nojentas. Deve finalizar com a pergunta \"Eai, vc teria coragem de ser um tripulante de um navio pirata?\" e iniciar com a pergunta \"Venha descobrir se vc aquentaria ser um pirata\". Adicione algumas imagens do filme piratas do caribe se possível. Faça um video mais rápido, com a narração sendo 20% mais rápida.",
+  "contexto": null,
+  "slug": "como-era-cada-cargo-navio-pirata-fork",
+  "titulo": "Como era cada cargo de um navio pirata",
+  "formato": "short",
+  "duracao_alvo": "01:00",
+  "tom": "desafio sombrio e provocador, com humor seco nos detalhes nojentos; ritmo rápido, sem sensacionalismo gráfico",
+  "natureza": "inspirado-em-fatos",
+  "publico": "jovens e adultos de 14 a 35 anos curiosos por história bizarra e por piratas",
+  "nicho": "curiosidades históricas em shorts (história bizarra / piratas)",
+  "idioma": "pt-BR",
+  "estilo_artistico": "pintura a óleo de época sobre a era de ouro da pirataria, pinceladas visíveis, luz de lanterna e de pôr do sol em contraste forte, paleta de madeira, couro e mar escuro dessaturados com acentos de vermelho-ferrugem e ouro sujo",
+  "imagens_referencia": [],
+  "visual": {
+    "proporcao": "9:16",
+    "segundos_por_imagem": 3,
+    "numero_de_imagens": null,
+    "imagens_da_internet": true,
+    "qualidade": "padrao"
+  },
+  "narracao": {
+    "ativa": true,
+    "fornecedor": "gemini",
+    "voz": "Algieba",
+    "estilo": "ritmo rápido e cúmplice, como quem desafia o ouvinte; leve nojo e ironia nos detalhes, peso grave na pergunta final"
+  },
+  "personagens": [],
+  "legendas": {
+    "ativas": true,
+    "destacar_palavra": true,
+    "cor_destaque": "#FFD400",
+    "cor_texto": "#FFFFFF",
+    "maiusculas": false,
+    "palavras_por_legenda": null,
+    "posicao": "baixo"
+  },
+  "musica": {
+    "ativa": true,
+    "nome": null,
+    "arquivo": "biblioteca/musicas/audiocleaner-download-stranger.mp3",
+    "inicio": "00:00",
+    "volume": 20
+  },
+  "referencias": [
+    {
+      "url": "https://www.youtube.com/watch?v=DYAYD0UYvvE",
+      "esqueleto": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json"
+    }
+  ],
+  "canais_referencia": [
+    "@DorPintada"
+  ],
+  "concorrentes": [],
+  "restricoes": [
+    "Abrir exatamente com a pergunta 'Venha descobrir se você aguentaria ser um pirata' e fechar com 'E aí, você teria coragem de ser um tripulante de um navio pirata?' (texto do usuário, com a grafia corrigida)",
+    "Nojento e assustador na sugestão e na consequência (cheiro, vermes, serra, cicatriz), sem sangue nem ferida descritos ou mostrados de forma gráfica, para não perder anunciantes",
+    "Cada cargo dito em uma ou duas frases, com um detalhe concreto e real, sem lista seca de nomes",
+    "Nas imagens de IA, nada de gore explícito: mostrar ferramentas, expressões e ambientes, não ferimentos abertos"
+  ],
+  "trends": {
+    "ativa": false,
+    "links": []
+  },
+  "producao": {
+    "ate": "video",
+    "cortes": false
+  },
+  "pedido": {
+    "arquivo": "00-pedido.yaml",
+    "sha1": "f647ee200d8b08c5f36c9a6ef46b085025415d00",
+    "gerado_em": "2026-10-22"
+  },
+  "criado_em": "2026-10-22"
+}

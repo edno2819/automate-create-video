@@ -1,0 +1,58 @@
+{
+  "id": "A3",
+  "titulo": "Como era cada cargo de um navio pirata",
+  "titulos_alternativos": [
+    "Cargos de um navio pirata: o filme vs. a vida real",
+    "O que o cinema não mostra de cada cargo pirata"
+  ],
+  "thumbnail": {
+    "elemento_central": "Tela dividida: à esquerda um capitão de cinema, chapéu e casaco impecáveis num galeão iluminado (sem rosto de ator real); à direita um marujo magro e sujo num barco pequeno, coçando a cabeça à luz de lanterna",
+    "texto": "Filme x real",
+    "emocao": "surpresa com ironia",
+    "relacao_com_titulo": "O título promete os cargos; a thumb avisa que eles vão ser mostrados contra o que o cinema ensinou, o que o título não diz."
+  },
+  "promessa": "Você descobre, cargo por cargo, o que o cinema de piratas inventou e o que era real, e o real é mais nojento e mais estranho.",
+  "formato": "short",
+  "duracao_recomendada": "01:00",
+  "justificativa_duracao": "Cada cargo pede duas frases (o filme, depois o real), o que limita o vídeo a uns seis cargos em cerca de 180 palavras. Se tentar cobrir oito, as duas metades viram uma só e o contraste some.",
+  "tecnicas": [
+    "tese-contraria",
+    "antes-e-depois",
+    "mas-entao",
+    "quebra-de-padrao",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "tese-contraria",
+  "gancho_proposto": "Venha descobrir se você aguentaria ser um pirata. Esquece o navio do cinema: o de verdade era pequeno, apertado, e o capitão podia ser demitido no voto.",
+  "estrutura": [
+    "B01 (0-6 s): abertura fixa + tese contrária (navio pequeno, capitão demissível); primeiro frame no galeão de cinema que se desfaz num barco pequeno.",
+    "B02: Capitão: no cinema manda em tudo; na real, autoridade total só na batalha, e Charles Vane foi trocado por Calico Jack depois de se recusar a atacar.",
+    "B03: Quartermaster: o cargo que o cinema esquece, que dividia o butim e controlava o rum; o capitão não fazia nada sem ele.",
+    "B04: Marujo: nada de lenço limpo; piolho, rum porque a água apodrecia, biscoito com carunchos.",
+    "B05 (virada, cerca de 55%): O código: no cinema são 'diretrizes'; na real eram artigos jurados, luz apagada às 8 da noite e 800 moedas de prata por um braço.",
+    "B06: Carpinteiro e cirurgião: o cirurgião muitas vezes era sequestrado; sem ele, o carpinteiro pegava a serra.",
+    "B07: Músico: existia mesmo, capturado e obrigado a tocar na abordagem.",
+    "B08 (quebra de padrão): A prancha não existia; o castigo documentado era ficar sozinho numa ilha com pólvora, água e uma arma.",
+    "B09: fecho fixo, que emenda na abertura no replay."
+  ],
+  "esqueleto_base": null,
+  "cortes_previstos": [],
+  "evidencias": [
+    "Pedido do usuário: quer imagens de Piratas do Caribe, o que indica que o público chega com a referência do filme.",
+    "Dossiê, seção 'Filme vs. real': capitão eleito, artigos reais, navios pequenos (National Geographic), prancha sem evidência, marooning documentado nos artigos.",
+    "Sem 02-trends.md e sem dados em aprendizados.md: nenhuma evidência de desempenho."
+  ],
+  "aposta": true,
+  "justificativa_aposta": "É a aposta mais distante do esqueleto. Vale arriscar porque usa a referência que o próprio usuário pediu (o filme) como motor da narrativa, em vez de só como enfeite visual, e porque desmontar mito costuma gerar comentário.",
+  "diferencial": "Cada cargo vem com o mito que o espectador já tem na cabeça, e o real é mais estranho que o mito; nenhum outro ângulo usa o filme como estrutura.",
+  "riscos": [
+    "Fidelidade ao título: o contraste filme/real puxa para mitos (código, prancha) que não são cargos; o crítico pode cobrar que o vídeo prometeu cargos e entregou curiosidades.",
+    "Menos nojento que A1 e A2: metade do tempo vai para o lado do cinema, que não é nojento nem assustador, e o brief pede foco nisso.",
+    "Direitos: fotogramas do filme não estão nos bancos livres; imagens de IA não podem copiar o rosto de atores nem personagens reconhecíveis da franquia. Citar o filme por nome no título também chama atenção de sistemas de direitos.",
+    "Algumas comparações dependem de cenas do filme que o dossiê não checou quadro a quadro; falar do 'cinema de piratas' em geral é mais seguro que citar cenas.",
+    "Saturação sem dados: não há base para dizer se vídeos de 'filme vs. real' de piratas estão em alta."
+  ],
+  "ajustes_do_usuario": null,
+  "escolhido_em": "2026-10-22",
+  "escolhido_por": "interface web"
+}

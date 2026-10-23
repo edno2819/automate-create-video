@@ -1,0 +1,35 @@
+{
+  "slug": "higiene-idade-media",
+  "tema": "Como era a higiene na Idade Média",
+  "formato": "short",
+  "duracao_alvo": "00:30",
+  "tom": "curiosidade e espanto: fatos surpreendentes, ritmo rápido, sem nojo gratuito",
+  "estilo_artistico": "Pintura digital cinematográfica: pinceladas visíveis, luz quente de vela e de vapor, cores ricas e quentes, atmosfera de espanto e descoberta",
+  "publico": "adultos brasileiros curiosos por história e por curiosidades do passado",
+  "nicho": "curiosidades históricas",
+  "natureza": "factual",
+  "idioma": "pt-BR",
+  "audio": false,
+  "visual": {
+    "proporcao": "9:16",
+    "numero_de_imagens": 8,
+    "segundos_por_imagem": 3.75
+  },
+  "referencias": [
+    {
+      "url": "https://www.youtube.com/watch?v=DYAYD0UYvvE",
+      "esqueleto": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json"
+    }
+  ],
+  "canais_referencia": [
+    "@DorPintada"
+  ],
+  "concorrentes": [],
+  "restricoes": [
+    "short de 30 s (cerca de 75 palavras), uma ideia só",
+    "exatamente 8 imagens no vídeo",
+    "vídeo sem áudio: a legenda é o único canal da narração, então as frases precisam funcionar lidas",
+    "tema cheio de mitos (ex.: 'ninguém tomava banho'): só fatos com fonte no dossiê"
+  ],
+  "criado_em": "2026-10-20"
+}

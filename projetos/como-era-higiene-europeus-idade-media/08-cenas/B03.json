@@ -1,0 +1,49 @@
+[
+  {
+    "trecho": "Garde-robe. Em francês: guarda-roupa.",
+    "tipo": "cartela",
+    "fonte": "internet",
+    "busca": ["castle garderobe interior", "medieval garderobe", "garderobe"],
+    "texto_na_tela": "GARDE-ROBE = GUARDA-ROUPA",
+    "descricao": "Cartela com o nome sobre a foto real de um garde-robe de castelo (o assento de pedra vazio de uma ruína): a prova de que o buraco existia e tinha esse nome.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "an empty medieval stone latrine niche inside a castle wall, a plain stone bench with a round dark hole, a narrow arrow-slit window letting in a thin beam of light, cold bare stone",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Dizem que guardavam as roupas ali de propósito.",
+    "tipo": "ilustracao",
+    "descricao": "Uma dama nobre pendura com todo o cuidado o vestido de seda num cabide de madeira, dentro da salinha estreita de pedra, tapando o nariz com a outra mão. O assento fica fora do quadro.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a noble lady in a pale linen veil carefully hanging a rich crimson silk gown and a fur cloak on wooden pegs in a cramped narrow stone chamber, pinching her nose with her free hand, lips pressed tight in dignified suffering, a single candle lighting the rough wall",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O fedor de amônia espantava traças e pulgas.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe cômico: traças e pulgas fugindo em debandada da gola de pele, com um vapor amarelado de fedor subindo do fundo.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "moths and tiny fleas fleeing in panic from the fur collar of a cloak hanging on a wooden peg, a faint sickly yellowish haze drifting up from below, the insects painted with meticulous natural-history precision, absurd comic solemnity",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Só que os médicos tinham uma teoria sobre esse fedor.",
+    "tipo": "ilustracao",
+    "descricao": "Um médico medieval de toga vermelha e barrete fareja o ar com o dedo erguido, ar de sábio, entre livros e potes de ervas: a teoria vem aí. Sem a máscara de bico, que é do século 17.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a medieval physician in a long scarlet gown and close-fitting black coif, an elderly man with a gray forked beard, sniffing the air with eyes half-closed and one finger raised in grave scholarly revelation, a heavy open book and herb jars on the table beside him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

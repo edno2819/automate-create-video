@@ -1,0 +1,262 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Noto Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,6,2,2,86,86,518,1
+Style: Destaque,Noto Sans,84,&H00000000,&H00000000,&H0000D4FF,&H00000000,-1,0,0,0,100,100,0,0,3,12,0,2,86,86,518,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.92,Legenda,,0,0,0,,Paris, Idade Média.
+Dialogue: 1,0:00:00.00,0:00:00.60,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Paris,{\alpha&HFF&} Idade Média.
+Dialogue: 1,0:00:00.60,0:00:01.18,Destaque,,0,0,0,,{\alpha&HFF&}Paris, {\alpha&H00&}Idade{\alpha&HFF&} Média.
+Dialogue: 1,0:00:01.18,0:00:01.92,Destaque,,0,0,0,,{\alpha&HFF&}Paris, Idade {\alpha&H00&}Média.{\alpha&HFF&}
+Dialogue: 0,0:00:01.92,0:00:02.78,Legenda,,0,0,0,,Você dá um passo...
+Dialogue: 1,0:00:01.92,0:00:02.06,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Você{\alpha&HFF&} dá um passo...
+Dialogue: 1,0:00:02.06,0:00:02.20,Destaque,,0,0,0,,{\alpha&HFF&}Você {\alpha&H00&}dá{\alpha&HFF&} um passo...
+Dialogue: 1,0:00:02.20,0:00:02.28,Destaque,,0,0,0,,{\alpha&HFF&}Você dá {\alpha&H00&}um{\alpha&HFF&} passo...
+Dialogue: 1,0:00:02.28,0:00:02.78,Destaque,,0,0,0,,{\alpha&HFF&}Você dá um {\alpha&H00&}passo...{\alpha&HFF&}
+Dialogue: 0,0:00:02.78,0:00:03.74,Legenda,,0,0,0,,e o pé afunda
+Dialogue: 1,0:00:02.78,0:00:03.08,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} o pé afunda
+Dialogue: 1,0:00:03.08,0:00:03.16,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}o{\alpha&HFF&} pé afunda
+Dialogue: 1,0:00:03.16,0:00:03.30,Destaque,,0,0,0,,{\alpha&HFF&}e o {\alpha&H00&}pé{\alpha&HFF&} afunda
+Dialogue: 1,0:00:03.30,0:00:03.74,Destaque,,0,0,0,,{\alpha&HFF&}e o pé {\alpha&H00&}afunda{\alpha&HFF&}
+Dialogue: 0,0:00:03.74,0:00:05.52,Legenda,,0,0,0,,na lama até o tornozelo.
+Dialogue: 1,0:00:03.74,0:00:03.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}na{\alpha&HFF&} lama até o tornozelo.
+Dialogue: 1,0:00:03.92,0:00:04.16,Destaque,,0,0,0,,{\alpha&HFF&}na {\alpha&H00&}lama{\alpha&HFF&} até o tornozelo.
+Dialogue: 1,0:00:04.16,0:00:04.50,Destaque,,0,0,0,,{\alpha&HFF&}na lama {\alpha&H00&}até{\alpha&HFF&} o tornozelo.
+Dialogue: 1,0:00:04.50,0:00:04.62,Destaque,,0,0,0,,{\alpha&HFF&}na lama até {\alpha&H00&}o{\alpha&HFF&} tornozelo.
+Dialogue: 1,0:00:04.62,0:00:05.52,Destaque,,0,0,0,,{\alpha&HFF&}na lama até o {\alpha&H00&}tornozelo.{\alpha&HFF&}
+Dialogue: 0,0:00:05.52,0:00:06.58,Legenda,,0,0,0,,Lama fedida,
+Dialogue: 1,0:00:05.52,0:00:05.78,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Lama{\alpha&HFF&} fedida,
+Dialogue: 1,0:00:05.78,0:00:06.58,Destaque,,0,0,0,,{\alpha&HFF&}Lama {\alpha&H00&}fedida,{\alpha&HFF&}
+Dialogue: 0,0:00:06.58,0:00:08.20,Legenda,,0,0,0,,revirada pelas carroças.
+Dialogue: 1,0:00:06.58,0:00:07.02,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}revirada{\alpha&HFF&} pelas carroças.
+Dialogue: 1,0:00:07.02,0:00:07.30,Destaque,,0,0,0,,{\alpha&HFF&}revirada {\alpha&H00&}pelas{\alpha&HFF&} carroças.
+Dialogue: 1,0:00:07.30,0:00:08.20,Destaque,,0,0,0,,{\alpha&HFF&}revirada pelas {\alpha&H00&}carroças.{\alpha&HFF&}
+Dialogue: 0,0:00:08.20,0:00:09.58,Legenda,,0,0,0,,Nenhum calçamento.
+Dialogue: 1,0:00:08.20,0:00:08.60,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Nenhum{\alpha&HFF&} calçamento.
+Dialogue: 1,0:00:08.60,0:00:09.58,Destaque,,0,0,0,,{\alpha&HFF&}Nenhum {\alpha&H00&}calçamento.{\alpha&HFF&}
+Dialogue: 0,0:00:09.58,0:00:10.12,Legenda,,0,0,0,,Tá achando
+Dialogue: 1,0:00:09.58,0:00:09.88,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Tá{\alpha&HFF&} achando
+Dialogue: 1,0:00:09.88,0:00:10.12,Destaque,,0,0,0,,{\alpha&HFF&}Tá {\alpha&H00&}achando{\alpha&HFF&}
+Dialogue: 0,0:00:10.12,0:00:11.30,Legenda,,0,0,0,,que rico vivia melhor?
+Dialogue: 1,0:00:10.12,0:00:10.24,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}que{\alpha&HFF&} rico vivia melhor?
+Dialogue: 1,0:00:10.24,0:00:10.44,Destaque,,0,0,0,,{\alpha&HFF&}que {\alpha&H00&}rico{\alpha&HFF&} vivia melhor?
+Dialogue: 1,0:00:10.44,0:00:10.80,Destaque,,0,0,0,,{\alpha&HFF&}que rico {\alpha&H00&}vivia{\alpha&HFF&} melhor?
+Dialogue: 1,0:00:10.80,0:00:11.30,Destaque,,0,0,0,,{\alpha&HFF&}que rico vivia {\alpha&H00&}melhor?{\alpha&HFF&}
+Dialogue: 0,0:00:11.75,0:00:13.45,Legenda,,0,0,0,,Rico fugia da lama.
+Dialogue: 1,0:00:11.75,0:00:12.27,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Rico{\alpha&HFF&} fugia da lama.
+Dialogue: 1,0:00:12.27,0:00:12.83,Destaque,,0,0,0,,{\alpha&HFF&}Rico {\alpha&H00&}fugia{\alpha&HFF&} da lama.
+Dialogue: 1,0:00:12.83,0:00:12.93,Destaque,,0,0,0,,{\alpha&HFF&}Rico fugia {\alpha&H00&}da{\alpha&HFF&} lama.
+Dialogue: 1,0:00:12.93,0:00:13.45,Destaque,,0,0,0,,{\alpha&HFF&}Rico fugia da {\alpha&H00&}lama.{\alpha&HFF&}
+Dialogue: 0,0:00:13.45,0:00:15.01,Legenda,,0,0,0,,Morava no castelo.
+Dialogue: 1,0:00:13.45,0:00:13.79,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Morava{\alpha&HFF&} no castelo.
+Dialogue: 1,0:00:13.79,0:00:13.91,Destaque,,0,0,0,,{\alpha&HFF&}Morava {\alpha&H00&}no{\alpha&HFF&} castelo.
+Dialogue: 1,0:00:13.91,0:00:15.01,Destaque,,0,0,0,,{\alpha&HFF&}Morava no {\alpha&H00&}castelo.{\alpha&HFF&}
+Dialogue: 0,0:00:15.01,0:00:15.37,Legenda,,0,0,0,,Mas lá
+Dialogue: 1,0:00:15.01,0:00:15.19,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mas{\alpha&HFF&} lá
+Dialogue: 1,0:00:15.19,0:00:15.37,Destaque,,0,0,0,,{\alpha&HFF&}Mas {\alpha&H00&}lá{\alpha&HFF&}
+Dialogue: 0,0:00:15.37,0:00:16.05,Legenda,,0,0,0,,o banheiro era
+Dialogue: 1,0:00:15.37,0:00:15.53,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} banheiro era
+Dialogue: 1,0:00:15.53,0:00:15.93,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}banheiro{\alpha&HFF&} era
+Dialogue: 1,0:00:15.93,0:00:16.05,Destaque,,0,0,0,,{\alpha&HFF&}o banheiro {\alpha&H00&}era{\alpha&HFF&}
+Dialogue: 0,0:00:16.05,0:00:17.67,Legenda,,0,0,0,,um buraco na parede.
+Dialogue: 1,0:00:16.05,0:00:16.17,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}um{\alpha&HFF&} buraco na parede.
+Dialogue: 1,0:00:16.17,0:00:16.61,Destaque,,0,0,0,,{\alpha&HFF&}um {\alpha&H00&}buraco{\alpha&HFF&} na parede.
+Dialogue: 1,0:00:16.61,0:00:16.75,Destaque,,0,0,0,,{\alpha&HFF&}um buraco {\alpha&H00&}na{\alpha&HFF&} parede.
+Dialogue: 1,0:00:16.75,0:00:17.67,Destaque,,0,0,0,,{\alpha&HFF&}um buraco na {\alpha&H00&}parede.{\alpha&HFF&}
+Dialogue: 0,0:00:17.67,0:00:19.99,Legenda,,0,0,0,,Tudo caía direto no fosso.
+Dialogue: 1,0:00:17.67,0:00:17.97,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Tudo{\alpha&HFF&} caía direto no fosso.
+Dialogue: 1,0:00:17.97,0:00:18.43,Destaque,,0,0,0,,{\alpha&HFF&}Tudo {\alpha&H00&}caía{\alpha&HFF&} direto no fosso.
+Dialogue: 1,0:00:18.43,0:00:18.99,Destaque,,0,0,0,,{\alpha&HFF&}Tudo caía {\alpha&H00&}direto{\alpha&HFF&} no fosso.
+Dialogue: 1,0:00:18.99,0:00:19.09,Destaque,,0,0,0,,{\alpha&HFF&}Tudo caía direto {\alpha&H00&}no{\alpha&HFF&} fosso.
+Dialogue: 1,0:00:19.09,0:00:19.99,Destaque,,0,0,0,,{\alpha&HFF&}Tudo caía direto no {\alpha&H00&}fosso.{\alpha&HFF&}
+Dialogue: 0,0:00:19.99,0:00:20.71,Legenda,,0,0,0,,E o nome desse
+Dialogue: 1,0:00:19.99,0:00:20.09,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} o nome desse
+Dialogue: 1,0:00:20.09,0:00:20.17,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}o{\alpha&HFF&} nome desse
+Dialogue: 1,0:00:20.17,0:00:20.51,Destaque,,0,0,0,,{\alpha&HFF&}E o {\alpha&H00&}nome{\alpha&HFF&} desse
+Dialogue: 1,0:00:20.51,0:00:20.71,Destaque,,0,0,0,,{\alpha&HFF&}E o nome {\alpha&H00&}desse{\alpha&HFF&}
+Dialogue: 0,0:00:20.71,0:00:22.51,Legenda,,0,0,0,,buraco é a melhor parte.
+Dialogue: 1,0:00:20.71,0:00:21.19,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}buraco{\alpha&HFF&} é a melhor parte.
+Dialogue: 1,0:00:21.19,0:00:21.49,Destaque,,0,0,0,,{\alpha&HFF&}buraco {\alpha&H00&}é{\alpha&HFF&} a melhor parte.
+Dialogue: 1,0:00:21.49,0:00:21.57,Destaque,,0,0,0,,{\alpha&HFF&}buraco é {\alpha&H00&}a{\alpha&HFF&} melhor parte.
+Dialogue: 1,0:00:21.57,0:00:21.83,Destaque,,0,0,0,,{\alpha&HFF&}buraco é a {\alpha&H00&}melhor{\alpha&HFF&} parte.
+Dialogue: 1,0:00:21.83,0:00:22.51,Destaque,,0,0,0,,{\alpha&HFF&}buraco é a melhor {\alpha&H00&}parte.{\alpha&HFF&}
+Dialogue: 0,0:00:26.48,0:00:27.54,Legenda,,0,0,0,,Dizem que guardavam
+Dialogue: 1,0:00:26.48,0:00:26.94,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Dizem{\alpha&HFF&} que guardavam
+Dialogue: 1,0:00:26.94,0:00:27.08,Destaque,,0,0,0,,{\alpha&HFF&}Dizem {\alpha&H00&}que{\alpha&HFF&} guardavam
+Dialogue: 1,0:00:27.08,0:00:27.54,Destaque,,0,0,0,,{\alpha&HFF&}Dizem que {\alpha&H00&}guardavam{\alpha&HFF&}
+Dialogue: 0,0:00:27.54,0:00:29.26,Legenda,,0,0,0,,as roupas ali de propósito.
+Dialogue: 1,0:00:27.54,0:00:27.70,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}as{\alpha&HFF&} roupas ali de propósito.
+Dialogue: 1,0:00:27.70,0:00:28.00,Destaque,,0,0,0,,{\alpha&HFF&}as {\alpha&H00&}roupas{\alpha&HFF&} ali de propósito.
+Dialogue: 1,0:00:28.00,0:00:28.18,Destaque,,0,0,0,,{\alpha&HFF&}as roupas {\alpha&H00&}ali{\alpha&HFF&} de propósito.
+Dialogue: 1,0:00:28.18,0:00:28.28,Destaque,,0,0,0,,{\alpha&HFF&}as roupas ali {\alpha&H00&}de{\alpha&HFF&} propósito.
+Dialogue: 1,0:00:28.28,0:00:29.26,Destaque,,0,0,0,,{\alpha&HFF&}as roupas ali de {\alpha&H00&}propósito.{\alpha&HFF&}
+Dialogue: 0,0:00:29.26,0:00:29.70,Legenda,,0,0,0,,O fedor
+Dialogue: 1,0:00:29.26,0:00:29.36,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}O{\alpha&HFF&} fedor
+Dialogue: 1,0:00:29.36,0:00:29.70,Destaque,,0,0,0,,{\alpha&HFF&}O {\alpha&H00&}fedor{\alpha&HFF&}
+Dialogue: 0,0:00:29.70,0:00:31.28,Legenda,,0,0,0,,de amônia espantava traças
+Dialogue: 1,0:00:29.70,0:00:29.82,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} amônia espantava traças
+Dialogue: 1,0:00:29.82,0:00:30.26,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}amônia{\alpha&HFF&} espantava traças
+Dialogue: 1,0:00:30.26,0:00:30.74,Destaque,,0,0,0,,{\alpha&HFF&}de amônia {\alpha&H00&}espantava{\alpha&HFF&} traças
+Dialogue: 1,0:00:30.74,0:00:31.28,Destaque,,0,0,0,,{\alpha&HFF&}de amônia espantava {\alpha&H00&}traças{\alpha&HFF&}
+Dialogue: 0,0:00:31.28,0:00:32.22,Legenda,,0,0,0,,e pulgas.
+Dialogue: 1,0:00:31.28,0:00:31.48,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} pulgas.
+Dialogue: 1,0:00:31.48,0:00:32.22,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}pulgas.{\alpha&HFF&}
+Dialogue: 0,0:00:32.22,0:00:32.76,Legenda,,0,0,0,,Só que
+Dialogue: 1,0:00:32.22,0:00:32.54,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Só{\alpha&HFF&} que
+Dialogue: 1,0:00:32.54,0:00:32.76,Destaque,,0,0,0,,{\alpha&HFF&}Só {\alpha&H00&}que{\alpha&HFF&}
+Dialogue: 0,0:00:32.76,0:00:34.04,Legenda,,0,0,0,,os médicos tinham
+Dialogue: 1,0:00:32.76,0:00:33.04,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}os{\alpha&HFF&} médicos tinham
+Dialogue: 1,0:00:33.04,0:00:33.66,Destaque,,0,0,0,,{\alpha&HFF&}os {\alpha&H00&}médicos{\alpha&HFF&} tinham
+Dialogue: 1,0:00:33.66,0:00:34.04,Destaque,,0,0,0,,{\alpha&HFF&}os médicos {\alpha&H00&}tinham{\alpha&HFF&}
+Dialogue: 0,0:00:34.04,0:00:35.90,Legenda,,0,0,0,,uma teoria sobre esse fedor.
+Dialogue: 1,0:00:34.04,0:00:34.24,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}uma{\alpha&HFF&} teoria sobre esse fedor.
+Dialogue: 1,0:00:34.24,0:00:34.66,Destaque,,0,0,0,,{\alpha&HFF&}uma {\alpha&H00&}teoria{\alpha&HFF&} sobre esse fedor.
+Dialogue: 1,0:00:34.66,0:00:35.02,Destaque,,0,0,0,,{\alpha&HFF&}uma teoria {\alpha&H00&}sobre{\alpha&HFF&} esse fedor.
+Dialogue: 1,0:00:35.02,0:00:35.20,Destaque,,0,0,0,,{\alpha&HFF&}uma teoria sobre {\alpha&H00&}esse{\alpha&HFF&} fedor.
+Dialogue: 1,0:00:35.20,0:00:35.90,Destaque,,0,0,0,,{\alpha&HFF&}uma teoria sobre esse {\alpha&H00&}fedor.{\alpha&HFF&}
+Dialogue: 0,0:00:36.29,0:00:37.17,Legenda,,0,0,0,,Pra eles,
+Dialogue: 1,0:00:36.29,0:00:36.69,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Pra{\alpha&HFF&} eles,
+Dialogue: 1,0:00:36.69,0:00:37.17,Destaque,,0,0,0,,{\alpha&HFF&}Pra {\alpha&H00&}eles,{\alpha&HFF&}
+Dialogue: 0,0:00:37.17,0:00:38.69,Legenda,,0,0,0,,mau cheiro causava doença.
+Dialogue: 1,0:00:37.17,0:00:37.29,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}mau{\alpha&HFF&} cheiro causava doença.
+Dialogue: 1,0:00:37.29,0:00:37.57,Destaque,,0,0,0,,{\alpha&HFF&}mau {\alpha&H00&}cheiro{\alpha&HFF&} causava doença.
+Dialogue: 1,0:00:37.57,0:00:37.93,Destaque,,0,0,0,,{\alpha&HFF&}mau cheiro {\alpha&H00&}causava{\alpha&HFF&} doença.
+Dialogue: 1,0:00:37.93,0:00:38.69,Destaque,,0,0,0,,{\alpha&HFF&}mau cheiro causava {\alpha&H00&}doença.{\alpha&HFF&}
+Dialogue: 0,0:00:38.69,0:00:40.55,Legenda,,0,0,0,,Ar podre trazia a peste.
+Dialogue: 1,0:00:38.69,0:00:38.81,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Ar{\alpha&HFF&} podre trazia a peste.
+Dialogue: 1,0:00:38.81,0:00:39.31,Destaque,,0,0,0,,{\alpha&HFF&}Ar {\alpha&H00&}podre{\alpha&HFF&} trazia a peste.
+Dialogue: 1,0:00:39.31,0:00:39.71,Destaque,,0,0,0,,{\alpha&HFF&}Ar podre {\alpha&H00&}trazia{\alpha&HFF&} a peste.
+Dialogue: 1,0:00:39.71,0:00:39.81,Destaque,,0,0,0,,{\alpha&HFF&}Ar podre trazia {\alpha&H00&}a{\alpha&HFF&} peste.
+Dialogue: 1,0:00:39.81,0:00:40.55,Destaque,,0,0,0,,{\alpha&HFF&}Ar podre trazia a {\alpha&H00&}peste.{\alpha&HFF&}
+Dialogue: 0,0:00:40.55,0:00:41.85,Legenda,,0,0,0,,Então quem podia levava
+Dialogue: 1,0:00:40.55,0:00:40.97,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Então{\alpha&HFF&} quem podia levava
+Dialogue: 1,0:00:40.97,0:00:41.09,Destaque,,0,0,0,,{\alpha&HFF&}Então {\alpha&H00&}quem{\alpha&HFF&} podia levava
+Dialogue: 1,0:00:41.09,0:00:41.41,Destaque,,0,0,0,,{\alpha&HFF&}Então quem {\alpha&H00&}podia{\alpha&HFF&} levava
+Dialogue: 1,0:00:41.41,0:00:41.85,Destaque,,0,0,0,,{\alpha&HFF&}Então quem podia {\alpha&H00&}levava{\alpha&HFF&}
+Dialogue: 0,0:00:41.85,0:00:42.85,Legenda,,0,0,0,,uma bolinha de perfume
+Dialogue: 1,0:00:41.85,0:00:42.05,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}uma{\alpha&HFF&} bolinha de perfume
+Dialogue: 1,0:00:42.05,0:00:42.41,Destaque,,0,0,0,,{\alpha&HFF&}uma {\alpha&H00&}bolinha{\alpha&HFF&} de perfume
+Dialogue: 1,0:00:42.41,0:00:42.55,Destaque,,0,0,0,,{\alpha&HFF&}uma bolinha {\alpha&H00&}de{\alpha&HFF&} perfume
+Dialogue: 1,0:00:42.55,0:00:42.85,Destaque,,0,0,0,,{\alpha&HFF&}uma bolinha de {\alpha&H00&}perfume{\alpha&HFF&}
+Dialogue: 0,0:00:42.85,0:00:43.67,Legenda,,0,0,0,,no cinto.
+Dialogue: 1,0:00:42.85,0:00:43.03,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}no{\alpha&HFF&} cinto.
+Dialogue: 1,0:00:43.03,0:00:43.67,Destaque,,0,0,0,,{\alpha&HFF&}no {\alpha&H00&}cinto.{\alpha&HFF&}
+Dialogue: 0,0:00:43.67,0:00:44.59,Legenda,,0,0,0,,Sem dinheiro?
+Dialogue: 1,0:00:43.67,0:00:43.89,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Sem{\alpha&HFF&} dinheiro?
+Dialogue: 1,0:00:43.89,0:00:44.59,Destaque,,0,0,0,,{\alpha&HFF&}Sem {\alpha&H00&}dinheiro?{\alpha&HFF&}
+Dialogue: 0,0:00:44.59,0:00:45.73,Legenda,,0,0,0,,Laranja oca,
+Dialogue: 1,0:00:44.59,0:00:44.99,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Laranja{\alpha&HFF&} oca,
+Dialogue: 1,0:00:44.99,0:00:45.73,Destaque,,0,0,0,,{\alpha&HFF&}Laranja {\alpha&H00&}oca,{\alpha&HFF&}
+Dialogue: 0,0:00:45.73,0:00:46.89,Legenda,,0,0,0,,esponja de vinagre,
+Dialogue: 1,0:00:45.73,0:00:46.13,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}esponja{\alpha&HFF&} de vinagre,
+Dialogue: 1,0:00:46.13,0:00:46.27,Destaque,,0,0,0,,{\alpha&HFF&}esponja {\alpha&H00&}de{\alpha&HFF&} vinagre,
+Dialogue: 1,0:00:46.27,0:00:46.89,Destaque,,0,0,0,,{\alpha&HFF&}esponja de {\alpha&H00&}vinagre,{\alpha&HFF&}
+Dialogue: 0,0:00:46.89,0:00:48.15,Legenda,,0,0,0,,colada no nariz.
+Dialogue: 1,0:00:46.89,0:00:47.31,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}colada{\alpha&HFF&} no nariz.
+Dialogue: 1,0:00:47.31,0:00:47.49,Destaque,,0,0,0,,{\alpha&HFF&}colada {\alpha&H00&}no{\alpha&HFF&} nariz.
+Dialogue: 1,0:00:47.49,0:00:48.15,Destaque,,0,0,0,,{\alpha&HFF&}colada no {\alpha&H00&}nariz.{\alpha&HFF&}
+Dialogue: 0,0:00:48.49,0:00:50.07,Legenda,,0,0,0,,Mas perfume nenhum salvou
+Dialogue: 1,0:00:48.49,0:00:48.65,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mas{\alpha&HFF&} perfume nenhum salvou
+Dialogue: 1,0:00:48.65,0:00:49.27,Destaque,,0,0,0,,{\alpha&HFF&}Mas {\alpha&H00&}perfume{\alpha&HFF&} nenhum salvou
+Dialogue: 1,0:00:49.27,0:00:49.63,Destaque,,0,0,0,,{\alpha&HFF&}Mas perfume {\alpha&H00&}nenhum{\alpha&HFF&} salvou
+Dialogue: 1,0:00:49.63,0:00:50.07,Destaque,,0,0,0,,{\alpha&HFF&}Mas perfume nenhum {\alpha&H00&}salvou{\alpha&HFF&}
+Dialogue: 0,0:00:50.07,0:00:50.65,Legenda,,0,0,0,,o rei.
+Dialogue: 1,0:00:50.07,0:00:50.15,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} rei.
+Dialogue: 1,0:00:50.15,0:00:50.65,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}rei.{\alpha&HFF&}
+Dialogue: 0,0:00:53.84,0:00:54.84,Legenda,,0,0,0,,o rei Filipe Augusto
+Dialogue: 1,0:00:53.84,0:00:53.90,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} rei Filipe Augusto
+Dialogue: 1,0:00:53.90,0:00:54.16,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}rei{\alpha&HFF&} Filipe Augusto
+Dialogue: 1,0:00:54.16,0:00:54.32,Destaque,,0,0,0,,{\alpha&HFF&}o rei {\alpha&H00&}Filipe{\alpha&HFF&} Augusto
+Dialogue: 1,0:00:54.32,0:00:54.84,Destaque,,0,0,0,,{\alpha&HFF&}o rei Filipe {\alpha&H00&}Augusto{\alpha&HFF&}
+Dialogue: 0,0:00:54.84,0:00:56.68,Legenda,,0,0,0,,abriu a janela do palácio.
+Dialogue: 1,0:00:54.84,0:00:55.24,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}abriu{\alpha&HFF&} a janela do palácio.
+Dialogue: 1,0:00:55.24,0:00:55.30,Destaque,,0,0,0,,{\alpha&HFF&}abriu {\alpha&H00&}a{\alpha&HFF&} janela do palácio.
+Dialogue: 1,0:00:55.30,0:00:55.64,Destaque,,0,0,0,,{\alpha&HFF&}abriu a {\alpha&H00&}janela{\alpha&HFF&} do palácio.
+Dialogue: 1,0:00:55.64,0:00:55.74,Destaque,,0,0,0,,{\alpha&HFF&}abriu a janela {\alpha&H00&}do{\alpha&HFF&} palácio.
+Dialogue: 1,0:00:55.74,0:00:56.68,Destaque,,0,0,0,,{\alpha&HFF&}abriu a janela do {\alpha&H00&}palácio.{\alpha&HFF&}
+Dialogue: 0,0:00:56.68,0:00:57.48,Legenda,,0,0,0,,O fedor
+Dialogue: 1,0:00:56.68,0:00:56.76,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}O{\alpha&HFF&} fedor
+Dialogue: 1,0:00:56.76,0:00:57.48,Destaque,,0,0,0,,{\alpha&HFF&}O {\alpha&H00&}fedor{\alpha&HFF&}
+Dialogue: 0,0:00:57.48,0:00:58.60,Legenda,,0,0,0,,da lama subiu pro
+Dialogue: 1,0:00:57.48,0:00:57.64,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}da{\alpha&HFF&} lama subiu pro
+Dialogue: 1,0:00:57.64,0:00:57.94,Destaque,,0,0,0,,{\alpha&HFF&}da {\alpha&H00&}lama{\alpha&HFF&} subiu pro
+Dialogue: 1,0:00:57.94,0:00:58.46,Destaque,,0,0,0,,{\alpha&HFF&}da lama {\alpha&H00&}subiu{\alpha&HFF&} pro
+Dialogue: 1,0:00:58.46,0:00:58.60,Destaque,,0,0,0,,{\alpha&HFF&}da lama subiu {\alpha&H00&}pro{\alpha&HFF&}
+Dialogue: 0,0:00:58.60,0:00:59.52,Legenda,,0,0,0,,nariz do homem mais
+Dialogue: 1,0:00:58.60,0:00:58.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}nariz{\alpha&HFF&} do homem mais
+Dialogue: 1,0:00:58.92,0:00:59.02,Destaque,,0,0,0,,{\alpha&HFF&}nariz {\alpha&H00&}do{\alpha&HFF&} homem mais
+Dialogue: 1,0:00:59.02,0:00:59.14,Destaque,,0,0,0,,{\alpha&HFF&}nariz do {\alpha&H00&}homem{\alpha&HFF&} mais
+Dialogue: 1,0:00:59.14,0:00:59.52,Destaque,,0,0,0,,{\alpha&HFF&}nariz do homem {\alpha&H00&}mais{\alpha&HFF&}
+Dialogue: 0,0:00:59.52,0:01:01.00,Legenda,,0,0,0,,poderoso da França.
+Dialogue: 1,0:00:59.52,0:01:00.12,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}poderoso{\alpha&HFF&} da França.
+Dialogue: 1,0:01:00.12,0:01:00.26,Destaque,,0,0,0,,{\alpha&HFF&}poderoso {\alpha&H00&}da{\alpha&HFF&} França.
+Dialogue: 1,0:01:00.26,0:01:01.00,Destaque,,0,0,0,,{\alpha&HFF&}poderoso da {\alpha&H00&}França.{\alpha&HFF&}
+Dialogue: 0,0:01:01.00,0:01:02.34,Legenda,,0,0,0,,Mandou pavimentar as ruas
+Dialogue: 1,0:01:01.00,0:01:01.42,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mandou{\alpha&HFF&} pavimentar as ruas
+Dialogue: 1,0:01:01.42,0:01:02.06,Destaque,,0,0,0,,{\alpha&HFF&}Mandou {\alpha&H00&}pavimentar{\alpha&HFF&} as ruas
+Dialogue: 1,0:01:02.06,0:01:02.16,Destaque,,0,0,0,,{\alpha&HFF&}Mandou pavimentar {\alpha&H00&}as{\alpha&HFF&} ruas
+Dialogue: 1,0:01:02.16,0:01:02.34,Destaque,,0,0,0,,{\alpha&HFF&}Mandou pavimentar as {\alpha&H00&}ruas{\alpha&HFF&}
+Dialogue: 0,0:01:02.34,0:01:04.14,Legenda,,0,0,0,,de Paris. Todas?
+Dialogue: 1,0:01:02.34,0:01:02.42,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} Paris. Todas?
+Dialogue: 1,0:01:02.42,0:01:03.42,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}Paris.{\alpha&HFF&} Todas?
+Dialogue: 1,0:01:03.42,0:01:04.14,Destaque,,0,0,0,,{\alpha&HFF&}de Paris. {\alpha&H00&}Todas?{\alpha&HFF&}
+Dialogue: 0,0:01:04.63,0:01:06.41,Legenda,,0,0,0,,Não. Só as principais.
+Dialogue: 1,0:01:04.63,0:01:05.15,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Não.{\alpha&HFF&} Só as principais.
+Dialogue: 1,0:01:05.15,0:01:05.35,Destaque,,0,0,0,,{\alpha&HFF&}Não. {\alpha&H00&}Só{\alpha&HFF&} as principais.
+Dialogue: 1,0:01:05.35,0:01:05.43,Destaque,,0,0,0,,{\alpha&HFF&}Não. Só {\alpha&H00&}as{\alpha&HFF&} principais.
+Dialogue: 1,0:01:05.43,0:01:06.41,Destaque,,0,0,0,,{\alpha&HFF&}Não. Só as {\alpha&H00&}principais.{\alpha&HFF&}
+Dialogue: 0,0:01:06.41,0:01:06.63,Legenda,,0,0,0,,A rua
+Dialogue: 1,0:01:06.41,0:01:06.51,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}A{\alpha&HFF&} rua
+Dialogue: 1,0:01:06.51,0:01:06.63,Destaque,,0,0,0,,{\alpha&HFF&}A {\alpha&H00&}rua{\alpha&HFF&}
+Dialogue: 0,0:01:06.63,0:01:08.69,Legenda,,0,0,0,,do lado continuou engolindo pé.
+Dialogue: 1,0:01:06.63,0:01:06.75,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}do{\alpha&HFF&} lado continuou engolindo pé.
+Dialogue: 1,0:01:06.75,0:01:07.01,Destaque,,0,0,0,,{\alpha&HFF&}do {\alpha&H00&}lado{\alpha&HFF&} continuou engolindo pé.
+Dialogue: 1,0:01:07.01,0:01:07.53,Destaque,,0,0,0,,{\alpha&HFF&}do lado {\alpha&H00&}continuou{\alpha&HFF&} engolindo pé.
+Dialogue: 1,0:01:07.53,0:01:08.13,Destaque,,0,0,0,,{\alpha&HFF&}do lado continuou {\alpha&H00&}engolindo{\alpha&HFF&} pé.
+Dialogue: 1,0:01:08.13,0:01:08.69,Destaque,,0,0,0,,{\alpha&HFF&}do lado continuou engolindo {\alpha&H00&}pé.{\alpha&HFF&}
+Dialogue: 0,0:01:08.69,0:01:09.71,Legenda,,0,0,0,,Então esse povo nunca
+Dialogue: 1,0:01:08.69,0:01:08.93,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Então{\alpha&HFF&} esse povo nunca
+Dialogue: 1,0:01:08.93,0:01:09.03,Destaque,,0,0,0,,{\alpha&HFF&}Então {\alpha&H00&}esse{\alpha&HFF&} povo nunca
+Dialogue: 1,0:01:09.03,0:01:09.27,Destaque,,0,0,0,,{\alpha&HFF&}Então esse {\alpha&H00&}povo{\alpha&HFF&} nunca
+Dialogue: 1,0:01:09.27,0:01:09.71,Destaque,,0,0,0,,{\alpha&HFF&}Então esse povo {\alpha&H00&}nunca{\alpha&HFF&}
+Dialogue: 0,0:01:09.71,0:01:11.31,Legenda,,0,0,0,,tomava banho, certo?
+Dialogue: 1,0:01:09.71,0:01:10.13,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}tomava{\alpha&HFF&} banho, certo?
+Dialogue: 1,0:01:10.13,0:01:10.57,Destaque,,0,0,0,,{\alpha&HFF&}tomava {\alpha&H00&}banho,{\alpha&HFF&} certo?
+Dialogue: 1,0:01:10.57,0:01:11.31,Destaque,,0,0,0,,{\alpha&HFF&}tomava banho, {\alpha&H00&}certo?{\alpha&HFF&}
+Dialogue: 0,0:01:11.31,0:01:13.11,Legenda,,0,0,0,,Errado. No século seguinte,
+Dialogue: 1,0:01:11.31,0:01:12.01,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Errado.{\alpha&HFF&} No século seguinte,
+Dialogue: 1,0:01:12.01,0:01:12.11,Destaque,,0,0,0,,{\alpha&HFF&}Errado. {\alpha&H00&}No{\alpha&HFF&} século seguinte,
+Dialogue: 1,0:01:12.11,0:01:12.39,Destaque,,0,0,0,,{\alpha&HFF&}Errado. No {\alpha&H00&}século{\alpha&HFF&} seguinte,
+Dialogue: 1,0:01:12.39,0:01:13.11,Destaque,,0,0,0,,{\alpha&HFF&}Errado. No século {\alpha&H00&}seguinte,{\alpha&HFF&}
+Dialogue: 0,0:01:13.11,0:01:13.65,Legenda,,0,0,0,,Paris tinha mais
+Dialogue: 1,0:01:13.11,0:01:13.25,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Paris{\alpha&HFF&} tinha mais
+Dialogue: 1,0:01:13.25,0:01:13.47,Destaque,,0,0,0,,{\alpha&HFF&}Paris {\alpha&H00&}tinha{\alpha&HFF&} mais
+Dialogue: 1,0:01:13.47,0:01:13.65,Destaque,,0,0,0,,{\alpha&HFF&}Paris tinha {\alpha&H00&}mais{\alpha&HFF&}
+Dialogue: 0,0:01:13.65,0:01:14.65,Legenda,,0,0,0,,de trinta casas
+Dialogue: 1,0:01:13.65,0:01:13.83,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} trinta casas
+Dialogue: 1,0:01:13.83,0:01:14.25,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}trinta{\alpha&HFF&} casas
+Dialogue: 1,0:01:14.25,0:01:14.65,Destaque,,0,0,0,,{\alpha&HFF&}de trinta {\alpha&H00&}casas{\alpha&HFF&}
+Dialogue: 0,0:01:14.65,0:01:15.81,Legenda,,0,0,0,,de banho públicas.
+Dialogue: 1,0:01:14.65,0:01:14.77,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} banho públicas.
+Dialogue: 1,0:01:14.77,0:01:15.01,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}banho{\alpha&HFF&} públicas.
+Dialogue: 1,0:01:15.01,0:01:15.81,Destaque,,0,0,0,,{\alpha&HFF&}de banho {\alpha&H00&}públicas.{\alpha&HFF&}
+Dialogue: 0,0:01:15.81,0:01:16.83,Legenda,,0,0,0,,O problema nunca foi
+Dialogue: 1,0:01:15.81,0:01:15.89,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}O{\alpha&HFF&} problema nunca foi
+Dialogue: 1,0:01:15.89,0:01:16.19,Destaque,,0,0,0,,{\alpha&HFF&}O {\alpha&H00&}problema{\alpha&HFF&} nunca foi
+Dialogue: 1,0:01:16.19,0:01:16.61,Destaque,,0,0,0,,{\alpha&HFF&}O problema {\alpha&H00&}nunca{\alpha&HFF&} foi
+Dialogue: 1,0:01:16.61,0:01:16.83,Destaque,,0,0,0,,{\alpha&HFF&}O problema nunca {\alpha&H00&}foi{\alpha&HFF&}
+Dialogue: 0,0:01:16.83,0:01:17.43,Legenda,,0,0,0,,o banho.
+Dialogue: 1,0:01:16.83,0:01:16.91,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} banho.
+Dialogue: 1,0:01:16.91,0:01:17.43,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}banho.{\alpha&HFF&}
+Dialogue: 0,0:01:17.43,0:01:18.21,Legenda,,0,0,0,,Era a rua.
+Dialogue: 1,0:01:17.43,0:01:17.61,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Era{\alpha&HFF&} a rua.
+Dialogue: 1,0:01:17.61,0:01:17.69,Destaque,,0,0,0,,{\alpha&HFF&}Era {\alpha&H00&}a{\alpha&HFF&} rua.
+Dialogue: 1,0:01:17.69,0:01:18.21,Destaque,,0,0,0,,{\alpha&HFF&}Era a {\alpha&H00&}rua.{\alpha&HFF&}

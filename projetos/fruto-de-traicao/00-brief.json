@@ -1,0 +1,92 @@
+{
+  "tema": "Fruto de traição",
+  "descricao": "O bananildo está no trabalho falando com seu colega de trabalho e ele pergunta onde está a esposa  moranguete do bananildo\nenquanto ele vai trabalhar todos os dias e o bananildo responde que ela está cuidando dos filhos e cuidando do corpo para ele na cademia.\nCorta para ela na academia com o pepinão e ela está se divertindo e rindo com ele e treinando bem próximos se tocando.\nDepois no outro dia na hora do café da manhã tá a familia reunida tomando café e tem uma cena do carteiro abacatudo jogando jornal na frente da casa.\nE na cena da cozinha com a familia reunida eu quero que as crianças sejam uma um menino abacate e uma menina pepino (frutos de traição) e o pai fala algo como\neu não sei o que \"eu seria sem minha esposa e meus lindos filhos\". Corta para a moranguete fazendo um sorriso como se soubesse de tudo.",
+  "contexto": "# Contexto: a \"novela das frutas\"\n\nMaterial de apoio para os episódios da série. Os pedidos apontam para este arquivo no campo `contexto`.\n\n## Temática e enredo\n\nA \"novela das frutas\" baseia-se na apropriação acelerada dos clichês mais dramáticos das tradicionais\ntelenovelas e reality shows. Os roteiros giram em torno de traições amorosas, testes de paternidade, trocas\nde bebês na maternidade, vinganças, problemas financeiros e reviravoltas trágicas. Não existe um enredo fixo\nou oficial; os vídeos funcionam como um multiverso onde a narrativa muda a cada sequência curta. Os mesmos\npersonagens assumem papéis de vítimas, vilões ou amantes dependendo do vídeo, sempre imersos em relações\ntóxicas e conflitos familiares extremos.\n\n## Estética\n\nA produção visual é inteiramente desenvolvida por ferramentas de Inteligência Artificial (IA) em formato\nvertical para redes sociais (TikTok, Reels, Shorts). A estética central imita animações 3D de estúdios\ngrandes (com texturas vibrantes e polidas), conferindo aos personagens um aspecto infantil e fofo. Esse\nvisual inocente é posicionado em cenários pesados e hiperdramáticos: salas de hospital, chuvas noturnas,\ntribunais e becos escuros. A ambientação é sempre acompanhada por vozes sintéticas dramáticas e trilhas\nsonoras de suspense ou sofrimento.\n\n## Principais personagens\n\n- **Abacatudo:** fisicamente, é um abacate com rosto humanizado e expressões faciais bastante marcadas.\n  Comportamentalmente, é o clássico galã tóxico. Conhecido como a figura mais infiel da trend, ele\n  frequentemente manipula, trai a família e protagoniza brigas intensas, mas também aparece chorando ou\n  implorando perdão nos ganchos dramáticos.\n- **Moranguete:** é um morango de olhos grandes e brilhantes, frequentemente exibida com lágrimas\n  escorrendo. Age como a heroína sofredora e intensa. Costuma ser a esposa traída ou a mãe desesperada,\n  guiando a narrativa através de seu luto, surtos de raiva e planos de vingança.\n- **Bananildo:** uma banana humanizada que alimenta as reviravoltas. Seu comportamento varia entre o amante\n  que forma os triângulos amorosos, o amigo falso ou o parceiro em esquemas escusos.\n- **Perita:** uma pera expressiva que costuma encarnar a antagonista amorosa. Geralmente atua como a pivô\n  das separações, rivalizando diretamente com a Moranguete pelo afeto das outras frutas.\n\n## O que faz chamar a atenção\n\n- **Dissonância cognitiva absurda:** o maior apelo do formato é o choque absoluto entre a embalagem e o\n  conteúdo. Ver personagens que lembram desenhos infantis chorando desesperadamente, descobrindo traições\n  conjugais ou discutindo temas adultos (inclusive com uso de palavrões) gera um humor irônico que paralisa\n  a rolagem do feed.\n- **Estrutura viciante:** os vídeos utilizam a lógica máxima da retenção: duram de 30 a 60 segundos e\n  terminam abruptamente no clímax de uma discussão (como o momento exato em que uma porta é aberta ou um\n  segredo é revelado). Isso obriga o espectador a buscar a \"parte 2\" repetidamente.\n- **Tratamento de celebridade real:** a audiência engaja com o conteúdo de forma parassocial. Os internautas\n  comentam defendendo a moralidade de um abacate, atacam virtualmente as frutas \"vilãs\" e criam fã-clubes,\n  reproduzindo a mesma dinâmica de torcida que ocorre em reality shows ou novelas das nove.",
+  "slug": "fruto-de-traicao",
+  "titulo": null,
+  "formato": "short",
+  "duracao_alvo": "00:40",
+  "tom": "melodrama de novela das nove levado ao absurdo, ritmo acelerado, falas curtas e exageradas, ironia dramática (o público entende a traição antes do marido), humor que vem da seriedade total; sem piscar para o público e sem cena sexual",
+  "natureza": "ficcional",
+  "publico": "jovens e adultos de 16 a 35 anos que consomem humor e trends no TikTok, Reels e Shorts",
+  "nicho": "novela das frutas: humor com animação de IA em vídeos curtos",
+  "idioma": "pt-BR",
+  "estilo_artistico": "animação 3D de estúdio grande, frutas humanizadas fofas com olhos grandes e brilhantes, texturas polidas e cores vibrantes, iluminação de cinema dramática que contrasta com o visual infantil",
+  "visual": {
+    "proporcao": "9:16",
+    "segundos_por_imagem": 3,
+    "numero_de_imagens": null,
+    "imagens_da_internet": false,
+    "qualidade": "padrao"
+  },
+  "narracao": {
+    "ativa": true,
+    "fornecedor": "gemini",
+    "voz": "Sadaltager",
+    "estilo": null
+  },
+  "personagens": [
+    {
+      "nome": "Moranguete",
+      "voz": "Leda",
+      "estilo": "doce e falsa, vira choro dramático quando é desmascarada",
+      "descricao": "a Moranguete da biblioteca (biblioteca/personagens/moranguete/): morango de olhos castanhos enormes e cílios longos, coroa de folhas, brincos de argola dourada; a roupa muda por cena (roupa de academia na academia)",
+      "cor": "#EC4899"
+    },
+    {
+      "nome": "Bananildo",
+      "voz": "Enceladus",
+      "estilo": "trabalhador de escritório e marido da moranguete",
+      "descricao": "o Bananildo da biblioteca (biblioteca/personagens/bananildo/): banana alta e magra, olheiras, óculos redondos de aro fino, camisa social azul-clara de manga curta, pochete preta",
+      "cor": "#8B5CF6"
+    },
+    {
+      "nome": "Pepinão",
+      "voz": "Algieba",
+      "estilo": "personal trainer galã, confiante, voz grave e arrastada",
+      "descricao": "o visual do Pepinudo da biblioteca (biblioteca/personagens/pepinudo/), com o nome Pepinão: pepino de fisiculturista, óculos esportivos laranja espelhados no alto da cabeça, cavanhaque preto, regata preta, bermuda com faixa laranja-neon, apito laranja-neon",
+      "cor": "#F97316"
+    },
+    {
+      "nome": "Colega",
+      "voz": "Zubenelgenubi",
+      "estilo": "colega de escritório fofoqueiro e curioso, casual, pergunta com tom de quem já desconfia",
+      "descricao": "colega de trabalho do Bananildo no escritório, uma fruta humanizada diferente das outras do episódio (o diretor visual decide qual)",
+      "cor": "#06B6D4"
+    }
+  ],
+  "legendas": {
+    "ativas": true,
+    "destacar_palavra": true,
+    "cor_destaque": "#FFD400",
+    "cor_texto": "#FFFFFF",
+    "maiusculas": false,
+    "palavras_por_legenda": null,
+    "posicao": "baixo"
+  },
+  "musica": {
+    "ativa": true,
+    "nome": "tema_novela_frutas.mp3",
+    "arquivo": null,
+    "inicio": "00:00",
+    "volume": 20
+  },
+  "referencias": [],
+  "canais_referencia": [],
+  "concorrentes": [],
+  "restricoes": [
+    "o caso na academia fica só sugerido (risadas, toques no treino, olhares): nada de cena sexual nem nudez",
+    "as crianças aparecem só numa cena familiar comum de café da manhã"
+  ],
+  "producao": {
+    "ate": "video",
+    "cortes": false
+  },
+  "contexto_arquivo": "pedidos/contextos/novela-das-frutas.md",
+  "pedido": {
+    "arquivo": "00-pedido.yaml",
+    "sha1": "21114ab27551969433be19e2d8bd9e39d80223c0",
+    "gerado_em": "2026-10-21"
+  },
+  "criado_em": "2026-10-21"
+}

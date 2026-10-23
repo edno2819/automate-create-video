@@ -1,0 +1,431 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 32.33,
+  "duracao_video_s": 32.93,
+  "fonte": "faster-whisper small",
+  "voz": "Sadaltager",
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Mais",
+          "inicio": 0.0,
+          "fim": 0.48
+        },
+        {
+          "texto": "de",
+          "inicio": 0.48,
+          "fim": 0.72
+        },
+        {
+          "texto": "32",
+          "inicio": 0.72,
+          "fim": 1.38
+        },
+        {
+          "texto": "banhos",
+          "inicio": 1.38,
+          "fim": 2.02
+        },
+        {
+          "texto": "públicos.",
+          "inicio": 2.02,
+          "fim": 2.64
+        },
+        {
+          "texto": "Numa",
+          "inicio": 2.74,
+          "fim": 2.98
+        },
+        {
+          "texto": "cidade",
+          "inicio": 2.98,
+          "fim": 3.24
+        },
+        {
+          "texto": "só.",
+          "inicio": 3.24,
+          "fim": 3.52
+        }
+      ],
+      "fim_s": 3.82
+    },
+    {
+      "id": "B01-02",
+      "inicio_s": 3.82,
+      "palavras": [
+        {
+          "texto": "Dizem",
+          "inicio": 3.82,
+          "fim": 4.26
+        },
+        {
+          "texto": "que",
+          "inicio": 4.26,
+          "fim": 4.4
+        },
+        {
+          "texto": "ninguém",
+          "inicio": 4.4,
+          "fim": 4.78
+        },
+        {
+          "texto": "tomava",
+          "inicio": 4.78,
+          "fim": 5.32
+        },
+        {
+          "texto": "banho.",
+          "inicio": 5.32,
+          "fim": 5.72
+        },
+        {
+          "texto": "Paris,",
+          "inicio": 5.96,
+          "fim": 6.5
+        },
+        {
+          "texto": "século",
+          "inicio": 6.76,
+          "fim": 7.22
+        },
+        {
+          "texto": "13.",
+          "inicio": 7.22,
+          "fim": 7.54
+        }
+      ],
+      "fim_s": 8.31
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 8.31,
+      "palavras": [
+        {
+          "texto": "Mas",
+          "inicio": 8.31,
+          "fim": 8.77
+        },
+        {
+          "texto": "em",
+          "inicio": 8.77,
+          "fim": 8.95
+        },
+        {
+          "texto": "casa,",
+          "inicio": 8.95,
+          "fim": 9.45
+        },
+        {
+          "texto": "encher",
+          "inicio": 9.67,
+          "fim": 10.107
+        },
+        {
+          "texto": "uma",
+          "inicio": 10.107,
+          "fim": 10.357
+        },
+        {
+          "texto": "tina",
+          "inicio": 10.357,
+          "fim": 10.67
+        },
+        {
+          "texto": "custava",
+          "inicio": 10.67,
+          "fim": 11.17
+        },
+        {
+          "texto": "caro.",
+          "inicio": 11.17,
+          "fim": 11.77
+        }
+      ],
+      "fim_s": 12.03
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 12.03,
+      "palavras": [
+        {
+          "texto": "Água",
+          "inicio": 12.03,
+          "fim": 12.35
+        },
+        {
+          "texto": "carregada",
+          "inicio": 12.35,
+          "fim": 13.11
+        },
+        {
+          "texto": "e",
+          "inicio": 13.11,
+          "fim": 13.25
+        },
+        {
+          "texto": "aquecida.",
+          "inicio": 13.25,
+          "fim": 13.77
+        },
+        {
+          "texto": "No",
+          "inicio": 14.23,
+          "fim": 14.49
+        },
+        {
+          "texto": "dia",
+          "inicio": 14.49,
+          "fim": 14.67
+        },
+        {
+          "texto": "a",
+          "inicio": 14.67,
+          "fim": 14.77
+        },
+        {
+          "texto": "dia,",
+          "inicio": 14.77,
+          "fim": 14.99
+        },
+        {
+          "texto": "só",
+          "inicio": 15.25,
+          "fim": 15.51
+        },
+        {
+          "texto": "bacia.",
+          "inicio": 15.51,
+          "fim": 15.91
+        }
+      ],
+      "fim_s": 16.46
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 16.46,
+      "palavras": [
+        {
+          "texto": "Na",
+          "inicio": 16.46,
+          "fim": 16.82
+        },
+        {
+          "texto": "rua,",
+          "inicio": 16.82,
+          "fim": 17.12
+        },
+        {
+          "texto": "banho",
+          "inicio": 17.42,
+          "fim": 17.78
+        },
+        {
+          "texto": "era",
+          "inicio": 17.78,
+          "fim": 17.92
+        },
+        {
+          "texto": "negócio.",
+          "inicio": 17.92,
+          "fim": 18.38
+        },
+        {
+          "texto": "Com",
+          "inicio": 18.68,
+          "fim": 18.86
+        },
+        {
+          "texto": "guilda",
+          "inicio": 18.86,
+          "fim": 19.36
+        },
+        {
+          "texto": "e",
+          "inicio": 19.36,
+          "fim": 19.48
+        },
+        {
+          "texto": "regras.",
+          "inicio": 19.48,
+          "fim": 19.94
+        }
+      ],
+      "fim_s": 20.3
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 20.3,
+      "palavras": [
+        {
+          "texto": "Vapor:",
+          "inicio": 20.3,
+          "fim": 20.72
+        },
+        {
+          "texto": "2",
+          "inicio": 20.72,
+          "fim": 21.04
+        },
+        {
+          "texto": "denários.",
+          "inicio": 21.04,
+          "fim": 21.52
+        },
+        {
+          "texto": "Banho",
+          "inicio": 21.78,
+          "fim": 22.04
+        },
+        {
+          "texto": "completo:",
+          "inicio": 22.04,
+          "fim": 22.4
+        },
+        {
+          "texto": "4",
+          "inicio": 22.68,
+          "fim": 22.96
+        },
+        {
+          "texto": "denários.",
+          "inicio": 22.96,
+          "fim": 23.48
+        }
+      ],
+      "fim_s": 23.88
+    },
+    {
+      "id": "B03-03",
+      "inicio_s": 23.88,
+      "palavras": [
+        {
+          "texto": "Até",
+          "inicio": 23.88,
+          "fim": 24.06
+        },
+        {
+          "texto": "pregoeiros",
+          "inicio": 24.06,
+          "fim": 24.68
+        },
+        {
+          "texto": "gritavam",
+          "inicio": 24.68,
+          "fim": 25.16
+        },
+        {
+          "texto": "pelas",
+          "inicio": 25.16,
+          "fim": 25.46
+        },
+        {
+          "texto": "ruas,",
+          "inicio": 25.46,
+          "fim": 25.76
+        },
+        {
+          "texto": "chamando",
+          "inicio": 25.8,
+          "fim": 26.08
+        },
+        {
+          "texto": "clientes.",
+          "inicio": 26.08,
+          "fim": 26.56
+        }
+      ],
+      "fim_s": 27.21
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 27.21,
+      "palavras": [
+        {
+          "texto": "Londres",
+          "inicio": 27.21,
+          "fim": 27.93
+        },
+        {
+          "texto": "tinha",
+          "inicio": 27.93,
+          "fim": 28.13
+        },
+        {
+          "texto": "13.",
+          "inicio": 28.13,
+          "fim": 28.51
+        },
+        {
+          "texto": "Viena",
+          "inicio": 29.03,
+          "fim": 29.57
+        },
+        {
+          "texto": "chegou",
+          "inicio": 29.57,
+          "fim": 29.75
+        },
+        {
+          "texto": "a",
+          "inicio": 29.75,
+          "fim": 29.89
+        },
+        {
+          "texto": "29.",
+          "inicio": 29.89,
+          "fim": 30.29
+        },
+        {
+          "texto": "E",
+          "inicio": 30.97,
+          "fim": 31.19
+        },
+        {
+          "texto": "Paris...",
+          "inicio": 31.19,
+          "fim": 32.15
+        }
+      ],
+      "fim_s": 32.93
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 16,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 121
+    },
+    {
+      "bloco": "B02",
+      "palavras": 18,
+      "cobertura_pct": 94.4,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 138
+    },
+    {
+      "bloco": "B03",
+      "palavras": 23,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 133
+    },
+    {
+      "bloco": "B04",
+      "palavras": 9,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 105
+    }
+  ],
+  "alertas": []
+}

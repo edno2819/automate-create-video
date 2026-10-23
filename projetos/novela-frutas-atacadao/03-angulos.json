@@ -1,0 +1,409 @@
+{
+  "projeto": "novela-frutas-atacadao",
+  "recomendacao": {
+    "angulo": "A1",
+    "motivo": "É o ângulo com mais apoio nos dados e o mais simples de executar bem em 30 s. Abre no clímax e fica numa situação só, como os únicos shorts de cerca de 30 s com sinal na coleta (Deon, 0:27, 164.036 views, 56x; DiegoCapoYT, 0:19, 77.182 views, 81x). Termina na porta da câmara fria, a imagem que o próprio usuário pôs nas restrições e que o contexto descreve como o corte típico da trend. O primeiro e o último frame são a mesma porta, então o final em loop sai sem forçar. E ocupa a lacuna de cenário: nenhum episódio coletado se passa em supermercado. A thumb 'QUEM TÁ LÁ DENTRO?' dá ao título descritivo do usuário o conflito que ele não tem. Alternativas: A6, se a prioridade for comentário (pergunta binária e os três no mesmo quadro no clímax); A3, se o usuário escolher o nome fictício e quiser o enredo mais preso à rotina do supermercado. A marca é decisão à parte e não muda a estrutura do A1 (ver decisoes_do_usuario.marca)."
+  },
+  "decisoes_do_usuario": {
+    "marca": {
+      "opcoes": [
+        "real: Atacadão, o título do usuário sem mudança (A1, A2, A4, A6)",
+        "fictícia: Atacafruta, o título do usuário com só a marca trocada (A3, A5, A7); nome sugerido no dossiê, [VERIFICAR no INPI] antes de publicar"
+      ],
+      "independe_da_estrutura": "Qualquer ângulo troca de nome mudando só o título e as placas do cenário. Nenhuma estrutura depende de a narração dizer o nome do mercado.",
+      "a_favor_da_real": "Reconhecimento imediato: todo brasileiro conhece o lugar, e a graça do contraste fica mais concreta.",
+      "contra_a_real": "Os dados não mostram ganho de busca com o nome (nenhuma coleta tratou dele). A trama mostra funcionários da rede enganando e escondendo um caso no trabalho, o que pode ser lido como uso que deprecia a marca; o dossiê não achou fonte jurídica, então o risco é incerto, não alto. Numa série, o risco se repete a cada parte.",
+      "sugestao_do_estrategista": "Nome fictício. Além de tirar o risco, um mercado com nome próprio vira o cenário fixo da série, como a sorveteria do Cocardo, que domina a trend em 2026-10 (02-trends.md §4). A decisão é do usuário.",
+      "regra_para_os_dois_casos": "Nenhuma imagem mostra logo, cores, fachada ou uniforme da rede real, mesmo nos ângulos com 'Atacadão' no título. Crachás, coletes e placas são genéricos ou da marca fictícia."
+    },
+    "titulo": "O título do usuário fica em todos os ângulos. Ele tem o termo de busca mais usado em português ('novela das frutas', 02-trends.md §3), mas não tem nome de personagem, segredo nem número de parte, que os outliers usam. Se o usuário aceitar mexer, as alternativas de cada ângulo seguem esses padrões; para o A1, a mais alinhada aos dados é 'A caixa Moranguete tem um segredo na câmara fria 😨'. Em Shorts o título aparece pequeno no feed: pesa mais na busca e na hora de achar a parte 2.",
+    "nome_do_repositor": "Abacatinho, como na lista de personagens do pedido. A descrição diz 'Abacate' por engano. Abacatinho é personagem próprio, não o Abacatudo da trend: não usar 'Abacatudo' no título para pegar busca, porque promete outro personagem."
+  },
+  "notas_comuns": [
+    "Formato: short de 30 s, 10 imagens de 3 s. Alvo de 60 a 70 palavras somando narração e falas, abaixo das 75 da tabela de formatos.md, porque falas chorosas, trêmulas e arrastadas (Pepinão) soam mais devagar que 150 ppm. Conferir com ferramentas/medir_roteiro.py.",
+    "Vozes: narrador Sadaltager; [FALA: Moranguete] (Leda), [FALA: Abacatinho] (Achird), [FALA: Pepinão] (Algenib). Nenhuma outra fruta tem voz: figurantes (empacotador, fiscal, clientes) são só visuais.",
+    "Restrição do usuário: o caso fica na sugestão (olhar, bilhete escondido, porta da câmara fria se fechando, no máximo um crachá esquecido). Nada de beijo, abraço, toque, roupa ou casaco tirado, nem silhuetas juntas atrás do vidro.",
+    "Personagens de visual fofo (formatos.md): nenhum duplo sentido com o nome Pepinão nem com o açougue (carne, linguiça, pepino). Pepinão sempre de avental; 'sarado' quer dizer braços fortes, nunca torso nu.",
+    "Faca e cutelo ficam no balcão. Nenhuma lâmina na mão em cena de confronto: a parte 2 não pode prometer ameaça física.",
+    "Sem palavrões: o vídeo inteiro está nos primeiros 30 s.",
+    "Final: cartela visual 'PARTE 2' no último frame, sem CTA falado.",
+    "Thumb em Shorts: aparece na busca, na aba Shorts do canal e em sugeridos. No feed quem faz o papel dela é o primeiro frame, então o [VISUAL] de cada gancho foi pensado para funcionar sozinho.",
+    "Upload: marcar 'não é conteúdo para crianças'. Frutas 3D fofas podem ser tomadas por conteúdo infantil, e vídeo classificado como infantil perde os comentários, que são o motor da torcida da trend.",
+    "Descrição: hashtags #noveladasfrutas, #moranguete e #frutinovela. É o que se repete nos canais pequenos com razão alta (02-trends.md §3), mas é sinal fraco de causa.",
+    "Os ângulos usam abacate de presente e caixas de abacate. Se a direção visual achar estranho fruta vendendo fruta, troque por outro produto sem mexer na estrutura."
+  ],
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "Novela das frutas no supermercado Atacadão",
+      "titulos_alternativos": [
+        "A caixa Moranguete tem um segredo na câmara fria 😨",
+        "O que tem na câmara fria? Novela das frutas, Parte 1"
+      ],
+      "marca": {
+        "titulo": "real: Atacadão (título do usuário, sem mudança)",
+        "titulos_alternativos": "sem marca",
+        "no_video": "a narração não diz o nome; nada de logo, cores, fachada ou uniforme da rede"
+      },
+      "molde": "Novela das nove com gancho de porta: abre na porta, volta dez minutos e corta no instante em que ela se abre.",
+      "thumbnail": {
+        "elemento_central": "Abacatinho, de colete de repositor genérico, encosta o rosto na porta de aço da câmara fria coberta de gelo, com uma lágrima congelando na bochecha; da fresta saem luz azul e fumaça gelada; pendurado na maçaneta, um crachá rosa com um morango desenhado.",
+        "texto": "QUEM TÁ LÁ DENTRO?",
+        "emocao": "suspeita aflita, com pena dele",
+        "relacao_com_titulo": "O título diz o gênero e o lugar. A thumb mostra o que ele não diz: há um segredo atrás de uma porta, e o crachá rosa entrega de quem é. Quem vê já desconfia da resposta e clica para ver o Abacatinho descobrir."
+      },
+      "promessa": "Ver, em 30 segundos, a caixa Moranguete enganar o repositor Abacatinho e sumir na câmara fria com o açougueiro Pepinão, até o segundo exato em que ele abre a porta.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief e o enredo cabe nela: abertura no clímax, flashback de duas cenas e volta à porta, em 10 imagens de 3 s e cerca de 69 palavras. Esticar para 60 s pediria uma segunda situação, e o formato vive de cortar no clímax. A prova de 30 s nos dados é pequena (3 vídeos), mas é a duração deles.",
+      "tecnicas": ["in-medias-res", "loop-aberto", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "in-medias-res",
+      "gancho_proposto": "[VISUAL: mão verde do Abacatinho na maçaneta da câmara fria, fumaça gelada saindo pela fresta] [FALA: Abacatinho, tremendo] Moranguete... você tá aí dentro? Dez minutos antes, ela jurava que era só dele.",
+      "estrutura": [
+        "B01 (img 1, 0-3 s, ~10 palavras): IN MEDIAS RES. Mão do Abacatinho na maçaneta, fala trêmula. Abre L1: o que ele vai encontrar lá dentro?",
+        "B02 (img 2-4, 3-12 s, ~20 palavras): 'Dez minutos antes' (narrado e em cartela). Caixa sete: ele deixa um abacate com laço na esteira; Moranguete, doce: 'Só você me entende, Abacatinho.' Ele: 'Trabalho seis por um por você.' A ilusão.",
+        "B03 (img 5-7, 12-21 s, ~20 palavras): VIRADA, conector mas. O olhar dela atravessa o mercado até o açougue; Pepinão, grave e arrastado: 'Seis horas. Câmara fria.' Ela fecha o caixa 'pra conferir' e a porta da câmara fria se fecha com os dois do lado de dentro (só a porta). O espectador agora sabe; ele não.",
+        "B04 (img 8-9, 21-27 s, ~12 palavras): conector então. Ele procura por ela com o abacate de laço e acha o crachá dela pendurado na maçaneta. CALLBACK: a porta do B01, agora com significado.",
+        "B05 (img 10, 27-30 s, ~5 palavras): clímax sem resolução. Ele puxa a maçaneta, a luz azul invade a tela, 'Moranguete...' e corte seco com cartela PARTE 2. FINAL EM LOOP: a última imagem é a primeira, e a fala emenda em 'você tá aí dentro?'."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short (producao.cortes = false).",
+        "A parte 2 abre na porta aberta: o que o Abacatinho vê e o choro da Moranguete desmascarada (o estilo dela no pedido)."
+      ],
+      "evidencias": [
+        "02-trends.md §2 e §6.2: os únicos outliers perto de 30 s abrem direto no encontro, numa cena só: 'Cocardo y Mangoberto se encuentran' (Deon, 0:27, 164.036 views, 56x, 3 d, instável) e o short de DiegoCapoYT (0:19, 77.182 views, 81x, 18 d).",
+        "02-trends.md §6.6: fim em risco físico com a porta da câmara fria fechando, na linha de 'BOQUENILCE E A PRIMA FORAM SEQUESTRADAS! 😱' (82.889 views, 95x), o único short em português no topo.",
+        "Contexto do brief e dossiê §2 (c21media, confiança média): os episódios começam no meio do conflito e terminam no instante em que a porta se abre ou o segredo aparece.",
+        "02-trends.md §5: nenhum episódio coletado se passa em supermercado, e o anúncio da parte 2 dentro do próprio vídeo é raro (inferência a partir dos títulos).",
+        "aprendizados.md: nenhum vídeo registrado no canal; não há dado próprio para pesar."
+      ],
+      "aposta": false,
+      "diferencial": "Cenário que ninguém usou (supermercado) e corte na abertura literal da porta. O primeiro e o último frame são a mesma imagem, então o replay automático emenda sem forçar.",
+      "riscos": [
+        "O flashback come tempo: 'dez minutos antes' precisa de cartela visual, e o B02 não pode passar de 3 imagens.",
+        "O espectador vê os dois entrarem, então a tensão do fim é a descoberta dele, não o mistério do que há lá dentro. Se o crítico achar fraco, mostrar só a porta se fechando, sem ver quem entrou.",
+        "Marca real no título (ver decisoes_do_usuario.marca).",
+        "Entre Moranguete e Pepinão, só olhar, bilhete e porta se fechando."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "Novela das frutas no supermercado Atacadão",
+      "titulos_alternativos": [
+        "O mercado inteiro sabe. Só o Abacatinho não 💔",
+        "Moranguete ilude o repositor e ama o açougueiro 😱 Parte 1"
+      ],
+      "marca": {
+        "titulo": "real: Atacadão (título do usuário, sem mudança)",
+        "titulos_alternativos": "sem marca",
+        "no_video": "a narração diz 'o mercado', não o nome; nada de logo, cores, fachada ou uniforme da rede"
+      },
+      "molde": "O último a saber (o 'Tufão' de Avenida Brasil, como meme, sem citar falas): ironia dramática, o espectador sempre um passo à frente.",
+      "thumbnail": {
+        "elemento_central": "Abacatinho em primeiro plano, sorriso bobo, segurando uma caixa de abacates arrumados em forma de coração; atrás dele, frutas funcionárias (um limão empacotador, uma cebola fiscal) olham com pena e cobrem a boca; ao fundo, nítidos, Moranguete no caixa e Pepinão no açougue trocando um olhar de longe.",
+        "texto": "SÓ ELE NÃO SABE",
+        "emocao": "vergonha alheia e pena cômica",
+        "relacao_com_titulo": "O título situa a novela. A thumb entrega a ironia: quem vê enxerga o que o protagonista não enxerga e clica para ver o último a saber."
+      },
+      "promessa": "Ver todas as pistas da traição passarem na frente do Abacatinho sem que ele perceba, até a única que ele não consegue ignorar.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "Quatro pistas, uma por imagem, é o máximo que cabe em 30 s com a ilusão e o clímax (cerca de 68 palavras). Uma quinta pista estouraria o tempo; esticar para 60 s viraria lista, e o short perde a tensão.",
+      "tecnicas": ["contagem-regressiva", "lacuna-de-curiosidade", "mas-entao", "quebra-de-padrao", "callback"],
+      "tipo_gancho": "promessa-de-revelacao",
+      "gancho_proposto": "[VISUAL: Abacatinho sorrindo bobo, empilhando abacates em forma de coração; atrás dele, as frutas do mercado olham com pena] O mercado inteiro já sabe. Menos o Abacatinho.",
+      "estrutura": [
+        "B01 (img 1, ~8 palavras): gancho. Abre L1 (sabe o quê?) e L2 (quando ele vai descobrir?).",
+        "B02 (img 2-3, ~14 palavras): a ilusão. Abacate de laço na esteira; Moranguete, doce: 'Você é o único que me entende.' Narrador: 'Ele acreditou.'",
+        "B03 (img 4-7, ~28 palavras): conector mas. PISTAS EM ORDEM CRESCENTE, uma por imagem, com carimbo 'PISTA 1' a 'PISTA 4' na tela (quebra de padrão): ela pisca para o açougue e ele acena de volta; o bilhete 'seis horas' cai da sacola e ele devolve sem ler; ela fecha o caixa e o Pepinão some junto; o empacotador cobre a boca. Fecha L1 para o espectador; L2 segue aberto.",
+        "B04 (img 8-9, ~12 palavras): VIRADA. Ele vai à câmara fria buscar estoque e acha o crachá dela na maçaneta. [FALA: Abacatinho, trêmulo] 'Moranguete?'",
+        "B05 (img 10, ~6 palavras): clímax sem resolução. Ele limpa com a mão o vidro embaçado da porta; corte antes de ver. CALLBACK do B01, narrador: 'Agora só falta ele.' Cartela PARTE 2."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "A parte 2 abre no vidro limpo: o que ele vê."
+      ],
+      "evidencias": [
+        "Dossiê §3 e §5: o meme do 'Tufão confuso', o marido sempre o último a saber, é repertório conhecido do público brasileiro.",
+        "02-trends.md §2 e §3: traição com personagem nomeado é o padrão dominante entre os outliers ('¡FRESA DESCUBRE LA TRAICIÓN Y EL ENGAÑO DE SU MARIDO!', Riqueza Frutal, 2.085.885 views, 181x); entre os cerca de 20 shorts de 'frutinovela' em 30 d, 9 usam segredo ou traição e 6 deles têm razão de 10 ou mais.",
+        "02-trends.md §5: há traição clássica em português, mas os vídeos coletados têm 7 a 9 views: tema conhecido, mal executado em short.",
+        "Limite: a estrutura de pistas não tem prova própria nos dados; a prova é do tema."
+      ],
+      "aposta": false,
+      "diferencial": "Ironia dramática do começo ao fim, com pistas que só existem num mercado (bilhete na sacola, caixa fechado 'pra conferir', crachá na câmara fria). Nenhum título coletado usa o molde do último a saber.",
+      "riscos": [
+        "Quatro pistas deixam pouco tempo para a ilusão; se apertar, cortar a pista do empacotador.",
+        "Figurantes (limão, cebola) não têm voz no pedido e não podem falar.",
+        "O Tufão é inspiração de molde; nenhuma fala de Avenida Brasil literal.",
+        "Marca real no título."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "Novela das frutas no supermercado Atacafruta",
+      "titulos_alternativos": [
+        "Faltou iogurte. O repositor foi buscar na câmara fria 😨",
+        "Moranguete tentou se livrar do Abacatinho | Parte 1"
+      ],
+      "marca": {
+        "titulo": "fictícia: Atacafruta (título do usuário com só a marca trocada; [VERIFICAR no INPI])",
+        "titulos_alternativos": "sem marca",
+        "no_video": "o nome Atacafruta pode aparecer em placas, coletes e no alto-falante, porque é da série"
+      },
+      "molde": "Suspense de novela com o mercado como armadilha: cada movimento da Moranguete para afastar o Abacatinho é o que o empurra para a câmara fria.",
+      "thumbnail": {
+        "elemento_central": "Abacatinho, de casaco térmico grosso por cima do colete, empurra uma paleteira cheia de iogurtes rumo à porta da câmara fria, cantarolando com coraçõezinhos em volta; acima dele, um alto-falante de mercado; no vidro embaçado da porta, duas sombras paradas, separadas, viradas para fora.",
+        "texto": "NÃO ENTRA!",
+        "emocao": "aflição de torcida, a vontade de gritar com a TV",
+        "relacao_com_titulo": "O título dá o lugar, com nome próprio da série. A thumb mostra o perigo que o personagem não vê e põe quem vê no papel de quem grita com a novela."
+      },
+      "promessa": "Ver o próprio supermercado virar a armadilha: o truque da Moranguete para afastar o Abacatinho é o que o manda direto para a câmara fria.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "Cinco passos de causa e consequência em 10 imagens, cerca de 66 palavras. A mecânica não precisa de mais tempo; um segundo obstáculo no caminho dele seria subtrama.",
+      "tecnicas": ["mas-entao", "callback", "lacuna-de-curiosidade", "loop-aberto"],
+      "tipo_gancho": "cena-sensorial",
+      "gancho_proposto": "[VISUAL: caixa sete vazio, esteira parada, luz fria piscando; no fundo do corredor, a porta da câmara fria] Seis da tarde. A esteira do caixa sete para. E a porta da câmara fria range.",
+      "estrutura": [
+        "B01 (img 1, ~14 palavras): cena sensorial (esteira parada, luz fluorescente, porta rangendo). Abre L1: o que acontece às seis?",
+        "B02 (img 2-3, ~14 palavras): a ilusão como ferramenta. Moranguete, doce: 'Amor, repõe o iogurte lá do fundo pra mim?' Abacatinho: 'Por você eu reponho o mercado inteiro.' Então ela fica livre.",
+        "B03 (img 4-5, ~12 palavras): conector então. Ela fecha o caixa 'pra conferir'; olhar com Pepinão; os dois entram e a porta da câmara fria se fecha (só a porta). Pepinão, grave: 'Ninguém vem aqui depois das seis.'",
+        "B04 (img 6-9, ~20 palavras): VIRADA, conector mas. O iogurte acabou na gôndola, e o estoque fica na câmara fria. Alto-falante ([FALA: Narrador, como alto-falante de mercado]): 'Repositor, falta iogurte no corredor quatro.' Ele veste o casaco térmico e empurra a paleteira cantarolando o nome dela. CALLBACK do B02: o pedido dela é o que o leva até lá.",
+        "B05 (img 10, ~6 palavras): clímax. Mão na maçaneta, a porta range (callback do B01), fumaça branca; de dentro, Pepinão: 'Quem tá aí?' Corte seco, cartela PARTE 2."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "A parte 2 abre na fumaça: os três frente a frente, com o iogurte no chão."
+      ],
+      "evidencias": [
+        "02-trends.md §5 e §6.4: o supermercado é lacuna (nenhum episódio coletado no cenário), e o triângulo tem demanda: '🍌 TRIÂNGULO DE FRUTAS 🔥 OLHA ESSA HISTÓRIA!' (Histórias das Frutas, 1.781.140 views, 50x, 89 d).",
+        "Dossiê §2 e §4: repositor, caixa e açougueiro são cargos reais de atacarejo; ruptura é o produto que falta na gôndola; casaco térmico para entrar na câmara fria.",
+        "02-trends.md §6.6: fim em risco físico, na porta da câmara fria.",
+        "02-trends.md §4: a trend de 2026-10 gira em torno de universos próprios de outros canais (a sorveteria do Cocardo); um mercado com nome próprio pode virar o cenário fixo da série."
+      ],
+      "aposta": false,
+      "diferencial": "O único ângulo em que o enredo só funciona num supermercado: a rotina do repositor (repor, buscar estoque, obedecer ao alto-falante) é a armadilha. Com nome fictício, o mercado vira cenário próprio da série.",
+      "riscos": [
+        "'Ruptura' é jargão: no áudio, dizer 'falta iogurte'; a palavra pode ficar numa placa.",
+        "Alto-falante, placas e etiquetas são texto em imagem, e o gerador erra letras; manter o texto curto ou passar para a cartela.",
+        "Mais objetos por cena (paleteira, casaco, alto-falante): a direção visual precisa de fichas de referência para manter os personagens iguais.",
+        "Atacafruta [VERIFICAR no INPI] antes de publicar."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "Novela das frutas no supermercado Atacadão",
+      "titulos_alternativos": [
+        "POV: você é o repositor e ela é a caixa sete 🍓",
+        "Você trabalha 6x1 por ela. Ela some na câmara fria"
+      ],
+      "marca": {
+        "titulo": "real: Atacadão (título do usuário, sem mudança)",
+        "titulos_alternativos": "sem marca",
+        "no_video": "a narração não diz o nome; nada de logo, cores, fachada ou uniforme da rede"
+      },
+      "molde": "Narração em segunda pessoa, a do canal de referência (Dor Pintada), levada para a novela: o espectador é o Abacatinho.",
+      "thumbnail": {
+        "elemento_central": "Câmera subjetiva: mãos verdes de abacate estendem um buquê de salsinha amarrado com fita de caixa para Moranguete, que sorri doce atrás da esteira; atrás dela, desfocado mas reconhecível, Pepinão no balcão do açougue olha para ela.",
+        "texto": "OLHA ATRÁS DELA",
+        "emocao": "desconfiança e identificação",
+        "relacao_com_titulo": "O título situa a novela. A thumb põe quem vê no lugar do enganado e esconde a pista no fundo, então o espectador acha a traição antes do personagem."
+      },
+      "promessa": "Viver a novela pelos olhos do Abacatinho: acreditar na Moranguete, não ver o que acontece atrás dela e chegar com ele à porta da câmara fria.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A segunda pessoa é econômica: o narrador conta e mostra ao mesmo tempo, sem cena de apresentação. Cabe em 10 imagens com cerca de 66 palavras.",
+      "tecnicas": ["pov-segunda-pessoa", "mas-entao", "loop-aberto", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "[VISUAL: câmera subjetiva, mãos verdes de abacate estendendo um buquê de salsinha para Moranguete no caixa sete] Você trabalha seis por um. Só pra ver ela sorrir no caixa sete.",
+      "estrutura": [
+        "B01 (img 1, ~12 palavras): POV. O narrador fala com 'você', o Abacatinho, no presente. Abre L1: ela sente o mesmo?",
+        "B02 (img 2-3, ~14 palavras): Moranguete, doce: 'Pra mim? Você é o único, Abacatinho.' Narrador: 'Você acredita. Todo dia.'",
+        "B03 (img 4-6, ~18 palavras): conector mas. 'Você não vê pra onde ela olha.' Pepinão no açougue; o bilhete passa no troco dele; às seis, ela fecha o caixa. Cada frase começa com 'você não vê', e o espectador vê.",
+        "B04 (img 7-9, ~14 palavras): VIRADA, conector mas. 'Hoje você esqueceu o casaco na câmara fria.' A porta está fechada, a luz acesa por dentro. De lá, Moranguete, abafada: 'Pepinão, alguém vem vindo!'",
+        "B05 (img 10, ~8 palavras): clímax. [FALA: Abacatinho, trêmulo] 'Moranguete?' Narrador: 'Você põe a mão na maçaneta.' Corte seco, cartela PARTE 2. FINAL EM LOOP: o replay recomeça em 'Você trabalha seis por um', que agora soa como ironia."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "A parte 2 pode seguir em POV ('Você abre a porta') ou voltar ao diálogo comum, conforme o resultado."
+      ],
+      "evidencias": [
+        "Nenhuma evidência de desempenho: nenhum título coletado usa POV ou segunda pessoa na novela das frutas, e os dados não mostram como os vídeos são narrados.",
+        "biblioteca/tecnicas.json: pov-segunda-pessoa vem do esqueleto do Dor Pintada, o canal de referência do sistema.",
+        "Contexto do brief: o público trata as frutas como celebridades e toma partido; a segunda pessoa leva essa torcida para dentro do personagem."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Muda a estrutura sem mudar o enredo e custa o mesmo para produzir. Se funcionar, a segunda pessoa vira a assinatura do canal dentro da trend; se não funcionar, a parte 2 volta ao diálogo comum sem perda.",
+      "diferencial": "O espectador é o enganado. Nas outras versões ele assiste; aqui é ele quem acredita, quem não vê e quem põe a mão na maçaneta.",
+      "riscos": [
+        "'Você' misturado com falas de personagem pode confundir: o Abacatinho fala uma vez só, no fim.",
+        "Narrador em segunda pessoa pode soar como piscadela para o público, o que o tom proíbe; tem de soar sério como novela.",
+        "Parte do público pode não querer ser o enganado da história e passar o vídeo; é a aposta.",
+        "Marca real no título."
+      ]
+    },
+    {
+      "id": "A5",
+      "titulo": "Novela das frutas no supermercado Atacafruta",
+      "titulos_alternativos": [
+        "Três frutas, um confessionário e um encontro às 18h 😱",
+        "Moranguete mentiu no confessionário 🍓 Parte 1"
+      ],
+      "marca": {
+        "titulo": "fictícia: Atacafruta (título do usuário com só a marca trocada; [VERIFICAR no INPI])",
+        "titulos_alternativos": "sem marca",
+        "no_video": "o nome Atacafruta pode aparecer em placas e coletes, porque é da série"
+      },
+      "molde": "Reality show (a trend nasceu de uma paródia de reality, Fruit Love Island): cenas intercaladas com o confessionário de cada fruta, improvisado no depósito.",
+      "thumbnail": {
+        "elemento_central": "Três faixas empilhadas na vertical, cada uma com um personagem numa cadeira de confessionário improvisado no depósito (paletes ao fundo, luz vermelha de gravação): em cima, Abacatinho apaixonado, olhos marejados; no meio, Moranguete com sorriso doce e olhar de lado; embaixo, Pepinão de avental, braços cruzados, confiante.",
+        "texto": "HOJE ÀS 18H",
+        "emocao": "antecipação e desconfiança",
+        "relacao_com_titulo": "O título dá o lugar. A thumb revela o formato (reality) e que os três têm o mesmo compromisso, sem dizer qual."
+      },
+      "promessa": "Ouvir cada um dos três contar a sua versão no confessionário e perceber, antes deles, que todos marcaram o mesmo encontro às seis na câmara fria.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "É o roteiro mais apertado do conjunto (cerca de 62 palavras, mas muitas trocas de voz), e por isso não comporta nada além dos três confessionários e do relógio. Não passar de 30 s: o tríptico final perde força se vier tarde.",
+      "tecnicas": ["quebra-de-padrao", "mas-entao", "callback", "loop-aberto"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "[VISUAL: Abacatinho no confessionário improvisado do depósito, uma torre de caixas de abacate atrás dele, luz vermelha de gravação] [FALA: Abacatinho, emocionado] Mil e duzentas caixas de abacate. Repus todas pensando nela.",
+      "estrutura": [
+        "B01 (img 1, ~10 palavras): confessionário do Abacatinho, com o número absurdo da devoção dele. Abre L1: ela sente o mesmo?",
+        "B02 (img 2-3, ~14 palavras): cena e confessionário. No caixa, ela aceita o abacate de laço; no confessionário, Moranguete, doce: 'O Abacatinho? Ele é... muito prestativo.' A pausa denuncia a ilusão.",
+        "B03 (img 4-6, ~16 palavras): conector mas. Olhar dela para o açougue; confessionário do Pepinão, grave e arrastado: 'Ela diz que é amizade. Às seis ela me encontra, no lugar de sempre.' Bilhete na sacola: 'câmara fria, 18h'.",
+        "B04 (img 7-9, ~18 palavras): VIRADA, conector então. De volta ao Abacatinho (callback do B01): 'Ela some todo dia às seis. Hoje eu vou atrás.' Tríptico, os três no confessionário, cada um na sua voz: 'Hoje às seis.' (quebra de padrão).",
+        "B05 (img 10, ~4 palavras): o relógio do mercado vira 18:00; os três chegam juntos à porta da câmara fria. Corte seco, cartela PARTE 2."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "O confessionário vira molde repetível da série: cada parte pode abrir com um confessionário diferente."
+      ],
+      "evidencias": [
+        "Dossiê §2 e §5: a versão brasileira da trend é descrita como adaptação de 'Fruit Love Island', série de IA inspirada num reality (c21media, confiança média).",
+        "Contexto do brief: torcida parassocial 'como em reality shows'.",
+        "Nenhuma evidência de desempenho: nenhum título coletado usa confessionário."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "O confessionário resolve o problema central dos 30 s, mostrar a ilusão e o caso sem cena explicativa: cada fruta diz a sua versão em uma frase. E dá ao canal um molde repetível para a série.",
+      "diferencial": "O único ângulo em que o espectador ouve os três lados. A ironia vem da edição (o que cada um diz contra o que a cena mostra), não do narrador, e o tríptico 'hoje às seis' amarra tudo em 3 segundos.",
+      "riscos": [
+        "Três vozes e muitas trocas de fala em 30 s, cada fala gerada à parte. Se passar de 70 palavras, cortar a cena do B02 e deixar só o confessionário.",
+        "Personagem falando para a câmera beira a piscadela que o tom proíbe; os três falam sério, como no reality.",
+        "'Às seis ela me encontra' é o limite da sugestão.",
+        "Não usar nome, logotipo nem vinheta de reality real: a dona de Love Island já ameaçou agir contra uso da marca (dossiê §2).",
+        "Atacafruta [VERIFICAR no INPI] antes de publicar."
+      ]
+    },
+    {
+      "id": "A6",
+      "titulo": "Novela das frutas no supermercado Atacadão",
+      "titulos_alternativos": [
+        "Repositor ou açougueiro? A Moranguete tem que escolher 💔",
+        "Ele pediu a caixa em casamento. O amante tava olhando"
+      ],
+      "marca": {
+        "titulo": "real: Atacadão (título do usuário, sem mudança)",
+        "titulos_alternativos": "sem marca",
+        "no_video": "a narração não diz o nome; nada de logo, cores, fachada ou uniforme da rede"
+      },
+      "molde": "A pergunta que o país discute (o 'quem?' de Vale Tudo) com o pedido de casamento interrompido, cena clássica de novela.",
+      "thumbnail": {
+        "elemento_central": "Abacatinho de joelhos na fila do caixa sete, segurando um anel feito de lacre de pão de forma; Moranguete atrás da esteira, olhos arregalados e marejados; ao fundo, a porta da câmara fria aberta soltando fumaça, e Pepinão de avental, braços cruzados, com o crachá rosa dela na mão; clientes-fruta na fila de boca aberta.",
+        "texto": "ELA ACEITA?",
+        "emocao": "choque e expectativa",
+        "relacao_com_titulo": "O título situa a novela. A thumb põe o pedido e o amante na mesma imagem e faz a pergunta que o vídeo deixa para a parte 2."
+      },
+      "promessa": "Ver a Moranguete encurralada no próprio caixa, com o pedido de casamento do Abacatinho na frente e o Pepinão atrás, no segundo em que ela tem de responder.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "Tensão crescente em linha reta, da pergunta ao 'Eu...', em cerca de 62 palavras. Mais tempo esfriaria o pedido, que precisa vir logo depois da porta se fechar.",
+      "tecnicas": ["loop-aberto", "mas-entao", "callback", "lacuna-de-curiosidade"],
+      "tipo_gancho": "pergunta-direta",
+      "gancho_proposto": "[VISUAL: Moranguete no caixa, no centro; à esquerda, Abacatinho com uma caixa de abacates; à direita, Pepinão de avental no balcão do açougue] Repositor ou açougueiro? Hoje a Moranguete vai ter que escolher.",
+      "estrutura": [
+        "B01 (img 1, ~10 palavras): pergunta direta com os três na mesma imagem. Abre L1: quem ela escolhe? Fica aberto para a parte 2.",
+        "B02 (img 2-3, ~14 palavras): a ilusão. Moranguete, doce: 'Só você me entende, Abacatinho.' Ele, trêmulo: 'Trabalho seis por um por você.'",
+        "B03 (img 4-5, ~14 palavras): conector mas. Olhar com Pepinão, bilhete no troco, a porta da câmara fria se fecha com os dois do lado de dentro (só a porta). Narrador: 'Ele não viu nada. Então comprou um anel.'",
+        "B04 (img 6-8, ~16 palavras): VIRADA. Ela volta ao caixa; ele se ajoelha na fila com o anel de lacre de pão: 'Moranguete... casa comigo?' Atrás dele, Pepinão sai da câmara fria com o crachá dela na mão.",
+        "B05 (img 9-10, ~8 palavras): clímax. Pepinão, grave: 'Responde, Moranguete.' Ela, já chorando: 'Eu...' Corte seco, cartela PARTE 2. CALLBACK do B01: a pergunta da abertura volta na boca dela."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "A parte 2 abre na resposta dela, com a fila inteira olhando."
+      ],
+      "evidencias": [
+        "02-trends.md §2 e §6.4: o triângulo amoroso tem demanda ('🍌 TRIÂNGULO DE FRUTAS 🔥 OLHA ESSA HISTÓRIA!', 1.781.140 views, 50x) e nenhum vídeo coletado o leva para o trabalho.",
+        "02-trends.md §3 e §6.3: numeração de parte no título aparece em pelo menos 12 vídeos, vários outliers ('Historia Do TOMATE (PARTE 1) - NOVELA DE FRUTAS', Universo Alternativo, 1.501.711 views, 37x).",
+        "Dossiê §2 e §5: seguidores comentam teorias sobre os desdobramentos (O Povo); a pergunta 'quem?' de Vale Tudo é o molde de gancho que sustenta torcida.",
+        "Contexto do brief: o público defende e ataca as frutas como em reality. Que uma escolha entre dois lados puxa comentário é inferência: a coleta não tem dado de comentários."
+      ],
+      "aposta": false,
+      "diferencial": "O único ângulo com os três no mesmo quadro no clímax e uma pergunta de duas respostas que o espectador responde nos comentários. O pedido usa objetos de mercado (lacre de pão, fila, esteira).",
+      "riscos": [
+        "O pedido é um passo a mais em 30 s; se apertar, cortar a frase 'então comprou um anel' e deixar o anel falar.",
+        "Se o YouTube classificar o vídeo como infantil, os comentários somem e o ângulo perde o motor; marcar 'não é conteúdo para crianças'.",
+        "O crachá dela na mão dele é o limite da sugestão; nada de roupa trocada ou casaco tirado.",
+        "Marca real no título."
+      ]
+    },
+    {
+      "id": "A7",
+      "titulo": "Novela das frutas no supermercado Atacafruta",
+      "titulos_alternativos": [
+        "O bilhete era pro açougueiro. Caiu na sacola errada 😨",
+        "Moranguete escreveu um bilhete. Não era pro Abacatinho"
+      ],
+      "marca": {
+        "titulo": "fictícia: Atacafruta (título do usuário com só a marca trocada; [VERIFICAR no INPI])",
+        "titulos_alternativos": "sem marca",
+        "no_video": "o nome Atacafruta pode aparecer em sacolas, placas e coletes, porque é da série"
+      },
+      "molde": "Comédia de erros de novela mexicana: o bilhete na mão errada e o confronto a três na porta.",
+      "thumbnail": {
+        "elemento_central": "Abacatinho radiante segura um bilhete rosa com um coração, buquê de salsinha debaixo do braço; por cima do ombro dele, Pepinão de avental lê o mesmo bilhete com a sobrancelha erguida; ao fundo, Moranguete no caixa leva as mãos à boca.",
+        "texto": "NÃO ERA PRA VOCÊ",
+        "emocao": "vergonha alheia e choque cômico",
+        "relacao_com_titulo": "O título dá o lugar. A thumb mostra o objeto (o bilhete), o engano e os três envolvidos, sem dizer o que acontece quando o Abacatinho vai ao encontro."
+      },
+      "promessa": "Ver um bilhete de amor da Moranguete para o Pepinão cair na sacola do Abacatinho e levar os três para a mesma porta da câmara fria.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "O resultado vem primeiro e o caminho é curto (bilhete, ensaio, porta), cerca de 63 palavras em 10 imagens. Mais tempo pediria explicar por que o Pepinão está lá, e isso é assunto da parte 2.",
+      "tecnicas": ["lacuna-de-curiosidade", "loop-aberto", "mas-entao", "callback"],
+      "tipo_gancho": "resultado-primeiro",
+      "gancho_proposto": "[VISUAL: close num bilhete rosa dobrado, com um coração, caindo dentro de uma sacola de compras na esteira do caixa] Esse bilhete era pro açougueiro. Caiu na sacola do repositor.",
+      "estrutura": [
+        "B01 (img 1, ~11 palavras): resultado primeiro: o bilhete já está na sacola errada. Abre L1: o que acontece quando ele for ao encontro?",
+        "B02 (img 2-3, ~14 palavras): o caminho. Moranguete escreve 'Câmara fria, seis horas' e põe na sacola do almoço do Pepinão; o Abacatinho, logo atrás na fila, leva a sacola errada. Ele lê, trêmulo: 'Ela... me chamou?'",
+        "B03 (img 4-6, ~16 palavras): conector então. Ele ensaia diante do reflexo da porta inox, com o buquê de salsinha. No caixa, Moranguete, doce, despista: 'Hoje não dá, Abacatinho.' Ele sorri: acha que é charme. A ilusão continua.",
+        "B04 (img 7-9, ~14 palavras): VIRADA, conector mas. Seis horas. Ele abre a câmara fria: lá dentro, o Pepinão, esperando. Pepinão: 'Você?' Abacatinho: 'Você?!'",
+        "B05 (img 10, ~8 palavras): clímax. Moranguete chega atrás dos dois e vê o bilhete na mão do Abacatinho, já chorando: 'Abacatinho... eu posso explicar.' Corte seco, cartela PARTE 2. CALLBACK do B01: o bilhete na mão errada."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "A parte 2 abre na explicação dela, com os dois homens olhando."
+      ],
+      "evidencias": [
+        "02-trends.md §2 e §3: gancho de segredo ou susto com personagem ('COCARDO TIENE UN SECRETO 😨🥥 Parte 4', Fruti mundo, 232.277 views, 60x; 'LA PROBRESA LA SORPRENDIÓ DE REPENTE', Frutinovelass, 544.056 views, 296x, título que é uma cena de susto).",
+        "02-trends.md §6.4: triângulo com demanda (TRIÂNGULO DE FRUTAS, 50x) e sem versão em local de trabalho.",
+        "Restrição do usuário: o bilhete escondido é um dos sinais do caso que ele mesmo autorizou."
+      ],
+      "aposta": false,
+      "diferencial": "Comédia de erros em vez de flagra: o caso vem à tona por engano, e o clímax é o confronto dos dois na porta, o momento mais novela possível, sem nada além do bilhete.",
+      "riscos": [
+        "O gancho diz 'açougueiro' e 'repositor' porque quem chega pelo feed não conhece os nomes; os nomes entram no B02.",
+        "'Eu posso explicar' quase resolve; se o crítico achar que entrega demais, terminar no 'Você?!' com ela chegando por trás.",
+        "Dois rivais frente a frente na câmara fria: nenhuma faca ou cutelo à vista, o confronto da parte 2 não pode virar ameaça física.",
+        "Atacafruta [VERIFICAR no INPI] antes de publicar."
+      ]
+    }
+  ]
+}

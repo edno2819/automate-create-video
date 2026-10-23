@@ -1,0 +1,87 @@
+{
+  "consulta": {
+    "cmd": "tags",
+    "max": 25,
+    "rapido": false,
+    "termos": [
+      "piratas história curiosidades",
+      "pirata de verdade",
+      "vida de pirata",
+      "pirates real history"
+    ],
+    "dias": 90,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-22 18:26 UTC",
+  "avisos": [
+    "gG4_S_bZXgM: ERROR: [youtube] gG4_S_bZXgM: This video is not available",
+    "yCaqmqoSvLk: ERROR: [youtube] yCaqmqoSvLk: Premieres in 20 days",
+    "DrwkLGhYtWY: ERROR: [youtube] DrwkLGhYtWY: This video is not available",
+    "iMMMXgXbz8Y: ERROR: [youtube] iMMMXgXbz8Y: This video is not available",
+    "skThBBy4Snc: ERROR: [youtube] skThBBy4Snc: This video is not available",
+    "iaCvNQ3BRes: ERROR: [youtube] iaCvNQ3BRes: This video is not available",
+    "MQpXF1fPtKU: ERROR: [youtube] MQpXF1fPtKU: This video is not available",
+    "Sq-DYNKTTNw: ERROR: [youtube] Sq-DYNKTTNw: This video is not available",
+    "R7yQ04Qi3IU: ERROR: [youtube] R7yQ04Qi3IU: This video is not available",
+    "_YU0IAybkuU: ERROR: [youtube] _YU0IAybkuU: This video is not available",
+    "5Lyjk78Kgas: ERROR: [youtube] 5Lyjk78Kgas: This video is not available",
+    "mVcCF2ny9CY: ERROR: [youtube] mVcCF2ny9CY: This video is not available"
+  ],
+  "n_videos": 25,
+  "tags": [],
+  "hashtags": [
+    {
+      "tag": "Pirates",
+      "videos": 2,
+      "views_por_dia": 150,
+      "exemplo": {
+        "titulo": "The Truth Behind Somali Pirates | How Somali Piracy Really Works",
+        "url": "https://www.youtube.com/watch?v=dtcJy4fn9bo",
+        "views_por_dia": 91
+      }
+    },
+    {
+      "tag": "Piratas",
+      "videos": 4,
+      "views_por_dia": 62,
+      "exemplo": {
+        "titulo": "Mi Vida Pirata | Música Pirata Épica · Rock · Folk · Metal en Español",
+        "url": "https://www.youtube.com/watch?v=zrCwNbvBbHk",
+        "views_por_dia": 62
+      }
+    },
+    {
+      "tag": "Historia",
+      "videos": 5,
+      "views_por_dia": 4,
+      "exemplo": {
+        "titulo": "¿Por qué una pulgada mide lo que mide? La verdad oculta del sistema imperial",
+        "url": "https://www.youtube.com/watch?v=tU5OI_Qk9aQ",
+        "views_por_dia": 4
+      }
+    },
+    {
+      "tag": "Curiosidades",
+      "videos": 4,
+      "views_por_dia": 4,
+      "exemplo": {
+        "titulo": "¿Por qué una pulgada mide lo que mide? La verdad oculta del sistema imperial",
+        "url": "https://www.youtube.com/watch?v=tU5OI_Qk9aQ",
+        "views_por_dia": 4
+      }
+    },
+    {
+      "tag": "PiratasDelCaribe",
+      "videos": 2,
+      "views_por_dia": 0,
+      "exemplo": {
+        "titulo": "🏴‍☠️ LOS PIRATAS NO ERAN COMO EN LAS PELÍCULAS… 😱 10 Secretos que Ocultó la Historia",
+        "url": "https://www.youtube.com/watch?v=n_B-kL9EU0A",
+        "views_por_dia": 0
+      }
+    }
+  ]
+}

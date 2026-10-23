@@ -1,0 +1,33 @@
+{
+  "pesquisa": {
+    "em": "2026-10-22T15:18:36",
+    "entradas": {
+      "00-pedido.yaml": "f647ee200d8b08c5"
+    }
+  },
+  "angulos": {
+    "em": "2026-10-22T15:18:36",
+    "entradas": {
+      "02-dossie.md": "19c50eaf430a2ab0"
+    }
+  },
+  "roteiro": {
+    "em": "2026-10-22T15:18:36",
+    "entradas": {
+      "04-angulo-escolhido.json": "6f91a6d913fd6635"
+    }
+  },
+  "visual": {
+    "em": "2026-10-22T15:18:36",
+    "entradas": {
+      "06-roteiro-final.md": "4049681da719580e"
+    }
+  },
+  "producao": {
+    "em": "2026-10-22T15:28:18",
+    "entradas": {
+      "06-roteiro-final.md": "4049681da719580e",
+      "08-cenas.json": "7d6c8ee989e98483"
+    }
+  }
+}

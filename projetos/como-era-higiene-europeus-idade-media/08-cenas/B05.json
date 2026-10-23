@@ -1,0 +1,50 @@
+[
+  {
+    "trecho": "Lá por mil cento e oitenta e cinco, reza a história,",
+    "tipo": "cartela",
+    "texto_na_tela": "PARIS, c. 1185",
+    "descricao": "Cartela de data sobre um mapa antigo de Paris: o momento documental que situa a virada no tempo.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "an aged parchment map of medieval Paris on the Seine, the Ile de la Cite at the center, tiny churches and walls, brown ink faded and stained, candlelight on the parchment",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "o rei Filipe Augusto abriu a janela do palácio.",
+    "tipo": "ilustracao",
+    "descricao": "O rei de costas, abrindo as folhas de carvalho da janela, e a rua de lama lá embaixo: ele está prestes a sentir o que o 'você' sente.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P02"],
+    "local": "L03",
+    "objetos": ["O01"],
+    "prompt_cena": "the king seen from behind pushing open the heavy oak shutters with both hands, morning light flooding in, the crowded muddy street with carts visible far below, the gold pomander dangling from his belt",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O fedor da lama subiu pro nariz do homem mais poderoso da França.",
+    "tipo": "ilustracao",
+    "descricao": "A virada, como pede o roteiro: o rei na janela, torcendo o nariz com um lenço, enquanto as carroças levantam lama lá embaixo. O homem mais poderoso da França com a mesma cara do camponês do gancho.",
+    "enquadramento": "close",
+    "personagens": ["P02"],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the king leaning out of the window recoiling in exaggerated disgust, his long nose wrinkled, pressing a white linen handkerchief to his face, eyes watering, crown slightly askew, carts throwing up mud in the blurred street far below",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mandou pavimentar as ruas de Paris. Todas?",
+    "tipo": "ilustracao",
+    "descricao": "Paris vista do alto: uma única rua larga ganhando pedras novas, com operários assentando o calçamento, e todas as vielas em volta ainda de lama. A imagem já responde 'Todas?' antes da narração.",
+    "enquadramento": "aereo",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "medieval Paris from high above, one wide main street gleaming with freshly laid pale paving stones and workers kneeling to set more, while every narrow side street around it remains dark churned mud, carts entering the clean street, ironic contrast",
+    "movimento": "descer",
+    "transicao": "corte"
+  }
+]

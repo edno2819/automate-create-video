@@ -1,0 +1,497 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 31.647,
+  "duracao_video_s": 32.247,
+  "fonte": "faster-whisper small",
+  "voz": "Sadaltager",
+  "personagens": {
+    "Moranguete": "Leda",
+    "Abacatinho": "Achird",
+    "Pepinão": "Algenib"
+  },
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Moranguete...",
+          "inicio": 0.74,
+          "fim": 1.38
+        },
+        {
+          "texto": "você",
+          "inicio": 1.76,
+          "fim": 2.3
+        },
+        {
+          "texto": "tá",
+          "inicio": 2.3,
+          "fim": 2.52
+        },
+        {
+          "texto": "aí",
+          "inicio": 2.52,
+          "fim": 2.64
+        },
+        {
+          "texto": "dentro?",
+          "inicio": 2.64,
+          "fim": 2.92
+        }
+      ],
+      "fim_s": 3.537
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 3.537,
+      "palavras": [
+        {
+          "texto": "Dez",
+          "inicio": 3.537,
+          "fim": 3.857
+        },
+        {
+          "texto": "minutos",
+          "inicio": 3.857,
+          "fim": 4.277
+        },
+        {
+          "texto": "antes.",
+          "inicio": 4.277,
+          "fim": 4.777
+        },
+        {
+          "texto": "Caixa",
+          "inicio": 5.317,
+          "fim": 5.757
+        },
+        {
+          "texto": "sete.",
+          "inicio": 5.757,
+          "fim": 6.274
+        }
+      ],
+      "fim_s": 6.274
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 6.274,
+      "palavras": [
+        {
+          "texto": "Bombom",
+          "inicio": 6.274,
+          "fim": 6.997
+        },
+        {
+          "texto": "de",
+          "inicio": 7.077,
+          "fim": 7.257
+        },
+        {
+          "texto": "novo?",
+          "inicio": 7.257,
+          "fim": 7.657
+        },
+        {
+          "texto": "Só",
+          "inicio": 8.097,
+          "fim": 8.457
+        },
+        {
+          "texto": "você",
+          "inicio": 8.457,
+          "fim": 8.837
+        },
+        {
+          "texto": "me",
+          "inicio": 8.837,
+          "fim": 8.957
+        },
+        {
+          "texto": "entende,",
+          "inicio": 8.957,
+          "fim": 9.317
+        },
+        {
+          "texto": "Abacatinho.",
+          "inicio": 9.377,
+          "fim": 9.917
+        }
+      ],
+      "fim_s": 10.197
+    },
+    {
+      "id": "B02-03",
+      "inicio_s": 10.197,
+      "palavras": [
+        {
+          "texto": "Trabalho",
+          "inicio": 10.197,
+          "fim": 10.657
+        },
+        {
+          "texto": "seis",
+          "inicio": 10.657,
+          "fim": 10.917
+        },
+        {
+          "texto": "por",
+          "inicio": 10.917,
+          "fim": 11.217
+        },
+        {
+          "texto": "um",
+          "inicio": 11.217,
+          "fim": 11.357
+        },
+        {
+          "texto": "por",
+          "inicio": 11.357,
+          "fim": 11.557
+        },
+        {
+          "texto": "você.",
+          "inicio": 11.557,
+          "fim": 11.997
+        }
+      ],
+      "fim_s": 12.496
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 12.496,
+      "palavras": [
+        {
+          "texto": "Mas",
+          "inicio": 12.496,
+          "fim": 12.696
+        },
+        {
+          "texto": "ela",
+          "inicio": 12.696,
+          "fim": 12.876
+        },
+        {
+          "texto": "só",
+          "inicio": 12.876,
+          "fim": 13.096
+        },
+        {
+          "texto": "olha",
+          "inicio": 13.096,
+          "fim": 13.436
+        },
+        {
+          "texto": "pro",
+          "inicio": 13.436,
+          "fim": 13.636
+        },
+        {
+          "texto": "açougueiro.",
+          "inicio": 13.636,
+          "fim": 14.256
+        }
+      ],
+      "fim_s": 14.516
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 14.516,
+      "palavras": [
+        {
+          "texto": "Cinco",
+          "inicio": 14.516,
+          "fim": 14.856
+        },
+        {
+          "texto": "minutos.",
+          "inicio": 14.856,
+          "fim": 15.156
+        },
+        {
+          "texto": "Câmara",
+          "inicio": 15.736,
+          "fim": 16.076
+        },
+        {
+          "texto": "fria.",
+          "inicio": 16.076,
+          "fim": 16.416
+        }
+      ],
+      "fim_s": 16.676
+    },
+    {
+      "id": "B03-03",
+      "inicio_s": 16.676,
+      "palavras": [
+        {
+          "texto": "Segura",
+          "inicio": 16.676,
+          "fim": 17.136
+        },
+        {
+          "texto": "meu",
+          "inicio": 17.136,
+          "fim": 17.276
+        },
+        {
+          "texto": "caixa,",
+          "inicio": 17.276,
+          "fim": 17.616
+        },
+        {
+          "texto": "amor?",
+          "inicio": 17.676,
+          "fim": 17.796
+        },
+        {
+          "texto": "Vou",
+          "inicio": 18.256,
+          "fim": 18.356
+        },
+        {
+          "texto": "buscar",
+          "inicio": 18.356,
+          "fim": 18.576
+        },
+        {
+          "texto": "troco.",
+          "inicio": 18.576,
+          "fim": 18.936
+        }
+      ],
+      "fim_s": 19.216
+    },
+    {
+      "id": "B03-04",
+      "inicio_s": 19.216,
+      "palavras": [
+        {
+          "texto": "A",
+          "inicio": 19.216,
+          "fim": 19.376
+        },
+        {
+          "texto": "câmara",
+          "inicio": 19.376,
+          "fim": 19.656
+        },
+        {
+          "texto": "fria",
+          "inicio": 19.656,
+          "fim": 20.056
+        },
+        {
+          "texto": "se",
+          "inicio": 20.056,
+          "fim": 20.196
+        },
+        {
+          "texto": "fecha.",
+          "inicio": 20.196,
+          "fim": 20.676
+        },
+        {
+          "texto": "E",
+          "inicio": 20.936,
+          "fim": 21.156
+        },
+        {
+          "texto": "ele,",
+          "inicio": 21.156,
+          "fim": 21.376
+        },
+        {
+          "texto": "segurando",
+          "inicio": 21.376,
+          "fim": 21.936
+        },
+        {
+          "texto": "o",
+          "inicio": 21.936,
+          "fim": 22.016
+        },
+        {
+          "texto": "caixa",
+          "inicio": 22.016,
+          "fim": 22.316
+        },
+        {
+          "texto": "dela.",
+          "inicio": 22.316,
+          "fim": 22.496
+        }
+      ],
+      "fim_s": 22.918
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 22.918,
+      "palavras": [
+        {
+          "texto": "Ela",
+          "inicio": 22.918,
+          "fim": 23.238
+        },
+        {
+          "texto": "não",
+          "inicio": 23.238,
+          "fim": 23.378
+        },
+        {
+          "texto": "volta.",
+          "inicio": 23.378,
+          "fim": 23.678
+        },
+        {
+          "texto": "Ele",
+          "inicio": 24.218,
+          "fim": 24.258
+        },
+        {
+          "texto": "procura,",
+          "inicio": 24.258,
+          "fim": 24.758
+        },
+        {
+          "texto": "bombom",
+          "inicio": 24.758,
+          "fim": 25.398
+        },
+        {
+          "texto": "na",
+          "inicio": 25.398,
+          "fim": 25.518
+        },
+        {
+          "texto": "mão.",
+          "inicio": 25.518,
+          "fim": 25.738
+        }
+      ],
+      "fim_s": 26.098
+    },
+    {
+      "id": "B04-02",
+      "inicio_s": 26.098,
+      "palavras": [
+        {
+          "texto": "Acha",
+          "inicio": 26.098,
+          "fim": 26.538
+        },
+        {
+          "texto": "o",
+          "inicio": 26.538,
+          "fim": 26.618
+        },
+        {
+          "texto": "crachá",
+          "inicio": 26.618,
+          "fim": 26.898
+        },
+        {
+          "texto": "dela,",
+          "inicio": 26.898,
+          "fim": 27.118
+        },
+        {
+          "texto": "preso",
+          "inicio": 27.118,
+          "fim": 27.878
+        },
+        {
+          "texto": "na",
+          "inicio": 27.878,
+          "fim": 27.938
+        },
+        {
+          "texto": "maçaneta.",
+          "inicio": 27.938,
+          "fim": 28.378
+        }
+      ],
+      "fim_s": 28.943
+    },
+    {
+      "id": "B05-01",
+      "inicio_s": 28.943,
+      "palavras": [
+        {
+          "texto": "Ele",
+          "inicio": 28.943,
+          "fim": 29.203
+        },
+        {
+          "texto": "puxa.",
+          "inicio": 29.203,
+          "fim": 29.723
+        }
+      ],
+      "fim_s": 30.703
+    },
+    {
+      "id": "B05-02",
+      "inicio_s": 30.703,
+      "palavras": [
+        {
+          "texto": "Moranguete...",
+          "inicio": 30.703,
+          "fim": 31.423
+        }
+      ],
+      "fim_s": 32.247
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 5,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 92
+    },
+    {
+      "bloco": "B02",
+      "palavras": 19,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 1,
+      "extras": [
+        {
+          "texto": "7. Bom, bom,",
+          "em_s": 2.22
+        }
+      ],
+      "ppm_real": 131
+    },
+    {
+      "bloco": "B03",
+      "palavras": 28,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 166
+    },
+    {
+      "bloco": "B04",
+      "palavras": 15,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 157
+    },
+    {
+      "bloco": "B05",
+      "palavras": 3,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 66
+    }
+  ],
+  "alertas": []
+}

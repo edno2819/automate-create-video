@@ -1,0 +1,834 @@
+{
+  "projeto": "como-era-cada-cargo-navio-pirata-fork",
+  "roteiro": "projetos/como-era-cada-cargo-navio-pirata-fork/06-roteiro-final.md",
+  "gerado_em": "2026-10-22",
+  "proporcao": "9:16",
+  "duracao_estimada": "01:29",
+  "total_cenas": 25,
+  "alertas": [],
+  "thumbnail": {
+    "descricao": "Filme x real num quadro só: o marujo grande em primeiro plano, sujo, coçando a cabeça e segurando o biscoito com carunchos, careta de nojo irônica; atrás dele, longe e desfocado, o galeão de cinema brilha dourado, enquanto o lado dele é a coberta escura à luz de lanterna. Alto do quadro livre para o texto.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "the young sailor fills the lower two thirds of the frame, filthy and gaunt, scratching his lice-ridden head with one hand and holding up a weevil-riddled ship's biscuit with the other, a sour ironic grimace of disgust; behind him the light splits, a gleaming white-sailed galleon glowing in golden haze far off on one side, his dark lantern-lit hold on the other; plain dark upper third",
+    "texto": "Filme x real",
+    "posicao_texto": "alto",
+    "tipo": "ilustracao",
+    "fonte": "ia",
+    "prompt_final": "Medium shot. The young sailor fills the lower two thirds of the frame, filthy and gaunt, scratching his lice-ridden head with one hand and holding up a weevil-riddled ship's biscuit with the other, a sour ironic grimace of disgust; behind him the light splits, a gleaming white-sailed galleon glowing in golden haze far off on one side, his dark lantern-lit hold on the other; plain dark upper third. YouTube thumbnail: one clear focal subject that reads at a small size, bold silhouette, expressive emotion, strong contrast and saturated accent colors, uncluttered background. Keep the top third of the frame clean and empty for a large title overlay; the subject stays out of it. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks. Props: a thick square ship's biscuit, pale and rock-hard, cracked and riddled with tiny weevil holes. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+    "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+    "referencias": [
+      "P01",
+      "L01",
+      "O01"
+    ],
+    "id": "thumbnail"
+  },
+  "cenas": [
+    {
+      "trecho": "Venha descobrir se você aguentaria ser um pirata.",
+      "tipo": "ilustracao",
+      "descricao": "O navio do cinema: um galeão enorme, velas brancas impecáveis, luz dourada. É o mito que o vídeo desmonta, e o quadro em que o replay emenda.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a colossal pristine three-masted galleon with spotless billowing white sails and gilded carved stern lanterns gliding over a calm golden sea at sunset, heroic theatrical glow, everything too clean and grand to be real",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. A colossal pristine three-masted galleon with spotless billowing white sails and gilded carved stern lanterns gliding over a calm golden sea at sunset, heroic theatrical glow, everything too clean and grand to be real. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B01-01",
+      "bloco": "B01",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:00",
+      "fim": "00:03",
+      "inicio_s": 0.0,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Esquece o cinema: o navio era pequeno,",
+      "tipo": "ilustracao",
+      "descricao": "O galeão se desfaz no real: um barco pequeno visto do alto, o convés apinhado de piratas, minúsculo no mar escuro.",
+      "enquadramento": "aereo",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a small battered single-mast pirate sloop, its narrow deck crammed shoulder to shoulder with ragged pirates, patched sails, tiny and fragile on a vast dark green sea, the golden glamour gone",
+      "movimento": "zoom-out",
+      "transicao": "fade",
+      "fonte": "ia",
+      "prompt_final": "High aerial view. A small battered single-mast pirate sloop, its narrow deck crammed shoulder to shoulder with ragged pirates, patched sails, tiny and fragile on a vast dark green sea, the golden glamour gone. Setting: the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "palavras": [
+        8,
+        15
+      ],
+      "inicio": "00:03",
+      "fim": "00:06",
+      "inicio_s": 3.2,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "e o capitão podia ser demitido no voto.",
+      "tipo": "ilustracao",
+      "descricao": "A tripulação levanta as mãos no voto; o capitão, isolado junto ao mastro, percebe que está sendo deposto.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "ragged pirates crowded on the deck raising their hands in a show-of-hands vote, while the captain stands apart by the mast, jaw clenched, realizing he is being voted out, tense sunset light",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. Ragged pirates crowded on the deck raising their hands in a show-of-hands vote, while the captain stands apart by the mast, jaw clenched, realizing he is being voted out, tense sunset light. Character: the captain, a tall man in his fifties with ruddy weathered pale skin, long braided black beard streaked with gray, a deep crease between the eyebrows, wearing a stained crimson long coat with frayed gold trim over a dirty white shirt, a battered black tricorn hat with a single gray feather, and a cutlass on a wide leather baldric. Setting: the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P04",
+        "L02"
+      ],
+      "id": "B01-03",
+      "bloco": "B01",
+      "palavras": [
+        15,
+        23
+      ],
+      "inicio": "00:06",
+      "fim": "00:09",
+      "inicio_s": 6.0,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "O capitão Charles Vane se recusou a atacar um navio,",
+      "tipo": "ilustracao",
+      "fonte": "internet",
+      "busca": [
+        "Charles Vane pirate engraving",
+        "Charles Vane pirate",
+        "pirate captain engraving 1724"
+      ],
+      "texto_na_tela": "CAPITÃO CHARLES VANE",
+      "descricao": "Prova documental: a gravura de época de Charles Vane, do livro de Johnson (1724).",
+      "enquadramento": "close",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "an early 18th-century pirate captain in a dark coat and tricorn hat on a ship's deck, lowering his spyglass and turning away from a distant merchant ship while his crew glares at him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. An early 18th-century pirate captain in a dark coat and tricorn hat on a ship's deck, lowering his spyglass and turning away from a distant merchant ship while his crew glares at him. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B02-01",
+      "bloco": "B02",
+      "palavras": [
+        0,
+        10
+      ],
+      "inicio": "00:09",
+      "fim": "00:13",
+      "inicio_s": 9.2,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "e a tripulação trocou ele por Calico Jack.",
+      "tipo": "ilustracao",
+      "fonte": "internet",
+      "busca": [
+        "John Rackham engraving",
+        "Calico Jack Rackham",
+        "Jack Rackham pirate"
+      ],
+      "texto_na_tela": "CALICO JACK",
+      "descricao": "A gravura de época de John Rackham, o Calico Jack, o substituto eleito.",
+      "enquadramento": "close",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a grinning pirate in a striped calico coat cheered by his crew on a sloop deck at sunset, a deposed captain led away in the background",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Close-up shot. A grinning pirate in a striped calico coat cheered by his crew on a sloop deck at sunset, a deposed captain led away in the background. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B02-02",
+      "bloco": "B02",
+      "palavras": [
+        10,
+        18
+      ],
+      "inicio": "00:13",
+      "fim": "00:16",
+      "inicio_s": 13.2,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Mas nem o capitão mandava sozinho.",
+      "tipo": "cartela",
+      "texto_na_tela": "QUEM MANDAVA JUNTO?",
+      "descricao": "Re-hook: o chapéu do capitão sobre as regras e, ao lado, uma segunda mão firme sobre o pergaminho. Alguém divide o comando.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "a battered black tricorn hat with a single gray feather resting on the ship's articles on a table, and beside it the quartermaster's heavy hand pressed flat on the parchment, claiming it, only his hand and forearm visible, lantern light",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. A battered black tricorn hat with a single gray feather resting on the ship's articles on a table, and beside it the quartermaster's heavy hand pressed flat on the parchment, claiming it, only his hand and forearm visible, lantern light. Background plate for a title card, calm composition with empty space in the center. Character: the quartermaster, a broad-shouldered man in his forties with deep brown skin, a shaved head, a short gray beard, a heavy-lidded calculating gaze and a gold ring in his left ear, wearing a sleeveless brown leather jerkin over a dark green shirt, a wide belt with a brass-bound coin purse and a small iron key hanging from it. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P03",
+        "L01",
+        "O02"
+      ],
+      "id": "B02-03",
+      "bloco": "B02",
+      "palavras": [
+        18,
+        24
+      ],
+      "inicio": "00:16",
+      "fim": "00:19",
+      "inicio_s": 16.4,
+      "duracao_s": 2.4
+    },
+    {
+      "trecho": "Fora da batalha, mandava junto um cargo que o cinema esquece: o quartel-mestre.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "QUARTEL-MESTRE",
+      "descricao": "O quartel-mestre em foco, de braços cruzados, calculista; o capitão atrás dele, na sombra e fora de foco. O poder dividido na própria composição.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P03",
+        "P04"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the quartermaster stands at the mess table in sharp focus, arms crossed, calm and calculating, while the captain sits half turned behind him in shadow, slightly out of focus, power clearly shared",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. The quartermaster stands at the mess table in sharp focus, arms crossed, calm and calculating, while the captain sits half turned behind him in shadow, slightly out of focus, power clearly shared. Characters: the quartermaster, a broad-shouldered man in his forties with deep brown skin, a shaved head, a short gray beard, a heavy-lidded calculating gaze and a gold ring in his left ear, wearing a sleeveless brown leather jerkin over a dark green shirt, a wide belt with a brass-bound coin purse and a small iron key hanging from it; the captain, a tall man in his fifties with ruddy weathered pale skin, long braided black beard streaked with gray, a deep crease between the eyebrows, wearing a stained crimson long coat with frayed gold trim over a dirty white shirt, a battered black tricorn hat with a single gray feather, and a cutlass on a wide leather baldric. Setting: the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P03",
+        "P04",
+        "L01"
+      ],
+      "id": "B03-01",
+      "bloco": "B03",
+      "palavras": [
+        0,
+        13
+      ],
+      "inicio": "00:19",
+      "fim": "00:24",
+      "inicio_s": 18.8,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "Era ele quem dividia o tesouro e o rum.",
+      "tipo": "ilustracao",
+      "descricao": "As mãos do quartel-mestre separando as moedas em montes iguais, o barril de rum ao lado com os canecos em fila, olhos cobiçosos em volta.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O04",
+        "O05"
+      ],
+      "prompt_cena": "the quartermaster's hands splitting a heap of pieces of eight into small equal piles on the mess table, the rum cask beside him with a row of dented tin cups waiting, greedy eyes of pirates glinting in the dark around the table",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The quartermaster's hands splitting a heap of pieces of eight into small equal piles on the mess table, the rum cask beside him with a row of dented tin cups waiting, greedy eyes of pirates glinting in the dark around the table. Character: the quartermaster, a broad-shouldered man in his forties with deep brown skin, a shaved head, a short gray beard, a heavy-lidded calculating gaze and a gold ring in his left ear, wearing a sleeveless brown leather jerkin over a dark green shirt, a wide belt with a brass-bound coin purse and a small iron key hanging from it. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: irregular tarnished silver pieces of eight, hand-cut coins with worn stamped crosses; a small battered oak rum cask with iron hoops and a brass spigot, a dented tin cup hanging from it. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P03",
+        "L01",
+        "O04",
+        "O05"
+      ],
+      "id": "B03-02",
+      "bloco": "B03",
+      "palavras": [
+        13,
+        22
+      ],
+      "inicio": "00:24",
+      "fim": "00:28",
+      "inicio_s": 24.0,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "E você é só marujo. Sua cabeça coça de piolho,",
+      "tipo": "ilustracao",
+      "texto_na_tela": "MARUJO",
+      "descricao": "Você entra: o jovem marujo de costas e de perfil, espremido entre redes, coçando a cabeça com força.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the young sailor seen from behind in three-quarter profile, squeezed between sagging hammocks packed side by side, scratching his scalp hard with dirty fingernails, irritated, grime and sweat on his neck",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. The young sailor seen from behind in three-quarter profile, squeezed between sagging hammocks packed side by side, scratching his scalp hard with dirty fingernails, irritated, grime and sweat on his neck. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B04-01",
+      "bloco": "B04",
+      "palavras": [
+        0,
+        10
+      ],
+      "inicio": "00:28",
+      "fim": "00:32",
+      "inicio_s": 27.6,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "você bebe rum porque a água apodrece,",
+      "tipo": "ilustracao",
+      "descricao": "O que você vê: suas mãos enchendo o caneco de rum, ao lado de um barril de água verde, viscosa, com espuma boiando.",
+      "enquadramento": "pov",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O05"
+      ],
+      "prompt_cena": "the young sailor's own hands seen from his eyes, filling the dented tin cup with rum from the cask's spigot, next to an open water barrel whose surface is green, slimy and clouded with floating scum",
+      "movimento": "descer",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "First-person point-of-view shot. The young sailor's own hands seen from his eyes, filling the dented tin cup with rum from the cask's spigot, next to an open water barrel whose surface is green, slimy and clouded with floating scum. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: a small battered oak rum cask with iron hoops and a brass spigot, a dented tin cup hanging from it. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01",
+        "O05"
+      ],
+      "id": "B04-02",
+      "bloco": "B04",
+      "palavras": [
+        10,
+        17
+      ],
+      "inicio": "00:32",
+      "fim": "00:34",
+      "inicio_s": 31.6,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "e bate o biscoito na mesa pros carunchos caírem.",
+      "tipo": "ilustracao",
+      "descricao": "A mão suja bate o biscoito na mesa; carunchos pretos caem na madeira. O detalhe nojento, dito com naturalidade.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the young sailor's dirty hand slamming the ship's biscuit against the mess table, tiny black weevils shaken loose and falling onto the scarred wood, crumbs flying, only the hand and forearm visible, disgusting and matter-of-fact",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The young sailor's dirty hand slamming the ship's biscuit against the mess table, tiny black weevils shaken loose and falling onto the scarred wood, crumbs flying, only the hand and forearm visible, disgusting and matter-of-fact. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: a thick square ship's biscuit, pale and rock-hard, cracked and riddled with tiny weevil holes. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01",
+        "O01"
+      ],
+      "id": "B04-03",
+      "bloco": "B04",
+      "palavras": [
+        17,
+        26
+      ],
+      "inicio": "00:34",
+      "fim": "00:38",
+      "inicio_s": 34.4,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "Pelo menos pirata não tem regra, né?",
+      "tipo": "ilustracao",
+      "descricao": "O mito da bagunça: piratas jogando dados, bebendo e dançando em volta da mesa, sem lei nenhuma.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "rowdy pirates gambling with dice and swigging from bottles around the mess table, one dancing on a barrel, chaotic lawless revelry under swaying lanterns",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. Rowdy pirates gambling with dice and swigging from bottles around the mess table, one dancing on a barrel, chaotic lawless revelry under swaying lanterns. Setting: the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L01"
+      ],
+      "id": "B04-04",
+      "bloco": "B04",
+      "palavras": [
+        26,
+        33
+      ],
+      "inicio": "00:38",
+      "fim": "00:41",
+      "inicio_s": 38.0,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "No filme, o código é só uma sugestão.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "NO FILME",
+      "descricao": "A versão de cinema, na luz dourada e teatral: um pirata vaidoso, rosto escondido pela aba do chapéu, despreza as regras com um peteleco.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "a flamboyant pirate in a lavish velvet coat lounging with his boots up on a candlelit table, lazily flicking the ship's articles off the edge with one finger, his face hidden under a wide feathered hat brim, theatrical golden stage-like glow",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A flamboyant pirate in a lavish velvet coat lounging with his boots up on a candlelit table, lazily flicking the ship's articles off the edge with one finger, his face hidden under a wide feathered hat brim, theatrical golden stage-like glow. Props: a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "O02"
+      ],
+      "id": "B05-01",
+      "bloco": "B05",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:41",
+      "fim": "00:44",
+      "inicio_s": 40.8,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Na real, você jurava regras: oitocentas moedas de prata",
+      "tipo": "ilustracao",
+      "texto_na_tela": "NA REAL",
+      "descricao": "O juramento, por sobre o ombro do marujo: a mão espalmada nas regras, o quartel-mestre do outro lado com a pilha de moedas. Composição que volta no B09.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01",
+        "P03"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O02",
+        "O04"
+      ],
+      "prompt_cena": "the young sailor seen from behind, pressing his right palm flat on the ship's articles laid on the mess table, the quartermaster facing him across the table beside a tall stack of pieces of eight, a ring of pirates watching from the shadows, solemn oath",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. The young sailor seen from behind, pressing his right palm flat on the ship's articles laid on the mess table, the quartermaster facing him across the table beside a tall stack of pieces of eight, a ring of pirates watching from the shadows, solemn oath. Characters: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck; the quartermaster, a broad-shouldered man in his forties with deep brown skin, a shaved head, a short gray beard, a heavy-lidded calculating gaze and a gold ring in his left ear, wearing a sleeveless brown leather jerkin over a dark green shirt, a wide belt with a brass-bound coin purse and a small iron key hanging from it. Setting: the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks. Props: a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar; irregular tarnished silver pieces of eight, hand-cut coins with worn stamped crosses. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "P03",
+        "L01",
+        "O02",
+        "O04"
+      ],
+      "id": "B05-02",
+      "bloco": "B05",
+      "palavras": [
+        8,
+        17
+      ],
+      "inicio": "00:44",
+      "fim": "00:48",
+      "inicio_s": 44.0,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "pra quem perdesse um braço. E quem operava esse braço?",
+      "tipo": "ilustracao",
+      "texto_na_tela": "800 MOEDAS POR UM BRAÇO",
+      "descricao": "As moedas sobre as regras e, logo além, na beira da luz, a serra do carpinteiro. A indenização e a ameaça no mesmo quadro, puxando o re-hook.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O02",
+        "O04",
+        "O03"
+      ],
+      "prompt_cena": "a tall stack of pieces of eight resting on the ship's articles, and just beyond it, half in shadow at the edge of the lantern light, the carpenter's saw lying on the table, a quiet threat",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. A tall stack of pieces of eight resting on the ship's articles, and just beyond it, half in shadow at the edge of the lantern light, the carpenter's saw lying on the table, a quiet threat. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar; irregular tarnished silver pieces of eight, hand-cut coins with worn stamped crosses; a large rusty carpenter's wood saw with a worn wooden handle and uneven teeth dusted with sawdust. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L01",
+        "O02",
+        "O04",
+        "O03"
+      ],
+      "id": "B05-03",
+      "bloco": "B05",
+      "palavras": [
+        17,
+        27
+      ],
+      "inicio": "00:48",
+      "fim": "00:52",
+      "inicio_s": 47.6,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Muitas vezes, um cirurgião sequestrado de outro navio.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "CIRURGIÃO",
+      "descricao": "Um cirurgião de navio mercante arrastado pelo convés por dois piratas, agarrado à caixa de instrumentos; o navio capturado fumega atrás.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a terrified middle-aged ship's surgeon in a gray wig and a dark merchant's coat hauled across the deck by two pirates gripping his arms, clutching his wooden instrument chest, a captured merchant ship smoking behind them",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A terrified middle-aged ship's surgeon in a gray wig and a dark merchant's coat hauled across the deck by two pirates gripping his arms, clutching his wooden instrument chest, a captured merchant ship smoking behind them. Setting: the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B06-01",
+      "bloco": "B06",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:52",
+      "fim": "00:55",
+      "inicio_s": 51.6,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Sem ele, operava o carpinteiro, com a serra de cortar madeira.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "CARPINTEIRO",
+      "descricao": "Você, deitado na mesa, vê o carpinteiro de baixo, arregaçando as mangas com a serra na mão e a lanterna atrás da cabeça. O pico do medo, sem ferida.",
+      "enquadramento": "pov",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "a grim bald ship's carpenter in a leather apron with sawdust on his forearms looming over the viewer lying on the mess table, rolling up his sleeves with the carpenter's saw in one hand, a bitten leather strap dangling from the other, lantern glowing behind his head",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "First-person point-of-view shot. A grim bald ship's carpenter in a leather apron with sawdust on his forearms looming over the viewer lying on the mess table, rolling up his sleeves with the carpenter's saw in one hand, a bitten leather strap dangling from the other, lantern glowing behind his head. Setting: dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern. Props: a large rusty carpenter's wood saw with a worn wooden handle and uneven teeth dusted with sawdust. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L01",
+        "O03"
+      ],
+      "id": "B06-02",
+      "bloco": "B06",
+      "palavras": [
+        8,
+        19
+      ],
+      "inicio": "00:55",
+      "fim": "00:59",
+      "inicio_s": 54.8,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "Até o músico era sequestrado, pra tocar violino",
+      "tipo": "ilustracao",
+      "texto_na_tela": "MÚSICO",
+      "descricao": "O músico capturado, pálido, aperta o violino contra o peito; um punho de pirata agarra o colarinho dele por trás.",
+      "enquadramento": "close",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the musician clutching his violin to his chest, a pirate's rough fist gripping his collar from behind, wide-eyed and pale, forced to play",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The musician clutching his violin to his chest, a pirate's rough fist gripping his collar from behind, wide-eyed and pale, forced to play. Character: the musician, a gaunt man in his late thirties with pale skin, hollow cheeks, thinning gray-streaked hair tied in a ribbon, a neatly trimmed but grown-out beard, wearing a once-elegant faded blue frock coat with tarnished brass buttons and a torn lace cravat, holding a battered dark violin and bow. Setting: weathered gray deck planks, tarred ropes and a wooden rail against a hazy fiery orange sunset sky. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P02",
+        "L02"
+      ],
+      "id": "B07-01",
+      "bloco": "B07",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:59",
+      "fim": "01:02",
+      "inicio_s": 59.2,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "no ataque e assustar o outro navio.",
+      "tipo": "ilustracao",
+      "descricao": "Visto de baixo, contra o pôr do sol: o músico toca freneticamente na amurada, entre piratas uivando, com o casco do navio atacado bem ao lado.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the musician sawing frantically at his violin at the ship's rail, surrounded by howling pirates raising cutlasses and boarding hooks, the hull of a frightened merchant ship looming close alongside, drifting smoke",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. The musician sawing frantically at his violin at the ship's rail, surrounded by howling pirates raising cutlasses and boarding hooks, the hull of a frightened merchant ship looming close alongside, drifting smoke. Character: the musician, a gaunt man in his late thirties with pale skin, hollow cheeks, thinning gray-streaked hair tied in a ribbon, a neatly trimmed but grown-out beard, wearing a once-elegant faded blue frock coat with tarnished brass buttons and a torn lace cravat, holding a battered dark violin and bow. Setting: the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P02",
+        "L02"
+      ],
+      "id": "B07-02",
+      "bloco": "B07",
+      "palavras": [
+        8,
+        15
+      ],
+      "inicio": "01:02",
+      "fim": "01:05",
+      "inicio_s": 62.4,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "E quem quebrava as regras? Andava na prancha?",
+      "tipo": "ilustracao",
+      "fonte": "internet",
+      "busca": [
+        "Howard Pyle walking the plank",
+        "walking the plank illustration",
+        "walking the plank"
+      ],
+      "descricao": "O mito em imagem real: a pintura de Howard Pyle (1887) que ajudou a fixar a prancha no imaginário. Abre o momento documental que segue no B08.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a blindfolded man with bound hands edging along a plank jutting from a pirate ship's rail over the dark sea, pirates jeering behind him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. A blindfolded man with bound hands edging along a plank jutting from a pirate ship's rail over the dark sea, pirates jeering behind him. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B07-03",
+      "bloco": "B07",
+      "palavras": [
+        15,
+        23
+      ],
+      "inicio": "01:05",
+      "fim": "01:08",
+      "inicio_s": 65.2,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Quase não tem registro.",
+      "tipo": "cartela",
+      "texto_na_tela": "QUASE NENHUM REGISTRO",
+      "descricao": "Quebra de padrão: a prancha, agora vazia, vista de cima sobre a água escura. A pausa fica nela.",
+      "enquadramento": "plongee",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "an empty weathered plank jutting out from the ship's rail over dark churning water, nobody on it, mist drifting, eerie silence",
+      "movimento": "estatico",
+      "transicao": "fade",
+      "fonte": "ia",
+      "prompt_final": "High-angle shot. An empty weathered plank jutting out from the ship's rail over dark churning water, nobody on it, mist drifting, eerie silence. Background plate for a title card, calm composition with empty space in the center. Setting: the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B08-01",
+      "bloco": "B08",
+      "palavras": [
+        0,
+        4
+      ],
+      "inicio": "01:08",
+      "fim": "01:11",
+      "inicio_s": 68.4,
+      "duracao_s": 2.6
+    },
+    {
+      "trecho": "O castigo real era pior, porque demorava: te largavam sozinho numa ilha,",
+      "tipo": "ilustracao",
+      "fonte": "internet",
+      "busca": [
+        "Howard Pyle Marooned",
+        "marooned pirate painting",
+        "marooned pirate"
+      ],
+      "texto_na_tela": "ABANDONADO",
+      "descricao": "Marooned, de Howard Pyle (1909): um homem sozinho numa praia sem fim. O castigo real, numa pintura a óleo que conversa com o estilo do vídeo.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "a lone pirate sitting hunched on the shore of a tiny barren island, a longboat rowing back toward the distant ship, endless empty sea, oppressive heat",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "prompt_final": "Wide establishing shot. A lone pirate sitting hunched on the shore of a tiny barren island, a longboat rowing back toward the distant ship, endless empty sea, oppressive heat. Setting: a tiny barren sandbar island in the Caribbean, blinding white sand, a few dry tufts of grass and a single bent dead palm, surrounded by endless flat dark green sea, a harsh sun sinking into a fiery horizon. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L03"
+      ],
+      "id": "B08-02",
+      "bloco": "B08",
+      "palavras": [
+        4,
+        16
+      ],
+      "inicio": "01:11",
+      "fim": "01:16",
+      "inicio_s": 71.0,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "com um pouco de água e uma arma.",
+      "tipo": "ilustracao",
+      "descricao": "Na areia quente, a moringa de água e a pistola lado a lado; pegadas até a água e as velas do navio, minúsculas, indo embora. A arma fica como sugestão.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O06"
+      ],
+      "prompt_cena": "the water jug and the flintlock pistol lying side by side on the hot white sand, a trail of footprints leading toward the water, the ship's sails tiny on the horizon",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The water jug and the flintlock pistol lying side by side on the hot white sand, a trail of footprints leading toward the water, the ship's sails tiny on the horizon. Setting: hot white sand and a flat dark green sea under a fiery sunset sky. Props: a small corked brown stoneware water jug and a single old flintlock pistol with a worn wooden grip. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L03",
+        "O06"
+      ],
+      "id": "B08-03",
+      "bloco": "B08",
+      "palavras": [
+        16,
+        24
+      ],
+      "inicio": "01:16",
+      "fim": "01:19",
+      "inicio_s": 75.8,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "As mesmas regras que te pagavam pelo braço te largaram na ilha.",
+      "tipo": "ilustracao",
+      "descricao": "Cena espelho do B05: a mesma composição por sobre o ombro, a mão espalmada nas regras, agora na areia da ilha, o pergaminho preso pela pistola e o navio indo embora.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O02",
+        "O06"
+      ],
+      "prompt_cena": "the young sailor seen from behind, kneeling on the sand with his right palm pressed flat on the ship's articles, the same oath gesture as at the mess table, the parchment weighed down by the pistol beside the water jug, the pirate ship sailing away on the horizon",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. The young sailor seen from behind, kneeling on the sand with his right palm pressed flat on the ship's articles, the same oath gesture as at the mess table, the parchment weighed down by the pistol beside the water jug, the pirate ship sailing away on the horizon. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: a tiny barren sandbar island in the Caribbean, blinding white sand, a few dry tufts of grass and a single bent dead palm, surrounded by endless flat dark green sea, a harsh sun sinking into a fiery horizon. Props: a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar; a small corked brown stoneware water jug and a single old flintlock pistol with a worn wooden grip. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L03",
+        "O02",
+        "O06"
+      ],
+      "id": "B09-01",
+      "bloco": "B09",
+      "palavras": [
+        0,
+        12
+      ],
+      "inicio": "01:19",
+      "fim": "01:24",
+      "inicio_s": 79.0,
+      "duracao_s": 4.8
+    },
+    {
+      "trecho": "E aí, você teria coragem de ser um tripulante de um navio pirata?",
+      "tipo": "ilustracao",
+      "descricao": "Pela primeira vez, o rosto inteiro do marujo, olhando para o espectador: queimado de sol, sozinho na ilha ao anoitecer. A pergunta é dele para você.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the young sailor faces the viewer directly for the first time, sunburned and gaunt, alone on the island at dusk, a hard questioning stare, the last glow of sunset on half his face",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The young sailor faces the viewer directly for the first time, sunburned and gaunt, alone on the island at dusk, a hard questioning stare, the last glow of sunset on half his face. Character: the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck. Setting: hot white sand and a flat dark green sea under a fiery sunset sky. Style: early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L03"
+      ],
+      "id": "B09-02",
+      "bloco": "B09",
+      "palavras": [
+        12,
+        25
+      ],
+      "inicio": "01:24",
+      "fim": "01:29",
+      "inicio_s": 83.8,
+      "duracao_s": 5.2
+    }
+  ]
+}

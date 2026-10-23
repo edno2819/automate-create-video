@@ -1,0 +1,210 @@
+{
+  "L01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "8b54e813bef2",
+    "referencias": [],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-21T07:45:25"
+  },
+  "L02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "8bca3c00b307",
+    "referencias": [],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-21T00:41:58"
+  },
+  "P01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "7e67d7b66ea2",
+    "referencias": [],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-21T00:42:05"
+  },
+  "P02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "74f9f654d673",
+    "referencias": [],
+    "segundos": 9.0,
+    "gerado_em": "2026-10-21T07:45:25"
+  },
+  "P03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "8fafc4476cf8",
+    "referencias": [],
+    "segundos": 9.6,
+    "gerado_em": "2026-10-21T00:42:15"
+  },
+  "B01-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "b2ee7161bf61",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 11.2,
+    "gerado_em": "2026-10-21T00:42:26"
+  },
+  "B02-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0a133ada1e28",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 11.2,
+    "gerado_em": "2026-10-21T00:42:26"
+  },
+  "B02-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "1b4b8bae2374",
+    "referencias": [
+      "P02",
+      "L02"
+    ],
+    "segundos": 10.3,
+    "gerado_em": "2026-10-21T00:42:37"
+  },
+  "B02-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e568fa521230",
+    "referencias": [
+      "P01",
+      "P02",
+      "L02"
+    ],
+    "segundos": 11.5,
+    "gerado_em": "2026-10-21T00:42:38"
+  },
+  "B03-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "be6a71632b51",
+    "referencias": [
+      "P01",
+      "P02",
+      "P03",
+      "L02"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-21T00:42:47"
+  },
+  "B03-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "16fe9e590887",
+    "referencias": [
+      "P03",
+      "L02"
+    ],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-21T00:42:48"
+  },
+  "B03-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "75358e398dba",
+    "referencias": [
+      "P01",
+      "P02",
+      "L02"
+    ],
+    "segundos": 11.1,
+    "gerado_em": "2026-10-21T00:42:58"
+  },
+  "B03-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "93f83b7f0a8c",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 10.2,
+    "gerado_em": "2026-10-21T07:45:35"
+  },
+  "B04-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "86acdf50e65d",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 9.7,
+    "gerado_em": "2026-10-21T00:43:08"
+  },
+  "B04-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "fe02ff8af1b3",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-21T00:43:09"
+  },
+  "B05-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "56e9621b3af2",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-21T00:43:18"
+  },
+  "B05-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0827092e2312",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-21T00:43:19"
+  }
+}

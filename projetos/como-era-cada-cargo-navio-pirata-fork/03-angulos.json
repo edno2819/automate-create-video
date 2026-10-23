@@ -1,0 +1,217 @@
+{
+  "projeto": "como-era-cada-cargo-navio-pirata-fork",
+  "observacoes_gerais": {
+    "titulo_do_usuario": "O brief traz o título 'Como era cada cargo de um navio pirata'. Todos os ângulos usam esse título; as alternativas são variações próximas, para teste ou para a descrição.",
+    "abertura_e_fecho_fixos": "Todo ângulo abre com 'Venha descobrir se você aguentaria ser um pirata.' e fecha com 'E aí, você teria coragem de ser um tripulante de um navio pirata?' (restrição do brief). O tipo de gancho de cada ângulo entra na segunda frase (por volta de 3 s) e no primeiro frame. A pergunta final emenda naturalmente na abertura, o que favorece o replay (final-em-loop).",
+    "orcamento_de_palavras": "Narração 20% mais rápida: 150 x 1,2 = cerca de 180 palavras por minuto. Um short de 1:00 comporta cerca de 180 palavras, das quais cerca de 20 já são a abertura e o fecho fixos. Conferir com ferramentas/medir_roteiro.py, não a olho.",
+    "sem_dados_de_trends": "Não há 02-trends.md neste projeto (trends desligado no pedido) e aprendizados.md ainda não tem vídeos registrados. Nenhum ângulo afirma o que está em alta: todos são apostas, sustentadas só pelo dossiê e pelo esqueleto da biblioteca.",
+    "cargos_sem_material": "Navegador/mestre (quase nada no dossiê) e powder monkey (fontes só de marinhas de guerra) ficam de fora ou entram sem afirmação forte. Mitos a evitar: prancha como castigo real, tesouro enterrado, perna de pau generalizada, capitão ditador.",
+    "imagens_do_filme": "O pedido quer imagens de Piratas do Caribe. Os bancos que o sistema usa (Wikimedia Commons, Openverse) só aceitam domínio público e Creative Commons com uso comercial; fotogramas do filme não entram por aí e usá-los de outra fonte arrisca reivindicação de direitos. Alternativa: gravuras de época em domínio público (como as do livro de Charles Johnson, 1724) e imagens de IA que evoquem o cinema sem copiar rostos de atores."
+  },
+  "recomendacao": {
+    "angulo": "A1",
+    "motivo": "É o que cumpre o título com mais folga: percorre todos os cargos documentados no dossiê, cada um com um detalhe nojento ou assustador de confiança média ou alta, e o 'você' fica o tempo todo no mesmo lugar (o marujo novato), o que mantém a clareza num short rápido. Os artigos assinados na primeira frase costuram o vídeo e voltam no capitão como virada, que é o fecho com sentido novo que o short pede antes da pergunta fixa. A4 é a aposta mais diferente, se o usuário quiser arriscar."
+  },
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "Como era cada cargo de um navio pirata",
+      "titulos_alternativos": [
+        "Seu primeiro dia num navio pirata, cargo por cargo",
+        "Você aguentaria algum cargo de um navio pirata?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Mão suja segurando um biscoito de bordo cheio de furinhos de caruncho, batendo contra a mesa de madeira; ao fundo, desfocado, o rosto enojado de um marujo jovem à luz de lanterna",
+        "texto": "Seu jantar hoje",
+        "emocao": "nojo com curiosidade",
+        "relacao_com_titulo": "O título promete o inventário dos cargos; a thumb mostra o preço de entrar no mais baixo deles, que o título não diz."
+      },
+      "promessa": "Você passa o primeiro dia a bordo como marujo novato e conhece cada cargo do navio pelo seu lado mais nojento ou assustador, do porão até o capitão.",
+      "formato": "short",
+      "duracao_recomendada": "01:05",
+      "justificativa_duracao": "Oito cargos com uma ou duas frases cada dão cerca de 170 palavras, mais 20 da abertura e do fecho fixos: cerca de 190 palavras, ou 1:05 na narração 20% mais rápida. Passar de 1:15 obrigaria a cortar o detalhe concreto de cada cargo, que é o que segura; se o orçamento estourar, artilheiro e contramestre viram uma frase só.",
+      "tecnicas": ["pov-segunda-pessoa", "escada-de-stakes", "callback", "mas-entao", "quebra-de-padrao", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "Venha descobrir se você aguentaria ser um pirata. Você tem 20 anos, acabou de jurar os artigos do navio, e o seu primeiro jantar é um biscoito que você bate na mesa para os bichos saírem.",
+      "estrutura": [
+        "B01 (0-6 s): abertura fixa + 'você' com idade, os artigos jurados (planta o callback) e o biscoito com carunchos; primeiro frame no biscoito.",
+        "B02: Marujo, o seu cargo: rede colada na do vizinho, piolho, cheiro de água de porão e rato; rum porque a água apodrece.",
+        "B03: Cozinheiro: quando a carne acabava, a tripulação de Henry Morgan fritou uma bolsa de couro (1670). O cozinheiro mutilado só entra marcado [VERIFICAR].",
+        "B04: Músico: muitas vezes capturado de outro navio e obrigado a tocar; violino e trombeta na abordagem, para assustar; folga só no domingo (artigos de Roberts).",
+        "B05: Artilheiro e contramestre: quatro a seis homens por canhão e o artilheiro manda o 'fogo'; o contramestre cuida das cordas e das âncoras.",
+        "B06: Carpinteiro: conserta o casco e, se não tem médico a bordo, a serra de cortar madeira é dele. Callback dos artigos: o contrato já tabelava 800 moedas de prata por um braço. Pico de medo, só por sugestão.",
+        "B07: Cirurgião: quase sempre sequestrado de outro navio, sem direito a voto, com uma caixa de emplastros.",
+        "B08 (virada, cerca de 65%): Quartermaster: fora da batalha manda tanto quanto o capitão; divide o butim e decide quanto rum você bebe.",
+        "B09: Capitão (topo irônico): eleito no voto e demitido no voto pelos mesmos artigos que você jurou (Vane trocado por Rackham); e, se o navio cai, é o primeiro que a forca espera (Kidd, 1701, exposto em correntes).",
+        "B10: fecho fixo 'E aí, você teria coragem de ser um tripulante de um navio pirata?', que emenda na abertura no replay."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Esqueleto da biblioteca (dor-pintada-DYAYD0UYvvE): o template 'Escada de cargos em POV' lista 'navio pirata' entre os temas que encaixam; aqui comprimido para short, com POV, subida até o topo e topo irônico.",
+        "Dossiê: artigos de Roberts (indenização de 800, músicos folgam no sabá), capitão eleito e deposto, quartermaster com autoridade igual fora do combate, Kidd enforcado em 1701 (confiança alta ou média).",
+        "Dossiê: biscoito com carunchos (Royal Museums Greenwich, alta) e bolsa de couro frita pela tripulação de Morgan (média).",
+        "Sem 02-trends.md e sem dados em aprendizados.md: nenhuma evidência de desempenho."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Sem dados de trends nem histórico do canal, todo ângulo é aposta. Este é a aposta de menor risco: segue o título do usuário ao pé da letra e a estrutura do esqueleto de referência do canal.",
+      "diferencial": "Um 'você' fixo, o novato, que atravessa o navio do porão à cabine do capitão, em vez de uma lista de cargos narrada de fora; e o fio dos artigos jurados, que vai do primeiro segundo à virada do capitão.",
+      "riscos": [
+        "Saturação: não há dados coletados agora sobre quantos vídeos parecidos existem; a afirmação de que o tema está ou não saturado não tem base.",
+        "Densidade: oito cargos em 1:05 é o limite; se cada cargo virar uma frase genérica, o vídeo vira a lista seca que o brief proíbe.",
+        "Cozinheiro mutilado e piolho em rede de 40 cm têm fonte fraca ou de navios de guerra: dizer 'nos navios da época' ou marcar [VERIFICAR].",
+        "A abertura fixa tem 8 palavras e nenhuma tensão; o gancho real só chega em cerca de 3 s, então o primeiro frame (o biscoito) precisa segurar sozinho.",
+        "Monetização: a serra do carpinteiro e a forca do capitão ficam na sugestão (ferramenta, olhar, corrente), nunca no ferimento ou no corpo.",
+        "Imagens de Piratas do Caribe não estão nos bancos livres; usar fotogramas arrisca reivindicação de direitos."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "Como era cada cargo de um navio pirata",
+      "titulos_alternativos": [
+        "O pior cargo de um navio pirata não era lutar",
+        "Cargos de um navio pirata, do melhor ao pior"
+      ],
+      "thumbnail": {
+        "elemento_central": "Carpinteiro de bordo encarando a câmera com uma serra de madeira na mão, serragem no avental, uma lanterna balançando e uma mesa vazia atrás dele; nenhum ferimento",
+        "texto": "O pior cargo",
+        "emocao": "medo antecipado",
+        "relacao_com_titulo": "O título promete todos os cargos; a thumb aponta um só, o pior, e esconde qual é a função dele. A pergunta 'por que a serra?' só o número 1 responde."
+      },
+      "promessa": "Você vê os cargos de um navio pirata do mais tranquilo ao que ninguém queria, e descobre por que o pior deles não era o de quem lutava.",
+      "formato": "short",
+      "duracao_recomendada": "00:55",
+      "justificativa_duracao": "Ranking de sete posições com o número 1 mais longo dá cerca de 165 palavras, 55 s na narração acelerada. A contagem regressiva perde força quando cada item se arrasta: mais curto que isso tira o detalhe; mais longo faz o espectador pular para o número 1.",
+      "tecnicas": ["contagem-regressiva", "lacuna-de-curiosidade", "loop-aberto", "escada-de-stakes", "final-em-loop"],
+      "tipo_gancho": "promessa-de-revelacao",
+      "gancho_proposto": "Venha descobrir se você aguentaria ser um pirata. Nesse navio tinha um cargo que ninguém queria, e não era o de quem lutava.",
+      "estrutura": [
+        "B01 (0-6 s): abertura fixa + promessa do pior cargo, que abre o loop do número 1; primeiro frame na serra sobre a mesa.",
+        "B02: #7, o mais tranquilo: Quartermaster, que divide o butim, decide o rum de todo mundo e fora da batalha manda tanto quanto o capitão.",
+        "B03: #6 Músico: capturado de outro navio e obrigado a tocar violino na abordagem; pelo menos folgava no domingo.",
+        "B04: #5 Artilheiro e contramestre: quatro a seis homens por canhão, pólvora medida no olho; re-hook: 'e ainda faltam os três que ninguém invejava'.",
+        "B05: #4 Marujo: piolho, rede colada na do vizinho, biscoito que se bate na mesa para os carunchos saírem.",
+        "B06: #3 Cozinheiro: quando a comida acabava, a tripulação de Morgan fritou uma bolsa de couro (1670).",
+        "B07 (virada, cerca de 60%): #2 Capitão: o chefe está quase no fundo; demitido no voto pela tripulação e, se o navio cai, o primeiro na forca (Kidd, 1701).",
+        "B08: #1 Carpinteiro, mais longo: conserta o casco e, se não tem cirurgião, a serra de madeira é dele; o contrato pagava 800 moedas de prata por um braço. Fecha o loop do B01 só por sugestão (o som, o rum, a cara de quem espera).",
+        "B09: fecho fixo, que emenda na abertura no replay."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Técnica contagem-regressiva + lacuna-de-curiosidade da biblioteca: o número 1 escondido é o motivo para ficar até o fim.",
+        "Dossiê: sem cirurgião, o carpinteiro fazia as operações drásticas (média) e amputações no mar muitas vezes eram fatais (National Geographic, média); indenização de 800 nos artigos de Roberts (alta).",
+        "Sem 02-trends.md e sem dados em aprendizados.md: nenhuma evidência de desempenho."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Sem dados de nenhum lado. Vale arriscar porque é o único ângulo com uma pergunta aberta do primeiro ao último item, o que costuma segurar a retenção de um short de lista.",
+      "diferencial": "O capitão aparece como o segundo pior cargo, não como o topo, e o pior é um cargo que ninguém associa a pirata (o carpinteiro). O ranking inverte a hierarquia que o espectador espera.",
+      "riscos": [
+        "O critério de 'pior' mistura nojo, medo e risco; se a ordem parecer arbitrária, o espectador sente que o ranking foi inventado. O roteiro precisa dizer em cada degrau por que ele é pior que o anterior.",
+        "O número 1 depende de fonte de confiança média (carpinteiro como cirurgião substituto); não afirmar que era a regra em todo navio.",
+        "Título com 'cada cargo' e estrutura de ranking: o crítico vai cobrar que todos os cargos apareçam, não só os piores.",
+        "O pico do vídeo é uma amputação: só por sugestão (ferramenta, rum, rosto), nunca descrita, para não perder anunciantes.",
+        "Saturação sem dados: não há base para dizer se rankings de piratas estão em alta ou cansados.",
+        "Imagens de Piratas do Caribe não estão nos bancos livres."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "Como era cada cargo de um navio pirata",
+      "titulos_alternativos": [
+        "Cargos de um navio pirata: o filme vs. a vida real",
+        "O que o cinema não mostra de cada cargo pirata"
+      ],
+      "thumbnail": {
+        "elemento_central": "Tela dividida: à esquerda um capitão de cinema, chapéu e casaco impecáveis num galeão iluminado (sem rosto de ator real); à direita um marujo magro e sujo num barco pequeno, coçando a cabeça à luz de lanterna",
+        "texto": "Filme x real",
+        "emocao": "surpresa com ironia",
+        "relacao_com_titulo": "O título promete os cargos; a thumb avisa que eles vão ser mostrados contra o que o cinema ensinou, o que o título não diz."
+      },
+      "promessa": "Você descobre, cargo por cargo, o que o cinema de piratas inventou e o que era real, e o real é mais nojento e mais estranho.",
+      "formato": "short",
+      "duracao_recomendada": "01:00",
+      "justificativa_duracao": "Cada cargo pede duas frases (o filme, depois o real), o que limita o vídeo a uns seis cargos em cerca de 180 palavras. Se tentar cobrir oito, as duas metades viram uma só e o contraste some.",
+      "tecnicas": ["tese-contraria", "antes-e-depois", "mas-entao", "quebra-de-padrao", "final-em-loop"],
+      "tipo_gancho": "tese-contraria",
+      "gancho_proposto": "Venha descobrir se você aguentaria ser um pirata. Esquece o navio do cinema: o de verdade era pequeno, apertado, e o capitão podia ser demitido no voto.",
+      "estrutura": [
+        "B01 (0-6 s): abertura fixa + tese contrária (navio pequeno, capitão demissível); primeiro frame no galeão de cinema que se desfaz num barco pequeno.",
+        "B02: Capitão: no cinema manda em tudo; na real, autoridade total só na batalha, e Charles Vane foi trocado por Calico Jack depois de se recusar a atacar.",
+        "B03: Quartermaster: o cargo que o cinema esquece, que dividia o butim e controlava o rum; o capitão não fazia nada sem ele.",
+        "B04: Marujo: nada de lenço limpo; piolho, rum porque a água apodrecia, biscoito com carunchos.",
+        "B05 (virada, cerca de 55%): O código: no cinema são 'diretrizes'; na real eram artigos jurados, luz apagada às 8 da noite e 800 moedas de prata por um braço.",
+        "B06: Carpinteiro e cirurgião: o cirurgião muitas vezes era sequestrado; sem ele, o carpinteiro pegava a serra.",
+        "B07: Músico: existia mesmo, capturado e obrigado a tocar na abordagem.",
+        "B08 (quebra de padrão): A prancha não existia; o castigo documentado era ficar sozinho numa ilha com pólvora, água e uma arma.",
+        "B09: fecho fixo, que emenda na abertura no replay."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Pedido do usuário: quer imagens de Piratas do Caribe, o que indica que o público chega com a referência do filme.",
+        "Dossiê, seção 'Filme vs. real': capitão eleito, artigos reais, navios pequenos (National Geographic), prancha sem evidência, marooning documentado nos artigos.",
+        "Sem 02-trends.md e sem dados em aprendizados.md: nenhuma evidência de desempenho."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É a aposta mais distante do esqueleto. Vale arriscar porque usa a referência que o próprio usuário pediu (o filme) como motor da narrativa, em vez de só como enfeite visual, e porque desmontar mito costuma gerar comentário.",
+      "diferencial": "Cada cargo vem com o mito que o espectador já tem na cabeça, e o real é mais estranho que o mito; nenhum outro ângulo usa o filme como estrutura.",
+      "riscos": [
+        "Fidelidade ao título: o contraste filme/real puxa para mitos (código, prancha) que não são cargos; o crítico pode cobrar que o vídeo prometeu cargos e entregou curiosidades.",
+        "Menos nojento que A1 e A2: metade do tempo vai para o lado do cinema, que não é nojento nem assustador, e o brief pede foco nisso.",
+        "Direitos: fotogramas do filme não estão nos bancos livres; imagens de IA não podem copiar o rosto de atores nem personagens reconhecíveis da franquia. Citar o filme por nome no título também chama atenção de sistemas de direitos.",
+        "Algumas comparações dependem de cenas do filme que o dossiê não checou quadro a quadro; falar do 'cinema de piratas' em geral é mais seguro que citar cenas.",
+        "Saturação sem dados: não há base para dizer se vídeos de 'filme vs. real' de piratas estão em alta."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "Como era cada cargo de um navio pirata",
+      "titulos_alternativos": [
+        "Quanto ganhava cada cargo de um navio pirata",
+        "Num navio pirata, o seu braço valia 800 moedas"
+      ],
+      "thumbnail": {
+        "elemento_central": "Pergaminho manuscrito com assinaturas e o número 800 em destaque, uma pilha de moedas de prata em cima, e a sombra de um braço apoiado ao lado; luz de vela",
+        "texto": "Seu braço: 800",
+        "emocao": "choque frio",
+        "relacao_com_titulo": "O título promete os cargos; a thumb mostra o contrato que dá preço ao corpo de quem ocupa cada um, o fio do vídeo que o título não revela."
+      },
+      "promessa": "Você sobe a tabela de pagamento de um navio pirata, de quem ganha um quinhão a quem ganha dois, e descobre o que cada cargo custava ao corpo de quem o ocupava.",
+      "formato": "short",
+      "duracao_recomendada": "01:00",
+      "justificativa_duracao": "A escada de quinhões (1; 1,25; 1,5; 2) dá cinco degraus com dois ou três cargos agrupados, cerca de 175 palavras. Os números já fazem parte do trabalho do detalhe concreto, então cabe em 1:00 sem pressa.",
+      "tecnicas": ["escada-de-stakes", "lacuna-de-curiosidade", "callback", "mas-entao", "final-em-loop"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "Venha descobrir se você aguentaria ser um pirata. Antes de zarpar, você jura um contrato que já diz quanto vale o seu braço: 800 moedas de prata.",
+      "estrutura": [
+        "B01 (0-6 s): abertura fixa + o contrato com o preço do braço (planta o callback); primeiro frame no pergaminho com o 800.",
+        "B02: Um quinhão, o Marujo: a menor parte do butim, a rede colada no vizinho, piolho e biscoito com carunchos.",
+        "B03: Os que vieram à força, Músico e Cirurgião: ganhavam parte, mas muitas vezes eram sequestrados de outros navios e sem voto; na tripulação de Roberts, 77 foram absolvidos por provar que tinham sido forçados.",
+        "B04: Um quinhão e um quarto, o Carpinteiro: conserta o casco e, sem médico, pega a serra; é ele quem faz o contrato do B01 ser cobrado.",
+        "B05: Um e meio, Artilheiro e Contramestre: quatro a seis homens por canhão sob as ordens dele; o contramestre responde por cordas, âncoras e provisões. O Cozinheiro entra aqui só com [VERIFICAR]: muitas vezes era quem já tinha recebido a indenização.",
+        "B06: Dois quinhões, o Quartermaster: ganha igual ao capitão, divide o butim e decide o rum.",
+        "B07 (virada e topo, cerca de 75%): Dois quinhões, o Capitão: o dono do navio ganha só o dobro de você, pode ser demitido no voto e, se o navio cai, é o primeiro na forca (Kidd, 1701). Callback: o contrato tinha preço para o seu braço; para o pescoço do capitão, não.",
+        "B08: fecho fixo, que emenda na abertura no replay."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Esqueleto da biblioteca (dor-pintada-DYAYD0UYvvE): 'números concretos de pagamento em cada nível (escada de dinheiro paralela à escada de risco)' e topo irônico.",
+        "Dossiê: quinhões de Roberts (capitão e quartermaster 2; mestre, contramestre e artilheiro 1,5; outros oficiais 1,25; marujo 1) e indenização de 800 por membro, ambos com confiança alta; julgamento da tripulação de Roberts em 1722 (média).",
+        "Sem 02-trends.md e sem dados em aprendizados.md: nenhuma evidência de desempenho."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É a aposta mais ousada: troca o nojo como fio condutor pelo dinheiro e pelo corpo. Vale arriscar porque o dado do gancho tem a confiança mais alta do dossiê e porque o contraste 'o chefe ganha só o dobro' é o tipo de fato que vira comentário.",
+      "diferencial": "Os cargos são ordenados pelo que ganhavam, e não pela importância; o espectador descobre que o capitão ganhava só o dobro de um marujo e que o contrato tinha uma tabela de preço para o corpo.",
+      "riscos": [
+        "Os números variam entre navios (capitão de 1,5 a 6 quinhões; indenização de 600 a 800). O roteiro precisa dizer 'no contrato de Bartholomew Roberts' e ficar só nele, ou o crítico aponta inconsistência.",
+        "'Peça de oito' e 'quinhão' pedem explicação curta ('moeda de prata', 'parte do saque'); sem ela a frase não se entende de primeira.",
+        "Menos nojento que A1: o tom pende para o assustador e o irônico; o nojo precisa entrar nos detalhes do marujo e do cozinheiro.",
+        "Fala de dinheiro de saque: tratar como história e regra do navio, nunca como incentivo; risco baixo de monetização se o ferimento ficar na sugestão.",
+        "Cozinheiro mutilado tem fonte fraca e derivada; sem verificação, sai do vídeo.",
+        "Saturação sem dados; imagens de Piratas do Caribe não estão nos bancos livres."
+      ]
+    }
+  ]
+}

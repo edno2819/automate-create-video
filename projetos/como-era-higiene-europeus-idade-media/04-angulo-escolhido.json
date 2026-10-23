@@ -1,0 +1,53 @@
+{
+  "id": "A1",
+  "titulo": "Como era a higiene dos europeus na Idade Média",
+  "titulos_alternativos": [
+    "Você aguentaria um dia na Paris medieval?",
+    "O fedor da Idade Média, do beco ao palácio"
+  ],
+  "thumbnail": {
+    "elemento_central": "Retrato a óleo de velho mestre: um camponês medieval de frente para o espectador, com uma bota afundada até o tornozelo na lama escura de uma rua de Paris, cara de nojo e espanto exagerados; ao fundo, desfocado, um palácio com uma figura coroada na janela",
+    "texto": "",
+    "emocao": "nojo cômico e empatia ('podia ser você')",
+    "relacao_com_titulo": "O título promete a explicação; a thumb coloca o espectador no corpo de quem vive aquilo e planta o rei ao fundo, que o título não menciona."
+  },
+  "promessa": "Você vai sentir, em 45 segundos, como era atravessar uma cidade medieval: da lama da rua até o castelo, onde nem o rei escapava do fedor.",
+  "formato": "short",
+  "duracao_recomendada": "00:45",
+  "justificativa_duracao": "Quatro degraus de sujeira mais o callback cabem em cerca de 110 palavras. Um quinto degrau exigiria fatos de fonte fraca (piolhos, dentes) ou de fora da Idade Média.",
+  "tecnicas": [
+    "pov-segunda-pessoa",
+    "escada-de-stakes",
+    "mas-entao",
+    "callback",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "pov-segunda-pessoa",
+  "gancho_proposto": "Paris, Idade Média. Você sai de casa, dá o primeiro passo... e o seu pé some na lama da rua.",
+  "estrutura": [
+    "B01 (0-5 s): gancho em POV, o pé afundando na lama fétida da rua sem calçamento (planta o callback do pé).",
+    "B02 (5-15 s): você chega a um castelo e descobre o banheiro: um buraco na parede (garderobe) que despeja tudo no fosso, ou direto para fora.",
+    "B03 (15-25 s): o cheiro é tanto que os médicos dizem que o ar podre dá doença; então você anda com uma bolinha de perfume ou uma laranja oca com esponja de vinagre no nariz.",
+    "B04 (25-38 s): VIRADA, o topo da escada: nem o rei escapava; reza a história que o rei da França abriu a janela do palácio, sentiu o fedor da lama e mandou calçar as ruas principais de Paris (por volta de 1185-1200).",
+    "B05 (38-45 s): CALLBACK: só as principais; a rua do lado continuou do jeito que o seu pé encontrou. A última frase emenda no 'Paris, Idade Média' do começo."
+  ],
+  "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+  "cortes_previstos": [],
+  "evidencias": [
+    "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+    "Dossiê 2.3: Philippe Auguste e a pavimentação de Paris (fato de confiança média; cena da janela é relato narrativo, por isso 'reza a história'). Ruas laterais seguiram sem calçamento.",
+    "Dossiê 2.2: garderobe despejando no fosso (média); teoria dos miasmas, 1348 (média); pomander e laranja com vinagre (média).",
+    "Estrutura: reaplica, em miniatura, a escada em POV e o final circular do esqueleto Dor Pintada (canal de referência do brief)."
+  ],
+  "aposta": true,
+  "justificativa_aposta": "A segunda pessoa é a assinatura do canal de referência e transforma lista de curiosidades em experiência, o que costuma segurar os primeiros segundos de um short. Sem dados, é hipótese.",
+  "diferencial": "Não é uma lista de fatos: é um percurso sensorial do 'você' pela cidade, com o rei como topo da escada e o pé na lama fechando em loop.",
+  "riscos": [
+    "O POV mistura épocas (c. 1185 na pavimentação, 1348 nos miasmas, pomander do medieval tardio); o roteiro não pode dar um ano único ao 'você'.",
+    "A cena do rei na janela é lenda narrativa: tem de vir como 'reza a história', ou o crítico reprova.",
+    "Lama e garderobe precisam ficar na sugestão (bota, torrezinha vista de fora), nunca o conteúdo."
+  ],
+  "ajustes_do_usuario": null,
+  "escolhido_em": "2026-10-21",
+  "escolhido_por": "interface web"
+}

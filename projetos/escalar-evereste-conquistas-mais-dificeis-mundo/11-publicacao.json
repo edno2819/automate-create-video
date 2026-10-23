@@ -1,0 +1,56 @@
+{
+  "titulo": "Escalar o Everest: uma das conquistas mais difíceis do mundo",
+  "titulos_alternativos": [
+    "Escalar o evereste uma das conquistas mais difíceis do mundo",
+    "Everest sem oxigênio é mais raro que ser bilionário"
+  ],
+  "plataformas": [
+    {
+      "id": "youtube",
+      "nome": "YouTube Shorts",
+      "titulo": "Escalar o Everest: uma das conquistas mais difíceis do mundo",
+      "descricao": "Tem quase 15 vezes mais bilionários no mundo do que subidas ao topo do Everest sem garrafa de oxigênio.\nDa licença do Nepal ao topo, veja degrau por degrau quanto custa e quantos chegam.\n\nO vídeo mostra a escada do Everest com números: o ingresso (licença de cerca de R$ 75 mil e expedição de cerca de R$ 230 mil a mais de R$ 400 mil), quantas pessoas saíram do acampamento base, quantas chegaram ao cume e quantas morreram na montanha, até o último degrau: o topo sem oxigênio.\n\nCâmbio: PTAX de venda de 22/10/2026, US$ 1 = R$ 5,0383. Licença: US$ 15 mil (cerca de R$ 75,6 mil). Expedição: US$ 45 mil (cerca de R$ 226,7 mil, operadora nepalesa) a US$ 80 mil (cerca de R$ 403,1 mil, guias ocidentais). O vídeo não detalha os campos 1 a 4 porque não há número publicado por campo.\nMortes: 339, contando de 1922 a 2025.\nBilionários: 3.428, na lista da Forbes de março de 2026.\n\nFontes dos números: Himalayan Database (cumes, tentativas, subidas sem oxigênio e mortes), Forbes 2026 (bilionários), Banco Central (PTAX) e a pesquisa do canal que reúne esses dados.\n\nMúsica de fundo: \"Stranger\", da biblioteca de músicas do canal.\n\n#Everest #Montanhismo #Curiosidades"
+    },
+    {
+      "id": "tiktok",
+      "nome": "TikTok",
+      "descricao": "Tem quase 15x mais bilionário do que subida ao topo do Everest sem garrafa de oxigênio. Veja quanto custa e quantos chegam em cada degrau. #Everest #Montanhismo #Curiosidades #DesafiosExtremos"
+    },
+    {
+      "id": "instagram",
+      "nome": "Instagram Reels",
+      "descricao": "Tem quase 15x mais bilionário do que subida ao topo do Everest sem oxigênio.\nDa licença de R$ 75 mil ao cume: quanto custa e quantos chegam em cada degrau (câmbio de 22/10/2026, US$ 1 = R$ 5,04).\n#Everest #Montanhismo #Curiosidades #DesafiosExtremos"
+    }
+  ],
+  "tags": {
+    "em_alta": [
+      {"tag": "#Everest", "evidencia": "5 vídeos, 116.105 views/dia somadas (hashtag)"},
+      {"tag": "everest", "evidencia": "4 vídeos, 2.210 views/dia somadas"},
+      {"tag": "monte everest", "evidencia": "2 vídeos, 2.140 views/dia somadas"},
+      {"tag": "montanhismo", "evidencia": "2 vídeos, 3.625 views/dia somadas"},
+      {"tag": "montanha", "evidencia": "2 vídeos, 3.625 views/dia somadas"},
+      {"tag": "altamontanha", "evidencia": "2 vídeos, 3.625 views/dia somadas"}
+    ],
+    "tema": [
+      "quanto custa escalar o everest",
+      "custo de uma expedição ao everest",
+      "mortes no everest",
+      "everest sem oxigênio",
+      "bilionários",
+      "curiosidades",
+      "desafios extremos",
+      "números do mundo",
+      "aventura"
+    ]
+  },
+  "tags_youtube": "everest, monte everest, montanhismo, montanha, altamontanha, quanto custa escalar o everest, custo de uma expedição ao everest, mortes no everest, everest sem oxigênio, bilionários, curiosidades, desafios extremos, números do mundo, aventura",
+  "fonte_tags": "yt-dlp, coletado em 2026-10-23 02:36 UTC, 67 vídeos (termos: escalar everest, monte everest, desafios extremos; formato short)",
+  "avisos": [
+    "A coleta trouxe muitas tags de um reality mexicano (Exatlón) e do filme Tenzing; foram descartadas por não combinarem com o vídeo.",
+    "Os campos 1 a 4 não entram no vídeo (sem número publicado); a descrição do YouTube avisa isso.",
+    "O título é o do ângulo com 'Everest' grafado corretamente e dois pontos (61 caracteres, 1 acima do alvo de ~60); o original, com 'evereste', segue como alternativa.",
+    "Música: o brief não traz musica.nome; o crédito usa 'Stranger' a partir do nome do arquivo audiocleaner-download-stranger.mp3. Confirme o título e o autor reais e a licença antes de publicar.",
+    "A Forbes foi lida pela reprodução do comunicado (confiança média, conforme o roteiro); o número muda se o vídeo sair depois da lista de 2027.",
+    "Hashtag #Shorts não incluída; limite de 3 hashtags no YouTube usado para as de assunto."
+  ]
+}

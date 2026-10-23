@@ -1,0 +1,228 @@
+{
+  "versao": 2,
+  "atualizado_em": "2026-10-21",
+  "escala": {
+    "0": "falha: o problema existe e afeta a retenção ou a promessa",
+    "1": "parcial: funciona, mas tem um ponto fraco concreto",
+    "2": "ok: nada a corrigir"
+  },
+  "aprovacao": {
+    "regra": "Aprovado quando nenhum critério bloqueante tem nota 0 e a nota ponderada é de pelo menos 80% do máximo.",
+    "percentual_minimo": 80,
+    "max_rodadas": 3
+  },
+  "criterios": [
+    {
+      "id": "gancho-5s",
+      "formatos": [
+        "longo"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "As primeiras ~12 palavras entregam uma promessa e uma tensão concretas?",
+      "como_verificar": "Leia o trecho '0-5s' da medição. Promessa: o espectador sabe o que vai ganhar. Tensão: existe algo em risco ou sem resposta. Genérico ('hoje vamos falar de...') é 0. Clareza vem antes da velocidade: um gancho que só se entende depois de ouvir o resto ou de ver a imagem é no máximo 1."
+    },
+    {
+      "id": "gancho-2s",
+      "formatos": [
+        "short"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "As primeiras ~5 palavras, junto com o [VISUAL] do primeiro frame, param o dedo?",
+      "como_verificar": "Leia o trecho '0-2s' da medição e o primeiro [VISUAL]. Sem [VISUAL] no B01 é no máximo 1. As 5 palavras são referência, não regra: um gancho de 8 palavras que se entende de primeira vale mais que um de 5 que precisa de explicação (o que 'seu pé some' quer dizer?). Gancho ambíguo é no máximo 1. Não baixe a nota por palavras que o usuário pediu na orientação."
+    },
+    {
+      "id": "prova-30s",
+      "formatos": [
+        "longo"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "Os primeiros 30 s provam que o vídeo vai cumprir o título, sem introdução, saudação ou pedido de inscrição?",
+      "como_verificar": "Leia o trecho '0-30s' e os alertas de frases proibidas da medição. Qualquer saudação, apresentação do canal ou 'nesse vídeo eu vou' é 0."
+    },
+    {
+      "id": "re-hooks",
+      "formatos": [
+        "longo"
+      ],
+      "peso": 2,
+      "bloqueante": true,
+      "pergunta": "Há um re-hook real a cada 60–120 s?",
+      "como_verificar": "Veja os alertas de intervalo da medição. Depois confira se cada [RE-HOOK] marcado de fato reacende a curiosidade; um marcador sobre uma frase morna não conta."
+    },
+    {
+      "id": "sem-ponto-de-abandono",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "Existe algum trecho em que nenhuma pergunta está aberta?",
+      "como_verificar": "Use o mapa de loops da medição e confira se as anotações 'abre/fecha' são verdadeiras no texto. Um trecho de mais de 30 s sem loop ativo é ponto de abandono: aponte o bloco e o tempo. Um loop só conta se o espectador consegue formular a pergunta: um loop que existe só no mapa (callback plantado, pergunta nunca feita) não segura ninguém."
+    },
+    {
+      "id": "clareza",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "Quem ouve uma vez, sem contexto, entende cada frase e por que ela vem depois da anterior?",
+      "como_verificar": "Faça a leitura fria (só o texto de 'medir_roteiro.py --narracao', sem notas, loops, metadados nem dossiê) e parafraseie o que o espectador entendeu. Conte um problema por frase que: (a) tem duas leituras ou sujeito ambíguo ('pros médicos, esse cheiro mata': o cheiro mata os médicos?); (b) pressupõe algo que não foi dito, como a mudança de lugar, de época ou de papel do 'você' ('então você foge pro castelo': você é nobre? há um castelo em Paris?); (c) exige deduzir um passo ('seu pé some', sem dizer que afundou na lama); (d) é piada ou curiosidade sem o motivo que dá a graça ('o nome em francês? guarda-roupa', sem dizer que as roupas eram guardadas ali e por quê). Um problema é 1; dois ou mais, ou um que deixa a ideia central confusa, é 0. Curiosidade é saber o que falta; confusão é não entender o que foi dito. Um re-hook que só intriga porque é obscuro conta como problema."
+    },
+    {
+      "id": "mas-entao",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": false,
+      "pergunta": "Cada bloco se liga ao anterior por causa ou conflito, e não por 'e depois'? A ligação é dita no texto?",
+      "como_verificar": "Teste da troca: se dois blocos podem trocar de ordem sem perda, a ligação é 'e depois'. Confira também os conectores declarados nos metadados: o conector conta só se o texto disser a relação; uma ligação que existe nas notas mas não na narração é 'e depois' para quem ouve."
+    },
+    {
+      "id": "virada-meio",
+      "formatos": [
+        "longo"
+      ],
+      "peso": 2,
+      "bloqueante": false,
+      "pergunta": "Há uma virada entre 40% e 65% da duração que muda o significado do que veio antes?",
+      "como_verificar": "Localize o bloco com função 'virada' e o tempo dele na medição."
+    },
+    {
+      "id": "payoff-cumpre-titulo",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "O payoff cumpre exatamente o que o título e a thumbnail prometem?",
+      "como_verificar": "Releia título e conceito de thumb no cabeçalho. Liste a promessa em uma frase e aponte onde ela é cumprida. Promessa parcial é 1; promessa traída (clickbait) é 0."
+    },
+    {
+      "id": "final-com-virada",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": false,
+      "pergunta": "A última ideia muda ou amplia o sentido do que veio antes (revelação, ironia, inversão), em vez de só acrescentar mais uma informação?",
+      "como_verificar": "Leia o último parágrafo e pergunte: depois dele, o espectador entende o vídeo de outro jeito? Mais um fato no mesmo nível dos anteriores ('Não. Só as principais.') é 0. Fecho com ironia ou consequência, mas previsível, é 1."
+    },
+    {
+      "id": "concretude",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": false,
+      "pergunta": "O texto usa detalhes concretos (números, nomes, lugares, objetos, sensações) em vez de afirmações genéricas?",
+      "como_verificar": "Aponte as 3 frases mais genéricas do roteiro e sugira a versão concreta de cada uma."
+    },
+    {
+      "id": "blocos-autonomos",
+      "formatos": [
+        "longo"
+      ],
+      "peso": 1,
+      "bloqueante": false,
+      "pergunta": "Os blocos marcados como cortáveis têm mini-gancho e mini-payoff próprios?",
+      "como_verificar": "Para cada bloco 'cortável: sim', verifique se ele se entende sem os anteriores."
+    },
+    {
+      "id": "uma-ideia",
+      "formatos": [
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": true,
+      "pergunta": "O short tem uma única ideia, sem subtrama?",
+      "como_verificar": "Resuma o short em uma frase. Se precisar de 'e também', é 0 ou 1."
+    },
+    {
+      "id": "final-em-loop",
+      "formatos": [
+        "short"
+      ],
+      "peso": 1,
+      "bloqueante": false,
+      "pergunta": "A última frase emenda na primeira e favorece o replay?",
+      "como_verificar": "Leia a última frase seguida da primeira, em voz alta. O loop serve ao fecho, nunca o contrário: se a emenda deixa a última frase torta, incompleta sem motivo ou mais fraca, é 0. Sem emenda, mas com fecho forte, é 1."
+    },
+    {
+      "id": "duracao-honesta",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": false,
+      "pergunta": "O texto tem só o necessário, sem enchimento nem repetição?",
+      "como_verificar": "A nota mede enchimento, não o desvio da meta: aponte parágrafos que repetem informação ou que saem sem perda de sentido nem de clareza. Palavra que explica uma ligação, um pressuposto ou o motivo de uma piada não é enchimento. Sem enchimento é 2, mesmo acima da meta; o desvio vai para alertas_de_medicao, para o usuário decidir. Se a orientação do usuário aceitou um tamanho, a meta é esse tamanho."
+    },
+    {
+      "id": "linguagem-falada",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 1,
+      "bloqueante": false,
+      "pergunta": "O texto foi escrito para ser ouvido (frases curtas, sem parênteses, sem siglas ilegíveis, sem trava-língua)?",
+      "como_verificar": "Aponte as frases mais difíceis de narrar (trava-língua, intercalações antes do sujeito, palavra estrangeira que a voz sintética pode errar). Ambiguidade e salto lógico entram em 'clareza', não aqui."
+    },
+    {
+      "id": "tom",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 1,
+      "bloqueante": false,
+      "pergunta": "O tom corresponde ao pedido no brief?",
+      "como_verificar": "Compare com o campo 'tom' do brief."
+    },
+    {
+      "id": "factualidade",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 2,
+      "bloqueante": true,
+      "pergunta": "Os fatos verificáveis estão no dossiê ou marcados com [VERIFICAR]? Há algum ato atribuído a pessoa real sem fonte?",
+      "como_verificar": "Conte os [VERIFICAR] da medição. Procure afirmações factuais sem marcador e sem respaldo no dossiê. Ato grave atribuído a pessoa real identificável sem fonte é 0."
+    },
+    {
+      "id": "adequacao-anunciantes",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 1,
+      "bloqueante": false,
+      "pergunta": "Há descrição gráfica de violência, palavrão no início ou outro risco de desmonetização?",
+      "como_verificar": "Aponte o trecho e sugira a versão com consequência indireta. Veja a seção 'Adequação a anunciantes' em formatos.md."
+    },
+    {
+      "id": "conteudo-sexual",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 1,
+      "bloqueante": true,
+      "pergunta": "O roteiro descreve sexo ou nudez, ou põe personagem de visual infantil ou fofo (fruta, bicho, boneco) em situação sexual?",
+      "como_verificar": "Romance e traição sugeridos (um olhar, um bilhete, a porta que se fecha) são 2. Sexo descrito é 0. Qualquer conotação sexual com personagem de visual infantil ou fofo é 0, mesmo sugerida. Veja a seção 'Adequação a anunciantes' em formatos.md."
+    }
+  ]
+}

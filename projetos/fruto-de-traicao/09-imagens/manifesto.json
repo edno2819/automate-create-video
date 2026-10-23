@@ -1,0 +1,344 @@
+{
+  "P02": {
+    "status": "ok",
+    "origem": "biblioteca",
+    "arquivo": "09-imagens/referencias/P02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "42e95ecef6e0",
+    "referencias": [],
+    "biblioteca": "biblioteca/personagens/bananildo",
+    "gerado_em": "2026-10-21T12:25:48"
+  },
+  "P03": {
+    "status": "ok",
+    "origem": "biblioteca",
+    "arquivo": "09-imagens/referencias/P03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "817507d442fb",
+    "referencias": [],
+    "biblioteca": "biblioteca/personagens/pepinudo",
+    "gerado_em": "2026-10-21T12:25:48"
+  },
+  "P01@B02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01@B02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "1a1336e8a3a0",
+    "referencias": [
+      "biblioteca/personagens/moranguete/imagem.jpg"
+    ],
+    "edicao": "Edit this character reference sheet. Keep exactly the same character: the same strawberry head, crown of leaves, face, eyes, lashes, lips, gold hoop earrings, body proportions, poses, art style, lighting and plain light gray background. Change only her clothes: she now wears a loose oversized pink short-sleeved gym t-shirt and loose heather-gray sweatpants with white sneakers, a modest sporty look. Front view and three-quarter view, full body. Do not render any text, letters, labels or watermarks.",
+    "gerado_em": "2026-10-21T12:25:48"
+  },
+  "P01@B03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01@B03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "458d87279673",
+    "referencias": [
+      "biblioteca/personagens/moranguete/imagem.jpg"
+    ],
+    "edicao": "Edit this character reference sheet. Keep exactly the same character: the same strawberry head, crown of leaves, face, eyes, lashes, lips, gold hoop earrings, body proportions, poses, art style, lighting and plain light gray background. Change only her clothes: she now wears a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers. Front view and three-quarter view, full body. Do not render any text, letters, labels or watermarks.",
+    "gerado_em": "2026-10-21T12:25:48"
+  },
+  "L01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "5a87782ad5c1",
+    "referencias": [],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-21T12:26:38"
+  },
+  "L02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "9e61a4e50cc6",
+    "referencias": [],
+    "segundos": 10.6,
+    "gerado_em": "2026-10-21T12:26:39"
+  },
+  "L04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "a80e615eda02",
+    "referencias": [],
+    "gerado_em": "2026-10-21T12:29:47"
+  },
+  "L03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "9c93536bdc5d",
+    "referencias": [],
+    "segundos": 11.5,
+    "gerado_em": "2026-10-21T12:26:49"
+  },
+  "P05": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P05.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "ac86040106ed",
+    "referencias": [],
+    "segundos": 7.1,
+    "gerado_em": "2026-10-21T12:26:56"
+  },
+  "P04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "cfd69adce331",
+    "referencias": [],
+    "segundos": 8.6,
+    "gerado_em": "2026-10-21T12:26:57"
+  },
+  "P06": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P06.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "b0cab586c93e",
+    "referencias": [],
+    "segundos": 9.6,
+    "gerado_em": "2026-10-21T12:27:06"
+  },
+  "P07": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P07.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "14de701d3b15",
+    "referencias": [],
+    "segundos": 9.8,
+    "gerado_em": "2026-10-21T12:27:07"
+  },
+  "B01-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "dd76ef781a79",
+    "referencias": [
+      "P02",
+      "P04",
+      "L01"
+    ],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-21T12:27:17"
+  },
+  "B01-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "dded0ec2d74e",
+    "referencias": [
+      "P02",
+      "P04",
+      "L01"
+    ],
+    "segundos": 11.4,
+    "gerado_em": "2026-10-21T12:27:18"
+  },
+  "B01-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "6581604c6e91",
+    "referencias": [
+      "P02",
+      "L01"
+    ],
+    "segundos": 10.3,
+    "gerado_em": "2026-10-21T12:27:27"
+  },
+  "B01-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "378ffed783d4",
+    "referencias": [
+      "P02",
+      "P04",
+      "L01"
+    ],
+    "segundos": 9.0,
+    "gerado_em": "2026-10-21T12:27:27"
+  },
+  "B01-05": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-05.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "96468be49d0c",
+    "referencias": [
+      "P04",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-21T12:27:37"
+  },
+  "B02-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "f0f747344f8e",
+    "referencias": [
+      "P03",
+      "P01@B02",
+      "L02"
+    ],
+    "segundos": 14.5,
+    "gerado_em": "2026-10-21T12:27:42"
+  },
+  "B02-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "2b6aac15ecd6",
+    "referencias": [
+      "P01@B02",
+      "L02"
+    ],
+    "segundos": 12.9,
+    "gerado_em": "2026-10-21T12:27:50"
+  },
+  "B02-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c93d62ba31a1",
+    "referencias": [
+      "P03",
+      "L02"
+    ],
+    "segundos": 11.1,
+    "gerado_em": "2026-10-21T12:27:53"
+  },
+  "B03-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "cfab09d72a0a",
+    "referencias": [
+      "P05",
+      "L03"
+    ],
+    "segundos": 11.1,
+    "gerado_em": "2026-10-21T12:28:01"
+  },
+  "B03-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "5a0f8d7e77f2",
+    "referencias": [
+      "P05",
+      "L03"
+    ],
+    "segundos": 11.8,
+    "gerado_em": "2026-10-21T12:28:05"
+  },
+  "B03-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "45905765b868",
+    "referencias": [
+      "P01@B03",
+      "L04"
+    ],
+    "segundos": 11.8,
+    "gerado_em": "2026-10-21T12:30:11"
+  },
+  "B04-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "87c09421c24b",
+    "referencias": [
+      "P02",
+      "P06",
+      "P07",
+      "P01@B03",
+      "L04"
+    ],
+    "segundos": 14.0,
+    "gerado_em": "2026-10-21T12:30:13"
+  },
+  "B04-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "6a7549842827",
+    "referencias": [
+      "P02",
+      "P06",
+      "P07",
+      "P01@B03",
+      "L04"
+    ],
+    "segundos": 10.2,
+    "gerado_em": "2026-10-21T12:30:21"
+  },
+  "B04-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "d2b82d928744",
+    "referencias": [
+      "P02",
+      "L04"
+    ],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-21T12:30:22"
+  },
+  "B04-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "62eba64f9a4d",
+    "referencias": [
+      "P06",
+      "P07",
+      "L04"
+    ],
+    "segundos": 9.4,
+    "gerado_em": "2026-10-21T12:30:30"
+  },
+  "B05-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "bc6fc601f107",
+    "referencias": [
+      "P01@B03",
+      "L04"
+    ],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-21T12:31:17"
+  }
+}

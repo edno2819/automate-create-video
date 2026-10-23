@@ -1,0 +1,74 @@
+{
+  "roteiro": "projetos/como-era-cada-cargo-navio-pirata-fork/05-roteiro-v3.md",
+  "versao": 3,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 98,
+  "bloqueantes_reprovados": [],
+  "leitura_fria": [
+    "B01: o vídeo me desafia: eu aguentaria ser pirata? Esquece o filme: o navio de verdade era pequeno, e o capitão podia ser demitido por votação. Surpreendente, quero ver.",
+    "B02: a prova: um capitão, Charles Vane, não quis atacar um navio e a tripulação trocou ele por outro, Calico Jack. (Não é dito que foi no voto, mas eu ligo ao B01.) E tem mais: nem o capitão mandava sozinho. Então quem mandava com ele?",
+    "B03: fora da batalha, mandava junto o quartel-mestre, um cargo que o cinema não mostra. Era ele quem dividia o tesouro e o rum. Pergunta respondida.",
+    "B04: e eu não sou nenhum dos dois, sou só marujo. Piolho na cabeça, rum porque a água estraga, biscoito batido na mesa pros bichos caírem. Nojento e engraçado. Aí a provocação: pelo menos pirata não tem regra, né?",
+    "B05: tem sim. No filme, o código é só sugestão; na real eu jurava regras, e uma delas me pagava 800 moedas de prata se eu perdesse um braço. Pirata tinha indenização! E quem me operava?",
+    "B06: muitas vezes, um cirurgião sequestrado de outro navio. Se não tinha cirurgião, o carpinteiro, com a serra de madeira. Arrepio, entendi sem ver nada.",
+    "B07: até o músico era sequestrado, pra tocar violino durante o ataque e assustar o navio atacado. (Violino assusta? Entendi o que foi dito, mas estranhei.) E quem quebrava as regras: andava na prancha?",
+    "B08: quase não há registro de prancha. O castigo de verdade era pior porque era lento: me deixavam sozinho numa ilha, com um pouco de água e uma arma. (A arma é sombria: entendo que é pra acabar com tudo.)",
+    "B09: as regras que me pagavam pelo braço são as mesmas que me abandonaram na ilha. O código protege e mata. E aí, eu teria coragem de ser pirata?"
+  ],
+  "confusoes": [],
+  "promessa": "Ver, cargo por cargo, como era cada função de um navio pirata contra o que o cinema mostra (thumb 'Filme x real': o capitão de cinema contra o marujo sujo).",
+  "onde_cumpre": "B01-B03 entregam o 'filme x real' no capitão (demitido no voto, Vane trocado por Calico Jack) e no quartel-mestre ('o cargo que o cinema esquece'); B04 é o lado direito da thumb (o marujo com piolho e biscoito); B05 contrapõe o código do filme às regras juradas, que levam ao cirurgião e ao carpinteiro (B06) e ao músico (B07); B08 desmonta a prancha. Seis cargos, cada um com um detalhe concreto, e o código funciona como ponte entre eles (o braço pago leva a quem opera), não como subtrama.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {"id": "clareza", "nota": 2, "peso": 3},
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "final-com-virada", "nota": 2, "peso": 2},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B02",
+      "evidencia": "O capitão Charles Vane se recusou a atacar um navio, e a tripulação trocou ele por Calico Jack.",
+      "problema": "Dois nomes em inglês na mesma frase, logo nos primeiros 10 s, que a voz do Gemini em pt-BR pode ler errado ('Cálico Jáqui', 'Váne'). Um nome mal pronunciado nessa altura soa como erro e tira a credibilidade da prova da tese. De quebra, a frase não diz 'voto', e o L2 ('demitido no voto') fecha por dedução.",
+      "instrucao": "Mantenha os nomes (são a prova concreta) e confira a pronúncia na narração antes de montar. Se quiser fechar o L2 com a palavra que o B01 plantou, troque por 'O capitão Charles Vane se recusou a atacar um navio, e a tripulação votou e trocou ele por Calico Jack.' (+2 palavras)."
+    },
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B02-B03", "tempo": "00:09", "motivo": "risco residual, não reprovação: 19 s (cerca de 16 s na narração 20% mais rápida) de política de bordo antes do primeiro detalhe nojento, que é o foco da descrição do brief. Agora o L3 é dito ('Mas nem o capitão mandava sozinho.'), então há uma pergunta clara segurando o trecho."},
+    {"bloco": "B07", "tempo": "00:59", "motivo": "risco residual: logo depois da serra (o clímax), o violino baixa a intensidade, e 'violino pra assustar' soa estranho para quem não sabe que a ideia era fazer barulho. O re-hook da prancha no fim do bloco segura."}
+  ],
+  "prioridades": [
+    "1. Aprovado: as cinco prioridades da v2 foram cumpridas e a leitura fria não achou confusão. O que segue é polimento opcional; não mexa no que está em 'manter'.",
+    "2. B07 (risco de abandono depois do clímax): dê o motivo do susto com o instrumento que o dossiê também cita: 'Até o músico era sequestrado, pra tocar violino e trombeta no ataque e assustar o outro navio.' (+2 palavras; World History cita violinos e trombetas fazendo barulho na abordagem).",
+    "3. B05 (coerência com o B01, sem custo de palavras): troque 'No filme, o código é só uma sugestão.' por 'No cinema, o código é só uma sugestão.'. O 'o filme' pressupõe um filme específico que o texto nunca nomeou; 'cinema' repete o 'Esquece o cinema' do B01 e do B03.",
+    "4. B02 (linguagem-falada): opcional, 'a tripulação votou e trocou ele por Calico Jack', que fecha o L2 com a palavra plantada no B01. Na narração, confira a pronúncia de 'Charles Vane' e 'Calico Jack'."
+  ],
+  "manter": [
+    "B01: o primeiro frame do galeão de cinema que se desfaz no barco pequeno, junto com 'Esquece o cinema: o navio era pequeno, e o capitão podia ser demitido no voto'",
+    "B02: Charles Vane trocado por Calico Jack como prova da tese, e o re-hook dito 'Mas nem o capitão mandava sozinho.'",
+    "B03: 'mandava junto um cargo que o cinema esquece: o quartel-mestre. Era ele quem dividia o tesouro e o rum.' (o quartel-mestre agora é o sujeito)",
+    "B04 inteiro: 'E você é só marujo.' (a troca de papel é dita), o rum porque a água apodrece, o biscoito batido na mesa e o re-hook 'Pelo menos pirata não tem regra, né?'",
+    "B05-B06: a cadeia 'oitocentas moedas de prata pra quem perdesse um braço' → 'E quem operava esse braço?' → cirurgião sequestrado → carpinteiro 'com a serra de cortar madeira'",
+    "B07: o 'Até' que liga o músico ao cirurgião sequestrado, e o re-hook 'E quem quebrava as regras? Andava na prancha?'",
+    "B08: 'Quase não tem registro.', a [PAUSA] e 'O castigo real era pior, porque demorava' (o motivo resolveu a confusão da v2)",
+    "B09: 'As mesmas regras que te pagavam pelo braço te largaram na ilha.' (vira o sentido do código do B05) e a pergunta fixa do usuário, com a emenda do replay"
+  ],
+  "alertas_de_medicao": [
+    "Duração: 220 palavras, 01:29 a 150 ppm (+48% da meta de 01:00). Com a narração 20% mais rápida pedida no brief, fica em cerca de 74 s, acima do ideal de short (30 a 60 s), mas dentro do limite do formato. Não há enchimento: as frases a mais são ligações que a lição 'Clareza vale mais que a meta de duração' manda manter. Se o usuário quiser chegar perto de 60 s, a ordem de corte das notas vale (B07, depois ', o navio era pequeno', por último o B02), e cortar o músico custa um cargo do título. Decisão do usuário.",
+    "Não há 05-orientacao-v3.md: esta versão foi avaliada contra o brief, o ângulo A3, a rubrica e a avaliação da v2.",
+    "A pasta do projeto já tem 06-roteiro-final.md, direção visual, imagens, narração, vídeo e publicação feitos a partir da v1 (ângulo A1). Se a v3 (ângulo A3) for a final, todas essas etapas precisam ser refeitas a partir dela.",
+    "'Charles Vane' e 'Calico Jack' podem sair com pronúncia errada na voz do Gemini em pt-BR: conferir na narração (o alinhar.py aponta se a voz não disse o texto).",
+    "Imagens de Piratas do Caribe (pedido da descrição): risco de reivindicação de direitos e de rosto de ator real; é decisão da direção visual, não do roteiro."
+  ]
+}

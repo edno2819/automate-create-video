@@ -1,0 +1,26 @@
+[
+  {
+    "trecho": "Mas em casa, encher uma tina custava caro.",
+    "tipo": "ilustracao",
+    "descricao": "Uma mulher na casa simples, de perfil, junto ao caldeirão no fogo, ao lado de uma tina de madeira vazia: o esforço e o custo de encher a tina.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L03",
+    "objetos": ["O01"],
+    "prompt_cena": "a tired woman in a plain wool dress and linen headscarf stands in profile beside an empty wooden bathtub, a small cauldron of water heating over the hearth fire, only a few buckets beside her, the empty tub dominating the room",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Água carregada e aquecida. No dia a dia, só bacia.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe das mãos lavando-se numa bacia de barro com uma jarra; pela janela aberta, o vapor das casas de banho da rua, ligando a cena doméstica ao tema.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "a pair of hands cupping water over a small glazed clay basin beside a clay jug, warm firelight on the water, through the open shutters behind, white steam from the bathhouses drifts across the street, glowing in the evening light",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

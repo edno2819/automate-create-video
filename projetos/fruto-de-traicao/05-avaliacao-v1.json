@@ -1,0 +1,87 @@
+{
+  "roteiro": "projetos/fruto-de-traicao/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 90,
+  "bloqueantes_reprovados": [],
+  "promessa": "Ver o Bananildo, orgulhoso e cego, abraçar como seus os filhos que são a cara de outras frutas, enquanto a Moranguete sorri sabendo de tudo.",
+  "onde_cumpre": "B04, quando a câmera abre na mesa e ele abraça o menino abacate e a menina pepino de olhos fechados dizendo 'Puxaram tudo do papai.' (a composição da thumb), e B05, no sorriso de canto da Moranguete depois do agradecimento.",
+  "criterios": [
+    {
+      "id": "gancho-2s",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B01",
+      "evidencia": "Cadê a Moranguete, Bananildo? Você aqui todo santo dia...",
+      "problema": "As cinco primeiras palavras são uma pergunta neutra. A desconfiança só aparece na cara do colega, e o que está em jogo (a academia, o 'Sei...') chega entre 6 e 10 s. O primeiro frame é o escritório, o cenário mais fraco do vídeo, e a caneca só soa irônica para quem leu o título. No feed de Shorts, onde o título quase não aparece, isso não basta para segurar o dedo.",
+      "instrucao": "Troque a primeira fala por 'Sabe onde a Moranguete tá agora, Bananildo? Você aqui todo santo dia...'. O 'sabe' diz logo de cara que o colega sabe algo que o marido não sabe, ecoa o NÃO SABE do título, continua sendo a pergunta 'onde ela está' do pedido e mantém o 'todo santo dia' do callback. No [VISUAL], ponha a caneca MELHOR PAI DO MUNDO em primeiro plano, legível na mão do Bananildo, com o colega de sobrancelha erguida logo atrás dela: a ironia precisa estar no frame 1 mesmo para quem não leu o título."
+    },
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {
+      "id": "final-em-loop",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B05",
+      "evidencia": "Imagina, amor...  →  Cadê a Moranguete, Bananildo?",
+      "problema": "A emenda é só temática: lida em voz alta, a última frase não puxa a primeira. E o B05 tem duas palavras, cerca de 1 s, então o sorriso, que é a imagem final pedida pelo usuário, quase não fica na tela (a montagem não segura o último quadro, só faz um fade de 0,6 s).",
+      "instrucao": "Use o bordão completo da personagem: 'Imagina, amor... eu?'. O 'eu?' emenda na pergunta do colega ('...eu?' → 'Sabe onde a Moranguete tá agora?'), reforça a falsa modéstia em cima do agradecimento e dá cerca de meio segundo a mais ao close do sorriso."
+    },
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {"id": "linguagem-falada", "nota": 2, "peso": 1},
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {
+      "id": "conteudo-sexual",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B03",
+      "evidencia": "Esse carteiro não falha, hein? Todo santo dia. / Todo santo dia, amor.",
+      "problema": "Em português, 'não falha' também se lê como desempenho sexual. Com o eco cúmplice da Moranguete, a troca escorrega da traição sugerida, que está ok, para a insinuação sexual com personagens fofos, que a rubrica zera. No B02, 'roupa de academia rosa' num corpo de ampulheta, enquadrado 'do peito para cima', deixa o modelo de imagem livre para gerar top e decote.",
+      "instrucao": "B03: troque por 'Esse carteiro nunca atrasa, hein? Todo santo dia.'. A piada da frequência e o callback continuam iguais. B02, no [VISUAL]: troque 'roupa de academia rosa' por 'camiseta de academia rosa folgada, de manga curta, e calça de moletom' e 'enquadramento do peito para cima' por 'enquadramento de rostos e ombros'. Mantenha a rosca sentada, o halter rosa e a mão no ombro."
+    }
+  ],
+  "pontos_de_abandono": [
+    {
+      "bloco": "B01",
+      "tempo": "00:00",
+      "motivo": "Primeiro frame no escritório com uma pergunta neutra ('Cadê a Moranguete?'): nada em risco nos 2 primeiros segundos. É o único ponto de swipe real do roteiro."
+    },
+    {
+      "bloco": "B04",
+      "tempo": "00:25",
+      "motivo": "Risco baixo: com a revelação das crianças, o L2 fecha e a pergunta principal está respondida. O falso alarme ('Família... eu preciso dizer uma coisa.') segura, desde que venha colado no 'Puxaram tudo do papai.', sem respiro entre os dois."
+    }
+  ],
+  "prioridades": [
+    "1. B01, gancho: troque a primeira fala por 'Sabe onde a Moranguete tá agora, Bananildo? Você aqui todo santo dia...' e ponha a caneca MELHOR PAI DO MUNDO em primeiro plano e legível no primeiro [VISUAL], com o colega de sobrancelha erguida atrás. O resto do B01 fica igual.",
+    "2. B05, final: troque 'Imagina, amor...' por 'Imagina, amor... eu?'. O 'eu?' emenda na primeira pergunta no replay e dá mais tempo de tela ao sorriso, que hoje dura cerca de 1 s.",
+    "3. B03, segurança: troque 'Esse carteiro não falha, hein?' por 'Esse carteiro nunca atrasa, hein?'. 'Não falha' tem leitura sexual, e com frutas fofas isso é risco de remoção. A troca 'Todo santo dia' / 'Todo santo dia, amor.' fica intacta.",
+    "4. B02, [VISUAL]: especifique 'camiseta de academia rosa folgada, de manga curta, e calça de moletom' e 'enquadramento de rostos e ombros' no lugar de 'roupa de academia rosa' e 'do peito para cima'. Deixe a direção visual sem margem para top ou decote numa personagem fofa.",
+    "5. B02, direção de voz: troque '[FALA: Pepinão, grave e arrastado]' por '[FALA: Pepinão, grave, contando a repetição]', para que o TTS diga 'Mais uma, princesa... só mais uma.' como contagem de treino com charme, e não como sussurro sensual."
+  ],
+  "manter": [
+    "B01: a caneca MELHOR PAI DO MUNDO plantada no primeiro frame e erguida no brinde do B04",
+    "B01: 'Na academia, é? Sei...' como re-hook: curto, na voz certa do colega fofoqueiro",
+    "B02: 'Pelos filhos dele.' seguido do 'Dele...' do Pepinão, o melhor re-hook do roteiro; abre o L2 sem dizer nada explícito",
+    "B02: o bordão 'Mais uma, princesa... só mais uma.' abrindo a cena da academia no corte seco",
+    "B03: o 'Todo santo dia' na boca do Bananildo e o eco da Moranguete sem tirar os olhos da janela",
+    "B04: 'Puxaram tudo do papai.' de olhos fechados sobre a revelação, com o primeiro quadro igual à composição da thumb",
+    "B04: o falso alarme 'Família... eu preciso dizer uma coisa.', com as crianças congelando e a Moranguete mexendo o café, tranquila",
+    "B04: a frase pedida pelo usuário quase literal ('Eu não sei o que eu seria sem a minha esposa... e os meus lindos filhos.')",
+    "Nomes Pepinão e Abacatudo nunca ditos em voz alta; crianças só no café da manhã e sem fala; academia sem corpo em foco",
+    "A escalada de dois amantes, que transforma o título em resposta literal: um filho de cada"
+  ],
+  "alertas_de_medicao": [
+    "Duração estimada 00:36 para uma meta de 00:40 (82 palavras a 150 ppm mais 3 pausas de 1 s). A ferramenta não deu alerta. As trocas das prioridades 1 e 2 somam cerca de 4 palavras, mais ou menos 1,5 s, e aproximam a meta.",
+    "B05 tem 2 palavras e cerca de 1 s. A montagem tira a duração da imagem das palavras e só aplica um fade final de 0,6 s, então o sorriso pedido pelo usuário depende da fala para ficar na tela.",
+    "Mapa de loops sem buraco: em todos os blocos há pelo menos um loop ativo. Ressalva de anotação: o L3 ('vai ser desmascarada?') é declarado no B03, mas o B03 abre na verdade 'o carteiro também?', e o risco de desmascaramento só aparece no falso alarme do B04. Não afeta a retenção, porque o L2 cobre o B03.",
+    "Nenhum [VERIFICAR], o que está correto para um conteúdo ficcional sem fato verificável. Nenhuma frase proibida e nenhum CTA falado.",
+    "Distribuição das falas: Bananildo 47, Moranguete 12, Colega 13 e Pepinão 10 palavras. Todas as falas cabem numa respiração; a mais longa (15 palavras) tem reticências no meio."
+  ]
+}

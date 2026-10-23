@@ -1,0 +1,270 @@
+{
+  "arquivo": "projetos/como-era-cada-cargo-navio-pirata-fork/05-roteiro-v2.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Como era cada cargo de um navio pirata",
+  "palavras": 206,
+  "duracao_estimada": "01:23",
+  "duracao_segundos": 83,
+  "duracao_alvo": "01:00",
+  "trecho_gancho": "Venha descobrir se você aguentaria",
+  "trecho_30s": "Venha descobrir se você aguentaria ser um pirata. Esquece o cinema: o navio era pequeno, e o capitão podia ser demitido no voto. O capitão Charles Vane se recusou a atacar um navio, e a tripulação trocou ele por Calico Jack. Fora da batalha, o capitão mandava igual a um cargo que o cinema esquece: o quartel-mestre, que dividia o tesouro e o rum. E você é só marujo. Sua cabeça coça de piolho, você",
+  "primeira_frase": "Venha descobrir se você aguentaria ser um pirata.",
+  "ultima_frase": "E aí, você teria coragem de ser um tripulante de um navio pirata?",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "Gancho: esquece o cinema",
+      "funcao": "gancho",
+      "palavras": 23,
+      "inicio": "00:00",
+      "fim": "00:09",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Venha descobrir se você aguentaria ser um pirata."
+    },
+    {
+      "id": "B02",
+      "titulo": "Capitão",
+      "funcao": "contexto",
+      "palavras": 18,
+      "inicio": "00:09",
+      "fim": "00:16",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "O capitão Charles Vane se recusou a atacar"
+    },
+    {
+      "id": "B03",
+      "titulo": "Quartel-mestre",
+      "funcao": "desenvolvimento",
+      "palavras": 23,
+      "inicio": "00:16",
+      "fim": "00:26",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Fora da batalha, o capitão mandava igual a"
+    },
+    {
+      "id": "B04",
+      "titulo": "Marujo",
+      "funcao": "desenvolvimento",
+      "palavras": 33,
+      "inicio": "00:26",
+      "fim": "00:39",
+      "duracao_s": 13,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "E você é só marujo. Sua cabeça coça"
+    },
+    {
+      "id": "B05",
+      "titulo": "O código",
+      "funcao": "virada",
+      "palavras": 34,
+      "inicio": "00:39",
+      "fim": "00:52",
+      "duracao_s": 14,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "No filme, o código é só uma sugestão."
+    },
+    {
+      "id": "B06",
+      "titulo": "Cirurgião e carpinteiro",
+      "funcao": "clímax",
+      "palavras": 23,
+      "inicio": "00:52",
+      "fim": "01:02",
+      "duracao_s": 9,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Muitas vezes, um cirurgião sequestrado de outro navio."
+    },
+    {
+      "id": "B07",
+      "titulo": "A prancha",
+      "funcao": "payoff",
+      "palavras": 20,
+      "inicio": "01:02",
+      "fim": "01:11",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Quase não tem registro. O castigo real era"
+    },
+    {
+      "id": "B08",
+      "titulo": "Fecho",
+      "funcao": "final",
+      "palavras": 32,
+      "inicio": "01:11",
+      "fim": "01:23",
+      "duracao_s": 13,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "No filme, pirata não tem regra. Na real,"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:09",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:16",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:26",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:39",
+      "ativos_no_inicio": [
+        "L1",
+        "L4"
+      ],
+      "abre": [
+        "L5"
+      ],
+      "fecha": [
+        "L4"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L5"
+      ]
+    },
+    {
+      "bloco": "B06",
+      "inicio": "00:52",
+      "ativos_no_inicio": [
+        "L1",
+        "L5"
+      ],
+      "abre": [
+        "L6"
+      ],
+      "fecha": [
+        "L5"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L6"
+      ]
+    },
+    {
+      "bloco": "B07",
+      "inicio": "01:02",
+      "ativos_no_inicio": [
+        "L1",
+        "L6"
+      ],
+      "abre": [],
+      "fecha": [
+        "L6"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B08",
+      "inicio": "01:11",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "você aguentaria ser um pirata?",
+    "L2": "como um capitão pirata era demitido no voto?",
+    "L3": "se o capitão podia ser trocado, quem mandava junto com ele?",
+    "L4": "pirata tinha regra ou não?",
+    "L5": "quem operava quem perdia um braço?",
+    "L6": "andar na prancha existiu?"
+  },
+  "verificar": [],
+  "falas": {},
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "duração estimada 01:23 está +39% da meta 01:00"
+    },
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "short com 01:23: o ideal é entre 30 e 60 s"
+    }
+  ]
+}

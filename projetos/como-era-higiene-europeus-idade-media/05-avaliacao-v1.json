@@ -1,0 +1,83 @@
+{
+  "roteiro": "projetos/como-era-higiene-europeus-idade-media/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 90,
+  "bloqueantes_reprovados": [],
+  "promessa": "Título e thumb prometem mostrar como era a sujeira na Europa medieval pelo corpo de quem vivia nela (o pé afundado na lama de Paris), com o rei ao fundo, na janela, sofrendo o mesmo fedor.",
+  "onde_cumpre": "B01 entrega o pé na lama de Paris (a capa da thumb); B02 e B03 sobem do castelo à medicina; B04 entrega o rei na janela, sentindo o fedor; B05 fecha com a ironia de que a rua do 'você' ficou de fora do calçamento.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B04",
+      "evidencia": "E o rei? [PAUSA] / Nem ele escapa.",
+      "problema": "B03 para B04 é 'e também': a laranja de vinagre não causa nada na cena do rei, e os dois blocos poderiam trocar de lugar sem perda. O metadado declara 'mas', mas o texto liga por 'e'. Além disso, o castelo do B02 já mostrou que o lugar dos ricos fede, então 'nem ele escapa' repete a mesma batida em vez de subir um degrau.",
+      "instrucao": "Ligue o rei ao bloco anterior por fracasso do remédio: o perfume não resolve, então o rei usa o poder. Exemplo: 'E o rei? [PAUSA] Nem perfume salva o rei. Reza a história que Filipe Augusto abriu a janela...'. Assim a cadeia vira: cheiro mata, então perfume; mas nem o perfume basta, então o rei manda calçar; mas só as principais."
+    },
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {
+      "id": "final-em-loop",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B05",
+      "evidencia": "A sua ficou como o seu pé encontrou, quando você saiu de casa em...",
+      "problema": "A emenda com 'Paris, Idade Média' funciona, mas a frase que a prepara é difícil de entender de ouvido ('a sua' o quê? 'como o seu pé encontrou' é torta) e cita 'saiu de casa', que o B01 nunca disse. O espectador gasta os últimos 5 s decifrando a sintaxe em vez de rir da ironia, e arrasta antes de o loop fechar.",
+      "instrucao": "Diga a ironia de frente e só depois deixe a frase suspensa. Exemplo: 'Não. Só as principais. A sua? Continua engolindo o seu pé, toda vez que você pisa em...' → 'Paris, Idade Média. Seu pé some.' Mesmo número de palavras, e a última frase emenda na primeira sem precisar do 'saiu de casa'."
+    },
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B02",
+      "evidencia": "E o nome chique disso, em francês? Guarda-roupa.",
+      "problema": "Ouvida, a frase diz que o nome em francês é 'guarda-roupa', que é português. A piada (o banheiro se chama guarda-roupa) depende de o espectador fazer a tradução sozinho em meio segundo. O mesmo vale para a frase final do B05, já apontada em final-em-loop.",
+      "instrucao": "Dê o nome francês e depois a tradução, para a piada cair na segunda palavra: 'E o nome chique disso? Garderobe. Ou seja: guarda-roupa.' Se a pronúncia de 'garderobe' preocupar na voz sintética, use 'O nome chique disso, em francês, quer dizer... guarda-roupa.'"
+    },
+    {
+      "id": "tom",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B03",
+      "evidencia": "Então você leva uma bolinha de perfume no cinto.",
+      "problema": "O brief pede humor escrachado e 'cada curiosidade pior que a anterior'. O texto é seco e telegráfico, e a escada de nojo desce em vez de subir: o fosso do B02 é o ponto mais nojento, e depois vêm um acessório de perfume (B03) e um rei sentindo cheiro de lama (B04). O exagero cômico some justamente na metade final.",
+      "instrucao": "Sem inventar fatos, ponha o exagero no comentário: no B03, 'Então você anda com uma bolinha de perfume no cinto. Tipo um purificador de ar pessoal. Sem dinheiro? Uma laranja oca com vinagre na cara.'; no B04, trate o rei como o topo da escada: 'O rei. O homem mais poderoso da França. Tapando o nariz na própria janela.' O degrau sobe em status mesmo sem subir em nojo."
+    },
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B03", "tempo": "00:21", "motivo": "Depois de 'esse cheiro mata', a resposta é um acessório (bolinha de perfume) e não há consequência nem exagero: a tensão cai no ponto em que o short deveria subir. É onde o dedo arrasta, entre 00:21 e 00:30."},
+    {"bloco": "B05", "tempo": "00:44", "motivo": "A frase final é difícil de entender de ouvido. O espectador não pega a ironia e arrasta antes de a emenda do loop fechar, o que derruba o replay."},
+    {"bloco": "B01", "tempo": "00:00", "motivo": "Risco menor: 'Paris, Idade Média' é um rótulo de lugar e época, e a tensão só chega com 'seu pé some'. Os 2 primeiros segundos dependem de a imagem da bota afundando aparecer já no primeiro frame."}
+  ],
+  "prioridades": [
+    "1. B05: reescreva a frase final para a ironia ser entendida de ouvido e o loop fechar limpo. Exemplo: 'Não. Só as principais. A sua? Continua engolindo o seu pé, toda vez que você pisa em...' (emenda em 'Paris, Idade Média'). Tire o 'saiu de casa', que o B01 não diz.",
+    "2. B03/B04: troque o 'e também' por causa. O perfume não resolve, então o rei usa o poder: 'E o rei? [PAUSA] Nem perfume salva o rei. Reza a história que Filipe Augusto abriu a janela...'. Corrija o conector declarado do B04 para refletir o texto.",
+    "3. B03: devolva o humor escrachado ao trecho entre 00:21 e 00:30, com um comentário exagerado sobre a bolinha de perfume e a laranja ('um purificador de ar pessoal', 'vinagre na cara'), sem acrescentar fatos.",
+    "4. B02: corrija a piada do garderobe para o nome francês vir antes da tradução: 'E o nome chique disso? Garderobe. Ou seja: guarda-roupa.'",
+    "5. B04: marque o rei como topo da escada pelo status ('O homem mais poderoso da França, tapando o nariz na própria janela'), já que em nojo ele fica abaixo do fosso. Compense as palavras novas para não passar de cerca de 125 palavras (veja os alertas de medição)."
+  ],
+  "manter": [
+    "B01: 'Paris, Idade Média. Seu pé some.' com o primeiro frame igual à thumb (a bota afundando). A continuidade capa → primeiro frame é o que segura os 2 s, e a frase é a ponta do loop.",
+    "B02: o re-hook 'Só que, pros médicos, esse cheiro mata.' é o melhor do roteiro: vira nojo em perigo e abre a pergunta seguinte.",
+    "B02: a torrezinha do garderobe vista de fora, nunca o interior. Resolve a adequação a anunciantes sem perder a piada.",
+    "B03: 'Sem dinheiro? Uma laranja oca com esponja de vinagre.' Não corte, como as notas propõem: é o detalhe mais concreto e visual do short.",
+    "B04: 'Reza a história que...' para a cena da janela, e 'Todas?' como re-hook. É a factualidade certa e a pergunta mais curta do vídeo.",
+    "B05: a ideia do callback (o rei calça só as principais e a rua do 'você' fica de fora) é a melhor ironia do roteiro. Mude só a frase, não a ideia.",
+    "Todo o roteiro: nenhum mito apresentado como fato, nenhum caso de fora da Idade Média, nenhum ano preso ao 'você'."
+  ],
+  "alertas_de_medicao": [
+    "Duração estimada de 00:49 para uma meta de 00:45 (120 palavras; a restrição pede cerca de 110). Aceitável num short, mas as prioridades 2, 3 e 5 acrescentam palavras: compense dentro do próprio bloco (por exemplo, 'eles juram' e 'Rua sem calçamento' podem ficar mais curtos) e não corte a laranja.",
+    "O mapa de loops declara L1 ('Alguém vai dar jeito nessa rua?') como aberto desde o B01, mas o texto não faz essa pergunta: é um callback plantado, não um loop que o espectador sente. Ele não sustenta a retenção. Quem sustenta são L2 a L5, que são reais e se renovam a cada 10 s.",
+    "A fala mistura épocas sem dizê-lo: Filipe Augusto (c. 1185) aparece depois da peste e dos miasmas (1348). Não há erro factual, porque nenhum ano é dito. Não acrescente anos na fala; se puser um na imagem do rei, use 'c. 1185'."
+  ]
+}

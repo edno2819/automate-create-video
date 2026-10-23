@@ -1,0 +1,65 @@
+{
+  "projeto": "como-era-cada-cargo-navio-pirata-fork",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Pintura a óleo de época, era de ouro da pirataria",
+    "descricao": "Óleo sobre tela com pinceladas visíveis, contraste forte entre a luz quente de lanterna e o pôr do sol, paleta dessaturada de madeira, couro e mar escuro, com acentos de vermelho-ferrugem e ouro sujo. Vertical, com o essencial nos dois terços de cima, porque a legenda fica embaixo.",
+    "prompt_base": "early 18th-century oil painting of the golden age of piracy, thick visible brushstrokes, cracked canvas texture, strong chiaroscuro between warm flickering lantern light and fiery sunset glow, desaturated palette of brown oak, worn leather and dark sea green with accents of rust red and tarnished gold, vertical composition with the main subject in the upper two thirds and a darker uncluttered lower third",
+    "negativo_base": "text, letters, words, numbers, watermark, logo, signature, blood, gore, open wounds, severed limbs, amputation, corpses, hanged bodies, nudity, children, modern objects, movie characters, celebrity likeness, photorealistic photo, 3d render, cartoon, anime, extra fingers, deformed hands, blurry face",
+    "regras_de_camera": "O vídeo abre no mito (o galeão de cinema, limpo e dourado) e passa para o real (barco pequeno, escuro, à luz de lanterna); cada 'no filme' ganha essa luz teatral, cada 'na real' a lanterna suja. Narração em segunda pessoa: a partir do B04, 'você' é o jovem marujo (P01), mostrado de costas, de perfil, por sobre o ombro ou em POV das mãos; o rosto inteiro só na pergunta final (B09). Os cargos aparecem de frente, em plano médio ou close, com o nome do cargo em texto_na_tela. As regras juradas (O02) são o fio do callback: o juramento por sobre o ombro na mesa (B05) volta com a mesma composição na areia da ilha (B09). Imagens reais só em dois momentos documentais: as gravuras de época de Vane e Calico Jack (B02) e as pinturas de Howard Pyle da prancha e do abandono (B07-B08). Nada de ferida: a operação é a serra, a correia de couro e o rosto que paira; o braço perdido fica no texto e nas moedas. Legenda embaixo: o essencial fica nos dois terços de cima."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Você (o jovem marujo)",
+      "referencia_en": "the young sailor",
+      "descricao": "the young sailor, a lean 20-year-old man with sun-weathered olive skin, shaggy dark brown hair tied back with a frayed rust-red cloth band, patchy stubble, a thin pale scar across the bridge of his nose, wearing a loose stained off-white linen shirt with rolled sleeves and tarred canvas breeches, barefoot, a small brass ring hanging on a cord around his neck"
+    },
+    {
+      "id": "P02",
+      "nome": "Músico",
+      "referencia_en": "the musician",
+      "descricao": "the musician, a gaunt man in his late thirties with pale skin, hollow cheeks, thinning gray-streaked hair tied in a ribbon, a neatly trimmed but grown-out beard, wearing a once-elegant faded blue frock coat with tarnished brass buttons and a torn lace cravat, holding a battered dark violin and bow"
+    },
+    {
+      "id": "P03",
+      "nome": "Quartel-mestre",
+      "referencia_en": "the quartermaster",
+      "descricao": "the quartermaster, a broad-shouldered man in his forties with deep brown skin, a shaved head, a short gray beard, a heavy-lidded calculating gaze and a gold ring in his left ear, wearing a sleeveless brown leather jerkin over a dark green shirt, a wide belt with a brass-bound coin purse and a small iron key hanging from it"
+    },
+    {
+      "id": "P04",
+      "nome": "Capitão",
+      "referencia_en": "the captain",
+      "descricao": "the captain, a tall man in his fifties with ruddy weathered pale skin, long braided black beard streaked with gray, a deep crease between the eyebrows, wearing a stained crimson long coat with frayed gold trim over a dirty white shirt, a battered black tricorn hat with a single gray feather, and a cutlass on a wide leather baldric"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Coberta de baixo (dormitório e mesa)",
+      "descricao": "the cramped lower deck of an early 18th-century pirate ship, low smoke-blackened oak beams, rows of sagging stained canvas hammocks packed side by side, a scarred wooden mess table, barrels and sacks against the hull, a single hanging tin lantern swaying, dark bilge water glinting between the planks",
+      "descricao_curta": "dark smoke-blackened oak planks and a low beam, lit by a swaying hanging tin lantern"
+    },
+    {
+      "id": "L02",
+      "nome": "Convés principal ao pôr do sol",
+      "descricao": "the open main deck of a weathered pirate sloop at sunset, gray salt-bleached planks, coiled tarred ropes, black cannons along the rail, a tall mainmast with patched sails and rigging, a ragged black flag above, a fiery orange sky over a dark green sea",
+      "descricao_curta": "weathered gray deck planks, tarred ropes and a wooden rail against a hazy fiery orange sunset sky"
+    },
+    {
+      "id": "L03",
+      "nome": "Ilhota do abandono",
+      "descricao": "a tiny barren sandbar island in the Caribbean, blinding white sand, a few dry tufts of grass and a single bent dead palm, surrounded by endless flat dark green sea, a harsh sun sinking into a fiery horizon",
+      "descricao_curta": "hot white sand and a flat dark green sea under a fiery sunset sky"
+    }
+  ],
+  "objetos": [
+    {"id": "O01", "nome": "Biscoito de bordo", "descricao": "a thick square ship's biscuit, pale and rock-hard, cracked and riddled with tiny weevil holes"},
+    {"id": "O02", "nome": "As regras do navio (artigos)", "descricao": "a creased yellowed parchment of ship's articles covered in dense unreadable faded ink lines, crude marks and smudged thumbprints at the bottom, its edges torn and stained with tar"},
+    {"id": "O03", "nome": "Serra do carpinteiro", "descricao": "a large rusty carpenter's wood saw with a worn wooden handle and uneven teeth dusted with sawdust"},
+    {"id": "O04", "nome": "Peças de oito", "descricao": "irregular tarnished silver pieces of eight, hand-cut coins with worn stamped crosses"},
+    {"id": "O05", "nome": "Barril de rum", "descricao": "a small battered oak rum cask with iron hoops and a brass spigot, a dented tin cup hanging from it"},
+    {"id": "O06", "nome": "O que deixavam na ilha", "descricao": "a small corked brown stoneware water jug and a single old flintlock pistol with a worn wooden grip"}
+  ]
+}

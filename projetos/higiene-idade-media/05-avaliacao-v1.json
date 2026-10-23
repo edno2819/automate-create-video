@@ -1,0 +1,80 @@
+{
+  "roteiro": "projetos/higiene-idade-media/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 80,
+  "bloqueantes_reprovados": [],
+  "promessa": "Na Paris do século 13 havia mais de 32 casas de banho, e elas funcionavam como negócio, com preço (vapor por 2 moedas).",
+  "onde_cumpre": "B01 dá o número e a cidade; B03 entrega o negócio (guilda, regras, 'Vapor: 2 denários', pregoeiros), colhendo o texto da capa na imagem 6.",
+  "criterios": [
+    {
+      "id": "gancho-2s",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B01",
+      "evidencia": "Legenda 1, pelo montar_video.py: 'Mais de 32 casas' | 'de banho.' | 'Numa cidade só.'",
+      "problema": "O primeiro pedaço de legenda, o único lido antes de o dedo decidir, diz 'Mais de 32 casas'. Sozinho, isso significa 32 casas de morar. 'Banho' só aparece no segundo pedaço, e a tensão ('Dizem que ninguém tomava banho') só chega por volta de 4 s, na imagem 2. Além disso, 'casa de banho' em pt-BR soa como o banheiro de Portugal, não como um estabelecimento. O [VISUAL] do vapor é forte e salva parte do sentido, mas o texto do primeiro frame não para o dedo.",
+      "instrucao": "Ponha o sentido inteiro no primeiro pedaço, com até 5 palavras terminando em ponto (o montar_video.py só agrupa 5 palavras quando a quinta fecha a frase): 'Mais de 32 banhos públicos. Numa cidade só.' O pedaço 1 vira 'Mais de 32 banhos públicos.' O título pode continuar como está, porque a capa com vapor tira a ambiguidade. Na legenda, porém, use 'banhos públicos' na primeira aparição. Na imagem 2, comece com 'E dizem que ninguém tomava banho.' antes de 'Paris, século 13.', para que a tensão caia em ~3 s e não em ~5 s."
+    },
+    {
+      "id": "sem-ponto-de-abandono",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B02",
+      "evidencia": "'Em casa,' | 'banho de tina custava caro:' ... 'No dia a dia, jarra de água quente e bacia.'",
+      "problema": "De 0:07 a 0:15 (27% do vídeo) o roteiro sai da casa de banho, que é o que a capa e o gancho mostraram, para falar do banho doméstico. O L3 só fica aberto se o espectador deduzir sozinho o contraste: o texto evita de propósito qualquer ligação, e a imagem 4 termina em 'e bacia.', uma resposta fechada e sem pergunta. A legenda 'Em casa,' sozinha na tela é o momento mais morno do vídeo. Os loops L1 e L2 continuam ativos, por isso não é nota 0.",
+      "instrucao": "Faça o B02 terminar apontando para fora de casa, sem afirmar causa nem que era mais barato. Imagem 3: 'Mas em casa, encher uma tina custava caro.' (os pedaços ficam 'Mas em casa,' | 'encher uma tina custava caro.'). Imagem 4: 'Água carregada e aquecida. No dia a dia, só bacia.' O 'só' cria a falta que o B03 preenche. Na direção visual, a imagem 4 pode mostrar vapor entrando pela janela, vindo da rua."
+    },
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B02, B03, B04",
+      "evidencia": "Metadados declaram 'conector: mas' nos três blocos; o texto abre com 'Em casa', 'E as casas de banho?' e 'Londres teve 13'.",
+      "problema": "As anotações não batem com o texto. Nenhuma das três fronteiras tem conflito escrito: as ligações são 'e', 'e' e 'e também'. O teste da troca mostra o problema, porque o B02 poderia vir depois do B03 sem perda. A pergunta 'E as casas de banho?' é aditiva e não marca virada.",
+      "instrucao": "Escreva o contraste nas duas costuras do meio, sem relação causal: o B02 abre com 'Mas em casa, ...' (ver acima) e o B03 troca 'E as casas de banho? Negócio, com guilda e regras.' por 'Na rua, banho era negócio. Com guilda e regras.' (os pedaços ficam 'Na rua, banho era negócio.' | 'Com guilda e regras.'). O B04 pode continuar aditivo, porque é escala, mas corrija o metadado para 'e' ou 'e então'."
+    },
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B01, B04",
+      "evidencia": "'Mais de 32 casas' (legenda 1) e 'Londres teve 13 casas.' (legenda da imagem 8)",
+      "problema": "Lido sem áudio, num pedaço isolado, 'casas' perde o 'de banho' e vira casa de morar. Isso acontece duas vezes, justamente no primeiro e no último frame, que são os que carregam o loop. Na imagem 6, 'Banho completo:' também fica sozinho numa legenda antes de '4 denários.'.",
+      "instrucao": "Imagem 8: 'Londres tinha 13. Viena chegou a 29. E Paris...'. O número sem substantivo herda o sentido da imagem e da legenda anterior, e a escada 13, 29, ... fica mais limpa. Imagem 1: ver gancho-2s. A imagem 6 pode ficar como está: a quebra ocorre depois dos dois-pontos e se lê bem."
+    },
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B01", "tempo": "00:00", "motivo": "O primeiro pedaço de legenda, 'Mais de 32 casas', não diz do que se trata. A decisão de passar acontece antes de 'de banho.' aparecer."},
+    {"bloco": "B02", "tempo": "00:07", "motivo": "A legenda 'Em casa,' sozinha e a saída do cenário prometido (vapor, casa de banho) para tarefas domésticas, sem pergunta escrita no texto. O bloco termina fechado em 'e bacia.'."}
+  ],
+  "prioridades": [
+    "1. B01, imagem 1: trocar por 'Mais de 32 banhos públicos. Numa cidade só.', para que o primeiro pedaço de legenda tenha sentido completo. Na imagem 2, pôr 'E dizem que ninguém tomava banho.' antes de 'Paris, século 13.'.",
+    "2. B02: abrir com 'Mas em casa, encher uma tina custava caro.' e fechar a imagem 4 com 'No dia a dia, só bacia.', deixando a falta aberta para o B03, sem afirmar causa.",
+    "3. B03, imagem 5: 'Na rua, banho era negócio. Com guilda e regras.' no lugar de 'E as casas de banho? Negócio...', para que a virada seja um contraste escrito.",
+    "4. B04, imagem 8: 'Londres tinha 13. Viena chegou a 29. E Paris...', tirando o 'casas' ambíguo.",
+    "5. Corrigir os metadados de conector para refletir o texto, e as notas que dizem que as frases 'quebram limpo em 4 + 4': a imagem 1 e a imagem 6 não quebram."
+  ],
+  "manter": [
+    "B01: o [VISUAL] de vapor com tinas e luz de vela, e 'Numa cidade só.' como segunda batida",
+    "B03, imagem 6: 'Vapor: 2 denários. Banho completo: 4 denários.', que colhe a capa com exatidão e sem conversão inventada",
+    "B03, imagem 7: os pregoeiros, o detalhe mais vivo e inesperado do vídeo",
+    "B04: a escada de cidades terminando em 'E Paris...', que emenda no gancho no replay",
+    "O cuidado factual das notas: 'dizem' em vez de 'na verdade', a guilda sem afirmar que fixava o preço, nenhuma época comum para Londres e Viena, a omissão de 'mulheres' (F27)",
+    "A distribuição de 7 a 10 palavras por imagem (72 palavras, 29 s)"
+  ],
+  "alertas_de_medicao": [
+    "Nenhum alerta do medir_roteiro.py; 72 palavras, 00:29 estimados para a meta de 00:30; nenhum [VERIFICAR].",
+    "O trecho de 0 a 2 s da medição ('Mais de 32 casas de') coincide com o primeiro pedaço real de legenda gerado pelo montar_video.py ('Mais de 32 casas'). Os pedaços foram conferidos rodando pedacos(texto, 4) do script.",
+    "A soma dos blocos dá 72 palavras, mas a tabela do plano diz B02 = 19, e a medição conta 21. A diferença não afeta a duração."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "consulta": {
+    "cmd": "buscar",
+    "max": 25,
+    "rapido": false,
+    "termo": "teste de paternidade frutas",
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt",
+    "out": "projetos/fruto-de-traicao/02-trends/teste-paternidade.json"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-21 14:44 UTC",
+  "avisos": [],
+  "videos": []
+}

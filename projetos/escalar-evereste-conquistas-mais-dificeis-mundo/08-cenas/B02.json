@@ -1,0 +1,67 @@
+[
+  {
+    "trecho": "Degrau um: só a licença do Nepal pra escalar",
+    "tipo": "cartela",
+    "texto_na_tela": "DEGRAU 1 — O INGRESSO",
+    "descricao": "Cartela do primeiro degrau: a escada de papelão encostada no pé da montanha, ao lado das barracas do acampamento base, com o primeiro degrau destacado em laranja.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L02",
+    "objetos": ["O02"],
+    "prompt_cena": "the cardboard ladder leaning against the foot of the paper mountain beside the base camp tents, its lowest rung painted signal orange, the upper rungs disappearing into clouds",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "custa uns setenta e cinco mil reais.",
+    "tipo": "cartela",
+    "texto_na_tela": "LICENÇA — R$ 75 MIL",
+    "descricao": "A licença de escalada colada na mesa de colagem, presa por uma pilha de dinheiro de papel: o preço só para ter permissão.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L04",
+    "objetos": ["O04", "O03"],
+    "prompt_cena": "a climbing permit document taped to kraft paper with a thick stack of blank green banknotes resting on its corner, a red wax seal glinting, scraps of paper around",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A expedição com guia vai de duzentos e trinta",
+    "tipo": "cartela",
+    "texto_na_tela": "R$ 230 MIL — operadora nepalesa",
+    "descricao": "A expedição mais barata: um guia sherpa segurando uma pilha média de dinheiro de papel, pronto para levar o cliente.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P03"],
+    "local": "L02",
+    "objetos": ["O03"],
+    "prompt_cena": "one of the sherpa guides stands at base camp holding a medium stack of blank green banknotes in both arms, coiled rope over his shoulder, friendly and businesslike",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "a mais de quatrocentos mil.",
+    "tipo": "cartela",
+    "texto_na_tela": "R$ 400 MIL+ — guias ocidentais",
+    "descricao": "A expedição premium: uma pilha de dinheiro de papel tão alta que vira uma coluna, com um guia de jaqueta vermelha luxuosa em pé no topo dela.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": null,
+    "objetos": ["O03"],
+    "prompt_cena": "a towering column of stacked blank green banknotes rising into a pale blue cardboard sky, a paper cutout western mountain guide in a sleek red expedition jacket and mirrored glasses standing proudly on top",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "E isso só compra o direito de tentar.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "US$ 1 = R$ 5,04 (22/10/2026)",
+    "descricao": "O alpinista de papel, de costas, no acampamento base, segurando a licença e olhando a montanha inteira que ainda falta. O dinheiro só abre a porta.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P01"],
+    "local": "L02",
+    "objetos": ["O04"],
+    "prompt_cena": "the paper climber seen from behind holds the climbing permit in one hand and looks up at the enormous white peak towering over the base camp tents, small and alone against its size",
+    "movimento": "subir",
+    "transicao": "corte"
+  }
+]

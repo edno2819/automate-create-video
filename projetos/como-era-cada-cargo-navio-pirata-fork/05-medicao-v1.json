@@ -1,0 +1,304 @@
+{
+  "arquivo": "projetos/como-era-cada-cargo-navio-pirata-fork/05-roteiro-v1.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Como era cada cargo de um navio pirata",
+  "palavras": 180,
+  "duracao_estimada": "01:13",
+  "duracao_segundos": 73,
+  "duracao_alvo": "01:05",
+  "trecho_gancho": "Venha descobrir se você aguentaria",
+  "trecho_30s": "Venha descobrir se você aguentaria ser um pirata. Você tem vinte anos, jurou as regras do navio e bate o biscoito do jantar na mesa pros carunchos caírem. Você começa de marujo: dorme colado no vizinho, entre piolho e rato, e bebe rum, porque a água apodrece. Sem carne, o cozinheiro frita o que sobra: a tripulação de Henry Morgan comeu uma bolsa de couro. O músico, muitas vezes, foi capturado de outro navio e",
+  "primeira_frase": "Venha descobrir se você aguentaria ser um pirata.",
+  "ultima_frase": "E aí, você teria coragem de ser um tripulante de um navio pirata?",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "Gancho: o juramento e o biscoito",
+      "funcao": "gancho",
+      "palavras": 28,
+      "inicio": "00:00",
+      "fim": "00:11",
+      "duracao_s": 11,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Venha descobrir se você aguentaria ser um pirata."
+    },
+    {
+      "id": "B02",
+      "titulo": "Marujo",
+      "funcao": "contexto",
+      "palavras": 19,
+      "inicio": "00:11",
+      "fim": "00:19",
+      "duracao_s": 8,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Você começa de marujo: dorme colado no vizinho,"
+    },
+    {
+      "id": "B03",
+      "titulo": "Cozinheiro",
+      "funcao": "desenvolvimento",
+      "palavras": 18,
+      "inicio": "00:19",
+      "fim": "00:26",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Sem carne, o cozinheiro frita o que sobra:"
+    },
+    {
+      "id": "B04",
+      "titulo": "Músico",
+      "funcao": "desenvolvimento",
+      "palavras": 18,
+      "inicio": "00:26",
+      "fim": "00:33",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "O músico, muitas vezes, foi capturado de outro"
+    },
+    {
+      "id": "B05",
+      "titulo": "Artilheiro",
+      "funcao": "desenvolvimento",
+      "palavras": 15,
+      "inicio": "00:33",
+      "fim": "00:39",
+      "duracao_s": 6,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Nos canhões, quem grita fogo é o artilheiro."
+    },
+    {
+      "id": "B06",
+      "titulo": "Carpinteiro",
+      "funcao": "clímax",
+      "palavras": 25,
+      "inicio": "00:39",
+      "fim": "00:50",
+      "duracao_s": 11,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Sem médico, quem opera você é o carpinteiro,"
+    },
+    {
+      "id": "B07",
+      "titulo": "Quartel-mestre",
+      "funcao": "virada",
+      "palavras": 17,
+      "inicio": "00:50",
+      "fim": "00:57",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Quem paga é o quartel-mestre, que divide o"
+    },
+    {
+      "id": "B08",
+      "titulo": "Capitão",
+      "funcao": "payoff",
+      "palavras": 27,
+      "inicio": "00:57",
+      "fim": "01:08",
+      "duracao_s": 11,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "E o capitão? É eleito e derrubado no"
+    },
+    {
+      "id": "B09",
+      "titulo": "Fecho",
+      "funcao": "final",
+      "palavras": 13,
+      "inicio": "01:08",
+      "fim": "01:13",
+      "duracao_s": 5,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "E aí, você teria coragem de ser um"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:11",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:19",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:26",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:33",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B06",
+      "inicio": "00:39",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "abre": [
+        "L5"
+      ],
+      "fecha": [
+        "L4"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3",
+        "L5"
+      ]
+    },
+    {
+      "bloco": "B07",
+      "inicio": "00:50",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3",
+        "L5"
+      ],
+      "abre": [],
+      "fecha": [
+        "L5"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B08",
+      "inicio": "00:57",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L2",
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B09",
+      "inicio": "01:08",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "você aguentaria ser um pirata?",
+    "L2": "o que dizem as regras que você acabou de jurar?",
+    "L3": "se o marujo é o começo, como é subir no navio?",
+    "L4": "o que acontece quando o outro navio atira de volta?",
+    "L5": "quem paga as oitocentas moedas e manda no dinheiro?"
+  },
+  "verificar": [],
+  "falas": {},
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "short com 01:13: o ideal é entre 30 e 60 s"
+    }
+  ]
+}

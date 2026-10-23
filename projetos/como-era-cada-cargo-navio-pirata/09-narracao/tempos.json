@@ -1,0 +1,1136 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 57.0,
+  "duracao_video_s": 57.6,
+  "fonte": "faster-whisper small",
+  "voz": "Algieba",
+  "personagens": {},
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Venha",
+          "inicio": 0.0,
+          "fim": 0.56
+        },
+        {
+          "texto": "descobrir",
+          "inicio": 0.56,
+          "fim": 0.76
+        },
+        {
+          "texto": "se",
+          "inicio": 0.76,
+          "fim": 1.0
+        },
+        {
+          "texto": "você",
+          "inicio": 1.0,
+          "fim": 1.16
+        },
+        {
+          "texto": "aguentaria",
+          "inicio": 1.16,
+          "fim": 1.76
+        },
+        {
+          "texto": "ser",
+          "inicio": 1.76,
+          "fim": 1.96
+        },
+        {
+          "texto": "um",
+          "inicio": 1.96,
+          "fim": 2.04
+        },
+        {
+          "texto": "pirata.",
+          "inicio": 2.04,
+          "fim": 2.42
+        }
+      ],
+      "fim_s": 2.68
+    },
+    {
+      "id": "B01-02",
+      "inicio_s": 2.68,
+      "palavras": [
+        {
+          "texto": "Você",
+          "inicio": 2.68,
+          "fim": 2.8
+        },
+        {
+          "texto": "tem",
+          "inicio": 2.8,
+          "fim": 2.94
+        },
+        {
+          "texto": "vinte",
+          "inicio": 2.94,
+          "fim": 3.18
+        },
+        {
+          "texto": "anos,",
+          "inicio": 3.18,
+          "fim": 3.46
+        },
+        {
+          "texto": "jurou",
+          "inicio": 3.8,
+          "fim": 4.14
+        },
+        {
+          "texto": "as",
+          "inicio": 4.14,
+          "fim": 4.26
+        },
+        {
+          "texto": "regras",
+          "inicio": 4.26,
+          "fim": 4.58
+        },
+        {
+          "texto": "do",
+          "inicio": 4.58,
+          "fim": 4.62
+        },
+        {
+          "texto": "navio",
+          "inicio": 4.62,
+          "fim": 4.94
+        }
+      ],
+      "fim_s": 4.94
+    },
+    {
+      "id": "B01-03",
+      "inicio_s": 4.94,
+      "palavras": [
+        {
+          "texto": "e",
+          "inicio": 4.94,
+          "fim": 5.24
+        },
+        {
+          "texto": "bate",
+          "inicio": 5.24,
+          "fim": 5.56
+        },
+        {
+          "texto": "o",
+          "inicio": 5.56,
+          "fim": 5.66
+        },
+        {
+          "texto": "biscoito",
+          "inicio": 5.66,
+          "fim": 6.02
+        },
+        {
+          "texto": "do",
+          "inicio": 6.02,
+          "fim": 6.12
+        },
+        {
+          "texto": "jantar",
+          "inicio": 6.12,
+          "fim": 6.4
+        },
+        {
+          "texto": "na",
+          "inicio": 6.4,
+          "fim": 6.48
+        },
+        {
+          "texto": "mesa",
+          "inicio": 6.48,
+          "fim": 6.78
+        },
+        {
+          "texto": "pros",
+          "inicio": 6.78,
+          "fim": 7.08
+        },
+        {
+          "texto": "carunchos",
+          "inicio": 7.08,
+          "fim": 7.5
+        },
+        {
+          "texto": "caírem.",
+          "inicio": 7.5,
+          "fim": 7.88
+        }
+      ],
+      "fim_s": 8.497
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 8.497,
+      "palavras": [
+        {
+          "texto": "Você",
+          "inicio": 8.497,
+          "fim": 8.897
+        },
+        {
+          "texto": "começa",
+          "inicio": 8.897,
+          "fim": 9.157
+        },
+        {
+          "texto": "de",
+          "inicio": 9.157,
+          "fim": 9.337
+        },
+        {
+          "texto": "marujo:",
+          "inicio": 9.337,
+          "fim": 9.817
+        },
+        {
+          "texto": "dorme",
+          "inicio": 9.937,
+          "fim": 10.337
+        },
+        {
+          "texto": "colado",
+          "inicio": 10.337,
+          "fim": 10.737
+        },
+        {
+          "texto": "no",
+          "inicio": 10.737,
+          "fim": 10.857
+        },
+        {
+          "texto": "vizinho,",
+          "inicio": 10.857,
+          "fim": 11.337
+        },
+        {
+          "texto": "entre",
+          "inicio": 11.377,
+          "fim": 11.557
+        },
+        {
+          "texto": "piolho",
+          "inicio": 11.557,
+          "fim": 12.097
+        },
+        {
+          "texto": "e",
+          "inicio": 12.097,
+          "fim": 12.177
+        },
+        {
+          "texto": "rato,",
+          "inicio": 12.177,
+          "fim": 12.577
+        }
+      ],
+      "fim_s": 12.757
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 12.757,
+      "palavras": [
+        {
+          "texto": "e",
+          "inicio": 12.757,
+          "fim": 12.957
+        },
+        {
+          "texto": "bebe",
+          "inicio": 12.957,
+          "fim": 13.197
+        },
+        {
+          "texto": "rum,",
+          "inicio": 13.197,
+          "fim": 13.397
+        },
+        {
+          "texto": "porque",
+          "inicio": 13.617,
+          "fim": 13.837
+        },
+        {
+          "texto": "a",
+          "inicio": 13.837,
+          "fim": 13.997
+        },
+        {
+          "texto": "água",
+          "inicio": 13.997,
+          "fim": 14.177
+        },
+        {
+          "texto": "apodrece.",
+          "inicio": 14.177,
+          "fim": 14.637
+        }
+      ],
+      "fim_s": 15.328
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 15.328,
+      "palavras": [
+        {
+          "texto": "Sem",
+          "inicio": 15.328,
+          "fim": 15.768
+        },
+        {
+          "texto": "carne,",
+          "inicio": 15.768,
+          "fim": 16.108
+        },
+        {
+          "texto": "o",
+          "inicio": 16.308,
+          "fim": 16.428
+        },
+        {
+          "texto": "cozinheiro",
+          "inicio": 16.428,
+          "fim": 16.808
+        },
+        {
+          "texto": "frita",
+          "inicio": 16.808,
+          "fim": 17.048
+        },
+        {
+          "texto": "o",
+          "inicio": 17.048,
+          "fim": 17.128
+        },
+        {
+          "texto": "que",
+          "inicio": 17.128,
+          "fim": 17.248
+        },
+        {
+          "texto": "sobra:",
+          "inicio": 17.248,
+          "fim": 17.568
+        }
+      ],
+      "fim_s": 17.828
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 17.828,
+      "palavras": [
+        {
+          "texto": "a",
+          "inicio": 17.828,
+          "fim": 17.988
+        },
+        {
+          "texto": "tripulação",
+          "inicio": 17.988,
+          "fim": 18.508
+        },
+        {
+          "texto": "de",
+          "inicio": 18.508,
+          "fim": 18.608
+        },
+        {
+          "texto": "Henry",
+          "inicio": 18.608,
+          "fim": 18.828
+        },
+        {
+          "texto": "Morgan",
+          "inicio": 18.828,
+          "fim": 19.188
+        },
+        {
+          "texto": "comeu",
+          "inicio": 19.188,
+          "fim": 19.628
+        },
+        {
+          "texto": "uma",
+          "inicio": 19.628,
+          "fim": 19.788
+        },
+        {
+          "texto": "bolsa",
+          "inicio": 19.788,
+          "fim": 20.168
+        },
+        {
+          "texto": "de",
+          "inicio": 20.168,
+          "fim": 20.248
+        },
+        {
+          "texto": "couro.",
+          "inicio": 20.248,
+          "fim": 20.708
+        }
+      ],
+      "fim_s": 21.39
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 21.39,
+      "palavras": [
+        {
+          "texto": "O",
+          "inicio": 21.39,
+          "fim": 21.73
+        },
+        {
+          "texto": "músico,",
+          "inicio": 21.73,
+          "fim": 22.15
+        },
+        {
+          "texto": "muitas",
+          "inicio": 22.15,
+          "fim": 22.37
+        },
+        {
+          "texto": "vezes,",
+          "inicio": 22.37,
+          "fim": 22.71
+        },
+        {
+          "texto": "foi",
+          "inicio": 22.71,
+          "fim": 22.89
+        },
+        {
+          "texto": "capturado",
+          "inicio": 22.89,
+          "fim": 23.29
+        },
+        {
+          "texto": "de",
+          "inicio": 23.29,
+          "fim": 23.43
+        },
+        {
+          "texto": "outro",
+          "inicio": 23.43,
+          "fim": 23.67
+        },
+        {
+          "texto": "navio",
+          "inicio": 23.67,
+          "fim": 24.05
+        }
+      ],
+      "fim_s": 24.05
+    },
+    {
+      "id": "B04-02",
+      "inicio_s": 24.05,
+      "palavras": [
+        {
+          "texto": "e",
+          "inicio": 24.05,
+          "fim": 24.33
+        },
+        {
+          "texto": "obrigado",
+          "inicio": 24.33,
+          "fim": 24.67
+        },
+        {
+          "texto": "a",
+          "inicio": 24.67,
+          "fim": 24.91
+        },
+        {
+          "texto": "tocar",
+          "inicio": 24.91,
+          "fim": 25.03
+        },
+        {
+          "texto": "violino",
+          "inicio": 25.03,
+          "fim": 25.53
+        },
+        {
+          "texto": "no",
+          "inicio": 25.53,
+          "fim": 25.67
+        },
+        {
+          "texto": "ataque,",
+          "inicio": 25.67,
+          "fim": 26.05
+        },
+        {
+          "texto": "pra",
+          "inicio": 26.29,
+          "fim": 26.45
+        },
+        {
+          "texto": "assustar.",
+          "inicio": 26.45,
+          "fim": 26.81
+        }
+      ],
+      "fim_s": 27.384
+    },
+    {
+      "id": "B05-01",
+      "inicio_s": 27.384,
+      "palavras": [
+        {
+          "texto": "Nos",
+          "inicio": 27.384,
+          "fim": 27.704
+        },
+        {
+          "texto": "canhões,",
+          "inicio": 27.704,
+          "fim": 28.084
+        },
+        {
+          "texto": "quem",
+          "inicio": 28.304,
+          "fim": 28.364
+        },
+        {
+          "texto": "grita",
+          "inicio": 28.364,
+          "fim": 28.644
+        },
+        {
+          "texto": "fogo",
+          "inicio": 28.644,
+          "fim": 29.004
+        },
+        {
+          "texto": "é",
+          "inicio": 29.004,
+          "fim": 29.084
+        },
+        {
+          "texto": "o",
+          "inicio": 29.084,
+          "fim": 29.164
+        },
+        {
+          "texto": "artilheiro.",
+          "inicio": 29.164,
+          "fim": 29.624
+        }
+      ],
+      "fim_s": 29.884
+    },
+    {
+      "id": "B05-02",
+      "inicio_s": 29.884,
+      "palavras": [
+        {
+          "texto": "Só",
+          "inicio": 29.884,
+          "fim": 30.064
+        },
+        {
+          "texto": "que",
+          "inicio": 30.064,
+          "fim": 30.164
+        },
+        {
+          "texto": "o",
+          "inicio": 30.164,
+          "fim": 30.164
+        },
+        {
+          "texto": "outro",
+          "inicio": 30.164,
+          "fim": 30.364
+        },
+        {
+          "texto": "navio",
+          "inicio": 30.364,
+          "fim": 30.704
+        },
+        {
+          "texto": "também",
+          "inicio": 30.704,
+          "fim": 30.984
+        },
+        {
+          "texto": "atira.",
+          "inicio": 30.984,
+          "fim": 31.464
+        }
+      ],
+      "fim_s": 32.109
+    },
+    {
+      "id": "B06-01",
+      "inicio_s": 32.109,
+      "palavras": [
+        {
+          "texto": "Sem",
+          "inicio": 32.109,
+          "fim": 32.529
+        },
+        {
+          "texto": "médico,",
+          "inicio": 32.529,
+          "fim": 32.829
+        },
+        {
+          "texto": "quem",
+          "inicio": 33.069,
+          "fim": 33.129
+        },
+        {
+          "texto": "opera",
+          "inicio": 33.129,
+          "fim": 33.329
+        },
+        {
+          "texto": "você",
+          "inicio": 33.329,
+          "fim": 33.629
+        },
+        {
+          "texto": "é",
+          "inicio": 33.629,
+          "fim": 33.749
+        },
+        {
+          "texto": "o",
+          "inicio": 33.749,
+          "fim": 33.809
+        },
+        {
+          "texto": "carpinteiro,",
+          "inicio": 33.809,
+          "fim": 34.309
+        }
+      ],
+      "fim_s": 34.389
+    },
+    {
+      "id": "B06-02",
+      "inicio_s": 34.389,
+      "palavras": [
+        {
+          "texto": "com",
+          "inicio": 34.389,
+          "fim": 34.589
+        },
+        {
+          "texto": "a",
+          "inicio": 34.589,
+          "fim": 34.669
+        },
+        {
+          "texto": "serra",
+          "inicio": 34.669,
+          "fim": 34.909
+        },
+        {
+          "texto": "da",
+          "inicio": 34.909,
+          "fim": 34.969
+        },
+        {
+          "texto": "madeira.",
+          "inicio": 34.969,
+          "fim": 35.469
+        }
+      ],
+      "fim_s": 35.789
+    },
+    {
+      "id": "B06-03",
+      "inicio_s": 35.789,
+      "palavras": [
+        {
+          "texto": "Por",
+          "inicio": 35.789,
+          "fim": 35.949
+        },
+        {
+          "texto": "um",
+          "inicio": 35.949,
+          "fim": 36.069
+        },
+        {
+          "texto": "braço",
+          "inicio": 36.069,
+          "fim": 36.349
+        },
+        {
+          "texto": "perdido,",
+          "inicio": 36.349,
+          "fim": 36.849
+        },
+        {
+          "texto": "as",
+          "inicio": 36.989,
+          "fim": 37.109
+        },
+        {
+          "texto": "regras",
+          "inicio": 37.109,
+          "fim": 37.429
+        },
+        {
+          "texto": "que",
+          "inicio": 37.429,
+          "fim": 37.509
+        },
+        {
+          "texto": "você",
+          "inicio": 37.509,
+          "fim": 37.769
+        },
+        {
+          "texto": "jurou",
+          "inicio": 37.769,
+          "fim": 38.149
+        },
+        {
+          "texto": "pagam",
+          "inicio": 38.149,
+          "fim": 38.549
+        },
+        {
+          "texto": "oitocentas",
+          "inicio": 38.549,
+          "fim": 38.769
+        },
+        {
+          "texto": "moedas.",
+          "inicio": 38.769,
+          "fim": 39.529
+        }
+      ],
+      "fim_s": 40.138
+    },
+    {
+      "id": "B07-01",
+      "inicio_s": 40.138,
+      "palavras": [
+        {
+          "texto": "Quem",
+          "inicio": 40.138,
+          "fim": 40.438
+        },
+        {
+          "texto": "paga",
+          "inicio": 40.438,
+          "fim": 40.818
+        },
+        {
+          "texto": "é",
+          "inicio": 40.818,
+          "fim": 40.918
+        },
+        {
+          "texto": "o",
+          "inicio": 40.918,
+          "fim": 40.958
+        },
+        {
+          "texto": "quartel-mestre,",
+          "inicio": 40.958,
+          "fim": 41.618
+        },
+        {
+          "texto": "que",
+          "inicio": 41.678,
+          "fim": 41.738
+        },
+        {
+          "texto": "divide",
+          "inicio": 41.738,
+          "fim": 41.958
+        },
+        {
+          "texto": "o",
+          "inicio": 41.958,
+          "fim": 42.098
+        },
+        {
+          "texto": "tesouro",
+          "inicio": 42.098,
+          "fim": 42.498
+        }
+      ],
+      "fim_s": 42.498
+    },
+    {
+      "id": "B07-02",
+      "inicio_s": 42.498,
+      "palavras": [
+        {
+          "texto": "e,",
+          "inicio": 42.498,
+          "fim": 42.578
+        },
+        {
+          "texto": "fora",
+          "inicio": 42.638,
+          "fim": 42.758
+        },
+        {
+          "texto": "da",
+          "inicio": 42.758,
+          "fim": 42.898
+        },
+        {
+          "texto": "batalha,",
+          "inicio": 42.898,
+          "fim": 43.298
+        },
+        {
+          "texto": "manda",
+          "inicio": 43.418,
+          "fim": 43.618
+        },
+        {
+          "texto": "igual",
+          "inicio": 43.618,
+          "fim": 43.898
+        },
+        {
+          "texto": "ao",
+          "inicio": 43.898,
+          "fim": 44.018
+        },
+        {
+          "texto": "capitão.",
+          "inicio": 44.018,
+          "fim": 44.358
+        }
+      ],
+      "fim_s": 45.1
+    },
+    {
+      "id": "B08-01",
+      "inicio_s": 45.1,
+      "palavras": [
+        {
+          "texto": "E",
+          "inicio": 45.1,
+          "fim": 45.68
+        },
+        {
+          "texto": "o",
+          "inicio": 45.68,
+          "fim": 45.74
+        },
+        {
+          "texto": "capitão?",
+          "inicio": 45.74,
+          "fim": 46.34
+        },
+        {
+          "texto": "É",
+          "inicio": 46.34,
+          "fim": 46.74
+        },
+        {
+          "texto": "eleito",
+          "inicio": 46.74,
+          "fim": 47.16
+        },
+        {
+          "texto": "e",
+          "inicio": 47.16,
+          "fim": 47.22
+        },
+        {
+          "texto": "derrubado",
+          "inicio": 47.22,
+          "fim": 47.6
+        },
+        {
+          "texto": "no",
+          "inicio": 47.6,
+          "fim": 47.7
+        },
+        {
+          "texto": "voto,",
+          "inicio": 47.7,
+          "fim": 48.14
+        }
+      ],
+      "fim_s": 48.14
+    },
+    {
+      "id": "B08-02",
+      "inicio_s": 48.14,
+      "palavras": [
+        {
+          "texto": "pelas",
+          "inicio": 48.14,
+          "fim": 48.38
+        },
+        {
+          "texto": "regras",
+          "inicio": 48.38,
+          "fim": 48.68
+        },
+        {
+          "texto": "que",
+          "inicio": 48.68,
+          "fim": 48.78
+        },
+        {
+          "texto": "você",
+          "inicio": 48.78,
+          "fim": 49.12
+        },
+        {
+          "texto": "jurou.",
+          "inicio": 49.12,
+          "fim": 49.54
+        },
+        {
+          "texto": "Se",
+          "inicio": 49.76,
+          "fim": 49.94
+        },
+        {
+          "texto": "o",
+          "inicio": 49.94,
+          "fim": 50.0
+        },
+        {
+          "texto": "navio",
+          "inicio": 50.0,
+          "fim": 50.2
+        },
+        {
+          "texto": "é",
+          "inicio": 50.2,
+          "fim": 50.3
+        },
+        {
+          "texto": "pego,",
+          "inicio": 50.3,
+          "fim": 50.58
+        }
+      ],
+      "fim_s": 50.7
+    },
+    {
+      "id": "B08-03",
+      "inicio_s": 50.7,
+      "palavras": [
+        {
+          "texto": "o",
+          "inicio": 50.7,
+          "fim": 50.7
+        },
+        {
+          "texto": "cargo",
+          "inicio": 50.7,
+          "fim": 50.92
+        },
+        {
+          "texto": "mais",
+          "inicio": 50.92,
+          "fim": 51.2
+        },
+        {
+          "texto": "alto",
+          "inicio": 51.2,
+          "fim": 51.58
+        },
+        {
+          "texto": "sobe",
+          "inicio": 51.58,
+          "fim": 51.92
+        },
+        {
+          "texto": "primeiro",
+          "inicio": 51.92,
+          "fim": 52.34
+        },
+        {
+          "texto": "na",
+          "inicio": 52.34,
+          "fim": 52.46
+        },
+        {
+          "texto": "forca.",
+          "inicio": 52.46,
+          "fim": 52.86
+        }
+      ],
+      "fim_s": 53.456
+    },
+    {
+      "id": "B09-01",
+      "inicio_s": 53.456,
+      "palavras": [
+        {
+          "texto": "E",
+          "inicio": 53.456,
+          "fim": 53.716
+        },
+        {
+          "texto": "aí,",
+          "inicio": 53.716,
+          "fim": 53.836
+        },
+        {
+          "texto": "você",
+          "inicio": 54.036,
+          "fim": 54.196
+        },
+        {
+          "texto": "teria",
+          "inicio": 54.196,
+          "fim": 54.376
+        },
+        {
+          "texto": "coragem",
+          "inicio": 54.376,
+          "fim": 54.916
+        },
+        {
+          "texto": "de",
+          "inicio": 54.916,
+          "fim": 55.036
+        },
+        {
+          "texto": "ser",
+          "inicio": 55.036,
+          "fim": 55.176
+        },
+        {
+          "texto": "um",
+          "inicio": 55.176,
+          "fim": 55.236
+        },
+        {
+          "texto": "tripulante",
+          "inicio": 55.236,
+          "fim": 55.836
+        },
+        {
+          "texto": "de",
+          "inicio": 55.836,
+          "fim": 55.956
+        },
+        {
+          "texto": "um",
+          "inicio": 55.956,
+          "fim": 56.076
+        },
+        {
+          "texto": "navio",
+          "inicio": 56.076,
+          "fim": 56.276
+        },
+        {
+          "texto": "pirata?",
+          "inicio": 56.276,
+          "fim": 56.616
+        }
+      ],
+      "fim_s": 57.6
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 28,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 1,
+      "extras": [
+        {
+          "texto": "para os",
+          "em_s": 6.78
+        }
+      ],
+      "ppm_real": 206
+    },
+    {
+      "bloco": "B02",
+      "palavras": 19,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 176
+    },
+    {
+      "bloco": "B03",
+      "palavras": 18,
+      "cobertura_pct": 94.4,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 189
+    },
+    {
+      "bloco": "B04",
+      "palavras": 18,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 191
+    },
+    {
+      "bloco": "B05",
+      "palavras": 15,
+      "cobertura_pct": 93.3,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 206
+    },
+    {
+      "bloco": "B06",
+      "palavras": 25,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 195
+    },
+    {
+      "bloco": "B07",
+      "palavras": 17,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 1,
+      "extras": [
+        {
+          "texto": "quartel mestre,",
+          "em_s": 0.82
+        }
+      ],
+      "ppm_real": 221
+    },
+    {
+      "bloco": "B08",
+      "palavras": 27,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 202
+    },
+    {
+      "bloco": "B09",
+      "palavras": 13,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 220
+    }
+  ],
+  "alertas": []
+}

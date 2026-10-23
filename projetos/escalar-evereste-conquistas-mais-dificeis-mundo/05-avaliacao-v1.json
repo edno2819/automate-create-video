@@ -1,0 +1,111 @@
+{
+  "roteiro": "projetos/escalar-evereste-conquistas-mais-dificeis-mundo/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": false,
+  "nota_percentual": 86,
+  "bloqueantes_reprovados": ["clareza"],
+  "leitura_fria": [
+    "B01: existem quase 15 vezes mais bilionários no mundo do que vezes em que alguém chegou ao topo do Everest sem garrafa de oxigênio. Uau. Ele vai subir comigo em degraus.",
+    "B02: degrau 1, só a licença do Nepal pra escalar custa uns 75 mil reais, e a expedição com guia vai de 230 a mais de 400 mil. E isso só dá o direito de tentar. Entendi: pagar não garante nada.",
+    "B03: degrau 2, sair do acampamento base e escalar. Em 25 anos, quase 16 mil pessoas fizeram isso 'pelo Nepal' (pelo lado do Nepal? em nome do Nepal?). 'A maioria não pagava: era paga pra subir'... quem? Por que alguém é pago pra subir o Everest? Travei aqui.",
+    "B03→B04: começar não é chegar. Ok, vou ver quantos chegam.",
+    "B04: degrau 3, o topo. Em mais de 70 anos, chegaram 7.563 pessoas. Faço a conta com o número anterior: dos 16 mil que começaram, uns 7,5 mil chegaram, quase metade. Com garrafa, 8 em 10 chegam; sem garrafa, 4 em 100. (Se 8 em 10 chegam com garrafa, por que só metade chegou?)",
+    "B04→B05: tem um custo que não entra no orçamento. Já desconfio: mortes.",
+    "B05: até 2025, umas 340 pessoas morreram no Everest. 'Uma morte pra cada cem chegadas ao topo'... mas acabei de ouvir 7.563 pessoas no topo; 340 de 7.563 é bem mais que 1 em 100. Algum número está errado?",
+    "B05→B06: ainda falta o último degrau, o que é mais raro que ser bilionário. Quero ver o número.",
+    "B06: degrau 4, topo sem garrafa: 232 subidas na história, contra 3.428 bilionários na lista da Forbes. Fecho: dinheiro compra a licença e a garrafa, mas não compra o fôlego pra subir sem ela. Entendi o vídeo inteiro: a escada era de dinheiro e o topo é o que dinheiro não compra."
+  ],
+  "confusoes": [
+    {
+      "bloco": "B03",
+      "trecho": "A maioria não pagava: era paga pra subir.",
+      "problema": "Sujeito oculto: o texto não diz quem é pago para subir (guias e sherpas contratados). O espectador não sabe que a maioria de quem sobe trabalha para os clientes, e a curiosidade vira confusão."
+    },
+    {
+      "bloco": "B03",
+      "trecho": "quase dezesseis mil pessoas fizeram isso pelo Nepal",
+      "problema": "'Pelo Nepal' tem duas leituras (pelo lado nepalês da montanha ou em nome do Nepal), e o espectador não sabe que existem dois lados. Some isso ao recorte de 25 anos e o número fica sem moldura."
+    },
+    {
+      "bloco": "B04",
+      "trecho": "Em mais de setenta anos, chegaram sete mil quinhentas e sessenta e três pessoas.",
+      "problema": "Logo depois de 'começar não é chegar', o espectador lê os dois números como funil (16 mil começaram, 7.563 chegaram, quase metade). Mas são recortes diferentes: 16 mil é só o lado do Nepal, de 2000 a 2025; 7.563 é a história toda, pelos dois lados. A conta que o texto convida a fazer está errada. E o 'oito em cada dez chegam' logo em seguida esvazia a tensão de 'começar não é chegar'."
+    },
+    {
+      "bloco": "B05",
+      "trecho": "Uma morte pra cada cem chegadas ao topo.",
+      "problema": "O espectador acabou de ouvir '7.563 pessoas chegaram'. Com 340 mortes, isso dá cerca de 1 em 22, não 1 em 100. A taxa conta as subidas ao topo (13.737, com repetições), o que o texto não diz. Parece erro de conta justo na frase de peso."
+    }
+  ],
+  "promessa": "Subir o Everest é tão caro, raro e mortal que chegar ao topo sem garrafa de oxigênio é quase 15 vezes mais raro que ser bilionário.",
+  "onde_cumpre": "B01 planta a comparação, B02 a B05 sobem a escada (custo em reais, quantos começam, quantos chegam, quantos morrem) e B06 entrega o 232 contra 3.428 e fecha com 'Dinheiro compra a licença e a garrafa. Não compra o fôlego'.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {
+      "id": "clareza",
+      "nota": 0,
+      "peso": 3,
+      "bloco": "B03, B04, B05",
+      "evidencia": "A maioria não pagava: era paga pra subir. / Uma morte pra cada cem chegadas ao topo.",
+      "problema": "Quatro problemas na leitura fria, e dois atingem a ideia central da escada: (1) B03, quem é pago para subir não é dito; (2) B03, 'pelo Nepal' sem moldura; (3) B04, os 16 mil e os 7.563 parecem um funil, mas são recortes diferentes; (4) B05, a taxa 'uma por cem chegadas' contradiz os 7.563 que o espectador acabou de ouvir, porque conta subidas e não pessoas. Repete a lição 'Frase de efeito forte tem sujeito sem ambiguidade' (B03) e 'Diga a ação, não só o efeito' (B05: diz a taxa, não o que ela conta).",
+      "instrucao": "B03: 'Degrau dois: sair do acampamento base e escalar. Só pelo lado do Nepal, desde dois mil, quase dezesseis mil pessoas tentaram. Mais da metade nem era cliente: eram guias e sherpas, pagos pra subir.' B04: tire a leitura de funil dizendo o recorte: 'Degrau três: o topo. Em toda a história, pelos dois lados da montanha, sete mil quinhentas e sessenta e três pessoas chegaram lá.' Para o 'oito em cada dez', diga de quem: 'Com garrafa de oxigênio, oito em cada dez que tentam chegam. Sem garrafa, só quatro em cada cem.' B05: diga o que a taxa conta: 'A cada cem vezes que alguém chegou ao topo, uma pessoa morreu na montanha.' (o 'vezes' avisa que tem gente que subiu mais de uma vez, e combina com as 'subidas' do gancho e do B06)."
+    },
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "final-com-virada", "nota": 2, "peso": 2},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {
+      "id": "final-em-loop",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B06 → B01",
+      "evidencia": "Não compra o fôlego pra subir sem ela. → Tem quase quinze vezes mais bilionário...",
+      "problema": "Não há emenda: a última frase fecha sozinha e o replay recomeça do zero. O fecho é forte, então pela rubrica é 1, e a decisão de não forçar a emenda está certa.",
+      "instrucao": "Não mexa na última frase para ganhar o loop. Se quiser tentar, só se couber sem enfraquecê-la; senão, deixe como está."
+    },
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B06",
+      "evidencia": "Bilionário, na última lista da Forbes, tem três mil quatrocentos e vinte e oito.",
+      "problema": "Há uma intercalação entre o sujeito e o verbo, e ela vem junto com o número mais longo do vídeo. A voz sintética tende a quebrar a entonação no meio, e o número que é o payoff perde o peso.",
+      "instrucao": "Troque por 'Na última lista da Forbes, são três mil quatrocentos e vinte e oito bilionários.' O número fica no fim e a palavra 'bilionários' fecha a comparação com o gancho."
+    },
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B03", "tempo": "00:28", "motivo": "'A maioria não pagava: era paga pra subir' sem dizer quem: o espectador para para entender e perde a frase seguinte."},
+    {"bloco": "B05", "tempo": "00:50", "motivo": "A taxa 'uma morte pra cada cem chegadas' bate de frente com os 7.563 do bloco anterior. Quem faz a conta desconfia do vídeo justo no ponto de virada."},
+    {"bloco": "B06", "tempo": "01:00", "motivo": "O payoff (232 contra 3.428) começa depois de 1 minuto, num short de 1 min 14 s: quem desliza no fim do primeiro minuto não vê a resposta do gancho."}
+  ],
+  "prioridades": [
+    "1. B05: a taxa de mortes contradiz o número do B04. Troque 'Uma morte pra cada cem chegadas ao topo' por 'A cada cem vezes que alguém chegou ao topo, uma pessoa morreu na montanha.' É a frase de peso da virada e hoje parece erro de conta.",
+    "2. B03: diga quem é pago para subir. 'Mais da metade nem era cliente: eram guias e sherpas, pagos pra subir.' E troque 'pelo Nepal' por 'só pelo lado do Nepal, desde dois mil' (lição: frase de efeito forte tem sujeito sem ambiguidade).",
+    "3. B04: desfaça o funil falso entre 16 mil e 7.563 dizendo o recorte ('Em toda a história, pelos dois lados da montanha...') e diga de quem é o 'oito em cada dez' ('oito em cada dez que tentam chegam'; 'sem garrafa, só quatro em cada cem').",
+    "4. B02: a restrição do pedido exige a data do câmbio e a faixa barata/premium. Na narração não tem data, o B02 não tem [VISUAL] e as notas dizem que a narração fala 'no dólar de outubro', o que não acontece. Ponha um [VISUAL] no B02 com a cartela 'US$ 1 = R$ 5,04 em 22/10/2026 · R$ 230 mil (operadora nepalesa) a R$ 400 mil+ (guias ocidentais)' e corrija a nota.",
+    "5. B06: 'Na última lista da Forbes, são três mil quatrocentos e vinte e oito bilionários.' no lugar da frase com a intercalação. Ao aplicar as correções 1 a 3, não deixe o total passar de cerca de 225 palavras: se precisar compensar, corte primeiro 'Sobe comigo, degrau por degrau.'"
+  ],
+  "manter": [
+    "B01: a frase do gancho inteira e a imagem da pilha de bonecos de terno ao lado do bonequinho sozinho no cume. Fica claro de primeira e a conta é verdadeira.",
+    "B01 e B06: 'subidas' em vez de 'pessoas' e 'garrafa de oxigênio' em vez de 'oxigênio suplementar'.",
+    "B02: 'E isso só compra o direito de tentar.'",
+    "B04→B05: 'Mas tem um custo fora do orçamento.' Retoma o dinheiro do B02 e leva às mortes sem sensacionalismo.",
+    "B05: 'E ainda falta o último degrau, mais raro que ser bilionário.' Religa o gancho na hora certa.",
+    "B06: o fecho 'Dinheiro compra a licença e a garrafa. Não compra o fôlego pra subir sem ela.' É a virada do vídeo: não mexa.",
+    "A escada de quatro degraus com 'Degrau um/dois/três/quatro' ditos em voz alta e o tom sóbrio nas mortes."
+  ],
+  "alertas_de_medicao": [
+    "Duração estimada de 01:14 para uma meta de 00:58 (brief: 01:00), com 216 palavras a 180 ppm. Pela lição registrada, a clareza vale mais que a meta, e as correções acrescentam poucas palavras. Mesmo assim, o payoff começa em ~01:00: se o usuário quiser um short abaixo de 1 minuto, os cortes sugeridos nas notas do roteirista são o caminho, e o primeiro é 'Sobe comigo, degrau por degrau.'",
+    "Restrição dos campos 1 a 4: o roteiro não conta esses níveis porque o dossiê não tem número publicado. A restrição permite isso ('só com números de fonte'), mas o usuário pediu os campos na descrição e precisa saber que ficaram de fora.",
+    "O título do brief tem 'evereste' com 'e' no fim e minúscula. Ele é do usuário e não entrou na nota, mas o ângulo já sugere a grafia corrigida ('Escalar o Everest: uma das conquistas mais difíceis do mundo').",
+    "Os 3.428 bilionários vêm da reprodução do comunicado da Forbes (confiança média) e mudam com a lista de 2027. Confira antes de publicar, se o vídeo sair depois de março de 2027."
+  ]
+}

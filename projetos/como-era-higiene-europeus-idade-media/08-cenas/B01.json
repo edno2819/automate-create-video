@@ -1,0 +1,38 @@
+[
+  {
+    "trecho": "Paris, Idade Média. Você dá um passo...",
+    "tipo": "ilustracao",
+    "descricao": "A composição da capa: a bota de couro gasto do camponês afundando na lama escura e brilhante, a roda de uma carroça ao lado. É o primeiro quadro e segura a tensão antes das palavras.",
+    "enquadramento": "detalhe",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant's worn leather boot sinking ankle-deep into thick dark glistening mud, mud oozing over the leather, a heavy wooden cart wheel half buried right beside it, ripples spreading in the muck, grave and ominous mood",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "e o pé afunda na lama até o tornozelo.",
+    "tipo": "ilustracao",
+    "descricao": "Corte para o rosto do camponês, nojo e espanto exagerados, pintado como um retrato solene de museu.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant looking straight at the viewer with exaggerated disgust and horror, eyes bulging, mouth twisted open showing crooked yellowed teeth, nostrils flared, a fly hovering near his cheek, solemn museum-portrait dignity at odds with the expression",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Lama fedida, revirada pelas carroças. Nenhum calçamento. Tá achando que rico vivia melhor?",
+    "tipo": "ilustracao",
+    "descricao": "A rua inteira vista de cima: carroças revirando a lama, o camponês de costas atolado no meio e um nobre a cavalo passando alto, limpo, acima de tudo. Situa o lugar e já planta a pergunta sobre o rico.",
+    "enquadramento": "plongee",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant seen from behind, stuck in the middle of the muddy street, as two ox carts plough through and spray mud, while a richly dressed nobleman in a fur-trimmed red cloak rides past high on a white horse, nose in the air, untouched by the filth",
+    "movimento": "descer",
+    "transicao": "corte"
+  }
+]

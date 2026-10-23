@@ -1,0 +1,70 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Sadaltager",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "ritmo rápido, tom de quem conta uma fofoca histórica chocante, com ironia e uma pausa curta antes de cada revelação sobre a realeza",
+  "personagens": {},
+  "intervalo_s": 0.35,
+  "intervalo_falas_s": 0.25,
+  "pausa_max_s": null,
+  "velocidade": 1.0,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 78.35,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/blocos/B01.wav",
+      "palavras": 29,
+      "duracao_s": 11.4,
+      "ppm": 153,
+      "pedido": "dc67c9627498",
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/blocos/B02.wav",
+      "palavras": 30,
+      "duracao_s": 10.96,
+      "ppm": 164,
+      "pedido": "7e966136e212",
+      "inicio_s": 11.75
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/blocos/B03.wav",
+      "palavras": 30,
+      "duracao_s": 12.88,
+      "ppm": 140,
+      "pedido": "86c9b106efa9",
+      "inicio_s": 23.06
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/blocos/B04.wav",
+      "palavras": 37,
+      "duracao_s": 14.4,
+      "ppm": 154,
+      "pedido": "c74e613380b6",
+      "inicio_s": 36.29
+    },
+    {
+      "id": "B05",
+      "arquivo": "09-narracao/blocos/B05.wav",
+      "palavras": 40,
+      "duracao_s": 13.24,
+      "ppm": 181,
+      "pedido": "0125f348604b",
+      "inicio_s": 51.04
+    },
+    {
+      "id": "B06",
+      "arquivo": "09-narracao/blocos/B06.wav",
+      "palavras": 40,
+      "duracao_s": 13.72,
+      "ppm": 175,
+      "pedido": "d4da22993976",
+      "inicio_s": 64.63
+    }
+  ]
+}

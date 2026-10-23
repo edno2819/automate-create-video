@@ -1,0 +1,40 @@
+[
+  {
+    "trecho": "Dez minutos antes. Caixa sete.",
+    "tipo": "cartela",
+    "texto_na_tela": "10 MINUTOS ANTES",
+    "descricao": "Cartela do flashback sobre a fileira de caixas à noite, só um acesso, o caixa sete, iluminado.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a row of checkout counters at night with only one lane lit by a warm spotlight, the other lanes dark and empty, conveyor belts still, soft haze under the fluorescent lights, quiet melodramatic flashback mood",
+    "movimento": "zoom-out",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "Bombom de novo? Só você me entende, Abacatinho.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "ATACADÃO · CAIXA 7",
+    "descricao": "Por cima do ombro do Abacatinho, a Moranguete ergue da esteira a caixa de bombom com laço vermelho e sorri doce e falsa, com o crachá rosa no peito. O nome do mercado entra como letreiro de lugar, aplicado na montagem.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P01", "P02"],
+    "local": "L02",
+    "objetos": ["O02"],
+    "prompt_cena": "Moranguete the strawberry behind the checkout counter, seen over the blurred shoulder of Abacatinho the avocado, lifts the box of bonbons from the conveyor belt with a sugary fake smile, fluttering her long lashes, head tilted coyly, warm flattering light on her face, her face in the upper half of the frame",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Trabalho seis por um por você.",
+    "tipo": "ilustracao",
+    "descricao": "Contraplano: o Abacatinho apaixonado, mão no coração, olhos brilhando, sorriso trêmulo. A ingenuidade dele dita com seriedade total.",
+    "enquadramento": "close",
+    "personagens": ["P02"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "Abacatinho the avocado lovestruck, one hand on his heart, glossy eyes sparkling with tiny reflected hearts, trembling hopeful smile showing his front teeth, cheeks flushing, warm golden checkout light on his face, earnest and pitiful, face in the upper half of the frame",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

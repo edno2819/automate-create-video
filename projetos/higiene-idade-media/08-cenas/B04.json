@@ -1,0 +1,14 @@
+[
+  {
+    "trecho": "Londres tinha 13. Viena chegou a 29. E Paris...",
+    "tipo": "ilustracao",
+    "descricao": "Espelho da cena 2: a mesma porta da casa de banho em Paris, agora de frente e mais perto, com vapor quente saindo e convidando a entrar; o replay volta ao interior da cena 1.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the glowing bathhouse doorway at dusk seen straight on, the heavy oak door ajar, golden candlelight and billowing steam spilling into the empty street, inviting the eye inside, a quiet suspended moment",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

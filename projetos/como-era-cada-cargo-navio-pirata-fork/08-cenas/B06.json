@@ -1,0 +1,28 @@
+[
+  {
+    "trecho": "Muitas vezes, um cirurgião sequestrado de outro navio.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "CIRURGIÃO",
+    "descricao": "Um cirurgião de navio mercante arrastado pelo convés por dois piratas, agarrado à caixa de instrumentos; o navio capturado fumega atrás.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a terrified middle-aged ship's surgeon in a gray wig and a dark merchant's coat hauled across the deck by two pirates gripping his arms, clutching his wooden instrument chest, a captured merchant ship smoking behind them",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Sem ele, operava o carpinteiro, com a serra de cortar madeira.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "CARPINTEIRO",
+    "descricao": "Você, deitado na mesa, vê o carpinteiro de baixo, arregaçando as mangas com a serra na mão e a lanterna atrás da cabeça. O pico do medo, sem ferida.",
+    "enquadramento": "pov",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O03"],
+    "prompt_cena": "a grim bald ship's carpenter in a leather apron with sawdust on his forearms looming over the viewer lying on the mess table, rolling up his sleeves with the carpenter's saw in one hand, a bitten leather strap dangling from the other, lantern glowing behind his head",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

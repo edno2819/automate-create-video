@@ -1,0 +1,62 @@
+{
+  "projeto": "novela-frutas-atacadao",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Animação 3D de estúdio em melodrama de novela",
+    "descricao": "Animação 3D polida de longa-metragem, frutas humanizadas fofas de olhos enormes e brilhantes, cores saturadas, e luz de cinema dramática (contraluz, névoa, azul frio contra dourado quente) que contrasta com o visual infantil. O humor vem da seriedade total da imagem.",
+    "prompt_base": "big-budget 3D animated feature film still, stylized CGI, cute anthropomorphic fruit characters with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, dramatic cinematic telenovela lighting with strong rim light, cold blue against warm gold, volumetric haze, deep shadows, shallow depth of field, glossy reflections",
+    "negativo_base": "text, letters, words, numbers, readable signage, watermark, logo, brand name, store branding, real people, human characters, blood, gore, injury, knife, cleaver, blade, raw meat, sausage, nudity, bare torso, kissing, hugging, couple touching, couple silhouettes, suggestive pose, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+    "regras_de_camera": "Mundo só de frutas humanizadas, nenhum humano; os figurantes também são frutas. O Abacatinho é quem desperta a pena do público: os closes de emoção são dele, e o primeiro e o último frame repetem o mesmo quadro (três quartos, rosto encostado na porta gelada, mão na maçaneta, crachá rosa pendurado), que também é a thumb. A Moranguete e o Pepinão nunca dividem um plano próximo: quando aparecem no mesmo quadro, a loja inteira os separa; nada de toque nem de silhuetas juntas. A câmara fria é sempre uma porta de aço maciço, sem janela, e nunca mostra o que há lá dentro. Faca e cutelo nunca aparecem. Vertical com legenda embaixo: rostos, mãos e objetos que importam ficam no terço de cima e no meio do quadro, e o quinto de baixo fica livre. Nenhum texto dentro da imagem: 'Atacadão', 'Caixa 7', '10 minutos antes' e 'Parte 2' entram na montagem. Coletes e crachás genéricos, azul-marinho, sem logo e sem as cores da rede real."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Moranguete",
+      "referencia_en": "Moranguete the strawberry",
+      "descricao": "Moranguete the strawberry, a cute anthropomorphic strawberry young adult woman, glossy bright-red heart-shaped strawberry body dotted with tiny golden seeds, a crown of fresh green leaves on top with a curly stem, huge sparkling dark-brown eyes with long curled lashes, a small dark beauty mark under her left eye, glossy pink lips, slim little arms and legs, wearing a plain navy-blue cashier vest with no logo over a white short-sleeved blouse, a pink plastic name badge with a small cartoon strawberry drawing hanging from a pink lanyard over her vest"
+    },
+    {
+      "id": "P02",
+      "nome": "Abacatinho",
+      "referencia_en": "Abacatinho the avocado",
+      "descricao": "Abacatinho the avocado, a cute anthropomorphic avocado young adult man, round pear-shaped body with bumpy dark-green avocado skin and a lighter yellow-green face, big round shiny hazel eyes that tear up easily, rosy cheeks, two slightly oversized front teeth in a shy smile, a tiny brown stem sprouting from the top of his head like a cowlick, short little arms and legs, wearing a plain navy-blue stock clerk vest with no logo over a white t-shirt, a gray price-tag labeler clipped to his vest pocket"
+    },
+    {
+      "id": "P03",
+      "nome": "Pepinão",
+      "referencia_en": "Pepinão the cucumber",
+      "descricao": "Pepinão the cucumber, a confident anthropomorphic cucumber man in his thirties, sturdy dark-green cucumber body with small bumps and pale green stripes, broad shoulders and thick muscular arms, heavy-lidded half-closed confident eyes with one eyebrow raised, a thin black pencil mustache, a wooden toothpick in the corner of his smirk, wearing a fully buttoned white short-sleeved butcher shirt, a spotless white butcher apron tied at the waist and a white paper butcher cap"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Porta da câmara fria, no fundo do corredor de paletes",
+      "descricao": "the far end of a long aisle in a huge generic warehouse supermarket at night, towering gray metal pallet racks stacked with plain unlabeled cardboard boxes on both sides, polished gray concrete floor, and set in a white back wall a heavy solid stainless-steel walk-in cold room door with no window, covered in frost and ice crystals, with a long chrome lever handle, thin icy fog and cold blue light leaking through its edges, dim cold fluorescent light",
+      "descricao_curta": "a frost-covered solid stainless-steel cold room door with a long chrome lever handle, ice crystals on the metal, icy fog and cold blue light leaking from the gap, dim blue-gray shadows"
+    },
+    {
+      "id": "L02",
+      "nome": "Frente de caixa (caixa sete)",
+      "descricao": "the checkout area of a huge generic Brazilian warehouse supermarket at night, a row of checkout counters with black conveyor belts, small card machines and plain cash registers, high ceiling with exposed metal beams and long fluorescent tubes, tall pallet racks of plain unlabeled boxes behind, a white-tiled butcher section with a glass counter far in the background, mint-green and white color scheme, no logos and no signage",
+      "descricao_curta": "a checkout counter with a black conveyor belt and a plain cash register, blurred mint-green and white supermarket aisles behind, cold white fluorescent light mixed with a warm glow"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "O01",
+      "nome": "Crachá rosa da Moranguete",
+      "descricao": "a pink plastic name badge with a small cartoon strawberry drawing, hanging from a pink lanyard"
+    },
+    {
+      "id": "O02",
+      "nome": "Caixa de bombom com laço vermelho",
+      "descricao": "a rectangular box of chocolate bonbons wrapped in shiny gold paper and tied with a big glossy red satin bow, no brand"
+    },
+    {
+      "id": "O03",
+      "nome": "Bilhete dobrado",
+      "descricao": "a small folded square of white paper, slightly creased, nothing written visible"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "B05-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c1d197b0f090",
+    "referencias": [],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-21T17:47:53"
+  },
+  "B03-01": {
+    "origem": "internet",
+    "busca": "castle garderobe interior",
+    "pedido": "a4c3cd2e5428",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Garderobe at Clara Castle",
+        "autor": "A.-K. D.",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Garderobe_at_Clara_Castle.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Garderobe_at_Clara_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 2016,
+        "altura": 4032,
+        "restricoes": null
+      },
+      {
+        "fonte": "openverse/flickr",
+        "titulo": "Antique wardrobe",
+        "autor": "quinet",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+        "pagina": "https://www.flickr.com/photos/91994044@N00/14819241159",
+        "url": "https://live.staticflickr.com/5561/14819241159_6a0a7d0835_b.jpg",
+        "largura": 683,
+        "altura": 1024,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "North wall garderobe at Eynsford Castle",
+        "autor": "Ethan Doyle White",
+        "licenca": "CC BY-SA 3.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:North_wall_garderobe_at_Eynsford_Castle.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/North_wall_garderobe_at_Eynsford_Castle.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 2976,
+        "altura": 3968,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Garderobe in the northern wall of Eynsford Castle - geograph.org.uk - 5042492",
+        "autor": "Marathon",
+        "licenca": "CC BY-SA 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Garderobe_in_the_northern_wall_of_Eynsford_Castle_-_geograph.org.uk_-_5042492.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Garderobe_in_the_northern_wall_of_Eynsford_Castle_-_geograph.org.uk_-_5042492.jpg/3840px-Garderobe_in_the_northern_wall_of_Eynsford_Castle_-_geograph.org.uk_-_5042492.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 4608,
+        "altura": 3456,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Predjama Castle. 3rd floor. Platform. Garderobe. 2012-07-26 17-04-51",
+        "autor": "Shesmax",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Predjama_Castle._3rd_floor._Platform._Garderobe._2012-07-26_17-04-51.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Predjama_Castle._3rd_floor._Platform._Garderobe._2012-07-26_17-04-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 3456,
+        "altura": 5184,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Predjama Castle. 3rd floor. Platform. Garderobe. 2012-07-26 16-32-28",
+        "autor": "Shesmax",
+        "licenca": "CC BY-SA 4.0",
+        "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Predjama_Castle._3rd_floor._Platform._Garderobe._2012-07-26_16-32-28.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Predjama_Castle._3rd_floor._Platform._Garderobe._2012-07-26_16-32-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 3456,
+        "altura": 5184,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-21T17:37:20",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B03-01.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Garderobe at Clara Castle",
+    "autor": "A.-K. D.",
+    "licenca": "CC BY-SA 4.0",
+    "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Garderobe_at_Clara_Castle.jpg",
+    "restricoes": null
+  },
+  "L02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "60020a5ae46f",
+    "referencias": [],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-21T17:42:34"
+  },
+  "L01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "3185b667187e",
+    "referencias": [],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-21T17:42:34"
+  },
+  "L03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "2c5203301bde",
+    "referencias": [],
+    "segundos": 9.8,
+    "gerado_em": "2026-10-21T17:42:44"
+  },
+  "P01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "371338f4e3ee",
+    "referencias": [],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-21T17:42:44"
+  },
+  "P02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "d28a5f4f760a",
+    "referencias": [],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-21T17:42:54"
+  },
+  "B01-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "799d7ce34ae7",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-21T17:43:04"
+  },
+  "B01-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "7986ede0d9f9",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 11.0,
+    "gerado_em": "2026-10-21T17:43:05"
+  },
+  "B01-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c8a315305dee",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.8,
+    "gerado_em": "2026-10-21T17:43:14"
+  },
+  "B02-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "ee91a41090af",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 10.3,
+    "gerado_em": "2026-10-21T17:43:15"
+  },
+  "B02-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "01065dc7beff",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 8.6,
+    "gerado_em": "2026-10-21T17:43:22"
+  },
+  "B02-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "157564e9ce82",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 8.2,
+    "gerado_em": "2026-10-21T17:43:23"
+  },
+  "B03-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "35a6f25642ff",
+    "referencias": [],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-21T17:43:31"
+  },
+  "B03-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "76a7a4071134",
+    "referencias": [],
+    "segundos": 9.6,
+    "gerado_em": "2026-10-21T17:43:33"
+  },
+  "B03-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e3a0262c25d3",
+    "referencias": [],
+    "segundos": 9.1,
+    "gerado_em": "2026-10-21T17:43:40"
+  },
+  "B04-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "d59cb4f2aa39",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 10.4,
+    "gerado_em": "2026-10-21T17:43:43"
+  },
+  "B04-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e8d4f0c34d32",
+    "referencias": [],
+    "segundos": 9.1,
+    "gerado_em": "2026-10-21T17:43:49"
+  },
+  "B04-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "47f64a4f3d88",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-21T17:43:53"
+  },
+  "B04-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "f9881cd0096d",
+    "referencias": [
+      "P02",
+      "L03"
+    ],
+    "segundos": 11.5,
+    "gerado_em": "2026-10-21T17:44:01"
+  },
+  "B05-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "41172fc4039f",
+    "referencias": [
+      "P02",
+      "L03"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-21T17:44:02"
+  },
+  "B05-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e184f5edf6a7",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 9.2,
+    "gerado_em": "2026-10-21T17:44:11"
+  },
+  "B05-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "865df2f8a814",
+    "referencias": [
+      "P02",
+      "L03"
+    ],
+    "segundos": 11.3,
+    "gerado_em": "2026-10-21T17:44:12"
+  },
+  "B06-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "d07bdf5a5c2b",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.2,
+    "gerado_em": "2026-10-21T17:44:20"
+  },
+  "B06-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c58b0365d412",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-21T17:44:22"
+  },
+  "B06-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "24c906b36422",
+    "referencias": [],
+    "segundos": 9.6,
+    "gerado_em": "2026-10-21T17:44:30"
+  },
+  "B06-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c935a26e426b",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-21T17:44:31"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "A1",
+  "titulo": "BANANILDO NÃO SABE QUEM É O PAI",
+  "titulos_alternativos": [
+    "A ESPOSA DO BANANILDO TÁ NA ACADEMIA…",
+    "QUEM É O PAI DOS FILHOS DO BANANILDO?!"
+  ],
+  "thumbnail": {
+    "elemento_central": "Café da manhã: o Bananildo, de olhos fechados de orgulho, abraça o menino abacate e a menina pepino (com mini óculos laranja no alto da cabeça, como os do Pepinão). Ao fundo, a Moranguete olha para ele com sorriso de canto, sem olhar para a câmera.",
+    "texto": "MEUS FILHOS ❤️",
+    "emocao": "vergonha alheia e pena do marido",
+    "relacao_com_titulo": "O título diz que existe uma dúvida de paternidade. A thumb mostra a prova: os filhos são de outras frutas e o pai é uma banana. O texto é a crença dele, e a imagem a desmente."
+  },
+  "promessa": "Ver o Bananildo agradecer pela família perfeita enquanto o espectador já sabe de quem são os filhos.",
+  "formato": "short",
+  "duracao_recomendada": "00:40",
+  "justificativa_duracao": "Uma ideia só, em quatro cenas curtas e dois silêncios (o jornal e o sorriso). Cabe em uns 85 a 95 palavras faladas. Os shorts que performam no nicho têm de 1:40 a 2:46, mas carregam mais enredo: esticar esta história até lá exigiria subtrama, o que quebra a regra de uma ideia por short. Nenhum dado cobre 40 s, então a duração também é um teste.",
+  "tecnicas": [
+    "mas-entao",
+    "loop-aberto",
+    "callback",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "pergunta-direta",
+  "gancho_proposto": "[VISUAL: close do colega debruçado na divisória da baia, sobrancelha erguida; ao lado, o Bananildo com olheiras e a caneca “MELHOR PAI DO MUNDO”] Colega: “E a Moranguete, Bananildo? Você aqui todo santo dia...” Bananildo: “Ela cuida das crianças. E do corpo, pra mim, lá na academia.”",
+  "estrutura": [
+    "B01 (0–8 s) gancho · escritório: o colega pergunta pela esposa e o Bananildo responde, orgulhoso, que ela cuida dos filhos e do corpo “pra ele” na academia. Planta a caneca “MELHOR PAI DO MUNDO”. Abre L1: onde ela está de verdade?",
+    "B02 (8–17 s) mas · academia: Moranguete e Pepinão rindo, correção de postura com a mão no ombro, “Mais uma, princesa... só mais uma.” Callback imediato de “cuidando do corpo”. Fecha L1 e abre L2: o que mais ele não sabe?",
+    "B03 (17–23 s) então · manhã seguinte: o carteiro Abacatudo joga o jornal, o baque soa na porta e ele olha um segundo a mais para a janela da cozinha. Sem fala.",
+    "B04 (23–34 s) virada · café da manhã: a câmera abre e revela o menino abacate e a menina pepino. O Bananildo ergue a caneca: “Eu não sei o que eu seria sem a minha esposa e os meus lindos filhos.” Fecha L2. Callbacks: a caneca do B01 e o “cuida das crianças”.",
+    "B05 (34–40 s) final · close no sorriso de canto da Moranguete, em silêncio; a trilha sobe e o vídeo corta seco. O replay recomeça na pergunta do colega, que agora já tem resposta."
+  ],
+  "esqueleto_base": null,
+  "cortes_previstos": [],
+  "evidencias": [
+    "02-trends.md §6, sugestões 1 e 4: revelação pela cara dos filhos sem o marido saber e o título “BANANILDO NÃO SABE QUEM É O PAI”.",
+    "Fruti Novelas, “MANDY CONOCIÓ AL MANGO DE SUS SUEÑOS”: 956.261 views em 21 dias, 24x, com o nome do personagem no título.",
+    "Riqueza Frutal, “¡FRESA DESCUBRE LA TRAICIÓN...!”: 2.086.426 views, 181x. Traição conjugal em short é o tema mais próximo que performou.",
+    "02-trends.md §5: nenhum título coletado mostra o ponto de vista do traído que não sabe, e as buscas por “fruto de traição” e “teste de paternidade” deram 0 resultados.",
+    "aprendizados.md ainda não tem vídeos registrados: sem dado do canal."
+  ],
+  "aposta": false,
+  "diferencial": "Os títulos do nicho mostram a descoberta (descobre, surta, se vinga). Aqui o marido nunca descobre e a prova está sentada à mesa. O vídeo é narrado só pelas vozes dos personagens, em PT-BR, que é raro entre os shorts que performam.",
+  "riscos": [
+    "40 s sem evidência direta: todos os shorts fortes da coleta têm de 1:40 a 2:46.",
+    "O primeiro frame no escritório é menos impactante que uma cena de drama. Depende do close no colega desconfiado e do nome Moranguete logo nas primeiras palavras.",
+    "Cena da academia: na rubrica, conotação sexual com personagem fofo zera o critério bloqueante. Fica no riso, na correção de postura com a mão no ombro e no olhar, sem enquadrar o corpo e sem pose sugestiva.",
+    "A piada depende de as crianças lembrarem os amantes à primeira vista. O Abacatudo não tem ficha na biblioteca, e o diretor visual precisa criá-lo junto com o menino abacate.",
+    "A crítica de machismo à trend (dossiê): a graça fica na cegueira do marido, não em humilhar a mulher."
+  ],
+  "ajustes_do_usuario": "nenhum: escolheu o A1 como recomendado",
+  "escolhido_em": "2026-10-21"
+}

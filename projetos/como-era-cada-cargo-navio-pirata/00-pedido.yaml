@@ -1,0 +1,191 @@
+# Pedido de vídeo: mostra os cargos mais interessantes e curiosos sobre as funções de um navio pirata
+#
+# Completado em 2026-10-22 a partir de 00-pedido-original.yaml (o pedido como foi escrito).
+# Para mudar algo, edite este arquivo e gere o brief de novo:
+#   uv run --script ferramentas/pedido.py brief projetos/como-era-cada-cargo-navio-pirata 2>&1 | cat
+
+# ── O vídeo ───────────────────────────────────────────────────────────────────────────────────────────
+
+# Assunto do vídeo, numa frase. É o único campo obrigatório; se você preencher só o título ou a
+# descrição, o sistema tira o tema deles.
+tema: "mostra os cargos mais interessantes e curiosos sobre as funções de um navio pirata"
+
+# O que o vídeo deve contar: o recorte, os pontos que não podem faltar e o que evitar.
+descricao: "mostra os cargos mais interessantes e curiosos sobre as funções de um navio pitara, focando nas partes diferentes, assustadoras, nojentas. Deve finalizar com a pergunta \"Eai, vc teria coragem de ser um tripulante de um navio pirata?\" e iniciar com a pergunta \"Venha descobrir se vc aquentaria ser um pirata\". Adicione algumas imagens do filme piratas do caribe se possível. Faça um video mais rápido, com a narração sendo 20% mais rápida."
+
+# Material de apoio para os agentes: a trend, o universo, os personagens, referências de estilo. Pode ser
+# longo (escreva "contexto: |" e o texto nas linhas de baixo, recuado) ou o caminho de um arquivo .md.
+contexto:
+
+# Nome da pasta do projeto em projetos/: curto, minúsculas, sem acentos, com hífens.
+slug: "como-era-cada-cargo-navio-pirata"
+
+# Título do vídeo. Vazio: o estrategista propõe títulos a partir dos dados de trends.
+titulo: "Como era cada cargo de um navio pirata"
+
+# longo (8 a 15 min, horizontal) | short (30 s a 3 min, vertical)
+formato: "short"
+
+# Duração desejada, "mm:ss". Padrão: "12:00" no longo, "00:45" no short.
+duracao_alvo: "01:00"
+
+# Tom do texto e da voz. Ex.: "sombrio e sóbrio, sem julgamento explícito".
+tom: "desafio sombrio e provocador, com humor seco nos detalhes nojentos; ritmo rápido, sem sensacionalismo gráfico"
+
+# factual | inspirado-em-fatos (contexto real, personagens compostos) | ficcional
+natureza: "inspirado-em-fatos"
+
+# Para quem é o vídeo.
+publico: "jovens e adultos de 14 a 35 anos curiosos por história bizarra e por piratas"
+
+# Nicho em que o vídeo compete (orienta a pesquisa de trends).
+nicho: "curiosidades históricas em shorts (história bizarra / piratas)"
+
+# Padrão: pt-BR.
+idioma: "pt-BR"
+
+# ── Imagens ───────────────────────────────────────────────────────────────────────────────────────────
+
+# Estilo de desenho das imagens geradas por IA: técnica, traço, luz e paleta. Ex.: "pintura digital
+# sombria, pinceladas visíveis, luz de cinema, paleta dessaturada com acentos vermelhos".
+estilo_artistico: "pintura a óleo de época sobre a era de ouro da pirataria, pinceladas visíveis, luz de lanterna e de pôr do sol em contraste forte, paleta de madeira, couro e mar escuro dessaturados com acentos de vermelho-ferrugem e ouro sujo"
+
+# Imagens de referência (caminhos): estilo, personagens, lugares. O diretor visual olha antes de
+# escrever a bíblia visual; elas não entram no vídeo.
+imagens_referencia: []
+
+visual:
+  # 16:9 | 9:16 | 1:1 | 4:5. Padrão: 16:9 no longo, 9:16 no short.
+  proporcao: "9:16"
+
+  # Ritmo de troca das imagens, em segundos (2,5 a 12). Padrão: 7 no longo, 3 no short.
+  segundos_por_imagem: 3
+
+  # Número exato de imagens no vídeo. Vazio: livre, pelo ritmo acima.
+  numero_de_imagens:
+
+  # sim: além das imagens de IA, pode usar imagens reais de bancos livres (Wikimedia Commons, Openverse),
+  # como documentos, obras de época, mapas, lugares e objetos reais. Só domínio público e Creative Commons
+  # que permitem uso comercial; os créditos saem em 09-imagens/creditos.md. não: só imagens de IA.
+  imagens_da_internet: sim
+
+  # Modelo das imagens de IA: rascunho (barato) | padrao | maxima (bem mais caro). Padrão: padrao.
+  qualidade: "padrao"
+
+# ── Narração ──────────────────────────────────────────────────────────────────────────────────────────
+
+narracao:
+  # sim | não. "não": vídeo sem voz, a história vai só na legenda (e na música). Padrão: sim.
+  ativa: sim
+
+  # gemini (Gemini TTS, vozes naturais, pago) | openai (TTS da OpenAI, segue instruções de estilo, pago) |
+  # elevenlabs (vozes da conta na ElevenLabs, pago por caractere) | espeak (voz robótica, local e grátis: para
+  # testar falas, ritmo e montagem antes de pagar). Chaves em Configurações > Chaves de API. Padrão: gemini.
+  fornecedor: "gemini"
+
+  # Voz do narrador no fornecedor escolhido (lista: python3 skills/produzir-video/scripts/narrar.py
+  # --listar-vozes --fornecedor <nome>). Uma voz de outro fornecedor vira uma dele do mesmo gênero.
+  # Padrão: a voz do canal, em biblioteca/canal.json.
+  voz: "Algieba"
+
+  # Como o narrador fala. Ex.: "ritmo rápido, tom de quem revela um segredo". Vazio: vem do tom.
+  estilo: "ritmo rápido e cúmplice, como quem desafia o ouvinte; leve nojo e ironia nos detalhes, peso grave na pergunta final"
+
+# ── Personagens ───────────────────────────────────────────────────────────────────────────────────────
+
+# Quem fala com voz própria, além do narrador. No roteiro, a fala de cada um é a linha que começa com
+# [FALA: Nome]; o resto é do narrador. Vazio: o sistema decide (só o narrador, ou os personagens que a
+# história pede). Um item por personagem; só o nome é obrigatório:
+#   - nome: "Moranguete"
+#     voz: "Leda"          vazio: o sistema escolhe pela personalidade e pelo gênero
+#     estilo: "doce no caixa, vira choro dramático quando é desmascarada"    como fala
+#     descricao: "um morango de olhos grandes e brilhantes"    quem é e como é (vai para as imagens)
+#     cor: "rosa"          cor do destaque da legenda nas falas dele. Vazio: automática
+#     biblioteca: "moranguete"    personagem salvo em biblioteca/personagens/ (aparência, jeito e imagem)
+# Atalho, só com as vozes: personagens: {Moranguete: Leda, Abacate: Puck}
+personagens: []
+
+# ── Legendas ──────────────────────────────────────────────────────────────────────────────────────────
+
+legendas:
+  # Legenda queimada no vídeo, no tempo da voz. Padrão: sim.
+  ativas: sim
+
+  # Fundo colorido atrás da palavra que está sendo dita. Padrão: sim.
+  destacar_palavra: sim
+
+  # Cor do fundo da palavra: "#RRGGBB" (entre aspas) ou amarelo, verde, roxo, vermelho, azul, rosa, laranja,
+  # ciano. Padrão: amarelo ("#FFD400"). A cor da letra em cima dele (preta ou branca) é automática.
+  cor_destaque: "#FFD400"
+
+  # Cor das letras. Padrão: branco ("#FFFFFF").
+  cor_texto: "#FFFFFF"
+
+  # Legenda em caixa alta. Padrão: não.
+  maiusculas: não
+
+  # Máximo de palavras na tela. Vazio: 4 no vertical, 7 no horizontal.
+  palavras_por_legenda:
+
+  # baixo | centro | alto. Padrão: baixo.
+  posicao: "baixo"
+
+# ── Música de fundo ───────────────────────────────────────────────────────────────────────────────────
+# Música famosa costuma gerar reivindicação de Content ID: o dono pode ficar com a monetização ou
+# bloquear o vídeo. Para monetizar, use música licenciada ou da Biblioteca de Áudio do YouTube.
+
+musica:
+  # Música de fundo. Padrão: sim se nome ou arquivo estiver preenchido.
+  ativa: sim
+
+  # Música e artista. Ex.: "Stranger - Lory". O sistema não baixa música: ele procura em biblioteca/musicas/
+  # um arquivo com essas palavras no nome (stranger-lory.mp3).
+  nome:
+
+  # Ou o caminho do arquivo de áudio (mp3, m4a, wav, ogg, flac).
+  arquivo: "biblioteca/musicas/audiocleaner-download-stranger.mp3"
+
+  # Ponto da música em que o vídeo começa, "mm:ss" (ex.: o refrão). Padrão: "00:00".
+  inicio: "00:00"
+
+  # Volume da música por baixo da narração, em % (1 a 100); ela abaixa sozinha quando a voz fala.
+  # Sem narração, a música toca no volume normal. Padrão: 20.
+  volume: 20
+
+# ── Pesquisa ──────────────────────────────────────────────────────────────────────────────────────────
+
+# Links de vídeos cuja estrutura serve de modelo. Padrão: o vídeo do Dor Pintada.
+referencias:
+  - "https://www.youtube.com/watch?v=DYAYD0UYvvE"
+
+# Canais de referência, como "@DorPintada". Padrão: ["@DorPintada"].
+canais_referencia:
+  - "@DorPintada"
+
+# Canais concorrentes, para a pesquisa de trends.
+concorrentes: []
+
+# Regras extras para o roteiro e as imagens.
+restricoes:
+  - "Abrir exatamente com a pergunta 'Venha descobrir se você aguentaria ser um pirata' e fechar com 'E aí, você teria coragem de ser um tripulante de um navio pirata?' (texto do usuário, com a grafia corrigida)"
+  - "Nojento e assustador na sugestão e na consequência (cheiro, vermes, serra, cicatriz), sem sangue nem ferida descritos ou mostrados de forma gráfica, para não perder anunciantes"
+  - "Cada cargo dito em uma ou duas frases, com um detalhe concreto e real, sem lista seca de nomes"
+  - "Nas imagens de IA, nada de gore explícito: mostrar ferramentas, expressões e ambientes, não ferimentos abertos"
+
+trends:
+  # Pesquisar o que está em alta no YouTube antes dos ângulos. não: os ângulos saem sem dados de trends
+  # (viram apostas). Padrão: sim.
+  ativa: não
+
+  # Links que o pesquisador de trends olha primeiro: vídeos, canais ou buscas do YouTube que você já viu
+  # performando.
+  links: []
+
+# ── Produção ──────────────────────────────────────────────────────────────────────────────────────────
+
+producao:
+  # Até onde ir: roteiro | visual (cenas e prompts) | video (imagens, voz e montagem). Padrão: video.
+  ate: "video"
+
+  # Gerar shorts a partir do vídeo longo. Padrão: sim no longo.
+  cortes: não

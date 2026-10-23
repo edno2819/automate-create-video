@@ -1,0 +1,51 @@
+[
+  {
+    "trecho": "E você é só marujo. Sua cabeça coça de piolho,",
+    "tipo": "ilustracao",
+    "texto_na_tela": "MARUJO",
+    "descricao": "Você entra: o jovem marujo de costas e de perfil, espremido entre redes, coçando a cabeça com força.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the young sailor seen from behind in three-quarter profile, squeezed between sagging hammocks packed side by side, scratching his scalp hard with dirty fingernails, irritated, grime and sweat on his neck",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "você bebe rum porque a água apodrece,",
+    "tipo": "ilustracao",
+    "descricao": "O que você vê: suas mãos enchendo o caneco de rum, ao lado de um barril de água verde, viscosa, com espuma boiando.",
+    "enquadramento": "pov",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": ["O05"],
+    "prompt_cena": "the young sailor's own hands seen from his eyes, filling the dented tin cup with rum from the cask's spigot, next to an open water barrel whose surface is green, slimy and clouded with floating scum",
+    "movimento": "descer",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "e bate o biscoito na mesa pros carunchos caírem.",
+    "tipo": "ilustracao",
+    "descricao": "A mão suja bate o biscoito na mesa; carunchos pretos caem na madeira. O detalhe nojento, dito com naturalidade.",
+    "enquadramento": "detalhe",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": ["O01"],
+    "prompt_cena": "the young sailor's dirty hand slamming the ship's biscuit against the mess table, tiny black weevils shaken loose and falling onto the scarred wood, crumbs flying, only the hand and forearm visible, disgusting and matter-of-fact",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Pelo menos pirata não tem regra, né?",
+    "tipo": "ilustracao",
+    "descricao": "O mito da bagunça: piratas jogando dados, bebendo e dançando em volta da mesa, sem lei nenhuma.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "rowdy pirates gambling with dice and swigging from bottles around the mess table, one dancing on a barrel, chaotic lawless revelry under swaying lanterns",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  }
+]

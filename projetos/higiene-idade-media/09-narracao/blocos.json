@@ -1,0 +1,48 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Sadaltager",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "Tom: curiosidade e espanto: fatos surpreendentes, ritmo rápido, sem nojo gratuito. Fale como quem conta algo surpreendente para uma pessoa só. Respeite a pontuação: pausa curta nas vírgulas, pausa maior nos pontos e nas reticências. Leia os números como se fala.",
+  "intervalo_s": 0.35,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 32.33,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/blocos/B01.wav",
+      "palavras": 16,
+      "duracao_s": 7.96,
+      "ppm": 121,
+      "pedido": "5474df2cd75d",
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/blocos/B02.wav",
+      "palavras": 18,
+      "duracao_s": 7.8,
+      "ppm": 138,
+      "pedido": "da4ac867f963",
+      "inicio_s": 8.31
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/blocos/B03.wav",
+      "palavras": 23,
+      "duracao_s": 10.4,
+      "ppm": 133,
+      "pedido": "c80cac951eb7",
+      "inicio_s": 16.46
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/blocos/B04.wav",
+      "palavras": 9,
+      "duracao_s": 5.12,
+      "ppm": 105,
+      "pedido": "dce5c81c9b63",
+      "inicio_s": 27.21
+    }
+  ]
+}

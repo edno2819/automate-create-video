@@ -1,0 +1,17 @@
+[
+  {
+    "trecho": "Imagina, amor... eu?",
+    "tipo": "ilustracao",
+    "descricao": "Último quadro, o bloco inteiro: close da Moranguete do outro lado da mesa, sorriso de canto, olhar de lado para o marido, sem olhar para a câmera; o brinco de argola dourada brilha. Corte seco.",
+    "enquadramento": "close",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "Moranguete the strawberry, seated alone at the breakfast table, the only figure in the frame, nobody in the foreground, gives a slow knowing smirk at one corner of her mouth, eyes sliding sideways toward her husband off-screen to the left, never looking at the camera, one gold hoop earring catching a glint, coffee cup near her lips, dramatic warm rim light",
+    "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, looking at the camera, eye contact with the viewer, other characters, people in the foreground, over-the-shoulder shot, silhouette",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

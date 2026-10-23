@@ -1,0 +1,64 @@
+{
+  "projeto": "escalar-evereste-conquistas-mais-dificeis-mundo",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Colagem de papel recortado",
+    "descricao": "Bonecos, montanhas e objetos desenhados à mão, recortados com tesoura e colados uns sobre os outros, com borda branca irregular, sombra curta entre as camadas e textura de papel. Paleta de neve, azul glaciar e kraft, com laranja de alerta e verde-dinheiro como acentos.",
+    "prompt_base": "handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple",
+    "negativo_base": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+    "regras_de_camera": "Narração impessoal: o alpinista de papel é o 'qualquer um que tenta'. Ele aparece pequeno em planos gerais, de costas ou de perfil; o rosto inteiro só no fecho (B06-04) e na thumbnail. Os bilionários são sempre uma torre de bonecos iguais, vistos de baixo (contra-plongée), e voltam no B06 com a mesma composição do B01. Mortes nunca têm figura humana: corda vazia, barraca fechada, silhueta recortada que falta na folha. Com a legenda embaixo e o texto_na_tela no alto, o essencial fica no meio do quadro."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Alpinista de papel",
+      "referencia_en": "the paper climber",
+      "descricao": "the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead"
+    },
+    {
+      "id": "P02",
+      "nome": "Bilionários",
+      "referencia_en": "the billionaires",
+      "descricao": "the billionaires, a crowd of identical small paper cutout men and women cut from glossy magazine-like paper, dark navy business suits with red ties, slicked hair, smug little smiles, gold paper cufflinks, and a round bright green dollar-sign badge pinned on each chest"
+    },
+    {
+      "id": "P03",
+      "nome": "Guias e sherpas",
+      "referencia_en": "the sherpa guides",
+      "descricao": "the sherpa guides, a group of sturdy adult paper cutout Nepali mountain guides with warm brown skin and calm determined faces, red and yellow down jackets, white helmets with headlamps, carrying coiled ropes and stacked orange oxygen cylinders on big backpacks"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "O Everest de papel",
+      "descricao": "a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky",
+      "descricao_curta": "a steep slope of torn white paper snow with gray pencil shading against a flat pale blue cardboard sky"
+    },
+    {
+      "id": "L02",
+      "nome": "Acampamento base",
+      "descricao": "a base camp of small yellow and orange paper tents on a gray crumpled-paper glacier at the foot of the paper mountain, strings of blank colored paper flags in blue, white, red, green and yellow stretched between rocks, the white peak rising behind",
+      "descricao_curta": "yellow and orange paper tents and strings of blank colored paper flags over gray crumpled-paper rocks"
+    },
+    {
+      "id": "L03",
+      "nome": "O cume",
+      "descricao": "a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars",
+      "descricao_curta": "a narrow ridge of bright white paper snow above cotton-wool clouds, deep blue cardboard sky"
+    },
+    {
+      "id": "L04",
+      "nome": "Mesa de colagem",
+      "descricao": "a flat sheet of warm brown kraft paper seen from above, small scissor-cut scraps and strips of beige masking tape around the edges",
+      "descricao_curta": "warm brown kraft paper with scissor-cut scraps and strips of beige masking tape"
+    }
+  ],
+  "objetos": [
+    {"id": "O01", "nome": "Garrafa de oxigênio", "descricao": "a bright orange paper cutout oxygen cylinder with a black valve, a clear plastic-wrap tube and a small blue face mask"},
+    {"id": "O02", "nome": "Escada de papelão (os degraus)", "descricao": "a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs"},
+    {"id": "O03", "nome": "Dinheiro de papel", "descricao": "thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands"},
+    {"id": "O04", "nome": "Licença de escalada", "descricao": "a cream-colored paper permit document with a red wax-seal sticker and blank stamped boxes, no readable writing"},
+    {"id": "O05", "nome": "Corda fixa", "descricao": "a thin red-and-white twisted paper rope pinned to the snow with small silver anchors"}
+  ]
+}

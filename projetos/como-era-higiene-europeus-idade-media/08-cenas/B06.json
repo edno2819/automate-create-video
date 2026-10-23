@@ -1,0 +1,50 @@
+[
+  {
+    "trecho": "Não. Só as principais. A rua do lado continuou engolindo pé.",
+    "tipo": "ilustracao",
+    "descricao": "Callback do gancho, mesma composição da primeira imagem: a bota do camponês afundando na lama, agora numa viela, com a rua principal recém-calçada brilhando logo atrás.",
+    "enquadramento": "detalhe",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant's worn leather boot sinking ankle-deep into thick dark glistening mud in a side alley, a heavy wooden cart wheel half buried beside it, and just behind, sharply lit, the clean pale paving stones of the main street ending at the alley's edge",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Então esse povo nunca tomava banho, certo?",
+    "tipo": "ilustracao",
+    "descricao": "O camponês, encardido, cheira a própria axila e faz careta para o espectador: a conclusão que o vídeo inteiro induziu, prestes a cair.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant, mud-splattered, lifting his arm to sniff his own armpit and glancing sideways at the viewer with a grimace of resigned agreement, a single louse crawling on his red hood, mock-solemn",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Errado. No século seguinte, Paris tinha mais de trinta casas de banho públicas.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "+30 casas de banho",
+    "descricao": "A surpresa final: uma casa de banho pública cheia, tinas de madeira fumegando e parisienses rindo dentro da água, como cena de gênero de museu. Todos de camisola de linho, com a água até o peito, velados pelo vapor.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a lively 13th-century Parisian public bathhouse under stone arches, rows of large steaming wooden tubs, cheerful townsfolk in white linen shifts sitting in the water up to their chests, laughing and sharing bread and wine on boards across the tubs, thick warm steam, candlelight",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O problema nunca foi o banho. Era a rua.",
+    "tipo": "ilustracao",
+    "descricao": "De volta à rua de lama vista de cima, com o camponês de costas parado na beira, prestes a dar o passo. Fecha o loop: o próximo quadro é a bota afundando.",
+    "enquadramento": "plongee",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant seen from behind, standing alone at the edge of the muddy street, one boot lifted mid-step above the glistening mud, carts and townsfolk passing through the muck around him, a quiet fatalistic mood",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "trecho": "Venha descobrir se você aguentaria ser um pirata.",
+    "tipo": "ilustracao",
+    "descricao": "O navio do cinema: um galeão enorme, velas brancas impecáveis, luz dourada. É o mito que o vídeo desmonta, e o quadro em que o replay emenda.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a colossal pristine three-masted galleon with spotless billowing white sails and gilded carved stern lanterns gliding over a calm golden sea at sunset, heroic theatrical glow, everything too clean and grand to be real",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Esquece o cinema: o navio era pequeno,",
+    "tipo": "ilustracao",
+    "descricao": "O galeão se desfaz no real: um barco pequeno visto do alto, o convés apinhado de piratas, minúsculo no mar escuro.",
+    "enquadramento": "aereo",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a small battered single-mast pirate sloop, its narrow deck crammed shoulder to shoulder with ragged pirates, patched sails, tiny and fragile on a vast dark green sea, the golden glamour gone",
+    "movimento": "zoom-out",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "e o capitão podia ser demitido no voto.",
+    "tipo": "ilustracao",
+    "descricao": "A tripulação levanta as mãos no voto; o capitão, isolado junto ao mastro, percebe que está sendo deposto.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P04"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "ragged pirates crowded on the deck raising their hands in a show-of-hands vote, while the captain stands apart by the mast, jaw clenched, realizing he is being voted out, tense sunset light",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  }
+]

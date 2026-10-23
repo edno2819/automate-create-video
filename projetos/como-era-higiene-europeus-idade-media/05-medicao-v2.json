@@ -1,0 +1,233 @@
+{
+  "arquivo": "projetos/como-era-higiene-europeus-idade-media/05-roteiro-v2.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Como era a higiene dos europeus na Idade Média",
+  "palavras": 206,
+  "duracao_estimada": "01:24",
+  "duracao_segundos": 84,
+  "duracao_alvo": "00:45",
+  "trecho_gancho": "Paris, Idade Média. Você dá",
+  "trecho_30s": "Paris, Idade Média. Você dá um passo... e o pé afunda na lama até o tornozelo. Lama fedida, revirada pelas carroças. Nenhum calçamento. Tá achando que rico vivia melhor? Rico fugia da lama. Morava no castelo. Mas lá o banheiro era um buraco na parede. Tudo caía direto no fosso. E o nome desse buraco é a melhor parte. Garde-robe. Em francês: guarda-roupa. Dizem que guardavam as roupas ali de propósito. O fedor de amônia",
+  "primeira_frase": "Paris, Idade Média.",
+  "ultima_frase": "Era a rua.",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "O pé na lama",
+      "funcao": "gancho",
+      "palavras": 29,
+      "inicio": "00:00",
+      "fim": "00:12",
+      "duracao_s": 12,
+      "rehooks": 1,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Paris, Idade Média. Você dá um passo... e"
+    },
+    {
+      "id": "B02",
+      "titulo": "O buraco na parede",
+      "funcao": "desenvolvimento",
+      "palavras": 30,
+      "inicio": "00:12",
+      "fim": "00:24",
+      "duracao_s": 12,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Rico fugia da lama. Morava no castelo. Mas"
+    },
+    {
+      "id": "B03",
+      "titulo": "O guarda-roupa",
+      "funcao": "desenvolvimento",
+      "palavras": 30,
+      "inicio": "00:24",
+      "fim": "00:36",
+      "duracao_s": 12,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Garde-robe. Em francês: guarda-roupa. Dizem que guardavam as"
+    },
+    {
+      "id": "B04",
+      "titulo": "A laranja no nariz",
+      "funcao": "desenvolvimento",
+      "palavras": 37,
+      "inicio": "00:36",
+      "fim": "00:51",
+      "duracao_s": 16,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Pra eles, mau cheiro causava doença. Ar podre"
+    },
+    {
+      "id": "B05",
+      "titulo": "Nem o rei",
+      "funcao": "virada",
+      "palavras": 40,
+      "inicio": "00:51",
+      "fim": "01:07",
+      "duracao_s": 16,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Lá por mil cento e oitenta e cinco,"
+    },
+    {
+      "id": "B06",
+      "titulo": "Era a rua",
+      "funcao": "final",
+      "palavras": 40,
+      "inicio": "01:07",
+      "fim": "01:24",
+      "duracao_s": 17,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Não. Só as principais. A rua do lado"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:12",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:24",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:36",
+      "ativos_no_inicio": [
+        "L1",
+        "L4"
+      ],
+      "abre": [
+        "L5"
+      ],
+      "fecha": [
+        "L4"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L5"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:51",
+      "ativos_no_inicio": [
+        "L1",
+        "L5"
+      ],
+      "abre": [
+        "L6"
+      ],
+      "fecha": [
+        "L5"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L6"
+      ]
+    },
+    {
+      "bloco": "B06",
+      "inicio": "01:07",
+      "ativos_no_inicio": [
+        "L1",
+        "L6"
+      ],
+      "abre": [
+        "L7"
+      ],
+      "fecha": [
+        "L1",
+        "L6",
+        "L7"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "O seu pé afundou na lama de Paris. Alguém um dia vai dar jeito nessa rua?",
+    "L2": "Rico vivia melhor, longe dessa lama?",
+    "L3": "Qual é o nome desse buraco na parede, e por que é \"a melhor parte\"?",
+    "L4": "Que teoria os médicos tinham sobre esse fedor?",
+    "L5": "E o rei? Perfume nenhum o salvou: o que aconteceu com ele?",
+    "L6": "O rei mandou pavimentar as ruas. Todas?",
+    "L7": "Se a rua continuou imunda, então esse povo nunca tomava banho?"
+  },
+  "verificar": [
+    {
+      "bloco": "B03",
+      "item": "o motivo das roupas guardadas no garderobe, amônia contra traças e pulgas, não está no dossiê; conferir no verbete Garderobe da Wikipédia, já listado como fonte"
+    }
+  ],
+  "falas": {},
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "duração estimada 01:24 está +88% da meta 00:45"
+    },
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "short com 01:24: o ideal é entre 30 e 60 s"
+    },
+    {
+      "nivel": "aviso",
+      "codigo": "factualidade",
+      "mensagem": "1 item(ns) marcados com [VERIFICAR]"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "titulo": "Como era cada cargo de um navio pirata",
+  "titulos_alternativos": [
+    "Seu primeiro dia num navio pirata, cargo por cargo",
+    "Você aguentaria algum cargo de um navio pirata?"
+  ],
+  "plataformas": [
+    {
+      "id": "youtube",
+      "nome": "YouTube Shorts",
+      "titulo": "Como era cada cargo de um navio pirata #Piratas",
+      "descricao": "Do biscoito com caruncho ao cargo que sobe primeiro na forca: você aguentaria o primeiro dia a bordo?\nUm cargo por vez, cada um com o seu detalhe mais nojento ou assustador.\n\nNo vídeo: o marujo, o cozinheiro, o músico, o artilheiro, o carpinteiro, o quartel-mestre e o capitão, e as regras que todo mundo a bordo jurava.\n\nCréditos das imagens:\n- \"Captain Henry Morgan before Panama, 1671\", obra do Capitão Charles Johnson, sem ilustrador nomeado. Domínio público. https://commons.wikimedia.org/wiki/File:Captain_Henry_Morgan_before_Panama,_1671.jpg\n- \"The Battle of Copenhagen, 2 April 1801\", Nicholas Pocock. Domínio público. https://commons.wikimedia.org/wiki/File:Nicholas_Pocock_-_The_Battle_of_Copenhagen,_2_April_1801.jpg\n\n#Piratas #HistóriaBizarra #Curiosidades"
+    },
+    {
+      "id": "tiktok",
+      "nome": "TikTok",
+      "descricao": "Você aguentaria o jantar de um pirata? Biscoito com caruncho é só o começo. Do marujo ao capitão, veja o lado mais nojento de cada cargo. #piratas #históriabizarra #curiosidades #navio #história"
+    },
+    {
+      "id": "instagram",
+      "nome": "Instagram Reels",
+      "descricao": "Seu jantar de pirata: biscoito batido na mesa pros carunchos caírem.\nDo marujo ao capitão, cada cargo do navio tem um detalhe nojento ou assustador. Você teria coragem?\n#piratas #históriabizarra #curiosidades #históriadomundo"
+    }
+  ],
+  "tags": {
+    "em_alta": [],
+    "tema": [
+      "navio pirata",
+      "piratas",
+      "cargos de um navio pirata",
+      "como era a vida de um pirata",
+      "tripulação pirata",
+      "pirataria",
+      "era de ouro da pirataria",
+      "Henry Morgan",
+      "história bizarra",
+      "curiosidades históricas",
+      "curiosidades sobre piratas",
+      "quartel-mestre pirata",
+      "carpinteiro pirata",
+      "capitão pirata",
+      "você aguentaria ser um pirata",
+      "shorts história"
+    ]
+  },
+  "tags_youtube": "navio pirata, piratas, cargos de um navio pirata, como era a vida de um pirata, tripulação pirata, pirataria, era de ouro da pirataria, Henry Morgan, história bizarra, curiosidades históricas, curiosidades sobre piratas, quartel-mestre pirata, carpinteiro pirata, capitão pirata, você aguentaria ser um pirata, shorts história",
+  "fonte_tags": "yt-dlp, coletado em 2026-10-22 15:53 UTC, 49 vídeos (e 11 vídeos em 2ª coleta de 90 dias, 15:55 UTC); nenhuma tag em alta combina com o vídeo",
+  "avisos": [
+    "Nenhuma tag em alta combinável: a coleta trouxe tags de música (BaianaSystem, Trio Navio Pirata), de efeitos de logotipo e de vídeo infantil religioso, sem relação com o vídeo. A lista em_alta ficou vazia de propósito.",
+    "A música não tem nome no brief (musica.nome é null, arquivo audiocleaner-download-stranger.mp3): não há crédito de música na descrição. Conferir a licença do arquivo.",
+    "As imagens de Piratas do Caribe pedidas no brief não constam em creditos.md; se foram usadas, há risco de reivindicação de direitos.",
+    "O brief pede narração 20% mais rápida; o vídeo tem 57,6 s, dentro do limite de short."
+  ]
+}

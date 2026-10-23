@@ -1,0 +1,18 @@
+[
+  {
+    "trecho": "Moranguete... você tá aí dentro?",
+    "tipo": "ilustracao",
+    "descricao": "O quadro da thumb e do loop: o Abacatinho de três quartos, com o rosto encostado na porta gelada da câmara fria, uma lágrima congelando na bochecha, a mão na maçaneta e o crachá rosa da Moranguete pendurado nela. A fruta fofa chorando é o que para o dedo no feed.",
+    "enquadramento": "close",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Abacatinho the avocado in three-quarter view, cheek pressed against the frosted steel door, teary eyes wide, a tear freezing into ice on his cheek, his hand gripping the chrome lever handle at the frame edge, the pink name badge dangling from the handle, icy fog and blue light seeping from the gap, face in the upper half of the frame, anguished suspense",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

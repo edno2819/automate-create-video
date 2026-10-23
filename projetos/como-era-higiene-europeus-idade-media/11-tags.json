@@ -1,0 +1,147 @@
+{
+  "consulta": {
+    "cmd": "tags",
+    "max": 25,
+    "rapido": false,
+    "termos": [
+      "higiene idade média",
+      "curiosidades idade média",
+      "idade média"
+    ],
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-22 13:21 UTC",
+  "avisos": [
+    "Jj0zCvrGwug: ERROR: [youtube] Jj0zCvrGwug: Premieres in 48 days",
+    "0qKyIiETz8w: ERROR: [youtube] 0qKyIiETz8w: This video is not available"
+  ],
+  "n_videos": 29,
+  "tags": [
+    {
+      "tag": "history",
+      "videos": 3,
+      "views_por_dia": 233,
+      "exemplo": {
+        "titulo": "Medieval Warfare Was So Much Worse Than You Realized",
+        "url": "https://www.youtube.com/watch?v=l8duwCvEdKs",
+        "views_por_dia": 118
+      }
+    },
+    {
+      "tag": "medieval times",
+      "videos": 2,
+      "views_por_dia": 177,
+      "exemplo": {
+        "titulo": "Medieval Warfare Was So Much Worse Than You Realized",
+        "url": "https://www.youtube.com/watch?v=l8duwCvEdKs",
+        "views_por_dia": 118
+      }
+    }
+  ],
+  "hashtags": [
+    {
+      "tag": "História",
+      "videos": 6,
+      "views_por_dia": 2347,
+      "exemplo": {
+        "titulo": "UN VIAJE AL CASTILLO DE OLITE EN ESPAÑA",
+        "url": "https://www.youtube.com/watch?v=yrbHLJPdhDc",
+        "views_por_dia": 2105
+      }
+    },
+    {
+      "tag": "Curiosidades",
+      "videos": 4,
+      "views_por_dia": 2197,
+      "exemplo": {
+        "titulo": "UN VIAJE AL CASTILLO DE OLITE EN ESPAÑA",
+        "url": "https://www.youtube.com/watch?v=yrbHLJPdhDc",
+        "views_por_dia": 2105
+      }
+    },
+    {
+      "tag": "youtube",
+      "videos": 2,
+      "views_por_dia": 2177,
+      "exemplo": {
+        "titulo": "UN VIAJE AL CASTILLO DE OLITE EN ESPAÑA",
+        "url": "https://www.youtube.com/watch?v=yrbHLJPdhDc",
+        "views_por_dia": 2105
+      }
+    },
+    {
+      "tag": "datoscuriosos",
+      "videos": 2,
+      "views_por_dia": 2118,
+      "exemplo": {
+        "titulo": "UN VIAJE AL CASTILLO DE OLITE EN ESPAÑA",
+        "url": "https://www.youtube.com/watch?v=yrbHLJPdhDc",
+        "views_por_dia": 2105
+      }
+    },
+    {
+      "tag": "history",
+      "videos": 2,
+      "views_por_dia": 2105,
+      "exemplo": {
+        "titulo": "UN VIAJE AL CASTILLO DE OLITE EN ESPAÑA",
+        "url": "https://www.youtube.com/watch?v=yrbHLJPdhDc",
+        "views_por_dia": 2105
+      }
+    },
+    {
+      "tag": "MedievalHistory",
+      "videos": 5,
+      "views_por_dia": 367,
+      "exemplo": {
+        "titulo": "What Really Happened to Girls in Medieval Convents",
+        "url": "https://www.youtube.com/watch?v=xz_XJx9alQs",
+        "views_por_dia": 211
+      }
+    },
+    {
+      "tag": "MiddleAges",
+      "videos": 2,
+      "views_por_dia": 270,
+      "exemplo": {
+        "titulo": "What Really Happened to Girls in Medieval Convents",
+        "url": "https://www.youtube.com/watch?v=xz_XJx9alQs",
+        "views_por_dia": 211
+      }
+    },
+    {
+      "tag": "IdadeMédia",
+      "videos": 4,
+      "views_por_dia": 170,
+      "exemplo": {
+        "titulo": "Mentiras Que Os Filmes Te Contaram Sobre a Idade Média",
+        "url": "https://www.youtube.com/watch?v=lqDuzbDrA0U",
+        "views_por_dia": 54
+      }
+    },
+    {
+      "tag": "shorts",
+      "videos": 3,
+      "views_por_dia": 108,
+      "exemplo": {
+        "titulo": "Você Sobreviveria a 24 Horas na Idade Média?🏰⚔️",
+        "url": "https://www.youtube.com/watch?v=FPP9ftPL4SM",
+        "views_por_dia": 72
+      }
+    },
+    {
+      "tag": "OttomanEmpire",
+      "videos": 2,
+      "views_por_dia": 80,
+      "exemplo": {
+        "titulo": "Constantinople 1453: The Cannons That Broke an Empire",
+        "url": "https://www.youtube.com/watch?v=QMoSNGWnHd8",
+        "views_por_dia": 56
+      }
+    }
+  ]
+}

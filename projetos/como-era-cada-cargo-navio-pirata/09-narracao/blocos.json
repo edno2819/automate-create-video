@@ -1,0 +1,97 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Algieba",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "ritmo rápido e cúmplice, como quem desafia o ouvinte; leve nojo e ironia nos detalhes, peso grave na pergunta final",
+  "personagens": {},
+  "intervalo_s": 0.35,
+  "intervalo_falas_s": 0.25,
+  "pausa_max_s": null,
+  "velocidade": 1.2,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 57.0,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/ritmo/B01.wav",
+      "palavras": 28,
+      "duracao_s": 8.147,
+      "ppm": 206,
+      "pedido": "24214a4088d6",
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/ritmo/B02.wav",
+      "palavras": 19,
+      "duracao_s": 6.481,
+      "ppm": 176,
+      "pedido": "0f18ee2366be",
+      "inicio_s": 8.497
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/ritmo/B03.wav",
+      "palavras": 18,
+      "duracao_s": 5.712,
+      "ppm": 189,
+      "pedido": "c9e3dc7cdd16",
+      "inicio_s": 15.328
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/ritmo/B04.wav",
+      "palavras": 18,
+      "duracao_s": 5.644,
+      "ppm": 191,
+      "pedido": "4c1f5c88732c",
+      "inicio_s": 21.39
+    },
+    {
+      "id": "B05",
+      "arquivo": "09-narracao/ritmo/B05.wav",
+      "palavras": 15,
+      "duracao_s": 4.376,
+      "ppm": 206,
+      "pedido": "653726063995",
+      "inicio_s": 27.384
+    },
+    {
+      "id": "B06",
+      "arquivo": "09-narracao/ritmo/B06.wav",
+      "palavras": 25,
+      "duracao_s": 7.679,
+      "ppm": 195,
+      "pedido": "61439785d27d",
+      "inicio_s": 32.109
+    },
+    {
+      "id": "B07",
+      "arquivo": "09-narracao/ritmo/B07.wav",
+      "palavras": 17,
+      "duracao_s": 4.612,
+      "ppm": 221,
+      "pedido": "a45914f8ee43",
+      "inicio_s": 40.138
+    },
+    {
+      "id": "B08",
+      "arquivo": "09-narracao/ritmo/B08.wav",
+      "palavras": 27,
+      "duracao_s": 8.006,
+      "ppm": 202,
+      "pedido": "058890d4ba34",
+      "inicio_s": 45.1
+    },
+    {
+      "id": "B09",
+      "arquivo": "09-narracao/ritmo/B09.wav",
+      "palavras": 13,
+      "duracao_s": 3.544,
+      "ppm": 220,
+      "pedido": "b498379f3de1",
+      "inicio_s": 53.456
+    }
+  ]
+}

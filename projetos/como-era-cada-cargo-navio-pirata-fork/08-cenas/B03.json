@@ -1,0 +1,27 @@
+[
+  {
+    "trecho": "Fora da batalha, mandava junto um cargo que o cinema esquece: o quartel-mestre.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "QUARTEL-MESTRE",
+    "descricao": "O quartel-mestre em foco, de braços cruzados, calculista; o capitão atrás dele, na sombra e fora de foco. O poder dividido na própria composição.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P03", "P04"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the quartermaster stands at the mess table in sharp focus, arms crossed, calm and calculating, while the captain sits half turned behind him in shadow, slightly out of focus, power clearly shared",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Era ele quem dividia o tesouro e o rum.",
+    "tipo": "ilustracao",
+    "descricao": "As mãos do quartel-mestre separando as moedas em montes iguais, o barril de rum ao lado com os canecos em fila, olhos cobiçosos em volta.",
+    "enquadramento": "detalhe",
+    "personagens": ["P03"],
+    "local": "L01",
+    "objetos": ["O04", "O05"],
+    "prompt_cena": "the quartermaster's hands splitting a heap of pieces of eight into small equal piles on the mess table, the rum cask beside him with a row of dented tin cups waiting, greedy eyes of pirates glinting in the dark around the table",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  }
+]

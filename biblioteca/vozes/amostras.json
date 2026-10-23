@@ -1,0 +1,212 @@
+{
+  "Sadaltager": {
+    "arquivo": "Sadaltager.mp3",
+    "texto": "Oi, eu sou a voz Sadaltager. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.69,
+    "pedido": "b0732f0ae932"
+  },
+  "Kore": {
+    "arquivo": "Kore.mp3",
+    "texto": "Oi, eu sou a voz Kore. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.64,
+    "pedido": "13e1d2282d7d"
+  },
+  "Zephyr": {
+    "arquivo": "Zephyr.mp3",
+    "texto": "Oi, eu sou a voz Zephyr. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.48,
+    "pedido": "0da9b9a67213"
+  },
+  "Puck": {
+    "arquivo": "Puck.mp3",
+    "texto": "Oi, eu sou a voz Puck. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.04,
+    "pedido": "843be0b0fc92"
+  },
+  "Charon": {
+    "arquivo": "Charon.mp3",
+    "texto": "Oi, eu sou a voz Charon. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.73,
+    "pedido": "1d309bb9eba5"
+  },
+  "Fenrir": {
+    "arquivo": "Fenrir.mp3",
+    "texto": "Oi, eu sou a voz Fenrir. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.18,
+    "pedido": "e5751b8142f2"
+  },
+  "Leda": {
+    "arquivo": "Leda.mp3",
+    "texto": "Oi, eu sou a voz Leda. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.72,
+    "pedido": "256aa9acdc50"
+  },
+  "Orus": {
+    "arquivo": "Orus.mp3",
+    "texto": "Oi, eu sou a voz Orus. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.89,
+    "pedido": "5ca3d33d9860"
+  },
+  "Aoede": {
+    "arquivo": "Aoede.mp3",
+    "texto": "Oi, eu sou a voz Aoede. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.29,
+    "pedido": "f2898af075e3"
+  },
+  "Callirrhoe": {
+    "arquivo": "Callirrhoe.mp3",
+    "texto": "Oi, eu sou a voz Callirrhoe. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.98,
+    "pedido": "671e4820fa44"
+  },
+  "Autonoe": {
+    "arquivo": "Autonoe.mp3",
+    "texto": "Oi, eu sou a voz Autonoe. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.43,
+    "pedido": "7e663adbc48e"
+  },
+  "Enceladus": {
+    "arquivo": "Enceladus.mp3",
+    "texto": "Oi, eu sou a voz Enceladus. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.83,
+    "pedido": "3dfce120dc21"
+  },
+  "Iapetus": {
+    "arquivo": "Iapetus.mp3",
+    "texto": "Oi, eu sou a voz Iapetus. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.15,
+    "pedido": "81261c081c78"
+  },
+  "Umbriel": {
+    "arquivo": "Umbriel.mp3",
+    "texto": "Oi, eu sou a voz Umbriel. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.72,
+    "pedido": "cc5b2919138c"
+  },
+  "Algieba": {
+    "arquivo": "Algieba.mp3",
+    "texto": "Oi, eu sou a voz Algieba. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.67,
+    "pedido": "6b20529b775c"
+  },
+  "Despina": {
+    "arquivo": "Despina.mp3",
+    "texto": "Oi, eu sou a voz Despina. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.01,
+    "pedido": "2c8c024cf5ec"
+  },
+  "Erinome": {
+    "arquivo": "Erinome.mp3",
+    "texto": "Oi, eu sou a voz Erinome. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.71,
+    "pedido": "89cb6083e6d3"
+  },
+  "Algenib": {
+    "arquivo": "Algenib.mp3",
+    "texto": "Oi, eu sou a voz Algenib. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.8,
+    "pedido": "79dc92527e7d"
+  },
+  "Rasalgethi": {
+    "arquivo": "Rasalgethi.mp3",
+    "texto": "Oi, eu sou a voz Rasalgethi. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.8,
+    "pedido": "61a202ac17f0"
+  },
+  "Laomedeia": {
+    "arquivo": "Laomedeia.mp3",
+    "texto": "Oi, eu sou a voz Laomedeia. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.28,
+    "pedido": "b279f83a0056"
+  },
+  "Achernar": {
+    "arquivo": "Achernar.mp3",
+    "texto": "Oi, eu sou a voz Achernar. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.47,
+    "pedido": "c69c8894fd36"
+  },
+  "Alnilam": {
+    "arquivo": "Alnilam.mp3",
+    "texto": "Oi, eu sou a voz Alnilam. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.77,
+    "pedido": "1bad069380b4"
+  },
+  "Schedar": {
+    "arquivo": "Schedar.mp3",
+    "texto": "Oi, eu sou a voz Schedar. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.7,
+    "pedido": "52bdd9ac669c"
+  },
+  "Gacrux": {
+    "arquivo": "Gacrux.mp3",
+    "texto": "Oi, eu sou a voz Gacrux. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.9,
+    "pedido": "96b36c32bb3e"
+  },
+  "Pulcherrima": {
+    "arquivo": "Pulcherrima.mp3",
+    "texto": "Oi, eu sou a voz Pulcherrima. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.0,
+    "pedido": "632654b65c37"
+  },
+  "Achird": {
+    "arquivo": "Achird.mp3",
+    "texto": "Oi, eu sou a voz Achird. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.5,
+    "pedido": "a91c18304eab"
+  },
+  "Zubenelgenubi": {
+    "arquivo": "Zubenelgenubi.mp3",
+    "texto": "Oi, eu sou a voz Zubenelgenubi. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.83,
+    "pedido": "c752e0938090"
+  },
+  "Vindemiatrix": {
+    "arquivo": "Vindemiatrix.mp3",
+    "texto": "Oi, eu sou a voz Vindemiatrix. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 6.12,
+    "pedido": "e69cfcc22de0"
+  },
+  "Sadachbia": {
+    "arquivo": "Sadachbia.mp3",
+    "texto": "Oi, eu sou a voz Sadachbia. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 4.89,
+    "pedido": "748fa31d1365"
+  },
+  "Sulafat": {
+    "arquivo": "Sulafat.mp3",
+    "texto": "Oi, eu sou a voz Sulafat. É assim que eu vou contar a sua próxima história.",
+    "modelo": "gemini-3.8-flash-tts",
+    "duracao_s": 5.29,
+    "pedido": "f359d8d20421"
+  }
+}

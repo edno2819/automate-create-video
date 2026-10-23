@@ -1,0 +1,795 @@
+{
+  "projeto": "escalar-evereste-conquistas-mais-dificeis-mundo",
+  "roteiro": "projetos/escalar-evereste-conquistas-mais-dificeis-mundo/06-roteiro-final.md",
+  "gerado_em": "2026-10-22",
+  "proporcao": "9:16",
+  "duracao_estimada": "01:16",
+  "total_cenas": 23,
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "onde": "B04-05",
+      "mensagem": "2.3 s: troca de imagem rápida demais (mínimo 2.5 s); junte com a vizinha"
+    },
+    {
+      "nivel": "aviso",
+      "onde": "B06-03",
+      "mensagem": "2.3 s: troca de imagem rápida demais (mínimo 2.5 s); junte com a vizinha"
+    }
+  ],
+  "thumbnail": {
+    "descricao": "O alpinista de papel grande no cume, sem máscara, de frente e boquiaberto de espanto; atrás dele, uma torre de bonecos de terno mais alta que a montanha. O título fala em 'difícil'; a thumb mostra a conta com os bilionários.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01",
+      "P02"
+    ],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the paper climber stands big in the lower middle of the frame on the snowy summit, no oxygen mask, facing the viewer with wide eyes and mouth open in disbelief, pointing back over his shoulder at the billionaires stacked in a tall tower that rises higher than the mountain, plain deep blue background",
+    "texto": "15x mais bilionários",
+    "posicao_texto": "alto",
+    "tipo": "ilustracao",
+    "fonte": "ia",
+    "prompt_final": "Medium shot. The paper climber stands big in the lower middle of the frame on the snowy summit, no oxygen mask, facing the viewer with wide eyes and mouth open in disbelief, pointing back over his shoulder at the billionaires stacked in a tall tower that rises higher than the mountain, plain deep blue background. YouTube thumbnail: one clear focal subject that reads at a small size, bold silhouette, expressive emotion, strong contrast and saturated accent colors, uncluttered background. Keep the top third of the frame clean and empty for a large title overlay; the subject stays out of it. Characters: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead; the billionaires, a crowd of identical small paper cutout men and women cut from glossy magazine-like paper, dark navy business suits with red ties, slicked hair, smug little smiles, gold paper cufflinks, and a round bright green dollar-sign badge pinned on each chest. Setting: a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+    "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+    "referencias": [
+      "P01",
+      "P02",
+      "L03"
+    ],
+    "id": "thumbnail"
+  },
+  "cenas": [
+    {
+      "trecho": "Tem quase quinze vezes mais bilionário no mundo",
+      "tipo": "ilustracao",
+      "texto_na_tela": "15x mais bilionários",
+      "descricao": "Uma torre altíssima de bonequinhos de terno empilhados, vista de baixo, subindo até sair do quadro. É a primeira metade da conta.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P02"
+      ],
+      "local": null,
+      "objetos": [],
+      "prompt_cena": "the billionaires stacked on each other's shoulders in a wobbly tower that rises out of the top of the frame, hundreds of identical smug figures, a few loose blank green banknotes fluttering around them, flat pale blue cardboard sky behind",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. The billionaires stacked on each other's shoulders in a wobbly tower that rises out of the top of the frame, hundreds of identical smug figures, a few loose blank green banknotes fluttering around them, flat pale blue cardboard sky behind. Character: the billionaires, a crowd of identical small paper cutout men and women cut from glossy magazine-like paper, dark navy business suits with red ties, slicked hair, smug little smiles, gold paper cufflinks, and a round bright green dollar-sign badge pinned on each chest. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P02"
+      ],
+      "id": "B01-01",
+      "bloco": "B01",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:00",
+      "fim": "00:03",
+      "inicio_s": 0.0,
+      "duracao_s": 2.7
+    },
+    {
+      "trecho": "do que subidas ao topo do Everest sem garrafa de oxigênio.",
+      "tipo": "ilustracao",
+      "descricao": "A montanha inteira e, no cume, um único bonequinho de papel sem máscara, sozinho. A segunda metade da conta: quase ninguém chega assim.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, breath puffing out as a small white paper cloud, the vast empty white slopes falling away below him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, breath puffing out as a small white paper cloud, the vast empty white slopes falling away below him. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "palavras": [
+        8,
+        19
+      ],
+      "inicio": "00:03",
+      "fim": "00:06",
+      "inicio_s": 2.7,
+      "duracao_s": 3.7
+    },
+    {
+      "trecho": "Degrau um: só a licença do Nepal pra escalar",
+      "tipo": "cartela",
+      "texto_na_tela": "DEGRAU 1 — O INGRESSO",
+      "descricao": "Cartela do primeiro degrau: a escada de papelão encostada no pé da montanha, ao lado das barracas do acampamento base, com o primeiro degrau destacado em laranja.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the cardboard ladder leaning against the foot of the paper mountain beside the base camp tents, its lowest rung painted signal orange, the upper rungs disappearing into clouds",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The cardboard ladder leaning against the foot of the paper mountain beside the base camp tents, its lowest rung painted signal orange, the upper rungs disappearing into clouds. Background plate for a title card, calm composition with empty space in the center. Setting: a base camp of small yellow and orange paper tents on a gray crumpled-paper glacier at the foot of the paper mountain, strings of blank colored paper flags in blue, white, red, green and yellow stretched between rocks, the white peak rising behind. Props: a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L02",
+        "O02"
+      ],
+      "id": "B02-01",
+      "bloco": "B02",
+      "palavras": [
+        0,
+        9
+      ],
+      "inicio": "00:06",
+      "fim": "00:09",
+      "inicio_s": 6.3,
+      "duracao_s": 3.0
+    },
+    {
+      "trecho": "custa uns setenta e cinco mil reais.",
+      "tipo": "cartela",
+      "texto_na_tela": "LICENÇA — R$ 75 MIL",
+      "descricao": "A licença de escalada colada na mesa de colagem, presa por uma pilha de dinheiro de papel: o preço só para ter permissão.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L04",
+      "objetos": [
+        "O04",
+        "O03"
+      ],
+      "prompt_cena": "a climbing permit document taped to kraft paper with a thick stack of blank green banknotes resting on its corner, a red wax seal glinting, scraps of paper around",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. A climbing permit document taped to kraft paper with a thick stack of blank green banknotes resting on its corner, a red wax seal glinting, scraps of paper around. Background plate for a title card, calm composition with empty space in the center. Setting: warm brown kraft paper with scissor-cut scraps and strips of beige masking tape. Props: a cream-colored paper permit document with a red wax-seal sticker and blank stamped boxes, no readable writing; thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L04",
+        "O04",
+        "O03"
+      ],
+      "id": "B02-02",
+      "bloco": "B02",
+      "palavras": [
+        9,
+        16
+      ],
+      "inicio": "00:09",
+      "fim": "00:12",
+      "inicio_s": 9.3,
+      "duracao_s": 2.3
+    },
+    {
+      "trecho": "A expedição com guia vai de duzentos e trinta",
+      "tipo": "cartela",
+      "texto_na_tela": "R$ 230 MIL — operadora nepalesa",
+      "descricao": "A expedição mais barata: um guia sherpa segurando uma pilha média de dinheiro de papel, pronto para levar o cliente.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "one of the sherpa guides stands at base camp holding a medium stack of blank green banknotes in both arms, coiled rope over his shoulder, friendly and businesslike",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. One of the sherpa guides stands at base camp holding a medium stack of blank green banknotes in both arms, coiled rope over his shoulder, friendly and businesslike. Background plate for a title card, calm composition with empty space in the center. Character: the sherpa guides, a group of sturdy adult paper cutout Nepali mountain guides with warm brown skin and calm determined faces, red and yellow down jackets, white helmets with headlamps, carrying coiled ropes and stacked orange oxygen cylinders on big backpacks. Setting: a base camp of small yellow and orange paper tents on a gray crumpled-paper glacier at the foot of the paper mountain, strings of blank colored paper flags in blue, white, red, green and yellow stretched between rocks, the white peak rising behind. Props: thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P03",
+        "L02",
+        "O03"
+      ],
+      "id": "B02-03",
+      "bloco": "B02",
+      "palavras": [
+        16,
+        25
+      ],
+      "inicio": "00:12",
+      "fim": "00:15",
+      "inicio_s": 11.7,
+      "duracao_s": 3.0
+    },
+    {
+      "trecho": "a mais de quatrocentos mil.",
+      "tipo": "cartela",
+      "texto_na_tela": "R$ 400 MIL+ — guias ocidentais",
+      "descricao": "A expedição premium: uma pilha de dinheiro de papel tão alta que vira uma coluna, com um guia de jaqueta vermelha luxuosa em pé no topo dela.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": null,
+      "objetos": [
+        "O03"
+      ],
+      "prompt_cena": "a towering column of stacked blank green banknotes rising into a pale blue cardboard sky, a paper cutout western mountain guide in a sleek red expedition jacket and mirrored glasses standing proudly on top",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. A towering column of stacked blank green banknotes rising into a pale blue cardboard sky, a paper cutout western mountain guide in a sleek red expedition jacket and mirrored glasses standing proudly on top. Background plate for a title card, calm composition with empty space in the center. Props: thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "O03"
+      ],
+      "id": "B02-04",
+      "bloco": "B02",
+      "palavras": [
+        25,
+        30
+      ],
+      "inicio": "00:15",
+      "fim": "00:16",
+      "inicio_s": 14.7,
+      "duracao_s": 1.7
+    },
+    {
+      "trecho": "E isso só compra o direito de tentar.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "US$ 1 = R$ 5,04 (22/10/2026)",
+      "descricao": "O alpinista de papel, de costas, no acampamento base, segurando a licença e olhando a montanha inteira que ainda falta. O dinheiro só abre a porta.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [
+        "O04"
+      ],
+      "prompt_cena": "the paper climber seen from behind holds the climbing permit in one hand and looks up at the enormous white peak towering over the base camp tents, small and alone against its size",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. The paper climber seen from behind holds the climbing permit in one hand and looks up at the enormous white peak towering over the base camp tents, small and alone against its size. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a base camp of small yellow and orange paper tents on a gray crumpled-paper glacier at the foot of the paper mountain, strings of blank colored paper flags in blue, white, red, green and yellow stretched between rocks, the white peak rising behind. Props: a cream-colored paper permit document with a red wax-seal sticker and blank stamped boxes, no readable writing. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L02",
+        "O04"
+      ],
+      "id": "B02-05",
+      "bloco": "B02",
+      "palavras": [
+        30,
+        38
+      ],
+      "inicio": "00:16",
+      "fim": "00:19",
+      "inicio_s": 16.3,
+      "duracao_s": 2.7
+    },
+    {
+      "trecho": "Degrau dois: sair do acampamento base e escalar.",
+      "tipo": "cartela",
+      "texto_na_tela": "DEGRAU 2 — A SUBIDA",
+      "descricao": "Cartela do segundo degrau: a escada de papelão agora com o segundo degrau em laranja, já acima das barracas, apoiada na encosta de gelo.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the cardboard ladder propped on the icy lower slope of the paper mountain, its second rung painted signal orange, tiny base camp tents far below, the summit high above in clouds",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The cardboard ladder propped on the icy lower slope of the paper mountain, its second rung painted signal orange, tiny base camp tents far below, the summit high above in clouds. Background plate for a title card, calm composition with empty space in the center. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Props: a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L01",
+        "O02"
+      ],
+      "id": "B03-01",
+      "bloco": "B03",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:19",
+      "fim": "00:22",
+      "inicio_s": 19.0,
+      "duracao_s": 2.7
+    },
+    {
+      "trecho": "Só pelo lado do Nepal, desde o ano dois mil, quase dezesseis mil pessoas tentaram.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "≈ 16 mil · Nepal · 2000–2025",
+      "descricao": "Vista de cima: uma fila longa e sinuosa de bonequinhos de papel saindo das barracas e subindo a encosta, do tamanho de formigas. A multidão que tenta.",
+      "enquadramento": "aereo",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a long winding queue of hundreds of tiny paper cutout climbers in colorful down suits leaves the base camp tents and snakes up the white glacier like a line of ants, the slope stretching up and away",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High aerial view. A long winding queue of hundreds of tiny paper cutout climbers in colorful down suits leaves the base camp tents and snakes up the white glacier like a line of ants, the slope stretching up and away. Setting: a base camp of small yellow and orange paper tents on a gray crumpled-paper glacier at the foot of the paper mountain, strings of blank colored paper flags in blue, white, red, green and yellow stretched between rocks, the white peak rising behind. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B03-02",
+      "bloco": "B03",
+      "palavras": [
+        8,
+        23
+      ],
+      "inicio": "00:22",
+      "fim": "00:27",
+      "inicio_s": 21.7,
+      "duracao_s": 5.0
+    },
+    {
+      "trecho": "Mais da metade nem era cliente: eram guias e sherpas,",
+      "tipo": "ilustracao",
+      "texto_na_tela": "8.994 pagos × 6.787 clientes",
+      "descricao": "Os guias e sherpas na frente da fila, carregando cordas e garrafas de oxigênio nas costas: a maior parte de quem sobe está trabalhando.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the sherpa guides march up the snow slope in a row, bent forward under huge backpacks stacked with orange oxygen cylinders and coiled ropes, steady and focused, footprints trailing behind them",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. The sherpa guides march up the snow slope in a row, bent forward under huge backpacks stacked with orange oxygen cylinders and coiled ropes, steady and focused, footprints trailing behind them. Character: the sherpa guides, a group of sturdy adult paper cutout Nepali mountain guides with warm brown skin and calm determined faces, red and yellow down jackets, white helmets with headlamps, carrying coiled ropes and stacked orange oxygen cylinders on big backpacks. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Props: a bright orange paper cutout oxygen cylinder with a black valve, a clear plastic-wrap tube and a small blue face mask. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P03",
+        "L01",
+        "O01"
+      ],
+      "id": "B03-03",
+      "bloco": "B03",
+      "palavras": [
+        23,
+        33
+      ],
+      "inicio": "00:27",
+      "fim": "00:30",
+      "inicio_s": 26.7,
+      "duracao_s": 3.3
+    },
+    {
+      "trecho": "pagos pra subir. Mas começar não é chegar.",
+      "tipo": "ilustracao",
+      "descricao": "Por cima do ombro do alpinista de papel, a corda fixa sobe a encosta até sumir: o cume ainda está muito longe. Começar não é chegar.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O05"
+      ],
+      "prompt_cena": "the paper climber, seen from behind, grips the fixed rope that climbs an endless steep white slope ahead, the tiny summit barely visible far above through drifting cotton-wool clouds",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. The paper climber, seen from behind, grips the fixed rope that climbs an endless steep white slope ahead, the tiny summit barely visible far above through drifting cotton-wool clouds. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Props: a thin red-and-white twisted paper rope pinned to the snow with small silver anchors. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L01",
+        "O05"
+      ],
+      "id": "B03-04",
+      "bloco": "B03",
+      "palavras": [
+        33,
+        41
+      ],
+      "inicio": "00:30",
+      "fim": "00:33",
+      "inicio_s": 30.0,
+      "duracao_s": 2.7
+    },
+    {
+      "trecho": "Degrau três: o topo. Em toda a história,",
+      "tipo": "cartela",
+      "texto_na_tela": "DEGRAU 3 — O TOPO",
+      "descricao": "Cartela do terceiro degrau: a escada de papelão encostada logo abaixo do cume, com o terceiro degrau em laranja.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the cardboard ladder leaning against the narrow summit ridge, its third rung painted signal orange, a sea of clouds below and deep blue sky above",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The cardboard ladder leaning against the narrow summit ridge, its third rung painted signal orange, a sea of clouds below and deep blue sky above. Background plate for a title card, calm composition with empty space in the center. Setting: a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars. Props: a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L03",
+        "O02"
+      ],
+      "id": "B04-01",
+      "bloco": "B04",
+      "palavras": [
+        0,
+        8
+      ],
+      "inicio": "00:33",
+      "fim": "00:35",
+      "inicio_s": 32.7,
+      "duracao_s": 2.7
+    },
+    {
+      "trecho": "pelos dois lados da montanha, sete mil quinhentas e sessenta e três pessoas chegaram.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "7.563 pessoas no topo",
+      "descricao": "Vista de cima do cume: duas filas de bonequinhos subindo pelas duas faces da montanha e se encontrando na ponta. A fila é bem mais curta que a do degrau dois.",
+      "enquadramento": "aereo",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "two thin lines of tiny paper cutout climbers ascend from opposite faces of the mountain and meet at the pointed summit, noticeably fewer figures than a crowd, cotton-wool clouds swirling around the peak",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High aerial view. Two thin lines of tiny paper cutout climbers ascend from opposite faces of the mountain and meet at the pointed summit, noticeably fewer figures than a crowd, cotton-wool clouds swirling around the peak. Setting: a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L03"
+      ],
+      "id": "B04-02",
+      "bloco": "B04",
+      "palavras": [
+        8,
+        22
+      ],
+      "inicio": "00:35",
+      "fim": "00:40",
+      "inicio_s": 35.3,
+      "duracao_s": 4.7
+    },
+    {
+      "trecho": "Com garrafa de oxigênio, oito em cada dez que tentam chegam.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "com garrafa: 8 em 10",
+      "descricao": "Uma cordada de dez alpinistas de máscara e garrafa laranja: oito já pisam na crista do cume, dois ficaram para trás, dando meia-volta.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "a roped team of ten paper cutout climbers wearing oxygen masks, led by the sherpa guides, eight of them already stepping onto the summit ridge with orange oxygen cylinders on their backs, two at the back turning around to descend",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A roped team of ten paper cutout climbers wearing oxygen masks, led by the sherpa guides, eight of them already stepping onto the summit ridge with orange oxygen cylinders on their backs, two at the back turning around to descend. Character: the sherpa guides, a group of sturdy adult paper cutout Nepali mountain guides with warm brown skin and calm determined faces, red and yellow down jackets, white helmets with headlamps, carrying coiled ropes and stacked orange oxygen cylinders on big backpacks. Setting: a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars. Props: a bright orange paper cutout oxygen cylinder with a black valve, a clear plastic-wrap tube and a small blue face mask. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P03",
+        "L03",
+        "O01"
+      ],
+      "id": "B04-03",
+      "bloco": "B04",
+      "palavras": [
+        22,
+        33
+      ],
+      "inicio": "00:40",
+      "fim": "00:44",
+      "inicio_s": 40.0,
+      "duracao_s": 3.7
+    },
+    {
+      "trecho": "Sem garrafa, só quatro em cada cem.",
+      "tipo": "cartela",
+      "texto_na_tela": "SEM GARRAFA — 4 EM 100",
+      "descricao": "Fundo da cartela: o alpinista de papel de perfil, sem máscara, gorro coberto de gelo, puxando o ar. O número precisa ficar na tela porque volta no B06.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the paper climber in profile with no oxygen mask, frost crusted on the orange beanie, mouth open gasping for thin air, a small white paper puff of breath, wind streaks cut from paper behind",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The paper climber in profile with no oxygen mask, frost crusted on the orange beanie, mouth open gasping for thin air, a small white paper puff of breath, wind streaks cut from paper behind. Background plate for a title card, calm composition with empty space in the center. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a narrow ridge of bright white paper snow above cotton-wool clouds, deep blue cardboard sky. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L03"
+      ],
+      "id": "B04-04",
+      "bloco": "B04",
+      "palavras": [
+        33,
+        40
+      ],
+      "inicio": "00:44",
+      "fim": "00:46",
+      "inicio_s": 43.7,
+      "duracao_s": 2.3
+    },
+    {
+      "trecho": "Mas tem um custo fora do orçamento.",
+      "tipo": "ilustracao",
+      "descricao": "O orçamento da expedição na mesa de colagem: licença, dinheiro e garrafa arrumados, e a sombra comprida da montanha caindo por cima de tudo. Prepara a virada sem mostrar nada.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "local": "L04",
+      "objetos": [
+        "O04",
+        "O03",
+        "O01"
+      ],
+      "prompt_cena": "the climbing permit, a stack of blank green banknotes and an orange oxygen cylinder neatly arranged on kraft paper, a long dark mountain-shaped shadow sliding across them from the top of the frame, the mood suddenly cold and quiet",
+      "movimento": "descer",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The climbing permit, a stack of blank green banknotes and an orange oxygen cylinder neatly arranged on kraft paper, a long dark mountain-shaped shadow sliding across them from the top of the frame, the mood suddenly cold and quiet. Setting: warm brown kraft paper with scissor-cut scraps and strips of beige masking tape. Props: a cream-colored paper permit document with a red wax-seal sticker and blank stamped boxes, no readable writing; thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands; a bright orange paper cutout oxygen cylinder with a black valve, a clear plastic-wrap tube and a small blue face mask. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L04",
+        "O04",
+        "O03",
+        "O01"
+      ],
+      "id": "B04-05",
+      "bloco": "B04",
+      "palavras": [
+        40,
+        47
+      ],
+      "inicio": "00:46",
+      "fim": "00:48",
+      "inicio_s": 46.0,
+      "duracao_s": 2.3
+    },
+    {
+      "trecho": "Cerca de trezentas e quarenta pessoas já morreram no Everest.",
+      "tipo": "cartela",
+      "texto_na_tela": "≈ 340 MORTES — 1922 a 2025",
+      "descricao": "Fundo da cartela: a corda fixa vazia na neve e uma barraca laranja fechada num acampamento alto, ao entardecer. Nenhuma pessoa no quadro.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [
+        "O05"
+      ],
+      "prompt_cena": "an empty fixed rope running up a silent snow slope toward a single closed orange paper tent on a high ledge, dusk light in muted blue and gray, falling paper snowflakes, no people anywhere",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. An empty fixed rope running up a silent snow slope toward a single closed orange paper tent on a high ledge, dusk light in muted blue and gray, falling paper snowflakes, no people anywhere. Background plate for a title card, calm composition with empty space in the center. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Props: a thin red-and-white twisted paper rope pinned to the snow with small silver anchors. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L01",
+        "O05"
+      ],
+      "id": "B05-01",
+      "bloco": "B05",
+      "palavras": [
+        0,
+        10
+      ],
+      "inicio": "00:48",
+      "fim": "00:53",
+      "inicio_s": 48.3,
+      "duracao_s": 4.3
+    },
+    {
+      "trecho": "A cada cem vezes que alguém chegou ao topo, uma pessoa morreu na montanha.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "1 morte a cada 100 cumes",
+      "descricao": "Uma folha com cem bonequinhos de papel recortados em grade, todos no lugar, menos um: no lugar dele, só o buraco branco com o contorno vazio. A taxa vira uma ausência, sem corpo.",
+      "enquadramento": "plongee",
+      "personagens": [],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "a sheet of one hundred identical tiny orange paper climber cutouts arranged in a neat ten-by-ten grid on kraft paper, one spot in the grid is just an empty cut-out hole in the shape of a climber, quiet and somber",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High-angle shot. A sheet of one hundred identical tiny orange paper climber cutouts arranged in a neat ten-by-ten grid on kraft paper, one spot in the grid is just an empty cut-out hole in the shape of a climber, quiet and somber. Setting: a flat sheet of warm brown kraft paper seen from above, small scissor-cut scraps and strips of beige masking tape around the edges. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L04"
+      ],
+      "id": "B05-02",
+      "bloco": "B05",
+      "palavras": [
+        10,
+        24
+      ],
+      "inicio": "00:53",
+      "fim": "00:57",
+      "inicio_s": 52.7,
+      "duracao_s": 4.7
+    },
+    {
+      "trecho": "E ainda falta o último degrau, mais raro que ser bilionário.",
+      "tipo": "ilustracao",
+      "descricao": "A escada de papelão de baixo para cima: o quarto degrau, o último, sobe acima do cume e entra nas nuvens, vazio. O loop do último degrau.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": "L03",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the cardboard ladder rising past the summit into the clouds, its fourth and last rung empty and glowing signal orange high above, a few tiny billionaire paper figures far below at its base looking up",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. The cardboard ladder rising past the summit into the clouds, its fourth and last rung empty and glowing signal orange high above, a few tiny billionaire paper figures far below at its base looking up. Setting: a narrow pointed snow summit cut from bright white paper, rising above a sea of cotton-wool clouds, a deep blue cardboard sky with a few small silver paper stars. Props: a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "L03",
+        "O02"
+      ],
+      "id": "B05-03",
+      "bloco": "B05",
+      "palavras": [
+        24,
+        35
+      ],
+      "inicio": "00:57",
+      "fim": "01:01",
+      "inicio_s": 57.3,
+      "duracao_s": 3.7
+    },
+    {
+      "trecho": "Degrau quatro: o topo sem garrafa. Só duzentas e trinta e duas subidas.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "DEGRAU 4 · 232 subidas",
+      "descricao": "Espelho do B01-02: a mesma montanha e o mesmo bonequinho sozinho no cume, sem máscara, agora com a escada de papelão encostada e o quarto degrau em laranja.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "the paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, the cardboard ladder leaning against the peak with its top rung glowing orange, vast empty white slopes below",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, the cardboard ladder leaning against the peak with its top rung glowing orange, vast empty white slopes below. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Props: a tall zigzag ladder made of brown corrugated cardboard strips joined with beige masking tape, with four wide rungs. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L01",
+        "O02"
+      ],
+      "id": "B06-01",
+      "bloco": "B06",
+      "palavras": [
+        0,
+        13
+      ],
+      "inicio": "01:01",
+      "fim": "01:05",
+      "inicio_s": 61.0,
+      "duracao_s": 4.3
+    },
+    {
+      "trecho": "Na última lista da Forbes, são três mil quatrocentos e vinte e oito bilionários.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "3.428 bilionários (Forbes)",
+      "descricao": "Espelho do B01-01: a mesma torre de bonecos de terno, vista de baixo, agora ao lado da montanha e mais alta que ela.",
+      "enquadramento": "contra-plongee",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the billionaires stacked on each other's shoulders in a wobbly tower that rises higher than the snowy mountain beside it, hundreds of identical smug figures, loose blank green banknotes fluttering around them",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. The billionaires stacked on each other's shoulders in a wobbly tower that rises higher than the snowy mountain beside it, hundreds of identical smug figures, loose blank green banknotes fluttering around them. Character: the billionaires, a crowd of identical small paper cutout men and women cut from glossy magazine-like paper, dark navy business suits with red ties, slicked hair, smug little smiles, gold paper cufflinks, and a round bright green dollar-sign badge pinned on each chest. Setting: a towering jagged pyramid-shaped mountain built from layered torn white and pale blue paper, gray colored-pencil shading on the snow ridges, a cotton-wool plume of cloud blowing off the sharp summit, a flat pale blue cardboard sky. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P02",
+        "L01"
+      ],
+      "id": "B06-02",
+      "bloco": "B06",
+      "palavras": [
+        13,
+        27
+      ],
+      "inicio": "01:05",
+      "fim": "01:11",
+      "inicio_s": 65.3,
+      "duracao_s": 5.7
+    },
+    {
+      "trecho": "Dinheiro compra a licença e a garrafa.",
+      "tipo": "ilustracao",
+      "descricao": "A mão de papel de um bilionário solta dinheiro sobre a licença e a garrafa de oxigênio na mesa de colagem: tudo o que dá para comprar.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L04",
+      "objetos": [
+        "O03",
+        "O04",
+        "O01"
+      ],
+      "prompt_cena": "a paper hand of one of the billionaires, navy suit cuff with a gold cufflink, drops blank green banknotes onto the climbing permit and an orange oxygen cylinder lying on kraft paper",
+      "movimento": "descer",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. A paper hand of one of the billionaires, navy suit cuff with a gold cufflink, drops blank green banknotes onto the climbing permit and an orange oxygen cylinder lying on kraft paper. Character: the billionaires, a crowd of identical small paper cutout men and women cut from glossy magazine-like paper, dark navy business suits with red ties, slicked hair, smug little smiles, gold paper cufflinks, and a round bright green dollar-sign badge pinned on each chest. Setting: warm brown kraft paper with scissor-cut scraps and strips of beige masking tape. Props: thick stacks of blank green paper banknotes with no numbers or printing, tied with red rubber bands; a cream-colored paper permit document with a red wax-seal sticker and blank stamped boxes, no readable writing; a bright orange paper cutout oxygen cylinder with a black valve, a clear plastic-wrap tube and a small blue face mask. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P02",
+        "L04",
+        "O03",
+        "O04",
+        "O01"
+      ],
+      "id": "B06-03",
+      "bloco": "B06",
+      "palavras": [
+        27,
+        34
+      ],
+      "inicio": "01:11",
+      "fim": "01:13",
+      "inicio_s": 71.0,
+      "duracao_s": 2.3
+    },
+    {
+      "trecho": "Não compra o fôlego pra subir sem ela.",
+      "tipo": "ilustracao",
+      "descricao": "O rosto inteiro do alpinista de papel no cume, pela primeira vez de frente: sem máscara, olhos fechados, soltando uma nuvem de fôlego. A imagem que fica.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the paper climber faces the viewer on the summit with no oxygen mask, eyes closed, frost on the orange beanie, exhaling a big white paper cloud of breath, a quiet proud smile, golden light on the face",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The paper climber faces the viewer on the summit with no oxygen mask, eyes closed, frost on the orange beanie, exhaling a big white paper cloud of breath, a quiet proud smile, golden light on the face. Character: the paper climber, a small hand-drawn paper cutout mountaineer, an adult with light brown skin and a slim build, short black hair peeking out of a knitted orange beanie with a white pom-pom, a simple drawn face with round black dot eyes and rosy cheeks, a small strip of beige masking tape stuck across the left cheek, wearing a bright orange puffy down suit, black boots with crampons, and dark snow goggles pushed up on the forehead. Setting: a narrow ridge of bright white paper snow above cotton-wool clouds, deep blue cardboard sky. Style: handmade 2D paper cutout collage, flat hand-drawn characters and props cut out with scissors and layered on top of each other, uneven white paper borders around every cutout, soft short drop shadows between layers giving shallow depth, visible paper fiber and construction-paper texture, colored pencil and black marker linework, limited palette of snow white, glacier blue, slate gray and warm kraft brown with bold accents of signal orange and money green, flat even lighting like a scanned craft project, main subject in the middle of the vertical frame, top and bottom edges kept simple.",
+      "negativo_final": "text, letters, words, numbers, watermark, logo, brand, flag with symbols, photorealistic, 3D render, glossy CGI, blood, injury, wound, dead body, corpse, lying motionless person, skeleton, gore, real person's face, nudity, extra fingers, deformed hands",
+      "referencias": [
+        "P01",
+        "L03"
+      ],
+      "id": "B06-04",
+      "bloco": "B06",
+      "palavras": [
+        34,
+        42
+      ],
+      "inicio": "01:13",
+      "fim": "01:16",
+      "inicio_s": 73.3,
+      "duracao_s": 2.7
+    }
+  ]
+}

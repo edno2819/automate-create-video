@@ -1,0 +1,601 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 40.163,
+  "duracao_video_s": 41.363,
+  "fonte": "faster-whisper small",
+  "voz": "Sadaltager",
+  "personagens": {
+    "Moranguete": "Leda",
+    "Bananildo": "Enceladus",
+    "Pepinão": "Algieba",
+    "Colega": "Zubenelgenubi"
+  },
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Sabe",
+          "inicio": 0.0,
+          "fim": 0.34
+        },
+        {
+          "texto": "onde",
+          "inicio": 0.34,
+          "fim": 0.52
+        },
+        {
+          "texto": "a",
+          "inicio": 0.52,
+          "fim": 0.8
+        },
+        {
+          "texto": "Moranguete",
+          "inicio": 0.8,
+          "fim": 1.3
+        },
+        {
+          "texto": "tá",
+          "inicio": 1.3,
+          "fim": 1.54
+        },
+        {
+          "texto": "agora,",
+          "inicio": 1.54,
+          "fim": 1.9
+        },
+        {
+          "texto": "Bananildo?",
+          "inicio": 1.98,
+          "fim": 2.5
+        }
+      ],
+      "fim_s": 2.8
+    },
+    {
+      "id": "B01-02",
+      "inicio_s": 2.8,
+      "palavras": [
+        {
+          "texto": "Você",
+          "inicio": 2.8,
+          "fim": 3.28
+        },
+        {
+          "texto": "aqui",
+          "inicio": 3.28,
+          "fim": 3.72
+        },
+        {
+          "texto": "todo",
+          "inicio": 4.14,
+          "fim": 4.52
+        },
+        {
+          "texto": "santo",
+          "inicio": 4.52,
+          "fim": 5.0
+        },
+        {
+          "texto": "dia...",
+          "inicio": 5.0,
+          "fim": 6.06
+        }
+      ],
+      "fim_s": 6.48
+    },
+    {
+      "id": "B01-03",
+      "inicio_s": 6.48,
+      "palavras": [
+        {
+          "texto": "Ela",
+          "inicio": 6.48,
+          "fim": 6.8
+        },
+        {
+          "texto": "cuida",
+          "inicio": 6.8,
+          "fim": 7.32
+        },
+        {
+          "texto": "das",
+          "inicio": 7.32,
+          "fim": 7.46
+        },
+        {
+          "texto": "crianças.",
+          "inicio": 7.46,
+          "fim": 7.9
+        }
+      ],
+      "fim_s": 8.44
+    },
+    {
+      "id": "B01-04",
+      "inicio_s": 8.44,
+      "palavras": [
+        {
+          "texto": "E",
+          "inicio": 8.44,
+          "fim": 8.46
+        },
+        {
+          "texto": "cuida",
+          "inicio": 8.46,
+          "fim": 8.76
+        },
+        {
+          "texto": "do",
+          "inicio": 8.76,
+          "fim": 8.84
+        },
+        {
+          "texto": "corpo",
+          "inicio": 8.84,
+          "fim": 9.16
+        },
+        {
+          "texto": "pra",
+          "inicio": 9.26,
+          "fim": 9.38
+        },
+        {
+          "texto": "mim,",
+          "inicio": 9.38,
+          "fim": 9.54
+        },
+        {
+          "texto": "lá",
+          "inicio": 9.82,
+          "fim": 10.02
+        },
+        {
+          "texto": "na",
+          "inicio": 10.02,
+          "fim": 10.12
+        },
+        {
+          "texto": "academia.",
+          "inicio": 10.12,
+          "fim": 10.42
+        }
+      ],
+      "fim_s": 10.82
+    },
+    {
+      "id": "B01-05",
+      "inicio_s": 10.82,
+      "palavras": [
+        {
+          "texto": "Na",
+          "inicio": 10.82,
+          "fim": 11.06
+        },
+        {
+          "texto": "academia,",
+          "inicio": 11.06,
+          "fim": 11.6
+        },
+        {
+          "texto": "é?",
+          "inicio": 11.98,
+          "fim": 11.98
+        },
+        {
+          "texto": "Sei...",
+          "inicio": 12.3,
+          "fim": 12.62
+        }
+      ],
+      "fim_s": 13.166
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 13.166,
+      "palavras": [
+        {
+          "texto": "Mais",
+          "inicio": 13.166,
+          "fim": 13.606
+        },
+        {
+          "texto": "uma,",
+          "inicio": 13.606,
+          "fim": 13.946
+        },
+        {
+          "texto": "princesa...",
+          "inicio": 14.226,
+          "fim": 14.806
+        },
+        {
+          "texto": "só",
+          "inicio": 15.046,
+          "fim": 15.146
+        },
+        {
+          "texto": "mais",
+          "inicio": 15.146,
+          "fim": 15.366
+        },
+        {
+          "texto": "uma.",
+          "inicio": 15.366,
+          "fim": 15.606
+        },
+        {
+          "texto": "E",
+          "inicio": 15.926,
+          "fim": 16.086
+        },
+        {
+          "texto": "o",
+          "inicio": 16.086,
+          "fim": 16.146
+        },
+        {
+          "texto": "maridão?",
+          "inicio": 16.146,
+          "fim": 16.546
+        }
+      ],
+      "fim_s": 16.946
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 16.946,
+      "palavras": [
+        {
+          "texto": "Fazendo",
+          "inicio": 16.946,
+          "fim": 17.386
+        },
+        {
+          "texto": "hora",
+          "inicio": 17.386,
+          "fim": 17.566
+        },
+        {
+          "texto": "extra.",
+          "inicio": 17.566,
+          "fim": 17.986
+        },
+        {
+          "texto": "Pelos",
+          "inicio": 17.986,
+          "fim": 18.706
+        },
+        {
+          "texto": "filhos",
+          "inicio": 18.706,
+          "fim": 19.186
+        },
+        {
+          "texto": "dele.",
+          "inicio": 19.186,
+          "fim": 19.506
+        }
+      ],
+      "fim_s": 20.486
+    },
+    {
+      "id": "B02-03",
+      "inicio_s": 20.486,
+      "palavras": [
+        {
+          "texto": "Dele...",
+          "inicio": 20.486,
+          "fim": 21.126
+        }
+      ],
+      "fim_s": 21.636
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 21.636,
+      "palavras": [
+        {
+          "texto": "Esse",
+          "inicio": 21.636,
+          "fim": 21.836
+        },
+        {
+          "texto": "carteiro",
+          "inicio": 21.836,
+          "fim": 22.336
+        },
+        {
+          "texto": "nunca",
+          "inicio": 22.336,
+          "fim": 22.616
+        },
+        {
+          "texto": "atrasa,",
+          "inicio": 22.616,
+          "fim": 23.176
+        },
+        {
+          "texto": "hein?",
+          "inicio": 23.176,
+          "fim": 23.276
+        }
+      ],
+      "fim_s": 23.596
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 23.596,
+      "palavras": [
+        {
+          "texto": "Todo",
+          "inicio": 23.596,
+          "fim": 23.696
+        },
+        {
+          "texto": "santo",
+          "inicio": 23.696,
+          "fim": 24.116
+        },
+        {
+          "texto": "dia.",
+          "inicio": 24.116,
+          "fim": 24.356
+        }
+      ],
+      "fim_s": 25.036
+    },
+    {
+      "id": "B03-03",
+      "inicio_s": 25.036,
+      "palavras": [
+        {
+          "texto": "Todo",
+          "inicio": 25.036,
+          "fim": 25.656
+        },
+        {
+          "texto": "santo",
+          "inicio": 25.656,
+          "fim": 26.016
+        },
+        {
+          "texto": "dia,",
+          "inicio": 26.016,
+          "fim": 26.336
+        },
+        {
+          "texto": "amor.",
+          "inicio": 26.376,
+          "fim": 26.596
+        }
+      ],
+      "fim_s": 27.228
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 27.228,
+      "palavras": [
+        {
+          "texto": "Puxaram",
+          "inicio": 27.228,
+          "fim": 28.288
+        },
+        {
+          "texto": "tudo",
+          "inicio": 28.288,
+          "fim": 28.728
+        },
+        {
+          "texto": "do",
+          "inicio": 28.728,
+          "fim": 28.908
+        },
+        {
+          "texto": "papai.",
+          "inicio": 28.908,
+          "fim": 29.448
+        }
+      ],
+      "fim_s": 29.448
+    },
+    {
+      "id": "B04-02",
+      "inicio_s": 29.448,
+      "palavras": [
+        {
+          "texto": "Família...",
+          "inicio": 29.448,
+          "fim": 29.988
+        },
+        {
+          "texto": "eu",
+          "inicio": 29.988,
+          "fim": 30.968
+        },
+        {
+          "texto": "preciso",
+          "inicio": 30.968,
+          "fim": 31.328
+        },
+        {
+          "texto": "dizer",
+          "inicio": 31.328,
+          "fim": 31.608
+        },
+        {
+          "texto": "uma",
+          "inicio": 31.608,
+          "fim": 31.748
+        },
+        {
+          "texto": "coisa.",
+          "inicio": 31.748,
+          "fim": 32.048
+        }
+      ],
+      "fim_s": 32.048
+    },
+    {
+      "id": "B04-03",
+      "inicio_s": 32.048,
+      "palavras": [
+        {
+          "texto": "Eu",
+          "inicio": 32.048,
+          "fim": 33.528
+        },
+        {
+          "texto": "não",
+          "inicio": 33.528,
+          "fim": 34.068
+        },
+        {
+          "texto": "sei",
+          "inicio": 34.068,
+          "fim": 34.288
+        },
+        {
+          "texto": "o",
+          "inicio": 34.288,
+          "fim": 34.408
+        },
+        {
+          "texto": "que",
+          "inicio": 34.408,
+          "fim": 34.448
+        },
+        {
+          "texto": "eu",
+          "inicio": 34.448,
+          "fim": 34.548
+        },
+        {
+          "texto": "seria",
+          "inicio": 34.548,
+          "fim": 34.748
+        },
+        {
+          "texto": "sem",
+          "inicio": 34.748,
+          "fim": 35.068
+        },
+        {
+          "texto": "a",
+          "inicio": 35.068,
+          "fim": 35.168
+        },
+        {
+          "texto": "minha",
+          "inicio": 35.168,
+          "fim": 35.248
+        },
+        {
+          "texto": "esposa...",
+          "inicio": 35.248,
+          "fim": 35.728
+        }
+      ],
+      "fim_s": 35.728
+    },
+    {
+      "id": "B04-04",
+      "inicio_s": 35.728,
+      "palavras": [
+        {
+          "texto": "e",
+          "inicio": 35.728,
+          "fim": 36.168
+        },
+        {
+          "texto": "os",
+          "inicio": 36.168,
+          "fim": 36.308
+        },
+        {
+          "texto": "meus",
+          "inicio": 36.308,
+          "fim": 36.428
+        },
+        {
+          "texto": "lindos",
+          "inicio": 36.428,
+          "fim": 36.928
+        },
+        {
+          "texto": "filhos.",
+          "inicio": 36.928,
+          "fim": 37.248
+        }
+      ],
+      "fim_s": 37.761
+    },
+    {
+      "id": "B05-01",
+      "inicio_s": 37.761,
+      "palavras": [
+        {
+          "texto": "Imagina,",
+          "inicio": 37.761,
+          "fim": 38.681
+        },
+        {
+          "texto": "amor...",
+          "inicio": 38.821,
+          "fim": 39.141
+        },
+        {
+          "texto": "eu?",
+          "inicio": 39.601,
+          "fim": 39.821
+        }
+      ],
+      "fim_s": 41.363
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 29,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 135
+    },
+    {
+      "bloco": "B02",
+      "palavras": 16,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 118
+    },
+    {
+      "bloco": "B03",
+      "palavras": 12,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 136
+    },
+    {
+      "bloco": "B04",
+      "palavras": 26,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 152
+    },
+    {
+      "bloco": "B05",
+      "palavras": 3,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 75
+    }
+  ],
+  "alertas": []
+}

@@ -1,0 +1,126 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Noto Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,6,2,2,86,86,518,1
+Style: Destaque,Noto Sans,84,&H00000000,&H00000000,&H0000D4FF,&H00000000,-1,0,0,0,100,100,0,0,3,12,0,2,86,86,518,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Legenda,,0,0,0,,Sabe onde
+Dialogue: 1,0:00:00.00,0:00:00.34,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Sabe{\alpha&HFF&} onde
+Dialogue: 1,0:00:00.34,0:00:00.52,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Sabe {\alpha&H00&}onde{\alpha&HFF&}
+Dialogue: 0,0:00:00.52,0:00:02.80,Legenda,,0,0,0,,a Moranguete tá agora, Bananildo?
+Dialogue: 1,0:00:00.52,0:00:00.80,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}a{\alpha&HFF&} Moranguete tá agora, Bananildo?
+Dialogue: 1,0:00:00.80,0:00:01.30,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}a {\alpha&H00&}Moranguete{\alpha&HFF&} tá agora, Bananildo?
+Dialogue: 1,0:00:01.30,0:00:01.54,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}a Moranguete {\alpha&H00&}tá{\alpha&HFF&} agora, Bananildo?
+Dialogue: 1,0:00:01.54,0:00:01.98,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}a Moranguete tá {\alpha&H00&}agora,{\alpha&HFF&} Bananildo?
+Dialogue: 1,0:00:01.98,0:00:02.80,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}a Moranguete tá agora, {\alpha&H00&}Bananildo?{\alpha&HFF&}
+Dialogue: 0,0:00:02.80,0:00:06.48,Legenda,,0,0,0,,Você aqui todo santo dia...
+Dialogue: 1,0:00:02.80,0:00:03.28,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Você{\alpha&HFF&} aqui todo santo dia...
+Dialogue: 1,0:00:03.28,0:00:04.14,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Você {\alpha&H00&}aqui{\alpha&HFF&} todo santo dia...
+Dialogue: 1,0:00:04.14,0:00:04.52,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Você aqui {\alpha&H00&}todo{\alpha&HFF&} santo dia...
+Dialogue: 1,0:00:04.52,0:00:05.00,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Você aqui todo {\alpha&H00&}santo{\alpha&HFF&} dia...
+Dialogue: 1,0:00:05.00,0:00:06.48,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Você aqui todo santo {\alpha&H00&}dia...{\alpha&HFF&}
+Dialogue: 0,0:00:06.48,0:00:08.44,Legenda,,0,0,0,,Ela cuida das crianças.
+Dialogue: 1,0:00:06.48,0:00:06.80,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Ela{\alpha&HFF&} cuida das crianças.
+Dialogue: 1,0:00:06.80,0:00:07.32,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Ela {\alpha&H00&}cuida{\alpha&HFF&} das crianças.
+Dialogue: 1,0:00:07.32,0:00:07.46,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Ela cuida {\alpha&H00&}das{\alpha&HFF&} crianças.
+Dialogue: 1,0:00:07.46,0:00:08.44,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Ela cuida das {\alpha&H00&}crianças.{\alpha&HFF&}
+Dialogue: 0,0:00:08.44,0:00:09.26,Legenda,,0,0,0,,E cuida do corpo
+Dialogue: 1,0:00:08.44,0:00:08.46,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} cuida do corpo
+Dialogue: 1,0:00:08.46,0:00:08.76,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}E {\alpha&H00&}cuida{\alpha&HFF&} do corpo
+Dialogue: 1,0:00:08.76,0:00:08.84,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}E cuida {\alpha&H00&}do{\alpha&HFF&} corpo
+Dialogue: 1,0:00:08.84,0:00:09.26,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}E cuida do {\alpha&H00&}corpo{\alpha&HFF&}
+Dialogue: 0,0:00:09.26,0:00:09.82,Legenda,,0,0,0,,pra mim,
+Dialogue: 1,0:00:09.26,0:00:09.38,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}pra{\alpha&HFF&} mim,
+Dialogue: 1,0:00:09.38,0:00:09.82,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}pra {\alpha&H00&}mim,{\alpha&HFF&}
+Dialogue: 0,0:00:09.82,0:00:10.82,Legenda,,0,0,0,,lá na academia.
+Dialogue: 1,0:00:09.82,0:00:10.02,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}lá{\alpha&HFF&} na academia.
+Dialogue: 1,0:00:10.02,0:00:10.12,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}lá {\alpha&H00&}na{\alpha&HFF&} academia.
+Dialogue: 1,0:00:10.12,0:00:10.82,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}lá na {\alpha&H00&}academia.{\alpha&HFF&}
+Dialogue: 0,0:00:10.82,0:00:11.98,Legenda,,0,0,0,,Na academia,
+Dialogue: 1,0:00:10.82,0:00:11.06,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Na{\alpha&HFF&} academia,
+Dialogue: 1,0:00:11.06,0:00:11.98,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}Na {\alpha&H00&}academia,{\alpha&HFF&}
+Dialogue: 0,0:00:11.98,0:00:13.17,Legenda,,0,0,0,,é? Sei...
+Dialogue: 1,0:00:11.98,0:00:12.30,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}é?{\alpha&HFF&} Sei...
+Dialogue: 1,0:00:12.30,0:00:13.17,Destaque,,0,0,0,,{\3c&HD4B606&\1c&HFFFFFF&}{\alpha&HFF&}é? {\alpha&H00&}Sei...{\alpha&HFF&}
+Dialogue: 0,0:00:13.17,0:00:14.23,Legenda,,0,0,0,,Mais uma,
+Dialogue: 1,0:00:13.17,0:00:13.61,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Mais{\alpha&HFF&} uma,
+Dialogue: 1,0:00:13.61,0:00:14.23,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}Mais {\alpha&H00&}uma,{\alpha&HFF&}
+Dialogue: 0,0:00:14.23,0:00:15.93,Legenda,,0,0,0,,princesa... só mais uma.
+Dialogue: 1,0:00:14.23,0:00:15.05,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}princesa...{\alpha&HFF&} só mais uma.
+Dialogue: 1,0:00:15.05,0:00:15.15,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}princesa... {\alpha&H00&}só{\alpha&HFF&} mais uma.
+Dialogue: 1,0:00:15.15,0:00:15.37,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}princesa... só {\alpha&H00&}mais{\alpha&HFF&} uma.
+Dialogue: 1,0:00:15.37,0:00:15.93,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}princesa... só mais {\alpha&H00&}uma.{\alpha&HFF&}
+Dialogue: 0,0:00:15.93,0:00:16.95,Legenda,,0,0,0,,E o maridão?
+Dialogue: 1,0:00:15.93,0:00:16.09,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} o maridão?
+Dialogue: 1,0:00:16.09,0:00:16.15,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}E {\alpha&H00&}o{\alpha&HFF&} maridão?
+Dialogue: 1,0:00:16.15,0:00:16.95,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}E o {\alpha&H00&}maridão?{\alpha&HFF&}
+Dialogue: 0,0:00:16.95,0:00:17.99,Legenda,,0,0,0,,Fazendo hora extra.
+Dialogue: 1,0:00:16.95,0:00:17.39,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Fazendo{\alpha&HFF&} hora extra.
+Dialogue: 1,0:00:17.39,0:00:17.57,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Fazendo {\alpha&H00&}hora{\alpha&HFF&} extra.
+Dialogue: 1,0:00:17.57,0:00:17.99,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Fazendo hora {\alpha&H00&}extra.{\alpha&HFF&}
+Dialogue: 0,0:00:17.99,0:00:19.81,Legenda,,0,0,0,,Pelos filhos dele.
+Dialogue: 1,0:00:17.99,0:00:18.71,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Pelos{\alpha&HFF&} filhos dele.
+Dialogue: 1,0:00:18.71,0:00:19.19,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Pelos {\alpha&H00&}filhos{\alpha&HFF&} dele.
+Dialogue: 1,0:00:19.19,0:00:19.81,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Pelos filhos {\alpha&H00&}dele.{\alpha&HFF&}
+Dialogue: 0,0:00:20.49,0:00:21.64,Legenda,,0,0,0,,Dele...
+Dialogue: 1,0:00:20.49,0:00:21.64,Destaque,,0,0,0,,{\3c&H1673F9&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Dele...{\alpha&HFF&}
+Dialogue: 0,0:00:21.64,0:00:23.60,Legenda,,0,0,0,,Esse carteiro nunca atrasa, hein?
+Dialogue: 1,0:00:21.64,0:00:21.84,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Esse{\alpha&HFF&} carteiro nunca atrasa, hein?
+Dialogue: 1,0:00:21.84,0:00:22.34,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Esse {\alpha&H00&}carteiro{\alpha&HFF&} nunca atrasa, hein?
+Dialogue: 1,0:00:22.34,0:00:22.62,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Esse carteiro {\alpha&H00&}nunca{\alpha&HFF&} atrasa, hein?
+Dialogue: 1,0:00:22.62,0:00:23.18,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Esse carteiro nunca {\alpha&H00&}atrasa,{\alpha&HFF&} hein?
+Dialogue: 1,0:00:23.18,0:00:23.60,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Esse carteiro nunca atrasa, {\alpha&H00&}hein?{\alpha&HFF&}
+Dialogue: 0,0:00:23.60,0:00:24.66,Legenda,,0,0,0,,Todo santo dia.
+Dialogue: 1,0:00:23.60,0:00:23.70,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Todo{\alpha&HFF&} santo dia.
+Dialogue: 1,0:00:23.70,0:00:24.12,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Todo {\alpha&H00&}santo{\alpha&HFF&} dia.
+Dialogue: 1,0:00:24.12,0:00:24.66,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Todo santo {\alpha&H00&}dia.{\alpha&HFF&}
+Dialogue: 0,0:00:25.04,0:00:26.90,Legenda,,0,0,0,,Todo santo dia, amor.
+Dialogue: 1,0:00:25.04,0:00:25.66,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Todo{\alpha&HFF&} santo dia, amor.
+Dialogue: 1,0:00:25.66,0:00:26.02,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Todo {\alpha&H00&}santo{\alpha&HFF&} dia, amor.
+Dialogue: 1,0:00:26.02,0:00:26.38,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Todo santo {\alpha&H00&}dia,{\alpha&HFF&} amor.
+Dialogue: 1,0:00:26.38,0:00:26.90,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Todo santo dia, {\alpha&H00&}amor.{\alpha&HFF&}
+Dialogue: 0,0:00:27.23,0:00:29.45,Legenda,,0,0,0,,Puxaram tudo do papai.
+Dialogue: 1,0:00:27.23,0:00:28.29,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Puxaram{\alpha&HFF&} tudo do papai.
+Dialogue: 1,0:00:28.29,0:00:28.73,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Puxaram {\alpha&H00&}tudo{\alpha&HFF&} do papai.
+Dialogue: 1,0:00:28.73,0:00:28.91,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Puxaram tudo {\alpha&H00&}do{\alpha&HFF&} papai.
+Dialogue: 1,0:00:28.91,0:00:29.45,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Puxaram tudo do {\alpha&H00&}papai.{\alpha&HFF&}
+Dialogue: 0,0:00:29.45,0:00:31.61,Legenda,,0,0,0,,Família... eu preciso dizer
+Dialogue: 1,0:00:29.45,0:00:29.99,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Família...{\alpha&HFF&} eu preciso dizer
+Dialogue: 1,0:00:29.99,0:00:30.97,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Família... {\alpha&H00&}eu{\alpha&HFF&} preciso dizer
+Dialogue: 1,0:00:30.97,0:00:31.33,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Família... eu {\alpha&H00&}preciso{\alpha&HFF&} dizer
+Dialogue: 1,0:00:31.33,0:00:31.61,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Família... eu preciso {\alpha&H00&}dizer{\alpha&HFF&}
+Dialogue: 0,0:00:31.61,0:00:32.05,Legenda,,0,0,0,,uma coisa.
+Dialogue: 1,0:00:31.61,0:00:31.75,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}uma{\alpha&HFF&} coisa.
+Dialogue: 1,0:00:31.75,0:00:32.05,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}uma {\alpha&H00&}coisa.{\alpha&HFF&}
+Dialogue: 0,0:00:32.05,0:00:34.29,Legenda,,0,0,0,,Eu não sei
+Dialogue: 1,0:00:32.05,0:00:33.53,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Eu{\alpha&HFF&} não sei
+Dialogue: 1,0:00:33.53,0:00:34.07,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Eu {\alpha&H00&}não{\alpha&HFF&} sei
+Dialogue: 1,0:00:34.07,0:00:34.29,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}Eu não {\alpha&H00&}sei{\alpha&HFF&}
+Dialogue: 0,0:00:34.29,0:00:34.75,Legenda,,0,0,0,,o que eu seria
+Dialogue: 1,0:00:34.29,0:00:34.41,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} que eu seria
+Dialogue: 1,0:00:34.41,0:00:34.45,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}o {\alpha&H00&}que{\alpha&HFF&} eu seria
+Dialogue: 1,0:00:34.45,0:00:34.55,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}o que {\alpha&H00&}eu{\alpha&HFF&} seria
+Dialogue: 1,0:00:34.55,0:00:34.75,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}o que eu {\alpha&H00&}seria{\alpha&HFF&}
+Dialogue: 0,0:00:34.75,0:00:35.73,Legenda,,0,0,0,,sem a minha esposa...
+Dialogue: 1,0:00:34.75,0:00:35.07,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}sem{\alpha&HFF&} a minha esposa...
+Dialogue: 1,0:00:35.07,0:00:35.17,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}sem {\alpha&H00&}a{\alpha&HFF&} minha esposa...
+Dialogue: 1,0:00:35.17,0:00:35.25,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}sem a {\alpha&H00&}minha{\alpha&HFF&} esposa...
+Dialogue: 1,0:00:35.25,0:00:35.73,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}sem a minha {\alpha&H00&}esposa...{\alpha&HFF&}
+Dialogue: 0,0:00:35.73,0:00:37.76,Legenda,,0,0,0,,e os meus lindos filhos.
+Dialogue: 1,0:00:35.73,0:00:36.17,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} os meus lindos filhos.
+Dialogue: 1,0:00:36.17,0:00:36.31,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}e {\alpha&H00&}os{\alpha&HFF&} meus lindos filhos.
+Dialogue: 1,0:00:36.31,0:00:36.43,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}e os {\alpha&H00&}meus{\alpha&HFF&} lindos filhos.
+Dialogue: 1,0:00:36.43,0:00:36.93,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}e os meus {\alpha&H00&}lindos{\alpha&HFF&} filhos.
+Dialogue: 1,0:00:36.93,0:00:37.76,Destaque,,0,0,0,,{\3c&HF65C8B&\1c&HFFFFFF&}{\alpha&HFF&}e os meus lindos {\alpha&H00&}filhos.{\alpha&HFF&}
+Dialogue: 0,0:00:37.76,0:00:40.12,Legenda,,0,0,0,,Imagina, amor... eu?
+Dialogue: 1,0:00:37.76,0:00:38.82,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}{\alpha&H00&}Imagina,{\alpha&HFF&} amor... eu?
+Dialogue: 1,0:00:38.82,0:00:39.60,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Imagina, {\alpha&H00&}amor...{\alpha&HFF&} eu?
+Dialogue: 1,0:00:39.60,0:00:40.12,Destaque,,0,0,0,,{\3c&H9948EC&\1c&HFFFFFF&}{\alpha&HFF&}Imagina, amor... {\alpha&H00&}eu?{\alpha&HFF&}

@@ -1,0 +1,127 @@
+{
+  "roteiro": "projetos/novela-frutas-atacadao/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 85,
+  "bloqueantes_reprovados": [],
+  "promessa": "Mostrar o segredo que a Moranguete esconde na câmara fria (o caso com o açougueiro) e o Abacatinho, enganado, chegando à porta para descobrir quem está lá dentro.",
+  "onde_cumpre": "B03 revela o segredo ao espectador com o bilhete, 'Cinco minutos. Câmara fria.' e a porta que se fecha sem ninguém à vista; B05 entrega a porta abrindo no segundo do clímax, como pede o brief. Quem está lá dentro fica implícito para o espectador e fica para a parte 2 para o Abacatinho, que é a convenção da trend.",
+  "criterios": [
+    {
+      "id": "gancho-2s",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B01",
+      "evidencia": "close na mão verde do Abacatinho [...] uma lágrima escorre e congela na bochecha dele",
+      "problema": "A fala funciona: o nome que o público da trend reconhece, mais uma pergunta sem resposta. O primeiro frame, porém, se contradiz: um close na mão não mostra a bochecha. Se a direção visual escolher a mão, o feed mostra uma mão verde numa maçaneta, e não o que para o dedo nessa trend: uma fruta fofa chorando (contexto do brief). Esse frame também faz o papel da thumb no feed, e o conceito de thumb (rosto encostado na porta) fica diferente do primeiro frame.",
+      "instrucao": "Reescreva o [VISUAL] do B01 com um enquadramento só, igual ao da thumb: close de três quartos no rosto do Abacatinho encostado na porta de aço coberta de gelo, lágrima congelando na bochecha, a mão verde na maçaneta no canto do quadro, o crachá rosa balançando, fumaça e luz azul na fresta. No B05, mantenha 'mesmo enquadramento do primeiro frame' com esse quadro: ele recua e puxa a porta. A fala não muda."
+    },
+    {
+      "id": "sem-ponto-de-abandono",
+      "nota": 2,
+      "peso": 3
+    },
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B02",
+      "evidencia": "Dez minutos antes. Caixa sete.",
+      "problema": "O B02 declara o conector 'mas', e a cadeia das Notas diz 'MAS dez minutos antes ela jurava que era só dele', só que essa frase não está no roteiro. O texto troca de tempo e de lugar, sem conflito. Logo depois do gancho, aos 2 s, a tensão cai para uma informação neutra ('Caixa sete'), justamente na janela em que o short mais perde gente para o swipe.",
+      "instrucao": "Troque 'Caixa sete.' por 'ela jurava que era só dele.', para a linha ficar 'Dez minutos antes, ela jurava que era só dele.' (o gancho proposto no ângulo). A frase leva a traição para dentro do flashback, deixa o 'mas' verdadeiro e prepara o eco com 'Mas ela só olha pro açougueiro'. 'Caixa sete' pode ficar no [VISUAL]. São 4 palavras a mais: tire-as do B04 (veja duracao-honesta)."
+    },
+    {
+      "id": "payoff-cumpre-titulo",
+      "nota": 2,
+      "peso": 3
+    },
+    {
+      "id": "concretude",
+      "nota": 2,
+      "peso": 2
+    },
+    {
+      "id": "uma-ideia",
+      "nota": 2,
+      "peso": 2
+    },
+    {
+      "id": "final-em-loop",
+      "nota": 2,
+      "peso": 1
+    },
+    {
+      "id": "duracao-honesta",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B04",
+      "evidencia": "Ela não volta. Ele procura, bombom na mão. Acha o crachá dela, preso na maçaneta.",
+      "problema": "O B04 só recapitula: o espectador sabe desde os 19 s que ela entrou na câmara fria e viu o crachá na maçaneta no primeiro frame. São 6 s narrados em tom de relatório, logo antes do clímax, sem nenhuma informação nova. A anotação 'fecha L1' é verdadeira só pela metade: o porquê do choro do Abacatinho nunca aparece no texto.",
+      "instrucao": "Corte o B04 para no máximo 8 a 10 palavras e dê a ele uma informação que o espectador ainda não tem, de preferência na voz do Abacatinho. Exemplo: narrador 'Ela não volta.' e [FALA: Abacatinho, desesperado] 'Ela ficou presa lá dentro!'. O bombom na mão e o crachá na maçaneta ficam só no [VISUAL]. Com isso a ingenuidade dele vira ironia dramática máxima (ele acha que vai salvá-la), o choro do B01 ganha motivo e, no replay, 'você tá aí dentro?' passa a ser lido como preocupação. Nada de frio que 'esquenta' nem de som vindo de dentro."
+    },
+    {
+      "id": "linguagem-falada",
+      "nota": 2,
+      "peso": 1
+    },
+    {
+      "id": "tom",
+      "nota": 2,
+      "peso": 1
+    },
+    {
+      "id": "factualidade",
+      "nota": 2,
+      "peso": 2
+    },
+    {
+      "id": "adequacao-anunciantes",
+      "nota": 2,
+      "peso": 1
+    },
+    {
+      "id": "conteudo-sexual",
+      "nota": 2,
+      "peso": 1
+    }
+  ],
+  "pontos_de_abandono": [
+    {
+      "bloco": "B01",
+      "tempo": "00:00",
+      "motivo": "Se o primeiro frame sair como close na mão, o feed não mostra a fruta chorando, que é o que para o dedo nessa trend."
+    },
+    {
+      "bloco": "B02",
+      "tempo": "00:02",
+      "motivo": "O flashback abre em 'Dez minutos antes. Caixa sete.': informação neutra logo depois do gancho, e a tensão cai na janela do swipe."
+    },
+    {
+      "bloco": "B04",
+      "tempo": "00:21",
+      "motivo": "Recapitulação sem informação nova antes do clímax. O risco é menor, porque a porta está a 6 s, mas é o trecho mais morno do short."
+    }
+  ],
+  "prioridades": [
+    "1. B01: reescrever o [VISUAL] com um enquadramento só, o da thumb (rosto do Abacatinho encostado na porta gelada, lágrima congelando, mão na maçaneta, crachá rosa), e repetir esse quadro no B05. A fala fica igual.",
+    "2. B02: trocar 'Caixa sete.' por 'ela jurava que era só dele.' ('Dez minutos antes, ela jurava que era só dele.'), para a traição atravessar o flashback e o conector 'mas' existir no texto.",
+    "3. B04: cortar a recapitulação para no máximo 8 a 10 palavras e pôr uma informação nova, de preferência a ingenuidade do Abacatinho na voz dele ('Ela ficou presa lá dentro!'). Bombom e crachá só no [VISUAL]. Isso compensa as palavras a mais do B02 e mantém o total em 70 ou menos.",
+    "4. Cenário: o usuário pediu o Atacadão no cenário, mas nenhum [VISUAL] o menciona. Ponha um letreiro genérico 'Atacadão' (sem logo nem cores da rede) no [VISUAL] do B02, sobre o caixa sete."
+  ],
+  "manter": [
+    "B01: a fala 'Moranguete... você tá aí dentro?', trêmula, e a lágrima congelando na bochecha.",
+    "B02: 'Trabalho seis por um por você.', humor da seriedade total, com respaldo no dossiê (escala 6x1).",
+    "B03 inteiro: 'Mas ela só olha pro açougueiro', o bilhete deslizado sem olhar, 'Cinco minutos. Câmara fria.' (Pepinão soa grave e confiante em 4 palavras) e 'Segura meu caixa, amor? Vou buscar troco.' (doce e falsa, usando o próprio Abacatinho como desculpa).",
+    "B03: o [RE-HOOK] 'E ele, segurando o caixa dela.' sobre a porta que se fecha sem ninguém à vista. É ironia dramática de verdade, não frase morna.",
+    "Tratamento do caso: só bilhete e porta fechando, o nome Pepinão nunca dito, 'açougueiro' em vez de 'açougue', faca fora de cena. Não acrescente toque, som vindo da câmara fria nem nada sobre calor ou corpo.",
+    "B05: 'Ele puxa. [PAUSA]' e o corte antes de mostrar o que há dentro, com 'PARTE 2' só no visual.",
+    "Final em loop: o último 'Moranguete...' emenda no primeiro 'Moranguete... você tá aí dentro?'.",
+    "Todas as falas cabem numa respiração (a maior tem 8 palavras) e soam como o estilo de cada personagem no brief."
+  ],
+  "alertas_de_medicao": [
+    "A medição dá 70 palavras e 00:29 a 150 ppm, sem alertas. A estimativa não conta o [PAUSA], as três reticências nem as falas trêmulas e arrastadas, então a narração real deve ficar entre 31 e 34 s. Não aumente o total de palavras na reescrita e confira o tempo real com alinhar.py depois da narração.",
+    "O loop está correto: primeira e última frase são 'Moranguete...'. Os loops L1 a L3 cobrem todos os blocos, mas o L1 se resolve de fato para o espectador no B03 (00:19), não no B04 como anotado.",
+    "Nenhum [VERIFICAR] e nenhum fato que dependa de fonte além da escala 6x1, que está no dossiê."
+  ]
+}

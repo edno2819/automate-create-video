@@ -1,0 +1,190 @@
+{
+  "projeto": "escalar-evereste-conquistas-mais-dificeis-mundo",
+  "recomendacao": {
+    "angulo": "A1",
+    "motivo": "É o ângulo que entrega o que o pedido descreve: o gancho de bilionários, que na forma pedida é falso (7.563 pessoas no cume contra 3.428 bilionários) e aqui vira uma comparação verdadeira e mais forte (3.428 bilionários contra 232 subidas sem oxigênio, quase 15 vezes). Também traz a escada de quantas pessoas chegam a cada nível, só com os níveis que têm número no dossiê, o custo em reais e as mortes. O 232 abre e fecha o vídeo, então o loop se fecha sozinho e o final emenda no começo. O A2 é a segunda opção, para quem quiser a voz em segunda pessoa do Dor Pintada."
+  },
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+      "titulos_alternativos": [
+        "Escalar o Everest: uma das conquistas mais difíceis do mundo",
+        "Everest sem oxigênio é mais raro que ser bilionário"
+      ],
+      "thumbnail": {
+        "elemento_central": "Colagem de papel recortado: uma montanha branca com um único bonequinho de papel no cume, sem máscara de oxigênio. Ao lado, uma pilha alta de bonequinhos de terno com cifrão no peito, mais alta que a própria montanha.",
+        "texto": "15x mais bilionários",
+        "emocao": "espanto, de quem não acredita na conta",
+        "relacao_com_titulo": "O título diz que é difícil. A thumb mostra o quanto: a comparação com bilionários, que o título não menciona, transforma 'difícil' em número."
+      },
+      "promessa": "Você vai ver, degrau por degrau e com números de fonte, quantas pessoas chegam a cada nível do Everest, quanto custa em reais e quantas morreram, até entender por que subir sem oxigênio é mais raro que ser bilionário.",
+      "formato": "short",
+      "duracao_recomendada": "00:58",
+      "justificativa_duracao": "A 180 palavras por minuto cabem cerca de 175 palavras: gancho, quatro degraus com um número cada, a virada das mortes e o fecho com callback. É o mínimo para cumprir tudo o que a descrição pede (custo, contagem por nível, mortes). Passar de 1 minuto exigiria mais números seguidos, o que cansa no short.",
+      "tecnicas": ["contagem-regressiva", "loop-aberto", "mas-entao", "quebra-de-padrao", "callback", "final-em-loop"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "Existem quase 15 vezes mais bilionários no mundo do que subidas ao topo do Everest sem oxigênio. Em toda a história.",
+      "estrutura": [
+        "B01 (0-5 s, ~15 palavras): gancho. 3.428 bilionários (Forbes, março de 2026) contra 232 subidas sem oxigênio desde 1953. Planta o 232, que só volta no B06. Primeiro frame: a pilha de bonecos de terno ao lado do bonequinho sozinho no cume.",
+        "B02 (5-17 s, ~35 palavras): degrau 1, o ingresso. Só a licença do Nepal custa cerca de R$ 75 mil. A expedição vai de cerca de R$ 227 mil (operadora nepalesa) a cerca de R$ 403 mil (ocidental), câmbio de 22/10/2026. Loop: 'e isso só te dá o direito de tentar'.",
+        "B03 (17-28 s, ~35 palavras): degrau 2, acima do acampamento base. 15.781 pessoas no lado nepalês, de 2000 a 2025, e a maioria (8.994) é gente paga para subir, não cliente. Mas passar do acampamento base não é chegar.",
+        "B04 (28-40 s, ~35 palavras): degrau 3, o cume. 7.563 pessoas em mais de 70 anos. Menos da metade das tentativas acima do acampamento base termina no topo (43%). Com oxigênio, cerca de 80% chegam; sem ele, cerca de 4%.",
+        "B05 (40-50 s, ~30 palavras), VIRADA: o preço que não está na conta. Cerca de 340 mortes até 2025, mais ou menos uma para cada 100 cumes. Dito como informação, com imagem indireta (cordas vazias, barraca fechada).",
+        "B06 (50-58 s, ~25 palavras): último degrau e callback do B01. Sem oxigênio, 232 subidas em toda a história. Fecho: ser bilionário é mais comum do que isso. A última frase emenda na primeira para o replay."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem 02-trends.md: nenhum dado de desempenho sustenta o ângulo. A estrutura vem do esqueleto do Dor Pintada (a escada de níveis em que cada degrau custa mais), comprimida para um short.",
+        "Dossiê, seção 0: a frase do pedido é falsa, e a comparação com subidas sem oxigênio (3.428 contra 232) mantém a surpresa sem inventar dado.",
+        "Dossiê, seções 2.2 a 2.4: todos os números da escada têm fonte (Alan Arnette/Himalayan Database, PTAX do Banco Central, Forbes via reprodução do comunicado)."
+      ],
+      "aposta": true,
+      "diferencial": "O vídeo típico sobre o custo do Everest fala em dólar e para no preço. Este ângulo converte para reais com data, mostra o funil de quem chega a cada nível e fecha numa comparação com bilionários que é verdadeira, coisa que a frase viral não é.",
+      "riscos": [
+        "Não há dados de trends (falta 02-trends.md): não dá para afirmar que o tema ou o formato estão em alta. Todo ângulo deste projeto é aposta.",
+        "O pedido quer a contagem por acampamento (campos 1 a 4), mas nenhuma fonte publica esse número. A escada usa os níveis que têm dado (ingresso, acima do acampamento base, cume, sem oxigênio) e o roteiro não pode estimar os campos.",
+        "Muitos números em 58 s a 180 palavras por minuto: há risco de confundir. No máximo um número forte por frase, e a cartela visual repete o número.",
+        "O 232 conta subidas, não pessoas (alguém pode ter subido mais de uma vez). O roteiro precisa dizer 'subidas'.",
+        "A página primária da Forbes não foi lida (os 3.428 vêm da reprodução do comunicado; confiança média).",
+        "Mortes: o tom precisa ser sóbrio e o visual indireto, como manda a restrição do pedido. Se for bem feito, não há risco de monetização."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+      "titulos_alternativos": [
+        "Escalar o Everest: nem bilionário tem garantia",
+        "Quanto custa escalar o Everest, e por que dinheiro não basta"
+      ],
+      "thumbnail": {
+        "elemento_central": "Colagem de papel: um bonequinho de terno e cartola, agarrado a um maço de notas, parado no meio da encosta. Passando por ele, subindo, um carregador de papel com uma mochila do tamanho dele.",
+        "texto": "dinheiro não basta",
+        "emocao": "ironia",
+        "relacao_com_titulo": "O título diz que a conquista é difícil. A thumb diz para quem: até para quem tem dinheiro, e mostra quem de fato carrega o peso, uma informação que o título não traz."
+      },
+      "promessa": "Você vai subir o Everest como um bilionário e descobrir, nível por nível, o que o dinheiro compra (licença, guia, oxigênio) e o que não compra: a chance de chegar ao topo e de voltar.",
+      "formato": "short",
+      "duracao_recomendada": "01:00",
+      "justificativa_duracao": "A voz em segunda pessoa precisa de um pouco de cena em cada nível (onde você está, o que paga, o que acontece). A 180 palavras por minuto, 1 minuto dá cerca de 180 palavras para cinco níveis curtos. Mais que isso já sai do ideal do short.",
+      "tecnicas": ["pov-segunda-pessoa", "loop-aberto", "mas-entao", "caso-concreto", "callback", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "Você é um dos 3.428 bilionários do planeta. E quer o topo do Everest.",
+      "estrutura": [
+        "B01 (0-5 s, ~15 palavras): gancho em segunda pessoa. Você é bilionário (lista da Forbes de março de 2026) e quer o cume. Planta o loop: 'o dinheiro resolve quase tudo'.",
+        "B02 (5-15 s, ~30 palavras): nível 1, o caixa. A licença custa cerca de R$ 75 mil, a expedição premium cerca de R$ 403 mil, e a versão rápida pelo Tibete chega a cerca de R$ 478 mil (câmbio de 22/10/2026). Para você é troco. Mas: o problema é o que não está à venda.",
+        "B03 (15-27 s, ~35 palavras): nível 2, acima do acampamento base. Lá em cima tem mais gente paga para subir (8.994) do que clientes (6.787), lado nepalês, 2000 a 2025. A regra do Nepal: um guia para cada dois estrangeiros. Você virou carga.",
+        "B04 (27-40 s, ~40 palavras): nível 3, a zona da morte, acima de 8.000 m. Cada garrafa de oxigênio custa até R$ 330, e com ela cerca de 80% chegam. Caso composto, sem nome: um cliente que deu meia-volta a 8.400 m, a poucas centenas de metros do topo.",
+        "B05 (40-50 s, ~30 palavras), VIRADA: o dinheiro não compra a montanha. Menos da metade das tentativas chega (43%) e cerca de 340 pessoas morreram nela até 2025. Dito como informação, com imagem indireta.",
+        "B06 (50-60 s, ~30 palavras): topo irônico e callback. Se você chega, chega numa fila (274 pessoas no cume num só dia em 2026, número provisório), e é o único da fila que não carregou nada. Fecho: o dinheiro compra o ingresso, não o topo. Emenda no B01."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem 02-trends.md: nenhum dado de desempenho. A voz em segunda pessoa, a escada de níveis, o caso composto e o topo irônico vêm do esqueleto do Dor Pintada, o canal de referência do pedido.",
+        "Dossiê, seções 2.2 e 2.3: custos convertidos com o PTAX de 22/10/2026, a divisão entre clientes (6.787) e contratados (8.994) e a taxa de sucesso com oxigênio.",
+        "Dossiê, seção 5: o cliente que voltou a 8.400 m inspira o caso composto, sem nomear ninguém."
+      ],
+      "aposta": true,
+      "diferencial": "Põe o espectador no lugar de quem não tem limite de dinheiro, o que tira o 'é caro' do centro e coloca o que o dinheiro não resolve. A virada de que lá em cima há mais trabalhadores pagos do que clientes quase não aparece nos vídeos sobre o custo do Everest.",
+      "riscos": [
+        "Não há dados de trends (falta 02-trends.md). É aposta.",
+        "A contagem por acampamento (campos 1 a 4) não existe nas fontes. Os níveis do POV são o caixa, o acampamento base, a zona da morte e o cume, e o roteiro não pode dar número para os campos.",
+        "'Você é bilionário' pode afastar parte do público jovem. O 'você' precisa ser divertido, não inalcançável.",
+        "A divisão entre clientes e contratados vale só para o lado nepalês, de 2000 a 2025. O roteiro precisa dizer isso.",
+        "Os números de 2026 (fila de 274) são provisórios e precisam vir com essa ressalva.",
+        "A altitude de 8.000 m para a zona da morte vem de uso geral no montanhismo, sem fonte forte no dossiê. Marcar com [VERIFICAR] se o roteiro a disser como número."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+      "titulos_alternativos": [
+        "Fila no topo do Everest não quer dizer que é fácil",
+        "O Everest virou turismo? Os números dizem que não"
+      ],
+      "thumbnail": {
+        "elemento_central": "Colagem de papel: uma fila longa de bonequinhos colados um atrás do outro na aresta do cume, com uma etiqueta de papel pendurada na corda escrito '274'.",
+        "texto": "274 num dia",
+        "emocao": "incredulidade",
+        "relacao_com_titulo": "A thumb mostra a imagem que contradiz o título (parece fácil, tem fila). O título garante que é difícil, e o espectador clica para resolver a contradição."
+      },
+      "promessa": "Você vai entender por que o Everest, mesmo com fila de centenas de pessoas no topo, continua sendo uma das conquistas mais difíceis do mundo, com três números que desmontam a ideia de passeio de rico.",
+      "formato": "short",
+      "duracao_recomendada": "00:50",
+      "justificativa_duracao": "A tese contrária é uma ideia só: a crença, três provas e a reformulação. A 180 palavras por minuto, cerca de 150 palavras bastam. Esticar para 1 minuto obrigaria a uma quarta prova que dilui a terceira.",
+      "tecnicas": ["tese-contraria", "mas-entao", "quebra-de-padrao", "callback", "final-em-loop"],
+      "tipo_gancho": "tese-contraria",
+      "gancho_proposto": "Dizem que o Everest virou fila de turista. E a fila existe: 274 pessoas chegaram ao topo num único dia.",
+      "estrutura": [
+        "B01 (0-6 s, ~18 palavras): gancho de tese contrária. A crença dita de forma justa: o Everest virou fila. Prova de que a fila é real: 274 no cume em 20/05/2026 (número provisório).",
+        "B02 (6-15 s, ~27 palavras): quem está na fila. Cada um pagou de cerca de R$ 227 mil a cerca de R$ 403 mil (câmbio de 22/10/2026), só a licença custa cerca de R$ 75 mil. Mas: pagar não é chegar.",
+        "B03 (15-24 s, ~27 palavras): prova 1. Menos da metade das tentativas acima do acampamento base termina no topo (43%). Em 70 anos, só 7.563 pessoas chegaram.",
+        "B04 (24-33 s, ~27 palavras): prova 2. Cerca de 340 mortes até 2025, e 18 numa única temporada, em 2023. Dito como informação, com imagem indireta.",
+        "B05 (33-43 s, ~30 palavras), VIRADA e prova 3: sem oxigênio, só 232 subidas em toda a história. Existem quase 15 vezes mais bilionários no mundo.",
+        "B06 (43-50 s, ~20 palavras): reformulação e callback da fila. A fila mostra quantos podem pagar, não quantos conseguem. A última frase volta para 'Dizem que o Everest virou fila...'."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem 02-trends.md: não há medida de que a imagem da fila do Everest esteja circulando agora. A tese parte de uma crença comum, não de um dado de desempenho.",
+        "Dossiê, seções 2.1 e 4: 274 cumes em 20/05/2026 e 1.008 na temporada, ambos provisórios, segundo Alan Arnette.",
+        "Dossiê, seções 2.3 e 2.4: taxa de 43%, 7.563 pessoas, cerca de 340 mortes, 18 em 2023, 232 subidas sem oxigênio."
+      ],
+      "aposta": true,
+      "diferencial": "Responde à objeção que o próprio público faz nos comentários ('hoje em dia é só pagar'), em vez de só repetir que é difícil. A imagem da fila vira a prova contra ela mesma.",
+      "riscos": [
+        "Não há dados de trends (falta 02-trends.md). É aposta, e a força da tese depende de o público já conhecer a imagem da fila, o que não foi medido.",
+        "Não tem a escada por nível que o pedido descreve. Cumpre custo e mortes, mas a contagem por nível aparece só em parte (cume e sem oxigênio).",
+        "Os números de 2026 (274 num dia) são provisórios e precisam vir com essa ressalva.",
+        "Tese contrária pode soar como espantalho se a crença for caricata. O roteiro deve admitir que a fila é real.",
+        "O gancho tem cerca de 18 palavras antes da primeira surpresa. A cartela '274' precisa estar no primeiro frame."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+      "titulos_alternativos": [
+        "Quanto custa escalar o Everest em reais",
+        "R$ 403 mil para tentar o Everest, sem garantia"
+      ],
+      "thumbnail": {
+        "elemento_central": "Colagem de papel: uma nota fiscal comprida desenrolando montanha abaixo, com o total 'R$ 403 MIL' em destaque e um carimbo vermelho torto no rodapé.",
+        "texto": "sem garantia",
+        "emocao": "choque com indignação",
+        "relacao_com_titulo": "O título diz que é difícil. A thumb dá o preço e avisa que ele não compra o resultado, duas informações que o título não traz."
+      },
+      "promessa": "Você vai ver, item por item e em reais, quanto custa tentar o Everest, e o que essa conta não inclui: a chance de chegar e o risco de não voltar.",
+      "formato": "short",
+      "duracao_recomendada": "00:50",
+      "justificativa_duracao": "Uma nota fiscal se lê rápido: o total, três itens, a virada e o fecho. A 180 palavras por minuto, cerca de 150 palavras. Mais itens na nota cansam antes da virada.",
+      "tecnicas": ["antes-e-depois", "lacuna-de-curiosidade", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "resultado-primeiro",
+      "gancho_proposto": "Quatrocentos mil reais. É quanto custa tentar o Everest. Tentar.",
+      "estrutura": [
+        "B01 (0-4 s, ~10 palavras): gancho de resultado primeiro. O total da nota (cerca de R$ 403 mil, expedição ocidental) e a palavra 'tentar' repetida, que abre a lacuna: o que esse dinheiro não garante?",
+        "B02 (4-16 s, ~35 palavras): os itens. Licença do Nepal, cerca de R$ 75 mil. Caução do lixo, cerca de R$ 20 mil, devolvida se você trouxer o lixo de volta. Cada garrafa de oxigênio, até R$ 330. Câmbio de 22/10/2026.",
+        "B03 (16-25 s, ~27 palavras): a versão barata e a premium. Cerca de R$ 227 mil com operadora nepalesa, até cerca de R$ 478 mil na rápida pelo Tibete, com iaques levando sua carga. Mas o preço não muda a montanha.",
+        "B04 (25-35 s, ~30 palavras), VIRADA: o que a nota não garante. Menos da metade das tentativas chega ao topo (43%). Em 70 anos, só 7.563 pessoas conseguiram.",
+        "B05 (35-44 s, ~27 palavras): o item que não está na nota. Cerca de 340 mortes até 2025, mais ou menos uma a cada 100 cumes. Dito como informação, com imagem indireta.",
+        "B06 (44-50 s, ~20 palavras): fecho e callback do total. A nota te deixa subir, o cume não está à venda. A última frase emenda em 'Quatrocentos mil reais...'."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem 02-trends.md: nenhum dado de desempenho. A aposta é que o custo em reais, pedido na descrição, é a informação mais concreta e compartilhável para o público brasileiro.",
+        "Dossiê, seção 2.2: licença, caução, oxigênio, expedição barata, premium e tibetana, todos convertidos pelo PTAX de 22/10/2026."
+      ],
+      "aposta": true,
+      "diferencial": "Transforma o custo numa nota fiscal visual em reais, com data de câmbio, em vez da lista em dólar dos vídeos estrangeiros. O fecho põe na nota o que nenhum preço cobre.",
+      "riscos": [
+        "Não há dados de trends (falta 02-trends.md). É aposta.",
+        "O dossiê não sabe se os preços das operadoras incluem a licença, nem o custo real com voo, equipamento, seguro e gorjetas. A nota não pode somar os itens como se fossem um total; cada valor é dito separado, com 'cerca de'.",
+        "Não tem a escada por nível nem o gancho de bilionários que o pedido sugere. Cumpre o custo e as mortes, e a contagem só de quem chega ao cume.",
+        "O preço premium de R$ 403 mil é uma média de operadoras ocidentais, não preço de tabela. O roteiro diz 'cerca de'.",
+        "Tema de custo do Everest é comum em canais estrangeiros. A versão em reais é o recorte, mas sem dados de trends não dá para medir a saturação em português."
+      ]
+    }
+  ]
+}

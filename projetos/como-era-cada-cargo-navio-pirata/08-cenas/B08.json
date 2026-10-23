@@ -1,0 +1,42 @@
+[
+  {
+    "trecho": "Quase não tem registro.",
+    "tipo": "cartela",
+    "texto_na_tela": "QUASE NENHUM REGISTRO",
+    "descricao": "Quebra de padrão: a prancha, agora vazia, vista de cima sobre a água escura. A pausa fica nela.",
+    "enquadramento": "plongee",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "an empty weathered plank jutting out from the ship's rail over dark churning water, nobody on it, mist drifting, eerie silence",
+    "movimento": "estatico",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "O castigo real era pior, porque demorava: te largavam sozinho numa ilha,",
+    "tipo": "ilustracao",
+    "fonte": "internet",
+    "busca": ["Howard Pyle Marooned", "marooned pirate painting", "marooned pirate"],
+    "texto_na_tela": "ABANDONADO",
+    "descricao": "Marooned, de Howard Pyle (1909): um homem sozinho numa praia sem fim. O castigo real, numa pintura a óleo que conversa com o estilo do vídeo.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "a lone pirate sitting hunched on the shore of a tiny barren island, a longboat rowing back toward the distant ship, endless empty sea, oppressive heat",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "com um pouco de água e uma arma.",
+    "tipo": "ilustracao",
+    "descricao": "Na areia quente, a moringa de água e a pistola lado a lado; pegadas até a água e as velas do navio, minúsculas, indo embora. A arma fica como sugestão.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L03",
+    "objetos": ["O06"],
+    "prompt_cena": "the water jug and the flintlock pistol lying side by side on the hot white sand, a trail of footprints leading toward the water, the ship's sails tiny on the horizon",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

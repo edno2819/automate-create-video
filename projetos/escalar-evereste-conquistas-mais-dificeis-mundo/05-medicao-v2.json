@@ -1,0 +1,208 @@
+{
+  "arquivo": "projetos/escalar-evereste-conquistas-mais-dificeis-mundo/05-roteiro-v2.md",
+  "formato": "short",
+  "ppm": 180,
+  "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+  "palavras": 222,
+  "duracao_estimada": "01:16",
+  "duracao_segundos": 76,
+  "duracao_alvo": "00:58",
+  "trecho_gancho": "Tem quase quinze vezes mais bilionário",
+  "trecho_30s": "Tem quase quinze vezes mais bilionário no mundo do que subidas ao topo do Everest sem garrafa de oxigênio. Degrau um: só a licença do Nepal pra escalar custa uns setenta e cinco mil reais. A expedição com guia vai de duzentos e trinta a mais de quatrocentos mil. E isso só compra o direito de tentar. Degrau dois: sair do acampamento base e escalar. Só pelo lado do Nepal, desde o ano dois mil, quase dezesseis mil pessoas tentaram. Mais da metade nem era cliente: eram guias e sherpas,",
+  "primeira_frase": "Tem quase quinze vezes mais bilionário no mundo do que subidas ao topo do Everest sem garrafa de oxigênio.",
+  "ultima_frase": "Não compra o fôlego pra subir sem ela.",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "O gancho: bilionários contra o topo",
+      "funcao": "gancho",
+      "palavras": 19,
+      "inicio": "00:00",
+      "fim": "00:06",
+      "duracao_s": 6,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Tem quase quinze vezes mais bilionário no mundo"
+    },
+    {
+      "id": "B02",
+      "titulo": "Degrau um: o ingresso",
+      "funcao": "contexto",
+      "palavras": 38,
+      "inicio": "00:06",
+      "fim": "00:19",
+      "duracao_s": 13,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "sim",
+      "abre_com": "Degrau um: só a licença do Nepal pra"
+    },
+    {
+      "id": "B03",
+      "titulo": "Degrau dois: sair do acampamento base",
+      "funcao": "desenvolvimento",
+      "palavras": 41,
+      "inicio": "00:19",
+      "fim": "00:33",
+      "duracao_s": 14,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "sim",
+      "abre_com": "Degrau dois: sair do acampamento base e escalar."
+    },
+    {
+      "id": "B04",
+      "titulo": "Degrau três: o topo",
+      "funcao": "desenvolvimento",
+      "palavras": 47,
+      "inicio": "00:33",
+      "fim": "00:48",
+      "duracao_s": 16,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "sim",
+      "abre_com": "Degrau três: o topo. Em toda a história,"
+    },
+    {
+      "id": "B05",
+      "titulo": "O preço que não está na conta",
+      "funcao": "virada",
+      "palavras": 35,
+      "inicio": "00:48",
+      "fim": "01:01",
+      "duracao_s": 13,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Cerca de trezentas e quarenta pessoas já morreram"
+    },
+    {
+      "id": "B06",
+      "titulo": "Degrau quatro: sem garrafa",
+      "funcao": "final",
+      "palavras": 42,
+      "inicio": "01:01",
+      "fim": "01:16",
+      "duracao_s": 15,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Degrau quatro: o topo sem garrafa. Só duzentas"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:06",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:19",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:33",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:48",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B06",
+      "inicio": "01:01",
+      "ativos_no_inicio": [
+        "L1",
+        "L4"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1",
+        "L4"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "Como subir o Everest sem oxigênio pode ser mais raro que ser bilionário?",
+    "L2": "Quem paga o ingresso chega lá em cima?",
+    "L3": "Qual é o custo que não aparece no orçamento?",
+    "L4": "Qual é o último degrau, mais raro que ser bilionário?"
+  },
+  "verificar": [],
+  "falas": {},
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "duração estimada 01:16 está +31% da meta 00:58"
+    },
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "short com 01:16: o ideal é entre 30 e 60 s"
+    }
+  ]
+}

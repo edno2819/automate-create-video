@@ -1,0 +1,143 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Noto Sans,59,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,172,172,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.60,0:00:02.85,Legenda,,0,0,0,,Você tem 19 anos.
+Dialogue: 0,0:00:02.85,0:00:03.64,Legenda,,0,0,0,,Até março,
+Dialogue: 0,0:00:03.64,0:00:06.00,Legenda,,0,0,0,,você era entregador de aplicativo.
+Dialogue: 0,0:00:06.00,0:00:07.75,Legenda,,0,0,0,,Aí roubaram a sua moto
+Dialogue: 0,0:00:07.75,0:00:10.73,Legenda,,0,0,0,,na Avenida Brasil e a parcela continuou
+Dialogue: 0,0:00:10.73,0:00:12.40,Legenda,,0,0,0,,chegando todo dia 10.
+Dialogue: 0,0:00:12.40,0:00:14.71,Legenda,,0,0,0,,Um conhecido do campinho falou
+Dialogue: 0,0:00:14.71,0:00:16.74,Legenda,,0,0,0,,que tinha plantão na laje,
+Dialogue: 0,0:00:16.74,0:00:18.40,Legenda,,0,0,0,,pagava no fim do dia.
+Dialogue: 0,0:00:18.40,0:00:19.84,Legenda,,0,0,0,,Ninguém te obrigou,
+Dialogue: 0,0:00:19.84,0:00:20.86,Legenda,,0,0,0,,lembra disso.
+Dialogue: 0,0:00:20.86,0:00:23.60,Legenda,,0,0,0,,Esse é o detalhe que mais pesa depois.
+Dialogue: 0,0:00:23.60,0:00:25.60,Legenda,,0,0,0,,O trabalho parece nada.
+Dialogue: 0,0:00:25.60,0:00:28.48,Legenda,,0,0,0,,Você fica sentado no alto do morro
+Dialogue: 0,0:00:28.48,0:00:30.32,Legenda,,0,0,0,,com um rádio que chia
+Dialogue: 0,0:00:30.32,0:00:32.80,Legenda,,0,0,0,,e um pacote de fogos do lado.
+Dialogue: 0,0:00:32.80,0:00:34.67,Legenda,,0,0,0,,Olha a entrada da favela.
+Dialogue: 0,0:00:34.67,0:00:36.34,Legenda,,0,0,0,,Olha a rua lá embaixo.
+Dialogue: 0,0:00:36.34,0:00:37.24,Legenda,,0,0,0,,Olha o céu,
+Dialogue: 0,0:00:37.24,0:00:39.60,Legenda,,0,0,0,,porque helicóptero também conta.
+Dialogue: 0,0:00:39.60,0:00:41.10,Legenda,,0,0,0,,Se a polícia entra,
+Dialogue: 0,0:00:41.10,0:00:42.52,Legenda,,0,0,0,,você solta o fogo.
+Dialogue: 0,0:00:42.52,0:00:45.30,Legenda,,0,0,0,,O estouro avisa o morro inteiro antes
+Dialogue: 0,0:00:45.30,0:00:46.80,Legenda,,0,0,0,,de qualquer sirene.
+Dialogue: 0,0:00:46.80,0:00:47.95,Legenda,,0,0,0,,12 horas assim,
+Dialogue: 0,0:00:47.95,0:00:48.90,Legenda,,0,0,0,,sol na nuca,
+Dialogue: 0,0:00:48.90,0:00:50.79,Legenda,,0,0,0,,pagode tocando no vizinho,
+Dialogue: 0,0:00:50.79,0:00:53.36,Legenda,,0,0,0,,uma senhora estendendo roupa na laje
+Dialogue: 0,0:00:53.36,0:00:56.00,Legenda,,0,0,0,,do lado fingindo que você não existe.
+Dialogue: 0,0:00:56.00,0:00:59.44,Legenda,,0,0,0,,Você ganha 100 e poucos reais por plantão.
+Dialogue: 0,0:00:59.44,0:01:01.40,Legenda,,0,0,0,,Dá pra parcela da moto,
+Dialogue: 0,0:01:01.40,0:01:03.20,Legenda,,0,0,0,,não dá pra mais nada.
+Dialogue: 0,0:01:03.20,0:01:05.15,Legenda,,0,0,0,,O problema é que você é
+Dialogue: 0,0:01:05.15,0:01:07.80,Legenda,,0,0,0,,a pessoa mais visível do tráfico
+Dialogue: 0,0:01:07.80,0:01:09.60,Legenda,,0,0,0,,e a menos importante.
+Dialogue: 0,0:01:09.60,0:01:12.80,Legenda,,0,0,0,,A polícia sobe procurando quem soltou o fogo.
+Dialogue: 0,0:01:12.80,0:01:15.60,Legenda,,0,0,0,,A facção cobra de quem não soltou.
+Dialogue: 0,0:01:15.60,0:01:17.84,Legenda,,0,0,0,,Se o caveirão chega na boca
+Dialogue: 0,0:01:17.84,0:01:20.00,Legenda,,0,0,0,,e ninguém ouviu o estouro,
+Dialogue: 0,0:01:20.00,0:01:22.60,Legenda,,0,0,0,,lá em cima só existe uma pergunta:
+Dialogue: 0,0:01:22.60,0:01:24.40,Legenda,,0,0,0,,Dormiu ou foi comprado?
+Dialogue: 0,0:01:24.40,0:01:25.37,Legenda,,0,0,0,,Num domingo,
+Dialogue: 0,0:01:25.37,0:01:27.37,Legenda,,0,0,0,,o olheiro da laje de baixo,
+Dialogue: 0,0:01:27.37,0:01:30.41,Legenda,,0,0,0,,um rapaz que todo mundo chamava de Paçoca,
+Dialogue: 0,0:01:30.41,0:01:32.00,Legenda,,0,0,0,,cochilou. 10 minutos.
+Dialogue: 0,0:01:32.00,0:01:34.64,Legenda,,0,0,0,,A operação entrou pela outra rua
+Dialogue: 0,0:01:34.64,0:01:37.20,Legenda,,0,0,0,,e levou a carga e dois vapores.
+Dialogue: 0,0:01:37.20,0:01:40.37,Legenda,,0,0,0,,À noite chamaram o Paçoca pra conversar.
+Dialogue: 0,0:01:40.37,0:01:42.64,Legenda,,0,0,0,,Ele subiu a viela de chinelo
+Dialogue: 0,0:01:42.64,0:01:44.23,Legenda,,0,0,0,,com a mão no bolso,
+Dialogue: 0,0:01:44.23,0:01:46.80,Legenda,,0,0,0,,achando que ia levar uma bronca.
+Dialogue: 0,0:01:46.80,0:01:47.67,Legenda,,0,0,0,,Na segunda,
+Dialogue: 0,0:01:47.67,0:01:49.80,Legenda,,0,0,0,,a mãe dele tava colando cartaz
+Dialogue: 0,0:01:49.80,0:01:51.60,Legenda,,0,0,0,,de desaparecido no poste.
+Dialogue: 0,0:01:51.60,0:01:54.80,Legenda,,0,0,0,,O cartaz ficou lá até a chuva desmanchar.
+Dialogue: 0,0:01:54.80,0:01:56.33,Legenda,,0,0,0,,Você acende o rojão,
+Dialogue: 0,0:01:56.33,0:01:59.60,Legenda,,0,0,0,,sempre. Nunca mais fecha o olho naquela laje.
+Dialogue: 0,0:01:59.60,0:02:01.55,Legenda,,0,0,0,,Mas olhar para o céu é
+Dialogue: 0,0:02:01.55,0:02:04.40,Legenda,,0,0,0,,o degrau mais baixo dessa escada.
+Dialogue: 0,0:02:04.40,0:02:06.23,Legenda,,0,0,0,,O próximo começa no dia
+Dialogue: 0,0:02:06.23,0:02:08.06,Legenda,,0,0,0,,em que o tráfico decide
+Dialogue: 0,0:02:08.06,0:02:10.40,Legenda,,0,0,0,,que você também pode carregar.
+Dialogue: 0,0:02:12.00,0:02:14.82,Legenda,,0,0,0,,No morro chamam esse cargo de aviãozinho
+Dialogue: 0,0:02:14.82,0:02:17.78,Legenda,,0,0,0,,porque durante muito tempo quem fazia isso
+Dialogue: 0,0:02:17.78,0:02:18.72,Legenda,,0,0,0,,era criança.
+Dialogue: 0,0:02:18.72,0:02:20.40,Legenda,,0,0,0,,Em muito lugar ainda é.
+Dialogue: 0,0:02:20.40,0:02:23.03,Legenda,,0,0,0,,É a parte mais triste dessa escada
+Dialogue: 0,0:02:23.03,0:02:26.40,Legenda,,0,0,0,,inteira e ninguém na boca tem vergonha dela.
+Dialogue: 0,0:02:26.40,0:02:28.05,Legenda,,0,0,0,,Você não é criança,
+Dialogue: 0,0:02:28.05,0:02:30.40,Legenda,,0,0,0,,mas o nome continua o mesmo.
+Dialogue: 0,0:02:30.40,0:02:32.38,Legenda,,0,0,0,,Você entra porque não falhou.
+Dialogue: 0,0:02:32.38,0:02:33.73,Legenda,,0,0,0,,Três meses de laje,
+Dialogue: 0,0:02:33.73,0:02:35.20,Legenda,,0,0,0,,nenhum fogo atrasado.
+Dialogue: 0,0:02:35.20,0:02:37.62,Legenda,,0,0,0,,Um dia o gerente te chama
+Dialogue: 0,0:02:37.62,0:02:39.60,Legenda,,0,0,0,,e te dá uma mochila.
+Dialogue: 0,0:02:39.60,0:02:42.42,Legenda,,0,0,0,,A partir daí você leva e você traz.
+Dialogue: 0,0:02:42.42,0:02:44.10,Legenda,,0,0,0,,Sobe com o dinheiro,
+Dialogue: 0,0:02:44.10,0:02:46.00,Legenda,,0,0,0,,desce com a mercadoria,
+Dialogue: 0,0:02:46.00,0:02:49.10,Legenda,,0,0,0,,entrega para quem está esperando na esquina,
+Dialogue: 0,0:02:49.10,0:02:51.60,Legenda,,0,0,0,,no carro parado com o pisca ligado,
+Dialogue: 0,0:02:51.60,0:02:53.47,Legenda,,0,0,0,,no portão de uma casa
+Dialogue: 0,0:02:53.47,0:02:56.40,Legenda,,0,0,0,,que você nunca vai ver por dentro.
+Dialogue: 0,0:02:56.40,0:02:58.45,Legenda,,0,0,0,,Você não abre a mochila.
+Dialogue: 0,0:02:58.45,0:03:00.82,Legenda,,0,0,0,,Você não pergunta de quem é.
+Dialogue: 0,0:03:00.82,0:03:02.00,Legenda,,0,0,0,,Você só anda.
+Dialogue: 0,0:03:02.00,0:03:04.21,Legenda,,0,0,0,,O pagamento é por corrida.
+Dialogue: 0,0:03:04.21,0:03:05.71,Legenda,,0,0,0,,R$ 1,50 cada uma.
+Dialogue: 0,0:03:05.71,0:03:08.00,Legenda,,0,0,0,,Num sábado de baile dá 300.
+Dialogue: 0,0:03:08.00,0:03:10.81,Legenda,,0,0,0,,Pela primeira vez sobra dinheiro no fim
+Dialogue: 0,0:03:10.81,0:03:11.63,Legenda,,0,0,0,,da semana.
+Dialogue: 0,0:03:11.63,0:03:13.20,Legenda,,0,0,0,,Você compra um tênis.
+Dialogue: 0,0:03:13.20,0:03:14.67,Legenda,,0,0,0,,Sua mãe vê o tênis
+Dialogue: 0,0:03:14.67,0:03:16.29,Legenda,,0,0,0,,e não pergunta nada.
+Dialogue: 0,0:03:16.29,0:03:18.64,Legenda,,0,0,0,,O silêncio dela fala mais alto
+Dialogue: 0,0:03:18.64,0:03:20.40,Legenda,,0,0,0,,que qualquer pergunta.
+Dialogue: 0,0:03:20.40,0:03:23.53,Legenda,,0,0,0,,Só que agora você carrega uma coisa
+Dialogue: 0,0:03:23.53,0:03:24.80,Legenda,,0,0,0,,que não é sua
+Dialogue: 0,0:03:24.80,0:03:26.75,Legenda,,0,0,0,,e no tráfico existe uma regra
+Dialogue: 0,0:03:26.75,0:03:29.39,Legenda,,0,0,0,,que ninguém precisa explicar duas vezes.
+Dialogue: 0,0:03:29.39,0:03:30.40,Legenda,,0,0,0,,Perdeu, pagou.
+Dialogue: 0,0:03:30.40,0:03:33.00,Legenda,,0,0,0,,Se a polícia te para e leva
+Dialogue: 0,0:03:33.00,0:03:34.08,Legenda,,0,0,0,,a mochila,
+Dialogue: 0,0:03:34.08,0:03:35.60,Legenda,,0,0,0,,a dívida é sua.
+Dialogue: 0,0:03:35.60,0:03:37.48,Legenda,,0,0,0,,Se um te rouba na viela,
+Dialogue: 0,0:03:37.48,0:03:38.71,Legenda,,0,0,0,,a dívida é sua.
+Dialogue: 0,0:03:38.71,0:03:40.23,Legenda,,0,0,0,,Não interessa como,
+Dialogue: 0,0:03:40.23,0:03:41.60,Legenda,,0,0,0,,interessa quanto.
+Dialogue: 0,0:03:41.60,0:03:44.40,Legenda,,0,0,0,,Teve um avião antes de você, cabeção.
+Dialogue: 0,0:03:44.40,0:03:47.08,Legenda,,0,0,0,,Na correria de uma blitz ele jogou
+Dialogue: 0,0:03:47.08,0:03:49.31,Legenda,,0,0,0,,a mochila num terreno baldio
+Dialogue: 0,0:03:49.31,0:03:50.80,Legenda,,0,0,0,,para não ser pego.
+Dialogue: 0,0:03:50.80,0:03:51.89,Legenda,,0,0,0,,Quando voltou,
+Dialogue: 0,0:03:51.89,0:03:53.32,Legenda,,0,0,0,,não estava mais lá.
+Dialogue: 0,0:03:53.32,0:03:55.70,Legenda,,0,0,0,,Ele trabalhou seis meses de graça
+Dialogue: 0,0:03:55.70,0:03:57.20,Legenda,,0,0,0,,para cobrir a carga.
+Dialogue: 0,0:03:57.20,0:04:00.12,Legenda,,0,0,0,,Seis meses subindo e descendo sem receber
+Dialogue: 0,0:04:00.12,0:04:00.80,Legenda,,0,0,0,,um real.
+Dialogue: 0,0:04:00.80,0:04:01.89,Legenda,,0,0,0,,No sétimo mês,
+Dialogue: 0,0:04:01.89,0:04:02.91,Legenda,,0,0,0,,perdeu outra.
+Dialogue: 0,0:04:02.91,0:04:04.40,Legenda,,0,0,0,,Não teve oitavo mês.
+Dialogue: 0,0:04:04.40,0:04:06.40,Legenda,,0,0,0,,E se você tá vendo isso
+Dialogue: 0,0:04:06.40,0:04:09.28,Legenda,,0,0,0,,e achando que 50 reais por corrida
+Dialogue: 0,0:04:09.28,0:04:10.80,Legenda,,0,0,0,,é dinheiro fácil,
+Dialogue: 0,0:04:10.80,0:04:12.81,Legenda,,0,0,0,,se inscreve no canal antes
+Dialogue: 0,0:04:12.81,0:04:15.90,Legenda,,0,0,0,,que alguém te ofereça uma mochila achando
+Dialogue: 0,0:04:15.90,0:04:17.99,Legenda,,0,0,0,,que tá te fazendo um favor,
+Dialogue: 0,0:04:17.99,0:04:20.00,Legenda,,0,0,0,,porque o avião ainda anda.
+Dialogue: 0,0:04:20.00,0:04:22.63,Legenda,,0,0,0,,O próximo cargo para num lugar
+Dialogue: 0,0:04:22.63,0:04:24.51,Legenda,,0,0,0,,só e fica ali de cara
+Dialogue: 0,0:04:24.51,0:04:26.40,Legenda,,0,0,0,,para o mundo inteiro.

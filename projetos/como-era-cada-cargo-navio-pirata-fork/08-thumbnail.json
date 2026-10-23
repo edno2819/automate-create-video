@@ -1,0 +1,10 @@
+{
+  "descricao": "Filme x real num quadro só: o marujo grande em primeiro plano, sujo, coçando a cabeça e segurando o biscoito com carunchos, careta de nojo irônica; atrás dele, longe e desfocado, o galeão de cinema brilha dourado, enquanto o lado dele é a coberta escura à luz de lanterna. Alto do quadro livre para o texto.",
+  "enquadramento": "plano-medio",
+  "personagens": ["P01"],
+  "local": "L01",
+  "objetos": ["O01"],
+  "prompt_cena": "the young sailor fills the lower two thirds of the frame, filthy and gaunt, scratching his lice-ridden head with one hand and holding up a weevil-riddled ship's biscuit with the other, a sour ironic grimace of disgust; behind him the light splits, a gleaming white-sailed galleon glowing in golden haze far off on one side, his dark lantern-lit hold on the other; plain dark upper third",
+  "texto": "Filme x real",
+  "posicao_texto": "alto"
+}

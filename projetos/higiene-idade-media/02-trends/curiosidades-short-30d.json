@@ -1,0 +1,40 @@
+{
+  "consulta": {
+    "cmd": "buscar",
+    "max": 25,
+    "rapido": false,
+    "termo": "curiosidades idade média",
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt",
+    "out": "projetos/higiene-idade-media/02-trends/curiosidades-short-30d.json"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-20 19:47 UTC",
+  "avisos": [
+    "Jj0zCvrGwug: ERROR: [youtube] Jj0zCvrGwug: Premieres in 50 days"
+  ],
+  "videos": [
+    {
+      "id": "Jj0zCvrGwug",
+      "url": "https://www.youtube.com/watch?v=Jj0zCvrGwug",
+      "titulo": "5 INTERESTING FACTS ABOUT THE INQUISITION #funfacts #history #inquisition",
+      "canal": "História Na Lata",
+      "canal_id": "UCSBJTMC2osJIMEEjrya8xVw",
+      "inscritos_canal": null,
+      "publicado_em": null,
+      "duracao_s": 151,
+      "views": null,
+      "likes": null,
+      "comentarios": null,
+      "tags": [],
+      "dias_desde_publicacao": null,
+      "formato": "short",
+      "duracao": "2:31",
+      "views_por_dia": null,
+      "razao_views_inscritos": null,
+      "engajamento_pct": null
+    }
+  ]
+}

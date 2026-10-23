@@ -1,0 +1,55 @@
+{
+  "titulo": "Como era cada cargo de um navio pirata",
+  "titulos_alternativos": [
+    "Cargos de um navio pirata: o filme vs. a vida real",
+    "O que o cinema não mostra de cada cargo pirata"
+  ],
+  "plataformas": [
+    {
+      "id": "youtube",
+      "nome": "YouTube Shorts",
+      "titulo": "Como era cada cargo de um navio pirata #Piratas",
+      "descricao": "Piolho, biscoito com caruncho e um cirurgião sequestrado: veja o que você aguentaria a bordo.\nO capitão podia ser demitido no voto, e a prancha quase não tem registro.\n\nNeste short: capitão, quartel-mestre, marujo, cirurgião, carpinteiro e músico, e o castigo real de quem quebrava as regras.\n\nCréditos das imagens (domínio público):\n- \"Captain Charles Vane LCCN2007675646\", Library of Congress. https://commons.wikimedia.org/wiki/File:Captain_Charles_Vane_LCCN2007675646.tif\n- \"Captain John Rackam LCCN2007675643\", Library of Congress. https://commons.wikimedia.org/wiki/File:Captain_John_Rackam_LCCN2007675643.jpg\n- \"Pyle pirate plank edited\", Howard Pyle. https://commons.wikimedia.org/wiki/File:Pyle_pirate_plank_edited.jpg\n- \"Pyle pirate marooned\", Howard Pyle. https://commons.wikimedia.org/wiki/File:Pyle_pirate_marooned.jpg\nAs demais imagens foram geradas por IA.\n\n#Piratas #Curiosidades #História"
+    },
+    {
+      "id": "tiktok",
+      "nome": "TikTok",
+      "descricao": "Venha descobrir se você aguentaria ser um pirata: o capitão podia ser demitido no voto e o cirurgião, muitas vezes, era sequestrado. Você teria coragem?\n#Piratas #Curiosidades #História #HistóriaBizarra"
+    },
+    {
+      "id": "instagram",
+      "nome": "Instagram Reels",
+      "descricao": "Venha descobrir se você aguentaria ser um pirata.\nCapitão eleito, marujo com piolho e cirurgião sequestrado: os cargos de um navio pirata sem o filtro do cinema. Você teria coragem?\n#Piratas #Curiosidades #História #HistóriaBizarra"
+    }
+  ],
+  "tags": {
+    "em_alta": [
+      {"tag": "#Piratas", "evidencia": "4 vídeos, 62 views/dia somadas"}
+    ],
+    "tema": [
+      "navio pirata",
+      "cargos de um navio pirata",
+      "piratas",
+      "pirataria",
+      "era de ouro da pirataria",
+      "curiosidades históricas",
+      "história bizarra",
+      "vida de pirata",
+      "pirata de verdade",
+      "filme vs real",
+      "quartel-mestre",
+      "Charles Vane",
+      "Calico Jack",
+      "código pirata",
+      "marooning",
+      "shorts de história"
+    ]
+  },
+  "tags_youtube": "Piratas, navio pirata, cargos de um navio pirata, piratas, pirataria, era de ouro da pirataria, curiosidades históricas, história bizarra, vida de pirata, pirata de verdade, filme vs real, quartel-mestre, Charles Vane, Calico Jack, código pirata, marooning, shorts de história",
+  "fonte_tags": "yt-dlp, coletado em 2026-10-22 18:26 UTC, 25 vídeos (--dias 90)",
+  "avisos": [
+    "Primeira coleta (49 vídeos, 30 dias) trouxe só tags sem relação com o tema (BaianaSystem, efeitos sonoros); a segunda, com --dias 90 e 25 vídeos, rendeu só #Piratas como em alta compatível. #Pirates (vídeo sobre piratas somalis), #Historia (espanhol) e #Curiosidades (4 views/dia) ficaram de fora.",
+    "brief.musica.nome é nulo (arquivo audiocleaner-download-stranger.mp3): sem crédito de música na descrição. Confira a licença da faixa.",
+    "Short sem capítulos. Nenhuma imagem do filme Piratas do Caribe consta nos créditos, e a descrição não cita o filme."
+  ]
+}

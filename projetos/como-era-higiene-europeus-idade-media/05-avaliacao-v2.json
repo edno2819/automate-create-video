@@ -1,0 +1,97 @@
+{
+  "roteiro": "projetos/como-era-higiene-europeus-idade-media/05-roteiro-v2.md",
+  "versao": 2,
+  "formato": "short",
+  "aprovado": false,
+  "nota_percentual": 79,
+  "bloqueantes_reprovados": [],
+  "promessa": "Título e thumb prometem mostrar como era a sujeira na Europa medieval pelo corpo de quem vivia nela (o pé afundado na lama de Paris), com o rei ao fundo, na janela, sofrendo o mesmo fedor.",
+  "onde_cumpre": "B01 entrega o pé na lama (a capa da thumb); B02 a B04 sobem do castelo à medicina; B05 entrega o rei na janela sentindo o fedor da lama; B06 fecha com o callback da rua e a virada 'O problema nunca foi o banho. Era a rua.', que cumpre o 'como era a higiene' sem vender o mito.",
+  "criterios": [
+    {
+      "id": "gancho-2s",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B01",
+      "evidencia": "Paris, Idade Média. Você dá um passo... e o pé afunda na lama",
+      "problema": "As primeiras 5 palavras ('Paris, Idade Média. Você dá') são rótulo de lugar e época, e as reticências ainda põem uma pausa antes da tensão. O pé só afunda por volta de 4 s. Na v1 a tensão vinha na 5a palavra ('Seu pé some'); a v2 ganhou clareza, como pediu o usuário, mas empurrou o susto para depois da janela de 2 s. Hoje quem segura o dedo é só a imagem da bota.",
+      "instrucao": "Comece pela consequência e deixe o rótulo para depois: 'Seu pé afunda na lama até o tornozelo. Paris, Idade Média.' Mantém tudo o que a orientação pediu (fica claro que é o pé, que é lama, que é Paris), tira 5 palavras e a pausa das reticências, e o loop fica melhor: 'Era a rua.' emenda direto em 'Seu pé afunda na lama'. Se quiser manter o 'você', use 'Você pisa e o pé afunda na lama até o tornozelo. Paris, Idade Média.'"
+    },
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B04",
+      "evidencia": "Mas perfume nenhum salvou o rei. [PAUSA]",
+      "problema": "A ligação B04 para B05 tem forma de causa, mas o conteúdo não fecha, e é ambígua de ouvido, o mesmo tipo de problema que a orientação apontou em 'esse cheiro mata'. Logo depois de 'Ar podre trazia a peste', 'perfume nenhum salvou o rei' soa como se o rei tivesse pegado a peste ou morrido (o próprio L5 diz 'o que aconteceu com ele?'). O B05 entrega um rei que só sentiu cheiro de lama: a pergunta aberta promete mais do que o bloco paga. Além disso, o dossiê não diz que Filipe Augusto usava perfume.",
+      "instrucao": "Troque por uma frase que ligue o remédio ao fracasso sem sugerir morte e que já plante o fecho: 'Só que perfume não limpa rua. Nem a do rei. [PAUSA]'. O B05 passa a responder exatamente isso (o rei sente o fedor da rua e manda calçar), e 'Era a rua' no fim vira a colheita dessa frase. Ajuste o texto do L5 no mapa de loops."
+    },
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {
+      "id": "duracao-honesta",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B05",
+      "evidencia": "Lá por mil cento e oitenta e cinco, reza a história, o rei Filipe Augusto",
+      "problema": "206 palavras e 01:24 estimados (sem contar as duas [PAUSA] e as reticências), 88% acima da meta e acima do ideal de 30 a 60 s de short. Não há enchimento puro, e o usuário aceitou um texto longo (a proposta dele tem cerca de 180 palavras, 01:12), mas o tamanho ameaça a retenção num ponto concreto: a virada final ('Errado.' e 'Era a rua.') só chega depois de 01:12, quando boa parte de quem assiste um short já passou para o próximo, e um vídeo de 84 s é menos revisto, o que enfraquece o loop. Há cerca de 20 palavras que saem sem tocar em nada que a orientação pediu.",
+      "instrucao": "Leve o texto para no máximo cerca de 185 palavras (perto de 01:14, o tamanho da proposta do usuário). Cortes, em ordem: (1) B05: 'Lá por mil cento e oitenta e cinco, reza a história, o rei' vira 'Reza a história que o rei' (-5 palavras); ponha 'c. 1185' numa cartela no VISUAL do rei, assim o ano continua no vídeo sem pesar no ouvido. (2) B01: a troca do gancho (-5). (3) B01: 'Lama fedida, revirada pelas carroças. Nenhum calçamento.' vira 'Lama fedida. Nenhum calçamento.' (-3); a roda de carroça já está na imagem. (4) B04: 'Pra eles, mau cheiro causava doença. Ar podre trazia a peste.' vira 'Pra eles, mau cheiro causava doença. Até a peste.' (-2), o que mantém a clareza pedida. A troca de mas-entao acrescenta 3. Não corte o motivo das roupas nem 'A rua do lado continuou engolindo pé'."
+    },
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B05",
+      "evidencia": "Lá por mil cento e oitenta e cinco, reza a história, o rei Filipe Augusto abriu",
+      "problema": "Uma frase de 18 palavras com duas intercalações antes do sujeito: o ouvinte guarda um ano e um 'reza a história' sem saber de quem se fala. Dito em voz alta, o ano também deixa audível o salto de época: o vídeo acabou de falar da peste (1348) e volta para 1185, e a cena soa como 'o rei usou perfume e não adiantou'. Num grau menor, 'Garde-robe' no B03 é palavra francesa lida por uma voz pt-BR, e o alinhar.py vai conferir a pronúncia contra o texto.",
+      "instrucao": "Use 'Reza a história que o rei Filipe Augusto abriu a janela do palácio.' (sujeito no começo, uma intercalação só) e leve o ano para a cartela. Antes de produzir tudo, narre só o B03 e confira se 'Garde-robe' sai reconhecível; se não sair, escreva a grafia que a voz acerta e use a mesma no roteiro, para a conferência do alinhar.py não acusar diferença."
+    },
+    {"id": "tom", "nota": 2, "peso": 1},
+    {
+      "id": "factualidade",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B03",
+      "evidencia": "Dizem que guardavam as roupas ali de propósito. O fedor de amônia espantava traças e pulgas.",
+      "problema": "O motivo das roupas (amônia contra traças e pulgas) não está no dossiê. O dossiê registra só que 'garderobe' vem do francês para 'guarda-roupa'. O marcador [VERIFICAR] e o 'Dizem que' cumprem a rubrica, mas a restrição do brief exige fonte no dossiê para cada curiosidade, e um roteiro com [VERIFICAR] aberto não pode ir para a produção. A explicação circula muito e costuma ser contada como tradição, não como fato documentado. Por isso o 'Dizem que' tem de ficar mesmo se a fonte confirmar. Em segundo plano, 'perfume nenhum salvou o rei' (B04) sugere algo sobre o rei que o dossiê não diz (ver mas-entao). O resto confere: lama revirada por carroças e rua sem calçamento (2.3), garderobe caindo no fosso (2.2), miasma e peste (2.2, 1348), pomander e laranja com vinagre (2.2), a janela de Filipe Augusto como 'reza a história' com o ano hesitante 'lá por' (2.3 e Divergências), só as ruas principais (2.3), mais de trinta casas de banho no século XIII, o século seguinte ao de 1185 (2.2), e o mito do banho só como pergunta desmentida (2.1).",
+      "instrucao": "Antes da versão final, peça ao pesquisador que confira o motivo no verbete Garderobe da Wikipédia (já é fonte do dossiê) e o acrescente ao 02-dossie.md com a confiança e o enquadramento que a fonte der. Se confirmar, tire o [VERIFICAR] e mantenha 'Dizem que'. Se não confirmar, use o substituto que o roteirista já deixou ('Por quê? Ninguém sabe ao certo. Mas o nome pegou.'). Resolva também o 'salvou o rei' como indicado em mas-entao."
+    },
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B01", "tempo": "00:00", "motivo": "Os 2 primeiros segundos dizem só 'Paris, Idade Média. Você dá', e as reticências atrasam o pé afundando para cerca de 4 s. Sem a bota no primeiro frame, o dedo passa."},
+    {"bloco": "B05", "tempo": "00:51", "motivo": "O re-hook 'perfume nenhum salvou o rei' faz esperar uma desgraça (peste, morte), e o bloco abre com nove palavras de data e ressalva antes de o rei fazer qualquer coisa. Isso acontece aos 51 s, já no limite do ideal de short, quando a paciência é mínima."},
+    {"bloco": "B06", "tempo": "01:07", "motivo": "A melhor virada do vídeo ('Errado.' e 'Era a rua.') vem só entre 01:12 e 01:24. Quem sai antes nunca a vê, e a duração reduz as revisões que o loop deveria render. É o custo direto do tamanho."}
+  ],
+  "prioridades": [
+    "1. B01: abra pela consequência e não pelo rótulo: 'Seu pé afunda na lama até o tornozelo. Paris, Idade Média.' Tire o 'Você dá um passo...'. Mantém a clareza pedida pelo usuário, põe a tensão nas 3 primeiras palavras e melhora a emenda do loop ('Era a rua.' → 'Seu pé afunda na lama').",
+    "2. B04: troque 'Mas perfume nenhum salvou o rei.' por 'Só que perfume não limpa rua. Nem a do rei. [PAUSA]'. Hoje, logo depois da peste, 'salvou' soa como se o rei tivesse morrido, e o B05 não paga isso. A frase nova liga por causa e planta o 'Era a rua' do fim. Ajuste o L5.",
+    "3. Duração: chegue a no máximo cerca de 185 palavras (01:14). B05: 'Reza a história que o rei Filipe Augusto abriu a janela do palácio.', com o ano numa cartela 'c. 1185' no VISUAL. B01: 'Lama fedida. Nenhum calçamento.' B04: 'Pra eles, mau cheiro causava doença. Até a peste.' Não toque no motivo das roupas, no callback da rua nem no fecho.",
+    "4. B03: resolva o [VERIFICAR] antes da produção. O motivo da amônia tem de entrar no 02-dossie.md com fonte (verbete Garderobe); se entrar, mantenha o 'Dizem que'; se não entrar, use 'Por quê? Ninguém sabe ao certo. Mas o nome pegou.'",
+    "5. Antes da produção completa, narre só o B03 para conferir se a voz pronuncia 'Garde-robe' de um jeito reconhecível; se não pronunciar, ajuste a grafia no roteiro, para o alinhar.py não acusar diferença."
+  ],
+  "manter": [
+    "B01: o VISUAL igual à capa (a bota afundando, depois o rosto do camponês). É ele que segura os primeiros segundos.",
+    "B02: 'Tá achando que rico vivia melhor?' respondido por 'Rico fugia da lama. Morava no castelo.' Resolve o salto para o castelo que a orientação apontou, sem pressupor que o espectador é nobre.",
+    "B02: a torrezinha do garderobe vista de fora, com o guarda tapando o nariz. Nunca o interior.",
+    "B03: a ordem 'Garde-robe. Em francês: guarda-roupa.' seguida do motivo das roupas. Agora a piada se entende de ouvido (se a fonte confirmar).",
+    "B03→B04: 'Só que os médicos tinham uma teoria sobre esse fedor. Pra eles, mau cheiro causava doença.' Desfaz a ambiguidade de 'esse cheiro mata' sem perder o gancho.",
+    "B04: 'Sem dinheiro? Laranja oca, esponja de vinagre, colada no nariz.' É o detalhe mais concreto e visual do short.",
+    "B05: 'o homem mais poderoso da França' e o re-hook 'Todas?'. O rei vira o topo da escada pelo status, e a pergunta é a mais curta do vídeo.",
+    "B06: 'A rua do lado continuou engolindo pé.' e 'O problema nunca foi o banho. Era a rua.' O callback e a virada final são o melhor do roteiro: dão sentido a tudo o que veio antes e tratam o mito do banho exatamente como a restrição pede.",
+    "B06: o VISUAL da casa de banho pública, que dá imagem própria à surpresa.",
+    "Os ajustes factuais das notas: sem 'lixo, esgoto e restos de animal', 'mais de trinta' e 'século seguinte' no lugar de 'dezenas' e 'cem anos depois', nenhum cronista inventado, nenhum caso de fora da Idade Média, nenhum ano preso ao 'você'."
+  ],
+  "alertas_de_medicao": [
+    "Duração estimada de 01:24 para uma meta de 00:45 (206 palavras, contra cerca de 110 da restrição): +88% e acima do ideal de 30 a 60 s de short. A estimativa não conta as duas [PAUSA] nem as reticências do B01, então a narração real deve passar de 01:26. O usuário aceitou um texto mais longo (a proposta dele tem cerca de 180 palavras), por isso a meta realista é perto de 185 palavras, não 110.",
+    "Trecho de 0 a 2 s: 'Paris, Idade Média. Você dá'. Não há tensão verbal nos 2 s, ver gancho-2s.",
+    "Um [VERIFICAR] aberto no B03 (amônia contra traças e pulgas). A medição registra como aviso, mas o roteiro não pode ir para a produção com ele.",
+    "Como na v1, o mapa declara o L1 ('Alguém um dia vai dar jeito nessa rua?') aberto desde o B01, mas o texto nunca faz essa pergunta: é um callback plantado, não um loop que o espectador sente. A retenção vem do L2 ao L7, que são reais e se renovam a cada 12 a 17 s.",
+    "O texto do L5 no mapa ('o que aconteceu com ele?') confirma a leitura ambígua de 'perfume nenhum salvou o rei'. Corrija junto com a prioridade 2.",
+    "O ano falado (1185) vem depois da teoria dos miasmas (1348) e do pomander (medieval tardio). Não é erro factual, mas deixa audível a volta no tempo. Com o ano na cartela, a ordem das cenas deixa de sugerir uma cronologia."
+  ]
+}

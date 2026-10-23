@@ -1,0 +1,521 @@
+{
+  "consulta": {
+    "cmd": "tags",
+    "max": 25,
+    "rapido": false,
+    "termos": [
+      "navio pirata",
+      "piratas curiosidades",
+      "história dos piratas"
+    ],
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-22 15:53 UTC",
+  "avisos": [
+    "ZiRWVazHGpg: ERROR: [youtube] ZiRWVazHGpg: This video is not available",
+    "jJyv2M75cL0: ERROR: [youtube] jJyv2M75cL0: This video is not available",
+    "9ZkvLVuQapM: ERROR: [youtube] 9ZkvLVuQapM: This video is not available",
+    "hbafpeeY_o0: ERROR: [youtube] hbafpeeY_o0: This video is not available",
+    "DrwkLGhYtWY: ERROR: [youtube] DrwkLGhYtWY: This video is not available",
+    "b7jPYSTz-74: ERROR: [youtube] b7jPYSTz-74: This video is not available"
+  ],
+  "n_videos": 49,
+  "tags": [
+    {
+      "tag": "BaianaSystem",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Trio Navio Pirata",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Circuito Osmar",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Campo Grande",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "O Samba Nasceu Aqui",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Carnaval 2026",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Salvador",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Bahia",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    },
+    {
+      "tag": "Micaretur",
+      "videos": 2,
+      "views_por_dia": 21,
+      "exemplo": {
+        "titulo": "BaianaSystem - Capim Guiné - Navio Pirata - Circuito Osmar - Carnaval 2026 - Sábado",
+        "url": "https://www.youtube.com/watch?v=FSv0UHhYyCY",
+        "views_por_dia": 16
+      }
+    }
+  ],
+  "hashtags": [
+    {
+      "tag": "effects",
+      "videos": 4,
+      "views_por_dia": 2419,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "gamavision",
+      "videos": 4,
+      "views_por_dia": 2419,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "soundvariations",
+      "videos": 4,
+      "views_por_dia": 2419,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "retro",
+      "videos": 3,
+      "views_por_dia": 2266,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "logos",
+      "videos": 3,
+      "views_por_dia": 2266,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "nostalgia",
+      "videos": 3,
+      "views_por_dia": 2266,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "audioeffects",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "intrologoeffects",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "preview1982effects",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "plimplim",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "song",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "intro",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "logo",
+      "videos": 3,
+      "views_por_dia": 2186,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "klaskycsupoeffects",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "parody",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "fx",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "sfx",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "vfx",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "visualeffects",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "uk",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "csupoeffects",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "remix",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "funny",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "cartoon",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "preview2effects88uu8",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "benandhollyfx",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "crocostoons",
+      "videos": 2,
+      "views_por_dia": 2033,
+      "exemplo": {
+        "titulo": "[Ben and Holly FX] Flying Pirate Ship 🏴‍☠️✨🚀- Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=hYP5YdNJOQQ",
+        "views_por_dia": 1833
+      }
+    },
+    {
+      "tag": "preview2effects",
+      "videos": 2,
+      "views_por_dia": 386,
+      "exemplo": {
+        "titulo": "It's so Fun,Playing Football in the Pirate Ship! Peppa Effects Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=UXbKl440qqM",
+        "views_por_dia": 233
+      }
+    },
+    {
+      "tag": "klaskycsupo2001effects",
+      "videos": 2,
+      "views_por_dia": 340,
+      "exemplo": {
+        "titulo": "It's so Fun,Playing Football in the Pirate Ship! Peppa Effects Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=UXbKl440qqM",
+        "views_por_dia": 233
+      }
+    },
+    {
+      "tag": "klaskycsupo",
+      "videos": 2,
+      "views_por_dia": 340,
+      "exemplo": {
+        "titulo": "It's so Fun,Playing Football in the Pirate Ship! Peppa Effects Sponsored by Klasky Csupo Effects",
+        "url": "https://www.youtube.com/watch?v=UXbKl440qqM",
+        "views_por_dia": 233
+      }
+    },
+    {
+      "tag": "PirateHistory",
+      "videos": 3,
+      "views_por_dia": 77,
+      "exemplo": {
+        "titulo": "Why Every Pirate Comedy Tells the Same Joke",
+        "url": "https://www.youtube.com/watch?v=cRpulnUmKJo",
+        "views_por_dia": 71
+      }
+    },
+    {
+      "tag": "piratesofthecaribbean",
+      "videos": 2,
+      "views_por_dia": 73,
+      "exemplo": {
+        "titulo": "Why Every Pirate Comedy Tells the Same Joke",
+        "url": "https://www.youtube.com/watch?v=cRpulnUmKJo",
+        "views_por_dia": 71
+      }
+    },
+    {
+      "tag": "Piratas",
+      "videos": 6,
+      "views_por_dia": 13,
+      "exemplo": {
+        "titulo": "☠️ BARBANEGRA: El Barco Pirata Más Temido de la Historia",
+        "url": "https://www.youtube.com/watch?v=e9UuNGMM3ec",
+        "views_por_dia": 4
+      }
+    },
+    {
+      "tag": "QueenAnnesRevenge",
+      "videos": 3,
+      "views_por_dia": 12,
+      "exemplo": {
+        "titulo": "Blackbeard: The Pirate Who Terrified the Seas",
+        "url": "https://www.youtube.com/watch?v=dUrgBM5pqVE",
+        "views_por_dia": 5
+      }
+    },
+    {
+      "tag": "Pirates",
+      "videos": 3,
+      "views_por_dia": 8,
+      "exemplo": {
+        "titulo": "Blackbeard: The Pirate Who Terrified the Seas",
+        "url": "https://www.youtube.com/watch?v=dUrgBM5pqVE",
+        "views_por_dia": 5
+      }
+    },
+    {
+      "tag": "EdwardTeach",
+      "videos": 2,
+      "views_por_dia": 8,
+      "exemplo": {
+        "titulo": "Blackbeard: The Pirate Who Terrified the Seas",
+        "url": "https://www.youtube.com/watch?v=dUrgBM5pqVE",
+        "views_por_dia": 5
+      }
+    },
+    {
+      "tag": "Shorts",
+      "videos": 3,
+      "views_por_dia": 7,
+      "exemplo": {
+        "titulo": "☠️ BARBANEGRA: El Barco Pirata Más Temido de la Historia",
+        "url": "https://www.youtube.com/watch?v=e9UuNGMM3ec",
+        "views_por_dia": 4
+      }
+    },
+    {
+      "tag": "History",
+      "videos": 2,
+      "views_por_dia": 7,
+      "exemplo": {
+        "titulo": "Blackbeard: The Pirate Who Terrified the Seas",
+        "url": "https://www.youtube.com/watch?v=dUrgBM5pqVE",
+        "views_por_dia": 5
+      }
+    },
+    {
+      "tag": "Barbanegra",
+      "videos": 2,
+      "views_por_dia": 7,
+      "exemplo": {
+        "titulo": "☠️ BARBANEGRA: El Barco Pirata Más Temido de la Historia",
+        "url": "https://www.youtube.com/watch?v=e9UuNGMM3ec",
+        "views_por_dia": 4
+      }
+    },
+    {
+      "tag": "MisteriosDelMar",
+      "videos": 2,
+      "views_por_dia": 6,
+      "exemplo": {
+        "titulo": "☠️ BARBANEGRA: El Barco Pirata Más Temido de la Historia",
+        "url": "https://www.youtube.com/watch?v=e9UuNGMM3ec",
+        "views_por_dia": 4
+      }
+    }
+  ]
+}

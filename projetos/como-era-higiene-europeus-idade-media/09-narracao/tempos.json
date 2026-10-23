@@ -1,0 +1,1265 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 78.35,
+  "duracao_video_s": 78.95,
+  "fonte": "faster-whisper small",
+  "voz": "Sadaltager",
+  "personagens": {},
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Paris,",
+          "inicio": 0.0,
+          "fim": 0.6
+        },
+        {
+          "texto": "Idade",
+          "inicio": 0.6,
+          "fim": 1.18
+        },
+        {
+          "texto": "Média.",
+          "inicio": 1.18,
+          "fim": 1.5
+        },
+        {
+          "texto": "Você",
+          "inicio": 1.92,
+          "fim": 2.06
+        },
+        {
+          "texto": "dá",
+          "inicio": 2.06,
+          "fim": 2.2
+        },
+        {
+          "texto": "um",
+          "inicio": 2.2,
+          "fim": 2.28
+        },
+        {
+          "texto": "passo...",
+          "inicio": 2.28,
+          "fim": 2.78
+        }
+      ],
+      "fim_s": 2.78
+    },
+    {
+      "id": "B01-02",
+      "inicio_s": 2.78,
+      "palavras": [
+        {
+          "texto": "e",
+          "inicio": 2.78,
+          "fim": 3.08
+        },
+        {
+          "texto": "o",
+          "inicio": 3.08,
+          "fim": 3.16
+        },
+        {
+          "texto": "pé",
+          "inicio": 3.16,
+          "fim": 3.3
+        },
+        {
+          "texto": "afunda",
+          "inicio": 3.3,
+          "fim": 3.74
+        },
+        {
+          "texto": "na",
+          "inicio": 3.74,
+          "fim": 3.92
+        },
+        {
+          "texto": "lama",
+          "inicio": 3.92,
+          "fim": 4.16
+        },
+        {
+          "texto": "até",
+          "inicio": 4.16,
+          "fim": 4.5
+        },
+        {
+          "texto": "o",
+          "inicio": 4.5,
+          "fim": 4.62
+        },
+        {
+          "texto": "tornozelo.",
+          "inicio": 4.62,
+          "fim": 5.18
+        }
+      ],
+      "fim_s": 5.52
+    },
+    {
+      "id": "B01-03",
+      "inicio_s": 5.52,
+      "palavras": [
+        {
+          "texto": "Lama",
+          "inicio": 5.52,
+          "fim": 5.78
+        },
+        {
+          "texto": "fedida,",
+          "inicio": 5.78,
+          "fim": 6.42
+        },
+        {
+          "texto": "revirada",
+          "inicio": 6.58,
+          "fim": 7.02
+        },
+        {
+          "texto": "pelas",
+          "inicio": 7.02,
+          "fim": 7.3
+        },
+        {
+          "texto": "carroças.",
+          "inicio": 7.3,
+          "fim": 7.84
+        },
+        {
+          "texto": "Nenhum",
+          "inicio": 8.2,
+          "fim": 8.6
+        },
+        {
+          "texto": "calçamento.",
+          "inicio": 8.6,
+          "fim": 9.22
+        },
+        {
+          "texto": "Tá",
+          "inicio": 9.58,
+          "fim": 9.88
+        },
+        {
+          "texto": "achando",
+          "inicio": 9.88,
+          "fim": 10.12
+        },
+        {
+          "texto": "que",
+          "inicio": 10.12,
+          "fim": 10.24
+        },
+        {
+          "texto": "rico",
+          "inicio": 10.24,
+          "fim": 10.44
+        },
+        {
+          "texto": "vivia",
+          "inicio": 10.44,
+          "fim": 10.8
+        },
+        {
+          "texto": "melhor?",
+          "inicio": 10.8,
+          "fim": 11.0
+        }
+      ],
+      "fim_s": 11.75
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 11.75,
+      "palavras": [
+        {
+          "texto": "Rico",
+          "inicio": 11.75,
+          "fim": 12.27
+        },
+        {
+          "texto": "fugia",
+          "inicio": 12.27,
+          "fim": 12.83
+        },
+        {
+          "texto": "da",
+          "inicio": 12.83,
+          "fim": 12.93
+        },
+        {
+          "texto": "lama.",
+          "inicio": 12.93,
+          "fim": 13.23
+        },
+        {
+          "texto": "Morava",
+          "inicio": 13.45,
+          "fim": 13.79
+        },
+        {
+          "texto": "no",
+          "inicio": 13.79,
+          "fim": 13.91
+        },
+        {
+          "texto": "castelo.",
+          "inicio": 13.91,
+          "fim": 14.57
+        }
+      ],
+      "fim_s": 15.01
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 15.01,
+      "palavras": [
+        {
+          "texto": "Mas",
+          "inicio": 15.01,
+          "fim": 15.19
+        },
+        {
+          "texto": "lá",
+          "inicio": 15.19,
+          "fim": 15.37
+        },
+        {
+          "texto": "o",
+          "inicio": 15.37,
+          "fim": 15.53
+        },
+        {
+          "texto": "banheiro",
+          "inicio": 15.53,
+          "fim": 15.93
+        },
+        {
+          "texto": "era",
+          "inicio": 15.93,
+          "fim": 16.05
+        },
+        {
+          "texto": "um",
+          "inicio": 16.05,
+          "fim": 16.17
+        },
+        {
+          "texto": "buraco",
+          "inicio": 16.17,
+          "fim": 16.61
+        },
+        {
+          "texto": "na",
+          "inicio": 16.61,
+          "fim": 16.75
+        },
+        {
+          "texto": "parede.",
+          "inicio": 16.75,
+          "fim": 17.27
+        }
+      ],
+      "fim_s": 17.67
+    },
+    {
+      "id": "B02-03",
+      "inicio_s": 17.67,
+      "palavras": [
+        {
+          "texto": "Tudo",
+          "inicio": 17.67,
+          "fim": 17.97
+        },
+        {
+          "texto": "caía",
+          "inicio": 17.97,
+          "fim": 18.43
+        },
+        {
+          "texto": "direto",
+          "inicio": 18.43,
+          "fim": 18.99
+        },
+        {
+          "texto": "no",
+          "inicio": 18.99,
+          "fim": 19.09
+        },
+        {
+          "texto": "fosso.",
+          "inicio": 19.09,
+          "fim": 19.57
+        },
+        {
+          "texto": "E",
+          "inicio": 19.99,
+          "fim": 20.09
+        },
+        {
+          "texto": "o",
+          "inicio": 20.09,
+          "fim": 20.17
+        },
+        {
+          "texto": "nome",
+          "inicio": 20.17,
+          "fim": 20.51
+        },
+        {
+          "texto": "desse",
+          "inicio": 20.51,
+          "fim": 20.71
+        },
+        {
+          "texto": "buraco",
+          "inicio": 20.71,
+          "fim": 21.19
+        },
+        {
+          "texto": "é",
+          "inicio": 21.19,
+          "fim": 21.49
+        },
+        {
+          "texto": "a",
+          "inicio": 21.49,
+          "fim": 21.57
+        },
+        {
+          "texto": "melhor",
+          "inicio": 21.57,
+          "fim": 21.83
+        },
+        {
+          "texto": "parte.",
+          "inicio": 21.83,
+          "fim": 22.21
+        }
+      ],
+      "fim_s": 23.06
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 23.06,
+      "palavras": [
+        {
+          "texto": "Garde-robe.",
+          "inicio": 23.06,
+          "fim": 23.96
+        },
+        {
+          "texto": "Em",
+          "inicio": 24.28,
+          "fim": 24.46
+        },
+        {
+          "texto": "francês:",
+          "inicio": 24.46,
+          "fim": 25.02
+        },
+        {
+          "texto": "guarda-roupa.",
+          "inicio": 25.3,
+          "fim": 26.08
+        }
+      ],
+      "fim_s": 26.48
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 26.48,
+      "palavras": [
+        {
+          "texto": "Dizem",
+          "inicio": 26.48,
+          "fim": 26.94
+        },
+        {
+          "texto": "que",
+          "inicio": 26.94,
+          "fim": 27.08
+        },
+        {
+          "texto": "guardavam",
+          "inicio": 27.08,
+          "fim": 27.54
+        },
+        {
+          "texto": "as",
+          "inicio": 27.54,
+          "fim": 27.7
+        },
+        {
+          "texto": "roupas",
+          "inicio": 27.7,
+          "fim": 28.0
+        },
+        {
+          "texto": "ali",
+          "inicio": 28.0,
+          "fim": 28.18
+        },
+        {
+          "texto": "de",
+          "inicio": 28.18,
+          "fim": 28.28
+        },
+        {
+          "texto": "propósito.",
+          "inicio": 28.28,
+          "fim": 28.92
+        }
+      ],
+      "fim_s": 29.26
+    },
+    {
+      "id": "B03-03",
+      "inicio_s": 29.26,
+      "palavras": [
+        {
+          "texto": "O",
+          "inicio": 29.26,
+          "fim": 29.36
+        },
+        {
+          "texto": "fedor",
+          "inicio": 29.36,
+          "fim": 29.7
+        },
+        {
+          "texto": "de",
+          "inicio": 29.7,
+          "fim": 29.82
+        },
+        {
+          "texto": "amônia",
+          "inicio": 29.82,
+          "fim": 30.26
+        },
+        {
+          "texto": "espantava",
+          "inicio": 30.26,
+          "fim": 30.74
+        },
+        {
+          "texto": "traças",
+          "inicio": 30.74,
+          "fim": 31.28
+        },
+        {
+          "texto": "e",
+          "inicio": 31.28,
+          "fim": 31.48
+        },
+        {
+          "texto": "pulgas.",
+          "inicio": 31.48,
+          "fim": 31.9
+        }
+      ],
+      "fim_s": 32.22
+    },
+    {
+      "id": "B03-04",
+      "inicio_s": 32.22,
+      "palavras": [
+        {
+          "texto": "Só",
+          "inicio": 32.22,
+          "fim": 32.54
+        },
+        {
+          "texto": "que",
+          "inicio": 32.54,
+          "fim": 32.76
+        },
+        {
+          "texto": "os",
+          "inicio": 32.76,
+          "fim": 33.04
+        },
+        {
+          "texto": "médicos",
+          "inicio": 33.04,
+          "fim": 33.66
+        },
+        {
+          "texto": "tinham",
+          "inicio": 33.66,
+          "fim": 34.04
+        },
+        {
+          "texto": "uma",
+          "inicio": 34.04,
+          "fim": 34.24
+        },
+        {
+          "texto": "teoria",
+          "inicio": 34.24,
+          "fim": 34.66
+        },
+        {
+          "texto": "sobre",
+          "inicio": 34.66,
+          "fim": 35.02
+        },
+        {
+          "texto": "esse",
+          "inicio": 35.02,
+          "fim": 35.2
+        },
+        {
+          "texto": "fedor.",
+          "inicio": 35.2,
+          "fim": 35.6
+        }
+      ],
+      "fim_s": 36.29
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 36.29,
+      "palavras": [
+        {
+          "texto": "Pra",
+          "inicio": 36.29,
+          "fim": 36.69
+        },
+        {
+          "texto": "eles,",
+          "inicio": 36.69,
+          "fim": 36.97
+        },
+        {
+          "texto": "mau",
+          "inicio": 37.17,
+          "fim": 37.29
+        },
+        {
+          "texto": "cheiro",
+          "inicio": 37.29,
+          "fim": 37.57
+        },
+        {
+          "texto": "causava",
+          "inicio": 37.57,
+          "fim": 37.93
+        },
+        {
+          "texto": "doença.",
+          "inicio": 37.93,
+          "fim": 38.45
+        },
+        {
+          "texto": "Ar",
+          "inicio": 38.69,
+          "fim": 38.81
+        },
+        {
+          "texto": "podre",
+          "inicio": 38.81,
+          "fim": 39.31
+        },
+        {
+          "texto": "trazia",
+          "inicio": 39.31,
+          "fim": 39.71
+        },
+        {
+          "texto": "a",
+          "inicio": 39.71,
+          "fim": 39.81
+        },
+        {
+          "texto": "peste.",
+          "inicio": 39.81,
+          "fim": 40.21
+        }
+      ],
+      "fim_s": 40.55
+    },
+    {
+      "id": "B04-02",
+      "inicio_s": 40.55,
+      "palavras": [
+        {
+          "texto": "Então",
+          "inicio": 40.55,
+          "fim": 40.87
+        },
+        {
+          "texto": "quem",
+          "inicio": 40.97,
+          "fim": 41.09
+        },
+        {
+          "texto": "podia",
+          "inicio": 41.09,
+          "fim": 41.41
+        },
+        {
+          "texto": "levava",
+          "inicio": 41.41,
+          "fim": 41.85
+        },
+        {
+          "texto": "uma",
+          "inicio": 41.85,
+          "fim": 42.05
+        },
+        {
+          "texto": "bolinha",
+          "inicio": 42.05,
+          "fim": 42.41
+        },
+        {
+          "texto": "de",
+          "inicio": 42.41,
+          "fim": 42.55
+        },
+        {
+          "texto": "perfume",
+          "inicio": 42.55,
+          "fim": 42.85
+        },
+        {
+          "texto": "no",
+          "inicio": 42.85,
+          "fim": 43.03
+        },
+        {
+          "texto": "cinto.",
+          "inicio": 43.03,
+          "fim": 43.37
+        }
+      ],
+      "fim_s": 43.67
+    },
+    {
+      "id": "B04-03",
+      "inicio_s": 43.67,
+      "palavras": [
+        {
+          "texto": "Sem",
+          "inicio": 43.67,
+          "fim": 43.89
+        },
+        {
+          "texto": "dinheiro?",
+          "inicio": 43.89,
+          "fim": 44.19
+        },
+        {
+          "texto": "Laranja",
+          "inicio": 44.59,
+          "fim": 44.99
+        },
+        {
+          "texto": "oca,",
+          "inicio": 44.99,
+          "fim": 45.53
+        },
+        {
+          "texto": "esponja",
+          "inicio": 45.73,
+          "fim": 46.13
+        },
+        {
+          "texto": "de",
+          "inicio": 46.13,
+          "fim": 46.27
+        },
+        {
+          "texto": "vinagre,",
+          "inicio": 46.27,
+          "fim": 46.81
+        },
+        {
+          "texto": "colada",
+          "inicio": 46.89,
+          "fim": 47.31
+        },
+        {
+          "texto": "no",
+          "inicio": 47.31,
+          "fim": 47.49
+        },
+        {
+          "texto": "nariz.",
+          "inicio": 47.49,
+          "fim": 47.85
+        }
+      ],
+      "fim_s": 48.49
+    },
+    {
+      "id": "B04-04",
+      "inicio_s": 48.49,
+      "palavras": [
+        {
+          "texto": "Mas",
+          "inicio": 48.49,
+          "fim": 48.65
+        },
+        {
+          "texto": "perfume",
+          "inicio": 48.65,
+          "fim": 49.27
+        },
+        {
+          "texto": "nenhum",
+          "inicio": 49.27,
+          "fim": 49.63
+        },
+        {
+          "texto": "salvou",
+          "inicio": 49.63,
+          "fim": 50.07
+        },
+        {
+          "texto": "o",
+          "inicio": 50.07,
+          "fim": 50.15
+        },
+        {
+          "texto": "rei.",
+          "inicio": 50.15,
+          "fim": 50.35
+        }
+      ],
+      "fim_s": 51.04
+    },
+    {
+      "id": "B05-01",
+      "inicio_s": 51.04,
+      "palavras": [
+        {
+          "texto": "Lá",
+          "inicio": 51.04,
+          "fim": 51.44
+        },
+        {
+          "texto": "por",
+          "inicio": 51.44,
+          "fim": 51.6
+        },
+        {
+          "texto": "mil",
+          "inicio": 51.6,
+          "fim": 51.794
+        },
+        {
+          "texto": "cento",
+          "inicio": 51.794,
+          "fim": 52.085
+        },
+        {
+          "texto": "e",
+          "inicio": 52.085,
+          "fim": 52.182
+        },
+        {
+          "texto": "oitenta",
+          "inicio": 52.182,
+          "fim": 52.57
+        },
+        {
+          "texto": "e",
+          "inicio": 52.57,
+          "fim": 52.667
+        },
+        {
+          "texto": "cinco,",
+          "inicio": 52.667,
+          "fim": 52.958
+        },
+        {
+          "texto": "reza",
+          "inicio": 52.958,
+          "fim": 53.2
+        },
+        {
+          "texto": "a",
+          "inicio": 53.2,
+          "fim": 53.22
+        },
+        {
+          "texto": "história,",
+          "inicio": 53.22,
+          "fim": 53.48
+        }
+      ],
+      "fim_s": 53.84
+    },
+    {
+      "id": "B05-02",
+      "inicio_s": 53.84,
+      "palavras": [
+        {
+          "texto": "o",
+          "inicio": 53.84,
+          "fim": 53.9
+        },
+        {
+          "texto": "rei",
+          "inicio": 53.9,
+          "fim": 54.16
+        },
+        {
+          "texto": "Filipe",
+          "inicio": 54.16,
+          "fim": 54.32
+        },
+        {
+          "texto": "Augusto",
+          "inicio": 54.32,
+          "fim": 54.84
+        },
+        {
+          "texto": "abriu",
+          "inicio": 54.84,
+          "fim": 55.24
+        },
+        {
+          "texto": "a",
+          "inicio": 55.24,
+          "fim": 55.3
+        },
+        {
+          "texto": "janela",
+          "inicio": 55.3,
+          "fim": 55.64
+        },
+        {
+          "texto": "do",
+          "inicio": 55.64,
+          "fim": 55.74
+        },
+        {
+          "texto": "palácio.",
+          "inicio": 55.74,
+          "fim": 56.22
+        }
+      ],
+      "fim_s": 56.68
+    },
+    {
+      "id": "B05-03",
+      "inicio_s": 56.68,
+      "palavras": [
+        {
+          "texto": "O",
+          "inicio": 56.68,
+          "fim": 56.76
+        },
+        {
+          "texto": "fedor",
+          "inicio": 56.76,
+          "fim": 57.48
+        },
+        {
+          "texto": "da",
+          "inicio": 57.48,
+          "fim": 57.64
+        },
+        {
+          "texto": "lama",
+          "inicio": 57.64,
+          "fim": 57.94
+        },
+        {
+          "texto": "subiu",
+          "inicio": 57.94,
+          "fim": 58.46
+        },
+        {
+          "texto": "pro",
+          "inicio": 58.46,
+          "fim": 58.6
+        },
+        {
+          "texto": "nariz",
+          "inicio": 58.6,
+          "fim": 58.92
+        },
+        {
+          "texto": "do",
+          "inicio": 58.92,
+          "fim": 59.02
+        },
+        {
+          "texto": "homem",
+          "inicio": 59.02,
+          "fim": 59.14
+        },
+        {
+          "texto": "mais",
+          "inicio": 59.14,
+          "fim": 59.52
+        },
+        {
+          "texto": "poderoso",
+          "inicio": 59.52,
+          "fim": 60.12
+        },
+        {
+          "texto": "da",
+          "inicio": 60.12,
+          "fim": 60.26
+        },
+        {
+          "texto": "França.",
+          "inicio": 60.26,
+          "fim": 60.72
+        }
+      ],
+      "fim_s": 61.0
+    },
+    {
+      "id": "B05-04",
+      "inicio_s": 61.0,
+      "palavras": [
+        {
+          "texto": "Mandou",
+          "inicio": 61.0,
+          "fim": 61.42
+        },
+        {
+          "texto": "pavimentar",
+          "inicio": 61.42,
+          "fim": 62.06
+        },
+        {
+          "texto": "as",
+          "inicio": 62.06,
+          "fim": 62.16
+        },
+        {
+          "texto": "ruas",
+          "inicio": 62.16,
+          "fim": 62.34
+        },
+        {
+          "texto": "de",
+          "inicio": 62.34,
+          "fim": 62.42
+        },
+        {
+          "texto": "Paris.",
+          "inicio": 62.42,
+          "fim": 62.64
+        },
+        {
+          "texto": "Todas?",
+          "inicio": 63.42,
+          "fim": 63.84
+        }
+      ],
+      "fim_s": 64.63
+    },
+    {
+      "id": "B06-01",
+      "inicio_s": 64.63,
+      "palavras": [
+        {
+          "texto": "Não.",
+          "inicio": 64.63,
+          "fim": 65.03
+        },
+        {
+          "texto": "Só",
+          "inicio": 65.15,
+          "fim": 65.35
+        },
+        {
+          "texto": "as",
+          "inicio": 65.35,
+          "fim": 65.43
+        },
+        {
+          "texto": "principais.",
+          "inicio": 65.43,
+          "fim": 66.03
+        },
+        {
+          "texto": "A",
+          "inicio": 66.41,
+          "fim": 66.51
+        },
+        {
+          "texto": "rua",
+          "inicio": 66.51,
+          "fim": 66.63
+        },
+        {
+          "texto": "do",
+          "inicio": 66.63,
+          "fim": 66.75
+        },
+        {
+          "texto": "lado",
+          "inicio": 66.75,
+          "fim": 67.01
+        },
+        {
+          "texto": "continuou",
+          "inicio": 67.01,
+          "fim": 67.53
+        },
+        {
+          "texto": "engolindo",
+          "inicio": 67.53,
+          "fim": 68.05
+        },
+        {
+          "texto": "pé.",
+          "inicio": 68.13,
+          "fim": 68.29
+        }
+      ],
+      "fim_s": 68.69
+    },
+    {
+      "id": "B06-02",
+      "inicio_s": 68.69,
+      "palavras": [
+        {
+          "texto": "Então",
+          "inicio": 68.69,
+          "fim": 68.87
+        },
+        {
+          "texto": "esse",
+          "inicio": 68.93,
+          "fim": 69.03
+        },
+        {
+          "texto": "povo",
+          "inicio": 69.03,
+          "fim": 69.27
+        },
+        {
+          "texto": "nunca",
+          "inicio": 69.27,
+          "fim": 69.71
+        },
+        {
+          "texto": "tomava",
+          "inicio": 69.71,
+          "fim": 70.13
+        },
+        {
+          "texto": "banho,",
+          "inicio": 70.13,
+          "fim": 70.53
+        },
+        {
+          "texto": "certo?",
+          "inicio": 70.57,
+          "fim": 70.73
+        }
+      ],
+      "fim_s": 71.31
+    },
+    {
+      "id": "B06-03",
+      "inicio_s": 71.31,
+      "palavras": [
+        {
+          "texto": "Errado.",
+          "inicio": 71.31,
+          "fim": 71.59
+        },
+        {
+          "texto": "No",
+          "inicio": 72.01,
+          "fim": 72.11
+        },
+        {
+          "texto": "século",
+          "inicio": 72.11,
+          "fim": 72.39
+        },
+        {
+          "texto": "seguinte,",
+          "inicio": 72.39,
+          "fim": 72.65
+        },
+        {
+          "texto": "Paris",
+          "inicio": 73.11,
+          "fim": 73.25
+        },
+        {
+          "texto": "tinha",
+          "inicio": 73.25,
+          "fim": 73.47
+        },
+        {
+          "texto": "mais",
+          "inicio": 73.47,
+          "fim": 73.65
+        },
+        {
+          "texto": "de",
+          "inicio": 73.65,
+          "fim": 73.83
+        },
+        {
+          "texto": "trinta",
+          "inicio": 73.83,
+          "fim": 74.25
+        },
+        {
+          "texto": "casas",
+          "inicio": 74.25,
+          "fim": 74.65
+        },
+        {
+          "texto": "de",
+          "inicio": 74.65,
+          "fim": 74.77
+        },
+        {
+          "texto": "banho",
+          "inicio": 74.77,
+          "fim": 75.01
+        },
+        {
+          "texto": "públicas.",
+          "inicio": 75.01,
+          "fim": 75.59
+        }
+      ],
+      "fim_s": 75.81
+    },
+    {
+      "id": "B06-04",
+      "inicio_s": 75.81,
+      "palavras": [
+        {
+          "texto": "O",
+          "inicio": 75.81,
+          "fim": 75.89
+        },
+        {
+          "texto": "problema",
+          "inicio": 75.89,
+          "fim": 76.19
+        },
+        {
+          "texto": "nunca",
+          "inicio": 76.19,
+          "fim": 76.61
+        },
+        {
+          "texto": "foi",
+          "inicio": 76.61,
+          "fim": 76.83
+        },
+        {
+          "texto": "o",
+          "inicio": 76.83,
+          "fim": 76.91
+        },
+        {
+          "texto": "banho.",
+          "inicio": 76.91,
+          "fim": 77.19
+        },
+        {
+          "texto": "Era",
+          "inicio": 77.43,
+          "fim": 77.61
+        },
+        {
+          "texto": "a",
+          "inicio": 77.61,
+          "fim": 77.69
+        },
+        {
+          "texto": "rua.",
+          "inicio": 77.69,
+          "fim": 77.91
+        }
+      ],
+      "fim_s": 78.95
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 29,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 153
+    },
+    {
+      "bloco": "B02",
+      "palavras": 30,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 164
+    },
+    {
+      "bloco": "B03",
+      "palavras": 30,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 2,
+      "extras": [
+        {
+          "texto": "guarda a roupa.",
+          "em_s": 2.24
+        }
+      ],
+      "ppm_real": 140
+    },
+    {
+      "bloco": "B04",
+      "palavras": 37,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 154
+    },
+    {
+      "bloco": "B05",
+      "palavras": 40,
+      "cobertura_pct": 87.5,
+      "palavras_extras": 2,
+      "extras": [
+        {
+          "texto": "para o",
+          "em_s": 7.42
+        },
+        {
+          "texto": "para vimentar",
+          "em_s": 10.38
+        }
+      ],
+      "ppm_real": 181
+    },
+    {
+      "bloco": "B06",
+      "palavras": 40,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 1,
+      "extras": [
+        {
+          "texto": "o",
+          "em_s": 3.42
+        }
+      ],
+      "ppm_real": 175
+    }
+  ],
+  "alertas": []
+}

@@ -1,0 +1,64 @@
+{
+  "roteiro": "projetos/fruto-de-traicao/05-roteiro-v2.md",
+  "versao": 2,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 100,
+  "bloqueantes_reprovados": [],
+  "promessa": "Ver o Bananildo, orgulhoso e cego, abraçar como seus os filhos que são a cara de outras frutas, enquanto a Moranguete sorri sabendo de tudo.",
+  "onde_cumpre": "B04, quando a câmera abre na mesa e ele abraça o menino abacate e a menina pepino de olhos fechados dizendo 'Puxaram tudo do papai.', e B05, no sorriso de canto da Moranguete com 'Imagina, amor... eu?' depois do agradecimento.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {"id": "linguagem-falada", "nota": 2, "peso": 1},
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {
+      "bloco": "B01",
+      "tempo": "00:06",
+      "motivo": "Risco baixo. O escritório dura uns 12 s (13 s na voz real), e é o cenário mais fraco do vídeo. O L1 está aberto e o 'Sei...' fecha o bloco, então segura. O que não pode acontecer é a direção visual gastar as 3 imagens do B01 em planos parecidos: o colega desconfiado, o Bananildo orgulhoso e o 'Sei...' precisam ser três enquadramentos diferentes."
+    },
+    {
+      "bloco": "B04",
+      "tempo": "00:25",
+      "motivo": "Risco baixo, o mesmo da v1. O L2 fecha na revelação, e o falso alarme ('Família... eu preciso dizer uma coisa.') segura até o sorriso, desde que venha logo depois do 'Puxaram tudo do papai.'."
+    }
+  ],
+  "prioridades": [
+    "1. Opcional, não exige v3 (vai para a direção visual): no primeiro [VISUAL] do B04, ponha a Moranguete ao fundo, olhando para o marido, como na thumb. Hoje as Notas dizem que o primeiro quadro do B04 é a composição da thumb, mas o [VISUAL] não traz a Moranguete, então o quadro da thumb não existiria no vídeo. Se ela aparecer ao fundo sem o sorriso, o sorriso continua guardado para o close do B05.",
+    "2. Opcional (direção visual): no [VISUAL] do B03, deixe o topete do carteiro escapar por baixo do quepe ('quepe inclinado, com o topete à mostra'). O menino abacate do B04 tem 'o topete e o sorriso de galã do carteiro', mas o topete nunca aparece no pai. Com ele à mostra, o espectador liga o filho ao carteiro no primeiro segundo da revelação, sem depender só da espécie da fruta."
+  ],
+  "manter": [
+    "B01: 'Sabe onde a Moranguete tá agora, Bananildo?': o 'sabe' põe a fofoca e a tensão nas cinco primeiras palavras e ecoa o NÃO SABE do título",
+    "B01: a caneca MELHOR PAI DO MUNDO em primeiro plano e legível no frame 1, com o colega de sobrancelha erguida atrás; ela é erguida no brinde do B04",
+    "B01: 'Na academia, é? Sei...' como re-hook, curto e na voz certa do colega fofoqueiro",
+    "B02: o corte seco para 'Mais uma, princesa... só mais uma.', com a direção de voz contando a repetição",
+    "B02: 'Pelos filhos dele.' seguido do 'Dele...' do Pepinão, o melhor re-hook do roteiro: abre o L2 sem dizer nada explícito",
+    "B02: o figurino de camiseta folgada e moletom e o enquadramento de rostos e ombros; a academia fica no riso, na mão no ombro e no olhar",
+    "B03: 'Esse carteiro nunca atrasa, hein? Todo santo dia.' e o eco 'Todo santo dia, amor.' sem tirar os olhos da janela",
+    "B04: 'Puxaram tudo do papai.' de olhos fechados sobre a revelação",
+    "B04: o falso alarme 'Família... eu preciso dizer uma coisa.', com as crianças congelando e a Moranguete mexendo o café, tranquila",
+    "B04: a frase pedida pelo usuário quase literal ('Eu não sei o que eu seria sem a minha esposa... e os meus lindos filhos.')",
+    "B05: 'Imagina, amor... eu?': falsa modéstia para o marido, 'quem, eu?' para o espectador, e emenda no replay com a pergunta do colega",
+    "Os nomes Pepinão e Abacatudo nunca são ditos em voz alta, e as crianças aparecem só no café da manhã, sem fala",
+    "A escalada de dois amantes, que faz do título uma resposta literal: um filho de cada"
+  ],
+  "alertas_de_medicao": [
+    "86 palavras, 00:37 estimados a 150 ppm com 3 pausas, para uma meta de 00:40. A ferramenta não deu nenhum alerta. No ritmo real do canal em diálogo (cerca de 133 ppm), o vídeo deve ficar entre 40 e 42 s, dentro da faixa ideal do short.",
+    "B05 tem 3 palavras, cerca de 1,2 s. Um [PAUSA] não resolve: o narrar.py só transforma em silêncio o [PAUSA] entre duas falas do mesmo bloco. No começo do bloco ele é ignorado, e no fim vira reticências na última palavra. Se o sorriso precisar de mais tempo na tela, isso se resolve na montagem (segurar o último quadro antes do fade de 0,6 s), não no roteiro.",
+    "Mapa de loops sem buraco: em todos os blocos há pelo menos um loop ativo. A anotação do L3 agora descreve o que o B03 abre de verdade ('o carteiro também?') e o risco de desmascaramento que o B04 levanta. As anotações abre/fecha conferem com o texto.",
+    "Nenhum [VERIFICAR], o que está certo para um conteúdo ficcional sem fato verificável. Nenhuma frase proibida e nenhum CTA falado.",
+    "Falas: Bananildo 47, Colega 16, Moranguete 13 e Pepinão 10 palavras. Todas cabem numa respiração e combinam com o estilo de cada personagem no brief. A mais longa tem 15 palavras, com reticências no meio.",
+    "Voz do Pepinão: o narrar.py manda para o TTS o estilo do brief ('voz grave e arrastada') e, depois dele, a direção da fala ('contando a repetição'), além da nota geral 'sem arrastar'. Confira no teste de áudio se o bordão saiu como contagem de treino. Se sair sussurrado, refaça só essa fala."
+  ]
+}

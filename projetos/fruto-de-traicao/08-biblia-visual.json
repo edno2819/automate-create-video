@@ -1,0 +1,110 @@
+{
+  "projeto": "fruto-de-traicao",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Animação 3D de estúdio",
+    "descricao": "Animação 3D polida de longa-metragem, como a da novela das frutas: texturas lisas e brilhantes, cores saturadas, luz de cinema quente. A luz de novela vem de cada local e cena: escritório em claro-escuro, academia dourada e rosada, manhã ensolarada na casa que fica dramática no brinde e no sorriso final.",
+    "prompt_base": "big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light",
+    "negativo_base": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+    "regras_de_camera": "Vertical 9:16 com legenda embaixo: rostos e o essencial no centro do quadro, terço de baixo limpo; nas duas cenas da caneca o texto MELHOR PAI DO MUNDO entra por cima, no alto, então a caneca fica no centro. Diálogo em plano e contraplano, quem fala em close ou plano médio. Academia só em rostos e ombros, sem foco no corpo. Crianças só na cozinha, nunca na mesma imagem que o Pepinão ou o carteiro. O sorriso de canto da Moranguete fica guardado para o último quadro. O negativo contra nudez e pose sugestiva vai cena a cena, só nas imagens de adultos: nas cenas com as crianças ele fica de fora, porque termo sexual no mesmo prompt que uma criança, mesmo negado, tende a disparar o filtro do gerador."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Moranguete",
+      "referencia_en": "Moranguete the strawberry",
+      "descricao": "Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin",
+      "biblioteca": "biblioteca/personagens/moranguete",
+      "evolucao": [
+        {
+          "a_partir_de": "B02",
+          "nota": "academia",
+          "descricao": "Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a loose oversized pink short-sleeved gym t-shirt and loose heather-gray sweatpants, a modest sporty look"
+        },
+        {
+          "a_partir_de": "B03",
+          "nota": "em casa, de manhã",
+          "descricao": "Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "nome": "Bananildo",
+      "referencia_en": "Bananildo the banana",
+      "descricao": "Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist",
+      "biblioteca": "biblioteca/personagens/bananildo"
+    },
+    {
+      "id": "P03",
+      "nome": "Pepinão",
+      "referencia_en": "Pepinudo the cucumber",
+      "descricao": "Pepinudo the cucumber, an anthropomorphic cucumber adult man, his head a human-sized glossy dark-green cucumber with bumps and pale green stripes, heavy-lidded dark-brown eyes, thick dark eyebrows, a trimmed black goatee, mirrored orange sports sunglasses pushed up on his head, a tall heavily muscular bodybuilder physique with huge arms, broad shoulders and chest, V-shaped torso, narrow waist and thick muscular legs, cucumber-green skin, wearing a tight black sleeveless tank top, black shorts with neon-orange side stripes, white sneakers, a neon-orange whistle on a black lanyard and a black digital sports watch",
+      "biblioteca": "biblioteca/personagens/pepinudo",
+      "nota": "visual do Pepinudo da biblioteca, com o nome Pepinão; a referencia_en fica a da ficha para a imagem da biblioteca servir de referência"
+    },
+    {
+      "id": "P04",
+      "nome": "Colega",
+      "referencia_en": "the pineapple coworker",
+      "descricao": "the pineapple coworker, an anthropomorphic pineapple adult man, his head a large golden-brown pineapple with diamond-patterned skin and a tall spiky green leaf crown on top, sly narrow amber eyes, one bushy dark eyebrow permanently cocked, a thin mischievous half smile, a short round body with a small belly, golden-tan skin, wearing a white short-sleeved dress shirt, a loosened teal necktie, dark gray slacks and a black office headset hanging around his neck"
+    },
+    {
+      "id": "P05",
+      "nome": "Abacatudo (carteiro)",
+      "referencia_en": "Abacatudo the avocado",
+      "descricao": "Abacatudo the avocado, an anthropomorphic avocado adult man, his head a glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff sticking out from under the front of his cap, half-lidded confident hazel-green eyes, neat arched eyebrows, a dazzling white movie-star grin with one dimple, a fit athletic build with broad shoulders, avocado-green skin, wearing a navy-blue peaked mail carrier cap without any insignia, a fitted short-sleeved navy-blue uniform shirt, navy shorts, white sneakers and a worn brown leather mail carrier satchel slung across his chest"
+    },
+    {
+      "id": "P06",
+      "nome": "Menino abacate",
+      "referencia_en": "the avocado boy",
+      "descricao": "the avocado boy, a tiny anthropomorphic avocado little boy about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, his head a small glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff on top, a dazzling white movie-star grin with one dimple, big round hazel-green eyes, neat arched eyebrows, avocado-green skin, wearing a small navy-blue short-sleeved polo shirt"
+    },
+    {
+      "id": "P07",
+      "nome": "Menina pepino",
+      "referencia_en": "the cucumber girl",
+      "descricao": "the cucumber girl, a tiny anthropomorphic cucumber little girl about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, her head a small glossy dark-green cucumber with tiny bumps and pale green stripes, thick dark eyebrows with one raised, big dark-brown eyes with slightly heavy lids, tiny mirrored orange sports sunglasses pushed up on her head, cucumber-green skin, wearing a small black sleeveless dress with neon-orange trim"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Escritório do Bananildo",
+      "descricao": "a cramped gray open-plan office with fabric cubicle dividers, a computer monitor framed with blank yellow sticky notes, towers of paperwork, a wilted desk plant and a warm desk lamp, lit like a telenovela with dramatic low-key light, deep shadows and a cold blue glow from the screens",
+      "descricao_curta": "a gray fabric cubicle divider dotted with blank yellow sticky notes, a glowing monitor and paperwork stacks, deep shadows and a warm desk-lamp glow"
+    },
+    {
+      "id": "L02",
+      "nome": "Academia",
+      "descricao": "a bright modern gym with floor-to-ceiling mirrors, racks of colorful dumbbells and weight plates, a black rubber floor and padded weight benches, warm golden late-afternoon light with soft pink highlights and a romantic telenovela glow",
+      "descricao_curta": "softly blurred gym mirrors and a rack of colorful dumbbells, warm golden light with soft pink highlights"
+    },
+    {
+      "id": "L03",
+      "nome": "Fachada da casa",
+      "descricao": "a cozy pastel-blue suburban house with a white picket fence and gate, a short stone path to a mint-green front door, flower beds, a kitchen window with red-and-white checkered curtains beside the door, early morning sunlight with long soft shadows",
+      "descricao_curta": "a pastel-blue house wall with a white picket fence and flower beds in early morning sunlight"
+    },
+    {
+      "id": "L04",
+      "nome": "Cozinha e mesa do café",
+      "descricao": "a cheerful family kitchen in warm morning sunlight, a round wooden breakfast table with a red-and-white checkered tablecloth, bread, a jug of orange juice, cereal bowls, coffee cups and a folded gray newspaper, a window with red-and-white checkered curtains over the sink, pastel cabinets",
+      "descricao_curta": "warm blurred pastel kitchen cabinets and red-and-white checkered curtains in soft morning sunlight"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "O01",
+      "nome": "Caneca MELHOR PAI DO MUNDO",
+      "descricao": "a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all",
+      "nota": "a frase não vai na imagem gerada: entra como texto_na_tela nas cenas B01-01 e B04-02 (o brinde)"
+    },
+    {
+      "id": "O02",
+      "nome": "Jornal",
+      "descricao": "a rolled-up morning newspaper held by a red rubber band, its gray pages blank and unreadable"
+    }
+  ]
+}

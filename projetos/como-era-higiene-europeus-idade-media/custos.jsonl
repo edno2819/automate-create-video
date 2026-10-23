@@ -1,0 +1,27 @@
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B05-01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "L02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "L01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "L03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "P01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "P02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B01-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B01-01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B01-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B02-01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B02-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B02-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B03-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B03-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B03-04", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B04-01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B04-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B04-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B04-04", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B05-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B05-04", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B05-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B06-01", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B06-02", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B06-03", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "imagem", "modelo": "gemini-3.1-flash-image", "uso": {}, "item": "B06-04", "estimado": true}
+{"quando": "2026-10-22T10:21:48", "servico": "narracao", "modelo": "gemini-3.8-flash-tts", "uso": {"candidatesTokenCount": 1959, "candidatesTokensDetails": [{"modality": "AUDIO", "tokenCount": 1959}]}, "estimado": true, "segundos": 78.3}

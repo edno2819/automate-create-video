@@ -1,0 +1,9 @@
+{
+  "sobre": "Padrões do canal, usados quando o brief do projeto não define o campo. O brief sempre tem prioridade.",
+  "narracao": {
+    "fornecedor": "gemini",
+    "voz": "Sadaltager",
+    "escolhida_em": "2026-10-20",
+    "motivo": "escolhida pelo usuário num teste com Charon, Algenib e Sadaltager (projeto higiene-idade-media)"
+  }
+}

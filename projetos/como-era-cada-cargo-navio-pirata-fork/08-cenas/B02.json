@@ -1,0 +1,43 @@
+[
+  {
+    "trecho": "O capitão Charles Vane se recusou a atacar um navio,",
+    "tipo": "ilustracao",
+    "fonte": "internet",
+    "busca": ["Charles Vane pirate engraving", "Charles Vane pirate", "pirate captain engraving 1724"],
+    "texto_na_tela": "CAPITÃO CHARLES VANE",
+    "descricao": "Prova documental: a gravura de época de Charles Vane, do livro de Johnson (1724).",
+    "enquadramento": "close",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "an early 18th-century pirate captain in a dark coat and tricorn hat on a ship's deck, lowering his spyglass and turning away from a distant merchant ship while his crew glares at him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "e a tripulação trocou ele por Calico Jack.",
+    "tipo": "ilustracao",
+    "fonte": "internet",
+    "busca": ["John Rackham engraving", "Calico Jack Rackham", "Jack Rackham pirate"],
+    "texto_na_tela": "CALICO JACK",
+    "descricao": "A gravura de época de John Rackham, o Calico Jack, o substituto eleito.",
+    "enquadramento": "close",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a grinning pirate in a striped calico coat cheered by his crew on a sloop deck at sunset, a deposed captain led away in the background",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mas nem o capitão mandava sozinho.",
+    "tipo": "cartela",
+    "texto_na_tela": "QUEM MANDAVA JUNTO?",
+    "descricao": "Re-hook: o chapéu do capitão sobre as regras e, ao lado, uma segunda mão firme sobre o pergaminho. Alguém divide o comando.",
+    "enquadramento": "detalhe",
+    "personagens": ["P03"],
+    "local": "L01",
+    "objetos": ["O02"],
+    "prompt_cena": "a battered black tricorn hat with a single gray feather resting on the ship's articles on a table, and beside it the quartermaster's heavy hand pressed flat on the parchment, claiming it, only his hand and forearm visible, lantern light",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

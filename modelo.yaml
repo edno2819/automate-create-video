@@ -1,0 +1,184 @@
+# Pedido de vídeo
+#
+# Só o tema é obrigatório (ou o título, ou a descrição). Deixe vazio o que quiser que o sistema decida: na
+# primeira etapa ele completa este pedido, mostra tudo para você aprovar e só depois começa a pesquisa.
+#
+# Uso: copie para pedidos/<nome>.yaml, preencha o tema e peça "/novo-video pedidos/<nome>.yaml".
+# Escreva textos entre aspas e responda sim ou não nos campos de sim/não.
+# Gerado por ferramentas/pedido.py modelo: para mudar campos, comentários ou padrões, edite CAMPOS no
+# script e gere o modelo de novo.
+
+# ── O vídeo ───────────────────────────────────────────────────────────────────────────────────────────
+
+# Assunto do vídeo, numa frase. É o único campo obrigatório; se você preencher só o título ou a
+# descrição, o sistema tira o tema deles.
+tema: "Fruto de traição"
+
+# O que o vídeo deve contar: o recorte, os pontos que não podem faltar e o que evitar.
+descricao: O bananildo está no trabalho falando com seu colega de trabalho e ele pergunta onde está a esposa  moranguete do bananildo
+enquanto ele vai trabalhar todos os dias e o bananildo responde que ela está cuidando dos filhos e cuidando do corpo para ele na cademia.
+Corta para ela na academia com o pepinão e ela está se divertindo e rindo com ele e treinando bem próximos se tocando.
+Depois no outro dia na hora do café da manhã tá a familia reunida tomando café e tem uma cena do carteiro abacatudo jogando jornal na frente da casa.
+E na cena da cozinha com a familia reunida eu quero que as crianças sejam uma um menino abacate e uma menina pepino (frutos de traição) e o pai fala algo como
+eu não sei o que "eu seria sem minha esposa e meus lindos filhos". Corta para a moranguete fazendo um sorriso como se soubesse de tudo.
+
+# Material de apoio para os agentes: a trend, o universo, os personagens, referências de estilo. Pode ser
+# longo (escreva "contexto: |" e o texto nas linhas de baixo, recuado) ou o caminho de um arquivo .md.
+contexto:  "pedidos/contextos/novela-das-frutas.md"
+
+# Nome da pasta do projeto em projetos/: curto, minúsculas, sem acentos, com hífens.
+slug:
+
+# Título do vídeo. Vazio: o estrategista propõe títulos a partir dos dados de trends.
+titulo:
+
+# longo (8 a 15 min, horizontal) | short (30 s a 3 min, vertical)
+formato: 40s
+
+# Duração desejada, "mm:ss". Padrão: "12:00" no longo, "00:45" no short.
+duracao_alvo:
+
+# Tom do texto e da voz. Ex.: "sombrio e sóbrio, sem julgamento explícito".
+tom:
+
+# factual | inspirado-em-fatos (contexto real, personagens compostos) | ficcional
+natureza:
+
+# Para quem é o vídeo.
+publico:
+
+# Nicho em que o vídeo compete (orienta a pesquisa de trends).
+nicho:
+
+# Padrão: pt-BR.
+idioma:
+
+# ── Imagens ───────────────────────────────────────────────────────────────────────────────────────────
+
+# Estilo de desenho das imagens geradas por IA: técnica, traço, luz e paleta. Ex.: "pintura digital
+# sombria, pinceladas visíveis, luz de cinema, paleta dessaturada com acentos vermelhos".
+estilo_artistico: 
+
+visual:
+  # 16:9 | 9:16 | 1:1 | 4:5. Padrão: 16:9 no longo, 9:16 no short.
+  proporcao: 9:16
+
+  # Ritmo de troca das imagens, em segundos (2,5 a 12). Padrão: 7 no longo, 3 no short.
+  segundos_por_imagem:
+
+  # Número exato de imagens no vídeo. Vazio: livre, pelo ritmo acima.
+  numero_de_imagens:
+
+  # sim: além das imagens de IA, pode usar imagens reais de bancos livres (Wikimedia Commons, Openverse),
+  # como documentos, obras de época, mapas, lugares e objetos reais. Só domínio público e Creative Commons
+  # que permitem uso comercial; os créditos saem em 09-imagens/creditos.md. não: só imagens de IA.
+  imagens_da_internet: não
+
+  # Modelo das imagens de IA: rascunho (barato) | padrao | maxima (bem mais caro). Padrão: padrao.
+  qualidade:
+
+# ── Narração ──────────────────────────────────────────────────────────────────────────────────────────
+
+narracao:
+  # sim | não. "não": vídeo sem voz, a história vai só na legenda (e na música). Padrão: sim.
+  ativa: não
+
+  # gemini (vozes naturais, pago) | espeak (voz robótica, local e grátis: para testar falas, ritmo e montagem
+  # antes de pagar). Padrão: gemini.
+  fornecedor:
+
+  # Voz do narrador no Gemini TTS (lista: python3 skills/produzir-video/scripts/narrar.py --listar-vozes).
+  # Padrão: a voz do canal, em biblioteca/canal.json.
+  voz:
+
+  # Como o narrador fala. Ex.: "ritmo rápido, tom de quem revela um segredo". Vazio: vem do tom.
+  estilo:
+
+# ── Personagens ───────────────────────────────────────────────────────────────────────────────────────
+
+# Quem fala com voz própria, além do narrador. No roteiro, a fala de cada um é a linha que começa com
+# [FALA: Nome]; o resto é do narrador. Vazio: o sistema decide (só o narrador, ou os personagens que a
+# história pede). Um item por personagem; só o nome é obrigatório:
+#   - nome: "Moranguete"
+#     voz: "Leda"          vazio: o sistema escolhe pela personalidade e pelo gênero
+#     estilo: "doce no caixa, vira choro dramático quando é desmascarada"    como fala
+#     descricao: "um morango de olhos grandes e brilhantes"    quem é e como é (vai para as imagens)
+#     cor: "rosa"          cor do destaque da legenda nas falas dele. Vazio: automática
+# Atalho, só com as vozes: personagens: {Moranguete: Leda, Abacate: Puck}
+personagens:
+  - nome: "Moranguete"
+    estilo: "doce e falsa, vira choro dramático quando é desmascarada"
+  - nome: "Bananildo"
+    estilo: "trabalhador de escritório e marido da moranguete"
+  - nome: "Pepinão"
+    estilo: "personal trainer galã, confiante, voz grave e arrastada"
+
+# ── Legendas ──────────────────────────────────────────────────────────────────────────────────────────
+
+legendas:
+  # Legenda queimada no vídeo, no tempo da voz. Padrão: sim.
+  ativas:
+
+  # Fundo colorido atrás da palavra que está sendo dita. Padrão: sim.
+  destacar_palavra:
+
+  # Cor do fundo da palavra: "#RRGGBB" (entre aspas) ou amarelo, verde, roxo, vermelho, azul, rosa, laranja,
+  # ciano. Padrão: amarelo ("#FFD400"). A cor da letra em cima dele (preta ou branca) é automática.
+  cor_destaque:
+
+  # Cor das letras. Padrão: branco ("#FFFFFF").
+  cor_texto:
+
+  # Legenda em caixa alta. Padrão: não.
+  maiusculas:
+
+  # Máximo de palavras na tela. Vazio: 4 no vertical, 7 no horizontal.
+  palavras_por_legenda:
+
+  # baixo | centro | alto. Padrão: baixo.
+  posicao:
+
+# ── Música de fundo ───────────────────────────────────────────────────────────────────────────────────
+# Música famosa costuma gerar reivindicação de Content ID: o dono pode ficar com a monetização ou
+# bloquear o vídeo. Para monetizar, use música licenciada ou da Biblioteca de Áudio do YouTube.
+
+musica:
+  # Música de fundo. Padrão: sim se nome ou arquivo estiver preenchido.
+  ativa:
+
+  # Música e artista. Ex.: "Stranger - Lory". O sistema não baixa música: ele procura em biblioteca/musicas/
+  # um arquivo com essas palavras no nome (stranger-lory.mp3).
+  nome: tema_novela_frutas.mp3
+
+  # Ou o caminho do arquivo de áudio (mp3, m4a, wav, ogg, flac).
+  arquivo:
+
+  # Ponto da música em que o vídeo começa, "mm:ss" (ex.: o refrão). Padrão: "00:00".
+  inicio:
+
+  # Volume da música por baixo da narração, em % (1 a 100); ela abaixa sozinha quando a voz fala.
+  # Sem narração, a música toca no volume normal. Padrão: 20.
+  volume:
+
+# ── Pesquisa ──────────────────────────────────────────────────────────────────────────────────────────
+
+# Links de vídeos cuja estrutura serve de modelo. Padrão: o vídeo do Dor Pintada.
+referencias:
+
+# Canais de referência, como "@DorPintada". Padrão: ["@DorPintada"].
+canais_referencia:
+
+# Canais concorrentes, para a pesquisa de trends.
+concorrentes:
+
+# Regras extras para o roteiro e as imagens.
+restricoes:
+
+# ── Produção ──────────────────────────────────────────────────────────────────────────────────────────
+
+producao:
+  # Até onde ir: roteiro | visual (cenas e prompts) | video (imagens, voz e montagem). Padrão: video.
+  ate:
+
+  # Gerar shorts a partir do vídeo longo. Padrão: sim no longo.
+  cortes: não

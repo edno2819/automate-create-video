@@ -1,0 +1,77 @@
+{
+  "tema": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+  "descricao": "Mostre como é custoso e difícil escalar o monte evereste, mostrando o custo em reais e q quantidade de pessoas que já conseguiu cada nível, diga ga quantas pessoas já morreram. Inicie com um ganho tipo \"vc sabia que tem mais pessoas bilhonarias do que pro pico do everest?\"",
+  "contexto": null,
+  "slug": "escalar-evereste-conquistas-mais-dificeis-mundo",
+  "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+  "formato": "short",
+  "duracao_alvo": "01:00",
+  "tom": "curioso e impactante, ritmo acelerado de revelação em escada, números ditos com peso, sem sensacionalismo com as mortes",
+  "natureza": "factual",
+  "publico": "jovens adultos brasileiros curiosos por aventura, números chocantes e desafios extremos",
+  "nicho": "curiosidades e desafios extremos (aventura, montanhismo, números do mundo)",
+  "idioma": "pt-BR",
+  "estilo_artistico": "estilo 2D como montagem de papel, como se eu tivesse desenhado e recordado bonecos, itens e fizesse uma montagem com sobrepocissão.",
+  "imagens_referencia": [],
+  "visual": {
+    "proporcao": "9:16",
+    "segundos_por_imagem": 3,
+    "numero_de_imagens": null,
+    "imagens_da_internet": false,
+    "qualidade": "padrao"
+  },
+  "narracao": {
+    "ativa": true,
+    "fornecedor": "gemini",
+    "voz": "Algieba",
+    "estilo": "ritmo rápido, tom de quem revela um segredo absurdo; pausa curta antes de cada número",
+    "palavras_por_minuto": 180
+  },
+  "personagens": [],
+  "legendas": {
+    "ativas": true,
+    "destacar_palavra": true,
+    "cor_destaque": "#FFD400",
+    "cor_texto": "#FFFFFF",
+    "maiusculas": false,
+    "palavras_por_legenda": null,
+    "posicao": "baixo"
+  },
+  "musica": {
+    "ativa": true,
+    "nome": null,
+    "arquivo": "biblioteca/musicas/audiocleaner-download-stranger.mp3",
+    "inicio": "00:00",
+    "volume": 20
+  },
+  "referencias": [
+    {
+      "url": "https://www.youtube.com/watch?v=DYAYD0UYvvE",
+      "esqueleto": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json"
+    }
+  ],
+  "canais_referencia": [
+    "@DorPintada"
+  ],
+  "concorrentes": [],
+  "restricoes": [
+    "Conferir no dossiê o gancho 'mais bilionários do que pessoas no cume': se os números atuais (Forbes contra cumes do Himalayan Database) não sustentarem a frase, troque por uma comparação verdadeira com a mesma surpresa, sem inventar dado",
+    "Valores em reais convertidos pelo câmbio atual, com a data da conversão e a faixa de preço (expedição barata e premium)",
+    "Contar quantas pessoas chegaram a cada nível (acampamento base, campos 1 a 4, cume) só com números de fonte",
+    "Mortes ditas como informação, sem imagem de corpo nem descrição gráfica"
+  ],
+  "trends": {
+    "ativa": false,
+    "links": []
+  },
+  "producao": {
+    "ate": "video",
+    "cortes": false
+  },
+  "pedido": {
+    "arquivo": "00-pedido.yaml",
+    "sha1": "800402d69119017de4161fa0a3042252d1ffe1ee",
+    "gerado_em": "2026-10-22"
+  },
+  "criado_em": "2026-10-22"
+}

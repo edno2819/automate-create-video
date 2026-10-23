@@ -1,0 +1,49 @@
+[
+  {
+    "trecho": "Pra eles, mau cheiro causava doença. Ar podre trazia a peste.",
+    "tipo": "ilustracao",
+    "descricao": "O miasma tornado visível: uma névoa esverdeada rastejando pela rua e entrando pelas janelas de Paris, gente tapando o rosto. A teoria dos médicos como ameaça concreta.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "a thick sickly greenish fog creeping low through the muddy street and curling into open shutters, townsfolk pressing cloths to their faces and hurrying away from it, a menacing dusk sky, the fog painted almost like a living creature",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Então quem podia levava uma bolinha de perfume no cinto.",
+    "tipo": "ilustracao",
+    "descricao": "Um cortesão de gola de pele leva ao nariz, pela corrente, o pomander dourado pendurado no cinto, em êxtase exagerado. A solução dos ricos.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "objetos": ["O01"],
+    "prompt_cena": "a plump smug courtier with a heavy fur collar and a velvet cap lifting the gold pomander on its chain from his belt up to his nose, eyes closed in exaggerated bliss, little finger raised, a dark palace corridor behind him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Sem dinheiro? Laranja oca, esponja de vinagre, colada no nariz.",
+    "tipo": "ilustracao",
+    "descricao": "O 'você' de novo, agora de frente: o camponês com uma laranja oca apertada contra o nariz, olhos arregalados. A versão pobre do perfume.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the peasant pressing a hollowed-out orange peel stuffed with a vinegar-soaked sponge hard against his nose with both hands, eyes wide and watering, cheeks puffed, a drop of vinegar running down his chin, deadly serious expression",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mas perfume nenhum salvou o rei.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe da mão real cheia de anéis, manga de arminho, apertando o pomander dourado no parapeito: o perfume mais caro do reino, prestes a falhar. O rei entra pela mão antes do rosto.",
+    "enquadramento": "detalhe",
+    "personagens": ["P02"],
+    "local": "L03",
+    "objetos": ["O01"],
+    "prompt_cena": "the king's ringed hand emerging from an ermine-lined blue sleeve, clutching the gold pomander tightly against the stone window sill, knuckles white, the rest of the king lost in shadow, ominous stillness",
+    "movimento": "estatico",
+    "transicao": "corte"
+  }
+]

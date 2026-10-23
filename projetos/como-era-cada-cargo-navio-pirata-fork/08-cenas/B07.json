@@ -1,0 +1,40 @@
+[
+  {
+    "trecho": "Até o músico era sequestrado, pra tocar violino",
+    "tipo": "ilustracao",
+    "texto_na_tela": "MÚSICO",
+    "descricao": "O músico capturado, pálido, aperta o violino contra o peito; um punho de pirata agarra o colarinho dele por trás.",
+    "enquadramento": "close",
+    "personagens": ["P02"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the musician clutching his violin to his chest, a pirate's rough fist gripping his collar from behind, wide-eyed and pale, forced to play",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "no ataque e assustar o outro navio.",
+    "tipo": "ilustracao",
+    "descricao": "Visto de baixo, contra o pôr do sol: o músico toca freneticamente na amurada, entre piratas uivando, com o casco do navio atacado bem ao lado.",
+    "enquadramento": "contra-plongee",
+    "personagens": ["P02"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the musician sawing frantically at his violin at the ship's rail, surrounded by howling pirates raising cutlasses and boarding hooks, the hull of a frightened merchant ship looming close alongside, drifting smoke",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "E quem quebrava as regras? Andava na prancha?",
+    "tipo": "ilustracao",
+    "fonte": "internet",
+    "busca": ["Howard Pyle walking the plank", "walking the plank illustration", "walking the plank"],
+    "descricao": "O mito em imagem real: a pintura de Howard Pyle (1887) que ajudou a fixar a prancha no imaginário. Abre o momento documental que segue no B08.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "objetos": [],
+    "prompt_cena": "a blindfolded man with bound hands edging along a plank jutting from a pirate ship's rail over the dark sea, pirates jeering behind him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

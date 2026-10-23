@@ -1,0 +1,639 @@
+{
+  "projeto": "fruto-de-traicao",
+  "roteiro": "projetos/fruto-de-traicao/06-roteiro-final.md",
+  "gerado_em": "2026-10-21",
+  "proporcao": "9:16",
+  "duracao_estimada": "00:37",
+  "total_cenas": 16,
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "onde": "B02-03",
+      "mensagem": "0.4 s: troca de imagem rápida demais (mínimo 1.5 s); junte com a vizinha"
+    },
+    {
+      "nivel": "aviso",
+      "onde": "B03-01",
+      "mensagem": "fala de bananildo, mas quem fala não está na imagem (ok se for uma reação de quem ouve)"
+    },
+    {
+      "nivel": "aviso",
+      "onde": "B03-02",
+      "mensagem": "fala de bananildo, mas quem fala não está na imagem (ok se for uma reação de quem ouve)"
+    },
+    {
+      "nivel": "aviso",
+      "onde": "B04-04",
+      "mensagem": "fala de bananildo, mas quem fala não está na imagem (ok se for uma reação de quem ouve)"
+    },
+    {
+      "nivel": "aviso",
+      "onde": "B05-01",
+      "mensagem": "1.2 s: troca de imagem rápida demais (mínimo 1.5 s); junte com a vizinha"
+    }
+  ],
+  "cenas": [
+    {
+      "trecho": "Sabe onde a Moranguete tá agora, Bananildo?",
+      "tipo": "ilustracao",
+      "texto_na_tela": "MELHOR PAI DO MUNDO",
+      "descricao": "Primeiro quadro: a caneca do Bananildo em primeiro plano, no centro (a frase dela entra por cima, no alto), e o Colega logo atrás, debruçado na divisória, de sobrancelha erguida. A ironia está no quadro 1.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P02",
+        "P04"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "Bananildo the banana, seen from behind at the right edge, holds the white mug up in the foreground, the mug sharp in the center of the frame; just behind it, the pineapple coworker leans over the cubicle divider facing him, one eyebrow cocked, a gossipy half smile, dramatic telenovela lighting",
+      "negativo": "muscles, muscular build",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. Bananildo the banana, seen from behind at the right edge, holds the white mug up in the foreground, the mug sharp in the center of the frame; just behind it, the pineapple coworker leans over the cubicle divider facing him, one eyebrow cocked, a gossipy half smile, dramatic telenovela lighting. Characters: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist; the pineapple coworker, an anthropomorphic pineapple adult man, his head a large golden-brown pineapple with diamond-patterned skin and a tall spiky green leaf crown on top, sly narrow amber eyes, one bushy dark eyebrow permanently cocked, a thin mischievous half smile, a short round body with a small belly, golden-tan skin, wearing a white short-sleeved dress shirt, a loosened teal necktie, dark gray slacks and a black office headset hanging around his neck. Setting: a cramped gray open-plan office with fabric cubicle dividers, a computer monitor framed with blank yellow sticky notes, towers of paperwork, a wilted desk plant and a warm desk lamp, lit like a telenovela with dramatic low-key light, deep shadows and a cold blue glow from the screens. Props: a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build",
+      "referencias": [
+        "P02",
+        "P04",
+        "L01",
+        "O01"
+      ],
+      "id": "B01-01",
+      "bloco": "B01",
+      "palavras": [
+        0,
+        7
+      ],
+      "inicio": "00:00",
+      "fim": "00:03",
+      "inicio_s": 0.0,
+      "duracao_s": 2.8,
+      "falas": [
+        "Colega (desconfiado)"
+      ]
+    },
+    {
+      "trecho": "Você aqui todo santo dia...",
+      "tipo": "ilustracao",
+      "descricao": "O Bananildo afundado na mesa, entre pilhas de papel, e o Colega debruçado sobre ele: o 'todo santo dia' do trabalho.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P02",
+        "P04"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "Bananildo the banana slumps at his cluttered desk between towers of paperwork, exhausted, typing; the pineapple coworker leans over the divider above him, pointing at him with a sly knowing look, the white mug beside the keyboard, faces in the middle of the frame",
+      "negativo": "muscles, muscular build",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. Bananildo the banana slumps at his cluttered desk between towers of paperwork, exhausted, typing; the pineapple coworker leans over the divider above him, pointing at him with a sly knowing look, the white mug beside the keyboard, faces in the middle of the frame. Characters: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist; the pineapple coworker, an anthropomorphic pineapple adult man, his head a large golden-brown pineapple with diamond-patterned skin and a tall spiky green leaf crown on top, sly narrow amber eyes, one bushy dark eyebrow permanently cocked, a thin mischievous half smile, a short round body with a small belly, golden-tan skin, wearing a white short-sleeved dress shirt, a loosened teal necktie, dark gray slacks and a black office headset hanging around his neck. Setting: a cramped gray open-plan office with fabric cubicle dividers, a computer monitor framed with blank yellow sticky notes, towers of paperwork, a wilted desk plant and a warm desk lamp, lit like a telenovela with dramatic low-key light, deep shadows and a cold blue glow from the screens. Props: a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build",
+      "referencias": [
+        "P02",
+        "P04",
+        "L01",
+        "O01"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "palavras": [
+        7,
+        12
+      ],
+      "inicio": "00:03",
+      "fim": "00:05",
+      "inicio_s": 2.8,
+      "duracao_s": 2.0,
+      "falas": [
+        "Colega (desconfiado)"
+      ]
+    },
+    {
+      "trecho": "Ela cuida das crianças.",
+      "tipo": "ilustracao",
+      "descricao": "Close do Bananildo, orgulhoso e cansado, abraçado à caneca: a ingenuidade dele.",
+      "enquadramento": "close",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L01",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "Bananildo the banana smiles with tired proud eyes behind his round glasses, hugging the white mug against his chest, head tilted, utterly naive and in love, a warm desk-lamp glow on his face",
+      "negativo": "muscles, muscular build",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Bananildo the banana smiles with tired proud eyes behind his round glasses, hugging the white mug against his chest, head tilted, utterly naive and in love, a warm desk-lamp glow on his face. Character: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist. Setting: a gray fabric cubicle divider dotted with blank yellow sticky notes, a glowing monitor and paperwork stacks, deep shadows and a warm desk-lamp glow. Props: a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build",
+      "referencias": [
+        "P02",
+        "L01",
+        "O01"
+      ],
+      "id": "B01-03",
+      "bloco": "B01",
+      "palavras": [
+        12,
+        16
+      ],
+      "inicio": "00:05",
+      "fim": "00:06",
+      "inicio_s": 4.8,
+      "duracao_s": 1.6,
+      "falas": [
+        "Bananildo (orgulhoso e cansado)"
+      ]
+    },
+    {
+      "trecho": "E cuida do corpo pra mim, lá na academia.",
+      "tipo": "ilustracao",
+      "descricao": "O Bananildo, recostado, faz muque com o braço fino, todo orgulhoso; atrás da divisória, o Colega segura o riso.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P02",
+        "P04"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "Bananildo the banana leans back in his office chair and proudly flexes one skinny noodle arm, beaming; behind the cubicle divider, the pineapple coworker presses his lips together, holding back a smirk, eyes sliding sideways, dramatic office lighting",
+      "negativo": "muscles, muscular build",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. Bananildo the banana leans back in his office chair and proudly flexes one skinny noodle arm, beaming; behind the cubicle divider, the pineapple coworker presses his lips together, holding back a smirk, eyes sliding sideways, dramatic office lighting. Characters: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist; the pineapple coworker, an anthropomorphic pineapple adult man, his head a large golden-brown pineapple with diamond-patterned skin and a tall spiky green leaf crown on top, sly narrow amber eyes, one bushy dark eyebrow permanently cocked, a thin mischievous half smile, a short round body with a small belly, golden-tan skin, wearing a white short-sleeved dress shirt, a loosened teal necktie, dark gray slacks and a black office headset hanging around his neck. Setting: a cramped gray open-plan office with fabric cubicle dividers, a computer monitor framed with blank yellow sticky notes, towers of paperwork, a wilted desk plant and a warm desk lamp, lit like a telenovela with dramatic low-key light, deep shadows and a cold blue glow from the screens. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build",
+      "referencias": [
+        "P02",
+        "P04",
+        "L01"
+      ],
+      "id": "B01-04",
+      "bloco": "B01",
+      "palavras": [
+        16,
+        25
+      ],
+      "inicio": "00:06",
+      "fim": "00:10",
+      "inicio_s": 6.4,
+      "duracao_s": 3.6,
+      "falas": [
+        "Bananildo (orgulhoso e cansado)"
+      ]
+    },
+    {
+      "trecho": "Na academia, é? Sei...",
+      "tipo": "ilustracao",
+      "descricao": "Close do Colega no deboche: olhos apertados, sobrancelha lá em cima. Ele sabe.",
+      "enquadramento": "close",
+      "personagens": [
+        "P04"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the pineapple coworker narrows his eyes, one eyebrow cocked high, a slow sarcastic half smile, chin resting on his hand over the cubicle divider, a sideways glance full of suspicion, harsh dramatic side light",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The pineapple coworker narrows his eyes, one eyebrow cocked high, a slow sarcastic half smile, chin resting on his hand over the cubicle divider, a sideways glance full of suspicion, harsh dramatic side light. Character: the pineapple coworker, an anthropomorphic pineapple adult man, his head a large golden-brown pineapple with diamond-patterned skin and a tall spiky green leaf crown on top, sly narrow amber eyes, one bushy dark eyebrow permanently cocked, a thin mischievous half smile, a short round body with a small belly, golden-tan skin, wearing a white short-sleeved dress shirt, a loosened teal necktie, dark gray slacks and a black office headset hanging around his neck. Setting: a gray fabric cubicle divider dotted with blank yellow sticky notes, a glowing monitor and paperwork stacks, deep shadows and a warm desk-lamp glow. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+      "referencias": [
+        "P04",
+        "L01"
+      ],
+      "id": "B01-05",
+      "bloco": "B01",
+      "palavras": [
+        25,
+        29
+      ],
+      "inicio": "00:10",
+      "fim": "00:12",
+      "inicio_s": 10.0,
+      "duracao_s": 1.6,
+      "falas": [
+        "Colega (com deboche)"
+      ]
+    },
+    {
+      "trecho": "Mais uma, princesa... só mais uma. E o maridão?",
+      "tipo": "ilustracao",
+      "descricao": "Corte seco para a academia: por cima do ombro do Pepinão, que apoia a mão no ombro dela, a Moranguete de camiseta rosa folgada faz rosca sentada com o halter rosa; os dois rindo, olho no olho. Só rostos e ombros.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P03",
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "Pepinudo the cucumber, in the foreground seen from behind his shoulder, rests one hand on the shoulder of Moranguete the strawberry, seated on a weight bench curling a small pink dumbbell up near her shoulder; both laughing, eye to eye; only their faces and shoulders in view",
+      "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. Pepinudo the cucumber, in the foreground seen from behind his shoulder, rests one hand on the shoulder of Moranguete the strawberry, seated on a weight bench curling a small pink dumbbell up near her shoulder; both laughing, eye to eye; only their faces and shoulders in view. Characters: Pepinudo the cucumber, an anthropomorphic cucumber adult man, his head a human-sized glossy dark-green cucumber with bumps and pale green stripes, heavy-lidded dark-brown eyes, thick dark eyebrows, a trimmed black goatee, mirrored orange sports sunglasses pushed up on his head, a tall heavily muscular bodybuilder physique with huge arms, broad shoulders and chest, V-shaped torso, narrow waist and thick muscular legs, cucumber-green skin, wearing a tight black sleeveless tank top, black shorts with neon-orange side stripes, white sneakers, a neon-orange whistle on a black lanyard and a black digital sports watch; Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a loose oversized pink short-sleeved gym t-shirt and loose heather-gray sweatpants, a modest sporty look. Setting: a bright modern gym with floor-to-ceiling mirrors, racks of colorful dumbbells and weight plates, a black rubber floor and padded weight benches, warm golden late-afternoon light with soft pink highlights and a romantic telenovela glow. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "referencias": [
+        "P03",
+        "P01@B02",
+        "L02"
+      ],
+      "id": "B02-01",
+      "bloco": "B02",
+      "palavras": [
+        0,
+        9
+      ],
+      "inicio": "00:12",
+      "fim": "00:15",
+      "inicio_s": 11.6,
+      "duracao_s": 3.6,
+      "falas": [
+        "Pepinão (grave, contando a repetição)"
+      ]
+    },
+    {
+      "trecho": "Fazendo hora extra. Pelos filhos dele.",
+      "tipo": "ilustracao",
+      "descricao": "Close da Moranguete rindo, doce e despreocupada, olhando para o Pepinão fora do quadro.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "Moranguete the strawberry laughs sweetly, eyes half closed, one hand at her cheek, glancing up at someone off-screen, playful and carefree, the small pink dumbbell resting on her shoulder, face and shoulders only",
+      "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Moranguete the strawberry laughs sweetly, eyes half closed, one hand at her cheek, glancing up at someone off-screen, playful and carefree, the small pink dumbbell resting on her shoulder, face and shoulders only. Character: Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a loose oversized pink short-sleeved gym t-shirt and loose heather-gray sweatpants, a modest sporty look. Setting: softly blurred gym mirrors and a rack of colorful dumbbells, warm golden light with soft pink highlights. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "referencias": [
+        "P01@B02",
+        "L02"
+      ],
+      "id": "B02-02",
+      "bloco": "B02",
+      "palavras": [
+        9,
+        15
+      ],
+      "inicio": "00:15",
+      "fim": "00:19",
+      "inicio_s": 15.2,
+      "duracao_s": 3.4,
+      "falas": [
+        "Moranguete (rindo, doce)"
+      ]
+    },
+    {
+      "trecho": "Dele...",
+      "tipo": "ilustracao",
+      "descricao": "Close do Pepinão no deboche: sobrancelha erguida, apito mordido no canto da boca, os óculos laranja espelhados no alto da cabeça (a pista que volta na menina pepino).",
+      "enquadramento": "close",
+      "personagens": [
+        "P03"
+      ],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "Pepinudo the cucumber raises one thick eyebrow, the neon-orange whistle bitten in the corner of his mouth, a slow mocking smirk, the mirrored orange sunglasses on top of his head flashing in the light",
+      "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Pepinudo the cucumber raises one thick eyebrow, the neon-orange whistle bitten in the corner of his mouth, a slow mocking smirk, the mirrored orange sunglasses on top of his head flashing in the light. Character: Pepinudo the cucumber, an anthropomorphic cucumber adult man, his head a human-sized glossy dark-green cucumber with bumps and pale green stripes, heavy-lidded dark-brown eyes, thick dark eyebrows, a trimmed black goatee, mirrored orange sports sunglasses pushed up on his head, a tall heavily muscular bodybuilder physique with huge arms, broad shoulders and chest, V-shaped torso, narrow waist and thick muscular legs, cucumber-green skin, wearing a tight black sleeveless tank top, black shorts with neon-orange side stripes, white sneakers, a neon-orange whistle on a black lanyard and a black digital sports watch. Setting: softly blurred gym mirrors and a rack of colorful dumbbells, warm golden light with soft pink highlights. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+      "referencias": [
+        "P03",
+        "L02"
+      ],
+      "id": "B02-03",
+      "bloco": "B02",
+      "palavras": [
+        15,
+        16
+      ],
+      "inicio": "00:19",
+      "fim": "00:19",
+      "inicio_s": 18.6,
+      "duracao_s": 0.4,
+      "falas": [
+        "Pepinão (com deboche)"
+      ]
+    },
+    {
+      "trecho": "Esse carteiro nunca atrasa, hein?",
+      "tipo": "ilustracao",
+      "descricao": "Manhã seguinte: a casa de cerquinha branca e o carteiro Abacatudo arremessando o jornal na porta, com o topete aparecendo por baixo do quepe. O Bananildo fala de dentro, da mesa.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P05"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "Abacatudo the avocado, on the sidewalk outside the white picket fence, flings the rolled newspaper toward the front door with a showy flick of the wrist, his glossy pompadour quiff bouncing out from under his cap, the house centered in bright morning sun",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. Abacatudo the avocado, on the sidewalk outside the white picket fence, flings the rolled newspaper toward the front door with a showy flick of the wrist, his glossy pompadour quiff bouncing out from under his cap, the house centered in bright morning sun. Character: Abacatudo the avocado, an anthropomorphic avocado adult man, his head a glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff sticking out from under the front of his cap, half-lidded confident hazel-green eyes, neat arched eyebrows, a dazzling white movie-star grin with one dimple, a fit athletic build with broad shoulders, avocado-green skin, wearing a navy-blue peaked mail carrier cap without any insignia, a fitted short-sleeved navy-blue uniform shirt, navy shorts, white sneakers and a worn brown leather mail carrier satchel slung across his chest. Setting: a cozy pastel-blue suburban house with a white picket fence and gate, a short stone path to a mint-green front door, flower beds, a kitchen window with red-and-white checkered curtains beside the door, early morning sunlight with long soft shadows. Props: a rolled-up morning newspaper held by a red rubber band, its gray pages blank and unreadable. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+      "referencias": [
+        "P05",
+        "L03",
+        "O02"
+      ],
+      "id": "B03-01",
+      "bloco": "B03",
+      "palavras": [
+        0,
+        5
+      ],
+      "inicio": "00:19",
+      "fim": "00:21",
+      "inicio_s": 19.0,
+      "duracao_s": 2.0,
+      "falas": [
+        "Bananildo (animado, da mesa do café)"
+      ]
+    },
+    {
+      "trecho": "Todo santo dia.",
+      "tipo": "ilustracao",
+      "descricao": "O carteiro para no portão e olha um segundo a mais para a janela da cozinha, com o topete à mostra e sorriso de galã (o sorriso que volta no menino abacate).",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P05"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O02"
+      ],
+      "prompt_cena": "Abacatudo the avocado stops at the garden gate and looks a beat too long toward the kitchen window, tipping his cap so his glossy pompadour quiff shows, flashing a slow movie-star grin with a sparkle on his teeth, the newspaper lying at the front door behind him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. Abacatudo the avocado stops at the garden gate and looks a beat too long toward the kitchen window, tipping his cap so his glossy pompadour quiff shows, flashing a slow movie-star grin with a sparkle on his teeth, the newspaper lying at the front door behind him. Character: Abacatudo the avocado, an anthropomorphic avocado adult man, his head a glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff sticking out from under the front of his cap, half-lidded confident hazel-green eyes, neat arched eyebrows, a dazzling white movie-star grin with one dimple, a fit athletic build with broad shoulders, avocado-green skin, wearing a navy-blue peaked mail carrier cap without any insignia, a fitted short-sleeved navy-blue uniform shirt, navy shorts, white sneakers and a worn brown leather mail carrier satchel slung across his chest. Setting: a cozy pastel-blue suburban house with a white picket fence and gate, a short stone path to a mint-green front door, flower beds, a kitchen window with red-and-white checkered curtains beside the door, early morning sunlight with long soft shadows. Props: a rolled-up morning newspaper held by a red rubber band, its gray pages blank and unreadable. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+      "referencias": [
+        "P05",
+        "L03",
+        "O02"
+      ],
+      "id": "B03-02",
+      "bloco": "B03",
+      "palavras": [
+        5,
+        8
+      ],
+      "inicio": "00:21",
+      "fim": "00:23",
+      "inicio_s": 21.0,
+      "duracao_s": 2.2,
+      "falas": [
+        "Bananildo (animado, da mesa do café)"
+      ]
+    },
+    {
+      "trecho": "Todo santo dia, amor.",
+      "tipo": "ilustracao",
+      "descricao": "Close da Moranguete, já de roupa de casa, à janela da cozinha com a xícara, vendo o carteiro ir embora, sonhadora. Ainda sem o sorriso de canto.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "Moranguete the strawberry leans on the kitchen windowsill holding a steaming coffee cup in both hands, gazing out the window after someone walking away, a soft dreamy look, lips parted, morning sun on her face, checkered curtains framing her",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Moranguete the strawberry leans on the kitchen windowsill holding a steaming coffee cup in both hands, gazing out the window after someone walking away, a soft dreamy look, lips parted, morning sun on her face, checkered curtains framing her. Character: Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers. Setting: warm blurred pastel kitchen cabinets and red-and-white checkered curtains in soft morning sunlight. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose",
+      "referencias": [
+        "P01@B03",
+        "L04"
+      ],
+      "id": "B03-03",
+      "bloco": "B03",
+      "palavras": [
+        8,
+        12
+      ],
+      "inicio": "00:23",
+      "fim": "00:25",
+      "inicio_s": 23.2,
+      "duracao_s": 1.6,
+      "falas": [
+        "Moranguete (doce, sem tirar os olhos da janela)"
+      ]
+    },
+    {
+      "trecho": "Puxaram tudo do papai.",
+      "tipo": "ilustracao",
+      "descricao": "A revelação, na composição da thumb: o Bananildo, de olhos fechados de orgulho, abraça o menino abacate (topete e sorriso de galã do carteiro) e a menina pepino (mini óculos laranja e sobrancelha grossa do Pepinão). Ao fundo, a Moranguete olha para ele, sem sorriso.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P02",
+        "P06",
+        "P07",
+        "P01"
+      ],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "Bananildo the banana hugs the avocado boy and the cucumber girl, two little kids half his size, at the breakfast table, his eyes closed in proud bliss; the avocado boy flashes a dazzling movie-star grin, the cucumber girl raises one thick eyebrow; in the blurred background, Moranguete the strawberry holds her coffee and watches him, lips closed, no smile",
+      "negativo": "muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "movimento": "zoom-out",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. Bananildo the banana hugs the avocado boy and the cucumber girl, two little kids half his size, at the breakfast table, his eyes closed in proud bliss; the avocado boy flashes a dazzling movie-star grin, the cucumber girl raises one thick eyebrow; in the blurred background, Moranguete the strawberry holds her coffee and watches him, lips closed, no smile. Characters: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist; the avocado boy, a tiny anthropomorphic avocado little boy about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, his head a small glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff on top, a dazzling white movie-star grin with one dimple, big round hazel-green eyes, neat arched eyebrows, avocado-green skin, wearing a small navy-blue short-sleeved polo shirt; the cucumber girl, a tiny anthropomorphic cucumber little girl about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, her head a small glossy dark-green cucumber with tiny bumps and pale green stripes, thick dark eyebrows with one raised, big dark-brown eyes with slightly heavy lids, tiny mirrored orange sports sunglasses pushed up on her head, cucumber-green skin, wearing a small black sleeveless dress with neon-orange trim; Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers. Setting: a cheerful family kitchen in warm morning sunlight, a round wooden breakfast table with a red-and-white checkered tablecloth, bread, a jug of orange juice, cereal bowls, coffee cups and a folded gray newspaper, a window with red-and-white checkered curtains over the sink, pastel cabinets. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "referencias": [
+        "P02",
+        "P06",
+        "P07",
+        "P01@B03",
+        "L04"
+      ],
+      "id": "B04-01",
+      "bloco": "B04",
+      "palavras": [
+        0,
+        4
+      ],
+      "inicio": "00:25",
+      "fim": "00:26",
+      "inicio_s": 24.8,
+      "duracao_s": 1.6,
+      "falas": [
+        "Bananildo (derretido de orgulho)"
+      ]
+    },
+    {
+      "trecho": "Família... eu preciso dizer uma coisa.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "MELHOR PAI DO MUNDO",
+      "descricao": "O falso alarme: o Bananildo se levanta, sério, e ergue a mesma caneca do escritório (a frase volta por cima, no alto); as crianças congelam; a Moranguete continua mexendo o café, tranquila.",
+      "enquadramento": "plano-geral",
+      "personagens": [
+        "P02",
+        "P06",
+        "P07",
+        "P01"
+      ],
+      "local": "L04",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "Bananildo the banana stands at the head of the breakfast table, suddenly serious, holding the white mug up in a toast at chest height in the center of the frame; the avocado boy and the cucumber girl freeze mid-bite, wide-eyed; Moranguete the strawberry calmly keeps stirring her coffee, unbothered; a dramatic shaft of light",
+      "negativo": "muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. Bananildo the banana stands at the head of the breakfast table, suddenly serious, holding the white mug up in a toast at chest height in the center of the frame; the avocado boy and the cucumber girl freeze mid-bite, wide-eyed; Moranguete the strawberry calmly keeps stirring her coffee, unbothered; a dramatic shaft of light. Characters: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist; the avocado boy, a tiny anthropomorphic avocado little boy about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, his head a small glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff on top, a dazzling white movie-star grin with one dimple, big round hazel-green eyes, neat arched eyebrows, avocado-green skin, wearing a small navy-blue short-sleeved polo shirt; the cucumber girl, a tiny anthropomorphic cucumber little girl about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, her head a small glossy dark-green cucumber with tiny bumps and pale green stripes, thick dark eyebrows with one raised, big dark-brown eyes with slightly heavy lids, tiny mirrored orange sports sunglasses pushed up on her head, cucumber-green skin, wearing a small black sleeveless dress with neon-orange trim; Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers. Setting: a cheerful family kitchen in warm morning sunlight, a round wooden breakfast table with a red-and-white checkered tablecloth, bread, a jug of orange juice, cereal bowls, coffee cups and a folded gray newspaper, a window with red-and-white checkered curtains over the sink, pastel cabinets. Props: a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "referencias": [
+        "P02",
+        "P06",
+        "P07",
+        "P01@B03",
+        "L04",
+        "O01"
+      ],
+      "id": "B04-02",
+      "bloco": "B04",
+      "palavras": [
+        4,
+        10
+      ],
+      "inicio": "00:26",
+      "fim": "00:30",
+      "inicio_s": 26.4,
+      "duracao_s": 3.4,
+      "falas": [
+        "Bananildo (sério de repente)"
+      ]
+    },
+    {
+      "trecho": "Eu não sei o que eu seria sem a minha esposa...",
+      "tipo": "ilustracao",
+      "descricao": "Close do Bananildo emocionado, lágrima atrás dos óculos, a caneca no peito: clímax de novela para um agradecimento.",
+      "enquadramento": "close",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L04",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "Bananildo the banana, tears welling behind his round glasses and chin trembling, clutches the white mug to his heart, a single tear rolling down, overwhelmed with gratitude, warm golden morning backlight like a telenovela climax",
+      "negativo": "muscles, muscular build",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Bananildo the banana, tears welling behind his round glasses and chin trembling, clutches the white mug to his heart, a single tear rolling down, overwhelmed with gratitude, warm golden morning backlight like a telenovela climax. Character: Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist. Setting: warm blurred pastel kitchen cabinets and red-and-white checkered curtains in soft morning sunlight. Props: a plain white ceramic coffee mug with a single small red heart on its side and no lettering at all. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, muscles, muscular build",
+      "referencias": [
+        "P02",
+        "L04",
+        "O01"
+      ],
+      "id": "B04-03",
+      "bloco": "B04",
+      "palavras": [
+        10,
+        21
+      ],
+      "inicio": "00:30",
+      "fim": "00:34",
+      "inicio_s": 29.8,
+      "duracao_s": 4.4,
+      "falas": [
+        "Bananildo (emocionado, com a voz embargada)"
+      ]
+    },
+    {
+      "trecho": "e os meus lindos filhos.",
+      "tipo": "ilustracao",
+      "descricao": "Os 'lindos filhos' lado a lado, sozinhos no quadro: o topete e o sorriso de galã do carteiro no menino, os mini óculos laranja e a sobrancelha erguida do Pepinão na menina. A reação é o ponto.",
+      "enquadramento": "plano-medio",
+      "personagens": [
+        "P06",
+        "P07"
+      ],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "the avocado boy and the cucumber girl sit side by side at the breakfast table looking up at their dad off-screen; the avocado boy flashes a dazzling movie-star grin with a sparkle, his pompadour quiff glossy; the cucumber girl raises one thick eyebrow, her tiny mirrored orange sunglasses catching the light; cereal bowls and juice",
+      "negativo": "yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. The avocado boy and the cucumber girl sit side by side at the breakfast table looking up at their dad off-screen; the avocado boy flashes a dazzling movie-star grin with a sparkle, his pompadour quiff glossy; the cucumber girl raises one thick eyebrow, her tiny mirrored orange sunglasses catching the light; cereal bowls and juice. Characters: the avocado boy, a tiny anthropomorphic avocado little boy about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, his head a small glossy dark-green avocado with pebbly skin, a swooping glossy black pompadour quiff on top, a dazzling white movie-star grin with one dimple, big round hazel-green eyes, neat arched eyebrows, avocado-green skin, wearing a small navy-blue short-sleeved polo shirt; the cucumber girl, a tiny anthropomorphic cucumber little girl about four years old, clearly a small preschool child with a short chubby toddler body, stubby arms and legs and a big round baby face, half the height of an adult, her head a small glossy dark-green cucumber with tiny bumps and pale green stripes, thick dark eyebrows with one raised, big dark-brown eyes with slightly heavy lids, tiny mirrored orange sports sunglasses pushed up on her head, cucumber-green skin, wearing a small black sleeveless dress with neon-orange trim. Setting: a cheerful family kitchen in warm morning sunlight, a round wooden breakfast table with a red-and-white checkered tablecloth, bread, a jug of orange juice, cereal bowls, coffee cups and a folded gray newspaper, a window with red-and-white checkered curtains over the sink, pastel cabinets. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+      "referencias": [
+        "P06",
+        "P07",
+        "L04"
+      ],
+      "id": "B04-04",
+      "bloco": "B04",
+      "palavras": [
+        21,
+        26
+      ],
+      "inicio": "00:34",
+      "fim": "00:36",
+      "inicio_s": 34.2,
+      "duracao_s": 2.0,
+      "falas": [
+        "Bananildo (emocionado, com a voz embargada)"
+      ]
+    },
+    {
+      "trecho": "Imagina, amor... eu?",
+      "tipo": "ilustracao",
+      "descricao": "Último quadro, o bloco inteiro: close da Moranguete do outro lado da mesa, sorriso de canto, olhar de lado para o marido, sem olhar para a câmera; o brinco de argola dourada brilha. Corte seco.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L04",
+      "objetos": [],
+      "prompt_cena": "Moranguete the strawberry, seated alone at the breakfast table, the only figure in the frame, nobody in the foreground, gives a slow knowing smirk at one corner of her mouth, eyes sliding sideways toward her husband off-screen to the left, never looking at the camera, one gold hoop earring catching a glint, coffee cup near her lips, dramatic warm rim light",
+      "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, looking at the camera, eye contact with the viewer, other characters, people in the foreground, over-the-shoulder shot, silhouette",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. Moranguete the strawberry, seated alone at the breakfast table, the only figure in the frame, nobody in the foreground, gives a slow knowing smirk at one corner of her mouth, eyes sliding sideways toward her husband off-screen to the left, never looking at the camera, one gold hoop earring catching a glint, coffee cup near her lips, dramatic warm rim light. Character: Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin, wearing a modest buttoned-up lavender long-sleeved cardigan over a high-neck white blouse, a long cream skirt and fluffy white slippers. Setting: warm blurred pastel kitchen cabinets and red-and-white checkered curtains in soft morning sunlight. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+      "negativo_final": "text, letters, words, numbers, captions, watermark, logo, brand name, insignia, real people, human head, blood, gore, extra limbs, extra fingers, deformed hands, blurry face, photorealistic, nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, looking at the camera, eye contact with the viewer, other characters, people in the foreground, over-the-shoulder shot, silhouette",
+      "referencias": [
+        "P01@B03",
+        "L04"
+      ],
+      "id": "B05-01",
+      "bloco": "B05",
+      "palavras": [
+        0,
+        3
+      ],
+      "inicio": "00:36",
+      "fim": "00:37",
+      "inicio_s": 36.2,
+      "duracao_s": 1.2,
+      "falas": [
+        "Moranguete (doce e falsa, quase num sussurro)"
+      ]
+    }
+  ]
+}

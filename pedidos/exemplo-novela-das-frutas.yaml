@@ -1,0 +1,29 @@
+# Exemplo de pedido: um episódio da "novela das frutas", escrito do jeito curto.
+# Título, duração, descrição, contexto e quem fala. O sistema completa o resto (formato, tom, estilo, as
+# vozes de cada personagem, legendas...) e mostra tudo para você aprovar antes de começar:
+#
+#   /novo-video pedidos/exemplo-novela-das-frutas.yaml
+
+titulo: "Novela das frutas no supermercado Atacadão"
+
+tempo: "30s"
+
+descrição: |-
+  No supermercado Atacadão, a Moranguete trabalha no caixa e ilude o Abacate, um repositor apaixonado e
+  ingênuo, enquanto vive um caso escondido com o Pepinão, o açougueiro sarado da seção de carnes. O episódio
+  termina no clímax, sem resolver, como gancho para a parte 2.
+
+# O contexto da série fica num arquivo à parte, para servir a todos os episódios.
+contexto: "pedidos/contextos/novela-das-frutas.md"
+
+# Quem fala com voz própria. Sem "voz", o sistema escolhe pela personalidade e mostra para você aprovar.
+personagens:
+  - nome: "Moranguete"
+    estilo: "doce e falsa no caixa; vira choro dramático quando é desmascarada"
+  - nome: "Abacatinho"
+    estilo: "repositor apaixonado e ingênuo, voz um pouco trêmula"
+  - nome: "Pepinão"
+    estilo: "açougueiro galã, confiante, voz grave e arrastada"
+
+restricoes:
+  - "o caso amoroso fica só sugerido (olhares, bilhete escondido, porta da câmara fria se fechando): nada de cena sexual"

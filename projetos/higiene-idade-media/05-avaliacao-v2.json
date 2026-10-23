@@ -1,0 +1,53 @@
+{
+  "roteiro": "projetos/higiene-idade-media/05-roteiro-v2.md",
+  "versao": 2,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 100,
+  "bloqueantes_reprovados": [],
+  "promessa": "Na Paris do século 13 havia mais de 32 casas de banho, e elas funcionavam como negócio, com preço (vapor por 2 moedas).",
+  "onde_cumpre": "B01 dá o número e a cidade ('Mais de 32 banhos públicos.', 'Paris, século 13.'); B03 entrega o negócio: 'Na rua, banho era negócio. Com guilda e regras.', 'Vapor: 2 denários' (colhe o texto da capa na imagem 6) e os pregoeiros.",
+  "comparacao_v1": {
+    "1_gancho-2s": "Resolvida. O primeiro pedaço de legenda agora é 'Mais de 32 banhos públicos.', com sentido completo (conferido com pedacos(texto, 4)). O mito chega na imagem 2, por volta de 3,75 s na grade fixa de imagens. É um pouco mais tarde que os ~3 s pedidos, mas a troca de 'E dizem' por 'Dizem' está justificada: evita um pedaço 'E dizem' sozinho na tela.",
+    "2_sem-ponto-de-abandono": "Resolvida. B02 abre com 'Mas em casa,' e fecha em 'só bacia.', que deixa a falta que o B03 preenche. L1 e L2 seguem ativos durante todo o bloco.",
+    "3_mas-entao": "Resolvida. 'Na rua,' contra 'Mas em casa,' é contraste escrito, e o teste da troca agora falha: o B02 não pode vir depois do B03.",
+    "4_linguagem-falada": "Resolvida. A imagem 8 ficou 'Londres tinha 13.' | 'Viena chegou a 29.' | 'E Paris...', sem o 'casas' ambíguo.",
+    "5_metadados": "Resolvida. O conector do B04 é 'e então' e a tabela do plano bate com a medição (16 + 18 + 23 + 9 = 66)."
+  },
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {"id": "linguagem-falada", "nota": 2, "peso": 1},
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B02", "tempo": "00:07", "motivo": "Risco residual, não reprovação: de 7,5 s a 15 s (imagens 3 e 4) o vídeo sai do vapor da capa para a casa. O texto agora segura com 'Mas em casa,' e 'só bacia.', mas esse é o trecho em que a imagem mais pesa. Se as imagens 3 e 4 forem só interiores domésticos e apagados, o espectador sai. Por isso a sugestão de vapor da rua na imagem 4 precisa chegar ao diretor visual."}
+  ],
+  "prioridades": [
+    "1. (Opcional, para a direção visual, sem mudar o texto) Imagem 4: manter o vapor da rua entrando pela janela, ou a porta de uma casa de banho vista de dentro da casa, para que o B02 aponte visualmente para o B03 e o trecho de 7,5 s a 15 s não perca a promessa da capa.",
+    "2. (Opcional, para a montagem) Imagem 1: destacar o '32' como texto sobreposto, nunca dentro da imagem gerada, como as notas já sugerem. É o que mais reforça o gancho no primeiro segundo, antes de o mito aparecer, por volta de 3,75 s."
+  ],
+  "manter": [
+    "B01: 'Mais de 32 banhos públicos.' como primeiro pedaço de legenda, com o [VISUAL] de vapor, tinas e luz de vela, e 'Numa cidade só.' como segunda batida",
+    "B01: 'Dizem que ninguém tomava banho.', o mito citado sem 'na verdade', com o número fazendo a correção",
+    "B02 para B03: o par 'Mas em casa,' / 'Na rua,', que é o motor de contraste do vídeo, e o 'só bacia.' que deixa a falta aberta",
+    "B03, imagem 6: 'Vapor: 2 denários. Banho completo: 4 denários.', que colhe a capa sem conversão inventada",
+    "B03, imagem 7: os pregoeiros, o detalhe mais inesperado",
+    "B04: a escada 'Londres tinha 13.' | 'Viena chegou a 29.' | 'E Paris...', que emenda em 'Mais de 32 banhos públicos.' no replay",
+    "Cuidado factual das notas: guilda sem afirmar que fixava o preço, nenhuma época comum para Londres e Viena, a omissão de 'mulheres' (F27), nenhuma relação causal entre o preço da tina e os banhos públicos",
+    "A distribuição de 7 a 10 palavras por imagem e as 66 palavras, que dão folga de leitura sem áudio"
+  ],
+  "alertas_de_medicao": [
+    "Nenhum alerta do medir_roteiro.py; 66 palavras, 00:26 estimados para a meta de 00:30; nenhum [VERIFICAR].",
+    "Os pedaços de legenda das 8 imagens foram conferidos rodando pedacos(texto, 4) do montar_video.py e batem exatamente com os das notas do roteiro.",
+    "A medição usa 150 ppm (0 a 2 s), mas o vídeo é montado em grade fixa de 3,75 s por imagem. Na prática, o mito do B01 aparece por volta de 3,75 s, e não aos ~2,6 s que a contagem de palavras sugere. O B04 começa em 26,25 s, e 'E Paris...' fica pouco mais de 1 s na tela antes do replay."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "moranguete",
+  "nome": "Moranguete",
+  "resumo": "A estrela da novela das frutas: um morango com corpo de mulher, vaidosa e teatral, que num vídeo é a heroína sofredora e no outro a vilã charmosa, doce na frente e calculista por trás.",
+  "referencia_en": "Moranguete the strawberry",
+  "descricao_en": "Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin",
+  "estilo": {
+    "nome": "Animação 3D de estúdio",
+    "descricao": "Animação 3D polida de longa-metragem, como a da novela das frutas: texturas lisas e brilhantes, cores saturadas, luz de cinema quente.",
+    "prompt_base": "big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light",
+    "negativo_base": "text, letters, watermark, logo, brand name, real people, human head, nudity, lingerie, cleavage, suggestive pose, extra limbs, extra fingers, deformed hands, blurry face, photorealistic"
+  },
+  "fisico": {
+    "tipo": "Morango humanizado, mulher adulta.",
+    "porte": "Corpo de mulher adulta, curvilíneo: cintura fina, quadril largo, braços finos e pernas longas. Postura confiante, de quem sabe que está sendo olhada.",
+    "rosto": "A cabeça é um morango grande. Olhos castanhos enormes e brilhantes, cílios longos e escuros, sobrancelhas finas e arqueadas, nariz pequeno, lábios cheios em vermelho-escuro brilhante.",
+    "cabelo": "Não tem: no lugar, uma coroa de folhas verdes com um cabinho curto no alto da cabeça.",
+    "pele": "Vermelho-morango brilhante no corpo todo, com sementinhas douradas na cabeça.",
+    "roupa": "Sem roupa padrão: muda a cada vídeo, sempre justa e chamativa (vestido de alça, saia lápis, uniforme ajustado). A roupa de cada vídeo vai na bíblia visual do projeto, junto da descrição dela. Na ficha, ela usa o vestido preto justo de alça e o salto preto da imagem de referência.",
+    "acessorios": "Brincos pequenos de argola dourada, em todos os vídeos.",
+    "traco_marcante": "A cabeça de morango com a coroa de folhas, os olhos castanhos de cílios longos e os brincos de argola dourada. Como a roupa muda, é por eles que o espectador a reconhece.",
+    "paleta": "Vermelho-morango, verde-folha, dourado e a cor da roupa do vídeo (preto na ficha)."
+  },
+  "comportamento": {
+    "personalidade": "Intensa e teatral: tudo nela é no volume máximo. Sorri e elogia quem está na frente dela e revira os olhos quando a pessoa vira as costas. Vaidosa: ajeita o vestido e confere o reflexo antes de qualquer confronto.",
+    "motivacao": "Ser desejada e manter o controle da própria história: o amor, o dinheiro ou a vingança, conforme o vídeo.",
+    "medos_e_defeitos": "Não suporta ser desmascarada nem trocada por outra. Mente com facilidade e acaba acreditando na própria mentira.",
+    "jeito_de_falar": "Voz doce e melosa, cheia de \"amor\" e \"querido\", quando quer alguma coisa. Quando é pega, a voz quebra e vira choro dramático, com frases cortadas por soluços. Na raiva, fala baixo e devagar, quase soletrando.",
+    "bordoes": [
+      "Imagina, amor... eu?",
+      "Você não sabe do que eu sou capaz.",
+      "Eu dei os melhores anos da minha vida pra você!"
+    ],
+    "gestos_e_expressoes": "Braços cruzados e quadril de lado quando desafia alguém; mão no peito e olhos marejados quando se faz de vítima; uma lágrima única escorrendo antes do surto; sorriso de canto quando o plano dá certo.",
+    "sob_pressao": "Primeiro nega com doçura; depois chora alto; se o choro não funciona, vira o jogo e acusa o outro.",
+    "relacoes": "Rival de sempre da Perita. Com o Abacatudo, é esposa traída, amante ou algoz, conforme o vídeo.",
+    "nunca_faz": "Nunca admite a culpa de primeira e nunca aparece desarrumada: mesmo aos prantos, o batom continua no lugar.",
+    "historia": "Não tem enredo fixo: a novela das frutas é um multiverso, e em cada vídeo ela é a esposa traída, a mãe desesperada ou a vilã charmosa, como a caixa do Atacadão que ilude o repositor enquanto vive um caso escondido."
+  },
+  "voz": {
+    "voz": "Leda",
+    "estilo": "doce e falsa no caixa; vira choro dramático quando é desmascarada",
+    "cor": "rosa"
+  },
+  "imagem": "imagem.jpg",
+  "geracao": {
+    "modelo": "gemini-3.1-flash-image",
+    "proporcao": "1:1",
+    "tamanho": null,
+    "prompt": "Character reference sheet. Moranguete the strawberry, an anthropomorphic strawberry adult woman, her head a large glossy bright-red strawberry dotted with tiny golden seeds and topped with a crown of green leaves and a short stem, big sparkling brown eyes with long dark lashes, thin arched dark eyebrows, full glossy deep-red lips, small gold hoop earrings, a curvy hourglass figure with slender arms and long legs, smooth glossy strawberry-red skin. Front view and three-quarter view, full body, neutral expression, plain light gray background. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+    "negativo": "text, letters, watermark, logo, brand name, real people, human head, nudity, lingerie, cleavage, suggestive pose, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+    "base": "rascunhos/personagens/moranguete/referencia-usuario.png",
+    "ajuste": "turn this picture into a clean character reference sheet on a plain light gray background, keeping her outfit from the picture: a fitted black satin spaghetti-strap midi dress and black ankle-strap heels",
+    "gerado_em": "2026-10-21T08:36:44",
+    "versao": "v1",
+    "rascunho": "rascunhos/personagens/moranguete",
+    "aprovado_em": "2026-10-21"
+  }
+}

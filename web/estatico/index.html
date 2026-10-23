@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estúdio de vídeos</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e5484d'/%3E%3Cpath d='M12 9v14l11-7z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/estatico/estilo.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#/"><span class="logo">▶</span> Estúdio de vídeos</a>
+    <nav class="abas-topo">
+      <a href="#/" data-aba="videos">Vídeos</a>
+      <a href="#/contextos" data-aba="contextos">Contextos</a>
+      <a href="#/configuracoes" data-aba="configuracoes">Configurações</a>
+    </nav>
+    <span class="topo-projeto" id="topo-projeto"></span>
+  </header>
+  <main id="app" class="conteudo"></main>
+  <div id="avisos" class="avisos" aria-live="polite"></div>
+  <script src="/estatico/app.js"></script>
+</body>
+</html>

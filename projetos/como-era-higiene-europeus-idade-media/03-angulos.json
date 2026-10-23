@@ -1,0 +1,366 @@
+{
+  "projeto": "como-era-higiene-europeus-idade-media",
+  "observacoes": [
+    "Não há 02-trends.md (trends desativadas no brief) e biblioteca/aprendizados.md ainda não tem vídeos registrados. Não existe nenhum dado de desempenho para este tema ou canal: todos os ângulos são apostas, e nenhum deles afirma o que está em alta.",
+    "O título foi escolhido pelo usuário: todos os ângulos usam 'Como era a higiene dos europeus na Idade Média' (só a capitalização de 'Idade Média' foi ajustada). As alternativas são variações próximas para teste, com a mesma proposta.",
+    "Tensão entre o pedido e o dossiê: a descrição pede 'péssima higiene' e 'nem a realeza escapava', mas o dossiê mostra que 'ninguém tomava banho' é mito e que reis medievais tinham banhos de luxo. O que o dossiê sustenta é a sujeira das ruas, dos banheiros de castelo e do cheiro, e que nem o rei escapava DISSO. Todos os ângulos prometem só isso.",
+    "Formato short (45 s, cerca de 110 palavras) e brief com cortes: false. Por isso nenhum ângulo prevê cortes."
+  ],
+  "recomendacao": {
+    "angulo": "A2",
+    "motivo": "É o ângulo que cumpre o brief inteiro com os fatos mais sólidos do dossiê: abre no mito que o público já conhece (gancho de 2 s sem precisar de contexto), trata o mito como mito, como exigem as restrições, e usa a virada 'o problema era o resto' para entregar a sujeira em escada até o rei. Os fatos centrais (casas de banho de Paris, Edward III em 1351) têm confiança média a alta, e o final no rei cumpre o 'nem a realeza escapava' sem inventar nada. Se o usuário quiser mais nojo do primeiro ao último segundo, a segunda opção é A5."
+  },
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "Você aguentaria um dia na Paris medieval?",
+        "O fedor da Idade Média, do beco ao palácio"
+      ],
+      "thumbnail": {
+        "elemento_central": "Retrato a óleo de velho mestre: um camponês medieval de frente para o espectador, com uma bota afundada até o tornozelo na lama escura de uma rua de Paris, cara de nojo e espanto exagerados; ao fundo, desfocado, um palácio com uma figura coroada na janela",
+        "texto": "",
+        "emocao": "nojo cômico e empatia ('podia ser você')",
+        "relacao_com_titulo": "O título promete a explicação; a thumb coloca o espectador no corpo de quem vive aquilo e planta o rei ao fundo, que o título não menciona."
+      },
+      "promessa": "Você vai sentir, em 45 segundos, como era atravessar uma cidade medieval: da lama da rua até o castelo, onde nem o rei escapava do fedor.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Quatro degraus de sujeira mais o callback cabem em cerca de 110 palavras. Um quinto degrau exigiria fatos de fonte fraca (piolhos, dentes) ou de fora da Idade Média.",
+      "tecnicas": ["pov-segunda-pessoa", "escada-de-stakes", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "Paris, Idade Média. Você sai de casa, dá o primeiro passo... e o seu pé some na lama da rua.",
+      "estrutura": [
+        "B01 (0-5 s): gancho em POV, o pé afundando na lama fétida da rua sem calçamento (planta o callback do pé).",
+        "B02 (5-15 s): você chega a um castelo e descobre o banheiro: um buraco na parede (garderobe) que despeja tudo no fosso, ou direto para fora.",
+        "B03 (15-25 s): o cheiro é tanto que os médicos dizem que o ar podre dá doença; então você anda com uma bolinha de perfume ou uma laranja oca com esponja de vinagre no nariz.",
+        "B04 (25-38 s): VIRADA, o topo da escada: nem o rei escapava; reza a história que o rei da França abriu a janela do palácio, sentiu o fedor da lama e mandou calçar as ruas principais de Paris (por volta de 1185-1200).",
+        "B05 (38-45 s): CALLBACK: só as principais; a rua do lado continuou do jeito que o seu pé encontrou. A última frase emenda no 'Paris, Idade Média' do começo."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.3: Philippe Auguste e a pavimentação de Paris (fato de confiança média; cena da janela é relato narrativo, por isso 'reza a história'). Ruas laterais seguiram sem calçamento.",
+        "Dossiê 2.2: garderobe despejando no fosso (média); teoria dos miasmas, 1348 (média); pomander e laranja com vinagre (média).",
+        "Estrutura: reaplica, em miniatura, a escada em POV e o final circular do esqueleto Dor Pintada (canal de referência do brief)."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "A segunda pessoa é a assinatura do canal de referência e transforma lista de curiosidades em experiência, o que costuma segurar os primeiros segundos de um short. Sem dados, é hipótese.",
+      "diferencial": "Não é uma lista de fatos: é um percurso sensorial do 'você' pela cidade, com o rei como topo da escada e o pé na lama fechando em loop.",
+      "riscos": [
+        "O POV mistura épocas (c. 1185 na pavimentação, 1348 nos miasmas, pomander do medieval tardio); o roteiro não pode dar um ano único ao 'você'.",
+        "A cena do rei na janela é lenda narrativa: tem de vir como 'reza a história', ou o crítico reprova.",
+        "Lama e garderobe precisam ficar na sugestão (bota, torrezinha vista de fora), nunca o conteúdo."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "Na Idade Média tomavam banho. O problema era o resto",
+        "O mito do banho na Idade Média (e a verdade fedida)"
+      ],
+      "thumbnail": {
+        "elemento_central": "Pintura a óleo em claro-escuro: um nobre medieval sorridente dentro de uma tina de madeira forrada com lençol e pétalas; pela janela atrás dele, uma criada vira um balde para a rua e um passante lá embaixo olha para cima apavorado",
+        "texto": "TOMAVAM BANHO, SIM",
+        "emocao": "surpresa seguida de riso (limpo por dentro, imundo por fora)",
+        "relacao_com_titulo": "O título pergunta como era a higiene; a thumb já desmente o mito do banho e, na janela, mostra que a resposta tem um 'mas' fedido."
+      },
+      "promessa": "Você vai descobrir que o europeu medieval tomava banho, sim, e que a sujeira de verdade estava na rua, no banheiro e no ar, inclusive na janela do rei.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Mito, duas provas, virada e rei em cerca de 110 palavras. É o limite: uma terceira prova do banho atrasaria a virada para depois de 30 s e o short ficaria didático.",
+      "tecnicas": ["tese-contraria", "mas-entao", "escada-de-stakes", "loop-aberto", "callback"],
+      "tipo_gancho": "tese-contraria",
+      "gancho_proposto": "Ninguém tomava banho na Idade Média? Mentira. Eles tomavam banho. O problema era todo o resto.",
+      "estrutura": [
+        "B01 (0-4 s): gancho, o mito enunciado e negado; abre o loop 'todo o resto'.",
+        "B02 (4-14 s): prova 1: Paris do século XIII tinha mais de 32 casas de banho, com pregoeiro na rua avisando que a água estava quente; em vila pequena, o banho ficava colado na padaria, para aproveitar o forno.",
+        "B03 (14-23 s): prova 2, a realeza limpinha: o rei João viajava com a própria banheira e um criado; Edward III mandou encanar água quente e fria até a banheira em 1351.",
+        "B04 (23-36 s): VIRADA ('mas'): saiu do banho, pisou na rua de lama; o banheiro do castelo era um buraco na parede que despejava no fosso; e contra o cheiro, bolinha de perfume, porque médico achava que fedor dava doença.",
+        "B05 (36-45 s): nem o rei escapava: reza a história que o rei da França sentiu o fedor da janela do palácio e mandou calçar as ruas principais, só as principais. CALLBACK: 'Banho, eles tinham. O resto...' fecha o loop do gancho."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.1: 'ninguém tomava banho' é mito (Getty e medievalists.net, confiança alta).",
+        "Dossiê 2.2: mais de 32 casas de banho em Paris no séc. XIII e banho junto à padaria (média); rei João e a banheira de viagem (média); Edward III, 1351 (alta).",
+        "Dossiê 2.2 e 2.3: garderobe, miasmas, Philippe Auguste (média; cena da janela como relato).",
+        "Restrições do brief: mitos só como mito, o que este ângulo transforma no próprio gancho."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Contradizer uma crença conhecida costuma render clique e comentário, e aqui a contradição tem prova forte. Sem dados de trends, não dá para saber se o desmentido do banho já está batido no nicho; por isso o vídeo não para no desmentido e vira para a sujeira.",
+      "diferencial": "Vídeos de curiosidade costumam parar no 'ninguém tomava banho' ou no desmentido. Este usa o desmentido como trampolim: o banho era limpo, e a sujeira que sobra, com o rei no topo, é a que tem fonte.",
+      "riscos": [
+        "Contraria parte da descrição do pedido ('péssima higiene'): o nojo só começa aos 23 s. O roteiro precisa de humor desde a prova 1 (o pregoeiro, a padaria).",
+        "Sem dados de trends, o desmentido pode soar repetido para quem já viu outros vídeos do tema (hipótese, não verificado).",
+        "Muita informação para 45 s: o roteirista tem de cortar números, não acelerar a fala."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "O dia em que o rei da França sentiu o fedor de Paris",
+        "Nem o rei aguentava o cheiro da Idade Média"
+      ],
+      "thumbnail": {
+        "elemento_central": "Retrato a óleo de um rei medieval coroado na janela do palácio, tapando o nariz com a mão enluvada, olhos lacrimejando; abaixo, carroças levantando lama escura numa rua de Paris",
+        "texto": "NEM O REI",
+        "emocao": "espanto e riso pela dignidade quebrada",
+        "relacao_com_titulo": "O título fala dos europeus em geral; a thumb mostra o caso que o título não diz: a realeza sofrendo igual."
+      },
+      "promessa": "Você vai ver como o fedor das cidades medievais chegava até a janela do rei, e o que nem ele conseguiu resolver.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Uma cena central (o rei na janela) com três desdobramentos curtos. Cabe em 40 a 45 s; mais que isso exigiria outra cena de rei, e as outras do dossiê são de banho limpo ou de fora da Idade Média.",
+      "tecnicas": ["in-medias-res", "mas-entao", "lacuna-de-curiosidade", "callback"],
+      "tipo_gancho": "cena-sensorial",
+      "gancho_proposto": "Paris, por volta de 1185. O rei da França abre a janela do palácio... e fecha na mesma hora.",
+      "estrutura": [
+        "B01 (0-5 s): cena sensorial, a janela abre e fecha; abre a lacuna 'o que ele sentiu?'.",
+        "B02 (5-15 s): reza a história: carroças passando e levantando a lama fétida das ruas; o rei Philippe Auguste manda calçar as ruas principais de Paris.",
+        "B03 (15-25 s): MAS só as principais; e dentro do castelo o banheiro era um buraco na parede que despejava no fosso.",
+        "B04 (25-37 s): VIRADA: a solução da época para o cheiro não era limpar, era perfumar; médicos achavam que ar podre dava doença, então nobre andava com bolinha de perfume e quem não podia, com laranja e vinagre.",
+        "B05 (37-45 s): CALLBACK da janela: o rei calçou a rua, e mesmo assim, a janela mais segura do palácio continuava sendo a fechada."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.3 e 5: Philippe Auguste e a pavimentação, c. 1185-1200 (média para a pavimentação; baixa para a cena da janela, relato do séc. XIX).",
+        "Dossiê 2.2: garderobe (média); miasmas, 1348 (média); pomander e laranja com vinagre (média)."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É o único caso de rei medieval com fonte que é sobre sujeira, não sobre banho limpo, e é o que entrega diretamente o 'nem a realeza escapava' do pedido. A aposta é abrir num personagem em vez de numa curiosidade.",
+      "diferencial": "Conta a higiene medieval pelo nariz de um rei específico, uma cena que tem imagem pronta e cabe num quadro.",
+      "riscos": [
+        "O gancho depende de uma cena de confiança baixa: tem de ser dita como 'reza a história', o que enfraquece um pouco a abertura.",
+        "Concentra tudo num único caso; se o espectador não se importar com o rei, não há segunda curiosidade forte até B03.",
+        "Data da pavimentação diverge (1185, 1186, c. 1200): usar 'por volta de 1185'."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "4 banhos por ano: a higiene na Idade Média",
+        "Quantos banhos se tomava na Idade Média?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Pintura a óleo de um monge emburrado dentro de uma tina de madeira, com um calendário de pergaminho pregado na parede e quatro datas circuladas",
+        "texto": "4 POR ANO",
+        "emocao": "incredulidade cômica",
+        "relacao_com_titulo": "O título pergunta como era; a thumb dá um número que parece confirmar o mito, e o vídeo vira esse número do avesso."
+      },
+      "promessa": "Você vai descobrir quem tomava banho na Idade Média, de monge a imperador, e onde a sujeira realmente ficava.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Escada de quatro banhos (monge, imperador, rei viajante, rei com encanamento) mais a virada. Sem a virada o vídeo seria só sobre banho e fugiria da ideia do pedido.",
+      "tecnicas": ["escada-de-stakes", "contagem-regressiva", "mas-entao", "callback"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "Quatro banhos por ano. Obrigatórios. Essa era a regra dos monges da Abadia de Westminster.",
+      "estrutura": [
+        "B01 (0-6 s): dado chocante: quatro banhos por ano, por regra (Natal, Páscoa, junho e setembro); deixa claro que é regra de monge.",
+        "B02 (6-15 s): degrau acima: Carlos Magno chamava filhos, nobres e amigos para o banho; até cem homens na mesma água.",
+        "B03 (15-24 s): o rei João não viajava sem a banheira e um criado; Edward III, em 1351, já tinha água quente e fria encanada.",
+        "B04 (24-37 s): VIRADA: o banho ia bem; o problema era para onde ia o resto: o banheiro do castelo era um buraco na parede que dava no fosso, e a rua lá fora era lama.",
+        "B05 (37-45 s): CALLBACK do número: quatro banhos por ano para o monge; o fosso do castelo não tinha folga nenhuma."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.2: regra dos monges de Westminster (média, com aviso de que é regra monástica); Carlos Magno e os cem homens, por Einhard (média); rei João (média); Edward III, 1351 (alta); garderobe (média)."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Um número no primeiro segundo é fácil de pintar na thumb e de entender sem som. A aposta é que o número que parece confirmar o mito segure o espectador até a virada.",
+      "diferencial": "Ranking de banhos, do monge ao imperador, que mostra a higiene medieval como coisa de hábito e de status, não de ausência.",
+      "riscos": [
+        "O dado de abertura pode ser lido como 'quase ninguém tomava banho', reforçando o mito: o dossiê avisa que é regra monástica. Se o roteiro não deixar isso claro em 6 s, o crítico reprova.",
+        "Foge parcialmente da 'ideia só' do pedido (a sujeira de todo mundo): três quartos do vídeo falam de banho.",
+        "O nojo é mais fraco que nos outros ângulos; o humor depende do Carlos Magno com cem homens."
+      ]
+    },
+    {
+      "id": "A5",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "O banheiro do castelo medieval dava para o fosso",
+        "Onde o rei ia ao banheiro na Idade Média?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Pintura a óleo de uma muralha de castelo com uma pequena torre saliente sobre o fosso; num barquinho lá embaixo, um guarda olha para cima com cara de pânico e tapa a cabeça",
+        "texto": "O BANHEIRO DO REI",
+        "emocao": "nojo e riso de antecipação",
+        "relacao_com_titulo": "O título é genérico; a thumb entrega o objeto concreto e a consequência (quem está embaixo), sem mostrar conteúdo nenhum."
+      },
+      "promessa": "Você vai descobrir como funcionava o banheiro de um castelo medieval, para onde ia tudo, e por que nem o rei escapava do resultado.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Um objeto (o garderobe) visto em quatro camadas: o que é, o nome, para onde vai e a exceção real. Rende 40 a 45 s; esticar pediria fatos sem fonte sobre limpeza do fosso.",
+      "tecnicas": ["lacuna-de-curiosidade", "escada-de-stakes", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "resultado-primeiro",
+      "gancho_proposto": "Esse buraquinho na parede do castelo? Era o banheiro do rei. E a descarga... era a gravidade.",
+      "estrutura": [
+        "B01 (0-5 s): resultado primeiro: a torrezinha na muralha é o banheiro; a descarga é a gravidade.",
+        "B02 (5-13 s): o nome: garderobe, do francês para 'guarda-roupa'; um quartinho na parede com assento de madeira.",
+        "B03 (13-24 s): para onde ia: para o fosso, o mesmo fosso que defendia o castelo, ou direto para fora da muralha.",
+        "B04 (24-36 s): VIRADA: o luxo máximo da época, a latrina do rei Henrique III em York, tinha descarga com água da chuva vinda do telhado, e não se conhece outra assim na Inglaterra; o resto do reino era gravidade pura.",
+        "B05 (36-45 s): nem o rei escapava: lá fora, a rua de lama que fez o rei da França mandar calçar Paris. CALLBACK: 'o fosso protegia o castelo. Dos inimigos, e de quem tentasse nadar nele.'"
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.2 e 3: garderobe, nome e destino (média, nhe.esdm e Wikipedia).",
+        "Dossiê 2.2: latrina de Henrique III em Clifford's Tower (média, PDF da English Heritage em alemão; marcado VERIFICAR).",
+        "Dossiê 2.3: Philippe Auguste e as ruas de Paris (média)."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É o ângulo mais nojento que o dossiê sustenta com fonte e tem o melhor objeto visual para um short em 9:16 (a torre saliente na muralha). A aposta é que um único objeto concreto segure mais que uma lista de curiosidades.",
+      "diferencial": "Em vez de 'curiosidades sobre higiene', mostra um objeto que pouca gente sabe nomear e que liga o castelo do rei à sujeira de todo mundo.",
+      "riscos": [
+        "Henrique III depende de um PDF em alemão marcado como VERIFICAR; se não for confirmado, B04 cai e a virada precisa de outro fato.",
+        "Adequação a anunciantes: o garderobe só pode aparecer por fora; nada do interior nem do conteúdo.",
+        "Menos variedade de curiosidades que o pedido sugere ('as principais curiosidades')."
+      ]
+    },
+    {
+      "id": "A6",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "Como era ser o criado do banho do rei medieval",
+        "POV: você prepara o banho do rei na Idade Média"
+      ],
+      "thumbnail": {
+        "elemento_central": "Retrato a óleo de um criado suado e exausto carregando nas costas uma banheira de madeira, seguindo um rei a cavalo por uma estrada de lama",
+        "texto": "VOCÊ CARREGA ISSO",
+        "emocao": "pena cômica e identificação",
+        "relacao_com_titulo": "O título promete a higiene; a thumb mostra quem pagava por ela, um ponto de vista que o título não sugere."
+      },
+      "promessa": "Você vai ver a higiene da realeza medieval pelos olhos de quem fazia o trabalho sujo: o banho do rei era limpo, e a sujeira sobrava para o criado.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Três tarefas do criado em escada e um topo irônico. A escada de cargos do esqueleto pede 8 níveis num longo; num short de 45 s só cabem três degraus.",
+      "tecnicas": ["pov-segunda-pessoa", "escada-de-stakes", "caso-concreto", "mas-entao", "callback"],
+      "tipo_gancho": "in-medias-res",
+      "gancho_proposto": "O rei quer banho. Quente. Agora. E você é o criado que vai encher a tina, balde por balde.",
+      "estrutura": [
+        "B01 (0-5 s): in medias res: a ordem do rei e a tina vazia.",
+        "B02 (5-15 s): degrau 1: encher a tina de madeira com água quente carregada à mão, forrar com lençol e jogar pétalas (como mandava um manual de criado do século XV).",
+        "B03 (15-25 s): degrau 2: o rei vai viajar; houve rei, o João da Inglaterra, que não saía sem a banheira, e alguém carregava.",
+        "B04 (25-37 s): VIRADA: o rei sai cheiroso; você volta pela rua de lama, passa sob a torrezinha do banheiro do castelo que despeja no fosso e respira o ar que os médicos diziam dar doença.",
+        "B05 (37-45 s): topo irônico e CALLBACK: amanhã o rei quer banho de novo. Quente. Agora."
+      ],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 4: banho chique do tratado de John Russell, séc. XV (média); rei João, banheira de viagem e atendente (média); garderobe e miasmas (média).",
+        "Estrutura: escada de cargos em POV com topo irônico e final circular, do esqueleto Dor Pintada."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É o recorte 'ponto de vista de quem está fora' e o mais próximo do estilo do canal de referência. Resolve a tensão do dossiê de outro jeito: o rei era limpo, e a sujeira escorria para baixo. Sem dados, é a aposta mais arriscada da lista.",
+      "diferencial": "Ninguém conta a higiene medieval do ponto de vista do criado; o 'nem a realeza escapava' vira 'a realeza escapava, e você pagava'.",
+      "riscos": [
+        "Inverte a frase do pedido ('nem a realeza escapava'): o usuário pode achar que mudou a proposta.",
+        "O criado do rei João tem nome documentado (William): o 'você' tem de ser um criado composto, sem virar o William real.",
+        "Mistura séculos (João c. 1200, Russell séc. XV); o roteiro não pode dizer que é o mesmo rei nem o mesmo ano.",
+        "Fica menos 'curiosidades' e mais história; quem chega pelo título pode esperar lista."
+      ]
+    },
+    {
+      "id": "A7",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "Higiene medieval: o que é mito e o que é verdade",
+        "Mito ou verdade: a higiene na Idade Média"
+      ],
+      "thumbnail": {
+        "elemento_central": "Díptico a óleo em moldura dourada: à esquerda, uma dama numa tina de banho com carimbo vermelho 'MITO'; à direita, a muralha do castelo com a torrezinha sobre o fosso e carimbo verde 'VERDADE'",
+        "texto": "MITO OU VERDADE?",
+        "emocao": "curiosidade de jogo (o espectador quer acertar)",
+        "relacao_com_titulo": "O título promete a explicação; a thumb transforma em desafio e mostra que a resposta não é a esperada."
+      },
+      "promessa": "Você vai testar o que sabe sobre a higiene medieval em três rodadas, e a resposta de cada uma é pior (ou mais engraçada) do que você imagina.",
+      "formato": "short",
+      "duracao_recomendada": "00:50",
+      "justificativa_duracao": "Três rodadas de 'mito ou verdade' mais a rodada bônus precisam de cerca de 125 palavras: 5 s acima do alvo do brief, porque cada rodada precisa de uma pausa curta antes do carimbo. Se o usuário fizer questão de 45 s, sai a rodada bônus.",
+      "tecnicas": ["quebra-de-padrao", "escada-de-stakes", "lacuna-de-curiosidade", "final-em-loop"],
+      "tipo_gancho": "pergunta-direta",
+      "gancho_proposto": "Mito ou verdade: na Idade Média ninguém tomava banho? Mito. E o que era verdade é pior.",
+      "estrutura": [
+        "B01 (0-5 s): rodada 1 já respondida no gancho: MITO; abre o loop 'o que era verdade'.",
+        "B02 (5-15 s): prova curta: Paris tinha mais de 32 casas de banho no século XIII.",
+        "B03 (15-27 s): rodada 2: o banheiro do castelo despejava no fosso? VERDADE: um buraco na parede, e a descarga era a gravidade.",
+        "B04 (27-40 s): rodada 3, VIRADA: o rei escapava do fedor? MITO: reza a história que o rei da França sentiu da janela e mandou calçar as ruas principais de Paris.",
+        "B05 (40-50 s): rodada bônus: Elizabeth I tomava banho uma vez por mês? MITO, a frase aparece só séculos depois, e ela nem era da Idade Média. Última frase: 'Próxima: mito ou verdade...', que emenda no gancho."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.1: mito do banho (alta) e mito da Elizabeth I, frase mais antiga de 1927 (média; Elizabeth é FORA e o roteiro diz isso).",
+        "Dossiê 2.2: casas de banho de Paris (média); garderobe (média).",
+        "Dossiê 2.3: Philippe Auguste (média/baixa).",
+        "Restrições: permitem caso de fora da Idade Média se não for chamado de medieval; aqui o próprio 'ela nem era medieval' vira piada."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "Formato de jogo convida o espectador a responder antes da revelação e a comentar, e o final em loop favorece o replay. A aposta é que o carimbo visual de MITO/VERDADE funcione como quebra de padrão a cada 10 s.",
+      "diferencial": "Usa as próprias armadilhas do dossiê (mito do banho, mito da Elizabeth, rei medieval x Tudor) como conteúdo, em vez de evitá-las.",
+      "riscos": [
+        "Passa 5 s do alvo do brief; o usuário pode preferir cortar a rodada bônus.",
+        "Rodadas com estrutura repetida podem soar mecânicas; o roteirista precisa variar o ritmo da revelação.",
+        "A rodada do rei apoia um 'MITO' numa cena de confiança baixa; o carimbo vale para 'o rei escapava', não para a cena da janela."
+      ]
+    },
+    {
+      "id": "A8",
+      "titulo": "Como era a higiene dos europeus na Idade Média",
+      "titulos_alternativos": [
+        "Na Idade Média, perfume era remédio",
+        "Por que a Idade Média tratava fedor com perfume?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Retrato a óleo de um nobre medieval com uma bolinha de perfume dourada colada ao nariz, numa rua lamacenta; ao lado, um camponês faz o mesmo com uma laranja espetada de cravos",
+        "texto": "O REMÉDIO ERA ESSE",
+        "emocao": "estranhamento e riso",
+        "relacao_com_titulo": "O título promete a higiene; a thumb mostra a solução absurda da época e coloca rico e pobre na mesma rua."
+      },
+      "promessa": "Você vai descobrir por que, na Idade Média, a resposta para o fedor não era limpar, era perfumar, e por que o rico e o pobre respiravam o mesmo ar.",
+      "formato": "short",
+      "duracao_recomendada": "00:45",
+      "justificativa_duracao": "Uma ideia (perfume como remédio) com a causa do fedor e o contraste rico x pobre. Cabe em 45 s sem sobra; mais tempo pediria entrar na peste, o que pesa o tom.",
+      "tecnicas": ["lacuna-de-curiosidade", "antes-e-depois", "mas-entao", "callback"],
+      "tipo_gancho": "promessa-de-revelacao",
+      "gancho_proposto": "Em 1348, os médicos de Paris acharam o culpado da doença: o ar podre. E o remédio que eles receitaram não era banho. Era cheiro bom.",
+      "estrutura": [
+        "B01 (0-7 s): promessa de revelação: o culpado era o ar; o remédio, cheiro bom (incenso e fragrância).",
+        "B02 (7-17 s): de onde vinha o ar podre: rua de lama, banheiro de castelo despejando no fosso.",
+        "B03 (17-28 s): a solução por classe: o nobre, uma bolinha de metal com alecrim, noz-moscada e canela; quem não podia, uma laranja oca com esponja de vinagre.",
+        "B04 (28-38 s): VIRADA: nem o rei escapava; o mesmo fedor que fez o rei da França mandar calçar as ruas de Paris; a bolinha dele era de ouro, o ar era o mesmo.",
+        "B05 (38-45 s): CALLBACK: 'Cheiro bom, eles receitaram. Rua limpa, ninguém receitou.'"
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sem dados de desempenho: não há 02-trends.md e aprendizados.md está vazio.",
+        "Dossiê 2.2: Faculdade de Medicina de Paris, 1348, e a teoria dos miasmas (média, RCP); pomander e laranja com vinagre (média, Science Museum e East Kingdom Gazette).",
+        "Dossiê 7: a fonte forte enquadra o perfume como proteção, não só disfarce; o ângulo segue esse enquadramento.",
+        "Dossiê 2.3: Philippe Auguste (média)."
+      ],
+      "aposta": true,
+      "justificativa_aposta": "É a curiosidade menos óbvia do dossiê e a mais fácil de explicar com um objeto (a laranja com cravos). A aposta é que o 'remédio absurdo' seja mais compartilhável que mais um vídeo sobre banho.",
+      "diferencial": "Explica a lógica da época (cheiro como causa de doença) em vez de só rir da sujeira, sem perder o humor.",
+      "riscos": [
+        "Toca na peste: o tom de humor precisa ficar no perfume e no fedor, nunca na doença, para não soar insensível nem pesar a monetização.",
+        "O pomander vai do medieval tardio ao séc. XVII: o roteiro não deve dizer que era coisa de toda a Idade Média.",
+        "O roteiro não pode soar como conselho de saúde; é história da medicina."
+      ]
+    }
+  ]
+}

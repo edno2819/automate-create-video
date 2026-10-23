@@ -1,0 +1,295 @@
+{
+  "arquivo": "projetos/como-era-cada-cargo-navio-pirata/05-roteiro-v3.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Como era cada cargo de um navio pirata",
+  "palavras": 220,
+  "duracao_estimada": "01:29",
+  "duracao_segundos": 89,
+  "duracao_alvo": "01:00",
+  "trecho_gancho": "Venha descobrir se você aguentaria",
+  "trecho_30s": "Venha descobrir se você aguentaria ser um pirata. Esquece o cinema: o navio era pequeno, e o capitão podia ser demitido no voto. O capitão Charles Vane se recusou a atacar um navio, e a tripulação trocou ele por Calico Jack. Mas nem o capitão mandava sozinho. Fora da batalha, mandava junto um cargo que o cinema esquece: o quartel-mestre. Era ele quem dividia o tesouro e o rum. E você é só marujo. Sua",
+  "primeira_frase": "Venha descobrir se você aguentaria ser um pirata.",
+  "ultima_frase": "E aí, você teria coragem de ser um tripulante de um navio pirata?",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "Gancho: esquece o cinema",
+      "funcao": "gancho",
+      "palavras": 23,
+      "inicio": "00:00",
+      "fim": "00:09",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Venha descobrir se você aguentaria ser um pirata."
+    },
+    {
+      "id": "B02",
+      "titulo": "Capitão",
+      "funcao": "contexto",
+      "palavras": 24,
+      "inicio": "00:09",
+      "fim": "00:19",
+      "duracao_s": 10,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "O capitão Charles Vane se recusou a atacar"
+    },
+    {
+      "id": "B03",
+      "titulo": "Quartel-mestre",
+      "funcao": "desenvolvimento",
+      "palavras": 22,
+      "inicio": "00:19",
+      "fim": "00:28",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Fora da batalha, mandava junto um cargo que"
+    },
+    {
+      "id": "B04",
+      "titulo": "Marujo",
+      "funcao": "desenvolvimento",
+      "palavras": 33,
+      "inicio": "00:28",
+      "fim": "00:41",
+      "duracao_s": 13,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "E você é só marujo. Sua cabeça coça"
+    },
+    {
+      "id": "B05",
+      "titulo": "O código",
+      "funcao": "virada",
+      "palavras": 27,
+      "inicio": "00:41",
+      "fim": "00:52",
+      "duracao_s": 11,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "No filme, o código é só uma sugestão."
+    },
+    {
+      "id": "B06",
+      "titulo": "Cirurgião e carpinteiro",
+      "funcao": "clímax",
+      "palavras": 19,
+      "inicio": "00:52",
+      "fim": "00:59",
+      "duracao_s": 8,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Muitas vezes, um cirurgião sequestrado de outro navio."
+    },
+    {
+      "id": "B07",
+      "titulo": "Músico",
+      "funcao": "desenvolvimento",
+      "palavras": 23,
+      "inicio": "00:59",
+      "fim": "01:08",
+      "duracao_s": 9,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Até o músico era sequestrado, pra tocar violino"
+    },
+    {
+      "id": "B08",
+      "titulo": "A prancha",
+      "funcao": "payoff",
+      "palavras": 24,
+      "inicio": "01:08",
+      "fim": "01:19",
+      "duracao_s": 11,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Quase não tem registro. O castigo real era"
+    },
+    {
+      "id": "B09",
+      "titulo": "Fecho",
+      "funcao": "final",
+      "palavras": 25,
+      "inicio": "01:19",
+      "fim": "01:29",
+      "duracao_s": 10,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "As mesmas regras que te pagavam pelo braço"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:09",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:19",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:28",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:41",
+      "ativos_no_inicio": [
+        "L1",
+        "L4"
+      ],
+      "abre": [
+        "L5"
+      ],
+      "fecha": [
+        "L4"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L5"
+      ]
+    },
+    {
+      "bloco": "B06",
+      "inicio": "00:52",
+      "ativos_no_inicio": [
+        "L1",
+        "L5"
+      ],
+      "abre": [],
+      "fecha": [
+        "L5"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B07",
+      "inicio": "00:59",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L6"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L6"
+      ]
+    },
+    {
+      "bloco": "B08",
+      "inicio": "01:08",
+      "ativos_no_inicio": [
+        "L1",
+        "L6"
+      ],
+      "abre": [],
+      "fecha": [
+        "L6"
+      ],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B09",
+      "inicio": "01:19",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "você aguentaria ser um pirata?",
+    "L2": "como um capitão pirata era demitido no voto?",
+    "L3": "se nem o capitão mandava sozinho, quem mandava junto com ele?",
+    "L4": "pirata tinha regra ou não?",
+    "L5": "quem operava quem perdia um braço?",
+    "L6": "quem quebrava as regras andava na prancha?"
+  },
+  "verificar": [],
+  "falas": {},
+  "alertas": [
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "duração estimada 01:29 está +48% da meta 01:00"
+    },
+    {
+      "nivel": "aviso",
+      "codigo": "duracao",
+      "mensagem": "short com 01:29: o ideal é entre 30 e 60 s"
+    }
+  ]
+}

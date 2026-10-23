@@ -1,0 +1,40 @@
+[
+  {
+    "trecho": "No filme, o código é só uma sugestão.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "NO FILME",
+    "descricao": "A versão de cinema, na luz dourada e teatral: um pirata vaidoso, rosto escondido pela aba do chapéu, despreza as regras com um peteleco.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "objetos": ["O02"],
+    "prompt_cena": "a flamboyant pirate in a lavish velvet coat lounging with his boots up on a candlelit table, lazily flicking the ship's articles off the edge with one finger, his face hidden under a wide feathered hat brim, theatrical golden stage-like glow",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Na real, você jurava regras: oitocentas moedas de prata",
+    "tipo": "ilustracao",
+    "texto_na_tela": "NA REAL",
+    "descricao": "O juramento, por sobre o ombro do marujo: a mão espalmada nas regras, o quartel-mestre do outro lado com a pilha de moedas. Composição que volta no B09.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P01", "P03"],
+    "local": "L01",
+    "objetos": ["O02", "O04"],
+    "prompt_cena": "the young sailor seen from behind, pressing his right palm flat on the ship's articles laid on the mess table, the quartermaster facing him across the table beside a tall stack of pieces of eight, a ring of pirates watching from the shadows, solemn oath",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "pra quem perdesse um braço. E quem operava esse braço?",
+    "tipo": "ilustracao",
+    "texto_na_tela": "800 MOEDAS POR UM BRAÇO",
+    "descricao": "As moedas sobre as regras e, logo além, na beira da luz, a serra do carpinteiro. A indenização e a ameaça no mesmo quadro, puxando o re-hook.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O02", "O04", "O03"],
+    "prompt_cena": "a tall stack of pieces of eight resting on the ship's articles, and just beyond it, half in shadow at the edge of the lantern light, the carpenter's saw lying on the table, a quiet threat",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

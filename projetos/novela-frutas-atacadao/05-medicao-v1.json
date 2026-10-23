@@ -1,0 +1,177 @@
+{
+  "arquivo": "projetos/novela-frutas-atacadao/05-roteiro-v1.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "A caixa Moranguete tem um segredo na câmara fria 😨",
+  "palavras": 70,
+  "duracao_estimada": "00:29",
+  "duracao_segundos": 29,
+  "duracao_alvo": "00:30",
+  "trecho_gancho": "Moranguete... você tá aí dentro?",
+  "trecho_30s": "Moranguete... você tá aí dentro? Dez minutos antes. Caixa sete. Bombom de novo? Só você me entende, Abacatinho. Trabalho seis por um por você. Mas ela só olha pro açougueiro. Cinco minutos. Câmara fria. Segura meu caixa, amor? Vou buscar troco. A câmara fria se fecha. E ele, segurando o caixa dela. Ela não volta. Ele procura, bombom na mão. Acha o crachá dela, preso na maçaneta. Ele puxa. Moranguete...",
+  "primeira_frase": "Moranguete...",
+  "ultima_frase": "Moranguete...",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "A porta da câmara fria",
+      "funcao": "gancho",
+      "palavras": 5,
+      "inicio": "00:00",
+      "fim": "00:02",
+      "duracao_s": 2,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Moranguete... você tá aí dentro?"
+    },
+    {
+      "id": "B02",
+      "titulo": "Dez minutos antes, caixa sete",
+      "funcao": "contexto",
+      "palavras": 19,
+      "inicio": "00:02",
+      "fim": "00:10",
+      "duracao_s": 8,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Dez minutos antes. Caixa sete. Bombom de novo?"
+    },
+    {
+      "id": "B03",
+      "titulo": "O bilhete do açougue",
+      "funcao": "virada",
+      "palavras": 28,
+      "inicio": "00:10",
+      "fim": "00:21",
+      "duracao_s": 11,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Mas ela só olha pro açougueiro. Cinco minutos."
+    },
+    {
+      "id": "B04",
+      "titulo": "O crachá na maçaneta",
+      "funcao": "desenvolvimento",
+      "palavras": 15,
+      "inicio": "00:21",
+      "fim": "00:27",
+      "duracao_s": 6,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Ela não volta. Ele procura, bombom na mão."
+    },
+    {
+      "id": "B05",
+      "titulo": "A porta abre",
+      "funcao": "clímax",
+      "palavras": 3,
+      "inicio": "00:27",
+      "fim": "00:29",
+      "duracao_s": 2,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Ele puxa. Moranguete..."
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:02",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:10",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:21",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1"
+      ],
+      "ativos_no_fim": [
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:27",
+      "ativos_no_inicio": [
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "A Moranguete está mesmo dentro da câmara fria, e por que o Abacatinho chora naquela porta?",
+    "L2": "Ela é mesmo só dele, como ele acredita?",
+    "L3": "Quando o Abacatinho vai descobrir, e ele vai ter coragem de abrir a porta?"
+  },
+  "verificar": [],
+  "falas": {
+    "Abacatinho": {
+      "falas": 3,
+      "palavras": 12
+    },
+    "Moranguete": {
+      "falas": 2,
+      "palavras": 15
+    },
+    "Pepinão": {
+      "falas": 1,
+      "palavras": 4
+    }
+  },
+  "alertas": []
+}

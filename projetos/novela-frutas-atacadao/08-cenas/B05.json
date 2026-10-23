@@ -1,0 +1,35 @@
+[
+  {
+    "trecho": "Ele puxa.",
+    "tipo": "ilustracao",
+    "descricao": "Mesmo quadro do primeiro frame: o Abacatinho de três quartos recua da porta e puxa a maçaneta; o crachá rosa balança e a fresta se abre com luz azul e fumaça no rosto dele. O silêncio do [PAUSA] fica sobre esta imagem.",
+    "enquadramento": "close",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Abacatinho the avocado in three-quarter view, leaning back from the frosted steel door as he pulls the chrome lever handle, teary eyes wide with dread, a frozen tear on his cheek, the pink name badge swinging wildly, the door cracking open, blinding blue light and fog spilling over his face, face in the upper half of the frame",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Moranguete...",
+    "tipo": "cartela",
+    "texto_na_tela": "PARTE 2",
+    "descricao": "Corte seco para a cartela PARTE 2 sobre o mesmo quadro: a porta escancarada, a luz azul estourando no rosto do Abacatinho, nada visível lá dentro. O fundo repete o primeiro frame para o replay emendar.",
+    "enquadramento": "close",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Abacatinho the avocado in three-quarter view, frozen in shock beside the wide-open cold room door, a blinding wave of blue-white light and thick fog flooding out over his face, nothing visible inside, the pink name badge swinging from the handle, overwhelming suspense",
+    "movimento": "estatico",
+    "transicao": "corte"
+  }
+]

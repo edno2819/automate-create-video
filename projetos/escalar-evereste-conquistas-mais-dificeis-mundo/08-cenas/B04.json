@@ -1,0 +1,66 @@
+[
+  {
+    "trecho": "Degrau três: o topo. Em toda a história,",
+    "tipo": "cartela",
+    "texto_na_tela": "DEGRAU 3 — O TOPO",
+    "descricao": "Cartela do terceiro degrau: a escada de papelão encostada logo abaixo do cume, com o terceiro degrau em laranja.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L03",
+    "objetos": ["O02"],
+    "prompt_cena": "the cardboard ladder leaning against the narrow summit ridge, its third rung painted signal orange, a sea of clouds below and deep blue sky above",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "pelos dois lados da montanha, sete mil quinhentas e sessenta e três pessoas chegaram.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "7.563 pessoas no topo",
+    "descricao": "Vista de cima do cume: duas filas de bonequinhos subindo pelas duas faces da montanha e se encontrando na ponta. A fila é bem mais curta que a do degrau dois.",
+    "enquadramento": "aereo",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "two thin lines of tiny paper cutout climbers ascend from opposite faces of the mountain and meet at the pointed summit, noticeably fewer figures than a crowd, cotton-wool clouds swirling around the peak",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Com garrafa de oxigênio, oito em cada dez que tentam chegam.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "com garrafa: 8 em 10",
+    "descricao": "Uma cordada de dez alpinistas de máscara e garrafa laranja: oito já pisam na crista do cume, dois ficaram para trás, dando meia-volta.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P03"],
+    "local": "L03",
+    "objetos": ["O01"],
+    "prompt_cena": "a roped team of ten paper cutout climbers wearing oxygen masks, led by the sherpa guides, eight of them already stepping onto the summit ridge with orange oxygen cylinders on their backs, two at the back turning around to descend",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Sem garrafa, só quatro em cada cem.",
+    "tipo": "cartela",
+    "texto_na_tela": "SEM GARRAFA — 4 EM 100",
+    "descricao": "Fundo da cartela: o alpinista de papel de perfil, sem máscara, gorro coberto de gelo, puxando o ar. O número precisa ficar na tela porque volta no B06.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the paper climber in profile with no oxygen mask, frost crusted on the orange beanie, mouth open gasping for thin air, a small white paper puff of breath, wind streaks cut from paper behind",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mas tem um custo fora do orçamento.",
+    "tipo": "ilustracao",
+    "descricao": "O orçamento da expedição na mesa de colagem: licença, dinheiro e garrafa arrumados, e a sombra comprida da montanha caindo por cima de tudo. Prepara a virada sem mostrar nada.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L04",
+    "objetos": ["O04", "O03", "O01"],
+    "prompt_cena": "the climbing permit, a stack of blank green banknotes and an orange oxygen cylinder neatly arranged on kraft paper, a long dark mountain-shaped shadow sliding across them from the top of the frame, the mood suddenly cold and quiet",
+    "movimento": "descer",
+    "transicao": "corte"
+  }
+]

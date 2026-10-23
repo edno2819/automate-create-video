@@ -1,0 +1,83 @@
+{
+  "roteiro": "projetos/escalar-evereste-conquistas-mais-dificeis-mundo/05-roteiro-v2.md",
+  "versao": 2,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 97,
+  "bloqueantes_reprovados": [],
+  "leitura_fria": [
+    "B01: existem quase 15 vezes mais bilionários no mundo do que vezes em que alguém chegou ao topo do Everest sem garrafa de oxigênio. Não acredito: quero ver essa conta.",
+    "B02: degrau um, o primeiro passo pra subir: só a licença do Nepal custa uns 75 mil reais, e a expedição com guia vai de 230 a mais de 400 mil. E isso só dá o direito de tentar. Entendi: pagar não garante nada.",
+    "B03: degrau dois, sair do acampamento base e escalar. Contando só o lado do Nepal, desde 2000, quase 16 mil pessoas tentaram. Mais da metade não era cliente: eram guias e sherpas, pagos pra subir. Ah, a maioria de quem sobe está trabalhando. (Pausa curta no ouvido: 'dois mil, quase dezesseis mil' vêm colados.)",
+    "B03→B04: começar não é chegar. Quero saber quantos chegam.",
+    "B04: degrau três, o topo. Somando a história toda e os dois lados da montanha, 7.563 pessoas chegaram. Com garrafa, 8 em cada 10 que tentam chegam; sem garrafa, só 4 em cada 100. Sem garrafa é quase impossível.",
+    "B04→B05: tem um custo que não está no orçamento. Desconfio que são as mortes.",
+    "B05: umas 340 pessoas já morreram no Everest. Uma morte a cada cem vezes que alguém chegou ao topo. Entendi a taxa; o 'vezes' deixa claro que conta subidas.",
+    "B05→B06: ainda falta o último degrau, o que é mais raro que ser bilionário. Fica: é a resposta do começo.",
+    "B06: degrau quatro, topo sem garrafa: só 232 subidas, contra 3.428 bilionários na última lista da Forbes. Fecho: dinheiro compra licença e garrafa, mas não compra o fôlego de subir sem ela. Entendi o vídeo de outro jeito: a escada inteira era de dinheiro e o topo é o que dinheiro não compra."
+  ],
+  "confusoes": [],
+  "promessa": "Subir o Everest é caro, raro e mortal a ponto de chegar ao topo sem garrafa de oxigênio ser quase 15 vezes mais raro que ser bilionário.",
+  "onde_cumpre": "B01 planta a comparação, B02 a B05 sobem a escada (custo em reais com a data do câmbio na cartela, quantos tentam, quantos chegam, quantos morreram) e B06 entrega o 232 contra 3.428 e fecha com 'Dinheiro compra a licença e a garrafa. Não compra o fôlego pra subir sem ela.'",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {"id": "clareza", "nota": 2, "peso": 3},
+    {"id": "mas-entao", "nota": 2, "peso": 2},
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "final-com-virada", "nota": 2, "peso": 2},
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {
+      "id": "final-em-loop",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B06 → B01",
+      "evidencia": "Não compra o fôlego pra subir sem ela. → Tem quase quinze vezes mais bilionário...",
+      "problema": "Não há emenda: a última frase fecha sozinha e o replay recomeça do zero. Como o fecho é forte, pela rubrica é 1, e a decisão de não forçar a emenda está certa.",
+      "instrucao": "Não mexa na última frase para ganhar o loop. Deixe como está."
+    },
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {
+      "id": "linguagem-falada",
+      "nota": 1,
+      "peso": 1,
+      "bloco": "B03",
+      "evidencia": "Só pelo lado do Nepal, desde o ano dois mil, quase dezesseis mil pessoas tentaram.",
+      "problema": "Duas intercalações antes do sujeito, e dois números colados ('dois mil, quase dezesseis mil'). No ouvido e na voz sintética, o 'dois mil' pode grudar no 'dezesseis mil', e o número que importa chega depois de duas pausas. O B04 tem o mesmo desenho ('Em toda a história, pelos dois lados da montanha, sete mil...'), mas lá não há dois números juntos, então é aceitável.",
+      "instrucao": "Separe os números e deixe uma só intercalação: 'Só pelo lado do Nepal, quase dezesseis mil pessoas tentaram desde o ano dois mil.' Mantém o lado e o recorte (que desfazem o funil falso com o B04) e não acrescenta palavras."
+    },
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B06", "tempo": "01:01", "motivo": "Não é confusão, é tamanho: a resposta do gancho (232 contra 3.428) chega depois de 1 minuto, num short de 1 min 16 s. Quem desliza ao fim do primeiro minuto não vê o payoff. O L1 segura até lá, mas é o maior risco de 'passou' que sobrou."},
+    {"bloco": "B03", "tempo": "00:19", "motivo": "Risco leve: é o degrau com o número menos surpreendente (16 mil tentaram) e com uma curiosidade lateral (guias e sherpas pagos) que não leva ao próximo degrau. O re-hook 'Mas começar não é chegar' segura a saída."}
+  ],
+  "prioridades": [
+    "1. B03 (opcional, linguagem falada): troque por 'Só pelo lado do Nepal, quase dezesseis mil pessoas tentaram desde o ano dois mil.' Separa os dois números que hoje vêm colados ('dois mil, quase dezesseis mil') sem mudar o sentido nem o tamanho.",
+    "2. Decisão do usuário, não do roteirista: o short tem 222 palavras (~01:16) e o payoff começa em ~01:01. Pela lição 'clareza vale mais que a meta', não é defeito. Se o usuário quiser abaixo de 1 minuto, os cortes que não tiram nenhuma ligação são, nesta ordem: 'Mais da metade nem era cliente: eram guias e sherpas, pagos pra subir.' (B03, 13 palavras, curiosidade lateral), 'com guia' (B02) e 'Na última lista da Forbes,' por 'Hoje,' (B06). Não corte 'pelos dois lados da montanha' (B04) nem o 'vezes' do B05.",
+    "3. Nada mais a reescrever: as quatro confusões da v1 foram resolvidas. Não mexa nos trechos listados em 'manter'."
+  ],
+  "manter": [
+    "B01: a frase do gancho inteira e o [VISUAL] da pilha de bonecos de terno ao lado do bonequinho sozinho no cume. Verdadeira, entende-se de primeira.",
+    "B01 e B06: 'subidas' em vez de 'pessoas' e 'garrafa de oxigênio' em vez de 'oxigênio suplementar'.",
+    "B02: 'E isso só compra o direito de tentar.' e a cartela com a data do câmbio e a faixa barata/premium, que cumpre a restrição do pedido.",
+    "B03: 'Mais da metade nem era cliente: eram guias e sherpas, pagos pra subir.' agora tem sujeito e motivo (cortável só por tamanho, nunca para voltar ao 'a maioria não pagava').",
+    "B04: 'Em toda a história, pelos dois lados da montanha' e 'oito em cada dez que tentam chegam. Sem garrafa, só quatro em cada cem.' Desfazem o funil falso e devolvem a tensão.",
+    "B04→B05: 'Mas tem um custo fora do orçamento.' Leva às mortes pelo dinheiro, sem sensacionalismo.",
+    "B05: 'A cada cem vezes que alguém chegou ao topo, uma pessoa morreu na montanha.' e o visual indireto (corda vazia, barraca fechada).",
+    "B05→B06: 'E ainda falta o último degrau, mais raro que ser bilionário.'",
+    "B06: o fecho 'Dinheiro compra a licença e a garrafa. Não compra o fôlego pra subir sem ela.' É a virada do vídeo.",
+    "A escada com 'Degrau um/dois/três/quatro' dita em voz alta."
+  ],
+  "alertas_de_medicao": [
+    "Duração estimada de 01:16 para uma meta de 00:58 (brief: 01:00), 222 palavras a 180 ppm, +31%. Sem enchimento, pela lição registrada fica com o usuário: os cortes possíveis estão na prioridade 2 e nas notas do roteirista.",
+    "Campos 1 a 4: a descrição do pedido quer a contagem por acampamento, mas o dossiê não tem número publicado. O roteiro usa só os níveis com fonte, como a restrição permite; o usuário precisa saber que esse recorte ficou de fora.",
+    "Os 3.428 bilionários vêm da reprodução do comunicado da Forbes (confiança média) e mudam com a lista de março de 2027. Confira antes de publicar se o vídeo sair depois disso.",
+    "O título do brief tem 'evereste' com 'e' no fim e minúscula. É do usuário e não entrou na nota; o ângulo sugere 'Escalar o Everest: uma das conquistas mais difíceis do mundo'.",
+    "Os números do B03 (só lado do Nepal, 2000 a 2025) e do B04 (história toda, dois lados) têm recortes diferentes, e o texto agora diz isso. Se alguém cortar 'pelos dois lados da montanha', volta o funil falso da v1."
+  ]
+}

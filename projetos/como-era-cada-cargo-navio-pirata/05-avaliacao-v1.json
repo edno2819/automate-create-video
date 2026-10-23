@@ -1,0 +1,103 @@
+{
+  "roteiro": "projetos/como-era-cada-cargo-navio-pirata/05-roteiro-v1.md",
+  "versao": 1,
+  "formato": "short",
+  "aprovado": true,
+  "nota_percentual": 84,
+  "bloqueantes_reprovados": [],
+  "leitura_fria": [
+    "B01: o vídeo me desafia: eu aguentaria ser pirata? Tenho 20 anos, jurei umas regras do navio (quais?) e bato o biscoito na mesa pros bichos caírem. Nojento, entendi.",
+    "B02: começo como marujo, o mais baixo: durmo grudado no outro, com piolho e rato, e bebo rum porque a água estraga.",
+    "B03: a comida piora: sem carne, frita-se o que tiver; a tripulação de um tal Henry Morgan comeu uma bolsa de couro. Engraçado e nojento.",
+    "B04: o músico muitas vezes era capturado de outro navio e obrigado a tocar violino no ataque, pra assustar. Por que o músico agora? Pulou do cozinheiro pro músico sem motivo.",
+    "B05: no canhão quem manda atirar é o artilheiro. Mas o outro navio atira de volta: perigo.",
+    "B06: não tem médico, então quem me opera é o carpinteiro, com serra de madeira (fui atingido? deduzo que sim). Por perder um braço, as regras que jurei me pagam 800 moedas. Pirata tinha indenização! (800 é muito?)",
+    "B07: quem paga é o quartel-mestre, que divide o tesouro e, fora da batalha, manda tanto quanto o capitão. Então o capitão não manda em tudo.",
+    "B08: e o capitão é eleito e derrubado no voto, pelas mesmas regras que eu jurei. Se o navio é capturado, o mais alto é o primeiro enforcado: subir de cargo é subir na forca.",
+    "B09: e aí, eu teria coragem de ser tripulante?"
+  ],
+  "confusoes": [
+    {
+      "bloco": "B05-B06",
+      "trecho": "Só que o outro navio também atira. Sem médico, quem opera você é o carpinteiro",
+      "problema": "pula a ação: o texto não diz que você foi atingido; o espectador deduz o ferimento a partir da operação, e só entende o que foi operado na frase seguinte ('braço perdido'). Repete a lição 'Diga a ação, não só o efeito'."
+    }
+  ],
+  "promessa": "Passar por cada cargo de um navio pirata pelo lado mais nojento ou assustador, começando pelo jantar de biscoito com caruncho do marujo novato.",
+  "onde_cumpre": "B01 entrega a thumb (o biscoito batido na mesa) em 11 s; B02 a B08 sobem por sete cargos (marujo, cozinheiro, músico, artilheiro, carpinteiro, quartel-mestre, capitão), cada um com um detalhe, e o B08 fecha a escada com o topo irônico da forca.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {"id": "sem-ponto-de-abandono", "nota": 2, "peso": 3},
+    {
+      "id": "clareza",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B05-B06",
+      "evidencia": "Só que o outro navio também atira. Sem médico, quem opera você é o carpinteiro",
+      "problema": "O passo 'você foi atingido' não é dito: entre o tiro do inimigo e a cirurgia, o espectador tem de deduzir o ferimento e só descobre que é o braço depois da pausa. É o mesmo erro da lição 'Diga a ação, não só o efeito'. O resto da leitura fria passou sem travar.",
+      "instrucao": "Diga o acerto logo depois do re-hook, sem descrever ferida: 'Só que o outro navio também atira. E acerta o seu braço.' e no B06 'Sem médico a bordo, quem opera é o carpinteiro, com a serra de cortar madeira.' A pausa e o 'Por um braço perdido...' seguem iguais."
+    },
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B03-B04",
+      "evidencia": "comeu uma bolsa de couro. O músico, muitas vezes, foi capturado de outro navio",
+      "problema": "Do cozinheiro para o músico a ligação é 'e depois': B03 e B04 podem trocar de lugar sem perda, e o conector 'mas' declarado no B04 só existe nos metadados. As outras ligações (ataque → canhões → acerto → quem paga → e o capitão?) são ditas e funcionam.",
+      "instrucao": "Abra o B04 com o contraste com o juramento do B01, que é a reserva que você mesmo listou: 'Pelo menos você entrou porque quis. O músico, muitas vezes, foi capturado de outro navio e obrigado a tocar violino no ataque, pra assustar.'"
+    },
+    {"id": "payoff-cumpre-titulo", "nota": 2, "peso": 3},
+    {"id": "final-com-virada", "nota": 2, "peso": 2},
+    {
+      "id": "concretude",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B05",
+      "evidencia": "Nos canhões, quem grita fogo é o artilheiro.",
+      "problema": "O artilheiro é o único cargo sem detalhe concreto, contra a restrição do brief ('cada cargo... com um detalhe concreto e real'). Também ficaram abstratos o valor do B06 ('oitocentas moedas', de quê?) e o poder do quartel-mestre no B07 ('divide o tesouro').",
+      "instrucao": "B05: 'Cada canhão precisa de quatro a seis homens, e quem grita fogo é o artilheiro.' (dossiê, 4 a 6 homens por canhão). B06: 'oitocentas moedas de prata'. B07: '...que divide o tesouro, decide quanto rum você bebe e, fora da batalha, manda igual ao capitão.' (dossiê: ele definia as rações; e ecoa o rum do B02)."
+    },
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {"id": "linguagem-falada", "nota": 2, "peso": 1},
+    {"id": "tom", "nota": 2, "peso": 1},
+    {
+      "id": "factualidade",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B08",
+      "evidencia": "Se o navio é pego, o cargo mais alto sobe primeiro na forca.",
+      "problema": "O dossiê diz que capitães capturados 'eram quase certamente enforcados' (Kidd, 1701), não que subiam primeiro: a ordem da execução não tem fonte, e tripulações inteiras também foram enforcadas. Menor: 'Quem paga é o quartel-mestre' (B07) é inferência, porque o dossiê diz só que ele dividia o butim; risco baixo.",
+      "instrucao": "Troque por uma versão que o dossiê sustenta e que mantém o trocadilho do 'subir': 'Se o navio é pego, quem subiu até o topo quase sempre sobe na forca.' O B07 pode ficar como está."
+    },
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B04", "tempo": "00:26", "motivo": "do cozinheiro para o músico sem ligação: é quando o short começa a soar como lista e o polegar passa. Só o L1 (aguentaria?) segura."},
+    {"bloco": "B05", "tempo": "00:33", "motivo": "'quem grita fogo é o artilheiro' é a frase mais genérica do vídeo, logo antes do clímax; o re-hook seguinte só funciona se esta não esfriar."}
+  ],
+  "prioridades": [
+    "1. B05-B06 (clareza, lição 'Diga a ação, não só o efeito'): diga que você foi atingido antes da cirurgia: 'Só que o outro navio também atira. E acerta o seu braço.' e depois 'Sem médico a bordo, quem opera é o carpinteiro, com a serra de cortar madeira.' Sem descrever ferida.",
+    "2. B08 (factualidade): 'sobe primeiro na forca' não tem fonte. Troque por 'Se o navio é pego, quem subiu até o topo quase sempre sobe na forca.', que o dossiê sustenta e que mantém a inversão do fecho. Faça isso antes de produzir, mesmo com o roteiro aprovado.",
+    "3. B04 (mas-então): ligue o músico ao juramento: 'Pelo menos você entrou porque quis. O músico, muitas vezes, foi capturado...'. Hoje B03 e B04 trocam de lugar sem perda.",
+    "4. B05 (concretude, restrição do brief): dê ao artilheiro o seu detalhe: 'Cada canhão precisa de quatro a seis homens, e quem grita fogo é o artilheiro.'",
+    "5. B06/B07 (concretude): 'oitocentas moedas de prata' e o quartel-mestre que 'decide quanto rum você bebe' (eco do B02). Se faltar espaço, este é o primeiro item a sair, nunca os itens 1 e 3."
+  ],
+  "manter": [
+    "B01: o primeiro frame do biscoito batido na mesa com os carunchos caindo, que entrega a thumb nos primeiros segundos",
+    "B02: 'bebe rum, porque a água apodrece': nojo e motivo na mesma frase",
+    "B03: a bolsa de couro da tripulação de Henry Morgan, o melhor detalhe de humor seco",
+    "B04-B05: a passagem 'tocar violino no ataque' → 'Nos canhões', que liga os blocos pelo ataque",
+    "B06: a [PAUSA] antes de 'Por um braço perdido, as regras que você jurou pagam oitocentas moedas' (o callback do juramento)",
+    "B06-B07-B08: a cadeia 'Quem paga é o quartel-mestre' → 'E o capitão? É eleito e derrubado no voto, pelas regras que você jurou', que é o fio do vídeo",
+    "B08: a inversão do topo (subir de cargo é subir na forca), com a correção factual da prioridade 2"
+  ],
+  "alertas_de_medicao": [
+    "Duração: 180 palavras, 01:13 a 150 ppm, acima do ideal de 30 a 60 s da medição. Com a narração 20% mais rápida pedida no brief, fica em cerca de 61 s, perto da meta do brief (01:00; o cabeçalho do roteiro diz 01:05, vindo do ângulo). As prioridades 1, 3 e 4 somam cerca de 17 palavras (cerca de 66 s na velocidade pedida); pela lição 'Clareza vale mais que a meta de duração', não corte as frases de ligação para caber. A decisão sobre o tamanho fica com o usuário.",
+    "Abertura e fecho são frases fixas do usuário e não pesaram na nota; o loop fecho → abertura funciona.",
+    "'Henry Morgan' pode sair com pronúncia errada na voz do Gemini em pt-BR: confira na narração.",
+    "Imagens de Piratas do Caribe (pedido da descrição): risco de reivindicação de direitos, decisão da direção visual e não do roteiro."
+  ]
+}

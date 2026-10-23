@@ -1,0 +1,332 @@
+{
+  "projeto": "higiene-idade-media",
+  "recomendacao": {
+    "angulo": "A1",
+    "motivo": "É o único ângulo em que o fato do gancho tem confiança alta (F1). O número se lê em 1 s sem áudio e derruba o mito 'ninguém tomava banho' sem usar a moldura 'mito vs verdade', que vai mal nos longos coletados. Nenhum título coletado fala de banhos públicos, e há poucos Shorts do tema em português. O payoff é concreto (guilda, preço, pregoeiro), não depende de nojo, e o final em loop sai naturalmente da lista de cidades. Nenhum ângulo tem prova de desempenho em Shorts, então a escolha pesa mais a solidez do material que a demanda comprovada. Alternativas: A2, se o usuário quiser um personagem (é o padrão com mais sinal nos trends), e A3, se a prioridade for a identidade do canal de referência."
+  },
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "Paris medieval tinha mais de 32 casas de banho",
+      "titulos_alternativos": [
+        "Quanto custava um banho na Paris medieval?",
+        "Ninguém tomava banho? Paris tinha mais de 32 casas"
+      ],
+      "thumbnail": {
+        "elemento_central": "Interior de uma casa de banho medieval cheio de vapor, com tinas de madeira enfileiradas; em primeiro plano, uma mão estende duas moedas ao dono, que está na porta.",
+        "texto": "VAPOR: 2 MOEDAS",
+        "emocao": "espanto curioso ('isso existia?')",
+        "relacao_com_titulo": "O título dá a quantidade e a cidade. A capa mostra o que ele não diz: era um negócio, com preço. Juntos, prometem explicar como funcionava."
+      },
+      "promessa": "Mostrar que a Paris do século XIII tinha banho público como negócio organizado: dezenas de casas, regras e preços fixados por uma guilda e pregoeiros chamando clientes na rua.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief (8 imagens de 3,75 s). O ângulo cabe com folga: um número de abertura, um contraste e um fato sobre o negócio. Como não há áudio, o alvo é de 60 a 75 palavras, com no máximo 10 por imagem, para que a legenda seja lida enquanto a imagem está na tela.",
+      "tecnicas": ["lacuna-de-curiosidade", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "[VISUAL: interior de casa de banho com vapor e tinas de madeira enfileiradas] Mais de 32 casas de banho. Numa cidade só.",
+      "estrutura": [
+        "B01 (img 1-2, ~15 palavras): gancho com o número, mais de 32 casas de banho em Paris no século XIII [F1], contra o mito ('e dizem que ninguém tomava banho').",
+        "B02 (img 3-4, ~20 palavras): o contraste com a casa: encher uma tina era caro, porque a água tinha de ser carregada e aquecida; no dia a dia, usavam jarra e bacia [F15]. Pôr os dois fatos lado a lado, sem afirmar que as casas de banho existiam por causa disso.",
+        "B03 (img 5-7, ~25 palavras): VIRADA: era um negócio organizado. Uma guilda de donos fixava regras, o vapor custava 2 denários e o banho completo 4, e pregoeiros chamavam clientes pelas ruas [F3].",
+        "B04 (img 8, ~12 palavras): payoff e final em loop: 'Londres teve 13. Viena chegou a 29. E Paris...' [F2], que emenda no gancho. CALLBACK: o número da abertura volta no replay."
+      ],
+      "fatos_dossie": ["F1", "F3", "F15", "F2"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "Série: os fatos de A2 (rei, 1351) e A4 (monges) não entram aqui e rendem os próximos shorts."
+      ],
+      "evidencias": [
+        "02-trends.md §5: banhos públicos medievais ('estufas') estão entre os temas pouco explorados; nenhum título coletado fala deles.",
+        "02-trends.md §5: há poucos Shorts verticais sobre higiene medieval em português (5 a 6 em 365 dias, quase todos com menos de 100 views).",
+        "Demanda pelo tema banho medieval em vídeos longos: 'Fui na Inglaterra de 1348 e Tentei SOBREVIVER à Higiene da Idade Média' (0NqHLW6S6k4), 45.537 views; 'Let's Talk About Medieval Hygiene...' (JUABmqLmHt4), 401 mil views.",
+        "02-trends.md §6.3: a quebra de mito serve como estrutura de gancho (D5s1QPbtZ28, CVqYd9zH0jQ, Azaxg3RyfFs), mas tem poucas views quando o título é 'mito vs verdade'. Aqui o mito cai por um número, sem essa moldura.",
+        "Limite: nenhum desses dados é de Shorts. O sub-ângulo (banhos públicos) tem a seu favor só a lacuna, não um desempenho comprovado."
+      ],
+      "aposta": false,
+      "diferencial": "Nenhum título coletado trata de banhos públicos. Os vídeos de mito argumentam; este mostra um número e um preço. É o único ângulo com um fato de confiança alta no gancho.",
+      "riscos": [
+        "Só F1 tem confiança alta. F2 (outras cidades, de blog sem referência original) e F3 (preços e pregoeiros, de ensaio de divulgação) são de confiança média: citar exatamente o que está no dossiê.",
+        "A fonte dá o preço em 'pennies/denários': não converter para reais nem inventar equivalência.",
+        "Não chamar as casas de banho de bordel (F27 tem fontes divergentes) e não dar frequência de banho por ano (seção 6 do dossiê).",
+        "'Mito vs verdade' vai mal nos longos (02-trends §3): o texto deve soar como espanto, não como correção ('na verdade...').",
+        "Imagens de banho coletivo: corpos cobertos por água e vapor, por causa dos anunciantes e dos filtros dos geradores de imagem."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "Em 1351, o rei já tinha torneira de água quente",
+      "titulos_alternativos": [
+        "Como o rei medieval tomava banho?",
+        "O rei que levava a banheira nas viagens"
+      ],
+      "thumbnail": {
+        "elemento_central": "Close de uma tina de madeira forrada de linho com duas bicas de bronze: de uma sai vapor, a outra pinga água fria em tom azulado. Uma coroa apoiada na borda e uma janela gótica ao fundo.",
+        "texto": "",
+        "emocao": "admiração e surpresa",
+        "relacao_com_titulo": "O título fala de água quente. A capa mostra sem texto a segunda bica (fria) e o palácio. A coroa responde 'de quem era' só para quem olha; o nome e o caso ficam para o vídeo."
+      },
+      "promessa": "Mostrar como os reis da Inglaterra tomavam banho, com fatos datados: torneiras de água quente e fria em 1351 e uma banheira que acompanhava o rei nas viagens, com um criado encarregado dela.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief. São três fatos com data e nome, o bastante para 8 imagens sem enchimento. Sem áudio: de 60 a 75 palavras, no máximo 10 por imagem. Se faltar espaço, F12 (ervas e água de rosas) fica de reserva.",
+      "tecnicas": ["lacuna-de-curiosidade", "caso-concreto", "callback", "final-em-loop"],
+      "tipo_gancho": "resultado-primeiro",
+      "gancho_proposto": "[VISUAL: close de uma bica de bronze despejando água fumegante numa tina de madeira, janela gótica ao fundo] Torneira de água quente. Numa banheira de 1351.",
+      "estrutura": [
+        "B01 (img 1-2, ~15 palavras): o resultado primeiro, uma torneira de água quente numa banheira de 1351 [F6], seguido da pergunta: de quem era?",
+        "B02 (img 3-4, ~18 palavras): o dono. Eduardo III, rei da Inglaterra, mandou instalar torneiras de água quente e fria na banheira do Palácio de Westminster [F6]. A legenda diz 'rei da Inglaterra' antes do nome.",
+        "B03 (img 5-6, ~20 palavras): VIRADA com caso concreto: um século e meio antes, o rei João levava a banheira nas viagens, e um criado, William, era encarregado dela [F7].",
+        "B04 (img 7-8, ~17 palavras): contraste e loop. Para o resto, encher uma tina era caro, com água carregada e aquecida [F15]. 'O luxo era abrir uma...' emenda no gancho. CALLBACK: a torneira da abertura."
+      ],
+      "fatos_dossie": ["F6", "F7", "F15", "F12 (reserva)"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "Série: o banho de nobre do século XV (F12: ervas, esponjas, água de rosas) pode render um short próprio."
+      ],
+      "evidencias": [
+        "n-oe39rBIwE, 'Como a rainha medieval tomava banho sem banheiro?' (Selo Real, 25 inscritos): 1.146 views, razão 45,8. É uma pergunta com personagem específico. Sinal fraco pelo volume.",
+        "CvhWzM6HC8Y, 'COMO ERA A VIDA REAL NOS CASTELOS MEDIEVAIS' (History of Tomorrow): 94.348 views, razão 462. Mostra interesse pelo 'por dentro' do castelo e da realeza.",
+        "02-trends.md §6.2 sugere a pergunta com personagem específico ('Como a rainha/o rei tomava banho?')."
+      ],
+      "aposta": false,
+      "diferencial": "Os vídeos com personagem real perguntam 'como a rainha tomava banho'. Este abre com um objeto datado (1351) e tem um nome próprio (William), coisas que nenhum título coletado usa.",
+      "riscos": [
+        "F6 e F7 têm fonte única (medievalists.net) e confiança média. O dossiê não diz como a água era aquecida nem como funcionava o encanamento: não prometer nem explicar isso.",
+        "'Torneira' pode sugerir metal cromado: a direção visual deve desenhar bica medieval de bronze.",
+        "Leitura errada possível: 'só o rei tomava banho', o que reforça o mito. O B04 precisa deixar claro que o luxo era a água quente encanada, não o banho em si.",
+        "Eduardo III e o rei João são pouco conhecidos no Brasil: a legenda não pode depender dos nomes."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "Como era tomar banho em cada classe da Idade Média",
+      "titulos_alternativos": [
+        "Na Idade Média, onde seria o seu banho?",
+        "Do rio à torneira quente: o banho medieval por classe"
+      ],
+      "thumbnail": {
+        "elemento_central": "Capa dividida em três faixas, de baixo para cima: um camponês com uma bacia à beira do rio; gente numa casa de banho com vapor; uma banheira com bica de bronze num palácio.",
+        "texto": "E VOCÊ?",
+        "emocao": "identificação e curiosidade",
+        "relacao_com_titulo": "O título promete 'cada classe'. A capa mostra os três degraus de uma vez e pergunta em qual o espectador estaria, coisa que o título não faz."
+      },
+      "promessa": "Mostrar, degrau por degrau, onde e como você se lavaria na Idade Média conforme o dinheiro: bacia ou rio, casa de banho paga, ou a banheira com água quente do rei.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief, e este é o ângulo mais denso: três níveis em cerca de 75 palavras, perto de 2 imagens por nível. Cabe se cada nível tiver um fato só. Quatro níveis não caberiam lidos em 30 s.",
+      "tecnicas": ["pov-segunda-pessoa", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "[VISUAL: em primeira pessoa, mãos segurando uma bacia de barro com água, jarra ao lado, chão de terra de um casebre] Nível 1: você é pobre. Seu banho é uma bacia.",
+      "estrutura": [
+        "B01 (img 1-3, ~25 palavras): Nível 1, sem dinheiro. No dia a dia, jarra e bacia [F15]. Para lavar o corpo inteiro, rio ou lago, e na Inglaterra os legistas registraram gente que se afogou tentando se lavar [F14].",
+        "B02 (img 4-5, ~20 palavras): Nível 2, algumas moedas. Você mora em Paris, que tem mais de 32 casas de banho [F1]: o vapor custa 2 denários e o banho completo, 4 [F3].",
+        "B03 (img 6-7, ~18 palavras): VIRADA no topo, em terceira pessoa porque é gente real: em 1351, o rei da Inglaterra mandou pôr torneiras de água quente e fria na banheira [F6].",
+        "B04 (img 8, ~10 palavras): final circular, como no esqueleto: 'A moeda acabou? Você volta para o nível 1.' Emenda no gancho. CALLBACK: o nível 1."
+      ],
+      "fatos_dossie": ["F15", "F14", "F1", "F3", "F6"],
+      "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short.",
+        "Série: cada nível pode virar um short próprio (A1 aprofunda o nível 2; A2, o topo)."
+      ],
+      "evidencias": [
+        "WCoywX18oIE, 'VOCÊ NÃO DURARIA 1 DIA na Idade Média!' (Você Sabia?, 47,3 mi inscritos): 1.731.604 views, razão 0,04. Prova a demanda pelo POV de espanto, embora o volume reflita o tamanho do canal.",
+        "kFteOOi64HA (5,9 mil views) e BWneV59iTcI (6,7 mil views): 'você não duraria' é o ângulo de espanto mais frequente (02-trends.md §3).",
+        "ocyBMRLT4aI, 'Como Era Ser Rico na Idade Média' (short): 163 views, razão 54, 10 dias. Recorte por classe; amostra mínima, sinal fraco.",
+        "A estrutura vem do esqueleto de referência do brief: escada de níveis em POV com final circular."
+      ],
+      "aposta": false,
+      "diferencial": "Os vídeos 'você não duraria' tratam a Idade Média como sujeira geral. Este monta uma escada por classe com um fato e um preço em cada degrau, no formato do canal de referência, que nenhum short coletado usa.",
+      "riscos": [
+        "É o ângulo mais denso: se passar de 10 palavras por imagem, a legenda não é lida a tempo. A ordem de corte, se precisar, é F14 e depois F1.",
+        "Os lugares mudam (Inglaterra nos níveis 1 e 3, Paris no 2): cada nível é um 'você' diferente, e a legenda precisa dizer o lugar, senão vira generalização falsa.",
+        "pov-segunda-pessoa não pode ser usado para Eduardo III, que é pessoa real: no topo, a legenda passa para a terceira pessoa ('o rei da Inglaterra').",
+        "O afogamento (F14) é o único ponto sombrio: tratar como dado, sem imagem de corpo.",
+        "escada-de-niveis-pov está registrada só para vídeo longo e com no mínimo 5 níveis. Aqui é uma adaptação de 3 degraus, e o crítico deve avaliá-la assim."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "Monge medieval era obrigado a tomar banho. Quantas vezes?",
+      "titulos_alternativos": [
+        "4 banhos por ano. E era obrigatório",
+        "O atendente de banho que recebia 2 pães por dia"
+      ],
+      "thumbnail": {
+        "elemento_central": "Monge de capuz ao lado de uma tina fumegante num claustro de pedra; junto dele, um atendente segurando dois pães.",
+        "texto": "2 PÃES POR DIA",
+        "emocao": "curiosidade e estranhamento",
+        "relacao_com_titulo": "O título pergunta 'quantas vezes', e a capa não responde: acrescenta um detalhe estranho (alguém pago com pão), que só faz sentido no vídeo."
+      },
+      "promessa": "Revelar quantos banhos a regra da abadia de Westminster exigia dos monges e mostrar que, no mosteiro, banho e sabão eram obrigação, com um funcionário pago para o banho.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief. Uma pergunta, uma resposta e duas surpresas (o atendente e o sabão) ocupam bem 8 imagens. Sem áudio: de 60 a 75 palavras.",
+      "tecnicas": ["loop-aberto", "caso-concreto", "lacuna-de-curiosidade", "final-em-loop"],
+      "tipo_gancho": "pergunta-direta",
+      "gancho_proposto": "[VISUAL: monge de capuz diante de uma tina de madeira fumegante, claustro de pedra ao fundo] Banho obrigatório para monges. Quantas vezes por ano?",
+      "estrutura": [
+        "B01 (img 1, ~9 palavras): a pergunta. LOOP aberto: quantas vezes por ano?",
+        "B02 (img 2-3, ~16 palavras): a resposta. Em Westminster, 4 vezes por ano: Natal, Páscoa, fim de junho e fim de setembro [F8]. Deixar claro que é a regra dessa abadia, não a frequência de todo mundo.",
+        "B03 (img 4-6, ~25 palavras): VIRADA com caso concreto: a abadia pagava um atendente de banho, com 2 pães por dia e 1 libra por ano [F8].",
+        "B04 (img 7-8, ~18 palavras): payoff e loop. A regra do sabão era ainda mais antiga: no século IX, os sínodos de Aachen exigiam que os monges tivessem sabão suficiente [F9]. Emenda no gancho."
+      ],
+      "fatos_dossie": ["F8", "F9"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short."
+      ],
+      "evidencias": [
+        "hxUbdBD3-1M, 'O SEGREDO das Noites em Mosteiros' (Sombras do Medieval): razão 43,6. 02-trends.md §5 lista mosteiros como lacuna.",
+        "G7ABLOVGZ74, do mesmo canal: 8.836 views, razão 44,9. Indica que bastidores de instituições medievais funcionam, mas num canal de 197 inscritos (sinal fraco)."
+      ],
+      "aposta": false,
+      "diferencial": "Nenhum título coletado trata de banho em mosteiro. O '4 por ano' parece confirmar o mito, e o vídeo vira o jogo com o atendente pago com pão e o sabão obrigatório.",
+      "riscos": [
+        "É o ângulo com maior risco de reforçar o mito: '4 banhos por ano', lido sozinho, soa como sujeira. A legenda não pode generalizar ('na Idade Média se tomava 4 banhos por ano'), e o dossiê manda evitar número fixo de banhos (seção 6).",
+        "F8 não tem data exata e F9 é de outro lugar e século (Império Carolíngio, século IX): dizer os dois explicitamente.",
+        "Não explicar por que eram só 4 vezes nem afirmar que nos outros dias eles se lavavam na bacia: o dossiê não diz isso dos monges.",
+        "Sinal dos trends fraco: os dois vídeos de mosteiro são de um canal minúsculo."
+      ]
+    },
+    {
+      "id": "A5",
+      "titulo": "Os banhos públicos fecharam depois da Idade Média",
+      "titulos_alternativos": [
+        "Por que os banhos públicos sumiram?",
+        "Trocavam a camisa em vez de tomar banho"
+      ],
+      "thumbnail": {
+        "elemento_central": "Porta de uma casa de banho sendo pregada com tábuas, com vapor saindo pelas frestas; ao lado, um homem em roupa do século XVI (gibão, gola franzida) segura uma camisa de linho branca.",
+        "texto": "MEDO DA ÁGUA",
+        "emocao": "espanto e estranhamento",
+        "relacao_com_titulo": "O título diz quando os banhos fecharam. A capa diz por quê (medo) e mostra o que ficou no lugar do banho (a camisa)."
+      },
+      "promessa": "Mostrar que as casas de banho sumiram no século XVI, depois da Idade Média, por medo de doenças, e que muita gente passou a trocar a camisa de linho em vez de se banhar.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief. Tese, uma prova datada (Erasmo, 1526) e um hábito estranho cabem em 30 s. Mais que isso exigiria explicar as causas, que divergem entre as fontes. Sem áudio: de 60 a 75 palavras, com o século em cada legenda.",
+      "tecnicas": ["tese-contraria", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "tese-contraria",
+      "gancho_proposto": "[VISUAL: porta de casa de banho sendo pregada com tábuas, vapor escapando pelas frestas] Os banhos públicos não fecharam na Idade Média. Fecharam depois.",
+      "estrutura": [
+        "B01 (img 1-2, ~16 palavras): a tese. As casas de banho não sumiram na Idade Média; foram sumindo no século XVI [F16].",
+        "B02 (img 3-4, ~20 palavras): prova com data. Em 1526, Erasmo escreveu que, 25 anos antes, os banhos públicos estavam na moda em Brabante, e que a 'nova peste', a sífilis, acabou com eles [F16].",
+        "B03 (img 5-6, ~20 palavras): VIRADA, o hábito estranho: com medo de que a água quente abrisse os poros para a doença, muita gente passou a trocar e lavar a camisa de linho em vez de se banhar [F17].",
+        "B04 (img 7-8, ~16 palavras): payoff irônico e loop. Os renascentistas pintaram a Idade Média como atrasada (seção 3, mito 2), e foi no tempo deles que os banhos fecharam. Emenda no gancho. CALLBACK: a tese da abertura."
+      ],
+      "fatos_dossie": ["F16", "F17", "seção 3, mito 'O mito é medieval' (confiança média)"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short."
+      ],
+      "evidencias": [
+        "ZCEgqI7Whqk, 'Por Que o Banho se Tornou um Problema na Idade Média?' (Mente Nexo): 510 views, razão 8,4. Pergunta 'por que' sobre o declínio do banho. Sinal fraco.",
+        "02-trends.md §3: 'mito vs verdade' tem 6 a 7 vídeos com desempenho baixo (razão de 0,01 a 1,95). Por isso o ângulo muda a data da sujeira em vez de 'desmentir'."
+      ],
+      "aposta": false,
+      "diferencial": "Os vídeos de mito só negam a sujeira. Este muda a data dela, entrega uma testemunha com data (Erasmo, 1526) e um hábito que soa inventado (trocar a camisa em vez de tomar banho).",
+      "riscos": [
+        "É a ideia mais abstrata dos sete ângulos: o espectador precisa acompanhar duas épocas em 30 s, sem áudio. Cada legenda deve trazer o século.",
+        "As causas do declínio divergem (peste, sífilis, puritanismo): dizer 'causas apontadas' e usar Erasmo como testemunho, sem cravar a sífilis como causa única.",
+        "Não dizer que 'a Europa parou de tomar banho' nem que 'todos usavam cueca de linho' (lacuna do dossiê); dizer 'muita gente' e 'camisa de linho'.",
+        "A ironia final põe dois fatos lado a lado; não é causalidade e não deve ser escrita como tal.",
+        "Citar a sífilis sem detalhe nem imagem médica, por causa dos anunciantes."
+      ]
+    },
+    {
+      "id": "A6",
+      "titulo": "O imperador que tomava banho com cem homens",
+      "titulos_alternativos": [
+        "Como Carlos Magno tomava banho?",
+        "Idade das Trevas? No século IX, sabão era regra"
+      ],
+      "thumbnail": {
+        "elemento_central": "Grande banho de pedra coberto de vapor, dezenas de homens com água até o peito; no centro, um homem de barba com coroa simples, rindo.",
+        "texto": "IDADE DAS TREVAS?",
+        "emocao": "espanto e humor",
+        "relacao_com_titulo": "O título dá a cena. A capa ironiza o rótulo da época, que é a virada do vídeo."
+      },
+      "promessa": "Mostrar que, no século IX, época que muitos chamam de 'Idade das Trevas', o imperador Carlos Magno tomava banho com até cem homens e os sínodos da Igreja exigiam sabão dos monges.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief, e o material é justo: dois fatos (F13 e F9) para 8 imagens. Funciona porque a cena de abertura ocupa duas imagens e a virada é uma frase só. Não esticar com fatos de outros séculos.",
+      "tecnicas": ["lacuna-de-curiosidade", "quebra-de-padrao", "callback", "final-em-loop"],
+      "tipo_gancho": "cena-sensorial",
+      "gancho_proposto": "[VISUAL: banho de pedra com vapor, dezenas de homens com água no peito, um homem com coroa simples no centro] Cem homens no mesmo banho. Um deles é o imperador.",
+      "estrutura": [
+        "B01 (img 1-2, ~12 palavras): a cena. Cem homens no mesmo banho, e um deles é o imperador.",
+        "B02 (img 3-4, ~20 palavras): quem e quando. Carlos Magno, século IX. Segundo o biógrafo dele, Eginhard, tomava banho com os filhos, os nobres e, às vezes, até cem homens ao mesmo tempo [F13].",
+        "B03 (img 5-6, ~18 palavras): VIRADA por quebra de padrão: no mesmo século, os sínodos de Aachen exigiam que os monges tivessem 'sabão suficiente' [F9].",
+        "B04 (img 7-8, ~15 palavras): payoff e loop. 'E é esse século que chamam de Idade das Trevas. Trevas com...' emenda em 'Cem homens no mesmo banho'. CALLBACK: a cena da abertura."
+      ],
+      "fatos_dossie": ["F13", "F9"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short."
+      ],
+      "evidencias": [
+        "Nenhum vídeo ou padrão de 02-trends.md trata de Carlos Magno ou do século IX, e aprendizados.md ainda não tem dados.",
+        "Por que arriscar: a imagem de abertura é a mais estranha dos sete ângulos e se lê em 1 s. O ângulo leva um tema saturado para uma época que os vídeos coletados não cobrem, e os dois fatos têm confiança média."
+      ],
+      "aposta": true,
+      "diferencial": "Leva o tema para o século IX, enquanto quase tudo o que foi coletado fala da Baixa Idade Média. Tem um personagem famoso numa cena que parece inventada e não é.",
+      "riscos": [
+        "F13 tem fonte única (medievalists.net citando Eginhard): atribuir na legenda ('segundo o biógrafo dele').",
+        "O dossiê não diz onde era o banho nem se a água era quente: não citar as termas de Aachen nem a temperatura sem [VERIFICAR].",
+        "Não prometer comparação entre Alta e Baixa Idade Média, que é lacuna do dossiê; 'Idade das Trevas' entra só como rótulo popular, não como afirmação.",
+        "Banho masculino coletivo: corpos cobertos de água e vapor, clima de corte, nada erótico. Geradores de imagem podem recusar nudez.",
+        "Material curto: se o roteirista precisar de mais, não pode puxar fatos de outros séculos sem marcar a época."
+      ]
+    },
+    {
+      "id": "A7",
+      "titulo": "Na mesa medieval, a bacia vinha antes da comida",
+      "titulos_alternativos": [
+        "Com quantos anos você descobriu que eles lavavam as mãos?",
+        "Casa medieval tinha palito de dente e limpa-unha"
+      ],
+      "thumbnail": {
+        "elemento_central": "Mãos sendo lavadas sobre uma bacia de metal, com água caindo de uma jarra, numa mesa de banquete com a comida ainda intacta ao fundo.",
+        "texto": "E DEPOIS TAMBÉM",
+        "emocao": "surpresa leve e identificação",
+        "relacao_com_titulo": "O título diz 'antes da comida'. A capa acrescenta 'depois também', o detalhe que o espectador não espera."
+      },
+      "promessa": "Mostrar que a higiene do dia a dia estava na etiqueta e dentro de casa: os manuais mandavam lavar as mãos antes e depois de comer e manter o hálito fresco, e inventários de casas ricas e pobres listam bacia, toalha, limpador de unha e palito de dente.",
+      "formato": "short",
+      "duracao_recomendada": "00:30",
+      "justificativa_duracao": "A duração vem do brief. Uma cena, uma regra e uma lista de objetos rendem 8 imagens visualmente simples. Sem áudio: de 60 a 75 palavras, com a lista de objetos espalhada por três imagens.",
+      "tecnicas": ["in-medias-res", "lacuna-de-curiosidade", "mas-entao", "final-em-loop"],
+      "tipo_gancho": "in-medias-res",
+      "gancho_proposto": "[VISUAL: mesa medieval cheia de comida, mãos paradas no ar sobre os pratos; ao fundo, alguém chega com jarra e bacia] Ninguém pode comer ainda. Primeiro, a bacia.",
+      "estrutura": [
+        "B01 (img 1-2, ~12 palavras): in medias res. A mesa está posta, ninguém come, e primeiro passa a bacia (cena ilustrativa).",
+        "B02 (img 3-4, ~18 palavras): a regra. Os manuais de etiqueta mandavam lavar as mãos antes e depois de comer e manter o hálito fresco [F19].",
+        "B03 (img 5-7, ~25 palavras): VIRADA: não era coisa só de rico. Inventários de casas ricas e pobres listam bacias, toalhas, limpadores de unha e palitos de dente [F19].",
+        "B04 (img 8, ~10 palavras): loop. 'Acabou de comer? A bacia volta. E na próxima refeição...' emenda em 'Ninguém pode comer ainda'. CALLBACK: a cena da abertura."
+      ],
+      "fatos_dossie": ["F19", "F15 (apoio: jarra e bacia no dia a dia)"],
+      "esqueleto_base": null,
+      "cortes_previstos": [
+        "Nenhum: o vídeo já é o short."
+      ],
+      "evidencias": [
+        "02-trends.md §5: 'a cerimônia do lavar as mãos à mesa' e 'sabão' estão entre os temas pouco explorados, e nenhum aparece nos títulos coletados. Não há vídeo com desempenho que sustente o ângulo.",
+        "O título alternativo usa o padrão de identificação do @VoceSabia ('Com QUANTOS ANOS VOCÊ DESCOBRIU...': 6,6 mi, 1,59 mi, 1,17 mi e 0,98 mi views, num canal de 47 mi). 02-trends.md alerta que o padrão depende do porte do canal.",
+        "Por que arriscar: é o ângulo mais seguro para anunciantes e o mais fácil de ilustrar em 8 imagens (objetos e mesa), e testa se o público responde à higiene cotidiana, sem banho."
+      ],
+      "aposta": true,
+      "diferencial": "Todos os vídeos coletados falam de banho. Este fala do que acontecia na mesa e dentro de casa, com objetos que o público reconhece na hora.",
+      "riscos": [
+        "F19 vem de um resumo de programa da ARTE sem historiador nomeado (confiança média, fonte única): não ampliar para 'todo mundo' nem dar datas ou lugares.",
+        "A cena de abertura é ilustrativa: a legenda deve atribuir a regra aos manuais ('a etiqueta mandava'), sem afirmar que ninguém comia sem lavar as mãos.",
+        "O espanto é menor que nos outros ângulos, porque lavar as mãos é óbvio para o público. A surpresa depende do contraste com o mito e do 'depois também'.",
+        "Não falar de dentes nem cáries (F23 e F24 são de confiança média-baixa e estão nas lacunas): o palito de dente aparece só como objeto de inventário.",
+        "in-medias-res pede um evento central, e aqui ele é pequeno (a refeição esperando); se o crítico achar fraco, o gancho pode trocar para resultado-primeiro com o limpador de unha."
+      ]
+    }
+  ]
+}

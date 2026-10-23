@@ -1,0 +1,74 @@
+[
+  {
+    "trecho": "Puxaram tudo do papai.",
+    "tipo": "ilustracao",
+    "descricao": "A revelação, na composição da thumb: o Bananildo, de olhos fechados de orgulho, abraça o menino abacate (topete e sorriso de galã do carteiro) e a menina pepino (mini óculos laranja e sobrancelha grossa do Pepinão). Ao fundo, a Moranguete olha para ele, sem sorriso.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P02",
+      "P06",
+      "P07",
+      "P01"
+    ],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "Bananildo the banana hugs the avocado boy and the cucumber girl, two little kids half his size, at the breakfast table, his eyes closed in proud bliss; the avocado boy flashes a dazzling movie-star grin, the cucumber girl raises one thick eyebrow; in the blurred background, Moranguete the strawberry holds her coffee and watches him, lips closed, no smile",
+    "negativo": "muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Família... eu preciso dizer uma coisa.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "MELHOR PAI DO MUNDO",
+    "descricao": "O falso alarme: o Bananildo se levanta, sério, e ergue a mesma caneca do escritório (a frase volta por cima, no alto); as crianças congelam; a Moranguete continua mexendo o café, tranquila.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P02",
+      "P06",
+      "P07",
+      "P01"
+    ],
+    "local": "L04",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Bananildo the banana stands at the head of the breakfast table, suddenly serious, holding the white mug up in a toast at chest height in the center of the frame; the avocado boy and the cucumber girl freeze mid-bite, wide-eyed; Moranguete the strawberry calmly keeps stirring her coffee, unbothered; a dramatic shaft of light",
+    "negativo": "muscles, muscular build, yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Eu não sei o que eu seria sem a minha esposa...",
+    "tipo": "ilustracao",
+    "descricao": "Close do Bananildo emocionado, lágrima atrás dos óculos, a caneca no peito: clímax de novela para um agradecimento.",
+    "enquadramento": "close",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L04",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Bananildo the banana, tears welling behind his round glasses and chin trembling, clutches the white mug to his heart, a single tear rolling down, overwhelmed with gratitude, warm golden morning backlight like a telenovela climax",
+    "negativo": "muscles, muscular build",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "e os meus lindos filhos.",
+    "tipo": "ilustracao",
+    "descricao": "Os 'lindos filhos' lado a lado, sozinhos no quadro: o topete e o sorriso de galã do carteiro no menino, os mini óculos laranja e a sobrancelha erguida do Pepinão na menina. A reação é o ponto.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P06",
+      "P07"
+    ],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "the avocado boy and the cucumber girl sit side by side at the breakfast table looking up at their dad off-screen; the avocado boy flashes a dazzling movie-star grin with a sparkle, his pompadour quiff glossy; the cucumber girl raises one thick eyebrow, her tiny mirrored orange sunglasses catching the light; cereal bowls and juice",
+    "negativo": "yellow skin on the children, banana features on the children, adult proportions on the children, teenagers",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

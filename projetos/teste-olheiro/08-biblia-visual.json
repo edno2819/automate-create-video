@@ -1,0 +1,109 @@
+{
+  "projeto": "teste-olheiro",
+  "proporcao": "16:9",
+  "estilo": {
+    "nome": "Pintura digital sombria",
+    "descricao": "Ilustração pintada digitalmente, com pinceladas visíveis e textura de tela, luz de cinema em claro-escuro, paleta dessaturada de ocres, cinzas e marrons. O vermelho aparece pouco e só no que pesa na história.",
+    "prompt_base": "dark painterly digital illustration, visible thick brush strokes and canvas texture, cinematic chiaroscuro lighting, muted desaturated palette of ochre, slate gray and dusty brown with sparse deep crimson red accents, atmospheric haze, subtle film grain, grounded realistic proportions, somber restrained mood",
+    "negativo_base": "text, letters, words, numbers, captions, signage, watermark, logo, brand names, faction symbols, graffiti tags, police insignia, gore, blood, wounds, dead bodies, weapons, children, minors, extra fingers, deformed hands, distorted face, blurry face, cartoon, anime, 3d render, glossy photorealism, oversaturated colors",
+    "regras_de_camera": "Narração em segunda pessoa: 'você' (P01) aparece em POV (mãos, pés, o que ele vê), de costas, de perfil ou em silhueta; o boné vermelho desbotado é o que o identifica nesses planos. O rosto inteiro dele aparece uma vez só, no fecho do caso Paçoca ('Nunca mais fecha o olho naquela laje', B01). Aéreo e plongée mostram o tamanho do morro e a exposição do olheiro; contra-plongée fica para o poder (gerente, caveirão) e para a escada que sobe. O vermelho só aparece no que pesa: o rojão, o boné, a sacola de entrega, o chaveiro da moto, o puxador do zíper da mochila, o cadarço do tênis. Polícia sem insígnia, facção sem símbolo, violência só pela consequência (cadeira vazia, cartaz no poste, mochila pendurada). Criança nunca aparece: o 'aviãozinho' de antigamente é representado por objetos."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Você (protagonista)",
+      "referencia_en": "the protagonist",
+      "descricao": "the protagonist, a thin 19-year-old Brazilian man with warm brown skin, short black hair faded on the sides, light stubble, a thin healed scar through his left eyebrow, wearing a faded red baseball cap turned backwards, an oversized washed-out gray t-shirt and black shorts"
+    },
+    {
+      "id": "P02",
+      "nome": "Paçoca (olheiro da laje de baixo)",
+      "referencia_en": "the sleepy lookout",
+      "descricao": "the sleepy lookout, a lanky Brazilian man in his early twenties with light brown skin, a round soft face with heavy-lidded eyes, a bleached blond buzz cut, a thin mustache, wearing a faded yellow tank top, blue board shorts and worn blue-and-white rubber flip-flops"
+    },
+    {
+      "id": "P03",
+      "nome": "O gerente da boca",
+      "referencia_en": "the manager",
+      "descricao": "the manager, a heavyset Brazilian man in his late thirties with dark skin, a shaved head, a short thick black beard, a gold front tooth and cold calm eyes, wearing a black sleeveless shirt, a thick gold chain and a large gold wristwatch"
+    },
+    {
+      "id": "P04",
+      "nome": "Cabeção (o avião anterior)",
+      "referencia_en": "the previous runner",
+      "descricao": "the previous runner, a skinny Brazilian man in his early twenties with dark brown skin, a noticeably large round head with a close-shaved buzz cut, protruding ears, a gap between his front teeth, wearing an oversized plain white sports jersey with no logos, dark gray shorts and black slides"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Laje no alto do morro",
+      "descricao": "a flat unfinished concrete rooftop slab at the very top of a dense Rio de Janeiro favela hillside, low walls of exposed red brick, rusty rebar sticking out of the corners, a blue plastic water tank, a white plastic chair, a sweeping view over thousands of stacked brick houses down to the asphalt streets and the city below",
+      "descricao_curta": "an unfinished concrete rooftop slab with low walls of exposed red brick, rusty rebar at the corners and a blue plastic water tank in the background"
+    },
+    {
+      "id": "L02",
+      "nome": "Viela e escadaria do morro",
+      "descricao": "a narrow steep favela alley of uneven concrete stairs climbing between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, a concrete utility pole at the bottom of the stairs, a thin stream of water running down the steps, bare light bulbs over the doorways",
+      "descricao_curta": "uneven concrete steps between exposed red brick and peeling plaster walls, tangled black electrical wires overhead, water trickling down the steps"
+    },
+    {
+      "id": "L03",
+      "nome": "A boca (esquina no pé do morro)",
+      "descricao": "a dim street corner at the foot of the favela hill where an alley meets the street, under a rusty corrugated metal awning, a scratched plastic table with plastic stools, a single bare fluorescent tube, bare plaster walls with no graffiti, the street opening into darkness",
+      "descricao_curta": "a bare plaster wall under a rusty corrugated metal awning, lit by a single bare fluorescent tube, a scratched plastic table and plastic stools at the edge of the frame"
+    },
+    {
+      "id": "L04",
+      "nome": "Terreno baldio",
+      "descricao": "an overgrown vacant lot between two brick houses at the edge of the favela, tall dry weeds, a low crumbling brick wall along the street, scattered rubble and an old tire"
+    },
+    {
+      "id": "L05",
+      "nome": "Avenida Brasil à noite",
+      "descricao": "a wide multi-lane expressway in Rio de Janeiro's North Zone at night, orange sodium streetlights, concrete barriers and overpasses, heavy truck traffic with streaking headlights"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "O01",
+      "nome": "Rádio comunicador",
+      "descricao": "a scratched black walkie-talkie with a bent rubber antenna and a strip of red electrical tape wrapped around its body"
+    },
+    {
+      "id": "O02",
+      "nome": "Pacote de fogos (rojões)",
+      "descricao": "a bundle of handheld skyrocket fireworks, long thin cardboard tubes wrapped in faded red paper, fixed to thin wooden sticks and bound together with rubber bands"
+    },
+    {
+      "id": "O03",
+      "nome": "A mochila",
+      "descricao": "a worn black canvas backpack with frayed shoulder straps, a patched front pocket and a single bright red zipper pull"
+    },
+    {
+      "id": "O04",
+      "nome": "Cartaz de desaparecido",
+      "descricao": "a missing-person poster made of cheap white printer paper taped to the pole, with a grainy black-and-white photocopied photo of a young man with a bleached buzz cut, the writing below the photo too faded and smudged to read"
+    },
+    {
+      "id": "O05",
+      "nome": "O tênis novo",
+      "descricao": "a pair of brand-new bright white sneakers with thick soles and red laces, no logos"
+    },
+    {
+      "id": "O06",
+      "nome": "Sacola de entrega",
+      "descricao": "a scuffed square red thermal delivery backpack with no logos"
+    },
+    {
+      "id": "O07",
+      "nome": "Chave da moto",
+      "descricao": "a single motorcycle ignition key on a small ring with a cheap red plastic tag"
+    },
+    {
+      "id": "O08",
+      "nome": "Caveirão",
+      "descricao": "a hulking matte black armored police truck with narrow slit windows, a reinforced front bumper and no insignia or markings"
+    }
+  ]
+}

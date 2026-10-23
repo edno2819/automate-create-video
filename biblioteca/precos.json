@@ -1,0 +1,302 @@
+{
+  "sobre": "Preços das APIs pagas, em dólares. Modelos de texto e de imagem: por milhão de tokens (entrada sem cache, saida, cache_leitura, cache_escrita) e 'busca' por busca na web. Narração: por milhão de tokens, 'por_minuto' de áudio ou 'por_mil_caracteres'. 'por_imagem' só vale quando a API não devolve o uso. Um modelo com preço que muda numa data tem uma lista de períodos, cada um com 'desde'. ferramentas/custos.py aplica a tabela na hora de somar; confira as fontes de tempos em tempos e atualize 'conferido_em'.",
+  "conferido_em": "2026-10-22",
+  "moeda": "USD",
+  "modelos": {
+    "gemini-3.1-flash-image": {
+      "entrada": 0.5,
+      "saida_texto": 3.0,
+      "saida_imagem": 60.0,
+      "por_imagem": {
+        "1K": 0.067,
+        "2K": 0.101,
+        "4K": 0.151
+      }
+    },
+    "gemini-3.1-flash-lite-image": {
+      "entrada": 0.25,
+      "saida_texto": 1.5,
+      "saida_imagem": 30.0,
+      "por_imagem": {
+        "1K": 0.0336
+      }
+    },
+    "gemini-3-pro-image": {
+      "entrada": 2.0,
+      "saida_texto": 12.0,
+      "saida_imagem": 120.0,
+      "por_imagem": {
+        "1K": 0.134,
+        "2K": 0.134,
+        "4K": 0.24
+      }
+    },
+    "gemini-nano-banana-2.1": {
+      "entrada": 1.5,
+      "saida_texto": 7.5,
+      "saida_imagem": 30.0,
+      "por_imagem": {
+        "1K": 0.0336,
+        "2K": 0.0504,
+        "4K": 0.113
+      }
+    },
+    "gemini-3.8-flash-tts": [
+      {
+        "desde": "2000-01-01",
+        "entrada": 0.5,
+        "saida_audio": 9.0
+      },
+      {
+        "desde": "2027-01-01",
+        "entrada": 1.0,
+        "saida_audio": 18.0
+      }
+    ],
+    "gemini-3.8-flash-lite-tts": [
+      {
+        "desde": "2000-01-01",
+        "entrada": 0.5,
+        "saida_audio": 6.0
+      },
+      {
+        "desde": "2027-01-01",
+        "entrada": 1.0,
+        "saida_audio": 12.0
+      }
+    ],
+    "gemini-3.1-flash-tts-preview": {
+      "entrada": 1.0,
+      "saida_audio": 20.0
+    },
+    "gemini-2.5-flash-preview-tts": {
+      "entrada": 0.5,
+      "saida_audio": 10.0
+    },
+    "gemini-2.5-pro-preview-tts": {
+      "entrada": 1.0,
+      "saida_audio": 20.0
+    },
+    "claude-fable-5-1": {
+      "entrada": 10,
+      "saida": 50,
+      "cache_leitura": 0.25,
+      "cache_escrita": 12.5,
+      "busca": 0.01
+    },
+    "claude-opus-5-5": {
+      "entrada": 4,
+      "saida": 20,
+      "cache_leitura": 0.2,
+      "cache_escrita": 5,
+      "busca": 0.01
+    },
+    "claude-opus-5": {
+      "entrada": 5,
+      "saida": 25,
+      "cache_leitura": 0.5,
+      "cache_escrita": 6.25,
+      "busca": 0.01
+    },
+    "claude-sonnet-5-5": {
+      "entrada": 2,
+      "saida": 10,
+      "cache_leitura": 0.1,
+      "cache_escrita": 2.5,
+      "busca": 0.01
+    },
+    "claude-sonnet-5": {
+      "entrada": 2,
+      "saida": 10,
+      "cache_leitura": 0.2,
+      "cache_escrita": 2.5,
+      "busca": 0.01
+    },
+    "claude-haiku-5-5": {
+      "entrada": 0.1,
+      "saida": 0.5,
+      "cache_leitura": 0.01,
+      "cache_escrita": 0.125,
+      "busca": 0.01
+    },
+    "claude-opus-4-8": {
+      "entrada": 5,
+      "saida": 25,
+      "cache_leitura": 0.5,
+      "cache_escrita": 6.25,
+      "busca": 0.01
+    },
+    "claude-sonnet-4-6": {
+      "entrada": 3,
+      "saida": 15,
+      "cache_leitura": 0.3,
+      "cache_escrita": 3.75,
+      "busca": 0.01
+    },
+    "claude-haiku-4-5": {
+      "entrada": 1,
+      "saida": 5,
+      "cache_leitura": 0.1,
+      "cache_escrita": 1.25,
+      "busca": 0.01
+    },
+    "gpt-6-astra": {
+      "entrada": 10,
+      "saida": 50,
+      "cache_leitura": 1,
+      "busca": 0.01
+    },
+    "gpt-6.1-sol": {
+      "entrada": 2,
+      "saida": 10,
+      "cache_leitura": 0.1,
+      "busca": 0.01
+    },
+    "gpt-6-sol": {
+      "entrada": 2,
+      "saida": 10,
+      "cache_leitura": 0.2,
+      "busca": 0.01
+    },
+    "gpt-6-luna": {
+      "entrada": 0.1,
+      "saida": 0.5,
+      "cache_leitura": 0.01,
+      "busca": 0.01
+    },
+    "gpt-5.6-sol": {
+      "entrada": 4,
+      "saida": 20,
+      "cache_leitura": 0.4,
+      "busca": 0.01
+    },
+    "gpt-5.6-terra": {
+      "entrada": 2,
+      "saida": 12,
+      "cache_leitura": 0.2,
+      "busca": 0.01
+    },
+    "gpt-5.6-luna": {
+      "entrada": 0.2,
+      "saida": 1.2,
+      "cache_leitura": 0.02,
+      "busca": 0.01
+    },
+    "gpt-5.5": {
+      "entrada": 5,
+      "saida": 30,
+      "cache_leitura": 0.5,
+      "busca": 0.01
+    },
+    "gpt-5.4": {
+      "entrada": 2.5,
+      "saida": 15,
+      "cache_leitura": 0.25,
+      "busca": 0.01
+    },
+    "gpt-5.4-mini": {
+      "entrada": 0.75,
+      "saida": 4.5,
+      "cache_leitura": 0.075,
+      "busca": 0.01
+    },
+    "gpt-5.4-nano": {
+      "entrada": 0.2,
+      "saida": 1.25,
+      "cache_leitura": 0.02,
+      "busca": 0.01
+    },
+    "gpt-5-mini": {
+      "entrada": 0.25,
+      "saida": 2,
+      "cache_leitura": 0.025,
+      "busca": 0.01
+    },
+    "gpt-5-nano": {
+      "entrada": 0.05,
+      "saida": 0.4,
+      "cache_leitura": 0.005,
+      "busca": 0.01
+    },
+    "gemini-4-argon": [
+      {
+        "desde": "2000-01-01",
+        "entrada": 2,
+        "saida": 10,
+        "busca": 0.014
+      },
+      {
+        "desde": "2026-12-01",
+        "entrada": 4,
+        "saida": 20,
+        "busca": 0.014
+      }
+    ],
+    "gemini-3.8-flash": [
+      {
+        "desde": "2000-01-01",
+        "entrada": 0.75,
+        "saida": 3.75,
+        "busca": 0.014
+      },
+      {
+        "desde": "2027-01-01",
+        "entrada": 1.5,
+        "saida": 7.5,
+        "busca": 0.014
+      }
+    ],
+    "gemini-3.6-flash": [
+      {
+        "desde": "2000-01-01",
+        "entrada": 0.75,
+        "saida": 3.75,
+        "busca": 0.014
+      },
+      {
+        "desde": "2027-01-01",
+        "entrada": 1.5,
+        "saida": 7.5,
+        "busca": 0.014
+      }
+    ],
+    "gemini-3.5-flash-lite": {
+      "entrada": 0.3,
+      "saida": 2.5,
+      "busca": 0.014
+    },
+    "gemini-3.1-flash-lite": {
+      "entrada": 0.25,
+      "saida": 1.5,
+      "busca": 0.014
+    },
+    "gemini-3.1-pro-preview": {
+      "entrada": 2,
+      "saida": 12,
+      "busca": 0.014
+    },
+    "gpt-4o-mini-tts": {
+      "entrada": 0.6,
+      "saida_audio": 12.0,
+      "por_minuto": 0.015
+    },
+    "eleven_v3": {
+      "por_mil_caracteres": 0.08
+    },
+    "eleven_multilingual_v2": {
+      "por_mil_caracteres": 0.08
+    },
+    "eleven_flash_v2_5": {
+      "por_mil_caracteres": 0.04
+    },
+    "eleven_turbo_v2_5": {
+      "por_mil_caracteres": 0.04
+    }
+  },
+  "fontes": {
+    "gemini": "https://ai.google.dev/gemini-api/docs/pricing",
+    "anthropic": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "openai": "https://developers.openai.com/api/docs/pricing",
+    "elevenlabs": "https://elevenlabs.io/pricing/api"
+  }
+}

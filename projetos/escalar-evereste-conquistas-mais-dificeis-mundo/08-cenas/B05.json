@@ -1,0 +1,40 @@
+[
+  {
+    "trecho": "Cerca de trezentas e quarenta pessoas já morreram no Everest.",
+    "tipo": "cartela",
+    "texto_na_tela": "≈ 340 MORTES — 1922 a 2025",
+    "descricao": "Fundo da cartela: a corda fixa vazia na neve e uma barraca laranja fechada num acampamento alto, ao entardecer. Nenhuma pessoa no quadro.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O05"],
+    "prompt_cena": "an empty fixed rope running up a silent snow slope toward a single closed orange paper tent on a high ledge, dusk light in muted blue and gray, falling paper snowflakes, no people anywhere",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "A cada cem vezes que alguém chegou ao topo, uma pessoa morreu na montanha.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "1 morte a cada 100 cumes",
+    "descricao": "Uma folha com cem bonequinhos de papel recortados em grade, todos no lugar, menos um: no lugar dele, só o buraco branco com o contorno vazio. A taxa vira uma ausência, sem corpo.",
+    "enquadramento": "plongee",
+    "personagens": [],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "a sheet of one hundred identical tiny orange paper climber cutouts arranged in a neat ten-by-ten grid on kraft paper, one spot in the grid is just an empty cut-out hole in the shape of a climber, quiet and somber",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "E ainda falta o último degrau, mais raro que ser bilionário.",
+    "tipo": "ilustracao",
+    "descricao": "A escada de papelão de baixo para cima: o quarto degrau, o último, sobe acima do cume e entra nas nuvens, vazio. O loop do último degrau.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": "L03",
+    "objetos": ["O02"],
+    "prompt_cena": "the cardboard ladder rising past the summit into the clouds, its fourth and last rung empty and glowing signal orange high above, a few tiny billionaire paper figures far below at its base looking up",
+    "movimento": "subir",
+    "transicao": "corte"
+  }
+]

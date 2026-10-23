@@ -1,0 +1,72 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Algieba",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "ritmo rápido, tom de quem revela um segredo absurdo; pausa curta antes de cada número",
+  "personagens": {},
+  "intervalo_s": 0.35,
+  "intervalo_falas_s": 0.25,
+  "pausa_max_s": null,
+  "velocidade": 1.0,
+  "ppm_pedido": 180,
+  "ppm_natural": 177,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 76.91,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/blocos/B01.wav",
+      "palavras": 19,
+      "duracao_s": 6.04,
+      "ppm": 189,
+      "pedido": "35326d7bd8e3",
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/blocos/B02.wav",
+      "palavras": 38,
+      "duracao_s": 11.2,
+      "ppm": 204,
+      "pedido": "3420405a3568",
+      "inicio_s": 6.39
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/blocos/B03.wav",
+      "palavras": 41,
+      "duracao_s": 14.44,
+      "ppm": 170,
+      "pedido": "48702ae542c9",
+      "inicio_s": 17.94
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/blocos/B04.wav",
+      "palavras": 47,
+      "duracao_s": 16.24,
+      "ppm": 174,
+      "pedido": "6ed66cc44df2",
+      "inicio_s": 32.73
+    },
+    {
+      "id": "B05",
+      "arquivo": "09-narracao/blocos/B05.wav",
+      "palavras": 35,
+      "duracao_s": 11.72,
+      "ppm": 179,
+      "pedido": "bef8279480ab",
+      "inicio_s": 49.32
+    },
+    {
+      "id": "B06",
+      "arquivo": "09-narracao/blocos/B06.wav",
+      "palavras": 42,
+      "duracao_s": 15.52,
+      "ppm": 162,
+      "pedido": "a89e199a1713",
+      "inicio_s": 61.39
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "A1",
+  "titulo": "Paris medieval tinha mais de 32 casas de banho",
+  "titulos_alternativos": [
+    "Quanto custava um banho na Paris medieval?",
+    "Ninguém tomava banho? Paris tinha mais de 32 casas"
+  ],
+  "thumbnail": {
+    "elemento_central": "Interior de uma casa de banho medieval cheio de vapor, com tinas de madeira enfileiradas; em primeiro plano, uma mão estende duas moedas ao dono, que está na porta.",
+    "texto": "VAPOR: 2 MOEDAS",
+    "emocao": "espanto curioso ('isso existia?')",
+    "relacao_com_titulo": "O título dá a quantidade e a cidade. A capa mostra o que ele não diz: era um negócio, com preço. Juntos, prometem explicar como funcionava."
+  },
+  "promessa": "Mostrar que a Paris do século XIII tinha banho público como negócio organizado: dezenas de casas, regras e preços fixados por uma guilda e pregoeiros chamando clientes na rua.",
+  "formato": "short",
+  "duracao_recomendada": "00:30",
+  "justificativa_duracao": "A duração vem do brief (8 imagens de 3,75 s). O ângulo cabe com folga: um número de abertura, um contraste e um fato sobre o negócio. Como não há áudio, o alvo é de 60 a 75 palavras, com no máximo 10 por imagem, para que a legenda seja lida enquanto a imagem está na tela.",
+  "tecnicas": [
+    "lacuna-de-curiosidade",
+    "mas-entao",
+    "callback",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "dado-chocante",
+  "gancho_proposto": "[VISUAL: interior de casa de banho com vapor e tinas de madeira enfileiradas] Mais de 32 casas de banho. Numa cidade só.",
+  "estrutura": [
+    "B01 (img 1-2, ~15 palavras): gancho com o número, mais de 32 casas de banho em Paris no século XIII [F1], contra o mito ('e dizem que ninguém tomava banho').",
+    "B02 (img 3-4, ~20 palavras): o contraste com a casa: encher uma tina era caro, porque a água tinha de ser carregada e aquecida; no dia a dia, usavam jarra e bacia [F15]. Pôr os dois fatos lado a lado, sem afirmar que as casas de banho existiam por causa disso.",
+    "B03 (img 5-7, ~25 palavras): VIRADA: era um negócio organizado. Uma guilda de donos fixava regras, o vapor custava 2 denários e o banho completo 4, e pregoeiros chamavam clientes pelas ruas [F3].",
+    "B04 (img 8, ~12 palavras): payoff e final em loop: 'Londres teve 13. Viena chegou a 29. E Paris...' [F2], que emenda no gancho. CALLBACK: o número da abertura volta no replay."
+  ],
+  "fatos_dossie": [
+    "F1",
+    "F3",
+    "F15",
+    "F2"
+  ],
+  "esqueleto_base": null,
+  "cortes_previstos": [
+    "Nenhum: o vídeo já é o short.",
+    "Série: os fatos de A2 (rei, 1351) e A4 (monges) não entram aqui e rendem os próximos shorts."
+  ],
+  "evidencias": [
+    "02-trends.md §5: banhos públicos medievais ('estufas') estão entre os temas pouco explorados; nenhum título coletado fala deles.",
+    "02-trends.md §5: há poucos Shorts verticais sobre higiene medieval em português (5 a 6 em 365 dias, quase todos com menos de 100 views).",
+    "Demanda pelo tema banho medieval em vídeos longos: 'Fui na Inglaterra de 1348 e Tentei SOBREVIVER à Higiene da Idade Média' (0NqHLW6S6k4), 45.537 views; 'Let's Talk About Medieval Hygiene...' (JUABmqLmHt4), 401 mil views.",
+    "02-trends.md §6.3: a quebra de mito serve como estrutura de gancho (D5s1QPbtZ28, CVqYd9zH0jQ, Azaxg3RyfFs), mas tem poucas views quando o título é 'mito vs verdade'. Aqui o mito cai por um número, sem essa moldura.",
+    "Limite: nenhum desses dados é de Shorts. O sub-ângulo (banhos públicos) tem a seu favor só a lacuna, não um desempenho comprovado."
+  ],
+  "aposta": false,
+  "diferencial": "Nenhum título coletado trata de banhos públicos. Os vídeos de mito argumentam; este mostra um número e um preço. É o único ângulo com um fato de confiança alta no gancho.",
+  "riscos": [
+    "Só F1 tem confiança alta. F2 (outras cidades, de blog sem referência original) e F3 (preços e pregoeiros, de ensaio de divulgação) são de confiança média: citar exatamente o que está no dossiê.",
+    "A fonte dá o preço em 'pennies/denários': não converter para reais nem inventar equivalência.",
+    "Não chamar as casas de banho de bordel (F27 tem fontes divergentes) e não dar frequência de banho por ano (seção 6 do dossiê).",
+    "'Mito vs verdade' vai mal nos longos (02-trends §3): o texto deve soar como espanto, não como correção ('na verdade...').",
+    "Imagens de banho coletivo: corpos cobertos por água e vapor, por causa dos anunciantes e dos filtros dos geradores de imagem."
+  ],
+  "ajustes_do_usuario": "nenhum; estilo artístico escolhido: pintura cinematográfica",
+  "escolhido_em": "2026-10-20"
+}

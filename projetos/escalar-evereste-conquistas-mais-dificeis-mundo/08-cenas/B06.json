@@ -1,0 +1,52 @@
+[
+  {
+    "trecho": "Degrau quatro: o topo sem garrafa. Só duzentas e trinta e duas subidas.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "DEGRAU 4 · 232 subidas",
+    "descricao": "Espelho do B01-02: a mesma montanha e o mesmo bonequinho sozinho no cume, sem máscara, agora com a escada de papelão encostada e o quarto degrau em laranja.",
+    "enquadramento": "plano-geral",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": ["O02"],
+    "prompt_cena": "the paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, the cardboard ladder leaning against the peak with its top rung glowing orange, vast empty white slopes below",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Na última lista da Forbes, são três mil quatrocentos e vinte e oito bilionários.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "3.428 bilionários (Forbes)",
+    "descricao": "Espelho do B01-01: a mesma torre de bonecos de terno, vista de baixo, agora ao lado da montanha e mais alta que ela.",
+    "enquadramento": "contra-plongee",
+    "personagens": ["P02"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the billionaires stacked on each other's shoulders in a wobbly tower that rises higher than the snowy mountain beside it, hundreds of identical smug figures, loose blank green banknotes fluttering around them",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Dinheiro compra a licença e a garrafa.",
+    "tipo": "ilustracao",
+    "descricao": "A mão de papel de um bilionário solta dinheiro sobre a licença e a garrafa de oxigênio na mesa de colagem: tudo o que dá para comprar.",
+    "enquadramento": "detalhe",
+    "personagens": ["P02"],
+    "local": "L04",
+    "objetos": ["O03", "O04", "O01"],
+    "prompt_cena": "a paper hand of one of the billionaires, navy suit cuff with a gold cufflink, drops blank green banknotes onto the climbing permit and an orange oxygen cylinder lying on kraft paper",
+    "movimento": "descer",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Não compra o fôlego pra subir sem ela.",
+    "tipo": "ilustracao",
+    "descricao": "O rosto inteiro do alpinista de papel no cume, pela primeira vez de frente: sem máscara, olhos fechados, soltando uma nuvem de fôlego. A imagem que fica.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the paper climber faces the viewer on the summit with no oxygen mask, eyes closed, frost on the orange beanie, exhaling a big white paper cloud of breath, a quiet proud smile, golden light on the face",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  }
+]

@@ -1,0 +1,1333 @@
+{
+  "audio": "09-narracao/narracao.wav",
+  "duracao_audio_s": 76.91,
+  "duracao_video_s": 77.51,
+  "fonte": "faster-whisper small",
+  "voz": "Algieba",
+  "personagens": {},
+  "modelo_voz": "gemini-3.8-flash-tts",
+  "cenas": [
+    {
+      "id": "B01-01",
+      "inicio_s": 0.0,
+      "palavras": [
+        {
+          "texto": "Tem",
+          "inicio": 0.0,
+          "fim": 0.28
+        },
+        {
+          "texto": "quase",
+          "inicio": 0.28,
+          "fim": 0.52
+        },
+        {
+          "texto": "quinze",
+          "inicio": 0.52,
+          "fim": 1.04
+        },
+        {
+          "texto": "vezes",
+          "inicio": 1.04,
+          "fim": 1.4
+        },
+        {
+          "texto": "mais",
+          "inicio": 1.4,
+          "fim": 1.7
+        },
+        {
+          "texto": "bilionário",
+          "inicio": 1.7,
+          "fim": 2.32
+        },
+        {
+          "texto": "no",
+          "inicio": 2.32,
+          "fim": 2.44
+        },
+        {
+          "texto": "mundo",
+          "inicio": 2.44,
+          "fim": 2.72
+        }
+      ],
+      "fim_s": 2.72
+    },
+    {
+      "id": "B01-02",
+      "inicio_s": 2.72,
+      "palavras": [
+        {
+          "texto": "do",
+          "inicio": 2.72,
+          "fim": 2.88
+        },
+        {
+          "texto": "que",
+          "inicio": 2.88,
+          "fim": 2.98
+        },
+        {
+          "texto": "subidas",
+          "inicio": 2.98,
+          "fim": 3.36
+        },
+        {
+          "texto": "ao",
+          "inicio": 3.36,
+          "fim": 3.54
+        },
+        {
+          "texto": "topo",
+          "inicio": 3.54,
+          "fim": 3.86
+        },
+        {
+          "texto": "do",
+          "inicio": 3.86,
+          "fim": 3.88
+        },
+        {
+          "texto": "Everest",
+          "inicio": 3.88,
+          "fim": 4.2
+        },
+        {
+          "texto": "sem",
+          "inicio": 4.2,
+          "fim": 4.66
+        },
+        {
+          "texto": "garrafa",
+          "inicio": 4.66,
+          "fim": 5.08
+        },
+        {
+          "texto": "de",
+          "inicio": 5.08,
+          "fim": 5.14
+        },
+        {
+          "texto": "oxigênio.",
+          "inicio": 5.14,
+          "fim": 5.64
+        }
+      ],
+      "fim_s": 6.39
+    },
+    {
+      "id": "B02-01",
+      "inicio_s": 6.39,
+      "palavras": [
+        {
+          "texto": "Degrau",
+          "inicio": 6.39,
+          "fim": 7.01
+        },
+        {
+          "texto": "um:",
+          "inicio": 7.01,
+          "fim": 7.27
+        },
+        {
+          "texto": "só",
+          "inicio": 7.67,
+          "fim": 7.81
+        },
+        {
+          "texto": "a",
+          "inicio": 7.81,
+          "fim": 7.89
+        },
+        {
+          "texto": "licença",
+          "inicio": 7.89,
+          "fim": 8.29
+        },
+        {
+          "texto": "do",
+          "inicio": 8.29,
+          "fim": 8.45
+        },
+        {
+          "texto": "Nepal",
+          "inicio": 8.45,
+          "fim": 8.71
+        },
+        {
+          "texto": "pra",
+          "inicio": 8.71,
+          "fim": 8.95
+        },
+        {
+          "texto": "escalar",
+          "inicio": 8.95,
+          "fim": 9.37
+        }
+      ],
+      "fim_s": 9.37
+    },
+    {
+      "id": "B02-02",
+      "inicio_s": 9.37,
+      "palavras": [
+        {
+          "texto": "custa",
+          "inicio": 9.37,
+          "fim": 9.71
+        },
+        {
+          "texto": "uns",
+          "inicio": 9.71,
+          "fim": 9.79
+        },
+        {
+          "texto": "setenta",
+          "inicio": 9.79,
+          "fim": 10.0
+        },
+        {
+          "texto": "e",
+          "inicio": 10.0,
+          "fim": 10.052
+        },
+        {
+          "texto": "cinco",
+          "inicio": 10.052,
+          "fim": 10.21
+        },
+        {
+          "texto": "mil",
+          "inicio": 10.21,
+          "fim": 10.69
+        },
+        {
+          "texto": "reais.",
+          "inicio": 10.69,
+          "fim": 10.93
+        }
+      ],
+      "fim_s": 11.37
+    },
+    {
+      "id": "B02-03",
+      "inicio_s": 11.37,
+      "palavras": [
+        {
+          "texto": "A",
+          "inicio": 11.37,
+          "fim": 11.47
+        },
+        {
+          "texto": "expedição",
+          "inicio": 11.47,
+          "fim": 11.91
+        },
+        {
+          "texto": "com",
+          "inicio": 11.91,
+          "fim": 12.09
+        },
+        {
+          "texto": "guia",
+          "inicio": 12.09,
+          "fim": 12.41
+        },
+        {
+          "texto": "vai",
+          "inicio": 12.41,
+          "fim": 12.59
+        },
+        {
+          "texto": "de",
+          "inicio": 12.59,
+          "fim": 12.71
+        },
+        {
+          "texto": "duzentos",
+          "inicio": 12.71,
+          "fim": 12.91
+        },
+        {
+          "texto": "e",
+          "inicio": 12.91,
+          "fim": 12.954
+        },
+        {
+          "texto": "trinta",
+          "inicio": 12.954,
+          "fim": 13.11
+        }
+      ],
+      "fim_s": 13.11
+    },
+    {
+      "id": "B02-04",
+      "inicio_s": 13.11,
+      "palavras": [
+        {
+          "texto": "a",
+          "inicio": 13.11,
+          "fim": 13.75
+        },
+        {
+          "texto": "mais",
+          "inicio": 13.75,
+          "fim": 13.87
+        },
+        {
+          "texto": "de",
+          "inicio": 13.87,
+          "fim": 13.99
+        },
+        {
+          "texto": "quatrocentos",
+          "inicio": 13.99,
+          "fim": 14.51
+        },
+        {
+          "texto": "mil.",
+          "inicio": 14.51,
+          "fim": 14.97
+        }
+      ],
+      "fim_s": 15.43
+    },
+    {
+      "id": "B02-05",
+      "inicio_s": 15.43,
+      "palavras": [
+        {
+          "texto": "E",
+          "inicio": 15.43,
+          "fim": 15.61
+        },
+        {
+          "texto": "isso",
+          "inicio": 15.61,
+          "fim": 15.79
+        },
+        {
+          "texto": "só",
+          "inicio": 15.79,
+          "fim": 15.99
+        },
+        {
+          "texto": "compra",
+          "inicio": 15.99,
+          "fim": 16.25
+        },
+        {
+          "texto": "o",
+          "inicio": 16.25,
+          "fim": 16.33
+        },
+        {
+          "texto": "direito",
+          "inicio": 16.33,
+          "fim": 16.57
+        },
+        {
+          "texto": "de",
+          "inicio": 16.57,
+          "fim": 16.85
+        },
+        {
+          "texto": "tentar.",
+          "inicio": 16.85,
+          "fim": 17.17
+        }
+      ],
+      "fim_s": 17.94
+    },
+    {
+      "id": "B03-01",
+      "inicio_s": 17.94,
+      "palavras": [
+        {
+          "texto": "Degrau",
+          "inicio": 17.94,
+          "fim": 18.5
+        },
+        {
+          "texto": "dois:",
+          "inicio": 18.5,
+          "fim": 18.76
+        },
+        {
+          "texto": "sair",
+          "inicio": 19.22,
+          "fim": 19.54
+        },
+        {
+          "texto": "do",
+          "inicio": 19.54,
+          "fim": 19.62
+        },
+        {
+          "texto": "acampamento",
+          "inicio": 19.62,
+          "fim": 20.1
+        },
+        {
+          "texto": "base",
+          "inicio": 20.1,
+          "fim": 20.44
+        },
+        {
+          "texto": "e",
+          "inicio": 20.44,
+          "fim": 20.72
+        },
+        {
+          "texto": "escalar.",
+          "inicio": 20.72,
+          "fim": 21.16
+        }
+      ],
+      "fim_s": 21.46
+    },
+    {
+      "id": "B03-02",
+      "inicio_s": 21.46,
+      "palavras": [
+        {
+          "texto": "Só",
+          "inicio": 21.46,
+          "fim": 21.68
+        },
+        {
+          "texto": "pelo",
+          "inicio": 21.68,
+          "fim": 21.84
+        },
+        {
+          "texto": "lado",
+          "inicio": 21.84,
+          "fim": 22.08
+        },
+        {
+          "texto": "do",
+          "inicio": 22.08,
+          "fim": 22.22
+        },
+        {
+          "texto": "Nepal,",
+          "inicio": 22.22,
+          "fim": 22.52
+        },
+        {
+          "texto": "desde",
+          "inicio": 22.82,
+          "fim": 22.96
+        },
+        {
+          "texto": "o",
+          "inicio": 22.96,
+          "fim": 23.18
+        },
+        {
+          "texto": "ano",
+          "inicio": 23.18,
+          "fim": 23.26
+        },
+        {
+          "texto": "dois",
+          "inicio": 23.26,
+          "fim": 23.493
+        },
+        {
+          "texto": "mil,",
+          "inicio": 23.493,
+          "fim": 23.68
+        },
+        {
+          "texto": "quase",
+          "inicio": 24.02,
+          "fim": 24.18
+        },
+        {
+          "texto": "dezesseis",
+          "inicio": 24.18,
+          "fim": 24.94
+        },
+        {
+          "texto": "mil",
+          "inicio": 24.94,
+          "fim": 25.26
+        },
+        {
+          "texto": "pessoas",
+          "inicio": 25.26,
+          "fim": 25.56
+        },
+        {
+          "texto": "tentaram.",
+          "inicio": 25.56,
+          "fim": 26.1
+        }
+      ],
+      "fim_s": 26.34
+    },
+    {
+      "id": "B03-03",
+      "inicio_s": 26.34,
+      "palavras": [
+        {
+          "texto": "Mais",
+          "inicio": 26.34,
+          "fim": 26.54
+        },
+        {
+          "texto": "da",
+          "inicio": 26.62,
+          "fim": 26.68
+        },
+        {
+          "texto": "metade",
+          "inicio": 26.68,
+          "fim": 27.08
+        },
+        {
+          "texto": "nem",
+          "inicio": 27.18,
+          "fim": 27.26
+        },
+        {
+          "texto": "era",
+          "inicio": 27.26,
+          "fim": 27.44
+        },
+        {
+          "texto": "cliente:",
+          "inicio": 27.44,
+          "fim": 27.96
+        },
+        {
+          "texto": "eram",
+          "inicio": 28.06,
+          "fim": 28.32
+        },
+        {
+          "texto": "guias",
+          "inicio": 28.32,
+          "fim": 28.7
+        },
+        {
+          "texto": "e",
+          "inicio": 28.7,
+          "fim": 28.82
+        },
+        {
+          "texto": "sherpas,",
+          "inicio": 28.82,
+          "fim": 29.18
+        }
+      ],
+      "fim_s": 29.42
+    },
+    {
+      "id": "B03-04",
+      "inicio_s": 29.42,
+      "palavras": [
+        {
+          "texto": "pagos",
+          "inicio": 29.42,
+          "fim": 29.78
+        },
+        {
+          "texto": "pra",
+          "inicio": 29.78,
+          "fim": 29.9
+        },
+        {
+          "texto": "subir.",
+          "inicio": 29.9,
+          "fim": 30.16
+        },
+        {
+          "texto": "Mas",
+          "inicio": 30.64,
+          "fim": 30.8
+        },
+        {
+          "texto": "começar",
+          "inicio": 30.8,
+          "fim": 31.28
+        },
+        {
+          "texto": "não",
+          "inicio": 31.28,
+          "fim": 31.66
+        },
+        {
+          "texto": "é",
+          "inicio": 31.66,
+          "fim": 31.8
+        },
+        {
+          "texto": "chegar.",
+          "inicio": 31.8,
+          "fim": 32.0
+        }
+      ],
+      "fim_s": 32.73
+    },
+    {
+      "id": "B04-01",
+      "inicio_s": 32.73,
+      "palavras": [
+        {
+          "texto": "Degrau",
+          "inicio": 32.73,
+          "fim": 33.35
+        },
+        {
+          "texto": "três:",
+          "inicio": 33.35,
+          "fim": 33.57
+        },
+        {
+          "texto": "o",
+          "inicio": 34.05,
+          "fim": 34.11
+        },
+        {
+          "texto": "topo.",
+          "inicio": 34.11,
+          "fim": 35.03
+        },
+        {
+          "texto": "Em",
+          "inicio": 35.13,
+          "fim": 35.21
+        },
+        {
+          "texto": "toda",
+          "inicio": 35.21,
+          "fim": 35.39
+        },
+        {
+          "texto": "a",
+          "inicio": 35.39,
+          "fim": 35.53
+        },
+        {
+          "texto": "história,",
+          "inicio": 35.53,
+          "fim": 35.85
+        }
+      ],
+      "fim_s": 36.07
+    },
+    {
+      "id": "B04-02",
+      "inicio_s": 36.07,
+      "palavras": [
+        {
+          "texto": "pelos",
+          "inicio": 36.07,
+          "fim": 36.21
+        },
+        {
+          "texto": "dois",
+          "inicio": 36.21,
+          "fim": 36.51
+        },
+        {
+          "texto": "lados",
+          "inicio": 36.51,
+          "fim": 36.79
+        },
+        {
+          "texto": "da",
+          "inicio": 36.79,
+          "fim": 36.95
+        },
+        {
+          "texto": "montanha,",
+          "inicio": 36.95,
+          "fim": 37.39
+        },
+        {
+          "texto": "sete",
+          "inicio": 37.77,
+          "fim": 37.986
+        },
+        {
+          "texto": "mil",
+          "inicio": 37.986,
+          "fim": 38.158
+        },
+        {
+          "texto": "quinhentas",
+          "inicio": 38.158,
+          "fim": 38.633
+        },
+        {
+          "texto": "e",
+          "inicio": 38.633,
+          "fim": 38.719
+        },
+        {
+          "texto": "sessenta",
+          "inicio": 38.719,
+          "fim": 39.108
+        },
+        {
+          "texto": "e",
+          "inicio": 39.108,
+          "fim": 39.194
+        },
+        {
+          "texto": "três",
+          "inicio": 39.194,
+          "fim": 39.41
+        },
+        {
+          "texto": "pessoas",
+          "inicio": 39.41,
+          "fim": 39.73
+        },
+        {
+          "texto": "chegaram.",
+          "inicio": 39.73,
+          "fim": 40.23
+        }
+      ],
+      "fim_s": 40.65
+    },
+    {
+      "id": "B04-03",
+      "inicio_s": 40.65,
+      "palavras": [
+        {
+          "texto": "Com",
+          "inicio": 40.65,
+          "fim": 40.83
+        },
+        {
+          "texto": "garrafa",
+          "inicio": 40.83,
+          "fim": 41.21
+        },
+        {
+          "texto": "de",
+          "inicio": 41.21,
+          "fim": 41.29
+        },
+        {
+          "texto": "oxigênio,",
+          "inicio": 41.29,
+          "fim": 41.77
+        },
+        {
+          "texto": "oito",
+          "inicio": 42.03,
+          "fim": 42.29
+        },
+        {
+          "texto": "em",
+          "inicio": 42.29,
+          "fim": 42.43
+        },
+        {
+          "texto": "cada",
+          "inicio": 42.43,
+          "fim": 42.57
+        },
+        {
+          "texto": "dez",
+          "inicio": 42.57,
+          "fim": 42.95
+        },
+        {
+          "texto": "que",
+          "inicio": 42.95,
+          "fim": 43.13
+        },
+        {
+          "texto": "tentam",
+          "inicio": 43.13,
+          "fim": 43.51
+        },
+        {
+          "texto": "chegam.",
+          "inicio": 43.51,
+          "fim": 43.75
+        }
+      ],
+      "fim_s": 44.29
+    },
+    {
+      "id": "B04-04",
+      "inicio_s": 44.29,
+      "palavras": [
+        {
+          "texto": "Sem",
+          "inicio": 44.29,
+          "fim": 44.53
+        },
+        {
+          "texto": "garrafa,",
+          "inicio": 44.53,
+          "fim": 45.07
+        },
+        {
+          "texto": "só",
+          "inicio": 45.19,
+          "fim": 45.41
+        },
+        {
+          "texto": "quatro",
+          "inicio": 45.41,
+          "fim": 45.85
+        },
+        {
+          "texto": "em",
+          "inicio": 45.85,
+          "fim": 45.99
+        },
+        {
+          "texto": "cada",
+          "inicio": 45.99,
+          "fim": 46.11
+        },
+        {
+          "texto": "cem.",
+          "inicio": 46.11,
+          "fim": 46.49
+        }
+      ],
+      "fim_s": 47.05
+    },
+    {
+      "id": "B04-05",
+      "inicio_s": 47.05,
+      "palavras": [
+        {
+          "texto": "Mas",
+          "inicio": 47.05,
+          "fim": 47.23
+        },
+        {
+          "texto": "tem",
+          "inicio": 47.23,
+          "fim": 47.39
+        },
+        {
+          "texto": "um",
+          "inicio": 47.39,
+          "fim": 47.47
+        },
+        {
+          "texto": "custo",
+          "inicio": 47.47,
+          "fim": 47.83
+        },
+        {
+          "texto": "fora",
+          "inicio": 47.83,
+          "fim": 48.07
+        },
+        {
+          "texto": "do",
+          "inicio": 48.07,
+          "fim": 48.21
+        },
+        {
+          "texto": "orçamento.",
+          "inicio": 48.21,
+          "fim": 48.57
+        }
+      ],
+      "fim_s": 49.32
+    },
+    {
+      "id": "B05-01",
+      "inicio_s": 49.32,
+      "palavras": [
+        {
+          "texto": "Cerca",
+          "inicio": 49.32,
+          "fim": 49.9
+        },
+        {
+          "texto": "de",
+          "inicio": 49.9,
+          "fim": 50.04
+        },
+        {
+          "texto": "trezentas",
+          "inicio": 50.04,
+          "fim": 50.535
+        },
+        {
+          "texto": "e",
+          "inicio": 50.535,
+          "fim": 50.634
+        },
+        {
+          "texto": "quarenta",
+          "inicio": 50.634,
+          "fim": 51.08
+        },
+        {
+          "texto": "pessoas",
+          "inicio": 51.08,
+          "fim": 51.6
+        },
+        {
+          "texto": "já",
+          "inicio": 51.6,
+          "fim": 51.84
+        },
+        {
+          "texto": "morreram",
+          "inicio": 51.84,
+          "fim": 52.26
+        },
+        {
+          "texto": "no",
+          "inicio": 52.26,
+          "fim": 52.34
+        },
+        {
+          "texto": "Everest.",
+          "inicio": 52.34,
+          "fim": 52.78
+        }
+      ],
+      "fim_s": 53.04
+    },
+    {
+      "id": "B05-02",
+      "inicio_s": 53.04,
+      "palavras": [
+        {
+          "texto": "A",
+          "inicio": 53.04,
+          "fim": 53.2
+        },
+        {
+          "texto": "cada",
+          "inicio": 53.2,
+          "fim": 53.38
+        },
+        {
+          "texto": "cem",
+          "inicio": 53.38,
+          "fim": 53.72
+        },
+        {
+          "texto": "vezes",
+          "inicio": 53.72,
+          "fim": 54.06
+        },
+        {
+          "texto": "que",
+          "inicio": 54.06,
+          "fim": 54.2
+        },
+        {
+          "texto": "alguém",
+          "inicio": 54.2,
+          "fim": 54.38
+        },
+        {
+          "texto": "chegou",
+          "inicio": 54.38,
+          "fim": 54.54
+        },
+        {
+          "texto": "ao",
+          "inicio": 54.54,
+          "fim": 54.72
+        },
+        {
+          "texto": "topo,",
+          "inicio": 54.72,
+          "fim": 55.24
+        },
+        {
+          "texto": "uma",
+          "inicio": 55.32,
+          "fim": 55.5
+        },
+        {
+          "texto": "pessoa",
+          "inicio": 55.5,
+          "fim": 55.82
+        },
+        {
+          "texto": "morreu",
+          "inicio": 55.82,
+          "fim": 56.16
+        },
+        {
+          "texto": "na",
+          "inicio": 56.16,
+          "fim": 56.26
+        },
+        {
+          "texto": "montanha.",
+          "inicio": 56.26,
+          "fim": 56.68
+        }
+      ],
+      "fim_s": 56.68
+    },
+    {
+      "id": "B05-03",
+      "inicio_s": 56.68,
+      "palavras": [
+        {
+          "texto": "E",
+          "inicio": 56.68,
+          "fim": 57.18
+        },
+        {
+          "texto": "ainda",
+          "inicio": 57.18,
+          "fim": 57.34
+        },
+        {
+          "texto": "falta",
+          "inicio": 57.34,
+          "fim": 57.66
+        },
+        {
+          "texto": "o",
+          "inicio": 57.66,
+          "fim": 57.98
+        },
+        {
+          "texto": "último",
+          "inicio": 57.98,
+          "fim": 58.32
+        },
+        {
+          "texto": "degrau,",
+          "inicio": 58.32,
+          "fim": 58.76
+        },
+        {
+          "texto": "mais",
+          "inicio": 59.04,
+          "fim": 59.3
+        },
+        {
+          "texto": "raro",
+          "inicio": 59.3,
+          "fim": 59.76
+        },
+        {
+          "texto": "que",
+          "inicio": 59.76,
+          "fim": 59.9
+        },
+        {
+          "texto": "ser",
+          "inicio": 59.9,
+          "fim": 60.1
+        },
+        {
+          "texto": "bilionário.",
+          "inicio": 60.1,
+          "fim": 60.68
+        }
+      ],
+      "fim_s": 61.39
+    },
+    {
+      "id": "B06-01",
+      "inicio_s": 61.39,
+      "palavras": [
+        {
+          "texto": "Degrau",
+          "inicio": 61.39,
+          "fim": 61.95
+        },
+        {
+          "texto": "quatro:",
+          "inicio": 61.95,
+          "fim": 62.33
+        },
+        {
+          "texto": "o",
+          "inicio": 62.71,
+          "fim": 62.81
+        },
+        {
+          "texto": "topo",
+          "inicio": 62.81,
+          "fim": 63.31
+        },
+        {
+          "texto": "sem",
+          "inicio": 63.31,
+          "fim": 63.51
+        },
+        {
+          "texto": "garrafa.",
+          "inicio": 63.51,
+          "fim": 64.03
+        },
+        {
+          "texto": "Só",
+          "inicio": 64.31,
+          "fim": 64.65
+        },
+        {
+          "texto": "duzentas",
+          "inicio": 64.65,
+          "fim": 65.37
+        },
+        {
+          "texto": "e",
+          "inicio": 65.37,
+          "fim": 65.49
+        },
+        {
+          "texto": "trinta",
+          "inicio": 65.49,
+          "fim": 65.77
+        },
+        {
+          "texto": "e",
+          "inicio": 65.77,
+          "fim": 65.85
+        },
+        {
+          "texto": "duas",
+          "inicio": 65.85,
+          "fim": 66.03
+        },
+        {
+          "texto": "subidas.",
+          "inicio": 66.03,
+          "fim": 66.47
+        }
+      ],
+      "fim_s": 66.97
+    },
+    {
+      "id": "B06-02",
+      "inicio_s": 66.97,
+      "palavras": [
+        {
+          "texto": "Na",
+          "inicio": 66.97,
+          "fim": 67.21
+        },
+        {
+          "texto": "última",
+          "inicio": 67.21,
+          "fim": 67.45
+        },
+        {
+          "texto": "lista",
+          "inicio": 67.45,
+          "fim": 67.85
+        },
+        {
+          "texto": "da",
+          "inicio": 67.85,
+          "fim": 68.01
+        },
+        {
+          "texto": "Forbes,",
+          "inicio": 68.01,
+          "fim": 68.37
+        },
+        {
+          "texto": "são",
+          "inicio": 68.67,
+          "fim": 68.77
+        },
+        {
+          "texto": "três",
+          "inicio": 68.77,
+          "fim": 69.25
+        },
+        {
+          "texto": "mil",
+          "inicio": 69.25,
+          "fim": 69.41
+        },
+        {
+          "texto": "quatrocentos",
+          "inicio": 69.41,
+          "fim": 70.09
+        },
+        {
+          "texto": "e",
+          "inicio": 70.09,
+          "fim": 70.17
+        },
+        {
+          "texto": "vinte",
+          "inicio": 70.17,
+          "fim": 70.35
+        },
+        {
+          "texto": "e",
+          "inicio": 70.35,
+          "fim": 70.45
+        },
+        {
+          "texto": "oito",
+          "inicio": 70.45,
+          "fim": 70.61
+        },
+        {
+          "texto": "bilionários.",
+          "inicio": 70.61,
+          "fim": 71.21
+        }
+      ],
+      "fim_s": 71.93
+    },
+    {
+      "id": "B06-03",
+      "inicio_s": 71.93,
+      "palavras": [
+        {
+          "texto": "Dinheiro",
+          "inicio": 71.93,
+          "fim": 72.49
+        },
+        {
+          "texto": "compra",
+          "inicio": 72.49,
+          "fim": 72.83
+        },
+        {
+          "texto": "a",
+          "inicio": 72.83,
+          "fim": 72.99
+        },
+        {
+          "texto": "licença",
+          "inicio": 72.99,
+          "fim": 73.43
+        },
+        {
+          "texto": "e",
+          "inicio": 73.43,
+          "fim": 73.55
+        },
+        {
+          "texto": "a",
+          "inicio": 73.55,
+          "fim": 73.65
+        },
+        {
+          "texto": "garrafa.",
+          "inicio": 73.65,
+          "fim": 74.09
+        }
+      ],
+      "fim_s": 74.49
+    },
+    {
+      "id": "B06-04",
+      "inicio_s": 74.49,
+      "palavras": [
+        {
+          "texto": "Não",
+          "inicio": 74.49,
+          "fim": 74.63
+        },
+        {
+          "texto": "compra",
+          "inicio": 74.63,
+          "fim": 74.93
+        },
+        {
+          "texto": "o",
+          "inicio": 74.93,
+          "fim": 75.05
+        },
+        {
+          "texto": "fôlego",
+          "inicio": 75.05,
+          "fim": 75.55
+        },
+        {
+          "texto": "pra",
+          "inicio": 75.55,
+          "fim": 75.75
+        },
+        {
+          "texto": "subir",
+          "inicio": 75.75,
+          "fim": 76.01
+        },
+        {
+          "texto": "sem",
+          "inicio": 76.01,
+          "fim": 76.21
+        },
+        {
+          "texto": "ela.",
+          "inicio": 76.21,
+          "fim": 76.51
+        }
+      ],
+      "fim_s": 77.51
+    }
+  ],
+  "qualidade": [
+    {
+      "bloco": "B01",
+      "palavras": 19,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 189
+    },
+    {
+      "bloco": "B02",
+      "palavras": 38,
+      "cobertura_pct": 89.5,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 204
+    },
+    {
+      "bloco": "B03",
+      "palavras": 41,
+      "cobertura_pct": 97.6,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 170
+    },
+    {
+      "bloco": "B04",
+      "palavras": 47,
+      "cobertura_pct": 89.4,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 174
+    },
+    {
+      "bloco": "B05",
+      "palavras": 35,
+      "cobertura_pct": 94.3,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 179
+    },
+    {
+      "bloco": "B06",
+      "palavras": 42,
+      "cobertura_pct": 100.0,
+      "palavras_extras": 0,
+      "extras": [],
+      "ppm_real": 162
+    }
+  ],
+  "alertas": []
+}

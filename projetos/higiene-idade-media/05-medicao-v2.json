@@ -1,0 +1,142 @@
+{
+  "arquivo": "projetos/higiene-idade-media/05-roteiro-v2.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Paris medieval tinha mais de 32 casas de banho",
+  "palavras": 66,
+  "duracao_estimada": "00:26",
+  "duracao_segundos": 26,
+  "duracao_alvo": "00:30",
+  "trecho_gancho": "Mais de 32 banhos públicos.",
+  "trecho_30s": "Mais de 32 banhos públicos. Numa cidade só. Dizem que ninguém tomava banho. Paris, século 13. Mas em casa, encher uma tina custava caro. Água carregada e aquecida. No dia a dia, só bacia. Na rua, banho era negócio. Com guilda e regras. Vapor: 2 denários. Banho completo: 4 denários. Até pregoeiros gritavam pelas ruas, chamando clientes. Londres tinha 13. Viena chegou a 29. E Paris...",
+  "primeira_frase": "Mais de 32 banhos públicos.",
+  "ultima_frase": "E Paris...",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "Mais de 32 banhos públicos",
+      "funcao": "gancho",
+      "palavras": 16,
+      "inicio": "00:00",
+      "fim": "00:06",
+      "duracao_s": 6,
+      "rehooks": 0,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Mais de 32 banhos públicos. Numa cidade só."
+    },
+    {
+      "id": "B02",
+      "titulo": "Em casa, só bacia",
+      "funcao": "contexto",
+      "palavras": 18,
+      "inicio": "00:06",
+      "fim": "00:14",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Mas em casa, encher uma tina custava caro."
+    },
+    {
+      "id": "B03",
+      "titulo": "Virada: na rua, era negócio",
+      "funcao": "virada",
+      "palavras": 23,
+      "inicio": "00:14",
+      "fim": "00:23",
+      "duracao_s": 9,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Na rua, banho era negócio. Com guilda e"
+    },
+    {
+      "id": "B04",
+      "titulo": "E Paris...",
+      "funcao": "final",
+      "palavras": 9,
+      "inicio": "00:23",
+      "fim": "00:26",
+      "duracao_s": 4,
+      "rehooks": 0,
+      "conector": "e então",
+      "cortavel": "não",
+      "abre_com": "Londres tinha 13. Viena chegou a 29. E"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:06",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:14",
+      "ativos_no_inicio": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L1",
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:23",
+      "ativos_no_inicio": [
+        "L2"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [
+        "L2",
+        "L4"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "Mais de 32 banhos públicos numa cidade só, e dizem que ninguém tomava banho. O que eram esses banhos e como funcionavam?",
+    "L2": "Paris era exceção, ou outras cidades também tinham banhos públicos? E 32 é muito perto delas?",
+    "L3": "Em casa, encher uma tina custava caro e o dia a dia era só bacia. Então onde se tomava banho de verdade?",
+    "L4": "E Paris...? A frase fica em suspenso e pede o número, que volta no replay com a primeira frase do B01."
+  },
+  "verificar": [],
+  "alertas": []
+}

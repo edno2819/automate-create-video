@@ -1,0 +1,283 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Noto Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,6,2,2,86,86,518,1
+Style: Destaque,Noto Sans,84,&H00000000,&H00000000,&H0000D4FF,&H00000000,-1,0,0,0,100,100,0,0,3,12,0,2,86,86,518,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.64,Legenda,,0,0,0,,Venha descobrir
+Dialogue: 1,0:00:00.00,0:00:00.42,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Venha{\alpha&HFF&} descobrir
+Dialogue: 1,0:00:00.42,0:00:00.64,Destaque,,0,0,0,,{\alpha&HFF&}Venha {\alpha&H00&}descobrir{\alpha&HFF&}
+Dialogue: 0,0:00:00.64,0:00:01.78,Legenda,,0,0,0,,se você aguentaria ser
+Dialogue: 1,0:00:00.64,0:00:00.86,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}se{\alpha&HFF&} você aguentaria ser
+Dialogue: 1,0:00:00.86,0:00:01.02,Destaque,,0,0,0,,{\alpha&HFF&}se {\alpha&H00&}você{\alpha&HFF&} aguentaria ser
+Dialogue: 1,0:00:01.02,0:00:01.58,Destaque,,0,0,0,,{\alpha&HFF&}se você {\alpha&H00&}aguentaria{\alpha&HFF&} ser
+Dialogue: 1,0:00:01.58,0:00:01.78,Destaque,,0,0,0,,{\alpha&HFF&}se você aguentaria {\alpha&H00&}ser{\alpha&HFF&}
+Dialogue: 0,0:00:01.78,0:00:02.46,Legenda,,0,0,0,,um pirata.
+Dialogue: 1,0:00:01.78,0:00:01.84,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}um{\alpha&HFF&} pirata.
+Dialogue: 1,0:00:01.84,0:00:02.46,Destaque,,0,0,0,,{\alpha&HFF&}um {\alpha&H00&}pirata.{\alpha&HFF&}
+Dialogue: 0,0:00:02.46,0:00:03.40,Legenda,,0,0,0,,Esquece o cinema:
+Dialogue: 1,0:00:02.46,0:00:02.86,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Esquece{\alpha&HFF&} o cinema:
+Dialogue: 1,0:00:02.86,0:00:02.96,Destaque,,0,0,0,,{\alpha&HFF&}Esquece {\alpha&H00&}o{\alpha&HFF&} cinema:
+Dialogue: 1,0:00:02.96,0:00:03.40,Destaque,,0,0,0,,{\alpha&HFF&}Esquece o {\alpha&H00&}cinema:{\alpha&HFF&}
+Dialogue: 0,0:00:03.40,0:00:04.20,Legenda,,0,0,0,,o navio era pequeno,
+Dialogue: 1,0:00:03.40,0:00:03.44,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} navio era pequeno,
+Dialogue: 1,0:00:03.44,0:00:03.62,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}navio{\alpha&HFF&} era pequeno,
+Dialogue: 1,0:00:03.62,0:00:03.72,Destaque,,0,0,0,,{\alpha&HFF&}o navio {\alpha&H00&}era{\alpha&HFF&} pequeno,
+Dialogue: 1,0:00:03.72,0:00:04.20,Destaque,,0,0,0,,{\alpha&HFF&}o navio era {\alpha&H00&}pequeno,{\alpha&HFF&}
+Dialogue: 0,0:00:04.20,0:00:04.84,Legenda,,0,0,0,,e o capitão podia
+Dialogue: 1,0:00:04.20,0:00:04.30,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} o capitão podia
+Dialogue: 1,0:00:04.30,0:00:04.38,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}o{\alpha&HFF&} capitão podia
+Dialogue: 1,0:00:04.38,0:00:04.64,Destaque,,0,0,0,,{\alpha&HFF&}e o {\alpha&H00&}capitão{\alpha&HFF&} podia
+Dialogue: 1,0:00:04.64,0:00:04.84,Destaque,,0,0,0,,{\alpha&HFF&}e o capitão {\alpha&H00&}podia{\alpha&HFF&}
+Dialogue: 0,0:00:04.84,0:00:06.32,Legenda,,0,0,0,,ser demitido no voto.
+Dialogue: 1,0:00:04.84,0:00:04.98,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}ser{\alpha&HFF&} demitido no voto.
+Dialogue: 1,0:00:04.98,0:00:05.56,Destaque,,0,0,0,,{\alpha&HFF&}ser {\alpha&H00&}demitido{\alpha&HFF&} no voto.
+Dialogue: 1,0:00:05.56,0:00:05.66,Destaque,,0,0,0,,{\alpha&HFF&}ser demitido {\alpha&H00&}no{\alpha&HFF&} voto.
+Dialogue: 1,0:00:05.66,0:00:06.32,Destaque,,0,0,0,,{\alpha&HFF&}ser demitido no {\alpha&H00&}voto.{\alpha&HFF&}
+Dialogue: 0,0:00:07.00,0:00:08.20,Legenda,,0,0,0,,O capitão Charles Vane
+Dialogue: 1,0:00:07.00,0:00:07.26,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}O{\alpha&HFF&} capitão Charles Vane
+Dialogue: 1,0:00:07.26,0:00:07.56,Destaque,,0,0,0,,{\alpha&HFF&}O {\alpha&H00&}capitão{\alpha&HFF&} Charles Vane
+Dialogue: 1,0:00:07.56,0:00:07.86,Destaque,,0,0,0,,{\alpha&HFF&}O capitão {\alpha&H00&}Charles{\alpha&HFF&} Vane
+Dialogue: 1,0:00:07.86,0:00:08.20,Destaque,,0,0,0,,{\alpha&HFF&}O capitão Charles {\alpha&H00&}Vane{\alpha&HFF&}
+Dialogue: 0,0:00:08.20,0:00:09.18,Legenda,,0,0,0,,se recusou a atacar
+Dialogue: 1,0:00:08.20,0:00:08.34,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}se{\alpha&HFF&} recusou a atacar
+Dialogue: 1,0:00:08.34,0:00:08.80,Destaque,,0,0,0,,{\alpha&HFF&}se {\alpha&H00&}recusou{\alpha&HFF&} a atacar
+Dialogue: 1,0:00:08.80,0:00:08.88,Destaque,,0,0,0,,{\alpha&HFF&}se recusou {\alpha&H00&}a{\alpha&HFF&} atacar
+Dialogue: 1,0:00:08.88,0:00:09.18,Destaque,,0,0,0,,{\alpha&HFF&}se recusou a {\alpha&H00&}atacar{\alpha&HFF&}
+Dialogue: 0,0:00:09.18,0:00:09.52,Legenda,,0,0,0,,um navio,
+Dialogue: 1,0:00:09.18,0:00:09.22,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}um{\alpha&HFF&} navio,
+Dialogue: 1,0:00:09.22,0:00:09.52,Destaque,,0,0,0,,{\alpha&HFF&}um {\alpha&H00&}navio,{\alpha&HFF&}
+Dialogue: 0,0:00:09.52,0:00:10.46,Legenda,,0,0,0,,e a tripulação trocou
+Dialogue: 1,0:00:09.52,0:00:09.74,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} a tripulação trocou
+Dialogue: 1,0:00:09.74,0:00:09.80,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}a{\alpha&HFF&} tripulação trocou
+Dialogue: 1,0:00:09.80,0:00:10.20,Destaque,,0,0,0,,{\alpha&HFF&}e a {\alpha&H00&}tripulação{\alpha&HFF&} trocou
+Dialogue: 1,0:00:10.20,0:00:10.46,Destaque,,0,0,0,,{\alpha&HFF&}e a tripulação {\alpha&H00&}trocou{\alpha&HFF&}
+Dialogue: 0,0:00:10.46,0:00:11.52,Legenda,,0,0,0,,ele por Calico Jack.
+Dialogue: 1,0:00:10.46,0:00:10.58,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}ele{\alpha&HFF&} por Calico Jack.
+Dialogue: 1,0:00:10.58,0:00:10.70,Destaque,,0,0,0,,{\alpha&HFF&}ele {\alpha&H00&}por{\alpha&HFF&} Calico Jack.
+Dialogue: 1,0:00:10.70,0:00:11.00,Destaque,,0,0,0,,{\alpha&HFF&}ele por {\alpha&H00&}Calico{\alpha&HFF&} Jack.
+Dialogue: 1,0:00:11.00,0:00:11.52,Destaque,,0,0,0,,{\alpha&HFF&}ele por Calico {\alpha&H00&}Jack.{\alpha&HFF&}
+Dialogue: 0,0:00:13.88,0:00:14.94,Legenda,,0,0,0,,Fora da batalha,
+Dialogue: 1,0:00:13.88,0:00:14.40,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Fora{\alpha&HFF&} da batalha,
+Dialogue: 1,0:00:14.40,0:00:14.46,Destaque,,0,0,0,,{\alpha&HFF&}Fora {\alpha&H00&}da{\alpha&HFF&} batalha,
+Dialogue: 1,0:00:14.46,0:00:14.94,Destaque,,0,0,0,,{\alpha&HFF&}Fora da {\alpha&H00&}batalha,{\alpha&HFF&}
+Dialogue: 0,0:00:14.94,0:00:16.00,Legenda,,0,0,0,,mandava junto um cargo
+Dialogue: 1,0:00:14.94,0:00:15.34,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}mandava{\alpha&HFF&} junto um cargo
+Dialogue: 1,0:00:15.34,0:00:15.56,Destaque,,0,0,0,,{\alpha&HFF&}mandava {\alpha&H00&}junto{\alpha&HFF&} um cargo
+Dialogue: 1,0:00:15.56,0:00:15.76,Destaque,,0,0,0,,{\alpha&HFF&}mandava junto {\alpha&H00&}um{\alpha&HFF&} cargo
+Dialogue: 1,0:00:15.76,0:00:16.00,Destaque,,0,0,0,,{\alpha&HFF&}mandava junto um {\alpha&H00&}cargo{\alpha&HFF&}
+Dialogue: 0,0:00:16.00,0:00:17.06,Legenda,,0,0,0,,que o cinema esquece:
+Dialogue: 1,0:00:16.00,0:00:16.18,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}que{\alpha&HFF&} o cinema esquece:
+Dialogue: 1,0:00:16.18,0:00:16.24,Destaque,,0,0,0,,{\alpha&HFF&}que {\alpha&H00&}o{\alpha&HFF&} cinema esquece:
+Dialogue: 1,0:00:16.24,0:00:16.40,Destaque,,0,0,0,,{\alpha&HFF&}que o {\alpha&H00&}cinema{\alpha&HFF&} esquece:
+Dialogue: 1,0:00:16.40,0:00:17.06,Destaque,,0,0,0,,{\alpha&HFF&}que o cinema {\alpha&H00&}esquece:{\alpha&HFF&}
+Dialogue: 0,0:00:17.06,0:00:17.92,Legenda,,0,0,0,,o quartel-mestre.
+Dialogue: 1,0:00:17.06,0:00:17.10,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} quartel-mestre.
+Dialogue: 1,0:00:17.10,0:00:17.92,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}quartel-mestre.{\alpha&HFF&}
+Dialogue: 0,0:00:17.92,0:00:18.98,Legenda,,0,0,0,,Era ele quem dividia
+Dialogue: 1,0:00:17.92,0:00:18.10,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Era{\alpha&HFF&} ele quem dividia
+Dialogue: 1,0:00:18.10,0:00:18.38,Destaque,,0,0,0,,{\alpha&HFF&}Era {\alpha&H00&}ele{\alpha&HFF&} quem dividia
+Dialogue: 1,0:00:18.38,0:00:18.54,Destaque,,0,0,0,,{\alpha&HFF&}Era ele {\alpha&H00&}quem{\alpha&HFF&} dividia
+Dialogue: 1,0:00:18.54,0:00:18.98,Destaque,,0,0,0,,{\alpha&HFF&}Era ele quem {\alpha&H00&}dividia{\alpha&HFF&}
+Dialogue: 0,0:00:18.98,0:00:20.16,Legenda,,0,0,0,,o tesouro e o rum.
+Dialogue: 1,0:00:18.98,0:00:19.45,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}tesouro{\alpha&HFF&} e o rum.
+Dialogue: 1,0:00:19.45,0:00:19.61,Destaque,,0,0,0,,{\alpha&HFF&}o tesouro {\alpha&H00&}e{\alpha&HFF&} o rum.
+Dialogue: 1,0:00:19.61,0:00:19.70,Destaque,,0,0,0,,{\alpha&HFF&}o tesouro e {\alpha&H00&}o{\alpha&HFF&} rum.
+Dialogue: 1,0:00:19.70,0:00:20.16,Destaque,,0,0,0,,{\alpha&HFF&}o tesouro e o {\alpha&H00&}rum.{\alpha&HFF&}
+Dialogue: 0,0:00:20.53,0:00:21.85,Legenda,,0,0,0,,E você é só marujo.
+Dialogue: 1,0:00:20.53,0:00:20.83,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} você é só marujo.
+Dialogue: 1,0:00:20.83,0:00:21.15,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}você{\alpha&HFF&} é só marujo.
+Dialogue: 1,0:00:21.15,0:00:21.23,Destaque,,0,0,0,,{\alpha&HFF&}E você {\alpha&H00&}é{\alpha&HFF&} só marujo.
+Dialogue: 1,0:00:21.23,0:00:21.36,Destaque,,0,0,0,,{\alpha&HFF&}E você é {\alpha&H00&}só{\alpha&HFF&} marujo.
+Dialogue: 1,0:00:21.36,0:00:21.85,Destaque,,0,0,0,,{\alpha&HFF&}E você é só {\alpha&H00&}marujo.{\alpha&HFF&}
+Dialogue: 0,0:00:21.85,0:00:23.27,Legenda,,0,0,0,,Sua cabeça coça de piolho,
+Dialogue: 1,0:00:21.85,0:00:21.99,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Sua{\alpha&HFF&} cabeça coça de piolho,
+Dialogue: 1,0:00:21.99,0:00:22.15,Destaque,,0,0,0,,{\alpha&HFF&}Sua {\alpha&H00&}cabeça{\alpha&HFF&} coça de piolho,
+Dialogue: 1,0:00:22.15,0:00:22.65,Destaque,,0,0,0,,{\alpha&HFF&}Sua cabeça {\alpha&H00&}coça{\alpha&HFF&} de piolho,
+Dialogue: 1,0:00:22.65,0:00:22.71,Destaque,,0,0,0,,{\alpha&HFF&}Sua cabeça coça {\alpha&H00&}de{\alpha&HFF&} piolho,
+Dialogue: 1,0:00:22.71,0:00:23.27,Destaque,,0,0,0,,{\alpha&HFF&}Sua cabeça coça de {\alpha&H00&}piolho,{\alpha&HFF&}
+Dialogue: 0,0:00:23.27,0:00:23.89,Legenda,,0,0,0,,você bebe rum
+Dialogue: 1,0:00:23.27,0:00:23.39,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}você{\alpha&HFF&} bebe rum
+Dialogue: 1,0:00:23.39,0:00:23.55,Destaque,,0,0,0,,{\alpha&HFF&}você {\alpha&H00&}bebe{\alpha&HFF&} rum
+Dialogue: 1,0:00:23.55,0:00:23.89,Destaque,,0,0,0,,{\alpha&HFF&}você bebe {\alpha&H00&}rum{\alpha&HFF&}
+Dialogue: 0,0:00:23.89,0:00:24.75,Legenda,,0,0,0,,porque a água apodrece,
+Dialogue: 1,0:00:23.89,0:00:24.01,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}porque{\alpha&HFF&} a água apodrece,
+Dialogue: 1,0:00:24.01,0:00:24.11,Destaque,,0,0,0,,{\alpha&HFF&}porque {\alpha&H00&}a{\alpha&HFF&} água apodrece,
+Dialogue: 1,0:00:24.11,0:00:24.23,Destaque,,0,0,0,,{\alpha&HFF&}porque a {\alpha&H00&}água{\alpha&HFF&} apodrece,
+Dialogue: 1,0:00:24.23,0:00:24.75,Destaque,,0,0,0,,{\alpha&HFF&}porque a água {\alpha&H00&}apodrece,{\alpha&HFF&}
+Dialogue: 0,0:00:24.75,0:00:25.91,Legenda,,0,0,0,,e bate o biscoito
+Dialogue: 1,0:00:24.75,0:00:25.21,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} bate o biscoito
+Dialogue: 1,0:00:25.21,0:00:25.45,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}bate{\alpha&HFF&} o biscoito
+Dialogue: 1,0:00:25.45,0:00:25.55,Destaque,,0,0,0,,{\alpha&HFF&}e bate {\alpha&H00&}o{\alpha&HFF&} biscoito
+Dialogue: 1,0:00:25.55,0:00:25.91,Destaque,,0,0,0,,{\alpha&HFF&}e bate o {\alpha&H00&}biscoito{\alpha&HFF&}
+Dialogue: 0,0:00:25.91,0:00:27.87,Legenda,,0,0,0,,na mesa pros carunchos caírem.
+Dialogue: 1,0:00:25.91,0:00:26.03,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}na{\alpha&HFF&} mesa pros carunchos caírem.
+Dialogue: 1,0:00:26.03,0:00:26.29,Destaque,,0,0,0,,{\alpha&HFF&}na {\alpha&H00&}mesa{\alpha&HFF&} pros carunchos caírem.
+Dialogue: 1,0:00:26.29,0:00:26.53,Destaque,,0,0,0,,{\alpha&HFF&}na mesa {\alpha&H00&}pros{\alpha&HFF&} carunchos caírem.
+Dialogue: 1,0:00:26.53,0:00:26.91,Destaque,,0,0,0,,{\alpha&HFF&}na mesa pros {\alpha&H00&}carunchos{\alpha&HFF&} caírem.
+Dialogue: 1,0:00:26.91,0:00:27.87,Destaque,,0,0,0,,{\alpha&HFF&}na mesa pros carunchos {\alpha&H00&}caírem.{\alpha&HFF&}
+Dialogue: 0,0:00:27.87,0:00:28.87,Legenda,,0,0,0,,Pelo menos pirata não
+Dialogue: 1,0:00:27.87,0:00:28.11,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Pelo{\alpha&HFF&} menos pirata não
+Dialogue: 1,0:00:28.11,0:00:28.31,Destaque,,0,0,0,,{\alpha&HFF&}Pelo {\alpha&H00&}menos{\alpha&HFF&} pirata não
+Dialogue: 1,0:00:28.31,0:00:28.75,Destaque,,0,0,0,,{\alpha&HFF&}Pelo menos {\alpha&H00&}pirata{\alpha&HFF&} não
+Dialogue: 1,0:00:28.75,0:00:28.87,Destaque,,0,0,0,,{\alpha&HFF&}Pelo menos pirata {\alpha&H00&}não{\alpha&HFF&}
+Dialogue: 0,0:00:28.87,0:00:29.71,Legenda,,0,0,0,,tem regra, né?
+Dialogue: 1,0:00:28.87,0:00:28.99,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}tem{\alpha&HFF&} regra, né?
+Dialogue: 1,0:00:28.99,0:00:29.35,Destaque,,0,0,0,,{\alpha&HFF&}tem {\alpha&H00&}regra,{\alpha&HFF&} né?
+Dialogue: 1,0:00:29.35,0:00:29.71,Destaque,,0,0,0,,{\alpha&HFF&}tem regra, {\alpha&H00&}né?{\alpha&HFF&}
+Dialogue: 0,0:00:30.08,0:00:30.86,Legenda,,0,0,0,,No filme,
+Dialogue: 1,0:00:30.08,0:00:30.40,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}No{\alpha&HFF&} filme,
+Dialogue: 1,0:00:30.40,0:00:30.86,Destaque,,0,0,0,,{\alpha&HFF&}No {\alpha&H00&}filme,{\alpha&HFF&}
+Dialogue: 0,0:00:30.86,0:00:31.48,Legenda,,0,0,0,,o código é
+Dialogue: 1,0:00:30.86,0:00:30.96,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} código é
+Dialogue: 1,0:00:30.96,0:00:31.28,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}código{\alpha&HFF&} é
+Dialogue: 1,0:00:31.28,0:00:31.48,Destaque,,0,0,0,,{\alpha&HFF&}o código {\alpha&H00&}é{\alpha&HFF&}
+Dialogue: 0,0:00:31.48,0:00:32.62,Legenda,,0,0,0,,só uma sugestão.
+Dialogue: 1,0:00:31.48,0:00:31.64,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}só{\alpha&HFF&} uma sugestão.
+Dialogue: 1,0:00:31.64,0:00:31.74,Destaque,,0,0,0,,{\alpha&HFF&}só {\alpha&H00&}uma{\alpha&HFF&} sugestão.
+Dialogue: 1,0:00:31.74,0:00:32.62,Destaque,,0,0,0,,{\alpha&HFF&}só uma {\alpha&H00&}sugestão.{\alpha&HFF&}
+Dialogue: 0,0:00:32.62,0:00:33.22,Legenda,,0,0,0,,Na real,
+Dialogue: 1,0:00:32.62,0:00:32.78,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Na{\alpha&HFF&} real,
+Dialogue: 1,0:00:32.78,0:00:33.22,Destaque,,0,0,0,,{\alpha&HFF&}Na {\alpha&H00&}real,{\alpha&HFF&}
+Dialogue: 0,0:00:33.22,0:00:34.96,Legenda,,0,0,0,,você jurava regras:
+Dialogue: 1,0:00:33.22,0:00:33.38,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}você{\alpha&HFF&} jurava regras:
+Dialogue: 1,0:00:33.38,0:00:33.86,Destaque,,0,0,0,,{\alpha&HFF&}você {\alpha&H00&}jurava{\alpha&HFF&} regras:
+Dialogue: 1,0:00:33.86,0:00:34.96,Destaque,,0,0,0,,{\alpha&HFF&}você jurava {\alpha&H00&}regras:{\alpha&HFF&}
+Dialogue: 0,0:00:34.96,0:00:36.10,Legenda,,0,0,0,,oitocentas moedas de prata
+Dialogue: 1,0:00:34.96,0:00:35.44,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}oitocentas{\alpha&HFF&} moedas de prata
+Dialogue: 1,0:00:35.44,0:00:35.78,Destaque,,0,0,0,,{\alpha&HFF&}oitocentas {\alpha&H00&}moedas{\alpha&HFF&} de prata
+Dialogue: 1,0:00:35.78,0:00:35.86,Destaque,,0,0,0,,{\alpha&HFF&}oitocentas moedas {\alpha&H00&}de{\alpha&HFF&} prata
+Dialogue: 1,0:00:35.86,0:00:36.10,Destaque,,0,0,0,,{\alpha&HFF&}oitocentas moedas de {\alpha&H00&}prata{\alpha&HFF&}
+Dialogue: 0,0:00:36.10,0:00:37.54,Legenda,,0,0,0,,pra quem perdesse um braço.
+Dialogue: 1,0:00:36.10,0:00:36.28,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pra{\alpha&HFF&} quem perdesse um braço.
+Dialogue: 1,0:00:36.28,0:00:36.40,Destaque,,0,0,0,,{\alpha&HFF&}pra {\alpha&H00&}quem{\alpha&HFF&} perdesse um braço.
+Dialogue: 1,0:00:36.40,0:00:36.80,Destaque,,0,0,0,,{\alpha&HFF&}pra quem {\alpha&H00&}perdesse{\alpha&HFF&} um braço.
+Dialogue: 1,0:00:36.80,0:00:36.90,Destaque,,0,0,0,,{\alpha&HFF&}pra quem perdesse {\alpha&H00&}um{\alpha&HFF&} braço.
+Dialogue: 1,0:00:36.90,0:00:37.54,Destaque,,0,0,0,,{\alpha&HFF&}pra quem perdesse um {\alpha&H00&}braço.{\alpha&HFF&}
+Dialogue: 0,0:00:37.54,0:00:39.38,Legenda,,0,0,0,,E quem operava esse braço?
+Dialogue: 1,0:00:37.54,0:00:37.60,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} quem operava esse braço?
+Dialogue: 1,0:00:37.60,0:00:37.84,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}quem{\alpha&HFF&} operava esse braço?
+Dialogue: 1,0:00:37.84,0:00:38.30,Destaque,,0,0,0,,{\alpha&HFF&}E quem {\alpha&H00&}operava{\alpha&HFF&} esse braço?
+Dialogue: 1,0:00:38.30,0:00:38.44,Destaque,,0,0,0,,{\alpha&HFF&}E quem operava {\alpha&H00&}esse{\alpha&HFF&} braço?
+Dialogue: 1,0:00:38.44,0:00:39.38,Destaque,,0,0,0,,{\alpha&HFF&}E quem operava esse {\alpha&H00&}braço?{\alpha&HFF&}
+Dialogue: 0,0:00:39.38,0:00:40.48,Legenda,,0,0,0,,Muitas vezes,
+Dialogue: 1,0:00:39.38,0:00:39.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Muitas{\alpha&HFF&} vezes,
+Dialogue: 1,0:00:39.92,0:00:40.48,Destaque,,0,0,0,,{\alpha&HFF&}Muitas {\alpha&H00&}vezes,{\alpha&HFF&}
+Dialogue: 0,0:00:40.48,0:00:41.76,Legenda,,0,0,0,,um cirurgião sequestrado
+Dialogue: 1,0:00:40.48,0:00:40.58,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}um{\alpha&HFF&} cirurgião sequestrado
+Dialogue: 1,0:00:40.58,0:00:41.08,Destaque,,0,0,0,,{\alpha&HFF&}um {\alpha&H00&}cirurgião{\alpha&HFF&} sequestrado
+Dialogue: 1,0:00:41.08,0:00:41.76,Destaque,,0,0,0,,{\alpha&HFF&}um cirurgião {\alpha&H00&}sequestrado{\alpha&HFF&}
+Dialogue: 0,0:00:41.76,0:00:42.68,Legenda,,0,0,0,,de outro navio.
+Dialogue: 1,0:00:41.76,0:00:41.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} outro navio.
+Dialogue: 1,0:00:41.92,0:00:42.08,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}outro{\alpha&HFF&} navio.
+Dialogue: 1,0:00:42.08,0:00:42.68,Destaque,,0,0,0,,{\alpha&HFF&}de outro {\alpha&H00&}navio.{\alpha&HFF&}
+Dialogue: 0,0:00:42.68,0:00:43.22,Legenda,,0,0,0,,Sem ele,
+Dialogue: 1,0:00:42.68,0:00:42.90,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Sem{\alpha&HFF&} ele,
+Dialogue: 1,0:00:42.90,0:00:43.22,Destaque,,0,0,0,,{\alpha&HFF&}Sem {\alpha&H00&}ele,{\alpha&HFF&}
+Dialogue: 0,0:00:43.22,0:00:44.16,Legenda,,0,0,0,,operava o carpinteiro,
+Dialogue: 1,0:00:43.22,0:00:43.60,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}operava{\alpha&HFF&} o carpinteiro,
+Dialogue: 1,0:00:43.60,0:00:43.66,Destaque,,0,0,0,,{\alpha&HFF&}operava {\alpha&H00&}o{\alpha&HFF&} carpinteiro,
+Dialogue: 1,0:00:43.66,0:00:44.16,Destaque,,0,0,0,,{\alpha&HFF&}operava o {\alpha&H00&}carpinteiro,{\alpha&HFF&}
+Dialogue: 0,0:00:44.16,0:00:44.80,Legenda,,0,0,0,,com a serra
+Dialogue: 1,0:00:44.16,0:00:44.40,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}com{\alpha&HFF&} a serra
+Dialogue: 1,0:00:44.40,0:00:44.50,Destaque,,0,0,0,,{\alpha&HFF&}com {\alpha&H00&}a{\alpha&HFF&} serra
+Dialogue: 1,0:00:44.50,0:00:44.80,Destaque,,0,0,0,,{\alpha&HFF&}com a {\alpha&H00&}serra{\alpha&HFF&}
+Dialogue: 0,0:00:44.80,0:00:45.84,Legenda,,0,0,0,,de cortar madeira.
+Dialogue: 1,0:00:44.80,0:00:44.88,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} cortar madeira.
+Dialogue: 1,0:00:44.88,0:00:45.06,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}cortar{\alpha&HFF&} madeira.
+Dialogue: 1,0:00:45.06,0:00:45.84,Destaque,,0,0,0,,{\alpha&HFF&}de cortar {\alpha&H00&}madeira.{\alpha&HFF&}
+Dialogue: 0,0:00:46.28,0:00:47.98,Legenda,,0,0,0,,Até o músico era sequestrado,
+Dialogue: 1,0:00:46.28,0:00:46.74,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Até{\alpha&HFF&} o músico era sequestrado,
+Dialogue: 1,0:00:46.74,0:00:46.86,Destaque,,0,0,0,,{\alpha&HFF&}Até {\alpha&H00&}o{\alpha&HFF&} músico era sequestrado,
+Dialogue: 1,0:00:46.86,0:00:47.32,Destaque,,0,0,0,,{\alpha&HFF&}Até o {\alpha&H00&}músico{\alpha&HFF&} era sequestrado,
+Dialogue: 1,0:00:47.32,0:00:47.42,Destaque,,0,0,0,,{\alpha&HFF&}Até o músico {\alpha&H00&}era{\alpha&HFF&} sequestrado,
+Dialogue: 1,0:00:47.42,0:00:47.98,Destaque,,0,0,0,,{\alpha&HFF&}Até o músico era {\alpha&H00&}sequestrado,{\alpha&HFF&}
+Dialogue: 0,0:00:47.98,0:00:48.80,Legenda,,0,0,0,,pra tocar violino
+Dialogue: 1,0:00:47.98,0:00:48.20,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pra{\alpha&HFF&} tocar violino
+Dialogue: 1,0:00:48.20,0:00:48.40,Destaque,,0,0,0,,{\alpha&HFF&}pra {\alpha&H00&}tocar{\alpha&HFF&} violino
+Dialogue: 1,0:00:48.40,0:00:48.80,Destaque,,0,0,0,,{\alpha&HFF&}pra tocar {\alpha&H00&}violino{\alpha&HFF&}
+Dialogue: 0,0:00:48.80,0:00:49.94,Legenda,,0,0,0,,no ataque e assustar
+Dialogue: 1,0:00:48.80,0:00:48.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}no{\alpha&HFF&} ataque e assustar
+Dialogue: 1,0:00:48.92,0:00:49.20,Destaque,,0,0,0,,{\alpha&HFF&}no {\alpha&H00&}ataque{\alpha&HFF&} e assustar
+Dialogue: 1,0:00:49.20,0:00:49.46,Destaque,,0,0,0,,{\alpha&HFF&}no ataque {\alpha&H00&}e{\alpha&HFF&} assustar
+Dialogue: 1,0:00:49.46,0:00:49.94,Destaque,,0,0,0,,{\alpha&HFF&}no ataque e {\alpha&H00&}assustar{\alpha&HFF&}
+Dialogue: 0,0:00:49.94,0:00:50.88,Legenda,,0,0,0,,o outro navio.
+Dialogue: 1,0:00:49.94,0:00:50.04,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} outro navio.
+Dialogue: 1,0:00:50.04,0:00:50.18,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}outro{\alpha&HFF&} navio.
+Dialogue: 1,0:00:50.18,0:00:50.88,Destaque,,0,0,0,,{\alpha&HFF&}o outro {\alpha&H00&}navio.{\alpha&HFF&}
+Dialogue: 0,0:00:50.88,0:00:51.94,Legenda,,0,0,0,,E quem quebrava as regras?
+Dialogue: 1,0:00:50.88,0:00:51.06,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} quem quebrava as regras?
+Dialogue: 1,0:00:51.06,0:00:51.18,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}quem{\alpha&HFF&} quebrava as regras?
+Dialogue: 1,0:00:51.18,0:00:51.52,Destaque,,0,0,0,,{\alpha&HFF&}E quem {\alpha&H00&}quebrava{\alpha&HFF&} as regras?
+Dialogue: 1,0:00:51.52,0:00:51.62,Destaque,,0,0,0,,{\alpha&HFF&}E quem quebrava {\alpha&H00&}as{\alpha&HFF&} regras?
+Dialogue: 1,0:00:51.62,0:00:51.94,Destaque,,0,0,0,,{\alpha&HFF&}E quem quebrava as {\alpha&H00&}regras?{\alpha&HFF&}
+Dialogue: 0,0:00:51.94,0:00:53.32,Legenda,,0,0,0,,Andava na prancha?
+Dialogue: 1,0:00:51.94,0:00:52.56,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Andava{\alpha&HFF&} na prancha?
+Dialogue: 1,0:00:52.56,0:00:52.66,Destaque,,0,0,0,,{\alpha&HFF&}Andava {\alpha&H00&}na{\alpha&HFF&} prancha?
+Dialogue: 1,0:00:52.66,0:00:53.32,Destaque,,0,0,0,,{\alpha&HFF&}Andava na {\alpha&H00&}prancha?{\alpha&HFF&}
+Dialogue: 0,0:00:54.90,0:00:56.18,Legenda,,0,0,0,,O castigo real era pior,
+Dialogue: 1,0:00:54.90,0:00:54.98,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}O{\alpha&HFF&} castigo real era pior,
+Dialogue: 1,0:00:54.98,0:00:55.30,Destaque,,0,0,0,,{\alpha&HFF&}O {\alpha&H00&}castigo{\alpha&HFF&} real era pior,
+Dialogue: 1,0:00:55.30,0:00:55.56,Destaque,,0,0,0,,{\alpha&HFF&}O castigo {\alpha&H00&}real{\alpha&HFF&} era pior,
+Dialogue: 1,0:00:55.56,0:00:55.72,Destaque,,0,0,0,,{\alpha&HFF&}O castigo real {\alpha&H00&}era{\alpha&HFF&} pior,
+Dialogue: 1,0:00:55.72,0:00:56.18,Destaque,,0,0,0,,{\alpha&HFF&}O castigo real era {\alpha&H00&}pior,{\alpha&HFF&}
+Dialogue: 0,0:00:56.18,0:00:57.02,Legenda,,0,0,0,,porque demorava:
+Dialogue: 1,0:00:56.18,0:00:56.30,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}porque{\alpha&HFF&} demorava:
+Dialogue: 1,0:00:56.30,0:00:57.02,Destaque,,0,0,0,,{\alpha&HFF&}porque {\alpha&H00&}demorava:{\alpha&HFF&}
+Dialogue: 0,0:00:57.02,0:00:58.54,Legenda,,0,0,0,,te largavam sozinho numa ilha,
+Dialogue: 1,0:00:57.02,0:00:57.18,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}te{\alpha&HFF&} largavam sozinho numa ilha,
+Dialogue: 1,0:00:57.18,0:00:57.54,Destaque,,0,0,0,,{\alpha&HFF&}te {\alpha&H00&}largavam{\alpha&HFF&} sozinho numa ilha,
+Dialogue: 1,0:00:57.54,0:00:58.02,Destaque,,0,0,0,,{\alpha&HFF&}te largavam {\alpha&H00&}sozinho{\alpha&HFF&} numa ilha,
+Dialogue: 1,0:00:58.02,0:00:58.18,Destaque,,0,0,0,,{\alpha&HFF&}te largavam sozinho {\alpha&H00&}numa{\alpha&HFF&} ilha,
+Dialogue: 1,0:00:58.18,0:00:58.54,Destaque,,0,0,0,,{\alpha&HFF&}te largavam sozinho numa {\alpha&H00&}ilha,{\alpha&HFF&}
+Dialogue: 0,0:00:58.54,0:00:58.90,Legenda,,0,0,0,,com um pouco
+Dialogue: 1,0:00:58.54,0:00:58.66,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}com{\alpha&HFF&} um pouco
+Dialogue: 1,0:00:58.66,0:00:58.76,Destaque,,0,0,0,,{\alpha&HFF&}com {\alpha&H00&}um{\alpha&HFF&} pouco
+Dialogue: 1,0:00:58.76,0:00:58.90,Destaque,,0,0,0,,{\alpha&HFF&}com um {\alpha&H00&}pouco{\alpha&HFF&}
+Dialogue: 0,0:00:58.90,0:01:00.02,Legenda,,0,0,0,,de água e uma arma.
+Dialogue: 1,0:00:58.90,0:00:59.08,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} água e uma arma.
+Dialogue: 1,0:00:59.08,0:00:59.28,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}água{\alpha&HFF&} e uma arma.
+Dialogue: 1,0:00:59.28,0:00:59.40,Destaque,,0,0,0,,{\alpha&HFF&}de água {\alpha&H00&}e{\alpha&HFF&} uma arma.
+Dialogue: 1,0:00:59.40,0:00:59.54,Destaque,,0,0,0,,{\alpha&HFF&}de água e {\alpha&H00&}uma{\alpha&HFF&} arma.
+Dialogue: 1,0:00:59.54,0:01:00.02,Destaque,,0,0,0,,{\alpha&HFF&}de água e uma {\alpha&H00&}arma.{\alpha&HFF&}
+Dialogue: 0,0:01:00.48,0:01:01.68,Legenda,,0,0,0,,As mesmas regras
+Dialogue: 1,0:01:00.48,0:01:00.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}As{\alpha&HFF&} mesmas regras
+Dialogue: 1,0:01:00.92,0:01:01.26,Destaque,,0,0,0,,{\alpha&HFF&}As {\alpha&H00&}mesmas{\alpha&HFF&} regras
+Dialogue: 1,0:01:01.26,0:01:01.68,Destaque,,0,0,0,,{\alpha&HFF&}As mesmas {\alpha&H00&}regras{\alpha&HFF&}
+Dialogue: 0,0:01:01.68,0:01:02.22,Legenda,,0,0,0,,que te pagavam
+Dialogue: 1,0:01:01.68,0:01:01.76,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}que{\alpha&HFF&} te pagavam
+Dialogue: 1,0:01:01.76,0:01:01.86,Destaque,,0,0,0,,{\alpha&HFF&}que {\alpha&H00&}te{\alpha&HFF&} pagavam
+Dialogue: 1,0:01:01.86,0:01:02.22,Destaque,,0,0,0,,{\alpha&HFF&}que te {\alpha&H00&}pagavam{\alpha&HFF&}
+Dialogue: 0,0:01:02.22,0:01:03.24,Legenda,,0,0,0,,pelo braço te largaram
+Dialogue: 1,0:01:02.22,0:01:02.36,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pelo{\alpha&HFF&} braço te largaram
+Dialogue: 1,0:01:02.36,0:01:02.74,Destaque,,0,0,0,,{\alpha&HFF&}pelo {\alpha&H00&}braço{\alpha&HFF&} te largaram
+Dialogue: 1,0:01:02.74,0:01:02.88,Destaque,,0,0,0,,{\alpha&HFF&}pelo braço {\alpha&H00&}te{\alpha&HFF&} largaram
+Dialogue: 1,0:01:02.88,0:01:03.24,Destaque,,0,0,0,,{\alpha&HFF&}pelo braço te {\alpha&H00&}largaram{\alpha&HFF&}
+Dialogue: 0,0:01:03.24,0:01:03.88,Legenda,,0,0,0,,na ilha.
+Dialogue: 1,0:01:03.24,0:01:03.32,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}na{\alpha&HFF&} ilha.
+Dialogue: 1,0:01:03.32,0:01:03.88,Destaque,,0,0,0,,{\alpha&HFF&}na {\alpha&H00&}ilha.{\alpha&HFF&}
+Dialogue: 0,0:01:03.88,0:01:04.48,Legenda,,0,0,0,,E aí,
+Dialogue: 1,0:01:03.88,0:01:04.10,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} aí,
+Dialogue: 1,0:01:04.10,0:01:04.48,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}aí,{\alpha&HFF&}
+Dialogue: 0,0:01:04.48,0:01:05.12,Legenda,,0,0,0,,você teria coragem
+Dialogue: 1,0:01:04.48,0:01:04.56,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}você{\alpha&HFF&} teria coragem
+Dialogue: 1,0:01:04.56,0:01:04.72,Destaque,,0,0,0,,{\alpha&HFF&}você {\alpha&H00&}teria{\alpha&HFF&} coragem
+Dialogue: 1,0:01:04.72,0:01:05.12,Destaque,,0,0,0,,{\alpha&HFF&}você teria {\alpha&H00&}coragem{\alpha&HFF&}
+Dialogue: 0,0:01:05.12,0:01:05.80,Legenda,,0,0,0,,de ser um tripulante
+Dialogue: 1,0:01:05.12,0:01:05.22,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} ser um tripulante
+Dialogue: 1,0:01:05.22,0:01:05.34,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}ser{\alpha&HFF&} um tripulante
+Dialogue: 1,0:01:05.34,0:01:05.40,Destaque,,0,0,0,,{\alpha&HFF&}de ser {\alpha&H00&}um{\alpha&HFF&} tripulante
+Dialogue: 1,0:01:05.40,0:01:05.80,Destaque,,0,0,0,,{\alpha&HFF&}de ser um {\alpha&H00&}tripulante{\alpha&HFF&}
+Dialogue: 0,0:01:05.80,0:01:06.82,Legenda,,0,0,0,,de um navio pirata?
+Dialogue: 1,0:01:05.80,0:01:05.92,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}de{\alpha&HFF&} um navio pirata?
+Dialogue: 1,0:01:05.92,0:01:05.98,Destaque,,0,0,0,,{\alpha&HFF&}de {\alpha&H00&}um{\alpha&HFF&} navio pirata?
+Dialogue: 1,0:01:05.98,0:01:06.18,Destaque,,0,0,0,,{\alpha&HFF&}de um {\alpha&H00&}navio{\alpha&HFF&} pirata?
+Dialogue: 1,0:01:06.18,0:01:06.82,Destaque,,0,0,0,,{\alpha&HFF&}de um navio {\alpha&H00&}pirata?{\alpha&HFF&}

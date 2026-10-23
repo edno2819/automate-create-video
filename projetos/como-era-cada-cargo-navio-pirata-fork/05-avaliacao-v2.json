@@ -1,0 +1,112 @@
+{
+  "roteiro": "projetos/como-era-cada-cargo-navio-pirata-fork/05-roteiro-v2.md",
+  "versao": 2,
+  "formato": "short",
+  "aprovado": false,
+  "nota_percentual": 78,
+  "bloqueantes_reprovados": [],
+  "leitura_fria": [
+    "B01: o vídeo me desafia: eu aguentaria ser pirata? Esquece o filme: o navio de verdade era pequeno, e o capitão podia ser demitido por votação. Surpreendente, entendi.",
+    "B02: prova: um capitão chamado Charles Vane não quis atacar um navio e a tripulação trocou ele por outro, Calico Jack. (Deduzo que foi por medo ou covardia; não é dito, mas dá pra entender.)",
+    "B03: fora da batalha, o capitão tinha tanto poder quanto o quartel-mestre, um cargo que o cinema não mostra, que repartia o tesouro e o rum. (A frase põe o capitão como sujeito e o quartel-mestre no fim; entendi, mas depois de um tropeço.)",
+    "B04: e eu sou o mais baixo: marujo. Piolho na cabeça, rum porque a água estraga, biscoito batido na mesa pros bichos caírem. Nojento e engraçado. Aí a provocação: pelo menos pirata não tem regra, né?",
+    "B05: tem sim. No filme, o código é só sugestão; na real eu jurava regras: luz apagada às oito, e 800 moedas de prata se eu perdesse um braço. Pirata tinha indenização! E quem me opera?",
+    "B06: muitas vezes, um cirurgião sequestrado de outro navio. Se não tinha, o carpinteiro, com a serra de madeira. Arrepio, entendi sem ver nada.",
+    "B07: e a prancha? Quase não tem registro. O castigo de verdade era pior: me largavam sozinho numa ilha com água, pólvora e uma arma. (Por que isso é pior? Com água e arma parece até kit de sobrevivência; não sei para que é a arma.)",
+    "B08: de novo: no filme pirata não tem regra (já ouvi isso no B04 e no B05); na real, foi a regra que eu jurei que me largou na ilha (então a ilha era castigo por quebrar uma regra, que não sei qual). E aí, eu teria coragem?"
+  ],
+  "confusoes": [
+    {
+      "bloco": "B07",
+      "trecho": "O castigo real era pior: te largavam sozinho numa ilha, com água, pólvora e uma arma.",
+      "problema": "falta o motivo que faz o castigo ser 'pior'. Com água, pólvora e arma, a ilha soa como kit de sobrevivência, e o espectador não sabe por que isso seria pior que a prancha. É a lição 'A piada leva o motivo que dá a graça' aplicada ao susto: a curiosidade fica sem o porquê."
+    }
+  ],
+  "promessa": "Ver, cargo por cargo, como era cada função de um navio pirata contra o que o cinema mostra (thumb 'Filme x real': o capitão de cinema contra o marujo sujo).",
+  "onde_cumpre": "B01-B03 cumprem o 'filme x real' no capitão (demitido no voto, Vane trocado por Calico Jack) e no quartel-mestre ('o cargo que o cinema esquece'); B04 entrega o lado direito da thumb (o marujo com piolho e biscoito); B06 traz cirurgião e carpinteiro. São cinco cargos, e só os dois primeiros têm o contraste com o filme; o contraste do resto do vídeo (B05, B07, B08) vai para o código e a prancha, que não são cargos.",
+  "criterios": [
+    {"id": "gancho-2s", "nota": 2, "peso": 3},
+    {
+      "id": "sem-ponto-de-abandono",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B02-B03",
+      "evidencia": "O capitão Charles Vane se recusou a atacar um navio, e a tripulação trocou ele por Calico Jack.",
+      "problema": "O B02 fecha o L2 (demitido no voto) na hora, e o L3 declarado ('quem mandava junto com ele?') existe só no mapa: o texto nunca faz essa pergunta. De 00:09 a 00:26 (cerca de 14 s na narração 20% mais rápida) só o L1 genérico segura, num trecho de política de bordo sem nada nojento nem assustador, que é o foco que a descrição do brief pede. É a janela em que o short mais perde gente.",
+      "instrucao": "Diga a pergunta do L3 no fim do B02 e conserte o sujeito do B03 de uma vez: B02 termina com 'Mas nem o capitão mandava sozinho.' e o B03 vira 'Fora da batalha, mandava junto um cargo que o cinema esquece: o quartel-mestre. Era ele quem dividia o tesouro e o rum.' Assim o espectador sabe o que está esperando e o quartel-mestre vira o sujeito da frase."
+    },
+    {
+      "id": "clareza",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B07",
+      "evidencia": "O castigo real era pior: te largavam sozinho numa ilha, com água, pólvora e uma arma.",
+      "problema": "Um problema na leitura fria: 'pior' sem o motivo. A lista (água, pólvora, arma) parece kit de sobrevivência e contradiz o 'pior'. O resto passa: a confusão da v1 (o ferimento antes da cirurgia) foi resolvida com 'pra quem perdesse um braço' → 'E quem operava esse braço?'. Menor, sem contar como confusão: no B03 'o capitão mandava igual a um cargo' se entende depois de um tropeço (a correção está em sem-ponto-de-abandono).",
+      "instrucao": "Diga por que é pior, sem descrever morte nem ferida: 'Quase não tem registro. [PAUSA] O castigo real era pior, porque demorava: te largavam sozinho numa ilha, com um pouco de água e uma arma.' O 'porque demorava' e o 'um pouco de água' dão o motivo; a arma fica como sugestão sombria, dentro do tom e da restrição de anunciantes."
+    },
+    {
+      "id": "mas-entao",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B06-B07",
+      "evidencia": "[RE-HOOK] E andar na prancha?",
+      "problema": "Da cirurgia para a prancha a ligação é 'e depois': o conector 'mas' declarado no B07 só existe nos metadados, e a prancha não sai do carpinteiro, sai das regras do B05. O resto da cadeia é dito e funciona (você é só marujo → pelo menos não tem regra → regras → quem operava esse braço).",
+      "instrucao": "Ligue a prancha às regras, que é o que o B08 vai colher: troque o re-hook por 'E quem quebrava as regras? Andava na prancha?'. A resposta do B07 ('Quase não tem registro') segue igual e o fecho passa a responder a pergunta."
+    },
+    {
+      "id": "payoff-cumpre-titulo",
+      "nota": 1,
+      "peso": 3,
+      "bloco": "B05-B08",
+      "evidencia": "No filme, o código é só uma sugestão.",
+      "problema": "Promessa parcial: o título diz 'cada cargo' e a thumb 'Filme x real', mas só capitão e quartel-mestre recebem o contraste com o filme; marujo, cirurgião e carpinteiro não têm o lado 'filme', e a segunda metade do vídeo (código, prancha, ilha, fecho) não é sobre cargo. É o risco que o próprio ângulo A3 previu. Cinco cargos num short é aceitável; o que pesa é o clímax e o fecho falarem de castigo e não de cargo.",
+      "instrucao": "Se o usuário aceitar mais uns 15 palavras, volte o músico entre o B06 e o novo re-hook do B07, como o roteirista já deixou pronto: 'Até o músico era sequestrado, pra tocar violino no ataque e assustar o outro navio.' (o 'até' liga ao cirurgião sequestrado). Sem aumento de tamanho, deixe como está e registre o risco: não troque cargo por mais mito."
+    },
+    {
+      "id": "final-com-virada",
+      "nota": 1,
+      "peso": 2,
+      "bloco": "B08",
+      "evidencia": "No filme, pirata não tem regra. Na real, quem te largou na ilha foi a regra que você jurou.",
+      "problema": "O mito 'pirata não tem regra' já foi derrubado no B05 ('Na real, você jurava regras'); o fecho repete a mesma inversão pela terceira vez (re-hook do B04, B05, B08). Tem ironia, mas é previsível: o espectador não entende o vídeo de outro jeito, só ouve de novo o que já sabe.",
+      "instrucao": "Vire o sentido das regras em vez de repetir que elas existem: no B05 as regras te protegiam (pagavam pelo braço); no fecho, as mesmas regras te abandonam. Troque as duas frases por 'As mesmas regras que te pagavam pelo braço te largaram na ilha.' e siga com a pergunta fixa do usuário. Os artigos de Phillips têm as duas coisas (800 por membro e o abandono na ilha), e a frase fica 6 palavras mais curta."
+    },
+    {"id": "concretude", "nota": 2, "peso": 2},
+    {"id": "uma-ideia", "nota": 2, "peso": 2},
+    {"id": "final-em-loop", "nota": 2, "peso": 1},
+    {"id": "duracao-honesta", "nota": 2, "peso": 2},
+    {"id": "linguagem-falada", "nota": 2, "peso": 1},
+    {"id": "tom", "nota": 2, "peso": 1},
+    {"id": "factualidade", "nota": 2, "peso": 2},
+    {"id": "adequacao-anunciantes", "nota": 2, "peso": 1},
+    {"id": "conteudo-sexual", "nota": 2, "peso": 1}
+  ],
+  "pontos_de_abandono": [
+    {"bloco": "B02-B03", "tempo": "00:09", "motivo": "política de bordo (Vane, quartel-mestre) sem nojo nem susto e sem pergunta dita; o L3 só existe no mapa. O primeiro detalhe nojento chega em 00:26 (cerca de 22 s na velocidade pedida)."},
+    {"bloco": "B06-B07", "tempo": "01:02", "motivo": "'E andar na prancha?' soa como troca de assunto, e o short vira lista de mitos logo depois do clímax."},
+    {"bloco": "B08", "tempo": "01:11", "motivo": "'No filme, pirata não tem regra' é a terceira vez da mesma ideia: o fecho soa como resumo e o dedo passa antes da pergunta final, que é a emenda do replay."}
+  ],
+  "prioridades": [
+    "1. B07 (clareza, lição 'A piada leva o motivo que dá a graça'): diga por que a ilha é pior que a prancha: 'O castigo real era pior, porque demorava: te largavam sozinho numa ilha, com um pouco de água e uma arma.' Mantenha a [PAUSA] e o 'Quase não tem registro.'",
+    "2. B08 (final-com-virada): troque 'No filme, pirata não tem regra. Na real, quem te largou na ilha foi a regra que você jurou.' por 'As mesmas regras que te pagavam pelo braço te largaram na ilha.', seguido da pergunta fixa. Vira o sentido das regras do B05 em vez de repetir que elas existem, e economiza 6 palavras.",
+    "3. B02-B03 (sem-ponto-de-abandono): feche o B02 com 'Mas nem o capitão mandava sozinho.' e reescreva o B03 como 'Fora da batalha, mandava junto um cargo que o cinema esquece: o quartel-mestre. Era ele quem dividia o tesouro e o rum.' O L3 passa a ser ouvido e o quartel-mestre vira o sujeito.",
+    "4. B06-B07 (mas-então): troque o re-hook 'E andar na prancha?' por 'E quem quebrava as regras? Andava na prancha?', que liga a prancha ao código do B05 e prepara o fecho da prioridade 2.",
+    "5. Payoff do título 'cada cargo' (decisão do usuário, por causa do tamanho): se ele aceitar cerca de 15 palavras a mais, volte o músico depois do B06: 'Até o músico era sequestrado, pra tocar violino no ataque e assustar o outro navio.' Se não aceitar, é o primeiro item a ficar de fora; os itens 1 a 4 não."
+  ],
+  "manter": [
+    "B01: o primeiro frame do galeão de cinema que se desfaz no barco pequeno, junto com 'Esquece o cinema: o navio era pequeno, e o capitão podia ser demitido no voto' (tese contrária clara e com prova logo depois)",
+    "B02: o caso de Charles Vane trocado por Calico Jack como prova concreta da tese",
+    "B04: 'E você é só marujo.' (a troca de papel do 'você' é dita), 'você bebe rum porque a água apodrece' e o biscoito batido na mesa pros carunchos caírem",
+    "B04: o re-hook 'Pelo menos pirata não tem regra, né?', que tem o tom de desafio com humor seco que o brief pede",
+    "B05-B06: a cadeia 'oitocentas moedas de prata pra quem perdesse um braço' → 'E quem operava esse braço?' → cirurgião sequestrado → carpinteiro 'com a serra de cortar madeira' (resolveu a confusão da v1 e é assustador sem gore)",
+    "B07: 'Quase não tem registro.' e a [PAUSA] antes do castigo",
+    "Abertura e fecho fixos do usuário, exatamente como ele pediu, e a emenda do replay"
+  ],
+  "alertas_de_medicao": [
+    "Duração: 206 palavras, 01:23 a 150 ppm (+39% da meta de 01:00). Com a narração 20% mais rápida do brief, fica em cerca de 69 s. As prioridades 1 a 4 somam cerca de +8 palavras (cerca de 72 s na velocidade pedida); a 5 leva a cerca de 77 s. Pela lição 'Clareza vale mais que a meta de duração', não corte as frases de ligação. Se o usuário quiser chegar perto de 60 s, a ordem de corte das notas do roteirista vale (luz apagada às oito, 'o navio era pequeno', depois o B02), mas o B02 é a prova da tese e é o último a sair. Decisão do usuário.",
+    "Não há 05-orientacao-v2.md: esta versão foi avaliada só contra o brief, o ângulo A3 e a rubrica.",
+    "A pasta do projeto já tem 06-roteiro-final.md e direção visual, imagens, narração, vídeo e publicação feitos a partir da v1 (ângulo A1). Se a v2 (ângulo A3) for adiante, essas etapas precisam ser refeitas; o 06-roteiro-final.md atual não corresponde ao ângulo escolhido.",
+    "'Charles Vane' e 'Calico Jack' podem sair com pronúncia errada na voz do Gemini em pt-BR: conferir na narração.",
+    "Imagens de Piratas do Caribe (pedido da descrição): risco de reivindicação de direitos e de rosto de ator real; é decisão da direção visual, não do roteiro."
+  ]
+}

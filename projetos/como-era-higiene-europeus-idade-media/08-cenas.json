@@ -1,0 +1,654 @@
+{
+  "projeto": "como-era-higiene-europeus-idade-media",
+  "roteiro": "projetos/como-era-higiene-europeus-idade-media/06-roteiro-final.md",
+  "gerado_em": "2026-10-21",
+  "proporcao": "9:16",
+  "duracao_estimada": "01:24",
+  "total_cenas": 22,
+  "alertas": [],
+  "cenas": [
+    {
+      "trecho": "Paris, Idade Média. Você dá um passo...",
+      "tipo": "ilustracao",
+      "descricao": "A composição da capa: a bota de couro gasto do camponês afundando na lama escura e brilhante, a roda de uma carroça ao lado. É o primeiro quadro e segura a tensão antes das palavras.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant's worn leather boot sinking ankle-deep into thick dark glistening mud, mud oozing over the leather, a heavy wooden cart wheel half buried right beside it, ripples spreading in the muck, grave and ominous mood",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The peasant's worn leather boot sinking ankle-deep into thick dark glistening mud, mud oozing over the leather, a heavy wooden cart wheel half buried right beside it, ripples spreading in the muck, grave and ominous mood. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-01",
+      "bloco": "B01",
+      "palavras": [
+        0,
+        7
+      ],
+      "inicio": "00:00",
+      "fim": "00:03",
+      "inicio_s": 0.0,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "e o pé afunda na lama até o tornozelo.",
+      "tipo": "ilustracao",
+      "descricao": "Corte para o rosto do camponês, nojo e espanto exagerados, pintado como um retrato solene de museu.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant looking straight at the viewer with exaggerated disgust and horror, eyes bulging, mouth twisted open showing crooked yellowed teeth, nostrils flared, a fly hovering near his cheek, solemn museum-portrait dignity at odds with the expression",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The peasant looking straight at the viewer with exaggerated disgust and horror, eyes bulging, mouth twisted open showing crooked yellowed teeth, nostrils flared, a fly hovering near his cheek, solemn museum-portrait dignity at odds with the expression. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-02",
+      "bloco": "B01",
+      "palavras": [
+        7,
+        16
+      ],
+      "inicio": "00:03",
+      "fim": "00:06",
+      "inicio_s": 2.8,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "Lama fedida, revirada pelas carroças. Nenhum calçamento. Tá achando que rico vivia melhor?",
+      "tipo": "ilustracao",
+      "descricao": "A rua inteira vista de cima: carroças revirando a lama, o camponês de costas atolado no meio e um nobre a cavalo passando alto, limpo, acima de tudo. Situa o lugar e já planta a pergunta sobre o rico.",
+      "enquadramento": "plongee",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant seen from behind, stuck in the middle of the muddy street, as two ox carts plough through and spray mud, while a richly dressed nobleman in a fur-trimmed red cloak rides past high on a white horse, nose in the air, untouched by the filth",
+      "movimento": "descer",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High-angle shot. The peasant seen from behind, stuck in the middle of the muddy street, as two ox carts plough through and spray mud, while a richly dressed nobleman in a fur-trimmed red cloak rides past high on a white horse, nose in the air, untouched by the filth. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: a narrow unpaved street in 12th-century Paris, deep dark glistening mud churned into ruts by wooden cart wheels, crooked half-timbered houses with jettied upper floors and wooden shutters, a wooden ox cart stuck in the mud, gray smoky sky, a distant Romanesque church tower. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B01-03",
+      "bloco": "B01",
+      "palavras": [
+        16,
+        29
+      ],
+      "inicio": "00:06",
+      "fim": "00:12",
+      "inicio_s": 6.4,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "Rico fugia da lama. Morava no castelo.",
+      "tipo": "ilustracao",
+      "descricao": "O castelo de pedra no alto, seco e altivo, acima dos telhados enlameados da cidade: a fuga do rico.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the stone castle rising proud and dry above the muddy smoking rooftops of the town, a noble couple in rich silks and furs standing on the battlements looking down with contempt, warm golden light on the castle, gloom on the town below",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. The stone castle rising proud and dry above the muddy smoking rooftops of the town, a noble couple in rich silks and furs standing on the battlements looking down with contempt, warm golden light on the castle, gloom on the town below. Setting: a tall medieval stone castle on a rise above the muddy rooftops of Paris, thick gray limestone walls, a small square turret jutting out from high on the curtain wall on stone corbels with an open chute at its base, a stagnant greenish moat at the foot of the wall. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B02-01",
+      "bloco": "B02",
+      "palavras": [
+        0,
+        7
+      ],
+      "inicio": "00:12",
+      "fim": "00:14",
+      "inicio_s": 11.6,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Mas lá o banheiro era um buraco na parede.",
+      "tipo": "ilustracao",
+      "descricao": "A torrezinha do garde-robe saliente na muralha, vista de baixo e de fora: o buraco na parede, nunca o interior.",
+      "enquadramento": "contra-plongee",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "the small square latrine turret jutting out from high on the castle wall, a dark open hole at its base gaping over the void, stone corbels holding it up, damp dark streaks staining the wall beneath, a crow perched on a corbel looking away, absurd and solemn",
+      "movimento": "subir",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Low-angle shot. The small square latrine turret jutting out from high on the castle wall, a dark open hole at its base gaping over the void, stone corbels holding it up, damp dark streaks staining the wall beneath, a crow perched on a corbel looking away, absurd and solemn. Setting: a tall medieval stone castle on a rise above the muddy rooftops of Paris, thick gray limestone walls, a small square turret jutting out from high on the curtain wall on stone corbels with an open chute at its base, a stagnant greenish moat at the foot of the wall. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B02-02",
+      "bloco": "B02",
+      "palavras": [
+        7,
+        16
+      ],
+      "inicio": "00:14",
+      "fim": "00:18",
+      "inicio_s": 14.4,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "Tudo caía direto no fosso. E o nome desse buraco é a melhor parte.",
+      "tipo": "ilustracao",
+      "descricao": "O guarda na beira do fosso esverdeado, tapando o nariz, com a torrezinha lá no alto. A sujeira fica só sugerida pela água turva e pela cara dele.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "local": "L02",
+      "objetos": [],
+      "prompt_cena": "a castle guard in a dented iron helmet and padded tunic standing at the edge of the stagnant greenish moat, pinching his nose hard with one hand and clutching his spear with the other, eyes watering, glancing up warily at the turret high above, flies over the murky water",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A castle guard in a dented iron helmet and padded tunic standing at the edge of the stagnant greenish moat, pinching his nose hard with one hand and clutching his spear with the other, eyes watering, glancing up warily at the turret high above, flies over the murky water. Setting: a tall medieval stone castle on a rise above the muddy rooftops of Paris, thick gray limestone walls, a small square turret jutting out from high on the curtain wall on stone corbels with an open chute at its base, a stagnant greenish moat at the foot of the wall. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L02"
+      ],
+      "id": "B02-03",
+      "bloco": "B02",
+      "palavras": [
+        16,
+        30
+      ],
+      "inicio": "00:18",
+      "fim": "00:24",
+      "inicio_s": 18.0,
+      "duracao_s": 5.6
+    },
+    {
+      "trecho": "Garde-robe. Em francês: guarda-roupa.",
+      "tipo": "cartela",
+      "fonte": "internet",
+      "busca": [
+        "castle garderobe interior",
+        "medieval garderobe",
+        "garderobe"
+      ],
+      "texto_na_tela": "GARDE-ROBE = GUARDA-ROUPA",
+      "descricao": "Cartela com o nome sobre a foto real de um garde-robe de castelo (o assento de pedra vazio de uma ruína): a prova de que o buraco existia e tinha esse nome.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "an empty medieval stone latrine niche inside a castle wall, a plain stone bench with a round dark hole, a narrow arrow-slit window letting in a thin beam of light, cold bare stone",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "prompt_final": "Extreme close-up detail shot. An empty medieval stone latrine niche inside a castle wall, a plain stone bench with a round dark hole, a narrow arrow-slit window letting in a thin beam of light, cold bare stone. Background plate for a title card, calm composition with empty space in the center. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B03-01",
+      "bloco": "B03",
+      "palavras": [
+        0,
+        4
+      ],
+      "inicio": "00:24",
+      "fim": "00:25",
+      "inicio_s": 23.6,
+      "duracao_s": 1.6
+    },
+    {
+      "trecho": "Dizem que guardavam as roupas ali de propósito.",
+      "tipo": "ilustracao",
+      "descricao": "Uma dama nobre pendura com todo o cuidado o vestido de seda num cabide de madeira, dentro da salinha estreita de pedra, tapando o nariz com a outra mão. O assento fica fora do quadro.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a noble lady in a pale linen veil carefully hanging a rich crimson silk gown and a fur cloak on wooden pegs in a cramped narrow stone chamber, pinching her nose with her free hand, lips pressed tight in dignified suffering, a single candle lighting the rough wall",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A noble lady in a pale linen veil carefully hanging a rich crimson silk gown and a fur cloak on wooden pegs in a cramped narrow stone chamber, pinching her nose with her free hand, lips pressed tight in dignified suffering, a single candle lighting the rough wall. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B03-02",
+      "bloco": "B03",
+      "palavras": [
+        4,
+        12
+      ],
+      "inicio": "00:25",
+      "fim": "00:28",
+      "inicio_s": 25.2,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "O fedor de amônia espantava traças e pulgas.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe cômico: traças e pulgas fugindo em debandada da gola de pele, com um vapor amarelado de fedor subindo do fundo.",
+      "enquadramento": "detalhe",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "moths and tiny fleas fleeing in panic from the fur collar of a cloak hanging on a wooden peg, a faint sickly yellowish haze drifting up from below, the insects painted with meticulous natural-history precision, absurd comic solemnity",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. Moths and tiny fleas fleeing in panic from the fur collar of a cloak hanging on a wooden peg, a faint sickly yellowish haze drifting up from below, the insects painted with meticulous natural-history precision, absurd comic solemnity. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B03-03",
+      "bloco": "B03",
+      "palavras": [
+        12,
+        20
+      ],
+      "inicio": "00:28",
+      "fim": "00:32",
+      "inicio_s": 28.4,
+      "duracao_s": 3.2
+    },
+    {
+      "trecho": "Só que os médicos tinham uma teoria sobre esse fedor.",
+      "tipo": "ilustracao",
+      "descricao": "Um médico medieval de toga vermelha e barrete fareja o ar com o dedo erguido, ar de sábio, entre livros e potes de ervas: a teoria vem aí. Sem a máscara de bico, que é do século 17.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a medieval physician in a long scarlet gown and close-fitting black coif, an elderly man with a gray forked beard, sniffing the air with eyes half-closed and one finger raised in grave scholarly revelation, a heavy open book and herb jars on the table beside him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A medieval physician in a long scarlet gown and close-fitting black coif, an elderly man with a gray forked beard, sniffing the air with eyes half-closed and one finger raised in grave scholarly revelation, a heavy open book and herb jars on the table beside him. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B03-04",
+      "bloco": "B03",
+      "palavras": [
+        20,
+        30
+      ],
+      "inicio": "00:32",
+      "fim": "00:36",
+      "inicio_s": 31.6,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Pra eles, mau cheiro causava doença. Ar podre trazia a peste.",
+      "tipo": "ilustracao",
+      "descricao": "O miasma tornado visível: uma névoa esverdeada rastejando pela rua e entrando pelas janelas de Paris, gente tapando o rosto. A teoria dos médicos como ameaça concreta.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "a thick sickly greenish fog creeping low through the muddy street and curling into open shutters, townsfolk pressing cloths to their faces and hurrying away from it, a menacing dusk sky, the fog painted almost like a living creature",
+      "movimento": "pan-esquerda",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. A thick sickly greenish fog creeping low through the muddy street and curling into open shutters, townsfolk pressing cloths to their faces and hurrying away from it, a menacing dusk sky, the fog painted almost like a living creature. Setting: a narrow unpaved street in 12th-century Paris, deep dark glistening mud churned into ruts by wooden cart wheels, crooked half-timbered houses with jettied upper floors and wooden shutters, a wooden ox cart stuck in the mud, gray smoky sky, a distant Romanesque church tower. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L01"
+      ],
+      "id": "B04-01",
+      "bloco": "B04",
+      "palavras": [
+        0,
+        11
+      ],
+      "inicio": "00:36",
+      "fim": "00:40",
+      "inicio_s": 35.6,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "Então quem podia levava uma bolinha de perfume no cinto.",
+      "tipo": "ilustracao",
+      "descricao": "Um cortesão de gola de pele leva ao nariz, pela corrente, o pomander dourado pendurado no cinto, em êxtase exagerado. A solução dos ricos.",
+      "enquadramento": "plano-medio",
+      "personagens": [],
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "a plump smug courtier with a heavy fur collar and a velvet cap lifting the gold pomander on its chain from his belt up to his nose, eyes closed in exaggerated bliss, little finger raised, a dark palace corridor behind him",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Medium shot. A plump smug courtier with a heavy fur collar and a velvet cap lifting the gold pomander on its chain from his belt up to his nose, eyes closed in exaggerated bliss, little finger raised, a dark palace corridor behind him. Props: a small round openwork gold pomander the size of a walnut, filled with dark spices, hanging from a fine gold chain at the belt. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "O01"
+      ],
+      "id": "B04-02",
+      "bloco": "B04",
+      "palavras": [
+        11,
+        21
+      ],
+      "inicio": "00:40",
+      "fim": "00:44",
+      "inicio_s": 40.0,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Sem dinheiro? Laranja oca, esponja de vinagre, colada no nariz.",
+      "tipo": "ilustracao",
+      "descricao": "O 'você' de novo, agora de frente: o camponês com uma laranja oca apertada contra o nariz, olhos arregalados. A versão pobre do perfume.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant pressing a hollowed-out orange peel stuffed with a vinegar-soaked sponge hard against his nose with both hands, eyes wide and watering, cheeks puffed, a drop of vinegar running down his chin, deadly serious expression",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The peasant pressing a hollowed-out orange peel stuffed with a vinegar-soaked sponge hard against his nose with both hands, eyes wide and watering, cheeks puffed, a drop of vinegar running down his chin, deadly serious expression. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B04-03",
+      "bloco": "B04",
+      "palavras": [
+        21,
+        31
+      ],
+      "inicio": "00:44",
+      "fim": "00:48",
+      "inicio_s": 44.0,
+      "duracao_s": 4.0
+    },
+    {
+      "trecho": "Mas perfume nenhum salvou o rei.",
+      "tipo": "ilustracao",
+      "descricao": "Detalhe da mão real cheia de anéis, manga de arminho, apertando o pomander dourado no parapeito: o perfume mais caro do reino, prestes a falhar. O rei entra pela mão antes do rosto.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the king's ringed hand emerging from an ermine-lined blue sleeve, clutching the gold pomander tightly against the stone window sill, knuckles white, the rest of the king lost in shadow, ominous stillness",
+      "movimento": "estatico",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The king's ringed hand emerging from an ermine-lined blue sleeve, clutching the gold pomander tightly against the stone window sill, knuckles white, the rest of the king lost in shadow, ominous stillness. Character: the king, a young medieval French king about 20 years old with pale fair skin, a long sharp pointed nose, short wavy reddish-brown hair, a sparse reddish beard, wearing a simple gold crown with small fleur-de-lis points, a royal blue velvet mantle lined with white ermine, a heavy gold chain on his chest, and several gold rings on his fingers. Setting: an arched stone window with carved oak shutters open, a red and gold tapestry in the dim chamber behind. Props: a small round openwork gold pomander the size of a walnut, filled with dark spices, hanging from a fine gold chain at the belt. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P02",
+        "L03",
+        "O01"
+      ],
+      "id": "B04-04",
+      "bloco": "B04",
+      "palavras": [
+        31,
+        37
+      ],
+      "inicio": "00:48",
+      "fim": "00:51",
+      "inicio_s": 48.0,
+      "duracao_s": 3.4
+    },
+    {
+      "trecho": "Lá por mil cento e oitenta e cinco, reza a história,",
+      "tipo": "cartela",
+      "texto_na_tela": "PARIS, c. 1185",
+      "descricao": "Cartela de data sobre um mapa antigo de Paris: o momento documental que situa a virada no tempo.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "an aged parchment map of medieval Paris on the Seine, the Ile de la Cite at the center, tiny churches and walls, brown ink faded and stained, candlelight on the parchment",
+      "movimento": "zoom-in",
+      "transicao": "fade",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. An aged parchment map of medieval Paris on the Seine, the Ile de la Cite at the center, tiny churches and walls, brown ink faded and stained, candlelight on the parchment. Background plate for a title card, calm composition with empty space in the center. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B05-01",
+      "bloco": "B05",
+      "palavras": [
+        0,
+        11
+      ],
+      "inicio": "00:51",
+      "fim": "00:56",
+      "inicio_s": 51.4,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "o rei Filipe Augusto abriu a janela do palácio.",
+      "tipo": "ilustracao",
+      "descricao": "O rei de costas, abrindo as folhas de carvalho da janela, e a rua de lama lá embaixo: ele está prestes a sentir o que o 'você' sente.",
+      "enquadramento": "sobre-o-ombro",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L03",
+      "objetos": [
+        "O01"
+      ],
+      "prompt_cena": "the king seen from behind pushing open the heavy oak shutters with both hands, morning light flooding in, the crowded muddy street with carts visible far below, the gold pomander dangling from his belt",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Over-the-shoulder shot. The king seen from behind pushing open the heavy oak shutters with both hands, morning light flooding in, the crowded muddy street with carts visible far below, the gold pomander dangling from his belt. Character: the king, a young medieval French king about 20 years old with pale fair skin, a long sharp pointed nose, short wavy reddish-brown hair, a sparse reddish beard, wearing a simple gold crown with small fleur-de-lis points, a royal blue velvet mantle lined with white ermine, a heavy gold chain on his chest, and several gold rings on his fingers. Setting: an arched window high in a medieval royal palace on the Île de la Cité, heavy carved oak shutters thrown open, a thick stone sill, a dim stone chamber with a red and gold tapestry behind, overlooking a busy muddy Paris street with carts far below. Props: a small round openwork gold pomander the size of a walnut, filled with dark spices, hanging from a fine gold chain at the belt. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P02",
+        "L03",
+        "O01"
+      ],
+      "id": "B05-02",
+      "bloco": "B05",
+      "palavras": [
+        11,
+        20
+      ],
+      "inicio": "00:56",
+      "fim": "00:59",
+      "inicio_s": 55.8,
+      "duracao_s": 3.6
+    },
+    {
+      "trecho": "O fedor da lama subiu pro nariz do homem mais poderoso da França.",
+      "tipo": "ilustracao",
+      "descricao": "A virada, como pede o roteiro: o rei na janela, torcendo o nariz com um lenço, enquanto as carroças levantam lama lá embaixo. O homem mais poderoso da França com a mesma cara do camponês do gancho.",
+      "enquadramento": "close",
+      "personagens": [
+        "P02"
+      ],
+      "local": "L03",
+      "objetos": [],
+      "prompt_cena": "the king leaning out of the window recoiling in exaggerated disgust, his long nose wrinkled, pressing a white linen handkerchief to his face, eyes watering, crown slightly askew, carts throwing up mud in the blurred street far below",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The king leaning out of the window recoiling in exaggerated disgust, his long nose wrinkled, pressing a white linen handkerchief to his face, eyes watering, crown slightly askew, carts throwing up mud in the blurred street far below. Character: the king, a young medieval French king about 20 years old with pale fair skin, a long sharp pointed nose, short wavy reddish-brown hair, a sparse reddish beard, wearing a simple gold crown with small fleur-de-lis points, a royal blue velvet mantle lined with white ermine, a heavy gold chain on his chest, and several gold rings on his fingers. Setting: an arched stone window with carved oak shutters open, a red and gold tapestry in the dim chamber behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P02",
+        "L03"
+      ],
+      "id": "B05-03",
+      "bloco": "B05",
+      "palavras": [
+        20,
+        33
+      ],
+      "inicio": "00:59",
+      "fim": "01:05",
+      "inicio_s": 59.4,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "Mandou pavimentar as ruas de Paris. Todas?",
+      "tipo": "ilustracao",
+      "descricao": "Paris vista do alto: uma única rua larga ganhando pedras novas, com operários assentando o calçamento, e todas as vielas em volta ainda de lama. A imagem já responde 'Todas?' antes da narração.",
+      "enquadramento": "aereo",
+      "personagens": [],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "medieval Paris from high above, one wide main street gleaming with freshly laid pale paving stones and workers kneeling to set more, while every narrow side street around it remains dark churned mud, carts entering the clean street, ironic contrast",
+      "movimento": "descer",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High aerial view. Medieval Paris from high above, one wide main street gleaming with freshly laid pale paving stones and workers kneeling to set more, while every narrow side street around it remains dark churned mud, carts entering the clean street, ironic contrast. Setting: a narrow unpaved street in 12th-century Paris, deep dark glistening mud churned into ruts by wooden cart wheels, crooked half-timbered houses with jettied upper floors and wooden shutters, a wooden ox cart stuck in the mud, gray smoky sky, a distant Romanesque church tower. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "L01"
+      ],
+      "id": "B05-04",
+      "bloco": "B05",
+      "palavras": [
+        33,
+        40
+      ],
+      "inicio": "01:05",
+      "fim": "01:07",
+      "inicio_s": 64.6,
+      "duracao_s": 2.8
+    },
+    {
+      "trecho": "Não. Só as principais. A rua do lado continuou engolindo pé.",
+      "tipo": "ilustracao",
+      "descricao": "Callback do gancho, mesma composição da primeira imagem: a bota do camponês afundando na lama, agora numa viela, com a rua principal recém-calçada brilhando logo atrás.",
+      "enquadramento": "detalhe",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant's worn leather boot sinking ankle-deep into thick dark glistening mud in a side alley, a heavy wooden cart wheel half buried beside it, and just behind, sharply lit, the clean pale paving stones of the main street ending at the alley's edge",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Extreme close-up detail shot. The peasant's worn leather boot sinking ankle-deep into thick dark glistening mud in a side alley, a heavy wooden cart wheel half buried beside it, and just behind, sharply lit, the clean pale paving stones of the main street ending at the alley's edge. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B06-01",
+      "bloco": "B06",
+      "palavras": [
+        0,
+        11
+      ],
+      "inicio": "01:07",
+      "fim": "01:12",
+      "inicio_s": 67.4,
+      "duracao_s": 4.4
+    },
+    {
+      "trecho": "Então esse povo nunca tomava banho, certo?",
+      "tipo": "ilustracao",
+      "descricao": "O camponês, encardido, cheira a própria axila e faz careta para o espectador: a conclusão que o vídeo inteiro induziu, prestes a cair.",
+      "enquadramento": "close",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant, mud-splattered, lifting his arm to sniff his own armpit and glancing sideways at the viewer with a grimace of resigned agreement, a single louse crawling on his red hood, mock-solemn",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Close-up shot. The peasant, mud-splattered, lifting his arm to sniff his own armpit and glancing sideways at the viewer with a grimace of resigned agreement, a single louse crawling on his red hood, mock-solemn. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B06-02",
+      "bloco": "B06",
+      "palavras": [
+        11,
+        18
+      ],
+      "inicio": "01:12",
+      "fim": "01:16",
+      "inicio_s": 71.8,
+      "duracao_s": 3.8
+    },
+    {
+      "trecho": "Errado. No século seguinte, Paris tinha mais de trinta casas de banho públicas.",
+      "tipo": "ilustracao",
+      "texto_na_tela": "+30 casas de banho",
+      "descricao": "A surpresa final: uma casa de banho pública cheia, tinas de madeira fumegando e parisienses rindo dentro da água, como cena de gênero de museu. Todos de camisola de linho, com a água até o peito, velados pelo vapor.",
+      "enquadramento": "plano-geral",
+      "personagens": [],
+      "objetos": [],
+      "prompt_cena": "a lively 13th-century Parisian public bathhouse under stone arches, rows of large steaming wooden tubs, cheerful townsfolk in white linen shifts sitting in the water up to their chests, laughing and sharing bread and wine on boards across the tubs, thick warm steam, candlelight",
+      "movimento": "pan-direita",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "Wide establishing shot. A lively 13th-century Parisian public bathhouse under stone arches, rows of large steaming wooden tubs, cheerful townsfolk in white linen shifts sitting in the water up to their chests, laughing and sharing bread and wine on boards across the tubs, thick warm steam, candlelight. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [],
+      "id": "B06-03",
+      "bloco": "B06",
+      "palavras": [
+        18,
+        31
+      ],
+      "inicio": "01:16",
+      "fim": "01:21",
+      "inicio_s": 75.6,
+      "duracao_s": 5.2
+    },
+    {
+      "trecho": "O problema nunca foi o banho. Era a rua.",
+      "tipo": "ilustracao",
+      "descricao": "De volta à rua de lama vista de cima, com o camponês de costas parado na beira, prestes a dar o passo. Fecha o loop: o próximo quadro é a bota afundando.",
+      "enquadramento": "plongee",
+      "personagens": [
+        "P01"
+      ],
+      "local": "L01",
+      "objetos": [],
+      "prompt_cena": "the peasant seen from behind, standing alone at the edge of the muddy street, one boot lifted mid-step above the glistening mud, carts and townsfolk passing through the muck around him, a quiet fatalistic mood",
+      "movimento": "zoom-in",
+      "transicao": "corte",
+      "fonte": "ia",
+      "prompt_final": "High-angle shot. The peasant seen from behind, standing alone at the edge of the muddy street, one boot lifted mid-step above the glistening mud, carts and townsfolk passing through the muck around him, a quiet fatalistic mood. Character: the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots. Setting: a narrow unpaved street in 12th-century Paris, deep dark glistening mud churned into ruts by wooden cart wheels, crooked half-timbered houses with jettied upper floors and wooden shutters, a wooden ox cart stuck in the mud, gray smoky sky, a distant Romanesque church tower. Style: hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered.",
+      "negativo_final": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+      "referencias": [
+        "P01",
+        "L01"
+      ],
+      "id": "B06-04",
+      "bloco": "B06",
+      "palavras": [
+        31,
+        40
+      ],
+      "inicio": "01:21",
+      "fim": "01:24",
+      "inicio_s": 80.8,
+      "duracao_s": 3.6
+    }
+  ]
+}

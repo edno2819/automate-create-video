@@ -1,0 +1,45 @@
+{
+  "slug": "bananildo",
+  "nome": "Bananildo",
+  "resumo": "O beta da novela das frutas: um homem comum, magro e sempre cansado, gentil até demais, que vira o ombro amigo de todas e nunca é o escolhido.",
+  "referencia_en": "Bananildo the banana",
+  "descricao_en": "Bananildo the banana, an anthropomorphic banana adult man, his head a long slightly curved yellow banana with a few brown ripening spots and a dark stem tip on top, tired droopy eyes with dark circles, thin worried eyebrows, thin round wire-frame glasses, a tall skinny lanky body with narrow sloping shoulders and a slight slouch, pale banana-yellow skin, wearing a wrinkled short-sleeved light-blue button-up shirt, beige chino pants, worn gray sneakers and a black fanny pack around his waist",
+  "estilo": {
+    "nome": "Animação 3D de estúdio",
+    "descricao": "Animação 3D polida de longa-metragem, como a da novela das frutas: texturas lisas e brilhantes, cores saturadas, luz de cinema quente.",
+    "prompt_base": "big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light",
+    "negativo_base": "text, letters, watermark, logo, brand name, real people, human head, muscles, muscular build, nudity, extra limbs, extra fingers, deformed hands, blurry face, photorealistic"
+  },
+  "fisico": {
+    "tipo": "Banana humanizada, homem adulto comum, uns 35 anos.",
+    "porte": "Alto, magro e desengonçado: ombros estreitos e caídos, braços finos, um pouco curvado, como quem carrega o dia inteiro nas costas.",
+    "rosto": "A cabeça é uma banana comprida e levemente curva. Olhos caídos e cansados, com olheiras fundas; sobrancelhas finas, sempre um pouco preocupadas; óculos redondos de aro fino.",
+    "cabelo": "Não tem: no alto da cabeça, a pontinha escura do cabo da banana.",
+    "pele": "Amarelo-banana pálido, com algumas manchinhas marrons de banana passando do ponto na cabeça.",
+    "roupa": "Camisa social azul-clara de manga curta, amassada; calça chino bege; tênis cinza gasto.",
+    "acessorios": "Pochete preta na cintura e os óculos redondos de aro fino.",
+    "traco_marcante": "As olheiras, os óculos redondos e as manchinhas marrons na casca: o cansaço aparece até na fruta. De longe, a pochete preta e a postura curvada.",
+    "paleta": "Amarelo-banana pálido, azul-claro, bege e cinza: cores apagadas, de quem passa despercebido."
+  },
+  "comportamento": {
+    "personalidade": "Gentil, prestativo até demais e inseguro. Pede desculpa por tudo, dá carona, empresta dinheiro e ouve desabafo a qualquer hora. É sempre \"o amigo\": as mulheres choram no ombro dele pelos outros e vão embora com os outros.",
+    "motivacao": "Ser notado e escolhido uma vez na vida. E dormir uma noite inteira.",
+    "medos_e_defeitos": "Tem pavor de conflito e de incomodar; não sabe dizer não. Confunde gentileza com chance e se ilude com qualquer \"obrigada, você é um amor\".",
+    "jeito_de_falar": "Voz baixa e cansada, que vai sumindo no fim da frase. Começa quase tudo com \"desculpa, é que...\", suspira entre as frases e solta uma risadinha sem graça quando é ignorado.",
+    "bordoes": [
+      "Desculpa, é que eu achei que hoje... deixa pra lá.",
+      "Se quiser, eu te dou uma carona...",
+      "Tudo bem, eu entendo. Eu sempre entendo."
+    ],
+    "gestos_e_expressoes": "Ajeita os óculos, coça a nuca, segura a pochete com as duas mãos, dá um sorriso amarelo; ombros caídos e olhar para o chão quando é deixado de lado.",
+    "sob_pressao": "Gagueja, concorda com tudo e pede desculpa mesmo sem ter culpa. Quando enfim explode, ninguém leva a sério, e ele mesmo pede desculpa pela explosão.",
+    "relacoes": "Ombro amigo da Moranguete, que chora com ele pelos outros. Fica invisível ao lado do Pepinudo, que leva toda a atenção da sala.",
+    "nunca_faz": "Nunca é o escolhido, nunca fica com a mocinha e nunca levanta a voz de verdade.",
+    "historia": "Atendente de telemarketing que faz hora extra, pega dois ônibus por dia e ainda empresta dinheiro pra quem não devolve."
+  },
+  "voz": {
+    "voz": "Enceladus",
+    "estilo": "homem comum e cansado, voz baixa e insegura, suspira e pede desculpa por tudo; risadinha sem graça quando é ignorado",
+    "cor": "roxo"
+  }
+}

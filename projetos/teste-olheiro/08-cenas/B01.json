@@ -1,0 +1,347 @@
+[
+  {
+    "trecho": "Nível 1: O olheiro.",
+    "tipo": "cartela",
+    "texto_na_tela": "NÍVEL 1 — O OLHEIRO",
+    "descricao": "Cartela de abertura sobre a laje vazia no alto do morro ao amanhecer, com a cadeira virada para a cidade e o pacote de fogos ao lado: o posto antes de ter dono.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [
+      "O02"
+    ],
+    "prompt_cena": "an empty rooftop at dawn, the lone plastic chair facing the city, the bundle of fireworks leaning against the low wall beside it, mist rising over the hillside, quiet and ominous",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "Você tem 19 anos. Até março, você era entregador de aplicativo.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "19 ANOS",
+    "descricao": "O protagonista de costas, pilotando uma moto velha pela avenida à noite com a sacola vermelha de entrega: a vida de antes.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L05",
+    "objetos": [
+      "O06"
+    ],
+    "prompt_cena": "the protagonist rides a dented old motorcycle through night traffic, seen from behind at a three-quarter angle, the red delivery backpack on his back, headlights and taillights streaking around him, tired but still moving forward",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Aí roubaram a sua moto na Avenida Brasil e a parcela continuou chegando todo dia 10.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "TODO DIA 10",
+    "descricao": "O protagonista sozinho no acostamento, de costas, com o capacete numa mão e a chave da moto pendurada na outra, diante do lugar vazio onde a moto estava. A chave sem moto é a dívida que fica.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L05",
+    "objetos": [
+      "O06",
+      "O07"
+    ],
+    "prompt_cena": "the protagonist stands alone on the shoulder of the expressway seen from behind, a helmet in one hand and the motorcycle key dangling from the other, the red delivery backpack dropped at his feet, an empty patch of curb where his motorcycle should be, trucks rushing past",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Um conhecido do campinho falou que tinha plantão na laje, pagava no fim do dia.",
+    "tipo": "ilustracao",
+    "descricao": "No campinho de terra ao pôr do sol, por cima do ombro do protagonista, um conhecido aponta para o alto do morro. A proposta chega como favor.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": [
+      "P01"
+    ],
+    "local": null,
+    "objetos": [],
+    "prompt_cena": "over the protagonist's shoulder on a dirt soccer field at sunset, a shirtless acquaintance in his twenties leans on a rusty goalpost and casually points up toward the top of the favela hill, dust floating in the golden light, an offer made like a favor",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Ninguém te obrigou, lembra disso. Esse é o detalhe que mais pesa depois.",
+    "tipo": "ilustracao",
+    "descricao": "O protagonista sozinho, de costas, no primeiro degrau da escadaria que sobe o morro, sem ninguém por perto: a escolha foi dele.",
+    "enquadramento": "contra-plongee",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the protagonist, completely alone, takes the first step up the long steep alley stairway seen from behind, no one around to push him, the stairs rising into the dusk, his long shadow stretched across the steps",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O trabalho parece nada. Você fica sentado no alto do morro com um rádio que chia e um pacote de fogos do lado.",
+    "tipo": "ilustracao",
+    "descricao": "Plano geral da laje: o protagonista de costas na cadeira de plástico, o rádio na mão e os fogos no chão, a cidade inteira lá embaixo. Um trabalho que parece não ser nada.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01",
+      "O02"
+    ],
+    "prompt_cena": "the protagonist sits on the plastic chair at the edge of the rooftop seen from behind, the walkie-talkie in his hand and the bundle of fireworks on the floor beside him, the whole favela and city spread out below in the hazy afternoon, stillness and boredom",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Olha a entrada da favela. Olha a rua lá embaixo. Olha o céu, porque helicóptero também conta.",
+    "tipo": "ilustracao",
+    "descricao": "POV do protagonista: a mão com o rádio no canto do quadro, a entrada da favela e a rua lá embaixo; a câmera sobe até o céu, onde um helicóptero é só um ponto distante.",
+    "enquadramento": "pov",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "the protagonist's hand holding the walkie-talkie at the bottom of the frame at the rooftop edge, far below the favela entrance and the street, above them a pale hazy sky with a tiny distant helicopter, watchful tension",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Se a polícia entra, você solta o fogo. O estouro avisa o morro inteiro antes de qualquer sirene.",
+    "tipo": "ilustracao",
+    "descricao": "Vista aérea do morro à noite: um rojão estoura no céu e tinge os telhados de vermelho, gente sai nas lajes para olhar, e o protagonista é uma silhueta pequena no topo. É o alarme do morro.",
+    "enquadramento": "aereo",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "high above a dark favela hillside at night, a red skyrocket bursts in the sky and washes thousands of rooftops in red light, tiny figures step out onto their rooftops to look, the protagonist a small silhouette on the highest rooftop with his arm still raised",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "12 horas assim, sol na nuca, pagode tocando no vizinho, uma senhora estendendo roupa na laje do lado fingindo que você não existe.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "12 HORAS",
+    "descricao": "O protagonista de perfil sob o sol forte, suor na nuca; na laje vizinha, uma senhora estende roupa de costas para ele, como se ele não existisse.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "the protagonist in profile on the rooftop under harsh midday sun, sweat on the back of his neck, the walkie-talkie resting on his knee, on the neighboring rooftop an older woman hangs laundry on a line with her back turned to him, ignoring him, heat shimmer in the air",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Você ganha 100 e poucos reais por plantão. Dá pra parcela da moto, não dá pra mais nada.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "R$ 100 E POUCOS POR PLANTÃO",
+    "descricao": "Detalhe da palma da mão do protagonista com poucas notas amassadas ao lado da chave da moto, que volta da cena B01-03: o dinheiro do dia já tem destino.",
+    "enquadramento": "detalhe",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O07"
+    ],
+    "prompt_cena": "the protagonist's open palm at dusk holding a few crumpled worn banknotes next to the motorcycle key, money that barely covers anything, warm fading light on the concrete below",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O problema é que você é a pessoa mais visível do tráfico e a menos importante.",
+    "tipo": "ilustracao",
+    "descricao": "Visto de baixo e de longe, o protagonista é uma silhueta pequena na beira da laje mais alta, recortada contra o céu: exposto a todos e sem peso nenhum.",
+    "enquadramento": "contra-plongee",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "seen from far below, the protagonist is a small silhouette standing at the edge of the highest rooftop against a vast pale sky, fully exposed, the whole hillside of houses between him and the camera, tiny and alone",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A polícia sobe procurando quem soltou o fogo.",
+    "tipo": "ilustracao",
+    "descricao": "Silhuetas de policiais sem insígnia sobem a escadaria da viela à noite, com lanternas cortando a fumaça.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "dark silhouettes of police officers in helmets climbing the alley stairs at night, flashlight beams cutting through drifting smoke, searching the doorways, no insignia, tense and oppressive",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A facção cobra de quem não soltou.",
+    "tipo": "ilustracao",
+    "descricao": "Close do gerente na boca, metade do rosto na sombra, olhando para o alto do morro: a cobrança do outro lado.",
+    "enquadramento": "close",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the manager at the corner under the bare fluorescent tube, half of his face in shadow, staring coldly up toward the top of the hill, silent judgment",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Se o caveirão chega na boca e ninguém ouviu o estouro,",
+    "tipo": "ilustracao",
+    "descricao": "De baixo, o caveirão parado na esquina da boca, faróis cortando a poeira, banquinhos de plástico derrubados no chão.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [
+      "O08"
+    ],
+    "prompt_cena": "the armored police truck stopped at the corner, its headlights cutting through dust, plastic stools knocked over on the ground, the corner abandoned in a hurry, menace",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "lá em cima só existe uma pergunta: Dormiu ou foi comprado?",
+    "tipo": "ilustracao",
+    "texto_na_tela": "DORMIU OU FOI COMPRADO?",
+    "descricao": "A cadeira de plástico vazia na laje à noite e o rádio caído no chão: a pergunta paira sobre quem devia estar ali. Prepara o caso do Paçoca.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "the plastic chair standing empty at the edge of the rooftop at night, the walkie-talkie lying on the concrete floor beside it with its small light still on, the dark hillside below, an unanswered question hanging in the air",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Num domingo, o olheiro da laje de baixo, um rapaz que todo mundo chamava de Paçoca, cochilou. 10 minutos.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "10 MINUTOS",
+    "descricao": "Vista do alto da laje do protagonista: lá embaixo, Paçoca cochila na cadeira de plástico de uma laje mais baixa, queixo no peito, o rádio escorregando da mão.",
+    "enquadramento": "plongee",
+    "personagens": [
+      "P02"
+    ],
+    "local": null,
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "the sleepy lookout dozes in a plastic chair on a lower rooftop slab seen from the top rooftop above, on a hot Sunday afternoon, chin on his chest, the walkie-talkie slipping from his hand, laundry swaying nearby, a fragile calm",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A operação entrou pela outra rua e levou a carga e dois vapores.",
+    "tipo": "ilustracao",
+    "descricao": "Vista aérea de uma rua lateral: o caveirão entra pelo outro lado, policiais carregam sacos apreendidos e levam dois homens de mãos na cabeça.",
+    "enquadramento": "aereo",
+    "personagens": [],
+    "local": null,
+    "objetos": [
+      "O08"
+    ],
+    "prompt_cena": "high aerial view of a narrow side street of the favela at dusk, the armored police truck pushing in from the other end, police silhouettes carrying out seized bags, two men with hands on their heads being led away, blue and red lights reflecting on the walls",
+    "movimento": "descer",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "À noite chamaram o Paçoca pra conversar. Ele subiu a viela de chinelo com a mão no bolso, achando que ia levar uma bronca.",
+    "tipo": "ilustracao",
+    "descricao": "Paçoca de costas subindo a escadaria da viela à noite, de chinelo e com a mão no bolso, ombros relaxados, rumo à única lâmpada acesa no alto. Ele não sabe o que o espera.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "seen from behind and slightly below, the sleepy lookout walks up the narrow alley stairs at night, flip-flops on the wet steps, one hand in his pocket, shoulders relaxed and unworried, climbing toward a single bare bulb glowing at the top, darkness closing in",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Na segunda, a mãe dele tava colando cartaz de desaparecido no poste.",
+    "tipo": "ilustracao",
+    "descricao": "De manhã, no pé da viela, a mãe do Paçoca, de costas, prende com fita o cartaz de desaparecido no poste. A violência fica fora do quadro; o que se vê é a consequência.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [
+      "O04"
+    ],
+    "prompt_cena": "morning light at the bottom of the alley, a heavyset grieving woman in her fifties with short gray hair and a dark cardigan, seen from behind, pressing tape onto the missing-person poster on the concrete utility pole, shoulders bowed, passersby looking away",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O cartaz ficou lá até a chuva desmanchar.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe do cartaz no poste, encharcado de chuva, o papel descolando e a foto se desfazendo: o tempo apaga o que ninguém investiga.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [
+      "O04"
+    ],
+    "prompt_cena": "the missing-person poster on the utility pole in heavy rain, the paper soaked and peeling at the corners, the photo washing away, water streaming down the concrete, cold gray light",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  },
+  {
+    "trecho": "Você acende o rojão, sempre. Nunca mais fecha o olho naquela laje.",
+    "tipo": "ilustracao",
+    "descricao": "Única vez em que o rosto inteiro do protagonista aparece: close à noite na laje, olhos arregalados de quem não dorme, iluminados pelo vermelho do rojão aceso na mão.",
+    "enquadramento": "close",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O02"
+    ],
+    "prompt_cena": "the protagonist's face at night on the rooftop, seen from the front, eyes wide open and red-rimmed from sleeplessness, lit from below by the red glare of a skyrocket burning in his hand, the bundle of fireworks at his side, vigilant and haunted",
+    "movimento": "estatico",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mas olhar para o céu é o degrau mais baixo dessa escada.",
+    "tipo": "ilustracao",
+    "descricao": "O protagonista sentado no primeiro degrau de uma escadaria imensa que sobe o morro até o anoitecer: a escada dos cargos começa aqui, e ele está embaixo.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the protagonist sits on the lowest step of an endless steep concrete stairway climbing the hillside, seen from behind, looking up at the steps rising far above him into the dusk, small at the bottom of the climb",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "O próximo começa no dia em que o tráfico decide que você também pode carregar.",
+    "tipo": "ilustracao",
+    "descricao": "Detalhe da mochila preta em cima da mesa de plástico da boca, sob a lâmpada fria, esperando alguém. Ela volta no bloco seguinte.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L03",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "the backpack resting on the scratched plastic table at the corner under the cold fluorescent light, its zipper pull catching the light, waiting for someone to carry it, ominous stillness",
+    "movimento": "zoom-in",
+    "transicao": "fade"
+  }
+]

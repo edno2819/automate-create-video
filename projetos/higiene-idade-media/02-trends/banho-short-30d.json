@@ -1,0 +1,17 @@
+{
+  "consulta": {
+    "cmd": "buscar",
+    "max": 25,
+    "rapido": false,
+    "termo": "banho na idade média",
+    "dias": 30,
+    "formato": "short",
+    "regiao": "BR",
+    "idioma": "pt",
+    "out": "projetos/higiene-idade-media/02-trends/banho-short-30d.json"
+  },
+  "fonte": "yt-dlp",
+  "coletado_em": "2026-10-20 19:47 UTC",
+  "avisos": [],
+  "videos": []
+}

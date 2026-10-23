@@ -1,0 +1,86 @@
+[
+  {
+    "trecho": "Sabe onde a Moranguete tá agora, Bananildo?",
+    "tipo": "ilustracao",
+    "texto_na_tela": "MELHOR PAI DO MUNDO",
+    "descricao": "Primeiro quadro: a caneca do Bananildo em primeiro plano, no centro (a frase dela entra por cima, no alto), e o Colega logo atrás, debruçado na divisória, de sobrancelha erguida. A ironia está no quadro 1.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": [
+      "P02",
+      "P04"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Bananildo the banana, seen from behind at the right edge, holds the white mug up in the foreground, the mug sharp in the center of the frame; just behind it, the pineapple coworker leans over the cubicle divider facing him, one eyebrow cocked, a gossipy half smile, dramatic telenovela lighting",
+    "negativo": "muscles, muscular build",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Você aqui todo santo dia...",
+    "tipo": "ilustracao",
+    "descricao": "O Bananildo afundado na mesa, entre pilhas de papel, e o Colega debruçado sobre ele: o 'todo santo dia' do trabalho.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P02",
+      "P04"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Bananildo the banana slumps at his cluttered desk between towers of paperwork, exhausted, typing; the pineapple coworker leans over the divider above him, pointing at him with a sly knowing look, the white mug beside the keyboard, faces in the middle of the frame",
+    "negativo": "muscles, muscular build",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Ela cuida das crianças.",
+    "tipo": "ilustracao",
+    "descricao": "Close do Bananildo, orgulhoso e cansado, abraçado à caneca: a ingenuidade dele.",
+    "enquadramento": "close",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01"
+    ],
+    "prompt_cena": "Bananildo the banana smiles with tired proud eyes behind his round glasses, hugging the white mug against his chest, head tilted, utterly naive and in love, a warm desk-lamp glow on his face",
+    "negativo": "muscles, muscular build",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "E cuida do corpo pra mim, lá na academia.",
+    "tipo": "ilustracao",
+    "descricao": "O Bananildo, recostado, faz muque com o braço fino, todo orgulhoso; atrás da divisória, o Colega segura o riso.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P02",
+      "P04"
+    ],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "Bananildo the banana leans back in his office chair and proudly flexes one skinny noodle arm, beaming; behind the cubicle divider, the pineapple coworker presses his lips together, holding back a smirk, eyes sliding sideways, dramatic office lighting",
+    "negativo": "muscles, muscular build",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Na academia, é? Sei...",
+    "tipo": "ilustracao",
+    "descricao": "Close do Colega no deboche: olhos apertados, sobrancelha lá em cima. Ele sabe.",
+    "enquadramento": "close",
+    "personagens": [
+      "P04"
+    ],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the pineapple coworker narrows his eyes, one eyebrow cocked high, a slow sarcastic half smile, chin resting on his hand over the cubicle divider, a sideways glance full of suspicion, harsh dramatic side light",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

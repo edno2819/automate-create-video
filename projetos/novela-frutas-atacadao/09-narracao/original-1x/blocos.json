@@ -1,0 +1,167 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Sadaltager",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "Tom: melodrama de novela das nove levado ao absurdo, ritmo acelerado, falas curtas e exageradas, humor que vem da seriedade total; sem piscar para o público e sem cena sexual. Fale como quem conta algo surpreendente para uma pessoa só. Respeite a pontuação: pausa curta nas vírgulas, pausa maior nos pontos e nas reticências. Leia os números como se fala.",
+  "personagens": {
+    "Moranguete": "Leda",
+    "Abacatinho": "Achird",
+    "Pepinão": "Algenib"
+  },
+  "intervalo_s": 0.35,
+  "intervalo_falas_s": 0.25,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 37.976,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/blocos/B01.wav",
+      "palavras": 5,
+      "duracao_s": 3.894,
+      "ppm": 77,
+      "falas": [
+        {
+          "id": "B01-F01",
+          "personagem": "Abacatinho",
+          "voz": "Achird",
+          "arquivo": "09-narracao/falas/B01-F01.wav",
+          "palavras": 5,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 3.894,
+          "pedido": "56f0370415cd"
+        }
+      ],
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/blocos/B02.wav",
+      "palavras": 19,
+      "duracao_s": 10.4,
+      "ppm": 110,
+      "falas": [
+        {
+          "id": "B02-F01",
+          "personagem": null,
+          "voz": "Sadaltager",
+          "arquivo": "09-narracao/falas/B02-F01.wav",
+          "palavras": 5,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 3.274,
+          "pedido": "2113259afee8"
+        },
+        {
+          "id": "B02-F02",
+          "personagem": "Moranguete",
+          "voz": "Leda",
+          "arquivo": "09-narracao/falas/B02-F02.wav",
+          "palavras": 8,
+          "inicio_no_bloco_s": 3.524,
+          "duracao_s": 4.27,
+          "pedido": "02f1f3d9651e"
+        },
+        {
+          "id": "B02-F03",
+          "personagem": "Abacatinho",
+          "voz": "Achird",
+          "arquivo": "09-narracao/falas/B02-F03.wav",
+          "palavras": 6,
+          "inicio_no_bloco_s": 8.044,
+          "duracao_s": 2.357,
+          "pedido": "6f6ee4248418"
+        }
+      ],
+      "inicio_s": 4.244
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/blocos/B03.wav",
+      "palavras": 28,
+      "duracao_s": 12.157,
+      "ppm": 138,
+      "falas": [
+        {
+          "id": "B03-F01",
+          "personagem": null,
+          "voz": "Sadaltager",
+          "arquivo": "09-narracao/falas/B03-F01.wav",
+          "palavras": 6,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 2.173,
+          "pedido": "00dafc7e7bb5"
+        },
+        {
+          "id": "B03-F02",
+          "personagem": "Pepinão",
+          "voz": "Algenib",
+          "arquivo": "09-narracao/falas/B03-F02.wav",
+          "palavras": 4,
+          "inicio_no_bloco_s": 2.423,
+          "duracao_s": 2.411,
+          "pedido": "cc2ae6c2cd2d"
+        },
+        {
+          "id": "B03-F03",
+          "personagem": "Moranguete",
+          "voz": "Leda",
+          "arquivo": "09-narracao/falas/B03-F03.wav",
+          "palavras": 7,
+          "inicio_no_bloco_s": 5.084,
+          "duracao_s": 2.742,
+          "pedido": "19130fa82333"
+        },
+        {
+          "id": "B03-F04",
+          "personagem": null,
+          "voz": "Sadaltager",
+          "arquivo": "09-narracao/falas/B03-F04.wav",
+          "palavras": 11,
+          "inicio_no_bloco_s": 8.076,
+          "duracao_s": 4.081,
+          "pedido": "2d4a03215b3f"
+        }
+      ],
+      "inicio_s": 14.995
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/blocos/B04.wav",
+      "palavras": 15,
+      "duracao_s": 6.88,
+      "ppm": 131,
+      "pedido": "d97682830429",
+      "inicio_s": 27.501
+    },
+    {
+      "id": "B05",
+      "arquivo": "09-narracao/blocos/B05.wav",
+      "palavras": 3,
+      "duracao_s": 3.245,
+      "ppm": 55,
+      "falas": [
+        {
+          "id": "B05-F01",
+          "personagem": null,
+          "voz": "Sadaltager",
+          "arquivo": "09-narracao/falas/B05-F01.wav",
+          "palavras": 2,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 0.99,
+          "pedido": "d76c8f1aa89b"
+        },
+        {
+          "id": "B05-F02",
+          "personagem": "Abacatinho",
+          "voz": "Achird",
+          "arquivo": "09-narracao/falas/B05-F02.wav",
+          "palavras": 1,
+          "inicio_no_bloco_s": 1.99,
+          "duracao_s": 1.255,
+          "pedido": "79511b7d3a09"
+        }
+      ],
+      "inicio_s": 34.731
+    }
+  ]
+}

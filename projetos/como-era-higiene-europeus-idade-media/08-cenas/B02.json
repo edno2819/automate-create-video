@@ -1,0 +1,38 @@
+[
+  {
+    "trecho": "Rico fugia da lama. Morava no castelo.",
+    "tipo": "ilustracao",
+    "descricao": "O castelo de pedra no alto, seco e altivo, acima dos telhados enlameados da cidade: a fuga do rico.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the stone castle rising proud and dry above the muddy smoking rooftops of the town, a noble couple in rich silks and furs standing on the battlements looking down with contempt, warm golden light on the castle, gloom on the town below",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mas lá o banheiro era um buraco na parede.",
+    "tipo": "ilustracao",
+    "descricao": "A torrezinha do garde-robe saliente na muralha, vista de baixo e de fora: o buraco na parede, nunca o interior.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the small square latrine turret jutting out from high on the castle wall, a dark open hole at its base gaping over the void, stone corbels holding it up, damp dark streaks staining the wall beneath, a crow perched on a corbel looking away, absurd and solemn",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Tudo caía direto no fosso. E o nome desse buraco é a melhor parte.",
+    "tipo": "ilustracao",
+    "descricao": "O guarda na beira do fosso esverdeado, tapando o nariz, com a torrezinha lá no alto. A sujeira fica só sugerida pela água turva e pela cara dele.",
+    "enquadramento": "plano-medio",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a castle guard in a dented iron helmet and padded tunic standing at the edge of the stagnant greenish moat, pinching his nose hard with one hand and clutching his spear with the other, eyes watering, glancing up warily at the turret high above, flies over the murky water",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

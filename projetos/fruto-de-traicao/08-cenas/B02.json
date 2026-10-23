@@ -1,0 +1,48 @@
+[
+  {
+    "trecho": "Mais uma, princesa... só mais uma. E o maridão?",
+    "tipo": "ilustracao",
+    "descricao": "Corte seco para a academia: por cima do ombro do Pepinão, que apoia a mão no ombro dela, a Moranguete de camiseta rosa folgada faz rosca sentada com o halter rosa; os dois rindo, olho no olho. Só rostos e ombros.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": [
+      "P03",
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "Pepinudo the cucumber, in the foreground seen from behind his shoulder, rests one hand on the shoulder of Moranguete the strawberry, seated on a weight bench curling a small pink dumbbell up near her shoulder; both laughing, eye to eye; only their faces and shoulders in view",
+    "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Fazendo hora extra. Pelos filhos dele.",
+    "tipo": "ilustracao",
+    "descricao": "Close da Moranguete rindo, doce e despreocupada, olhando para o Pepinão fora do quadro.",
+    "enquadramento": "close",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "Moranguete the strawberry laughs sweetly, eyes half closed, one hand at her cheek, glancing up at someone off-screen, playful and carefree, the small pink dumbbell resting on her shoulder, face and shoulders only",
+    "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Dele...",
+    "tipo": "ilustracao",
+    "descricao": "Close do Pepinão no deboche: sobrancelha erguida, apito mordido no canto da boca, os óculos laranja espelhados no alto da cabeça (a pista que volta na menina pepino).",
+    "enquadramento": "close",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "Pepinudo the cucumber raises one thick eyebrow, the neon-orange whistle bitten in the corner of his mouth, a slow mocking smirk, the mirrored orange sunglasses on top of his head flashing in the light",
+    "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose, full body, body focus, form-fitting top on the strawberry, sports bra, leggings",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

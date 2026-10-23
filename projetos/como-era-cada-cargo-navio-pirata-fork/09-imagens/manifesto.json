@@ -1,0 +1,611 @@
+{
+  "B02-01": {
+    "origem": "internet",
+    "busca": "Charles Vane pirate engraving",
+    "pedido": "2a6f70994b72",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain Charles Vane LCCN2007675646",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Charles_Vane_LCCN2007675646.tif",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Captain_Charles_Vane_LCCN2007675646.tif/lossy-page1-960px-Captain_Charles_Vane_LCCN2007675646.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 1099,
+        "altura": 1536,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain Charles Vane LCCN2007675646",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Charles_Vane_LCCN2007675646.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Captain_Charles_Vane_LCCN2007675646.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1099,
+        "altura": 1536,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T15:19:38",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B02-01.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Captain Charles Vane LCCN2007675646",
+    "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Charles_Vane_LCCN2007675646.tif",
+    "restricoes": null
+  },
+  "B02-02": {
+    "origem": "internet",
+    "busca": "John Rackham engraving",
+    "pedido": "3699bbd12348",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain John Rackam LCCN2007675643",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_John_Rackam_LCCN2007675643.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Captain_John_Rackam_LCCN2007675643.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1098,
+        "altura": 1536,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain John Rackam LCCN2007675643",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_John_Rackam_LCCN2007675643.tif",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Captain_John_Rackam_LCCN2007675643.tif/lossy-page1-960px-Captain_John_Rackam_LCCN2007675643.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 1098,
+        "altura": 1536,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T15:19:47",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B02-02.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Captain John Rackam LCCN2007675643",
+    "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Captain_John_Rackam_LCCN2007675643.jpg",
+    "restricoes": null
+  },
+  "B07-03": {
+    "origem": "internet",
+    "busca": "Howard Pyle walking the plank",
+    "pedido": "cd952e10b0d2",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle pirate plank edited",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_plank_edited.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pyle_pirate_plank_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1930,
+        "altura": 2959,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pg 036 - Walking the Plank (bw)",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pg_036_-_Walking_the_Plank_(bw).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Pg_036_-_Walking_the_Plank_%28bw%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1470,
+        "altura": 2260,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pg 036 - Walking the Plank",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pg_036_-_Walking_the_Plank.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pg_036_-_Walking_the_Plank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1470,
+        "altura": 2260,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Walking the plank LCCN2005686590",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Walking_the_plank_LCCN2005686590.tif",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Walking_the_plank_LCCN2005686590.tif/lossy-page1-960px-Walking_the_plank_LCCN2005686590.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 993,
+        "altura": 1536,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Walking the plank LCCN2005686590",
+        "autor": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Walking_the_plank_LCCN2005686590.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Walking_the_plank_LCCN2005686590.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 993,
+        "altura": 1536,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Walking the Plank",
+        "autor": "Howard Pyle (drawing) and Anderson (engrving)",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Walking_the_Plank.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Walking_the_Plank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 654,
+        "altura": 1000,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T15:19:55",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B07-03.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Pyle pirate plank edited",
+    "autor": "Howard Pyle",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_plank_edited.jpg",
+    "restricoes": null
+  },
+  "B08-02": {
+    "origem": "internet",
+    "busca": "Howard Pyle Marooned",
+    "pedido": "6c138d8a5844",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle pirate murder",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_murder.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Pyle_pirate_murder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1992,
+        "altura": 2804,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle murder over treasure",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_murder_over_treasure.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Pyle_murder_over_treasure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1924,
+        "altura": 3032,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle pirate relaxing b",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_relaxing_b.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Pyle_pirate_relaxing_b.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 2848,
+        "altura": 1880,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle pirates ghost",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirates_ghost.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pyle_pirates_ghost.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1528,
+        "altura": 2796,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Pyle pirate marooned",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_marooned.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Pyle_pirate_marooned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 2816,
+        "altura": 1776,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "\"Marooned\" illustration by Howard Pyle - 6706098 f1024",
+        "autor": "Howard Pyle",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:%22Marooned%22_illustration_by_Howard_Pyle_-_6706098_f1024.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/%22Marooned%22_illustration_by_Howard_Pyle_-_6706098_f1024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1024,
+        "altura": 649,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T15:20:04",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B08-02.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Pyle pirate murder",
+    "autor": "Howard Pyle",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Pyle_pirate_murder.jpg",
+    "restricoes": null
+  },
+  "L02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "92b59440f479",
+    "referencias": [],
+    "segundos": 7.9,
+    "gerado_em": "2026-10-22T15:20:26"
+  },
+  "L01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "91d09a5d697b",
+    "referencias": [],
+    "segundos": 10.5,
+    "gerado_em": "2026-10-22T15:20:29"
+  },
+  "L03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "73c89a9c9089",
+    "referencias": [],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-22T15:20:36"
+  },
+  "P01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "b08601ae6441",
+    "referencias": [],
+    "segundos": 8.5,
+    "gerado_em": "2026-10-22T15:20:37"
+  },
+  "P02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e5b082388f24",
+    "referencias": [],
+    "segundos": 8.6,
+    "gerado_em": "2026-10-22T15:20:44"
+  },
+  "P03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "bc9d9a1ad028",
+    "referencias": [],
+    "segundos": 10.2,
+    "gerado_em": "2026-10-22T15:20:48"
+  },
+  "P04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "a9a74ec01cbd",
+    "referencias": [],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-22T15:20:54"
+  },
+  "B01-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c7df91407d4b",
+    "referencias": [],
+    "segundos": 10.8,
+    "gerado_em": "2026-10-22T15:21:05"
+  },
+  "B01-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c6864760fe4e",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 11.1,
+    "gerado_em": "2026-10-22T15:21:05"
+  },
+  "B01-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "d211d9c13954",
+    "referencias": [
+      "P04",
+      "L02"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-22T15:21:15"
+  },
+  "B02-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "fe9824f40919",
+    "referencias": [
+      "P03",
+      "L01"
+    ],
+    "segundos": 12.8,
+    "gerado_em": "2026-10-22T15:21:18"
+  },
+  "B03-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e2b0a389ac0c",
+    "referencias": [
+      "P03",
+      "P04",
+      "L01"
+    ],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-22T15:21:24"
+  },
+  "B03-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "ba5ded49a7c6",
+    "referencias": [
+      "P03",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-22T15:21:28"
+  },
+  "B04-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "fcc04eaba8fa",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 11.6,
+    "gerado_em": "2026-10-22T15:21:36"
+  },
+  "B04-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "46505b3034e0",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-22T15:21:37"
+  },
+  "B04-04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "b9aa7b207f84",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 7.8,
+    "gerado_em": "2026-10-22T15:21:45"
+  },
+  "B04-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e3e6a637712c",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.8,
+    "gerado_em": "2026-10-22T15:21:46"
+  },
+  "B05-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "1d86b544f426",
+    "referencias": [],
+    "segundos": 9.2,
+    "gerado_em": "2026-10-22T15:21:54"
+  },
+  "B05-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "7e38a61111e6",
+    "referencias": [
+      "P01",
+      "P03",
+      "L01"
+    ],
+    "segundos": 9.7,
+    "gerado_em": "2026-10-22T15:21:55"
+  },
+  "B05-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "4c72bc112532",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 8.6,
+    "gerado_em": "2026-10-22T15:22:03"
+  },
+  "B06-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "fbb26e878370",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 9.0,
+    "gerado_em": "2026-10-22T15:22:04"
+  },
+  "B06-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "8e2189f225a9",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-22T15:22:12"
+  },
+  "B07-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B07-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0f6a8a36ae2d",
+    "referencias": [
+      "P02",
+      "L02"
+    ],
+    "segundos": 10.5,
+    "gerado_em": "2026-10-22T15:22:15"
+  },
+  "B07-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B07-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c63817e2255d",
+    "referencias": [
+      "P02",
+      "L02"
+    ],
+    "segundos": 10.6,
+    "gerado_em": "2026-10-22T15:22:23"
+  },
+  "B08-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B08-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "b90bd1b3107a",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-22T15:22:25"
+  },
+  "B08-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B08-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "2a2e06ecbd64",
+    "referencias": [
+      "L03"
+    ],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-22T15:22:33"
+  },
+  "B09-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B09-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0ffb3fed1b64",
+    "referencias": [
+      "P01",
+      "L03"
+    ],
+    "segundos": 10.3,
+    "gerado_em": "2026-10-22T15:22:35"
+  },
+  "B09-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B09-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "a99436d4ed55",
+    "referencias": [
+      "P01",
+      "L03"
+    ],
+    "segundos": 11.3,
+    "gerado_em": "2026-10-22T15:22:44"
+  },
+  "thumbnail": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/thumbnail.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "2844d8063347",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.5,
+    "gerado_em": "2026-10-22T15:22:45"
+  }
+}

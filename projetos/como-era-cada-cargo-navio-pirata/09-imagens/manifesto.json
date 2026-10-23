@@ -1,0 +1,470 @@
+{
+  "B03-02": {
+    "origem": "internet",
+    "busca": "Henry Morgan engraving",
+    "pedido": "7cd06eb8a64a",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain Henry Morgan before Panama, 1671",
+        "autor": "Author of the written work was Captain Charles Johnson ; no illustrator is named in the work, and i…",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Henry_Morgan_before_Panama,_1671.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Captain_Henry_Morgan_before_Panama%2C_1671.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1764,
+        "altura": 2890,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Captain Henry Morgan attacking Panama",
+        "autor": "Author of the written work was Alexandre Exquemelin ; no illustrator is named in the work, and it d…",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Henry_Morgan_attacking_Panama.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Captain_Henry_Morgan_attacking_Panama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 2824,
+        "altura": 1714,
+        "restricoes": null
+      },
+      {
+        "fonte": "openverse/flickr",
+        "titulo": "Residence of H. B. Brown, 1898 - Valparaiso, Indiana",
+        "autor": "Shook Photos",
+        "licenca": "CC BY 2.0",
+        "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+        "pagina": "https://www.flickr.com/photos/24724221@N07/50682706663",
+        "url": "https://live.staticflickr.com/65535/50682706663_63c73d35b2_b.jpg",
+        "largura": 1024,
+        "altura": 708,
+        "restricoes": null
+      },
+      {
+        "fonte": "openverse/met",
+        "titulo": "Tankard engraved with scenes of the Great Plague and the Great Fire of London",
+        "autor": "O S",
+        "licenca": "CC0 1.0",
+        "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "pagina": "https://www.metmuseum.org/art/collection/search/207669",
+        "url": "https://images.metmuseum.org/CRDImages/es/original/DP267100.jpg",
+        "largura": null,
+        "altura": null,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "Henry Baylis sepia",
+        "autor": "Creelman & Co, Sydney Arcade",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Henry_Baylis_sepia.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Henry_Baylis_sepia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1141,
+        "altura": 1511,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "The Capture of Panama",
+        "autor": "W.D. & H.O. Wills",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:The_Capture_of_Panama.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/The_Capture_of_Panama.jpg/3840px-The_Capture_of_Panama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 3995,
+        "altura": 1987,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T12:49:47",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B03-02.jpg",
+    "fonte": "wikimedia",
+    "titulo": "Captain Henry Morgan before Panama, 1671",
+    "autor": "Author of the written work was Captain Charles Johnson ; no illustrator is named in the work, and i…",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Captain_Henry_Morgan_before_Panama,_1671.jpg",
+    "restricoes": null
+  },
+  "B05-02": {
+    "origem": "internet",
+    "busca": "naval battle broadside painting",
+    "pedido": "8875998cc2c9",
+    "candidatas": [
+      {
+        "fonte": "wikimedia",
+        "titulo": "The Battle of Copenhagen , 2 April 1801",
+        "autor": "Nicholas Pocock",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Nicholas_Pocock_-_The_Battle_of_Copenhagen,_2_April_1801.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Nicholas_Pocock_-_The_Battle_of_Copenhagen%2C_2_April_1801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1280,
+        "altura": 903,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "The Battle of Cape Passaro, 11 August 1718",
+        "autor": "Richard Paton (1717–1791)",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Cape_Passaro.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_Battle_of_Cape_Passaro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1280,
+        "altura": 784,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "HMS Cornwallis broadside Suvla December 1915",
+        "autor": "Ernest Brooks",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:HMS_Cornwallis_broadside_Suvla_December_1915.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/HMS_Cornwallis_broadside_Suvla_December_1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1000,
+        "altura": 710,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "The Battle of Cape St Vincent, 14 February 1797 title QS:P1476,en:\"The Battle of Cape St Vincent, 14 February 1797 \" label QS:Len,\"The Batt…",
+        "autor": "anonymous",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Cape_St_Vincent,_14_February_1797_RMG_BHC0491.tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Battle_of_Cape_St_Vincent%2C_14_February_1797_RMG_BHC0491.tiff/lossy-page1-3840px-The_Battle_of_Cape_St_Vincent%2C_14_February_1797_RMG_BHC0491.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 4583,
+        "altura": 3071,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "The battle of the Saintes, 12th April, 1782",
+        "autor": "Thomas Mitchell (1735-1790)",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:Thomas_Mitchell_-_The_battle_of_the_Saintes.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Thomas_Mitchell_-_The_battle_of_the_Saintes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "largura": 1776,
+        "altura": 928,
+        "restricoes": null
+      },
+      {
+        "fonte": "wikimedia",
+        "titulo": "The 'Defence' at the Battle of the First of June, 1794 title QS:P1476,en:\"The 'Defence' at the Battle of the First of June, 1794 \" label QS…",
+        "autor": "Nicholas Pocock",
+        "licenca": "Public domain",
+        "licenca_url": null,
+        "pagina": "https://commons.wikimedia.org/wiki/File:The_%27Defence%27_at_the_Battle_of_the_First_of_June,_1794_RMG_BHC0474.tiff",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_%27Defence%27_at_the_Battle_of_the_First_of_June%2C_1794_RMG_BHC0474.tiff/lossy-page1-1920px-The_%27Defence%27_at_the_Battle_of_the_First_of_June%2C_1794_RMG_BHC0474.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "largura": 3800,
+        "altura": 2618,
+        "restricoes": null
+      }
+    ],
+    "buscado_em": "2026-10-22T12:49:54",
+    "status": "ok",
+    "escolhida": 1,
+    "arquivo": "09-imagens/B05-02.jpg",
+    "fonte": "wikimedia",
+    "titulo": "The Battle of Copenhagen , 2 April 1801",
+    "autor": "Nicholas Pocock",
+    "licenca": "Public domain",
+    "licenca_url": null,
+    "pagina": "https://commons.wikimedia.org/wiki/File:Nicholas_Pocock_-_The_Battle_of_Copenhagen,_2_April_1801.jpg",
+    "restricoes": null
+  },
+  "L02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e687927753e6",
+    "referencias": [],
+    "segundos": 8.6,
+    "gerado_em": "2026-10-22T12:50:07"
+  },
+  "L01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/L01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "18b0429fa029",
+    "referencias": [],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-22T12:50:08"
+  },
+  "P01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "f2cc5de55210",
+    "referencias": [],
+    "segundos": 7.3,
+    "gerado_em": "2026-10-22T12:50:14"
+  },
+  "P02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "08b3318540ad",
+    "referencias": [],
+    "segundos": 9.0,
+    "gerado_em": "2026-10-22T12:50:17"
+  },
+  "P03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0b5a45620d6e",
+    "referencias": [],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-22T12:50:23"
+  },
+  "P04": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/referencias/P04.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "4404b5821545",
+    "referencias": [],
+    "segundos": 9.2,
+    "gerado_em": "2026-10-22T12:50:26"
+  },
+  "B01-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0edf71b86f8d",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 10.5,
+    "gerado_em": "2026-10-22T12:50:37"
+  },
+  "B01-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "bafd1bf7b3e1",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 10.7,
+    "gerado_em": "2026-10-22T12:50:37"
+  },
+  "B02-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "0bcbd137e4b8",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 9.8,
+    "gerado_em": "2026-10-22T12:50:47"
+  },
+  "B01-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B01-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "c81b8299cf17",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 10.7,
+    "gerado_em": "2026-10-22T12:50:48"
+  },
+  "B02-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B02-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "18ba34c64622",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-22T12:50:56"
+  },
+  "B03-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B03-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "bf67e27f578f",
+    "referencias": [],
+    "segundos": 9.9,
+    "gerado_em": "2026-10-22T12:50:57"
+  },
+  "B04-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "4e662e9e3772",
+    "referencias": [
+      "P02",
+      "L02"
+    ],
+    "segundos": 10.2,
+    "gerado_em": "2026-10-22T12:51:06"
+  },
+  "B04-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B04-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "7ca860ee9e19",
+    "referencias": [
+      "P02",
+      "L02"
+    ],
+    "segundos": 8.7,
+    "gerado_em": "2026-10-22T12:51:06"
+  },
+  "B05-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B05-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "e657175142e0",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 8.9,
+    "gerado_em": "2026-10-22T12:51:15"
+  },
+  "B06-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "4758ed28362e",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 12.0,
+    "gerado_em": "2026-10-22T12:51:18"
+  },
+  "B06-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "147434e490c6",
+    "referencias": [
+      "L01"
+    ],
+    "segundos": 9.7,
+    "gerado_em": "2026-10-22T12:51:24"
+  },
+  "B06-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B06-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "28aeba36f8d9",
+    "referencias": [
+      "P01",
+      "P03",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-22T12:51:28"
+  },
+  "B07-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B07-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "37bd05630e13",
+    "referencias": [
+      "P03",
+      "L01"
+    ],
+    "segundos": 10.1,
+    "gerado_em": "2026-10-22T12:51:35"
+  },
+  "B07-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B07-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "2644c13545c3",
+    "referencias": [
+      "P03",
+      "P04",
+      "L02"
+    ],
+    "segundos": 10.3,
+    "gerado_em": "2026-10-22T12:51:39"
+  },
+  "B08-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B08-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "6419ec8969da",
+    "referencias": [
+      "P04",
+      "L02"
+    ],
+    "segundos": 9.3,
+    "gerado_em": "2026-10-22T12:51:44"
+  },
+  "B08-02": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B08-02.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "120e37af18c4",
+    "referencias": [
+      "L02"
+    ],
+    "segundos": 9.2,
+    "gerado_em": "2026-10-22T12:51:48"
+  },
+  "B08-03": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B08-03.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "87dd89606d94",
+    "referencias": [
+      "P04"
+    ],
+    "segundos": 10.2,
+    "gerado_em": "2026-10-22T12:51:54"
+  },
+  "B09-01": {
+    "status": "ok",
+    "origem": "ia",
+    "arquivo": "09-imagens/B09-01.jpg",
+    "modelo": "gemini-3.1-flash-image",
+    "pedido": "fa917b1883fd",
+    "referencias": [
+      "P01",
+      "L01"
+    ],
+    "segundos": 10.0,
+    "gerado_em": "2026-10-22T12:51:58"
+  }
+}

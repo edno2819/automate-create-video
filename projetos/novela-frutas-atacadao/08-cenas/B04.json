@@ -1,0 +1,26 @@
+[
+  {
+    "trecho": "Ela não volta. Ele procura, bombom na mão.",
+    "tipo": "ilustracao",
+    "descricao": "Visto do alto, o Abacatinho atravessa sozinho o corredor de paletes gigantes com a caixa de bombom no peito; lá no fundo, a porta da câmara fria brilha azul.",
+    "enquadramento": "plongee",
+    "personagens": ["P02"],
+    "local": "L01",
+    "objetos": ["O02"],
+    "prompt_cena": "Abacatinho the avocado walks alone down the long aisle between towering pallet racks, clutching the box of bonbons to his chest, looking around anxiously, the frosted cold room door glowing faintly blue at the far end, his small figure dwarfed by the shelves, lonely night silence",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Acha o crachá dela, preso na maçaneta.",
+    "tipo": "ilustracao",
+    "descricao": "Callback do primeiro frame: só o crachá rosa da Moranguete pendurado na maçaneta gelada, balançando, com a fumaça saindo da fresta.",
+    "enquadramento": "detalhe",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O01"],
+    "prompt_cena": "the pink name badge hanging from the frosted chrome lever handle of the cold room door, slowly swinging, ice crystals glittering on the metal, wisps of icy fog curling from the door gap, cold blue glow, badge in the upper middle of the frame, ominous stillness",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

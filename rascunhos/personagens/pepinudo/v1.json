@@ -1,0 +1,58 @@
+{
+  "versao": "v1",
+  "arquivo": "v1.jpg",
+  "modelo": "gemini-3.1-flash-image",
+  "proporcao": "1:1",
+  "tamanho": null,
+  "prompt": "Character reference sheet. Pepinudo the cucumber, an anthropomorphic cucumber adult man in his thirties, his head a tall glossy dark-green cucumber with small bumps and pale green stripes, heavy-lidded dark-brown eyes, thick dark eyebrows, a neatly trimmed short black goatee, mirrored orange sports sunglasses pushed up on top of his head, a broad muscular athletic build with cucumber-green skin, wearing a tight black sleeveless tank top, black athletic shorts with neon-orange side stripes, white sneakers, a neon-orange whistle on a black lanyard and a black digital sports watch. Front view and three-quarter view, full body, neutral expression, plain light gray background. Style: big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light.",
+  "negativo": "text, letters, watermark, logo, brand name, real people, human head, nudity, shirtless, bare torso, underwear, suggestive pose, extra limbs, extra fingers, deformed hands, blurry face, photorealistic",
+  "base": null,
+  "ajuste": null,
+  "gerado_em": "2026-10-21T08:42:21",
+  "segundos": 9.5,
+  "ficha": {
+    "slug": "pepinudo",
+    "nome": "Pepinudo",
+    "resumo": "Personal trainer da novela das frutas: um pepino sarado, convencido e cafajeste, que trata toda aluna como a única e nunca assume ninguém.",
+    "referencia_en": "Pepinudo the cucumber",
+    "descricao_en": "Pepinudo the cucumber, an anthropomorphic cucumber adult man in his thirties, his head a tall glossy dark-green cucumber with small bumps and pale green stripes, heavy-lidded dark-brown eyes, thick dark eyebrows, a neatly trimmed short black goatee, mirrored orange sports sunglasses pushed up on top of his head, a broad muscular athletic build with cucumber-green skin, wearing a tight black sleeveless tank top, black athletic shorts with neon-orange side stripes, white sneakers, a neon-orange whistle on a black lanyard and a black digital sports watch",
+    "estilo": {
+      "nome": "Animação 3D de estúdio",
+      "descricao": "Animação 3D polida de longa-metragem, como a da novela das frutas: texturas lisas e brilhantes, cores saturadas, luz de cinema quente.",
+      "prompt_base": "big-budget 3D animated feature film still, stylized CGI, anthropomorphic fruit character with oversized glossy expressive eyes and adult proportions, smooth polished textures with soft subsurface scattering, vibrant saturated colors, soft warm cinematic lighting with gentle rim light",
+      "negativo_base": "text, letters, watermark, logo, brand name, real people, human head, nudity, shirtless, bare torso, underwear, suggestive pose, extra limbs, extra fingers, deformed hands, blurry face, photorealistic"
+    },
+    "fisico": {
+      "tipo": "Pepino humanizado, homem adulto, uns 30 anos.",
+      "porte": "Sarado: ombros largos, peito e braços musculosos, cintura fina, pernas fortes. Postura de quem está sempre posando, peito estufado.",
+      "rosto": "A cabeça é um pepino alto e brilhante. Olhos castanho-escuros de pálpebras pesadas, sobrancelhas grossas e escuras, cavanhaque preto curto e bem aparado.",
+      "cabelo": "Não tem: no alto da cabeça ficam os óculos esportivos espelhados laranja, sempre puxados para cima.",
+      "pele": "Verde-pepino escuro e brilhante, com pequenas saliências e listras verde-claras na cabeça; verde-pepino no corpo.",
+      "roupa": "De personal trainer: regata preta justa, sem logo; bermuda esportiva preta com faixa laranja-neon nas laterais; tênis brancos.",
+      "acessorios": "Apito laranja-neon num cordão preto no pescoço e relógio esportivo digital preto no pulso.",
+      "traco_marcante": "Os óculos espelhados laranja no alto da cabeça e o cavanhaque preto; de longe, o laranja-neon do apito e da bermuda.",
+      "paleta": "Verde-pepino, preto, laranja-neon e branco."
+    },
+    "comportamento": {
+      "personalidade": "Charmoso, convencido e sem vergonha nenhuma. Elogia o \"shape\" de todas as alunas, pisca para uma enquanto conta as repetições da outra e se olha no espelho da academia entre uma série e outra. Promete exclusividade para todas.",
+      "motivacao": "Ser admirado, colecionar conquistas e nunca se comprometer com ninguém.",
+      "medos_e_defeitos": "Morre de medo de compromisso e de perder o shape. Mente sem culpa nenhuma, mas tem o ego frágil: não aguenta ser ridicularizado.",
+      "jeito_de_falar": "Voz grave, arrastada e confiante, com gíria de academia (\"bora\", \"shape\", \"monstro\", \"sem roubar\"). Chama todo mundo de \"princesa\" e \"meu bem\" e fala de si mesmo na terceira pessoa quando quer se gabar.",
+      "bordoes": [
+        "Mais uma, princesa... só mais uma.",
+        "O Pepinudo não corre atrás. O Pepinudo é procurado.",
+        "Relaxa, ela é só minha aluna."
+      ],
+      "gestos_e_expressoes": "Flexiona o bíceps sem motivo; ajeita os óculos no alto da cabeça antes de chegar em alguém; morde o apito de canto de boca; pisca um olho com a sobrancelha erguida e meio sorriso.",
+      "sob_pressao": "Nega com a maior cara de pau (\"foi só um treino funcional\"); se não cola, inverte a culpa (\"você que é ciumenta\"); encurralado de vez, implora perdão de joelhos e no dia seguinte já está com outra aluna.",
+      "relacoes": "Na novela das frutas, costuma ser o amante que forma o triângulo amoroso: o personal da Moranguete, para desespero do parceiro dela.",
+      "nunca_faz": "Nunca assume namoro, nunca pula treino de braço e nunca tira a regata.",
+      "historia": "Personal trainer da academia do bairro, que também dá aula particular em casa. Coleciona alunas e fofocas na mesma proporção."
+    },
+    "voz": {
+      "voz": "Algieba",
+      "estilo": "personal cafajeste, confiante e sedutor, voz grave e arrastada; vira choradeira de quem implora perdão quando é pego",
+      "cor": "laranja"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "trecho": "Tem quase quinze vezes mais bilionário no mundo",
+    "tipo": "ilustracao",
+    "texto_na_tela": "15x mais bilionários",
+    "descricao": "Uma torre altíssima de bonequinhos de terno empilhados, vista de baixo, subindo até sair do quadro. É a primeira metade da conta.",
+    "enquadramento": "contra-plongee",
+    "personagens": ["P02"],
+    "local": null,
+    "objetos": [],
+    "prompt_cena": "the billionaires stacked on each other's shoulders in a wobbly tower that rises out of the top of the frame, hundreds of identical smug figures, a few loose blank green banknotes fluttering around them, flat pale blue cardboard sky behind",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "do que subidas ao topo do Everest sem garrafa de oxigênio.",
+    "tipo": "ilustracao",
+    "descricao": "A montanha inteira e, no cume, um único bonequinho de papel sem máscara, sozinho. A segunda metade da conta: quase ninguém chega assim.",
+    "enquadramento": "plano-geral",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": [],
+    "prompt_cena": "the paper climber stands alone on the tiny sharp summit of the huge mountain, no oxygen mask, arms slightly raised, breath puffing out as a small white paper cloud, the vast empty white slopes falling away below him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

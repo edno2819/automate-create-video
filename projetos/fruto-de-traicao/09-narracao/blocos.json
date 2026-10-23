@@ -1,0 +1,191 @@
+{
+  "fornecedor": "gemini",
+  "modelo": "gemini-3.8-flash-tts",
+  "voz": "Sadaltager",
+  "perfil": "Narrador brasileiro de vídeos para o YouTube. Português do Brasil, sotaque neutro, dicção clara.",
+  "estilo": "Tom: melodrama de novela das nove levado ao absurdo, ritmo acelerado, falas curtas e exageradas, ironia dramática (o público entende a traição antes do marido), humor que vem da seriedade total; sem piscar para o público e sem cena sexual. Fale como quem conta algo surpreendente para uma pessoa só. Respeite a pontuação: pausa curta nas vírgulas, pausa maior nos pontos e nas reticências. Leia os números como se fala.",
+  "personagens": {
+    "Moranguete": "Leda",
+    "Bananildo": "Enceladus",
+    "Pepinão": "Algieba",
+    "Colega": "Zubenelgenubi"
+  },
+  "intervalo_s": 0.3,
+  "intervalo_falas_s": 0.2,
+  "pausa_max_s": 0.3,
+  "velocidade": 1.15,
+  "arquivo": "09-narracao/narracao.wav",
+  "duracao_s": 40.163,
+  "blocos": [
+    {
+      "id": "B01",
+      "arquivo": "09-narracao/blocos/B01.wav",
+      "palavras": 29,
+      "duracao_s": 12.866,
+      "ppm": 135,
+      "falas": [
+        {
+          "id": "B01-F01",
+          "personagem": "Colega",
+          "voz": "Zubenelgenubi",
+          "arquivo": "09-narracao/falas/B01-F01.wav",
+          "palavras": 12,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 5.759,
+          "pedido": "d42e399968a2"
+        },
+        {
+          "id": "B01-F02",
+          "personagem": "Bananildo",
+          "voz": "Enceladus",
+          "arquivo": "09-narracao/falas/B01-F02.wav",
+          "palavras": 13,
+          "inicio_no_bloco_s": 5.959,
+          "duracao_s": 4.685,
+          "pedido": "175d6dc9ef9a"
+        },
+        {
+          "id": "B01-F03",
+          "personagem": "Colega",
+          "voz": "Zubenelgenubi",
+          "arquivo": "09-narracao/falas/B01-F03.wav",
+          "palavras": 4,
+          "inicio_no_bloco_s": 10.844,
+          "duracao_s": 2.022,
+          "pedido": "ed0d3fb1a9c3"
+        }
+      ],
+      "inicio_s": 0.0
+    },
+    {
+      "id": "B02",
+      "arquivo": "09-narracao/blocos/B02.wav",
+      "palavras": 16,
+      "duracao_s": 8.17,
+      "ppm": 118,
+      "falas": [
+        {
+          "id": "B02-F01",
+          "personagem": "Pepinão",
+          "voz": "Algieba",
+          "arquivo": "09-narracao/falas/B02-F01.wav",
+          "palavras": 9,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 3.477,
+          "pedido": "800c65acea03"
+        },
+        {
+          "id": "B02-F02",
+          "personagem": "Moranguete",
+          "voz": "Leda",
+          "arquivo": "09-narracao/falas/B02-F02.wav",
+          "palavras": 6,
+          "inicio_no_bloco_s": 3.677,
+          "duracao_s": 2.867,
+          "pedido": "25c7fd87a795"
+        },
+        {
+          "id": "B02-F03",
+          "personagem": "Pepinão",
+          "voz": "Algieba",
+          "arquivo": "09-narracao/falas/B02-F03.wav",
+          "palavras": 1,
+          "inicio_no_bloco_s": 7.494,
+          "duracao_s": 0.676,
+          "pedido": "b2bd17f79d33"
+        }
+      ],
+      "inicio_s": 13.166
+    },
+    {
+      "id": "B03",
+      "arquivo": "09-narracao/blocos/B03.wav",
+      "palavras": 12,
+      "duracao_s": 5.292,
+      "ppm": 136,
+      "falas": [
+        {
+          "id": "B03-F01",
+          "personagem": "Bananildo",
+          "voz": "Enceladus",
+          "arquivo": "09-narracao/falas/B03-F01.wav",
+          "palavras": 8,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 2.868,
+          "pedido": "2862783edf55"
+        },
+        {
+          "id": "B03-F02",
+          "personagem": "Moranguete",
+          "voz": "Leda",
+          "arquivo": "09-narracao/falas/B03-F02.wav",
+          "palavras": 4,
+          "inicio_no_bloco_s": 3.818,
+          "duracao_s": 1.474,
+          "pedido": "98738d5951ef"
+        }
+      ],
+      "inicio_s": 21.636
+    },
+    {
+      "id": "B04",
+      "arquivo": "09-narracao/blocos/B04.wav",
+      "palavras": 26,
+      "duracao_s": 10.232,
+      "ppm": 152,
+      "falas": [
+        {
+          "id": "B04-F01",
+          "personagem": "Bananildo",
+          "voz": "Enceladus",
+          "arquivo": "09-narracao/falas/B04-F01.wav",
+          "palavras": 4,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 2.193,
+          "pedido": "1f669bcb74ae"
+        },
+        {
+          "id": "B04-F02",
+          "personagem": "Bananildo",
+          "voz": "Enceladus",
+          "arquivo": "09-narracao/falas/B04-F02.wav",
+          "palavras": 6,
+          "inicio_no_bloco_s": 2.393,
+          "duracao_s": 2.668,
+          "pedido": "4810a7fb8b28"
+        },
+        {
+          "id": "B04-F03",
+          "personagem": "Bananildo",
+          "voz": "Enceladus",
+          "arquivo": "09-narracao/falas/B04-F03.wav",
+          "palavras": 16,
+          "inicio_no_bloco_s": 6.011,
+          "duracao_s": 4.221,
+          "pedido": "e4a4c7d39667"
+        }
+      ],
+      "inicio_s": 27.228
+    },
+    {
+      "id": "B05",
+      "arquivo": "09-narracao/blocos/B05.wav",
+      "palavras": 3,
+      "duracao_s": 2.402,
+      "ppm": 75,
+      "falas": [
+        {
+          "id": "B05-F01",
+          "personagem": "Moranguete",
+          "voz": "Leda",
+          "arquivo": "09-narracao/falas/B05-F01.wav",
+          "palavras": 3,
+          "inicio_no_bloco_s": 0.0,
+          "duracao_s": 2.402,
+          "pedido": "ddc2a6145f24"
+        }
+      ],
+      "inicio_s": 37.761
+    }
+  ]
+}

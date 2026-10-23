@@ -1,0 +1,52 @@
+{
+  "projeto": "como-era-higiene-europeus-idade-media",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Retrato a óleo de velho mestre, grotesco e solene",
+    "descricao": "Pintura a óleo hiper-realista à maneira dos retratos flamengos e holandeses: claro-escuro dramático, fundo escuro, veladuras lisas, verniz envelhecido com craquelê, paleta quente de ocres, terras e marrons. A sujeira, os dentes podres e a lama são pintados com a seriedade de um quadro de museu, e é daí que vem a graça (como na imagem de referência do usuário).",
+    "prompt_base": "hyper-realistic oil painting in the manner of Old Master portraiture, Flemish and Dutch Golden Age technique, dramatic chiaroscuro with a single warm light source, deep dark brown background, smooth glazed brushwork with meticulous detail on skin and fabric, aged varnish with fine craquelure, warm palette of ochre, raw umber, burnt sienna and muted gold, grotesque comic details such as rotten teeth, grime and lice painted with the solemn seriousness of a museum masterpiece, main subject in the upper and middle part of the frame, lower fifth dark and uncluttered",
+    "negativo_base": "text, letters, numbers, inscriptions, signature, watermark, logo, picture frame, blood, open wounds, gore, corpses, feces, excrement, vomit, urine, nudity, bare breasts, exposed bodies, sexualized poses, plague doctor beak mask, modern objects, glass window panes, electric light, cartoon, anime, 3d render, flat vector, extra fingers, deformed hands, blurry face",
+    "regras_de_camera": "Narração em segunda pessoa: o 'você' é um camponês parisiense (P01). Ele aparece em detalhe (a bota na lama), de costas no meio da rua, e o rosto inteiro só nos momentos fortes: o pé que afunda no gancho, a laranja no nariz e a pergunta do banho. O rei (P02) é o topo da escada e aparece primeiro só pela mão com o pomander, depois de costas na janela e por fim em close na virada. A legenda fica embaixo: o essencial de cada imagem vai no terço de cima e no meio, com o quinto inferior escuro. A cena do pé na lama abre o vídeo e volta no B06 com a rua principal já calçada ao fundo; a última imagem é a rua de lama vista de cima com o camponês prestes a pisar, para o replay emendar no primeiro quadro."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Você (camponês parisiense)",
+      "referencia_en": "the peasant",
+      "descricao": "the peasant, a gaunt medieval Parisian man in his early 30s with ruddy fair skin smudged with grime, greasy unkempt shoulder-length brown hair, patchy stubble, crooked yellowed teeth, a big bulbous nose with a dark wart on its tip, wearing a coarse undyed brown wool tunic tied with a frayed rope belt, a faded red wool hood draped over his shoulders, and worn brown leather ankle boots"
+    },
+    {
+      "id": "P02",
+      "nome": "Rei Filipe Augusto",
+      "referencia_en": "the king",
+      "descricao": "the king, a young medieval French king about 20 years old with pale fair skin, a long sharp pointed nose, short wavy reddish-brown hair, a sparse reddish beard, wearing a simple gold crown with small fleur-de-lis points, a royal blue velvet mantle lined with white ermine, a heavy gold chain on his chest, and several gold rings on his fingers"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Rua de lama de Paris",
+      "descricao": "a narrow unpaved street in 12th-century Paris, deep dark glistening mud churned into ruts by wooden cart wheels, crooked half-timbered houses with jettied upper floors and wooden shutters, a wooden ox cart stuck in the mud, gray smoky sky, a distant Romanesque church tower",
+      "descricao_curta": "deep dark glistening mud with cart wheel ruts, the blurred base of a half-timbered house wall behind"
+    },
+    {
+      "id": "L02",
+      "nome": "Castelo com a torrezinha do garde-robe",
+      "descricao": "a tall medieval stone castle on a rise above the muddy rooftops of Paris, thick gray limestone walls, a small square turret jutting out from high on the curtain wall on stone corbels with an open chute at its base, a stagnant greenish moat at the foot of the wall",
+      "descricao_curta": "a gray limestone castle wall with a small turret on stone corbels, greenish moat water below"
+    },
+    {
+      "id": "L03",
+      "nome": "Janela do palácio real",
+      "descricao": "an arched window high in a medieval royal palace on the Île de la Cité, heavy carved oak shutters thrown open, a thick stone sill, a dim stone chamber with a red and gold tapestry behind, overlooking a busy muddy Paris street with carts far below",
+      "descricao_curta": "an arched stone window with carved oak shutters open, a red and gold tapestry in the dim chamber behind"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "O01",
+      "nome": "Pomander (bolinha de perfume)",
+      "descricao": "a small round openwork gold pomander the size of a walnut, filled with dark spices, hanging from a fine gold chain at the belt"
+    }
+  ]
+}

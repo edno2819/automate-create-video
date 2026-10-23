@@ -1,0 +1,219 @@
+{
+  "fonte": {
+    "video_id": "DYAYD0UYvvE",
+    "url": "https://www.youtube.com/watch?v=DYAYD0UYvvE",
+    "titulo": "Como É Ser Cada Cargo Do Comando Vermelho",
+    "canal": "Dor Pintada",
+    "publicado_em": "2026-10-10",
+    "duracao": "15:32",
+    "visualizacoes_na_analise": 1174510,
+    "transcricao": "automática (pt)",
+    "analisado_em": "2026-10-19"
+  },
+  "formato": "longo",
+  "premissa": "A hierarquia da facção é uma escada em que cada degrau paga mais e custa mais, e o topo é uma cela.",
+  "promessa_do_titulo": "Mostrar, por dentro, como é ocupar cada cargo da facção, do mais baixo ao mais alto.",
+  "cumpre_a_promessa": "Sim. Os oito níveis aparecem em ordem e cada um tem rotina, pagamento e risco. A descrição promete 'escada para a destruição', e o final entrega isso com o topo como prisão.",
+  "voz": {
+    "pessoa": "segunda (você)",
+    "tempo_verbal": "presente",
+    "registro": "coloquial carioca, gírias do tema explicadas no contexto, frases curtas",
+    "postura_do_narrador": "Sóbria, sem julgamento explícito. A moral vem dos fatos e dos casos, não de sermão."
+  },
+  "gancho": {
+    "0_5s": {
+      "resumo": "Abre direto no nível 1, nomeando o cargo, e dá idade ao 'você'. Zero introdução.",
+      "tipo_gancho": "pov-segunda-pessoa",
+      "promessa": "O espectador entende na hora que vai subir a hierarquia nível por nível.",
+      "tensao": "Um jovem comum está prestes a entrar no tráfico.",
+      "citacao_curta": "Nível 1: O olheiro. Você tem 19 anos."
+    },
+    "0_30s": {
+      "resumo": "Origem concreta e empática (entregador, moto roubada, parcela no dia 10) e convite casual para o plantão. Planta o loop moral.",
+      "prova_de_entrega": "Em 30 s o espectador já está dentro do primeiro cargo, com detalhes específicos, o que prova que o vídeo vai mostrar o 'por dentro'.",
+      "o_que_nao_faz": ["não se apresenta", "não cita o canal", "não pede inscrição", "não explica o que o vídeo vai ser"]
+    }
+  },
+  "blocos": [
+    {
+      "id": "B01",
+      "inicio": "00:02",
+      "fim": "01:56",
+      "titulo": "Nível 1: olheiro",
+      "funcao": "gancho + primeiro degrau",
+      "tecnicas": ["pov-segunda-pessoa", "loop-aberto", "caso-concreto"],
+      "conteudo_abstrato": "Origem do protagonista; rotina sensorial do cargo; pagamento baixo; o paradoxo do cargo (mais visível e menos importante); caso de um colega com apelido que falhou uma vez e desapareceu; lição em frase curta.",
+      "loops": {"abre": ["L1: 'ninguém te obrigou', um detalhe que vai pesar depois", "L2: o que acontece em cada degrau acima"], "fecha": []},
+      "mini_gancho": "Um adolescente comum aceita um 'plantão' que paga no fim do dia.",
+      "mini_payoff": "O caso do colega que cochilou 10 minutos e virou cartaz de desaparecido.",
+      "re_hook_saida": "Diminui o nível atual ('o degrau mais baixo') e insinua o próximo com um objeto (carregar).",
+      "conector_entrada": "—",
+      "cortavel": true,
+      "nota_corte": "O caso do colega (cerca de 45 s) funciona sozinho como short."
+    },
+    {
+      "id": "B02",
+      "inicio": "01:56",
+      "fim": "03:58",
+      "titulo": "Nível 2: aviãozinho",
+      "funcao": "desenvolvimento",
+      "tecnicas": ["caso-concreto", "quebra-de-padrao", "cta-contextual", "re-hook-de-transicao"],
+      "conteudo_abstrato": "Origem do nome do cargo (crianças); promoção por não ter falhado; pagamento por corrida e primeiro dinheiro que sobra; detalhe emocional (o silêncio da mãe); a regra nova do cargo ('perdeu, pagou'); caso de um colega que perdeu a carga duas vezes.",
+      "loops": {"abre": [], "fecha": []},
+      "mini_gancho": "A promoção vem como prêmio por não ter falhado.",
+      "mini_payoff": "Frase solta de quebra de padrão: o colega não teve um oitavo mês.",
+      "re_hook_saida": "CTA de inscrição costurado no tema, emendado no teaser do próximo cargo ('para num lugar só').",
+      "conector_entrada": "mas",
+      "cortavel": true,
+      "nota_corte": "A regra 'perdeu, pagou' mais o caso dão um short completo."
+    },
+    {
+      "id": "B03",
+      "inicio": "03:58",
+      "fim": "06:15",
+      "titulo": "Nível 3: vapor",
+      "funcao": "desenvolvimento",
+      "tecnicas": ["mas-entao", "caso-concreto", "escada-de-stakes"],
+      "conteudo_abstrato": "Trabalho parado no ponto de venda; desfile de clientes; comissão e comparação com o salário do pai; virada do cargo (você é o rosto, é quem a polícia leva); prisão em flagrante e oferta de delação; lembrança de quem delatou e sumiu; entrada no presídio e descoberta de que a facção é mais forte lá dentro.",
+      "loops": {"abre": ["L3: dívida com a facção dentro do presídio"], "fecha": []},
+      "mini_gancho": "Pela primeira vez o dinheiro é maior que o do pai.",
+      "mini_payoff": "A recusa em delatar, que será o 'moral' do próximo nível.",
+      "re_hook_saida": "Cada presente aceito na cadeia é mais uma dívida.",
+      "conector_entrada": "então",
+      "cortavel": true,
+      "nota_corte": "A cena da delegacia mais a do presídio funcionam juntas."
+    },
+    {
+      "id": "B04",
+      "inicio": "06:15",
+      "fim": "08:15",
+      "titulo": "Nível 4: soldado",
+      "funcao": "desenvolvimento",
+      "tecnicas": ["escada-de-stakes", "caso-concreto", "mas-entao"],
+      "conteudo_abstrato": "Volta com 'moral' por não ter falado; arma que não é sua (mais uma dívida); contenção contra polícia e rival; pagamento e status; contraste entre o que o tráfico vende e o que esconde; cargo que mais morre; tiroteio e a morte de uma moradora inocente; moral: para o morador não existe lado certo.",
+      "loops": {"abre": [], "fecha": ["L3"]},
+      "mini_gancho": "Pela primeira vez as pessoas abrem caminho para você.",
+      "mini_payoff": "A moradora que saiu para comprar pão.",
+      "re_hook_saida": "Transição seca para o próximo nível, sem teaser explícito: a força vem do contraste moral.",
+      "conector_entrada": "então",
+      "cortavel": true,
+      "nota_corte": "O trecho da moradora é forte, mas precisa de cuidado com a adequação a anunciantes."
+    },
+    {
+      "id": "B05",
+      "inicio": "08:15",
+      "fim": "10:20",
+      "titulo": "Nível 5: gerente de boca",
+      "funcao": "virada",
+      "tecnicas": ["tese-contraria", "cena-espelho", "callback"],
+      "conteudo_abstrato": "Promoção porque sabe fazer conta (vale mais que atirar); o caderno que derruba o morro; dinheiro e bens; regra nova: você responde pelo erro dos outros; repetição quase literal da cena do nível 1, agora com o protagonista fazendo a ligação; frase de constatação.",
+      "loops": {"abre": [], "fecha": ["L1"]},
+      "mini_gancho": "No tráfico, saber fazer conta vale mais que saber atirar.",
+      "mini_payoff": "Cena espelho: o mesmo domingo, os mesmos 10 minutos, o mesmo cartaz no poste, e agora você é o responsável.",
+      "re_hook_saida": "'Você subiu quatro degraus para virar exatamente o que te dava medo.'",
+      "conector_entrada": "então",
+      "cortavel": false,
+      "nota_corte": "Depende do bloco 1 para a cena espelho funcionar."
+    },
+    {
+      "id": "B06",
+      "inicio": "10:20",
+      "fim": "11:40",
+      "titulo": "Nível 6: gerente geral",
+      "funcao": "virada",
+      "tecnicas": ["mystery-box", "lacuna-de-curiosidade"],
+      "conteudo_abstrato": "Controle de todas as bocas; propina como tema que ninguém fala; dinheiro que não pode ser gasto e bens no nome de parentes; cartaz de procurado; um bilhete chega de dentro do presídio com ordens; revelação estrutural: quem manda nunca esteve no morro.",
+      "loops": {"abre": ["L4: como a facção nasceu dentro de uma cadeia"], "fecha": []},
+      "mini_gancho": "Agora não é uma boca, são todas.",
+      "mini_payoff": "O bilhete dobrado em quatro e a ordem obedecida.",
+      "re_hook_saida": "Revelação de que o comando nasceu na cadeia, que abre o flashback histórico.",
+      "conector_entrada": "então",
+      "cortavel": true,
+      "nota_corte": "A revelação do bilhete fecha bem um short."
+    },
+    {
+      "id": "B07",
+      "inicio": "11:40",
+      "fim": "13:20",
+      "titulo": "Nível 7: frente",
+      "funcao": "clímax",
+      "tecnicas": ["quebra-de-padrao", "caso-concreto", "escada-de-stakes"],
+      "conteudo_abstrato": "Quebra de padrão: flashback histórico de 40 segundos (origem da facção num presídio nos anos 70) que fecha o loop do bloco anterior; o frente como número dois; o risco agora vem de cima, porque o número dois pode virar número um; caso de um frente popular cujo nome foi cantado num baile e que foi substituído; lição.",
+      "loops": {"abre": ["L5: quem está no topo e o que ele vive"], "fecha": ["L4"]},
+      "mini_gancho": "Para entender esse cargo, você precisa voltar 50 anos.",
+      "mini_payoff": "'Você não deixa ninguém cantar o seu nome.'",
+      "re_hook_saida": "Transição direta para o último nível ('você chegou').",
+      "conector_entrada": "mas",
+      "cortavel": true,
+      "nota_corte": "O flashback histórico sozinho dá um short educativo."
+    },
+    {
+      "id": "B08",
+      "inicio": "13:20",
+      "fim": "15:32",
+      "titulo": "Nível 8: dono do morro",
+      "funcao": "payoff + final",
+      "tecnicas": ["escada-de-stakes", "callback", "escada-de-niveis-pov"],
+      "conteudo_abstrato": "Recapitulação rápida de todos os cargos abaixo, agora trabalhando para você; revelação irônica: o dono está numa cela federal a milhares de km; rotina da cela; dinheiro que não pode gastar; a morte da mãe sabida pelo advogado dias depois; última regra da escada: alguém já está subindo, talvez o seu frente.",
+      "loops": {"abre": [], "fecha": ["L2", "L5"]},
+      "mini_gancho": "Você chegou. O morro é seu.",
+      "mini_payoff": "O topo é uma cela, e o almoço chega pela portinhola no dia seguinte à notícia da morte da mãe.",
+      "re_hook_saida": "Final circular: a escada continua e o seu substituto já está subindo (callback ao risco do nível 7).",
+      "conector_entrada": "então",
+      "cortavel": true,
+      "nota_corte": "Funciona como short de 'plot twist' (o dono do morro não está no morro)."
+    }
+  ],
+  "pontos_de_virada": [
+    {"tempo": "09:24", "bloco": "B05", "descricao": "Cena espelho: o protagonista passa a causar o que temia no nível 1. Virada moral, a 60% da duração."},
+    {"tempo": "11:20", "bloco": "B06", "descricao": "Quem manda não está no morro. Virada estrutural que muda a leitura da escada inteira."},
+    {"tempo": "13:40", "bloco": "B08", "descricao": "O topo é uma cela. Payoff irônico."}
+  ],
+  "callbacks": [
+    {"plantado": "B01 (colega cochila 10 minutos num domingo; mãe cola cartaz no poste)", "colhido": "B05 (mesma cena, protagonista faz a ligação)"},
+    {"plantado": "B07 (o número dois pode virar número um)", "colhido": "B08 (talvez o seu frente)"},
+    {"plantado": "B03 (a facção existe ainda mais dentro do presídio)", "colhido": "B06 e B08 (quem manda está preso)"}
+  ],
+  "ctas": [
+    {"tempo": "03:55", "tipo": "inscrição", "tecnica": "cta-contextual", "observacao": "Amarrado ao cargo que acabou de ser contado e emendado no teaser do próximo nível, sem pausa."}
+  ],
+  "payoff": "O cargo máximo, que o espectador imaginava ser o auge de poder, é isolamento total. Cumpre a promessa da descrição ('escada para a própria destruição').",
+  "final": "Circular: a escada não termina, e o próximo já está subindo. Não pede inscrição no fim e não tem despedida.",
+  "recursos_de_linguagem": [
+    "frases de uma linha como quebra de padrão depois de parágrafos longos",
+    "números concretos de pagamento em cada nível (escada de dinheiro paralela à escada de risco)",
+    "consequência mostrada por objeto indireto: cartaz no poste, apelido pichado com X, bilhete dobrado",
+    "apelidos curtos e afetivos para personagens que morrem, o que gera contraste",
+    "gírias explicadas no contexto, sem pausa didática",
+    "família como termômetro moral (o silêncio da mãe, a mãe que morre)"
+  ],
+  "tecnicas_detectadas": ["escada-de-niveis-pov", "pov-segunda-pessoa", "escada-de-stakes", "caso-concreto", "cena-espelho", "callback", "re-hook-de-transicao", "cta-contextual", "loop-aberto", "mystery-box", "quebra-de-padrao", "mas-entao", "tese-contraria"],
+  "tecnicas_novas_sugeridas": [],
+  "template_abstrato": {
+    "nome": "Escada de cargos em POV",
+    "beats": [
+      "Nível 1 nomeado na primeira frase, com idade e situação do 'você'.",
+      "Origem empática e banal (dívida, perda, convite), sem coerção explícita, para plantar o loop moral.",
+      "Por nível: motivo da promoção, rotina sensorial, pagamento, regra nova, caso com apelido, lição curta, re-hook.",
+      "CTA contextual no fim do nível 2 (entre 3 e 4 min).",
+      "Passagem pela prisão no meio, que transforma o protagonista e reforça a escada.",
+      "Virada moral a ~60% com cena espelho do nível 1.",
+      "Revelação estrutural: o poder real está em outro lugar.",
+      "Quebra de padrão histórica curta para explicar a origem da instituição.",
+      "Topo irônico e final circular."
+    ],
+    "temas_que_encaixam": ["outras facções e máfias", "cartéis", "exército em guerra", "navio pirata", "corte medieval", "igreja medieval", "presídio", "empresa de pirâmide", "torcida organizada", "mineração ilegal"],
+    "duracao_por_nivel": "cerca de 2 min (300 palavras) com 8 níveis"
+  },
+  "ritmo": {
+    "palavras_estimadas": 2369,
+    "ppm_estimado": 153,
+    "duracao_media_bloco": "1:55",
+    "intervalo_medio_entre_re_hooks": "cerca de 2 min (no limite superior da faixa de 60 a 120 s)"
+  },
+  "limitacoes": [
+    "A curva de retenção de vídeos de terceiros não é pública: a estrutura é inferida, não se sabe o que de fato segurou o público.",
+    "Transcrição automática, sem pontuação original. Tempos são aproximados pelos marcadores da transcrição.",
+    "O desempenho (1,17 mi de views em 9 dias) também depende do título, da thumb, do histórico do canal e do tema, não só do roteiro."
+  ]
+}

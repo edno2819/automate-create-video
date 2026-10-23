@@ -1,0 +1,46 @@
+{
+  "projeto": "higiene-idade-media",
+  "proporcao": "9:16",
+  "estilo": {
+    "nome": "Pintura digital cinematográfica quente",
+    "descricao": "Pintura digital com pinceladas visíveis, luz quente de vela atravessando vapor, cores ricas em âmbar, ocre e cobre, com sombras azul-esverdeadas; clima de espanto e descoberta.",
+    "prompt_base": "cinematic digital oil painting, visible textured brush strokes, warm candlelight glowing through drifting steam, volumetric light rays, rich warm palette of amber, ochre, copper and deep crimson with cool teal shadows, atmosphere of wonder and discovery, historically grounded 13th-century Paris, timber and stone architecture",
+    "negativo_base": "text, letters, numbers, signage, watermark, logo, nudity, bare breasts, exposed bodies, sexualized poses, erotic, brothel, gore, blood, filth, disgusting, modern objects, glass window panes, electric light, plastic, Renaissance or Baroque architecture, extra fingers, deformed hands, blurry faces",
+    "regras_de_camera": "Sem protagonista: a narração é factual. A câmera passeia entre a rua de Paris, a casa simples e a casa de banho. Banhistas só ao fundo, com camisolas de linho ou água até o peito, sempre velados pelo vapor; nenhuma nudez. O dono da casa de banho é o rosto recorrente da virada (cenas 5 e 6). A porta com vapor abre (cena 2) e fecha (cena 8) o vídeo na mesma composição, para o replay parecer continuação."
+  },
+  "personagens": [
+    {
+      "id": "P01",
+      "nome": "Dono da casa de banho",
+      "referencia_en": "the bathhouse keeper",
+      "descricao": "the bathhouse keeper, a stout man in his late 40s with ruddy fair skin, a short graying brown beard, a broad crooked nose, wearing a knee-length undyed linen tunic with sleeves rolled up, a damp leather apron and a small brass bell hanging from his belt"
+    }
+  ],
+  "locais": [
+    {
+      "id": "L01",
+      "nome": "Interior da casa de banho",
+      "descricao": "the vaulted interior of a 13th-century Parisian bathhouse, rough stone arches, rows of large wooden tubs bound with iron hoops, linen cloths draped over the rims, beeswax candles in iron holders, thick steam rising toward a smoke-darkened timber ceiling",
+      "descricao_curta": "rough stone arches and wooden tubs fading into thick candlelit steam"
+    },
+    {
+      "id": "L02",
+      "nome": "Rua de Paris com a porta da casa de banho",
+      "descricao": "a narrow muddy street in 13th-century Paris, crooked half-timbered houses with jettied upper floors and wooden shutters, stone ground floors, a heavy oak door in an arched stone doorway with warm light and white steam pouring out into the street, a distant Gothic church spire",
+      "descricao_curta": "an arched stone doorway with a heavy oak door, warm light and white steam pouring out"
+    },
+    {
+      "id": "L03",
+      "nome": "Casa simples parisiense",
+      "descricao": "a humble one-room 13th-century Parisian home, wattle-and-daub walls, a packed earth floor, a small hearth with an iron cauldron hanging over the fire, a small window with open wooden shutters onto the street, wooden buckets by the wall",
+      "descricao_curta": "a wattle-and-daub wall beside a small window with open wooden shutters"
+    }
+  ],
+  "objetos": [
+    {
+      "id": "O01",
+      "nome": "Tina de madeira",
+      "descricao": "a large round wooden bathtub made of oak staves bound with dark iron hoops"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "tema": "Mostre curiosidades sobre como era a higiene na idade média",
+  "descricao": "mostre as principais curiosidades sobre a péssima higiene na idade média, de força até um pouco exagerada e mostrando que nem a realeza podia escapar dessa situação.",
+  "contexto": null,
+  "slug": "como-era-higiene-europeus-idade-media",
+  "titulo": "Como era a higiene dos europeus na idade média",
+  "formato": "short",
+  "duracao_alvo": "00:45",
+  "tom": "humor escrachado e espanto: ritmo rápido, exagero cômico na entrega, cada curiosidade pior que a anterior, nojento na medida e nunca gráfico",
+  "natureza": "inspirado-em-fatos",
+  "publico": "adultos e jovens brasileiros curiosos por história e por curiosidades bizarras do passado",
+  "nicho": "curiosidades históricas",
+  "idioma": "pt-BR",
+  "estilo_artistico": "pintura a óleo hiper-realista no estilo dos retratos dos velhos mestres europeus, claro-escuro dramático, fundo escuro, verniz levemente craquelado, paleta quente de ocres e marrons, com detalhes grotescos e cômicos (dentes podres, sujeira, piolhos) pintados com a seriedade de um quadro de museu",
+  "imagens_referencia": [
+    "projetos/como-era-higiene-europeus-idade-media/00-anexos/images-1.jpeg"
+  ],
+  "visual": {
+    "proporcao": "9:16",
+    "segundos_por_imagem": 3,
+    "numero_de_imagens": null,
+    "imagens_da_internet": true,
+    "qualidade": "padrao"
+  },
+  "narracao": {
+    "ativa": true,
+    "fornecedor": "gemini",
+    "voz": "Sadaltager",
+    "estilo": "ritmo rápido, tom de quem conta uma fofoca histórica chocante, com ironia e uma pausa curta antes de cada revelação sobre a realeza"
+  },
+  "personagens": [],
+  "legendas": {
+    "ativas": true,
+    "destacar_palavra": true,
+    "cor_destaque": "#FFD400",
+    "cor_texto": "#FFFFFF",
+    "maiusculas": false,
+    "palavras_por_legenda": null,
+    "posicao": "baixo"
+  },
+  "musica": {
+    "ativa": true,
+    "nome": null,
+    "arquivo": "biblioteca/musicas/audiocleaner-download-stranger.mp3",
+    "inicio": "00:00",
+    "volume": 20
+  },
+  "referencias": [
+    {
+      "url": "https://www.youtube.com/watch?v=DYAYD0UYvvE",
+      "esqueleto": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json"
+    }
+  ],
+  "canais_referencia": [
+    "@DorPintada"
+  ],
+  "concorrentes": [],
+  "restricoes": [
+    "short de 45 s (cerca de 110 palavras), uma ideia só: a sujeira de todo mundo, e nem a realeza escapava",
+    "exagero cômico no tom e nas imagens, não nos fatos: cada curiosidade precisa de fonte no dossiê; mitos desmentidos (ex.: 'ninguém tomava banho') só aparecem como mito, nunca como fato",
+    "reis e rainhas reais só com fatos de fonte; casos de fora da Idade Média (ex.: Elizabeth I, Luís XIV) podem entrar, mas sem chamá-los de medievais",
+    "nojento na medida para anunciantes: nada de sangue, ferida aberta ou fezes em close; prefira a sugestão (o balde na janela, o cortesão tapando o nariz)"
+  ],
+  "trends": {
+    "ativa": false,
+    "links": []
+  },
+  "producao": {
+    "ate": "video",
+    "cortes": false
+  },
+  "pedido": {
+    "arquivo": "00-pedido.yaml",
+    "sha1": "532d9fc8828178143d36aa156a7ca82cf8d71242",
+    "gerado_em": "2026-10-21"
+  },
+  "criado_em": "2026-10-21"
+}

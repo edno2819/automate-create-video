@@ -1,0 +1,27 @@
+[
+  {
+    "trecho": "Mais de 32 banhos públicos. Numa cidade só.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "32",
+    "descricao": "O interior da casa de banho, cheio de vapor e luz de vela; a escala das tinas enfileiradas é o espanto. Banhistas só ao fundo, cobertos pela água e pelo vapor.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O01"],
+    "prompt_cena": "rows of steaming wooden tubs receding under stone arches, candlelight cutting golden rays through dense steam, a few distant bathers in linen shifts sitting in water up to their chests, softly veiled by vapor, a sense of astonishing scale",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Dizem que ninguém tomava banho. Paris, século 13.",
+    "tipo": "ilustracao",
+    "descricao": "A rua de Paris do século 13 vista de baixo, com a porta da casa de banho soltando vapor: o mito dito sobre a prova que o contradiz.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the crooked half-timbered houses lean over the narrow street at dusk, a plume of warm white steam billows from the glowing bathhouse doorway into the cold blue air, passersby in wool cloaks turn their heads toward it",
+    "movimento": "subir",
+    "transicao": "corte"
+  }
+]

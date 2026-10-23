@@ -1,0 +1,214 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Noto Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,6,2,2,86,86,518,1
+Style: Destaque,Noto Sans,84,&H00000000,&H00000000,&H0000D4FF,&H00000000,-1,0,0,0,100,100,0,0,3,12,0,2,86,86,518,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.40,Legenda,,0,0,0,,Tem quase quinze vezes
+Dialogue: 1,0:00:00.00,0:00:00.28,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Tem{\alpha&HFF&} quase quinze vezes
+Dialogue: 1,0:00:00.28,0:00:00.52,Destaque,,0,0,0,,{\alpha&HFF&}Tem {\alpha&H00&}quase{\alpha&HFF&} quinze vezes
+Dialogue: 1,0:00:00.52,0:00:01.04,Destaque,,0,0,0,,{\alpha&HFF&}Tem quase {\alpha&H00&}quinze{\alpha&HFF&} vezes
+Dialogue: 1,0:00:01.04,0:00:01.40,Destaque,,0,0,0,,{\alpha&HFF&}Tem quase quinze {\alpha&H00&}vezes{\alpha&HFF&}
+Dialogue: 0,0:00:01.40,0:00:02.72,Legenda,,0,0,0,,mais bilionário no mundo
+Dialogue: 1,0:00:01.40,0:00:01.70,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}mais{\alpha&HFF&} bilionário no mundo
+Dialogue: 1,0:00:01.70,0:00:02.32,Destaque,,0,0,0,,{\alpha&HFF&}mais {\alpha&H00&}bilionário{\alpha&HFF&} no mundo
+Dialogue: 1,0:00:02.32,0:00:02.44,Destaque,,0,0,0,,{\alpha&HFF&}mais bilionário {\alpha&H00&}no{\alpha&HFF&} mundo
+Dialogue: 1,0:00:02.44,0:00:02.72,Destaque,,0,0,0,,{\alpha&HFF&}mais bilionário no {\alpha&H00&}mundo{\alpha&HFF&}
+Dialogue: 0,0:00:02.72,0:00:03.36,Legenda,,0,0,0,,do que subidas
+Dialogue: 1,0:00:02.72,0:00:02.88,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}do{\alpha&HFF&} que subidas
+Dialogue: 1,0:00:02.88,0:00:02.98,Destaque,,0,0,0,,{\alpha&HFF&}do {\alpha&H00&}que{\alpha&HFF&} subidas
+Dialogue: 1,0:00:02.98,0:00:03.36,Destaque,,0,0,0,,{\alpha&HFF&}do que {\alpha&H00&}subidas{\alpha&HFF&}
+Dialogue: 0,0:00:03.36,0:00:04.20,Legenda,,0,0,0,,ao topo do Everest
+Dialogue: 1,0:00:03.36,0:00:03.54,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}ao{\alpha&HFF&} topo do Everest
+Dialogue: 1,0:00:03.54,0:00:03.86,Destaque,,0,0,0,,{\alpha&HFF&}ao {\alpha&H00&}topo{\alpha&HFF&} do Everest
+Dialogue: 1,0:00:03.86,0:00:03.88,Destaque,,0,0,0,,{\alpha&HFF&}ao topo {\alpha&H00&}do{\alpha&HFF&} Everest
+Dialogue: 1,0:00:03.88,0:00:04.20,Destaque,,0,0,0,,{\alpha&HFF&}ao topo do {\alpha&H00&}Everest{\alpha&HFF&}
+Dialogue: 0,0:00:04.20,0:00:05.94,Legenda,,0,0,0,,sem garrafa de oxigênio.
+Dialogue: 1,0:00:04.20,0:00:04.66,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}sem{\alpha&HFF&} garrafa de oxigênio.
+Dialogue: 1,0:00:04.66,0:00:05.08,Destaque,,0,0,0,,{\alpha&HFF&}sem {\alpha&H00&}garrafa{\alpha&HFF&} de oxigênio.
+Dialogue: 1,0:00:05.08,0:00:05.14,Destaque,,0,0,0,,{\alpha&HFF&}sem garrafa {\alpha&H00&}de{\alpha&HFF&} oxigênio.
+Dialogue: 1,0:00:05.14,0:00:05.94,Destaque,,0,0,0,,{\alpha&HFF&}sem garrafa de {\alpha&H00&}oxigênio.{\alpha&HFF&}
+Dialogue: 0,0:00:15.43,0:00:16.25,Legenda,,0,0,0,,E isso só compra
+Dialogue: 1,0:00:15.43,0:00:15.61,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} isso só compra
+Dialogue: 1,0:00:15.61,0:00:15.79,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}isso{\alpha&HFF&} só compra
+Dialogue: 1,0:00:15.79,0:00:15.99,Destaque,,0,0,0,,{\alpha&HFF&}E isso {\alpha&H00&}só{\alpha&HFF&} compra
+Dialogue: 1,0:00:15.99,0:00:16.25,Destaque,,0,0,0,,{\alpha&HFF&}E isso só {\alpha&H00&}compra{\alpha&HFF&}
+Dialogue: 0,0:00:16.25,0:00:17.47,Legenda,,0,0,0,,o direito de tentar.
+Dialogue: 1,0:00:16.25,0:00:16.33,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} direito de tentar.
+Dialogue: 1,0:00:16.33,0:00:16.57,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}direito{\alpha&HFF&} de tentar.
+Dialogue: 1,0:00:16.57,0:00:16.85,Destaque,,0,0,0,,{\alpha&HFF&}o direito {\alpha&H00&}de{\alpha&HFF&} tentar.
+Dialogue: 1,0:00:16.85,0:00:17.47,Destaque,,0,0,0,,{\alpha&HFF&}o direito de {\alpha&H00&}tentar.{\alpha&HFF&}
+Dialogue: 0,0:00:21.46,0:00:22.82,Legenda,,0,0,0,,Só pelo lado do Nepal,
+Dialogue: 1,0:00:21.46,0:00:21.68,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Só{\alpha&HFF&} pelo lado do Nepal,
+Dialogue: 1,0:00:21.68,0:00:21.84,Destaque,,0,0,0,,{\alpha&HFF&}Só {\alpha&H00&}pelo{\alpha&HFF&} lado do Nepal,
+Dialogue: 1,0:00:21.84,0:00:22.08,Destaque,,0,0,0,,{\alpha&HFF&}Só pelo {\alpha&H00&}lado{\alpha&HFF&} do Nepal,
+Dialogue: 1,0:00:22.08,0:00:22.22,Destaque,,0,0,0,,{\alpha&HFF&}Só pelo lado {\alpha&H00&}do{\alpha&HFF&} Nepal,
+Dialogue: 1,0:00:22.22,0:00:22.82,Destaque,,0,0,0,,{\alpha&HFF&}Só pelo lado do {\alpha&H00&}Nepal,{\alpha&HFF&}
+Dialogue: 0,0:00:22.82,0:00:24.02,Legenda,,0,0,0,,desde o ano dois mil,
+Dialogue: 1,0:00:22.82,0:00:22.96,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}desde{\alpha&HFF&} o ano dois mil,
+Dialogue: 1,0:00:22.96,0:00:23.18,Destaque,,0,0,0,,{\alpha&HFF&}desde {\alpha&H00&}o{\alpha&HFF&} ano dois mil,
+Dialogue: 1,0:00:23.18,0:00:23.26,Destaque,,0,0,0,,{\alpha&HFF&}desde o {\alpha&H00&}ano{\alpha&HFF&} dois mil,
+Dialogue: 1,0:00:23.26,0:00:23.49,Destaque,,0,0,0,,{\alpha&HFF&}desde o ano {\alpha&H00&}dois{\alpha&HFF&} mil,
+Dialogue: 1,0:00:23.49,0:00:24.02,Destaque,,0,0,0,,{\alpha&HFF&}desde o ano dois {\alpha&H00&}mil,{\alpha&HFF&}
+Dialogue: 0,0:00:24.02,0:00:26.34,Legenda,,0,0,0,,quase dezesseis mil pessoas tentaram.
+Dialogue: 1,0:00:24.02,0:00:24.18,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}quase{\alpha&HFF&} dezesseis mil pessoas tentaram.
+Dialogue: 1,0:00:24.18,0:00:24.94,Destaque,,0,0,0,,{\alpha&HFF&}quase {\alpha&H00&}dezesseis{\alpha&HFF&} mil pessoas tentaram.
+Dialogue: 1,0:00:24.94,0:00:25.26,Destaque,,0,0,0,,{\alpha&HFF&}quase dezesseis {\alpha&H00&}mil{\alpha&HFF&} pessoas tentaram.
+Dialogue: 1,0:00:25.26,0:00:25.56,Destaque,,0,0,0,,{\alpha&HFF&}quase dezesseis mil {\alpha&H00&}pessoas{\alpha&HFF&} tentaram.
+Dialogue: 1,0:00:25.56,0:00:26.34,Destaque,,0,0,0,,{\alpha&HFF&}quase dezesseis mil pessoas {\alpha&H00&}tentaram.{\alpha&HFF&}
+Dialogue: 0,0:00:26.34,0:00:27.18,Legenda,,0,0,0,,Mais da metade
+Dialogue: 1,0:00:26.34,0:00:26.62,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mais{\alpha&HFF&} da metade
+Dialogue: 1,0:00:26.62,0:00:26.68,Destaque,,0,0,0,,{\alpha&HFF&}Mais {\alpha&H00&}da{\alpha&HFF&} metade
+Dialogue: 1,0:00:26.68,0:00:27.18,Destaque,,0,0,0,,{\alpha&HFF&}Mais da {\alpha&H00&}metade{\alpha&HFF&}
+Dialogue: 0,0:00:27.18,0:00:28.06,Legenda,,0,0,0,,nem era cliente:
+Dialogue: 1,0:00:27.18,0:00:27.26,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}nem{\alpha&HFF&} era cliente:
+Dialogue: 1,0:00:27.26,0:00:27.44,Destaque,,0,0,0,,{\alpha&HFF&}nem {\alpha&H00&}era{\alpha&HFF&} cliente:
+Dialogue: 1,0:00:27.44,0:00:28.06,Destaque,,0,0,0,,{\alpha&HFF&}nem era {\alpha&H00&}cliente:{\alpha&HFF&}
+Dialogue: 0,0:00:28.06,0:00:29.42,Legenda,,0,0,0,,eram guias e sherpas,
+Dialogue: 1,0:00:28.06,0:00:28.32,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}eram{\alpha&HFF&} guias e sherpas,
+Dialogue: 1,0:00:28.32,0:00:28.70,Destaque,,0,0,0,,{\alpha&HFF&}eram {\alpha&H00&}guias{\alpha&HFF&} e sherpas,
+Dialogue: 1,0:00:28.70,0:00:28.82,Destaque,,0,0,0,,{\alpha&HFF&}eram guias {\alpha&H00&}e{\alpha&HFF&} sherpas,
+Dialogue: 1,0:00:28.82,0:00:29.42,Destaque,,0,0,0,,{\alpha&HFF&}eram guias e {\alpha&H00&}sherpas,{\alpha&HFF&}
+Dialogue: 0,0:00:29.42,0:00:30.64,Legenda,,0,0,0,,pagos pra subir.
+Dialogue: 1,0:00:29.42,0:00:29.78,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pagos{\alpha&HFF&} pra subir.
+Dialogue: 1,0:00:29.78,0:00:29.90,Destaque,,0,0,0,,{\alpha&HFF&}pagos {\alpha&H00&}pra{\alpha&HFF&} subir.
+Dialogue: 1,0:00:29.90,0:00:30.64,Destaque,,0,0,0,,{\alpha&HFF&}pagos pra {\alpha&H00&}subir.{\alpha&HFF&}
+Dialogue: 0,0:00:30.64,0:00:32.30,Legenda,,0,0,0,,Mas começar não é chegar.
+Dialogue: 1,0:00:30.64,0:00:30.80,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mas{\alpha&HFF&} começar não é chegar.
+Dialogue: 1,0:00:30.80,0:00:31.28,Destaque,,0,0,0,,{\alpha&HFF&}Mas {\alpha&H00&}começar{\alpha&HFF&} não é chegar.
+Dialogue: 1,0:00:31.28,0:00:31.66,Destaque,,0,0,0,,{\alpha&HFF&}Mas começar {\alpha&H00&}não{\alpha&HFF&} é chegar.
+Dialogue: 1,0:00:31.66,0:00:31.80,Destaque,,0,0,0,,{\alpha&HFF&}Mas começar não {\alpha&H00&}é{\alpha&HFF&} chegar.
+Dialogue: 1,0:00:31.80,0:00:32.30,Destaque,,0,0,0,,{\alpha&HFF&}Mas começar não é {\alpha&H00&}chegar.{\alpha&HFF&}
+Dialogue: 0,0:00:36.07,0:00:37.77,Legenda,,0,0,0,,pelos dois lados da montanha,
+Dialogue: 1,0:00:36.07,0:00:36.21,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pelos{\alpha&HFF&} dois lados da montanha,
+Dialogue: 1,0:00:36.21,0:00:36.51,Destaque,,0,0,0,,{\alpha&HFF&}pelos {\alpha&H00&}dois{\alpha&HFF&} lados da montanha,
+Dialogue: 1,0:00:36.51,0:00:36.79,Destaque,,0,0,0,,{\alpha&HFF&}pelos dois {\alpha&H00&}lados{\alpha&HFF&} da montanha,
+Dialogue: 1,0:00:36.79,0:00:36.95,Destaque,,0,0,0,,{\alpha&HFF&}pelos dois lados {\alpha&H00&}da{\alpha&HFF&} montanha,
+Dialogue: 1,0:00:36.95,0:00:37.77,Destaque,,0,0,0,,{\alpha&HFF&}pelos dois lados da {\alpha&H00&}montanha,{\alpha&HFF&}
+Dialogue: 0,0:00:37.77,0:00:38.63,Legenda,,0,0,0,,sete mil quinhentas
+Dialogue: 1,0:00:37.77,0:00:37.99,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}sete{\alpha&HFF&} mil quinhentas
+Dialogue: 1,0:00:37.99,0:00:38.16,Destaque,,0,0,0,,{\alpha&HFF&}sete {\alpha&H00&}mil{\alpha&HFF&} quinhentas
+Dialogue: 1,0:00:38.16,0:00:38.63,Destaque,,0,0,0,,{\alpha&HFF&}sete mil {\alpha&H00&}quinhentas{\alpha&HFF&}
+Dialogue: 0,0:00:38.63,0:00:39.11,Legenda,,0,0,0,,e sessenta
+Dialogue: 1,0:00:38.63,0:00:38.72,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} sessenta
+Dialogue: 1,0:00:38.72,0:00:39.11,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}sessenta{\alpha&HFF&}
+Dialogue: 0,0:00:39.11,0:00:40.65,Legenda,,0,0,0,,e três pessoas chegaram.
+Dialogue: 1,0:00:39.11,0:00:39.19,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} três pessoas chegaram.
+Dialogue: 1,0:00:39.19,0:00:39.41,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}três{\alpha&HFF&} pessoas chegaram.
+Dialogue: 1,0:00:39.41,0:00:39.73,Destaque,,0,0,0,,{\alpha&HFF&}e três {\alpha&H00&}pessoas{\alpha&HFF&} chegaram.
+Dialogue: 1,0:00:39.73,0:00:40.65,Destaque,,0,0,0,,{\alpha&HFF&}e três pessoas {\alpha&H00&}chegaram.{\alpha&HFF&}
+Dialogue: 0,0:00:40.65,0:00:42.03,Legenda,,0,0,0,,Com garrafa de oxigênio,
+Dialogue: 1,0:00:40.65,0:00:40.83,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Com{\alpha&HFF&} garrafa de oxigênio,
+Dialogue: 1,0:00:40.83,0:00:41.21,Destaque,,0,0,0,,{\alpha&HFF&}Com {\alpha&H00&}garrafa{\alpha&HFF&} de oxigênio,
+Dialogue: 1,0:00:41.21,0:00:41.29,Destaque,,0,0,0,,{\alpha&HFF&}Com garrafa {\alpha&H00&}de{\alpha&HFF&} oxigênio,
+Dialogue: 1,0:00:41.29,0:00:42.03,Destaque,,0,0,0,,{\alpha&HFF&}Com garrafa de {\alpha&H00&}oxigênio,{\alpha&HFF&}
+Dialogue: 0,0:00:42.03,0:00:42.95,Legenda,,0,0,0,,oito em cada dez
+Dialogue: 1,0:00:42.03,0:00:42.29,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}oito{\alpha&HFF&} em cada dez
+Dialogue: 1,0:00:42.29,0:00:42.43,Destaque,,0,0,0,,{\alpha&HFF&}oito {\alpha&H00&}em{\alpha&HFF&} cada dez
+Dialogue: 1,0:00:42.43,0:00:42.57,Destaque,,0,0,0,,{\alpha&HFF&}oito em {\alpha&H00&}cada{\alpha&HFF&} dez
+Dialogue: 1,0:00:42.57,0:00:42.95,Destaque,,0,0,0,,{\alpha&HFF&}oito em cada {\alpha&H00&}dez{\alpha&HFF&}
+Dialogue: 0,0:00:42.95,0:00:44.05,Legenda,,0,0,0,,que tentam chegam.
+Dialogue: 1,0:00:42.95,0:00:43.13,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}que{\alpha&HFF&} tentam chegam.
+Dialogue: 1,0:00:43.13,0:00:43.51,Destaque,,0,0,0,,{\alpha&HFF&}que {\alpha&H00&}tentam{\alpha&HFF&} chegam.
+Dialogue: 1,0:00:43.51,0:00:44.05,Destaque,,0,0,0,,{\alpha&HFF&}que tentam {\alpha&H00&}chegam.{\alpha&HFF&}
+Dialogue: 0,0:00:47.05,0:00:47.39,Legenda,,0,0,0,,Mas tem
+Dialogue: 1,0:00:47.05,0:00:47.23,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Mas{\alpha&HFF&} tem
+Dialogue: 1,0:00:47.23,0:00:47.39,Destaque,,0,0,0,,{\alpha&HFF&}Mas {\alpha&H00&}tem{\alpha&HFF&}
+Dialogue: 0,0:00:47.39,0:00:48.87,Legenda,,0,0,0,,um custo fora do orçamento.
+Dialogue: 1,0:00:47.39,0:00:47.47,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}um{\alpha&HFF&} custo fora do orçamento.
+Dialogue: 1,0:00:47.47,0:00:47.83,Destaque,,0,0,0,,{\alpha&HFF&}um {\alpha&H00&}custo{\alpha&HFF&} fora do orçamento.
+Dialogue: 1,0:00:47.83,0:00:48.07,Destaque,,0,0,0,,{\alpha&HFF&}um custo {\alpha&H00&}fora{\alpha&HFF&} do orçamento.
+Dialogue: 1,0:00:48.07,0:00:48.21,Destaque,,0,0,0,,{\alpha&HFF&}um custo fora {\alpha&H00&}do{\alpha&HFF&} orçamento.
+Dialogue: 1,0:00:48.21,0:00:48.87,Destaque,,0,0,0,,{\alpha&HFF&}um custo fora do {\alpha&H00&}orçamento.{\alpha&HFF&}
+Dialogue: 0,0:00:53.04,0:00:54.06,Legenda,,0,0,0,,A cada cem vezes
+Dialogue: 1,0:00:53.04,0:00:53.20,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}A{\alpha&HFF&} cada cem vezes
+Dialogue: 1,0:00:53.20,0:00:53.38,Destaque,,0,0,0,,{\alpha&HFF&}A {\alpha&H00&}cada{\alpha&HFF&} cem vezes
+Dialogue: 1,0:00:53.38,0:00:53.72,Destaque,,0,0,0,,{\alpha&HFF&}A cada {\alpha&H00&}cem{\alpha&HFF&} vezes
+Dialogue: 1,0:00:53.72,0:00:54.06,Destaque,,0,0,0,,{\alpha&HFF&}A cada cem {\alpha&H00&}vezes{\alpha&HFF&}
+Dialogue: 0,0:00:54.06,0:00:55.32,Legenda,,0,0,0,,que alguém chegou ao topo,
+Dialogue: 1,0:00:54.06,0:00:54.20,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}que{\alpha&HFF&} alguém chegou ao topo,
+Dialogue: 1,0:00:54.20,0:00:54.38,Destaque,,0,0,0,,{\alpha&HFF&}que {\alpha&H00&}alguém{\alpha&HFF&} chegou ao topo,
+Dialogue: 1,0:00:54.38,0:00:54.54,Destaque,,0,0,0,,{\alpha&HFF&}que alguém {\alpha&H00&}chegou{\alpha&HFF&} ao topo,
+Dialogue: 1,0:00:54.54,0:00:54.72,Destaque,,0,0,0,,{\alpha&HFF&}que alguém chegou {\alpha&H00&}ao{\alpha&HFF&} topo,
+Dialogue: 1,0:00:54.72,0:00:55.32,Destaque,,0,0,0,,{\alpha&HFF&}que alguém chegou ao {\alpha&H00&}topo,{\alpha&HFF&}
+Dialogue: 0,0:00:55.32,0:00:56.68,Legenda,,0,0,0,,uma pessoa morreu na montanha.
+Dialogue: 1,0:00:55.32,0:00:55.50,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}uma{\alpha&HFF&} pessoa morreu na montanha.
+Dialogue: 1,0:00:55.50,0:00:55.82,Destaque,,0,0,0,,{\alpha&HFF&}uma {\alpha&H00&}pessoa{\alpha&HFF&} morreu na montanha.
+Dialogue: 1,0:00:55.82,0:00:56.16,Destaque,,0,0,0,,{\alpha&HFF&}uma pessoa {\alpha&H00&}morreu{\alpha&HFF&} na montanha.
+Dialogue: 1,0:00:56.16,0:00:56.26,Destaque,,0,0,0,,{\alpha&HFF&}uma pessoa morreu {\alpha&H00&}na{\alpha&HFF&} montanha.
+Dialogue: 1,0:00:56.26,0:00:56.68,Destaque,,0,0,0,,{\alpha&HFF&}uma pessoa morreu na {\alpha&H00&}montanha.{\alpha&HFF&}
+Dialogue: 0,0:00:56.68,0:00:57.66,Legenda,,0,0,0,,E ainda falta
+Dialogue: 1,0:00:56.68,0:00:57.18,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}E{\alpha&HFF&} ainda falta
+Dialogue: 1,0:00:57.18,0:00:57.34,Destaque,,0,0,0,,{\alpha&HFF&}E {\alpha&H00&}ainda{\alpha&HFF&} falta
+Dialogue: 1,0:00:57.34,0:00:57.66,Destaque,,0,0,0,,{\alpha&HFF&}E ainda {\alpha&H00&}falta{\alpha&HFF&}
+Dialogue: 0,0:00:57.66,0:00:59.04,Legenda,,0,0,0,,o último degrau,
+Dialogue: 1,0:00:57.66,0:00:57.98,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} último degrau,
+Dialogue: 1,0:00:57.98,0:00:58.32,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}último{\alpha&HFF&} degrau,
+Dialogue: 1,0:00:58.32,0:00:59.04,Destaque,,0,0,0,,{\alpha&HFF&}o último {\alpha&H00&}degrau,{\alpha&HFF&}
+Dialogue: 0,0:00:59.04,0:01:00.98,Legenda,,0,0,0,,mais raro que ser bilionário.
+Dialogue: 1,0:00:59.04,0:00:59.30,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}mais{\alpha&HFF&} raro que ser bilionário.
+Dialogue: 1,0:00:59.30,0:00:59.76,Destaque,,0,0,0,,{\alpha&HFF&}mais {\alpha&H00&}raro{\alpha&HFF&} que ser bilionário.
+Dialogue: 1,0:00:59.76,0:00:59.90,Destaque,,0,0,0,,{\alpha&HFF&}mais raro {\alpha&H00&}que{\alpha&HFF&} ser bilionário.
+Dialogue: 1,0:00:59.90,0:01:00.10,Destaque,,0,0,0,,{\alpha&HFF&}mais raro que {\alpha&H00&}ser{\alpha&HFF&} bilionário.
+Dialogue: 1,0:01:00.10,0:01:00.98,Destaque,,0,0,0,,{\alpha&HFF&}mais raro que ser {\alpha&H00&}bilionário.{\alpha&HFF&}
+Dialogue: 0,0:01:01.39,0:01:02.71,Legenda,,0,0,0,,Degrau quatro:
+Dialogue: 1,0:01:01.39,0:01:01.95,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Degrau{\alpha&HFF&} quatro:
+Dialogue: 1,0:01:01.95,0:01:02.71,Destaque,,0,0,0,,{\alpha&HFF&}Degrau {\alpha&H00&}quatro:{\alpha&HFF&}
+Dialogue: 0,0:01:02.71,0:01:04.31,Legenda,,0,0,0,,o topo sem garrafa.
+Dialogue: 1,0:01:02.71,0:01:02.81,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}o{\alpha&HFF&} topo sem garrafa.
+Dialogue: 1,0:01:02.81,0:01:03.31,Destaque,,0,0,0,,{\alpha&HFF&}o {\alpha&H00&}topo{\alpha&HFF&} sem garrafa.
+Dialogue: 1,0:01:03.31,0:01:03.51,Destaque,,0,0,0,,{\alpha&HFF&}o topo {\alpha&H00&}sem{\alpha&HFF&} garrafa.
+Dialogue: 1,0:01:03.51,0:01:04.31,Destaque,,0,0,0,,{\alpha&HFF&}o topo sem {\alpha&H00&}garrafa.{\alpha&HFF&}
+Dialogue: 0,0:01:04.31,0:01:05.77,Legenda,,0,0,0,,Só duzentas e trinta
+Dialogue: 1,0:01:04.31,0:01:04.65,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Só{\alpha&HFF&} duzentas e trinta
+Dialogue: 1,0:01:04.65,0:01:05.37,Destaque,,0,0,0,,{\alpha&HFF&}Só {\alpha&H00&}duzentas{\alpha&HFF&} e trinta
+Dialogue: 1,0:01:05.37,0:01:05.49,Destaque,,0,0,0,,{\alpha&HFF&}Só duzentas {\alpha&H00&}e{\alpha&HFF&} trinta
+Dialogue: 1,0:01:05.49,0:01:05.77,Destaque,,0,0,0,,{\alpha&HFF&}Só duzentas e {\alpha&H00&}trinta{\alpha&HFF&}
+Dialogue: 0,0:01:05.77,0:01:06.97,Legenda,,0,0,0,,e duas subidas.
+Dialogue: 1,0:01:05.77,0:01:05.85,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} duas subidas.
+Dialogue: 1,0:01:05.85,0:01:06.03,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}duas{\alpha&HFF&} subidas.
+Dialogue: 1,0:01:06.03,0:01:06.97,Destaque,,0,0,0,,{\alpha&HFF&}e duas {\alpha&H00&}subidas.{\alpha&HFF&}
+Dialogue: 0,0:01:06.97,0:01:08.67,Legenda,,0,0,0,,Na última lista da Forbes,
+Dialogue: 1,0:01:06.97,0:01:07.21,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Na{\alpha&HFF&} última lista da Forbes,
+Dialogue: 1,0:01:07.21,0:01:07.45,Destaque,,0,0,0,,{\alpha&HFF&}Na {\alpha&H00&}última{\alpha&HFF&} lista da Forbes,
+Dialogue: 1,0:01:07.45,0:01:07.85,Destaque,,0,0,0,,{\alpha&HFF&}Na última {\alpha&H00&}lista{\alpha&HFF&} da Forbes,
+Dialogue: 1,0:01:07.85,0:01:08.01,Destaque,,0,0,0,,{\alpha&HFF&}Na última lista {\alpha&H00&}da{\alpha&HFF&} Forbes,
+Dialogue: 1,0:01:08.01,0:01:08.67,Destaque,,0,0,0,,{\alpha&HFF&}Na última lista da {\alpha&H00&}Forbes,{\alpha&HFF&}
+Dialogue: 0,0:01:08.67,0:01:10.09,Legenda,,0,0,0,,são três mil quatrocentos
+Dialogue: 1,0:01:08.67,0:01:08.77,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}são{\alpha&HFF&} três mil quatrocentos
+Dialogue: 1,0:01:08.77,0:01:09.25,Destaque,,0,0,0,,{\alpha&HFF&}são {\alpha&H00&}três{\alpha&HFF&} mil quatrocentos
+Dialogue: 1,0:01:09.25,0:01:09.41,Destaque,,0,0,0,,{\alpha&HFF&}são três {\alpha&H00&}mil{\alpha&HFF&} quatrocentos
+Dialogue: 1,0:01:09.41,0:01:10.09,Destaque,,0,0,0,,{\alpha&HFF&}são três mil {\alpha&H00&}quatrocentos{\alpha&HFF&}
+Dialogue: 0,0:01:10.09,0:01:11.51,Legenda,,0,0,0,,e vinte e oito bilionários.
+Dialogue: 1,0:01:10.09,0:01:10.17,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} vinte e oito bilionários.
+Dialogue: 1,0:01:10.17,0:01:10.35,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}vinte{\alpha&HFF&} e oito bilionários.
+Dialogue: 1,0:01:10.35,0:01:10.45,Destaque,,0,0,0,,{\alpha&HFF&}e vinte {\alpha&H00&}e{\alpha&HFF&} oito bilionários.
+Dialogue: 1,0:01:10.45,0:01:10.61,Destaque,,0,0,0,,{\alpha&HFF&}e vinte e {\alpha&H00&}oito{\alpha&HFF&} bilionários.
+Dialogue: 1,0:01:10.61,0:01:11.51,Destaque,,0,0,0,,{\alpha&HFF&}e vinte e oito {\alpha&H00&}bilionários.{\alpha&HFF&}
+Dialogue: 0,0:01:11.93,0:01:13.43,Legenda,,0,0,0,,Dinheiro compra a licença
+Dialogue: 1,0:01:11.93,0:01:12.49,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Dinheiro{\alpha&HFF&} compra a licença
+Dialogue: 1,0:01:12.49,0:01:12.83,Destaque,,0,0,0,,{\alpha&HFF&}Dinheiro {\alpha&H00&}compra{\alpha&HFF&} a licença
+Dialogue: 1,0:01:12.83,0:01:12.99,Destaque,,0,0,0,,{\alpha&HFF&}Dinheiro compra {\alpha&H00&}a{\alpha&HFF&} licença
+Dialogue: 1,0:01:12.99,0:01:13.43,Destaque,,0,0,0,,{\alpha&HFF&}Dinheiro compra a {\alpha&H00&}licença{\alpha&HFF&}
+Dialogue: 0,0:01:13.43,0:01:14.49,Legenda,,0,0,0,,e a garrafa.
+Dialogue: 1,0:01:13.43,0:01:13.55,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}e{\alpha&HFF&} a garrafa.
+Dialogue: 1,0:01:13.55,0:01:13.65,Destaque,,0,0,0,,{\alpha&HFF&}e {\alpha&H00&}a{\alpha&HFF&} garrafa.
+Dialogue: 1,0:01:13.65,0:01:14.49,Destaque,,0,0,0,,{\alpha&HFF&}e a {\alpha&H00&}garrafa.{\alpha&HFF&}
+Dialogue: 0,0:01:14.49,0:01:15.55,Legenda,,0,0,0,,Não compra o fôlego
+Dialogue: 1,0:01:14.49,0:01:14.63,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}Não{\alpha&HFF&} compra o fôlego
+Dialogue: 1,0:01:14.63,0:01:14.93,Destaque,,0,0,0,,{\alpha&HFF&}Não {\alpha&H00&}compra{\alpha&HFF&} o fôlego
+Dialogue: 1,0:01:14.93,0:01:15.05,Destaque,,0,0,0,,{\alpha&HFF&}Não compra {\alpha&H00&}o{\alpha&HFF&} fôlego
+Dialogue: 1,0:01:15.05,0:01:15.55,Destaque,,0,0,0,,{\alpha&HFF&}Não compra o {\alpha&H00&}fôlego{\alpha&HFF&}
+Dialogue: 0,0:01:15.55,0:01:16.81,Legenda,,0,0,0,,pra subir sem ela.
+Dialogue: 1,0:01:15.55,0:01:15.75,Destaque,,0,0,0,,{\alpha&HFF&}{\alpha&H00&}pra{\alpha&HFF&} subir sem ela.
+Dialogue: 1,0:01:15.75,0:01:16.01,Destaque,,0,0,0,,{\alpha&HFF&}pra {\alpha&H00&}subir{\alpha&HFF&} sem ela.
+Dialogue: 1,0:01:16.01,0:01:16.21,Destaque,,0,0,0,,{\alpha&HFF&}pra subir {\alpha&H00&}sem{\alpha&HFF&} ela.
+Dialogue: 1,0:01:16.21,0:01:16.81,Destaque,,0,0,0,,{\alpha&HFF&}pra subir sem {\alpha&H00&}ela.{\alpha&HFF&}

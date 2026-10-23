@@ -1,0 +1,49 @@
+[
+  {
+    "trecho": "Esse carteiro nunca atrasa, hein?",
+    "tipo": "ilustracao",
+    "descricao": "Manhã seguinte: a casa de cerquinha branca e o carteiro Abacatudo arremessando o jornal na porta, com o topete aparecendo por baixo do quepe. O Bananildo fala de dentro, da mesa.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P05"
+    ],
+    "local": "L03",
+    "objetos": [
+      "O02"
+    ],
+    "prompt_cena": "Abacatudo the avocado, on the sidewalk outside the white picket fence, flings the rolled newspaper toward the front door with a showy flick of the wrist, his glossy pompadour quiff bouncing out from under his cap, the house centered in bright morning sun",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Todo santo dia.",
+    "tipo": "ilustracao",
+    "descricao": "O carteiro para no portão e olha um segundo a mais para a janela da cozinha, com o topete à mostra e sorriso de galã (o sorriso que volta no menino abacate).",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P05"
+    ],
+    "local": "L03",
+    "objetos": [
+      "O02"
+    ],
+    "prompt_cena": "Abacatudo the avocado stops at the garden gate and looks a beat too long toward the kitchen window, tipping his cap so his glossy pompadour quiff shows, flashing a slow movie-star grin with a sparkle on his teeth, the newspaper lying at the front door behind him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Todo santo dia, amor.",
+    "tipo": "ilustracao",
+    "descricao": "Close da Moranguete, já de roupa de casa, à janela da cozinha com a xícara, vendo o carteiro ir embora, sonhadora. Ainda sem o sorriso de canto.",
+    "enquadramento": "close",
+    "personagens": [
+      "P01"
+    ],
+    "local": "L04",
+    "objetos": [],
+    "prompt_cena": "Moranguete the strawberry leans on the kitchen windowsill holding a steaming coffee cup in both hands, gazing out the window after someone walking away, a soft dreamy look, lips parted, morning sun on her face, checkered curtains framing her",
+    "movimento": "zoom-in",
+    "transicao": "corte",
+    "negativo": "nudity, lingerie, cleavage, low neckline, shirtless, bare torso, underwear, suggestive pose"
+  }
+]

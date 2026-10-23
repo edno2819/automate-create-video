@@ -1,0 +1,53 @@
+[
+  {
+    "trecho": "Degrau dois: sair do acampamento base e escalar.",
+    "tipo": "cartela",
+    "texto_na_tela": "DEGRAU 2 — A SUBIDA",
+    "descricao": "Cartela do segundo degrau: a escada de papelão agora com o segundo degrau em laranja, já acima das barracas, apoiada na encosta de gelo.",
+    "enquadramento": "plano-geral",
+    "personagens": [],
+    "local": "L01",
+    "objetos": ["O02"],
+    "prompt_cena": "the cardboard ladder propped on the icy lower slope of the paper mountain, its second rung painted signal orange, tiny base camp tents far below, the summit high above in clouds",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Só pelo lado do Nepal, desde o ano dois mil, quase dezesseis mil pessoas tentaram.",
+    "tipo": "ilustracao",
+    "texto_na_tela": "≈ 16 mil · Nepal · 2000–2025",
+    "descricao": "Vista de cima: uma fila longa e sinuosa de bonequinhos de papel saindo das barracas e subindo a encosta, do tamanho de formigas. A multidão que tenta.",
+    "enquadramento": "aereo",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a long winding queue of hundreds of tiny paper cutout climbers in colorful down suits leaves the base camp tents and snakes up the white glacier like a line of ants, the slope stretching up and away",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Mais da metade nem era cliente: eram guias e sherpas,",
+    "tipo": "ilustracao",
+    "texto_na_tela": "8.994 pagos × 6.787 clientes",
+    "descricao": "Os guias e sherpas na frente da fila, carregando cordas e garrafas de oxigênio nas costas: a maior parte de quem sobe está trabalhando.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P03"],
+    "local": "L01",
+    "objetos": ["O01"],
+    "prompt_cena": "the sherpa guides march up the snow slope in a row, bent forward under huge backpacks stacked with orange oxygen cylinders and coiled ropes, steady and focused, footprints trailing behind them",
+    "movimento": "pan-direita",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "pagos pra subir. Mas começar não é chegar.",
+    "tipo": "ilustracao",
+    "descricao": "Por cima do ombro do alpinista de papel, a corda fixa sobe a encosta até sumir: o cume ainda está muito longe. Começar não é chegar.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P01"],
+    "local": "L01",
+    "objetos": ["O05"],
+    "prompt_cena": "the paper climber, seen from behind, grips the fixed rope that climbs an endless steep white slope ahead, the tiny summit barely visible far above through drifting cotton-wool clouds",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

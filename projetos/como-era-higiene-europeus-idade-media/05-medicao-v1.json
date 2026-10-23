@@ -1,0 +1,180 @@
+{
+  "arquivo": "projetos/como-era-higiene-europeus-idade-media/05-roteiro-v1.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "Como era a higiene dos europeus na Idade Média",
+  "palavras": 120,
+  "duracao_estimada": "00:49",
+  "duracao_segundos": 49,
+  "duracao_alvo": "00:45",
+  "trecho_gancho": "Paris, Idade Média. Seu pé",
+  "trecho_30s": "Paris, Idade Média. Seu pé some. Rua sem calçamento. Só lama, lixo e fedor. Então você foge pro castelo. Mas lá o banheiro é um buraco na parede. Tudo despenca no fosso. E o nome chique disso, em francês? Guarda-roupa. Só que, pros médicos, esse cheiro mata. Ar podre traz a peste, eles juram. Então você leva uma bolinha de perfume no cinto. Sem dinheiro? Uma laranja oca com esponja de vinagre. E o rei?",
+  "primeira_frase": "Paris, Idade Média.",
+  "ultima_frase": "A sua ficou como o seu pé encontrou, quando você saiu de casa em...",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "O pé que some",
+      "funcao": "gancho",
+      "palavras": 19,
+      "inicio": "00:00",
+      "fim": "00:08",
+      "duracao_s": 8,
+      "rehooks": 1,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Paris, Idade Média. Seu pé some. Rua sem"
+    },
+    {
+      "id": "B02",
+      "titulo": "O guarda-roupa",
+      "funcao": "desenvolvimento",
+      "palavras": 28,
+      "inicio": "00:08",
+      "fim": "00:19",
+      "duracao_s": 11,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Mas lá o banheiro é um buraco na"
+    },
+    {
+      "id": "B03",
+      "titulo": "A laranja no nariz",
+      "funcao": "desenvolvimento",
+      "palavras": 28,
+      "inicio": "00:19",
+      "fim": "00:31",
+      "duracao_s": 12,
+      "rehooks": 1,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Ar podre traz a peste, eles juram. Então"
+    },
+    {
+      "id": "B04",
+      "titulo": "Nem o rei",
+      "funcao": "virada",
+      "palavras": 27,
+      "inicio": "00:31",
+      "fim": "00:42",
+      "duracao_s": 11,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Nem ele escapa. Reza a história que o"
+    },
+    {
+      "id": "B05",
+      "titulo": "A rua do lado",
+      "funcao": "final",
+      "palavras": 18,
+      "inicio": "00:42",
+      "fim": "00:49",
+      "duracao_s": 7,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Não. Só as principais. A sua ficou como"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1",
+        "L2"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:08",
+      "ativos_no_inicio": [
+        "L1",
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:19",
+      "ativos_no_inicio": [
+        "L1",
+        "L3"
+      ],
+      "abre": [
+        "L4"
+      ],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L4"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:31",
+      "ativos_no_inicio": [
+        "L1",
+        "L4"
+      ],
+      "abre": [
+        "L5"
+      ],
+      "fecha": [
+        "L4"
+      ],
+      "ativos_no_fim": [
+        "L1",
+        "L5"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:42",
+      "ativos_no_inicio": [
+        "L1",
+        "L5"
+      ],
+      "abre": [
+        "L6"
+      ],
+      "fecha": [
+        "L1",
+        "L5",
+        "L6"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "Seu pé sumiu na lama de Paris. Alguém um dia vai dar jeito nessa rua?",
+    "L2": "Você foge pro castelo. Lá dentro é melhor?",
+    "L3": "Por que, pros médicos, esse cheiro mata? E o que fazer contra ele?",
+    "L4": "E o rei? Ele escapa do fedor?",
+    "L5": "O rei mandou calçar as ruas. Todas?",
+    "L6": "\"quando você saiu de casa em...\" A frase fica em suspenso e se completa no replay com \"Paris, Idade Média\", a primeira frase do B01."
+  },
+  "verificar": [],
+  "falas": {},
+  "alertas": []
+}

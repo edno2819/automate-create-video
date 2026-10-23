@@ -1,0 +1,56 @@
+{
+  "id": "A1",
+  "titulo": "Escalar o evereste uma das conquistas mais difíceis do mundo",
+  "titulos_alternativos": [
+    "Escalar o Everest: uma das conquistas mais difíceis do mundo",
+    "Everest sem oxigênio é mais raro que ser bilionário"
+  ],
+  "thumbnail": {
+    "elemento_central": "Colagem de papel recortado: uma montanha branca com um único bonequinho de papel no cume, sem máscara de oxigênio. Ao lado, uma pilha alta de bonequinhos de terno com cifrão no peito, mais alta que a própria montanha.",
+    "texto": "15x mais bilionários",
+    "emocao": "espanto, de quem não acredita na conta",
+    "relacao_com_titulo": "O título diz que é difícil. A thumb mostra o quanto: a comparação com bilionários, que o título não menciona, transforma 'difícil' em número."
+  },
+  "promessa": "Você vai ver, degrau por degrau e com números de fonte, quantas pessoas chegam a cada nível do Everest, quanto custa em reais e quantas morreram, até entender por que subir sem oxigênio é mais raro que ser bilionário.",
+  "formato": "short",
+  "duracao_recomendada": "00:58",
+  "justificativa_duracao": "A 180 palavras por minuto cabem cerca de 175 palavras: gancho, quatro degraus com um número cada, a virada das mortes e o fecho com callback. É o mínimo para cumprir tudo o que a descrição pede (custo, contagem por nível, mortes). Passar de 1 minuto exigiria mais números seguidos, o que cansa no short.",
+  "tecnicas": [
+    "contagem-regressiva",
+    "loop-aberto",
+    "mas-entao",
+    "quebra-de-padrao",
+    "callback",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "dado-chocante",
+  "gancho_proposto": "Existem quase 15 vezes mais bilionários no mundo do que subidas ao topo do Everest sem oxigênio. Em toda a história.",
+  "estrutura": [
+    "B01 (0-5 s, ~15 palavras): gancho. 3.428 bilionários (Forbes, março de 2026) contra 232 subidas sem oxigênio desde 1953. Planta o 232, que só volta no B06. Primeiro frame: a pilha de bonecos de terno ao lado do bonequinho sozinho no cume.",
+    "B02 (5-17 s, ~35 palavras): degrau 1, o ingresso. Só a licença do Nepal custa cerca de R$ 75 mil. A expedição vai de cerca de R$ 227 mil (operadora nepalesa) a cerca de R$ 403 mil (ocidental), câmbio de 22/10/2026. Loop: 'e isso só te dá o direito de tentar'.",
+    "B03 (17-28 s, ~35 palavras): degrau 2, acima do acampamento base. 15.781 pessoas no lado nepalês, de 2000 a 2025, e a maioria (8.994) é gente paga para subir, não cliente. Mas passar do acampamento base não é chegar.",
+    "B04 (28-40 s, ~35 palavras): degrau 3, o cume. 7.563 pessoas em mais de 70 anos. Menos da metade das tentativas acima do acampamento base termina no topo (43%). Com oxigênio, cerca de 80% chegam; sem ele, cerca de 4%.",
+    "B05 (40-50 s, ~30 palavras), VIRADA: o preço que não está na conta. Cerca de 340 mortes até 2025, mais ou menos uma para cada 100 cumes. Dito como informação, com imagem indireta (cordas vazias, barraca fechada).",
+    "B06 (50-58 s, ~25 palavras): último degrau e callback do B01. Sem oxigênio, 232 subidas em toda a história. Fecho: ser bilionário é mais comum do que isso. A última frase emenda na primeira para o replay."
+  ],
+  "esqueleto_base": "biblioteca/esqueletos/dor-pintada-DYAYD0UYvvE.json",
+  "cortes_previstos": [],
+  "evidencias": [
+    "Sem 02-trends.md: nenhum dado de desempenho sustenta o ângulo. A estrutura vem do esqueleto do Dor Pintada (a escada de níveis em que cada degrau custa mais), comprimida para um short.",
+    "Dossiê, seção 0: a frase do pedido é falsa, e a comparação com subidas sem oxigênio (3.428 contra 232) mantém a surpresa sem inventar dado.",
+    "Dossiê, seções 2.2 a 2.4: todos os números da escada têm fonte (Alan Arnette/Himalayan Database, PTAX do Banco Central, Forbes via reprodução do comunicado)."
+  ],
+  "aposta": true,
+  "diferencial": "O vídeo típico sobre o custo do Everest fala em dólar e para no preço. Este ângulo converte para reais com data, mostra o funil de quem chega a cada nível e fecha numa comparação com bilionários que é verdadeira, coisa que a frase viral não é.",
+  "riscos": [
+    "Não há dados de trends (falta 02-trends.md): não dá para afirmar que o tema ou o formato estão em alta. Todo ângulo deste projeto é aposta.",
+    "O pedido quer a contagem por acampamento (campos 1 a 4), mas nenhuma fonte publica esse número. A escada usa os níveis que têm dado (ingresso, acima do acampamento base, cume, sem oxigênio) e o roteiro não pode estimar os campos.",
+    "Muitos números em 58 s a 180 palavras por minuto: há risco de confundir. No máximo um número forte por frase, e a cartela visual repete o número.",
+    "O 232 conta subidas, não pessoas (alguém pode ter subido mais de uma vez). O roteiro precisa dizer 'subidas'.",
+    "A página primária da Forbes não foi lida (os 3.428 vêm da reprodução do comunicado; confiança média).",
+    "Mortes: o tom precisa ser sóbrio e o visual indireto, como manda a restrição do pedido. Se for bem feito, não há risco de monetização."
+  ],
+  "ajustes_do_usuario": null,
+  "escolhido_em": "2026-10-22",
+  "escolhido_por": "interface web"
+}

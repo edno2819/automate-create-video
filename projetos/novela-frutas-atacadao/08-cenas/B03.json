@@ -1,0 +1,68 @@
+[
+  {
+    "trecho": "Mas ela só olha pro açougueiro.",
+    "tipo": "ilustracao",
+    "descricao": "A virada: a Moranguete, queixo na mão, ignora o Abacatinho que ainda sorri para ela na beira do quadro; o olhar dela atravessa a loja até o Pepinão, pequeno e desfocado, encostado no açougue de azulejo branco. A loja inteira separa os dois.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01",
+      "P02",
+      "P03"
+    ],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "Moranguete the strawberry at her checkout counter, chin resting on her hand, half-lidded dreamy eyes ignoring Abacatinho the avocado, who still beams at her from the edge of the frame; her gaze drifts across the store to Pepinão the cucumber, small and soft-focus in the far background, leaning against the white-tiled butcher section, sly melodramatic tension",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Cinco minutos. Câmara fria.",
+    "tipo": "ilustracao",
+    "descricao": "O Pepinão, de baixo para cima, passa atrás do caixa sem olhar para ninguém, palito no canto da boca, e desliza o bilhete dobrado no balcão com dois dedos. A Moranguete fica fora do quadro: nenhum toque.",
+    "enquadramento": "contra-plongee",
+    "personagens": [
+      "P03"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "Pepinão the cucumber walks past behind the checkout counter without looking at anyone, eyes fixed ahead, toothpick in his smirk, sliding the small folded note onto the counter with two fingers as he passes, cool dramatic backlight, secretive and smug",
+    "movimento": "subir",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Segura meu caixa, amor? Vou buscar troco.",
+    "tipo": "ilustracao",
+    "descricao": "A Moranguete guarda o bilhete no bolso do colete com uma mão e aponta o caixa com a outra, sorrindo doce para o Abacatinho, que se vira da gôndola ao fundo e faz que sim, radiante.",
+    "enquadramento": "plano-medio",
+    "personagens": [
+      "P01",
+      "P02"
+    ],
+    "local": "L02",
+    "objetos": [
+      "O03"
+    ],
+    "prompt_cena": "Moranguete the strawberry slips the small folded note into her vest pocket with one hand while pointing at her cash register with the other, flashing a sweet fake smile at Abacatinho the avocado, who turns around from stacking boxes on a shelf in the background, beaming and nodding eagerly, ironic melodrama",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "A câmara fria se fecha. E ele, segurando o caixa dela.",
+    "tipo": "ilustracao",
+    "descricao": "Re-hook em ironia dramática: em primeiro plano, a porta da câmara fria se fecha sozinha, com fumaça gelada e o crachá rosa já na maçaneta, sem ninguém à vista; no fundo do corredor, pequeno e feliz, o Abacatinho sozinho no caixa dela, abraçado à caixa de bombom.",
+    "enquadramento": "plano-geral",
+    "personagens": [
+      "P02"
+    ],
+    "local": "L01",
+    "objetos": [
+      "O01",
+      "O02"
+    ],
+    "prompt_cena": "seen from OUTSIDE the cold room: the camera stands in the stockroom aisle, the heavy frosted steel cold room door is set in the LEFT wall and is almost fully shut, only a thin glowing blue gap left, icy fog spilling out along the floor, the pink name badge dangling on its handle; the cold room interior is NOT visible and nobody is near the door; the aisle runs straight away from the camera to wide open doors at its far end, and through them, on the warm brightly lit sales floor, tiny Abacatinho the avocado stands alone behind the checkout counter hugging the box of bonbons, smiling proudly, unaware; cold blue foreground against warm distant light",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  }
+]

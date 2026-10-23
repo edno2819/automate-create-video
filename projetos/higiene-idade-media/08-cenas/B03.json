@@ -1,0 +1,38 @@
+[
+  {
+    "trecho": "Na rua, banho era negócio. Com guilda e regras.",
+    "tipo": "ilustracao",
+    "descricao": "O dono da casa de banho na porta do seu estabelecimento, entre outros donos, todos com aventais: a virada, o banho como ofício organizado.",
+    "enquadramento": "plano-medio",
+    "personagens": ["P01"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "the bathhouse keeper stands proudly with arms crossed in front of his steaming doorway, flanked by three other bathhouse keepers in leather aprons, a confident trade gathering, morning light and steam around them",
+    "movimento": "zoom-out",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Vapor: 2 denários. Banho completo: 4 denários.",
+    "tipo": "ilustracao",
+    "descricao": "A composição da capa: em primeiro plano, uma mão estende duas moedas de prata ao dono, parado na porta com vapor saindo atrás dele.",
+    "enquadramento": "pov",
+    "personagens": ["P01"],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a hand in the foreground holds out two small silver medieval coins toward the bathhouse keeper, who stands in the doorway with an open palm and a welcoming smile, thick warm steam pouring out behind him",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "Até pregoeiros gritavam pelas ruas, chamando clientes.",
+    "tipo": "ilustracao",
+    "descricao": "Um pregoeiro jovem, de boca aberta, gritando numa rua de Paris, com a mão em concha; passantes se viram para ele.",
+    "enquadramento": "contra-plongee",
+    "personagens": [],
+    "local": "L02",
+    "objetos": [],
+    "prompt_cena": "a lanky street crier in a red hood and patched tunic shouts with one hand cupped to his mouth, the other pointing toward the steaming doorway, townsfolk turning to listen, energetic morning bustle",
+    "movimento": "pan-esquerda",
+    "transicao": "corte"
+  }
+]

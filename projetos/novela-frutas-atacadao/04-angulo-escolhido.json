@@ -1,0 +1,75 @@
+{
+  "id": "A1",
+  "titulo": "A caixa Moranguete tem um segredo na câmara fria 😨",
+  "titulos_alternativos": [
+    "Novela das frutas no supermercado Atacadão",
+    "O que tem na câmara fria? Novela das frutas, Parte 1"
+  ],
+  "marca": {
+    "titulo": "sem marca (título alinhado aos dados, escolhido pelo usuário)",
+    "titulos_alternativos": "o primeiro é o título original do usuário, com a marca real",
+    "no_video": "o usuário escolheu a marca real: o supermercado se chama Atacadão no cenário (placas e crachás com o nome em letreiro genérico). A narração não precisa dizer o nome. Nada de logo, cores, fachada ou uniforme da rede real."
+  },
+  "molde": "Novela das nove com gancho de porta: abre na porta, volta dez minutos e corta no instante em que ela se abre.",
+  "thumbnail": {
+    "elemento_central": "Abacatinho, de colete de repositor genérico, encosta o rosto na porta de aço da câmara fria coberta de gelo, com uma lágrima congelando na bochecha; da fresta saem luz azul e fumaça gelada; pendurado na maçaneta, um crachá rosa com um morango desenhado.",
+    "texto": "QUEM TÁ LÁ DENTRO?",
+    "emocao": "suspeita aflita, com pena dele",
+    "relacao_com_titulo": "O título diz o gênero e o lugar. A thumb mostra o que ele não diz: há um segredo atrás de uma porta, e o crachá rosa entrega de quem é. Quem vê já desconfia da resposta e clica para ver o Abacatinho descobrir."
+  },
+  "promessa": "Ver, em 30 segundos, a caixa Moranguete enganar o repositor Abacatinho e sumir na câmara fria com o açougueiro Pepinão, até o segundo exato em que ele abre a porta.",
+  "formato": "short",
+  "duracao_recomendada": "00:30",
+  "justificativa_duracao": "A duração vem do brief e o enredo cabe nela: abertura no clímax, flashback de duas cenas e volta à porta, em 10 imagens de 3 s e cerca de 69 palavras. Esticar para 60 s pediria uma segunda situação, e o formato vive de cortar no clímax. A prova de 30 s nos dados é pequena (3 vídeos), mas é a duração deles.",
+  "tecnicas": [
+    "in-medias-res",
+    "loop-aberto",
+    "mas-entao",
+    "callback",
+    "final-em-loop"
+  ],
+  "tipo_gancho": "in-medias-res",
+  "gancho_proposto": "[VISUAL: mão verde do Abacatinho na maçaneta da câmara fria, fumaça gelada saindo pela fresta] [FALA: Abacatinho, tremendo] Moranguete... você tá aí dentro? Dez minutos antes, ela jurava que era só dele.",
+  "estrutura": [
+    "B01 (img 1, 0-3 s, ~10 palavras): IN MEDIAS RES. Mão do Abacatinho na maçaneta, fala trêmula. Abre L1: o que ele vai encontrar lá dentro?",
+    "B02 (img 2-4, 3-12 s, ~20 palavras): 'Dez minutos antes' (narrado e em cartela). Caixa sete: ele deixa um abacate com laço na esteira; Moranguete, doce: 'Só você me entende, Abacatinho.' Ele: 'Trabalho seis por um por você.' A ilusão.",
+    "B03 (img 5-7, 12-21 s, ~20 palavras): VIRADA, conector mas. O olhar dela atravessa o mercado até o açougue; Pepinão, grave e arrastado: 'Seis horas. Câmara fria.' Ela fecha o caixa 'pra conferir' e a porta da câmara fria se fecha com os dois do lado de dentro (só a porta). O espectador agora sabe; ele não.",
+    "B04 (img 8-9, 21-27 s, ~12 palavras): conector então. Ele procura por ela com o abacate de laço e acha o crachá dela pendurado na maçaneta. CALLBACK: a porta do B01, agora com significado.",
+    "B05 (img 10, 27-30 s, ~5 palavras): clímax sem resolução. Ele puxa a maçaneta, a luz azul invade a tela, 'Moranguete...' e corte seco com cartela PARTE 2. FINAL EM LOOP: a última imagem é a primeira, e a fala emenda em 'você tá aí dentro?'."
+  ],
+  "esqueleto_base": null,
+  "cortes_previstos": [
+    "Nenhum: o vídeo já é o short (producao.cortes = false).",
+    "A parte 2 abre na porta aberta: o que o Abacatinho vê e o choro da Moranguete desmascarada (o estilo dela no pedido)."
+  ],
+  "evidencias": [
+    "02-trends.md §2 e §6.2: os únicos outliers perto de 30 s abrem direto no encontro, numa cena só: 'Cocardo y Mangoberto se encuentran' (Deon, 0:27, 164.036 views, 56x, 3 d, instável) e o short de DiegoCapoYT (0:19, 77.182 views, 81x, 18 d).",
+    "02-trends.md §6.6: fim em risco físico com a porta da câmara fria fechando, na linha de 'BOQUENILCE E A PRIMA FORAM SEQUESTRADAS! 😱' (82.889 views, 95x), o único short em português no topo.",
+    "Contexto do brief e dossiê §2 (c21media, confiança média): os episódios começam no meio do conflito e terminam no instante em que a porta se abre ou o segredo aparece.",
+    "02-trends.md §5: nenhum episódio coletado se passa em supermercado, e o anúncio da parte 2 dentro do próprio vídeo é raro (inferência a partir dos títulos).",
+    "aprendizados.md: nenhum vídeo registrado no canal; não há dado próprio para pesar."
+  ],
+  "aposta": false,
+  "diferencial": "Cenário que ninguém usou (supermercado) e corte na abertura literal da porta. O primeiro e o último frame são a mesma imagem, então o replay automático emenda sem forçar.",
+  "riscos": [
+    "O flashback come tempo: 'dez minutos antes' precisa de cartela visual, e o B02 não pode passar de 3 imagens.",
+    "O espectador vê os dois entrarem, então a tensão do fim é a descoberta dele, não o mistério do que há lá dentro. Se o crítico achar fraco, mostrar só a porta se fechando, sem ver quem entrou.",
+    "Marca real no cenário, por escolha do usuário: sem logo, cores, fachada ou uniforme da rede.",
+    "Entre Moranguete e Pepinão, só olhar, bilhete e porta se fechando."
+  ],
+  "ajustes_do_usuario": "Ângulo A1 como recomendado. Título trocado pelo alinhado aos dados ('A caixa Moranguete tem um segredo na câmara fria 😨'). Marca real: o supermercado é o Atacadão, não o nome fictício.",
+  "escolhido_em": "2026-10-21",
+  "notas_comuns": [
+    "Formato: short de 30 s, 10 imagens de 3 s. Alvo de 60 a 70 palavras somando narração e falas, abaixo das 75 da tabela de formatos.md, porque falas chorosas, trêmulas e arrastadas (Pepinão) soam mais devagar que 150 ppm. Conferir com ferramentas/medir_roteiro.py.",
+    "Vozes: narrador Sadaltager; [FALA: Moranguete] (Leda), [FALA: Abacatinho] (Achird), [FALA: Pepinão] (Algenib). Nenhuma outra fruta tem voz: figurantes (empacotador, fiscal, clientes) são só visuais.",
+    "Restrição do usuário: o caso fica na sugestão (olhar, bilhete escondido, porta da câmara fria se fechando, no máximo um crachá esquecido). Nada de beijo, abraço, toque, roupa ou casaco tirado, nem silhuetas juntas atrás do vidro.",
+    "Personagens de visual fofo (formatos.md): nenhum duplo sentido com o nome Pepinão nem com o açougue (carne, linguiça, pepino). Pepinão sempre de avental; 'sarado' quer dizer braços fortes, nunca torso nu.",
+    "Faca e cutelo ficam no balcão. Nenhuma lâmina na mão em cena de confronto: a parte 2 não pode prometer ameaça física.",
+    "Sem palavrões: o vídeo inteiro está nos primeiros 30 s.",
+    "Final: cartela visual 'PARTE 2' no último frame, sem CTA falado.",
+    "Thumb em Shorts: aparece na busca, na aba Shorts do canal e em sugeridos. No feed quem faz o papel dela é o primeiro frame, então o [VISUAL] de cada gancho foi pensado para funcionar sozinho.",
+    "Upload: marcar 'não é conteúdo para crianças'. Frutas 3D fofas podem ser tomadas por conteúdo infantil, e vídeo classificado como infantil perde os comentários, que são o motor da torcida da trend.",
+    "Descrição: hashtags #noveladasfrutas, #moranguete e #frutinovela. É o que se repete nos canais pequenos com razão alta (02-trends.md §3), mas é sinal fraco de causa.",
+    "Os ângulos usam abacate de presente e caixas de abacate. Se a direção visual achar estranho fruta vendendo fruta, troque por outro produto sem mexer na estrutura."
+  ]
+}

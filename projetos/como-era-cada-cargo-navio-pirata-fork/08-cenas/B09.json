@@ -1,0 +1,26 @@
+[
+  {
+    "trecho": "As mesmas regras que te pagavam pelo braço te largaram na ilha.",
+    "tipo": "ilustracao",
+    "descricao": "Cena espelho do B05: a mesma composição por sobre o ombro, a mão espalmada nas regras, agora na areia da ilha, o pergaminho preso pela pistola e o navio indo embora.",
+    "enquadramento": "sobre-o-ombro",
+    "personagens": ["P01"],
+    "local": "L03",
+    "objetos": ["O02", "O06"],
+    "prompt_cena": "the young sailor seen from behind, kneeling on the sand with his right palm pressed flat on the ship's articles, the same oath gesture as at the mess table, the parchment weighed down by the pistol beside the water jug, the pirate ship sailing away on the horizon",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  },
+  {
+    "trecho": "E aí, você teria coragem de ser um tripulante de um navio pirata?",
+    "tipo": "ilustracao",
+    "descricao": "Pela primeira vez, o rosto inteiro do marujo, olhando para o espectador: queimado de sol, sozinho na ilha ao anoitecer. A pergunta é dele para você.",
+    "enquadramento": "close",
+    "personagens": ["P01"],
+    "local": "L03",
+    "objetos": [],
+    "prompt_cena": "the young sailor faces the viewer directly for the first time, sunburned and gaunt, alone on the island at dusk, a hard questioning stare, the last glow of sunset on half his face",
+    "movimento": "zoom-in",
+    "transicao": "corte"
+  }
+]

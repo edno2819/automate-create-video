@@ -1,0 +1,179 @@
+{
+  "arquivo": "projetos/fruto-de-traicao/05-roteiro-v2.md",
+  "formato": "short",
+  "ppm": 150,
+  "titulo": "BANANILDO NÃO SABE QUEM É O PAI",
+  "palavras": 86,
+  "duracao_estimada": "00:37",
+  "duracao_segundos": 37,
+  "duracao_alvo": "00:40",
+  "trecho_gancho": "Sabe onde a Moranguete tá",
+  "trecho_30s": "Sabe onde a Moranguete tá agora, Bananildo? Você aqui todo santo dia... Ela cuida das crianças. E cuida do corpo pra mim, lá na academia. Na academia, é? Sei... Mais uma, princesa... só mais uma. E o maridão? Fazendo hora extra. Pelos filhos dele. Dele... Esse carteiro nunca atrasa, hein? Todo santo dia. Todo santo dia, amor. Puxaram tudo do papai. Família... eu preciso dizer uma coisa. Eu não sei o que eu seria sem",
+  "primeira_frase": "Sabe onde a Moranguete tá agora, Bananildo?",
+  "ultima_frase": "eu?",
+  "blocos": [
+    {
+      "id": "B01",
+      "titulo": "Todo santo dia",
+      "funcao": "gancho",
+      "palavras": 29,
+      "inicio": "00:00",
+      "fim": "00:12",
+      "duracao_s": 12,
+      "rehooks": 1,
+      "conector": "—",
+      "cortavel": "não",
+      "abre_com": "Sabe onde a Moranguete tá agora, Bananildo? Você"
+    },
+    {
+      "id": "B02",
+      "titulo": "Mais uma, princesa",
+      "funcao": "desenvolvimento",
+      "palavras": 16,
+      "inicio": "00:12",
+      "fim": "00:19",
+      "duracao_s": 7,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Mais uma, princesa... só mais uma. E o"
+    },
+    {
+      "id": "B03",
+      "titulo": "O carteiro nunca atrasa",
+      "funcao": "desenvolvimento",
+      "palavras": 12,
+      "inicio": "00:19",
+      "fim": "00:25",
+      "duracao_s": 6,
+      "rehooks": 1,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Esse carteiro nunca atrasa, hein? Todo santo dia."
+    },
+    {
+      "id": "B04",
+      "titulo": "Família, eu preciso dizer uma coisa",
+      "funcao": "virada",
+      "palavras": 26,
+      "inicio": "00:25",
+      "fim": "00:36",
+      "duracao_s": 11,
+      "rehooks": 0,
+      "conector": "então",
+      "cortavel": "não",
+      "abre_com": "Puxaram tudo do papai. Família... eu preciso dizer"
+    },
+    {
+      "id": "B05",
+      "titulo": "O sorriso",
+      "funcao": "final",
+      "palavras": 3,
+      "inicio": "00:36",
+      "fim": "00:37",
+      "duracao_s": 1,
+      "rehooks": 0,
+      "conector": "mas",
+      "cortavel": "não",
+      "abre_com": "Imagina, amor... eu?"
+    }
+  ],
+  "intervalos_rehook": [],
+  "mapa_loops": [
+    {
+      "bloco": "B01",
+      "inicio": "00:00",
+      "ativos_no_inicio": [],
+      "abre": [
+        "L1"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L1"
+      ]
+    },
+    {
+      "bloco": "B02",
+      "inicio": "00:12",
+      "ativos_no_inicio": [
+        "L1"
+      ],
+      "abre": [
+        "L2"
+      ],
+      "fecha": [
+        "L1"
+      ],
+      "ativos_no_fim": [
+        "L2"
+      ]
+    },
+    {
+      "bloco": "B03",
+      "inicio": "00:19",
+      "ativos_no_inicio": [
+        "L2"
+      ],
+      "abre": [
+        "L3"
+      ],
+      "fecha": [],
+      "ativos_no_fim": [
+        "L2",
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B04",
+      "inicio": "00:25",
+      "ativos_no_inicio": [
+        "L2",
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L2"
+      ],
+      "ativos_no_fim": [
+        "L3"
+      ]
+    },
+    {
+      "bloco": "B05",
+      "inicio": "00:36",
+      "ativos_no_inicio": [
+        "L3"
+      ],
+      "abre": [],
+      "fecha": [
+        "L3"
+      ],
+      "ativos_no_fim": []
+    }
+  ],
+  "loops_declarados": {
+    "L1": "Onde a Moranguete está de verdade, e o que ela faz, enquanto o Bananildo trabalha todo santo dia?",
+    "L2": "Se os filhos não são do Bananildo, de quem são?",
+    "L3": "O carteiro também entra nessa história? E a Moranguete vai ser desmascarada na frente do marido?"
+  },
+  "verificar": [],
+  "falas": {
+    "Colega": {
+      "falas": 2,
+      "palavras": 16
+    },
+    "Bananildo": {
+      "falas": 5,
+      "palavras": 47
+    },
+    "Pepinão": {
+      "falas": 2,
+      "palavras": 10
+    },
+    "Moranguete": {
+      "falas": 3,
+      "palavras": 13
+    }
+  },
+  "alertas": []
+}

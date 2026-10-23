@@ -1,0 +1,323 @@
+{
+  "projeto": "fruto-de-traicao",
+  "recomendacao": {
+    "angulo": "A1",
+    "motivo": "É o tratamento mais fiel ao pedido: só diálogo, nas quatro vozes que o pedido montou, e nenhum narrador que possa piscar para o público. Junta as duas sugestões do 02-trends.md que têm mais apoio: a revelação pela cara dos filhos sem o marido saber, que é uma lacuna nos dados (seção 5), e o título com o nome do personagem, padrão do Fruti Novelas (24x). Guarda os filhos para os 60% do vídeo, como payoff, em vez de gastar a piada no primeiro frame, e tem o loop mais natural: o sorriso da Moranguete responde à pergunta do colega, que recomeça o vídeo. O ponto fraco é o primeiro frame no escritório, menos chocante que as cenas de drama. Para compensar, o primeiro frame é um close no colega desconfiado e o nome Moranguete aparece nas 4 primeiras palavras. Se o usuário quiser abrir uma série, A3. Se quiser o primeiro frame mais forte, A2."
+  },
+  "angulos": [
+    {
+      "id": "A1",
+      "titulo": "BANANILDO NÃO SABE QUEM É O PAI",
+      "titulos_alternativos": [
+        "A ESPOSA DO BANANILDO TÁ NA ACADEMIA…",
+        "QUEM É O PAI DOS FILHOS DO BANANILDO?!"
+      ],
+      "thumbnail": {
+        "elemento_central": "Café da manhã: o Bananildo, de olhos fechados de orgulho, abraça o menino abacate e a menina pepino (com mini óculos laranja no alto da cabeça, como os do Pepinão). Ao fundo, a Moranguete olha para ele com sorriso de canto, sem olhar para a câmera.",
+        "texto": "MEUS FILHOS ❤️",
+        "emocao": "vergonha alheia e pena do marido",
+        "relacao_com_titulo": "O título diz que existe uma dúvida de paternidade. A thumb mostra a prova: os filhos são de outras frutas e o pai é uma banana. O texto é a crença dele, e a imagem a desmente."
+      },
+      "promessa": "Ver o Bananildo agradecer pela família perfeita enquanto o espectador já sabe de quem são os filhos.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "Uma ideia só, em quatro cenas curtas e dois silêncios (o jornal e o sorriso). Cabe em uns 85 a 95 palavras faladas. Os shorts que performam no nicho têm de 1:40 a 2:46, mas carregam mais enredo: esticar esta história até lá exigiria subtrama, o que quebra a regra de uma ideia por short. Nenhum dado cobre 40 s, então a duração também é um teste.",
+      "tecnicas": ["mas-entao", "loop-aberto", "callback", "final-em-loop"],
+      "tipo_gancho": "pergunta-direta",
+      "gancho_proposto": "[VISUAL: close do colega debruçado na divisória da baia, sobrancelha erguida; ao lado, o Bananildo com olheiras e a caneca “MELHOR PAI DO MUNDO”] Colega: “E a Moranguete, Bananildo? Você aqui todo santo dia...” Bananildo: “Ela cuida das crianças. E do corpo, pra mim, lá na academia.”",
+      "estrutura": [
+        "B01 (0–8 s) gancho · escritório: o colega pergunta pela esposa e o Bananildo responde, orgulhoso, que ela cuida dos filhos e do corpo “pra ele” na academia. Planta a caneca “MELHOR PAI DO MUNDO”. Abre L1: onde ela está de verdade?",
+        "B02 (8–17 s) mas · academia: Moranguete e Pepinão rindo, correção de postura com a mão no ombro, “Mais uma, princesa... só mais uma.” Callback imediato de “cuidando do corpo”. Fecha L1 e abre L2: o que mais ele não sabe?",
+        "B03 (17–23 s) então · manhã seguinte: o carteiro Abacatudo joga o jornal, o baque soa na porta e ele olha um segundo a mais para a janela da cozinha. Sem fala.",
+        "B04 (23–34 s) virada · café da manhã: a câmera abre e revela o menino abacate e a menina pepino. O Bananildo ergue a caneca: “Eu não sei o que eu seria sem a minha esposa e os meus lindos filhos.” Fecha L2. Callbacks: a caneca do B01 e o “cuida das crianças”.",
+        "B05 (34–40 s) final · close no sorriso de canto da Moranguete, em silêncio; a trilha sobe e o vídeo corta seco. O replay recomeça na pergunta do colega, que agora já tem resposta."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "02-trends.md §6, sugestões 1 e 4: revelação pela cara dos filhos sem o marido saber e o título “BANANILDO NÃO SABE QUEM É O PAI”.",
+        "Fruti Novelas, “MANDY CONOCIÓ AL MANGO DE SUS SUEÑOS”: 956.261 views em 21 dias, 24x, com o nome do personagem no título.",
+        "Riqueza Frutal, “¡FRESA DESCUBRE LA TRAICIÓN...!”: 2.086.426 views, 181x. Traição conjugal em short é o tema mais próximo que performou.",
+        "02-trends.md §5: nenhum título coletado mostra o ponto de vista do traído que não sabe, e as buscas por “fruto de traição” e “teste de paternidade” deram 0 resultados.",
+        "aprendizados.md ainda não tem vídeos registrados: sem dado do canal."
+      ],
+      "aposta": false,
+      "diferencial": "Os títulos do nicho mostram a descoberta (descobre, surta, se vinga). Aqui o marido nunca descobre e a prova está sentada à mesa. O vídeo é narrado só pelas vozes dos personagens, em PT-BR, que é raro entre os shorts que performam.",
+      "riscos": [
+        "40 s sem evidência direta: todos os shorts fortes da coleta têm de 1:40 a 2:46.",
+        "O primeiro frame no escritório é menos impactante que uma cena de drama. Depende do close no colega desconfiado e do nome Moranguete logo nas primeiras palavras.",
+        "Cena da academia: na rubrica, conotação sexual com personagem fofo zera o critério bloqueante. Fica no riso, na correção de postura com a mão no ombro e no olhar, sem enquadrar o corpo e sem pose sugestiva.",
+        "A piada depende de as crianças lembrarem os amantes à primeira vista. O Abacatudo não tem ficha na biblioteca, e o diretor visual precisa criá-lo junto com o menino abacate.",
+        "A crítica de machismo à trend (dossiê): a graça fica na cegueira do marido, não em humilhar a mulher."
+      ]
+    },
+    {
+      "id": "A2",
+      "titulo": "ELE AGRADECEU PELA FAMÍLIA… SE ELE SOUBESSE",
+      "titulos_alternativos": [
+        "A FAMÍLIA PERFEITA DO BANANILDO",
+        "POR QUE OS FILHOS DO BANANILDO NÃO SÃO BANANAS?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Janela da cozinha. Do lado de fora, o carteiro Abacatudo no meio do arremesso do jornal. Do lado de dentro, o menino abacate virado para a janela, com a mesma cara e a mesma sobrancelha. Em primeiro plano, o Bananildo ergue a caneca de olhos fechados, alheio.",
+        "texto": "O CARTEIRO…",
+        "emocao": "o “ih...” do choque cômico",
+        "relacao_com_titulo": "O título fala do agradecimento e de algo que ele não sabe. A thumb mostra uma das verdades, o carteiro e o menino com a mesma cara, sem dizer o nome de ninguém."
+      },
+      "promessa": "Entender, voltando um dia no tempo, por que o brinde do Bananildo à família é a cena mais triste da casa.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "O salto para a frente custa uns 4 s (o brinde congelado e o “Um dia antes”). O resto é a mesma história, em uns 80 a 90 palavras. Passar de 45 s exigiria mais cenas.",
+      "tecnicas": ["in-medias-res", "lacuna-de-curiosidade", "callback", "final-em-loop"],
+      "tipo_gancho": "in-medias-res",
+      "gancho_proposto": "[VISUAL: a mesa do café em plano aberto: o Bananildo de pé erguendo a caneca, a Moranguete sorrindo, o menino abacate e a menina pepino olhando para o pai] Bananildo: “Família... eu preciso dizer uma coisa.” [a imagem congela] Narrador: “Um dia antes.”",
+      "estrutura": [
+        "B01 (0–4 s) gancho · café da manhã: o brinde começa e congela antes da frase; o narrador (ou uma cartela) diz “Um dia antes”. Abre L1: o que ele vai dizer? Abre L2: por que nenhum filho é banana?",
+        "B02 (4–12 s) contexto · escritório: o colega pergunta pela esposa e ele responde: “cuida das crianças e do corpo, pra mim, na academia”.",
+        "B03 (12–20 s) mas · academia: Moranguete e Pepinão rindo, correção de postura; close nos óculos laranja no alto da cabeça dele, a mesma marca da menina pepino do B01. Fecha metade de L2.",
+        "B04 (20–26 s) então · volta à manhã do B01: o baque do jornal; pela janela, o carteiro Abacatudo; o menino abacate vira o rosto para ele e a cara é a mesma. Fecha a outra metade de L2.",
+        "B05 (26–35 s) virada · o brinde descongela, agora com contexto: “...eu não sei o que eu seria sem a minha esposa e os meus lindos filhos.” Fecha L1. Callback do B01.",
+        "B06 (35–40 s) final · sorriso de canto da Moranguete e corte seco. No replay, o brinde recomeça no “Família...”."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Sinal fraco: o gancho “ELE NÃO SABIA...” do Doramas do Jae fez 5,9x (02-trends.md §6, sugestão 5). “Se ele soubesse” é a versão em que ele continua sem saber, que é o que o vídeo entrega.",
+        "Contexto do pedido: a dissonância entre o visual fofo e o drama adulto é o que para a rolagem. Uma banana, um morango, um abacate e um pepino na mesma família é essa dissonância no primeiro frame.",
+        "Nenhum dado sobre a estrutura em flashback em shorts do nicho."
+      ],
+      "aposta": true,
+      "diferencial": "É o único ângulo que põe a família absurda no primeiro frame. O vídeo vira uma pequena investigação: cada cena do dia anterior explica um dos filhos.",
+      "riscos": [
+        "Mostrar os filhos logo de cara transforma a piada final em premissa. A surpresa do fim passa a ser só o sorriso.",
+        "O salto para a frente muda a ordem em que o enredo do usuário é apresentado, embora os acontecimentos sejam os mesmos. Vale confirmar com o usuário.",
+        "O “Um dia antes” custa uns 2 s num vídeo de 40.",
+        "Os mesmos riscos de A1 na academia e no visual das crianças e do Abacatudo."
+      ]
+    },
+    {
+      "id": "A3",
+      "titulo": "MORANGUETE TEM DOIS SEGREDOS… PARTE 1",
+      "titulos_alternativos": [
+        "O SEGREDO DA MORANGUETE TOMA CAFÉ COM O MARIDO",
+        "FRUTO DE TRAIÇÃO • PARTE 1"
+      ],
+      "thumbnail": {
+        "elemento_central": "Close da Moranguete na penumbra, com sorriso de canto e os olhos castanhos enormes. Nas pupilas aparecem dois reflexos: um pepino com óculos laranja no alto da cabeça e um abacate com quepe de carteiro.",
+        "texto": "ELE NÃO SABE",
+        "emocao": "malícia e cumplicidade",
+        "relacao_com_titulo": "O título promete dois segredos. A thumb insinua quem são, só no reflexo, e o texto acrescenta o marido, que o título não cita."
+      },
+      "promessa": "Descobrir os dois segredos da Moranguete e perceber que os dois tomam café com o marido todo dia.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "O narrador acrescenta umas 15 palavras e fica apertado. Se o medidor passar de 100 palavras, corte uma fala do colega em vez de esticar. A continuação vai para a Parte 2, não para este vídeo.",
+      "tecnicas": ["loop-aberto", "lacuna-de-curiosidade", "callback", "final-em-loop"],
+      "tipo_gancho": "promessa-de-revelacao",
+      "gancho_proposto": "[VISUAL: close da Moranguete na penumbra, sorriso de canto, brincos de argola dourada brilhando] Narrador, grave: “A Moranguete tem dois segredos. E o marido toma café com os dois todo dia.”",
+      "estrutura": [
+        "B01 (0–4 s) gancho · close do sorriso da Moranguete e o narrador anuncia os dois segredos. Abre L1: quais são? Abre L2: como o marido toma café com eles?",
+        "B02 (4–12 s) contexto · escritório: o colega pergunta e o Bananildo responde, orgulhoso. É o marido que não sabe.",
+        "B03 (12–20 s) mas · academia: o Pepinão diz “Mais uma, princesa...”. O espectador conta o primeiro segredo sem que o narrador numere.",
+        "B04 (20–26 s) então · manhã seguinte: o carteiro Abacatudo joga o jornal e troca um olhar com a Moranguete pela janela. É o segundo segredo. Fecha L1.",
+        "B05 (26–35 s) virada · café da manhã: a câmera revela que os dois segredos que tomam café com ele são os filhos, um abacate e uma pepino. O Bananildo agradece pela família. Fecha L2 com a mudança de sentido: os segredos eram os filhos.",
+        "B06 (35–40 s) final · o mesmo close do B01. O replay emenda no “A Moranguete tem dois segredos”. A Parte 2 (o teste de DNA?) fica no título, na descrição e no comentário fixado, fora da tela, para não quebrar o loop."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Fruti mundo, “COCARDO TIENE UN SECRETO Parte 4”: 232.870 views em 24 dias num canal de 3,9 mil inscritos (60x). Junta o segredo com a série numerada.",
+        "02-trends.md §3: séries em “Parte N” fizeram de 13x a 77x em canais de 130 a 3.900 inscritos. Em La Nieve De Lima, a Parte 1 teve 10.010 views, contra 2.992 da Parte 2 e 1.752 da Parte 3.",
+        "Dossiê (O Liberal, CNN Brasil): os capítulos da trend saem como “parte 1, parte 2” e terminam em suspense.",
+        "Dossiê: o teste de DNA é clichê vigente de novela (Travessia, 2022) e serve de gancho natural para a Parte 2."
+      ],
+      "aposta": false,
+      "diferencial": "Os segredos não são ditos: o espectador conta com os próprios olhos, e a virada muda o sentido da palavra “segredo”. Abre uma série com o nome do tema, “Fruto de Traição”, num termo sem nenhuma oferta nos dados.",
+      "riscos": [
+        "“Parte 1” obriga o canal a produzir a Parte 2. Sem ela, a promessa fica pela metade e queima a série.",
+        "A evidência de série vem de shorts de 1:40 a 2:46, a maioria em espanhol.",
+        "O narrador ocupa tempo das falas e não pode soar como comentário irônico: tem de ser grave, de chamada de novela.",
+        "Os dois amantes precisam ser reconhecíveis à primeira vista, e o Abacatudo ainda não tem ficha.",
+        "O olhar entre o carteiro e a Moranguete fica no olhar, sem gesto."
+      ]
+    },
+    {
+      "id": "A4",
+      "titulo": "OS FILHOS DO BANANILDO SÃO A CARA DO PAI?!",
+      "titulos_alternativos": [
+        "DIZEM QUE TODO FILHO PUXA O PAI…",
+        "BANANILDO JURA QUE OS FILHOS PUXARAM ELE"
+      ],
+      "thumbnail": {
+        "elemento_central": "Close da caneca “MELHOR PAI DO MUNDO” na mão de banana do Bananildo, que sorri orgulhoso. Ao fundo, desfocados mas reconhecíveis pela silhueta e pela cor, um menino abacate e uma menina pepino à mesa do café.",
+        "texto": "nenhum (a caneca “MELHOR PAI DO MUNDO” já faz o papel de texto, dentro da cena)",
+        "emocao": "ironia e riso contido",
+        "relacao_com_titulo": "O título pergunta se os filhos são a cara do pai. A thumb responde sem palavra: o pai é uma banana orgulhosa e os filhos ao fundo são verde-escuros."
+      },
+      "promessa": "Responder se os filhos do Bananildo são a cara do pai: são, só que de outro pai.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "O ditado do narrador soma só 8 palavras, e o resto é a mesma história de A1. 40 s com uns 90 palavras.",
+      "tecnicas": ["tese-contraria", "callback", "mas-entao", "final-em-loop"],
+      "tipo_gancho": "tese-contraria",
+      "gancho_proposto": "[VISUAL: o Bananildo na baia, ajeitando os óculos e erguendo, orgulhoso, a caneca “MELHOR PAI DO MUNDO”] Narrador, grave: “Dizem que todo filho é a cara do pai.” Colega: “E a patroa, Bananildo? Enquanto você rala aqui?”",
+      "estrutura": [
+        "B01 (0–3 s) gancho · o narrador diz o ditado sobre o Bananildo e a caneca. Abre L1: os filhos dele são a cara dele?",
+        "B02 (3–11 s) contexto · escritório: o colega pergunta pela esposa e ele responde que ela “cuida das crianças e do corpo, pra mim”.",
+        "B03 (11–19 s) mas · academia: Moranguete e Pepinão. Close nos óculos laranja e nas sobrancelhas grossas dele, traços que vão voltar.",
+        "B04 (19–24 s) então · manhã seguinte: o carteiro Abacatudo e o jornal. Close no rosto dele, outro traço que vai voltar.",
+        "B05 (24–35 s) virada · café da manhã: o Bananildo abraça os filhos e as três cabeças ficam lado a lado no quadro, banana, abacate e pepino. Ele diz: “Eu não sei o que eu seria sem a minha esposa e os meus lindos filhos.” O narrador não diz nada: a imagem refuta o ditado. Fecha L1.",
+        "B06 (35–40 s) final · sorriso da Moranguete. O replay recomeça no “Dizem que todo filho é a cara do pai”, que agora soa como comentário."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Villa das Frutas, títulos em pergunta com “?!”: “CASAMENTO DA MORANGUETE, SERÁ QUE ELA ACEITOU?!” (451.586 views, 50x) e “MORANGUETE FUGIU DO CASAMENTO?!” (387.977 views, 43x). Média de ~46x (02-trends.md §3).",
+        "Riqueza Frutal: traição conjugal em short, 2.086.426 views, 181x.",
+        "02-trends.md §5: nenhum vídeo coletado usa “filho com a cara do amante”.",
+        "Dossiê: Dom Casmurro é a matriz literária brasileira da semelhança entre o filho e o amigo do marido."
+      ],
+      "aposta": false,
+      "diferencial": "O ditado põe o espectador para comparar rostos desde o primeiro segundo, então a revelação no café é uma descoberta dele, não do roteiro. No replay, o ditado vira a piada final.",
+      "riscos": [
+        "O título em pergunta precisa ser respondido, e a resposta é só visual. Se as crianças não lembrarem os amantes com clareza, o payoff fica pela metade.",
+        "O “dizem que” não pode soar como comentário do narrador. A voz tem de ser grave, sem ironia.",
+        "Texto dentro da imagem (a caneca) pode sair com erro na geração. Se sair, entra como sobreposição na montagem.",
+        "Os mesmos cuidados de A1 na academia."
+      ]
+    },
+    {
+      "id": "A5",
+      "titulo": "POV: VOCÊ É O ÚLTIMO A SABER",
+      "titulos_alternativos": [
+        "VOCÊ TRABALHA 12 HORAS POR DIA… E ELA?",
+        "POV: VOCÊ É O MARIDO DA MORANGUETE"
+      ],
+      "thumbnail": {
+        "elemento_central": "Plano subjetivo, dos olhos do Bananildo, na mesa do café: a mão de banana segurando a caneca em primeiro plano; à frente, o menino abacate e a menina pepino sorrindo para “você”; atrás deles, a Moranguete com sorriso de canto.",
+        "texto": "SUA FAMÍLIA",
+        "emocao": "ternura falsa e desconforto",
+        "relacao_com_titulo": "O título põe o espectador no lugar do marido. A thumb mostra, pelos olhos dele, a família que não é dele."
+      },
+      "promessa": "Passar 40 segundos na pele do Bananildo, o único da casa que não vê o que está na mesa.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "O narrador costura as cenas com frases de 4 a 6 palavras, e as falas dos personagens ficam mais curtas. Cabe em 40 s se o narrador não passar de umas 25 palavras.",
+      "tecnicas": ["pov-segunda-pessoa", "mas-entao", "callback", "final-em-loop"],
+      "tipo_gancho": "pov-segunda-pessoa",
+      "gancho_proposto": "[VISUAL: o Bananildo sozinho na baia à noite, de olheiras, a única luz acesa do escritório] Narrador, grave: “Você trabalha doze horas por dia. Tudo por ela.”",
+      "estrutura": [
+        "B01 (0–4 s) gancho · narrador grave, em segunda pessoa, sobre o Bananildo na baia. Abre L1: e ela, faz o quê?",
+        "B02 (4–11 s) contexto · o colega pergunta e “você”, na voz do Bananildo, responde com orgulho.",
+        "B03 (11–19 s) mas · narrador: “Enquanto isso, ela treina. Por você.” Academia, Pepinão. Fecha L1 e abre L2: até onde você não vê?",
+        "B04 (19–24 s) então · narrador: “De manhã, o carteiro passa. Como todo dia.” O Abacatudo e o jornal.",
+        "B05 (24–35 s) virada · plano subjetivo da mesa. Narrador: “Sua família. Seus filhos, a sua cara.” sobre o menino abacate e a menina pepino. O narrador mente com a convicção do marido. Depois o Bananildo diz a frase do pedido. Fecha L2.",
+        "B06 (35–40 s) final · sorriso da Moranguete. O replay emenda no “Você trabalha doze horas por dia”."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Nenhum dado de POV em segunda pessoa no nicho das frutas.",
+        "02-trends.md §5: nenhum título mostra o ponto de vista do traído que não sabe. A segunda pessoa é a forma mais direta de ocupar essa lacuna.",
+        "A narração em segunda pessoa é a técnica do canal de referência (pov-segunda-pessoa, esqueleto dor-pintada-DYAYD0UYvvE). Aplicada à trend, dá identidade ao canal.",
+        "02-trends.md §5: narração em PT-BR é rara entre os maiores shorts recentes."
+      ],
+      "aposta": true,
+      "diferencial": "Ninguém nos dados narra a novela das frutas em segunda pessoa. Aqui o espectador é o traído e ouve o narrador defender, com a maior seriedade, uma família que a imagem desmente.",
+      "riscos": [
+        "O narrador ocupa o tempo das quatro vozes que o pedido montou. São cinco vozes em 40 s.",
+        "O “você” pode soar como piscar para o público se a voz não for grave e trágica, e o tom do pedido proíbe isso.",
+        "O formato é estranho à trend: quem rola o feed esperando a novela pode estranhar a abertura.",
+        "“Seus filhos, a sua cara” só funciona com entrega totalmente séria.",
+        "Os mesmos cuidados de A1 na academia e no visual."
+      ]
+    },
+    {
+      "id": "A6",
+      "titulo": "ELE ACHA QUE ELA TREINA PRA ELE",
+      "titulos_alternativos": [
+        "ENQUANTO O BANANILDO TRABALHA, ELA TREINA…",
+        "A MORANGUETE TREINA TODO DIA. POR QUEM?"
+      ],
+      "thumbnail": {
+        "elemento_central": "Tela dividida na horizontal. Em cima, o Bananildo na baia, sorrindo orgulhoso e ajeitando os óculos. Embaixo, na academia, a Moranguete gargalhando, com roupa de treino comportada (camiseta larga e legging), e o Pepinão com o apito na boca e um cronômetro na mão. Os dois lado a lado, de corpo inteiro, sem toque, sem enquadrar o corpo e sem ângulo baixo.",
+        "texto": "PRA MIM ❤️",
+        "emocao": "vergonha alheia",
+        "relacao_com_titulo": "O título diz o que ele acha. A thumb mostra para quem ela treina, e o texto, na metade dele, é a fala do marido que a outra metade desmente."
+      },
+      "promessa": "Ouvir o Bananildo descrever a esposa perfeita enquanto a imagem o desmente, até o café da manhã que confirma tudo.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "A montagem paralela comprime escritório e academia em uns 15 s, o que deixa mais tempo para o silêncio do jornal e para o café. Com 3 s por imagem, são umas 5 imagens alternadas. Sem narrador: uns 80 palavras.",
+      "tecnicas": ["mas-entao", "quebra-de-padrao", "callback", "final-em-loop"],
+      "tipo_gancho": "cena-sensorial",
+      "gancho_proposto": "[VISUAL: academia, close do apito laranja-neon do Pepinão; no espelho, a Moranguete gargalhando] Som de apito e de riso ecoando. Bananildo, em off: “A Moranguete? Tá na academia... cuidando do corpo pra mim.”",
+      "estrutura": [
+        "B01 (0–4 s) gancho · academia, apito e riso no espelho. A voz do Bananildo, com legenda na cor dele, descreve a esposa sobre a imagem que a desmente. Abre L1: quem está falando, e ele sabe?",
+        "B02 (4–15 s) mas · montagem paralela entre escritório e academia, uma imagem de cada lado: o colega desconfiado; o Bananildo: “e das crianças”; o Pepinão: “Mais uma, princesa... só mais uma.”; o Bananildo sorri para o monitor; a Moranguete ri com a mão do Pepinão no ombro. Cada fala dele é desmentida pela imagem seguinte. Fecha L1 (ele não sabe) e abre L2: até onde vai?",
+        "B03 (15–21 s) então · quebra de padrão: silêncio, é de manhã; o baque do jornal; o carteiro Abacatudo.",
+        "B04 (21–34 s) virada · café da manhã: os filhos, abacate e pepino; “Eu não sei o que eu seria sem a minha esposa e os meus lindos filhos.” Fecha L2. Callback das falas do B02.",
+        "B05 (34–40 s) final · sorriso da Moranguete. O replay volta ao apito."
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Nenhum dado de título ou de montagem paralela no nicho.",
+        "02-trends.md §5: a lacuna de ironia dramática, já que nenhum título mostra o traído que não sabe.",
+        "Riqueza Frutal (181x): traição conjugal em short como tema."
+      ],
+      "aposta": true,
+      "diferencial": "É o marido quem narra a traição, sem saber, e a imagem o desmente frase a frase. A ironia dramática que o tom do pedido descreve fica no próprio corte. Também é o único ângulo que abre na cena mais intensa sem trocar a ordem dos acontecimentos.",
+      "riscos": [
+        "A academia vira a cena central e a da thumb, o que aumenta o risco do critério bloqueante de conteúdo sexual. Riso, apito, cronômetro e mão no ombro, nada além disso.",
+        "Se o espectador não perceber que a voz em off é do marido, o gancho se perde. A legenda na cor do Bananildo e o corte rápido para o escritório resolvem.",
+        "Alternar imagens a 3 s por imagem exige planos muito legíveis.",
+        "Os mesmos cuidados de A1 no visual das crianças e do Abacatudo."
+      ]
+    },
+    {
+      "id": "A7",
+      "titulo": "2 FILHOS, 3 PAIS E SÓ UM NÃO SABE",
+      "titulos_alternativos": [
+        "QUAL DOS TRÊS É O PAI?!",
+        "UMA FAMÍLIA, TRÊS PAIS"
+      ],
+      "thumbnail": {
+        "elemento_central": "Cartaz de novela com os três “pais” lado a lado: o Bananildo de camisa social e caneca, o Pepinão com o apito e o Abacatudo de quepe de carteiro com o jornal. No centro, a Moranguete com sorriso de canto. Sem as crianças.",
+        "texto": "PAI DO ANO",
+        "emocao": "curiosidade e deboche",
+        "relacao_com_titulo": "O título dá os números. A thumb mostra o rosto dos três, e o texto marca, com ironia, qual deles não sabe."
+      },
+      "promessa": "Conhecer os três pais da família do Bananildo, um por cena, e ver o único que não sabe agradecer pelos filhos.",
+      "formato": "short",
+      "duracao_recomendada": "00:40",
+      "justificativa_duracao": "As cartelas “PAI Nº 1, 2, 3” dão progresso visível sem gastar palavras. O narrador só fala no gancho. Cabe em 40 s.",
+      "tecnicas": ["contagem-regressiva", "loop-aberto", "lacuna-de-curiosidade", "final-em-loop"],
+      "tipo_gancho": "dado-chocante",
+      "gancho_proposto": "[VISUAL: o Bananildo na baia, sorriso orgulhoso; cartela no estilo de crédito de novela: “PAI Nº 1”] Narrador, grave: “Dois filhos. Três pais. Só um não sabe.”",
+      "estrutura": [
+        "B01 (0–3 s) gancho · o narrador dá os números sobre o Bananildo. Abre L1: quem são os outros dois? Abre L2: quem não sabe?",
+        "B02 (3–11 s) contexto · cartela “PAI Nº 1”: escritório, o colega pergunta e o Bananildo responde. Fecha L2: é ele.",
+        "B03 (11–19 s) mas · cartela “PAI Nº 2”: academia, o Pepinão.",
+        "B04 (19–24 s) então · cartela “PAI Nº 3”: o carteiro Abacatudo joga o jornal. Fecha L1.",
+        "B05 (24–35 s) virada · café da manhã: o menino abacate e a menina pepino, cada um com a marca de um dos pais; o Bananildo agradece pela família.",
+        "B06 (35–40 s) final · sorriso da Moranguete. O replay emenda no “Dois filhos. Três pais.”"
+      ],
+      "esqueleto_base": null,
+      "cortes_previstos": [],
+      "evidencias": [
+        "Nenhum dado de título com números no nicho.",
+        "02-trends.md §5: as buscas por “teste de paternidade” e “fruto de traição” não devolveram nenhum vídeo, então não há concorrência direta.",
+        "formatos.md: gancho em 1 a 2 s (5 palavras). “Dois filhos. Três pais.” são 4 palavras com um número que quebra a expectativa."
+      ],
+      "aposta": true,
+      "diferencial": "Lista numerada dentro de uma novela das frutas, com progresso visível em 40 s. Não aparece em nenhum vídeo coletado.",
+      "riscos": [
+        "Tom: as cartelas “PAI Nº 2” são comentário do narrador e ficam perto de piscar para o público, que o pedido proíbe. Para atenuar, use narrador grave e cartelas no estilo dos créditos de novela.",
+        "Diz com todas as letras o que o pedido quer insinuado, e o sorriso final perde parte do mistério.",
+        "Pode parecer meme em vez de novela para o público da trend.",
+        "Os mesmos cuidados de A1 na academia e no visual."
+      ]
+    }
+  ]
+}
