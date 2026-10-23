@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 dados/web.sqlite3*
 .venv/
+projetos/
