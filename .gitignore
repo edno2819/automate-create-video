@@ -4,3 +4,17 @@ __pycache__/
 dados/web.sqlite3*
 .venv/
 projetos/
+# gerados em tempo de execução pelo servidor (banco de desenvolvimento, objetos do armazenamento local,
+# chave de cifra gerada sem APP_SEGREDO, travas e o índice do espaço de trabalho)
+dados/app.sqlite3*
+dados/objetos/
+dados/segredo.key
+dados/travas/
+.espaco/
+.pytest_cache/
+
+
+main.md
+ref.md
+
+priv

@@ -1,8 +1,4 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["ruamel.yaml>=0.18"]
-# ///
+#!/usr/bin/env python3
 """Pedido de vídeo: o arquivo YAML em que o usuário pede um vídeo (tema, estilo, voz, legendas, música...).
 
 Só o tema é obrigatório (ou, no lugar dele, o título ou a descrição, de onde o orquestrador tira o tema).
@@ -20,12 +16,15 @@ Os campos, os comentários do modelo e os padrões estão em CAMPOS: acrescentar
 linha ali (e ensinar quem vai usá-lo a ler o brief). A leitura aceita chaves com acento ("descrição") e
 alguns apelidos (tempo, ctx, estilo, voz), e durações como "30s", "1min30" ou "01:30".
 
-Uso (o uv instala o ruamel.yaml na primeira vez):
-    uv run --script ferramentas/pedido.py validar pedidos/<nome>.yaml 2>&1 | cat
-    uv run --script ferramentas/pedido.py completar pedidos/<nome>.yaml --definir slug=<slug> --definir 'tom=...' 2>&1 | cat
-    uv run --script ferramentas/pedido.py validar projetos/<slug>/00-pedido.yaml 2>&1 | cat
-    uv run --script ferramentas/pedido.py brief projetos/<slug> 2>&1 | cat
-    uv run --script ferramentas/pedido.py modelo pedidos/modelo.yaml 2>&1 | cat
+Os dados (projetos/, biblioteca/, pedidos/) ficam no espaço de trabalho: a raiz do repositório, ou APP_RAIZ. As
+vozes de cada fornecedor vêm de nucleo.provedores.voz (o ruamel.yaml e o resto estão no pyproject.toml).
+
+Uso:
+    python3 ferramentas/pedido.py validar pedidos/<nome>.yaml
+    python3 ferramentas/pedido.py completar pedidos/<nome>.yaml --definir slug=<slug> --definir 'tom=...'
+    python3 ferramentas/pedido.py validar projetos/<slug>/00-pedido.yaml
+    python3 ferramentas/pedido.py brief projetos/<slug>
+    python3 ferramentas/pedido.py modelo pedidos/modelo.yaml
 """
 
 from __future__ import annotations
@@ -33,8 +32,8 @@ from __future__ import annotations
 import argparse
 import copy
 import functools
-import importlib.util
 import json
+import os
 import re
 import shutil
 import sys
@@ -48,12 +47,20 @@ from ruamel.yaml import YAML
 from ruamel.yaml.error import YAMLError
 
 RAIZ = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(RAIZ))
 sys.path.insert(0, str(RAIZ / "ferramentas"))
 from brief import achar_musica, sha1_arquivo  # noqa: E402
+
+
+def espaco() -> Path:
+    """O espaço de trabalho (projetos/, biblioteca/, pedidos/): APP_RAIZ, ou a raiz do repositório."""
+    return Path(os.environ.get("APP_RAIZ") or RAIZ).resolve()
+
 
 ORIGINAL = "00-pedido-original.yaml"
 COMPLETO = "00-pedido.yaml"
 BRIEF = "00-brief.json"
+ROTEIRO_ORIGINAL = "00-roteiro-original.md"  # o roteiro que o usuário trouxe pronto
 REFERENCIA_PADRAO = "https://www.youtube.com/watch?v=DYAYD0UYvvE"  # Dor Pintada, o canal de referência
 CORES = {"amarelo": "#FFD400", "verde": "#22C55E", "roxo": "#8B5CF6", "vermelho": "#EF4444", "azul": "#3B82F6",
          "rosa": "#EC4899", "laranja": "#F97316", "ciano": "#06B6D4", "branco": "#FFFFFF", "preto": "#000000"}
@@ -79,7 +86,9 @@ class PorFormato:
 
 
 def voz_do_canal(_valores: dict) -> str | None:
-    canal = RAIZ / "biblioteca" / "canal.json"
+    canal = espaco() / "biblioteca" / "canal.json"
+    if not canal.exists():
+        canal = RAIZ / "biblioteca" / "canal.json"
     return json.loads(canal.read_text(encoding="utf-8")).get("narracao", {}).get("voz") if canal.exists() else None
 
 
@@ -116,7 +125,9 @@ CAMPOS = [
           quem="opcional", vazio="o estrategista propõe"),
     Campo("formato", "opcao", "longo (8 a 15 min, horizontal) | short (30 s a 3 min, vertical)", quem="decisao",
           opcoes=("longo", "short")),
-    Campo("duracao_alvo", "tempo", 'Duração desejada, "mm:ss". Padrão: "12:00" no longo, "00:45" no short.',
+    Campo("duracao_alvo", "tempo",
+          'Duração desejada, "mm:ss". Com roteiro pronto, deixe vazio: o sistema calcula pelas palavras do roteiro\n'
+          'na velocidade da narração. Padrão: "12:00" no longo, "00:45" no short.',
           padrao=PorFormato("12:00", "00:45")),
     Campo("tom", "texto", 'Tom do texto e da voz. Ex.: "sombrio e sóbrio, sem julgamento explícito".', quem="decisao"),
     Campo("natureza", "opcao", "factual | inspirado-em-fatos (contexto real, personagens compostos) | ficcional",
@@ -147,6 +158,11 @@ CAMPOS = [
     Campo("visual.qualidade", "opcao",
           "Modelo das imagens de IA: rascunho (barato) | padrao | maxima (bem mais caro). Padrão: padrao.",
           opcoes=("rascunho", "padrao", "maxima"), padrao="padrao"),
+    Campo("visual.animacao", "opcao",
+          "Anima levemente as imagens geradas com um modelo de vídeo (Gemini Omni Flash, cerca de US$ 0,10 por segundo\n"
+          "animado a 720p): nenhuma | destaques (gancho, viradas e payoff, escolhidos pelo diretor visual) | todas.\n"
+          "Só em 16:9 e 9:16; cartelas e imagens da internet ficam paradas. Padrão: nenhuma.",
+          opcoes=("nenhuma", "destaques", "todas"), padrao="nenhuma"),
 
     Campo("narracao.ativa", "booleano",
           'sim | não. "não": vídeo sem voz, a história vai só na legenda (e na música). Padrão: sim.',
@@ -157,7 +173,7 @@ CAMPOS = [
           "testar falas, ritmo e montagem antes de pagar). Chaves em Configurações > Chaves de API. Padrão: gemini.",
           opcoes=("gemini", "openai", "elevenlabs", "espeak"), padrao="gemini"),
     Campo("narracao.voz", "texto",
-          "Voz do narrador no fornecedor escolhido (lista: python3 skills/produzir-video/scripts/narrar.py\n"
+          "Voz do narrador no fornecedor escolhido (lista: python3 ferramentas/producao/narrar.py\n"
           "--listar-vozes --fornecedor <nome>). Uma voz de outro fornecedor vira uma dele do mesmo gênero.\n"
           "Padrão: a voz do canal, em biblioteca/canal.json.", padrao=voz_do_canal),
     Campo("narracao.estilo", "texto",
@@ -209,7 +225,7 @@ CAMPOS = [
     Campo("musica.inicio", "tempo", 'Ponto da música em que o vídeo começa, "mm:ss" (ex.: o refrão). Padrão: "00:00".',
           padrao="00:00"),
     Campo("musica.volume", "inteiro",
-          "Volume da música por baixo da narração, em % (1 a 100); ela abaixa sozinha quando a voz fala.\n"
+          "Volume da música por baixo da narração, em % (1 a 100); ela fica nesse volume o vídeo inteiro.\n"
           "Sem narração, a música toca no volume normal. Padrão: 20.", faixa=(1, 100), padrao=20),
 
     Campo("referencias", "lista", "Links de vídeos cuja estrutura serve de modelo. Padrão: o vídeo do Dor Pintada.",
@@ -228,12 +244,11 @@ CAMPOS = [
     Campo("producao.ate", "opcao",
           "Até onde ir: roteiro | visual (cenas e prompts) | video (imagens, voz e montagem). Padrão: video.",
           opcoes=("roteiro", "visual", "video"), padrao="video", secao=("Produção",)),
-    Campo("producao.cortes", "booleano", "Gerar shorts a partir do vídeo longo. Padrão: sim no longo.",
-          padrao=PorFormato(True, False)),
 ]
 POR_CHAVE = {c.chave: c for c in CAMPOS}
 GRUPOS = {c.chave.split(".")[0] for c in CAMPOS if "." in c.chave}
 ATIVA = {"narracao": "narracao.ativa", "legendas": "legendas.ativas", "musica": "musica.ativa", "trends": "trends.ativa"}
+REMOVIDOS = {"producao.cortes"}  # campos que saíram do modelo: os pedidos antigos ainda trazem, e o pedido os ignora
 
 
 # ---------------------------------------------------------------- leitura e normalização
@@ -344,7 +359,7 @@ def normalizar_personagens(v) -> tuple[list | None, str | None]:
         if erro:
             return None, f"{nome}, cor: {erro}"
         if slug := str(item.get("biblioteca") or "").strip():  # só aparece no arquivo quando preenchido
-            if not (RAIZ / "biblioteca" / "personagens" / slug / "personagem.json").exists():
+            if not (espaco() / "biblioteca" / "personagens" / slug / "personagem.json").exists():
                 return None, f"{nome}, biblioteca: não existe biblioteca/personagens/{slug}/"
             p["biblioteca"] = slug
         saida.append(p)
@@ -403,6 +418,8 @@ def carregar(caminho: Path) -> Pedido:
                 erros.append(f"{k}: esperava um grupo de campos (veja pedidos/modelo.yaml)")
         else:
             (plano if k in POR_CHAVE else extras)[k] = v
+    for k in REMOVIDOS:
+        extras.pop(k, None)
     for k in extras:
         avisos.append(f"campo fora do modelo: {k} (segue para o brief como está)")
     valores = {}
@@ -456,46 +473,110 @@ def parece_arquivo(texto: str | None) -> bool:
     return bool(texto) and "\n" not in texto and texto.lower().endswith(EXTENSOES_TEXTO)
 
 
+def relativo(caminho: Path) -> str:
+    """O caminho relativo ao espaço de trabalho, quando ele está dentro dele (senão, o absoluto)."""
+    rel = os.path.relpath(Path(caminho).resolve(), espaco())
+    return Path(rel).as_posix() if not rel.startswith("..") else str(Path(caminho).resolve())
+
+
 def arquivo_de_contexto(texto: str | None, pasta: Path | None = None) -> Path | None:
-    """O contexto pode ser o caminho de um arquivo: a partir do diretório atual, do projeto ou da raiz."""
+    """O contexto pode ser o caminho de um arquivo: a partir do diretório atual, do projeto ou da raiz do espaço de
+    trabalho. Só vale um arquivo de dentro do espaço de trabalho (o pedido vem de fora; o texto vai para os agentes)."""
     if not parece_arquivo(texto):
         return None
-    for base in (Path.cwd(), pasta, RAIZ):
+    raiz = espaco()
+    for base in (Path.cwd(), pasta, raiz):
         if base is not None and (base / texto).is_file():
-            return (base / texto).resolve()
+            achado = (base / texto).resolve()
+            if achado.is_relative_to(raiz):
+                return achado
     return None
 
 
 @functools.lru_cache(maxsize=1)
-def modulo_narrar():
-    spec = importlib.util.spec_from_file_location("narrar", RAIZ / "skills" / "produzir-video" / "scripts" / "narrar.py")
-    modulo = importlib.util.module_from_spec(spec)
-    sys.modules["narrar"] = modulo  # as dataclasses do módulo procuram por ele aqui
-    spec.loader.exec_module(modulo)
-    return modulo
+def modulo_voz():
+    """nucleo.provedores.voz: o catálogo de cada fornecedor (sem rede) e a troca de voz entre fornecedores."""
+    import nucleo.provedores.voz as voz
+    return voz
+
+
+def fornecedor_valido(fornecedor: str | None) -> str:
+    voz = modulo_voz()
+    return fornecedor if fornecedor in voz.FORNECEDORES else "gemini"
 
 
 def vozes_conhecidas(fornecedor: str | None = None) -> dict[str, str]:
     """As vozes de um fornecedor (as da ElevenLabs vêm da lista guardada da conta), ou de todos, sem fornecedor."""
-    narrar = modulo_narrar()
-    if fornecedor:
-        classe = narrar.FORNECEDORES.get(fornecedor, narrar.GeminiTTS)
-        return dict(classe.VOZES)
-    return {k: v for classe in narrar.FORNECEDORES.values() for k, v in classe.VOZES.items()}
+    voz = modulo_voz()
+    fornecedores = [fornecedor_valido(fornecedor)] if fornecedor else list(voz.FORNECEDORES)
+    saida: dict[str, str] = {}
+    for f in fornecedores:
+        try:
+            saida.update({v.nome: v.descricao for v in voz.catalogo(f)})
+        except Exception:  # noqa: BLE001 - um fornecedor sem catálogo (ElevenLabs sem cache) não derruba o pedido
+            continue
+    return saida
 
 
 def lista_de_vozes(fornecedor: str | None = None) -> str:
-    narrar = modulo_narrar()
-    classe = narrar.FORNECEDORES.get(fornecedor or "gemini", narrar.GeminiTTS)
     grupos: dict[str, list[str]] = {"f": [], "m": []}
-    for nome, desc in classe.VOZES.items():
-        grupos.setdefault(classe.GENEROS.get(nome, "?"), []).append(f"{nome} ({desc})")
+    for v in modulo_voz().catalogo(fornecedor_valido(fornecedor)):
+        grupos.setdefault(v.genero, []).append(f"{v.nome} ({v.descricao})")
     return f"femininas: {', '.join(grupos['f'])}\n  masculinas: {', '.join(grupos['m'])}"
+
+
+def equivalente(fornecedor: str, voz: str) -> str | None:
+    try:
+        return modulo_voz().voz_equivalente(fornecedor_valido(fornecedor), voz)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+# ---------------------------------------------------------------- roteiro importado
+
+
+def roteiro_importado(pasta: Path | None) -> Path | None:
+    """O roteiro que o usuário trouxe pronto (00-roteiro-original.md), num projeto que não passou pelo ângulo."""
+    if pasta is None or (pasta / "04-angulo-escolhido.json").exists():
+        return None
+    caminho = pasta / ROTEIRO_ORIGINAL
+    return caminho if caminho.is_file() else None
+
+
+def palavras_do_roteiro(caminho: Path) -> int:
+    """As palavras narradas do roteiro (sem marcadores, cabeçalhos nem nomes de quem fala), contadas como na
+    conferência do formatador."""
+    from conferir_texto import narracao
+    return len(narracao(caminho))
+
+
+def duracao_por_palavras(palavras: int, ppm: int) -> str:
+    """A duração da narração em "mm:ss": cada palavra dura 60/ppm s, como na medição do roteiro."""
+    total = max(0, round(palavras * 60 / ppm))
+    return f"{total // 60:02d}:{total % 60:02d}"
+
+
+def ppm_de(valores: dict) -> int:
+    return valores.get("narracao.palavras_por_minuto") or padrao_de(POR_CHAVE["narracao.palavras_por_minuto"], valores)
+
+
+def duracao_do_roteiro(valores: dict, pasta: Path | None) -> tuple[str, int, int] | None:
+    """(duração, palavras, ppm) do roteiro importado na velocidade do pedido; None num projeto sem roteiro pronto."""
+    if not (caminho := roteiro_importado(pasta)):
+        return None
+    palavras, ppm = palavras_do_roteiro(caminho), ppm_de(valores)
+    return duracao_por_palavras(palavras, ppm), palavras, ppm
 
 
 def coerencia(valores: dict, pasta: Path | None = None) -> list[str]:
     """Avisos de combinações que provavelmente não são o que o usuário quer."""
     v, avisos = valores, []
+    if v.get("duracao_alvo") and (calculada := duracao_do_roteiro(v, pasta)):
+        duracao, palavras, ppm = calculada
+        escrita, real = para_segundos(v["duracao_alvo"]), para_segundos(duracao)
+        if escrita is not None and abs(escrita - real) > max(5, real * 0.1):
+            avisos.append(f"duracao_alvo {v['duracao_alvo']} não cabe no roteiro: {palavras} palavras a {ppm} palavras por "
+                          f"minuto dão {duracao}. Deixe a duração vazia (o sistema calcula) ou mude a velocidade")
     seg = lambda t: int(t[:2]) * 60 + int(t[3:]) if t else None  # noqa: E731
     if v.get("formato") == "short" and v.get("visual.proporcao") == "16:9":
         avisos.append("short em 16:9: o YouTube só trata como short o vídeo vertical ou quadrado")
@@ -510,14 +591,15 @@ def coerencia(valores: dict, pasta: Path | None = None) -> list[str]:
         avisos.append("sem narração e sem legendas, o texto do roteiro não aparece no vídeo")
     if v.get("narracao.ativa") is False and v.get("musica.ativa") is False:
         avisos.append("sem narração e sem música: o vídeo sai mudo")
-    if v.get("producao.cortes") and v.get("formato") == "short":
-        avisos.append("producao.cortes só vale para o formato longo; no short é ignorado")
+    if v.get("visual.animacao") in ("destaques", "todas") and v.get("visual.proporcao") in ("1:1", "4:5"):
+        avisos.append(f"visual.animacao só existe em 16:9 e 9:16: em {v['visual.proporcao']} as imagens ficam paradas")
     fornecedor = v.get("narracao.fornecedor") or "gemini"
     conhecidas = vozes_conhecidas(fornecedor)
     lista_de = {"gemini": "do Gemini TTS", "openai": "da OpenAI", "elevenlabs": "da conta na ElevenLabs"}.get(fornecedor)
     if v.get("narracao.voz") and conhecidas and lista_de and v["narracao.voz"] not in conhecidas:
+        troca = equivalente(fornecedor, v["narracao.voz"])
         avisos.append(f"narracao.voz '{v['narracao.voz']}' não está na lista {lista_de} ({', '.join(list(conhecidas)[:8])}...): "
-                      "a narração usa uma voz dele do mesmo gênero")
+                      "a narração usa uma voz dele do mesmo gênero" + (f" ({troca})" if troca else ""))
     if v.get("musica.ativa") and musica_preenchida(v):
         musica = {"nome": v.get("musica.nome"), "arquivo": v.get("musica.arquivo")}
         if not achar_musica(musica, pasta):
@@ -527,7 +609,9 @@ def coerencia(valores: dict, pasta: Path | None = None) -> list[str]:
     personagens = v.get("personagens") or []
     for x in personagens:
         if x.get("voz") and conhecidas and lista_de and x["voz"] not in conhecidas:
-            avisos.append(f"personagens.{x['nome']}.voz '{x['voz']}' não está na lista {lista_de}: vai uma voz dele do mesmo gênero")
+            troca = equivalente(fornecedor, x["voz"])
+            avisos.append(f"personagens.{x['nome']}.voz '{x['voz']}' não está na lista {lista_de}: vai uma voz dele do mesmo "
+                          "gênero" + (f" ({troca})" if troca else ""))
     vozes = [x["voz"] for x in personagens if x.get("voz")] + ([v["narracao.voz"]] if personagens and v.get("narracao.voz") else [])
     if repetidas := sorted({voz for voz in vozes if vozes.count(voz) > 1}):
         avisos.append(f"voz repetida entre personagens (ou com o narrador): {', '.join(repetidas)}; fica difícil saber quem fala")
@@ -610,7 +694,8 @@ def cabecalho_modelo() -> list[str]:
         "# Só o tema é obrigatório (ou o título, ou a descrição). Deixe vazio o que quiser que o sistema decida: na",
         "# primeira etapa ele completa este pedido, mostra tudo para você aprovar e só depois começa a pesquisa.",
         "#",
-        '# Uso: copie para pedidos/<nome>.yaml, preencha o tema e peça "/novo-video pedidos/<nome>.yaml".',
+        "# Uso: na interface web, o formulário do vídeo grava um pedido neste formato; à mão, copie para",
+        "# pedidos/<nome>.yaml e preencha o tema.",
         "# Escreva textos entre aspas e responda sim ou não nos campos de sim/não.",
         "# Gerado por ferramentas/pedido.py modelo: para mudar campos, comentários ou padrões, edite CAMPOS no",
         "# script e gere o modelo de novo.",
@@ -623,7 +708,7 @@ def cabecalho_completo(valores: dict) -> list[str]:
         "#",
         f"# Completado em {date.today().isoformat()} a partir de {ORIGINAL} (o pedido como foi escrito).",
         "# Para mudar algo, edite este arquivo e gere o brief de novo:",
-        f"#   uv run --script ferramentas/pedido.py brief projetos/{valores['slug']} 2>&1 | cat",
+        f"#   python3 ferramentas/pedido.py brief projetos/{valores['slug']}",
     ]
 
 
@@ -861,6 +946,13 @@ def cmd_completar(entrada: Path, respostas: list[str], definicoes: list[str], ra
                 do_usuario[chave] = valor
             else:
                 definidos.add(chave)
+    pasta = raiz_projetos / p.valores["slug"] if p.valores.get("slug") else None
+    # Com roteiro pronto, a duração é a do roteiro na velocidade da narração: vale mais que uma sugestão (--definir);
+    # só o que o usuário escreveu fica, e a coerência avisa se não cabe.
+    calculada = do_usuario.get("duracao_alvo") is None and duracao_do_roteiro(p.valores, pasta)
+    if calculada:
+        p.valores["duracao_alvo"] = calculada[0]
+        definidos.add("duracao_alvo")
     preenchidos = aplicar_padroes(p.valores)
     decidir, perguntar = faltando(p.valores)
     if p.erros or decidir or perguntar:
@@ -872,7 +964,6 @@ def cmd_completar(entrada: Path, respostas: list[str], definicoes: list[str], ra
         print("nada foi gravado")
         return 1
 
-    pasta = raiz_projetos / p.valores["slug"]
     destino = pasta / COMPLETO
     if (destino.exists() or (pasta / BRIEF).exists()) and not sobrescrever:  # um roteiro sozinho na pasta não conta
         motivo = "já tem um pedido" if destino.exists() else "já tem um brief (projeto anterior)"
@@ -884,11 +975,34 @@ def cmd_completar(entrada: Path, respostas: list[str], definicoes: list[str], ra
         shutil.copyfile(entrada, pasta / ORIGINAL)
     destino.write_text(renderizar(p.valores, p.extras, cabecalho_completo(p.valores)), encoding="utf-8")
     print(f"gravado: {destino} (original em {pasta / ORIGINAL})")
+    if calculada:
+        print(f"duração calculada pelo roteiro: {calculada[1]} palavras a {calculada[2]} palavras por minuto = {calculada[0]}")
     imprimir_resumo(p.valores, origens(p.valores, do_usuario, definidos), p.extras)
     imprimir_personagens(p.valores, do_usuario, definidos, set(preenchidos))
     print()
     imprimir_problemas(p, coerencia(p.valores, pasta))
     return 0
+
+
+def anexos_do_contexto(arquivo: Path) -> list[dict]:
+    """Os anexos de um contexto salvo pela interface web (pedidos/contextos/<id>/): do contexto.json da pasta, ou do
+    banco, quando o servidor guarda o contexto lá."""
+    anexos = None
+    if (manifesto := arquivo.parent / "contexto.json").is_file():
+        try:
+            anexos = json.loads(manifesto.read_text(encoding="utf-8")).get("anexos")
+        except (OSError, json.JSONDecodeError):
+            anexos = None
+    if anexos is None and arquivo.parent.parent.name == "contextos":
+        try:
+            from nucleo import banco
+            if banco.disponivel():
+                from nucleo.banco import repositorios
+                anexos = (repositorios.contexto(arquivo.parent.name) or {}).get("anexos")
+        except Exception:  # noqa: BLE001 - sem banco, o contexto vai só com o texto
+            anexos = None
+    return [{"caminho": relativo(arquivo.parent / a["arquivo"]), "tipo": a.get("tipo"), "descricao": a.get("descricao") or ""}
+            for a in anexos or [] if isinstance(a, dict) and a.get("arquivo")]
 
 
 def video_id(url: str) -> str | None:
@@ -918,8 +1032,8 @@ def cmd_brief(pasta: Path) -> int:
     referencias = []
     for url in p.valores["referencias"]:
         vid = video_id(url)
-        achados = sorted((RAIZ / "biblioteca" / "esqueletos").glob(f"*{vid}.json")) if vid else []
-        esqueleto = str(achados[0].relative_to(RAIZ)) if achados else refs_anteriores.get(url)
+        achados = sorted((espaco() / "biblioteca" / "esqueletos").glob(f"*{vid}.json")) if vid else []
+        esqueleto = relativo(achados[0]) if achados else refs_anteriores.get(url)
         referencias.append({"url": url, "esqueleto": esqueleto})
 
     hoje = date.today().isoformat()
@@ -927,12 +1041,11 @@ def cmd_brief(pasta: Path) -> int:
     novo["referencias"] = referencias
     if arquivo := arquivo_de_contexto(p.valores.get("contexto"), pasta):
         novo["contexto"] = arquivo.read_text(encoding="utf-8").strip()
-        novo["contexto_arquivo"] = str(arquivo.relative_to(RAIZ)) if arquivo.is_relative_to(RAIZ) else str(arquivo)
-        if (manifesto := arquivo.parent / "contexto.json").is_file():  # contexto salvo pela interface web
-            novo["contexto_anexos"] = [
-                {"caminho": str((arquivo.parent / a["arquivo"]).relative_to(RAIZ)), "tipo": a["tipo"],
-                 "descricao": a.get("descricao") or ""}
-                for a in json.loads(manifesto.read_text(encoding="utf-8")).get("anexos") or []]
+        novo["contexto_arquivo"] = relativo(arquivo)
+        if anexos := anexos_do_contexto(arquivo):
+            novo["contexto_anexos"] = anexos
+    if roteiro_importado(pasta):
+        novo["origem"] = "roteiro-importado"  # o roteiro veio pronto do usuário: a trilha pula pesquisa, ângulo e roteiro
     novo["pedido"] = {"arquivo": COMPLETO, "sha1": sha1_arquivo(caminho), "gerado_em": hoje}
     novo["criado_em"] = anterior.get("criado_em") or hoje
     for chave, valor in anterior.items():  # o que outras fases acrescentaram ao brief continua lá
@@ -963,7 +1076,7 @@ def main() -> int:
                    help="decisão do orquestrador para um campo vazio (repita para cada campo)")
     c.add_argument("--usuario", action="append", default=[], metavar="CAMPO=VALOR",
                    help="resposta que o usuário deu na conversa (conta como dele; pode mudar o que ele escreveu)")
-    c.add_argument("--projetos", type=Path, default=RAIZ / "projetos", help="pasta dos projetos (padrão: projetos/)")
+    c.add_argument("--projetos", type=Path, default=espaco() / "projetos", help="pasta dos projetos (padrão: projetos/)")
     c.add_argument("--sobrescrever", action="store_true", help="grava mesmo que o projeto já tenha pedido ou brief")
     b = sub.add_parser("brief", help="gera 00-brief.json a partir do pedido completo")
     b.add_argument("pasta", type=Path, help="pasta do projeto (projetos/<slug>)")

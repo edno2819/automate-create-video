@@ -3,7 +3,8 @@
 # Só o tema é obrigatório (ou o título, ou a descrição). Deixe vazio o que quiser que o sistema decida: na
 # primeira etapa ele completa este pedido, mostra tudo para você aprovar e só depois começa a pesquisa.
 #
-# Uso: copie para pedidos/<nome>.yaml, preencha o tema e peça "/novo-video pedidos/<nome>.yaml".
+# Uso: na interface web, o formulário do vídeo grava um pedido neste formato; à mão, copie para
+# pedidos/<nome>.yaml e preencha o tema.
 # Escreva textos entre aspas e responda sim ou não nos campos de sim/não.
 # Gerado por ferramentas/pedido.py modelo: para mudar campos, comentários ou padrões, edite CAMPOS no
 # script e gere o modelo de novo.
@@ -30,7 +31,8 @@ titulo:
 # longo (8 a 15 min, horizontal) | short (30 s a 3 min, vertical)
 formato:
 
-# Duração desejada, "mm:ss". Padrão: "12:00" no longo, "00:45" no short.
+# Duração desejada, "mm:ss". Com roteiro pronto, deixe vazio: o sistema calcula pelas palavras do roteiro
+# na velocidade da narração. Padrão: "12:00" no longo, "00:45" no short.
 duracao_alvo:
 
 # Tom do texto e da voz. Ex.: "sombrio e sóbrio, sem julgamento explícito".
@@ -76,6 +78,11 @@ visual:
   # Modelo das imagens de IA: rascunho (barato) | padrao | maxima (bem mais caro). Padrão: padrao.
   qualidade:
 
+  # Anima levemente as imagens geradas com um modelo de vídeo (Gemini Omni Flash, cerca de US$ 0,10 por segundo
+  # animado a 720p): nenhuma | destaques (gancho, viradas e payoff, escolhidos pelo diretor visual) | todas.
+  # Só em 16:9 e 9:16; cartelas e imagens da internet ficam paradas. Padrão: nenhuma.
+  animacao:
+
 # ── Narração ──────────────────────────────────────────────────────────────────────────────────────────
 
 narracao:
@@ -87,7 +94,7 @@ narracao:
   # testar falas, ritmo e montagem antes de pagar). Chaves em Configurações > Chaves de API. Padrão: gemini.
   fornecedor:
 
-  # Voz do narrador no fornecedor escolhido (lista: python3 skills/produzir-video/scripts/narrar.py
+  # Voz do narrador no fornecedor escolhido (lista: python3 ferramentas/producao/narrar.py
   # --listar-vozes --fornecedor <nome>). Uma voz de outro fornecedor vira uma dele do mesmo gênero.
   # Padrão: a voz do canal, em biblioteca/canal.json.
   voz:
@@ -158,7 +165,7 @@ musica:
   # Ponto da música em que o vídeo começa, "mm:ss" (ex.: o refrão). Padrão: "00:00".
   inicio:
 
-  # Volume da música por baixo da narração, em % (1 a 100); ela abaixa sozinha quando a voz fala.
+  # Volume da música por baixo da narração, em % (1 a 100); ela fica nesse volume o vídeo inteiro.
   # Sem narração, a música toca no volume normal. Padrão: 20.
   volume:
 
@@ -190,6 +197,3 @@ trends:
 producao:
   # Até onde ir: roteiro | visual (cenas e prompts) | video (imagens, voz e montagem). Padrão: video.
   ate:
-
-  # Gerar shorts a partir do vídeo longo. Padrão: sim no longo.
-  cortes:

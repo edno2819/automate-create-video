@@ -2,8 +2,9 @@
 """Mede um roteiro no formato de biblioteca/formato-roteiro.md.
 
 Conta palavras por bloco, estima os tempos pela taxa de palavras por minuto e aponta problemas
-objetivos: trechos longos sem re-hook, trechos sem loop aberto, frases proibidas no início, conectores
-"e depois", fatos a verificar e a posição da virada. Também separa as falas dos personagens ([FALA: Nome])
+objetivos: trechos longos sem re-hook, trechos sem loop aberto, tempo demais sem nenhum loop fechado (o espectador
+espera uma resposta e não recebe), frases proibidas no início, conectores "e depois", fatos a verificar e a
+posição da virada. Também separa as falas dos personagens ([FALA: Nome])
 das do narrador e confere se cada personagem está no pedido. A avaliação de qualidade fica com o crítico;
 este script só fornece os números.
 
@@ -20,17 +21,21 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from brief import ppm_do_brief
+from brief import espaco, ppm_do_brief
 
 PPM_PADRAO = 150
 MAX_INTERVALO_REHOOK_S = 120
 MIN_INTERVALO_REHOOK_S = 60
+# No longo, o máximo sem nenhum loop fechado (do começo ao primeiro payoff, entre dois payoffs, do último ao fim).
+# O payoff conta no fim do bloco que fecha o loop: blocos de 60 a 120 s com mini-payoff ficam abaixo disso.
+MAX_SEM_PAYOFF_S = 180
 SEGUNDOS_POR_PAUSA = 1.0
 
 FRASES_PROIBIDAS_INICIO = [
@@ -93,6 +98,12 @@ class Bloco:
 
     def loops(self, campo: str) -> list[str]:
         return ID_LOOP.findall(self.meta.get(campo, ""))
+
+
+def relativo(caminho: Path) -> str:
+    """O caminho como os agentes o recebem: relativo à raiz do espaço de trabalho, quando está dentro dela."""
+    rel = os.path.relpath(Path(caminho).resolve(), espaco())
+    return Path(rel).as_posix() if not rel.startswith("..") else str(caminho)
 
 
 def ler_frontmatter(linhas: list[str]) -> tuple[dict[str, object], int]:
@@ -317,6 +328,20 @@ def medir(caminho: Path, ppm_cli: int | None) -> dict[str, object]:
         if loops_declarados and loop not in loops_declarados:
             alertar("aviso", "loops", f"{loop} usado nos blocos mas não descrito na seção '## Loops'")
 
+    # Payoffs (só no longo): suspense não substitui valor. Entre o começo, cada bloco que fecha um loop e o fim, o
+    # espectador não pode esperar mais que MAX_SEM_PAYOFF_S por uma resposta.
+    intervalos_payoff = []
+    if formato == "longo":
+        marcos = [(0.0, "início")] + [(b.fim_s, b.id) for b in blocos if b.loops("fecha")]
+        if marcos[-1][0] < total_s:
+            marcos.append((total_s, "fim"))
+        for (ta, ba), (tb, bb) in zip(marcos, marcos[1:]):
+            gap = tb - ta
+            intervalos_payoff.append({"de": fmt_tempo(ta), "ate": fmt_tempo(tb), "segundos": round(gap), "entre": f"{ba}–{bb}"})
+            if gap > MAX_SEM_PAYOFF_S:
+                alertar("erro", "payoff", f"{round(gap)} s sem nenhum loop fechado entre {fmt_tempo(ta)} e {fmt_tempo(tb)} "
+                        f"({ba}–{bb}); máximo {MAX_SEM_PAYOFF_S} s: entregue um mini-payoff (feche um loop) nesse trecho")
+
     # Conectores e virada.
     for i, b in enumerate(blocos):
         conector = sem_acento(b.meta.get("conector", ""))
@@ -361,7 +386,7 @@ def medir(caminho: Path, ppm_cli: int | None) -> dict[str, object]:
     primeira_frase = re.split(r"(?<=[.!?…])\s+", " ".join(blocos[0].tokens))[0] if blocos[0].tokens else ""
 
     return {
-        "arquivo": str(caminho),
+        "arquivo": relativo(caminho),
         "formato": formato,
         "ppm": ppm,
         "titulo": front.get("titulo", ""),
@@ -381,6 +406,7 @@ def medir(caminho: Path, ppm_cli: int | None) -> dict[str, object]:
             for b in blocos
         ],
         "intervalos_rehook": intervalos,
+        "intervalos_payoff": intervalos_payoff,
         "mapa_loops": mapa,
         "loops_declarados": loops_declarados,
         "verificar": verificar,
@@ -415,6 +441,9 @@ def relatorio_md(r: dict[str, object]) -> str:
     if r["intervalos_rehook"]:
         linhas += ["", "## Intervalos entre re-hooks", ""]
         linhas += [f"- {i['de']} → {i['ate']}: {i['segundos']} s ({i['blocos']})" for i in r["intervalos_rehook"]]
+    if r["intervalos_payoff"]:
+        linhas += ["", "## Intervalos entre payoffs (loops fechados)", ""]
+        linhas += [f"- {i['de']} → {i['ate']}: {i['segundos']} s ({i['entre']})" for i in r["intervalos_payoff"]]
     if r["verificar"]:
         linhas += ["", "## A verificar", ""] + [f"- {v['bloco']}: {v['item']}" for v in r["verificar"]]
     if r["falas"]:

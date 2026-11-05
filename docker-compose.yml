@@ -1,0 +1,136 @@
+# Servidor de vídeos com Docker Compose: Postgres, MinIO, a interface web e o trabalhador.
+#
+#     cp .env.example .env          # preencha APP_SEGREDO e as senhas (as chaves de API podem ir pela interface)
+#     docker compose up -d --build  # http://localhost:8765
+#     docker compose logs -f web trabalhador
+#
+# Perfis (COMPOSE_PROFILES no .env; padrão "postgres,minio"):
+#   postgres   o banco roda aqui; sem ele, aponte DATABASE_URL para um Postgres seu (ex.: RDS)
+#   minio      o armazenamento de objetos roda aqui; sem ele, use ARMAZENAMENTO=s3 e as variáveis AWS_*
+# Com AWS S3 e Postgres próprio: COMPOSE_PROFILES= (vazio) e só a web e o trabalhador sobem.
+#
+# Mais trabalhadores (cada um roda TRABALHADOR_CONCORRENCIA execuções ao mesmo tempo):
+#     docker compose up -d --scale trabalhador=3
+#
+# O espaço de trabalho de cada contêiner (/app/projetos, /app/pedidos, /app/biblioteca, /app/rascunhos e o
+# índice /app/.espaco) é de propósito efêmero: a fonte da verdade é o MinIO/S3 com o índice no banco, e a cópia
+# local é refeita pela sincronização. Não monte volume só numa parte dele: um índice local que sobrevive sem os
+# arquivos (ou arquivos da imagem mais velhos que o índice) faria a sincronização apagar ou sobrescrever o remoto.
+
+name: story-automate-youtube
+
+x-ambiente: &ambiente
+  # Dentro do compose, o banco e o MinIO são os serviços daqui; o .env só precisa mudar estes valores para
+  # usar um Postgres ou um armazenamento de fora.
+  DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://${POSTGRES_USER:-videos}:${POSTGRES_PASSWORD:-videos}@postgres:5432/${POSTGRES_DB:-videos}}
+  ARMAZENAMENTO: ${ARMAZENAMENTO:-minio}
+  MINIO_ENDPOINT: ${MINIO_ENDPOINT:-http://minio:9000}
+  MINIO_BUCKET: ${MINIO_BUCKET:-videos}
+  MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-${MINIO_ROOT_USER:-minio}}
+  MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-${MINIO_ROOT_PASSWORD:-minio-troque-esta-senha}}
+  HF_HOME: /cache/hf
+
+x-app: &app
+  image: ${IMAGEM:-story-automate-youtube:latest}
+  build:
+    context: .
+    args:
+      BAIXAR_WHISPER: ${BAIXAR_WHISPER-small}
+  env_file:
+    - path: .env
+      required: false
+  volumes:
+    - hf-cache:/cache/hf
+  restart: unless-stopped
+  depends_on:
+    postgres:
+      condition: service_healthy
+      required: false
+    minio-init:
+      condition: service_completed_successfully
+      required: false
+
+services:
+  postgres:
+    image: postgres:16
+    profiles: [postgres]
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-videos}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-videos}
+      POSTGRES_DB: ${POSTGRES_DB:-videos}
+    volumes:
+      - pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  minio:
+    # A MinIO parou de publicar imagens no Docker Hub; esta é a do fork comunitário pgsty/minio, compatível.
+    image: ${MINIO_IMAGEM:-pgsty/minio:RELEASE.2026-08-04T00-00-00Z}
+    profiles: [minio]
+    restart: unless-stopped
+    command: ["server", "/data", "--console-address", ":9001"]
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minio}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minio-troque-esta-senha}
+    ports:
+      # só o console, e só nesta máquina (túnel SSH para ver de fora); a API fica na rede interna
+      - "127.0.0.1:${MINIO_PORTA_CONSOLE:-9001}:9001"
+    volumes:
+      - minio:/data
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:9000/minio/health/live"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  minio-init:
+    # Cria o bucket e sai. A web também o cria no arranque se faltar; aqui ele já existe antes de tudo subir.
+    image: ${MC_IMAGEM:-pgsty/mc:RELEASE.2026-10-18T00-00-00Z}
+    profiles: [minio]
+    restart: "no"
+    depends_on:
+      minio:
+        condition: service_healthy
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minio}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minio-troque-esta-senha}
+      MINIO_BUCKET: ${MINIO_BUCKET:-videos}
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - mc alias set local http://minio:9000 "$$MINIO_ROOT_USER" "$$MINIO_ROOT_PASSWORD" >/dev/null
+        && mc mb --ignore-existing "local/$$MINIO_BUCKET"
+
+  web:
+    <<: *app
+    command: ["web"]
+    environment:
+      <<: *ambiente
+      # a porta de dentro é fixa; a de fora é PORTA
+      PORTA: "8765"
+      # aqui o trabalhador é o serviço próprio, não uma thread da web
+      TRABALHADOR_EMBUTIDO: "0"
+    ports:
+      - "${PORTA:-8765}:8765"
+
+  trabalhador:
+    <<: *app
+    command: ["trabalhador"]
+    environment:
+      <<: *ambiente
+      TRABALHADOR_CONCORRENCIA: ${TRABALHADOR_CONCORRENCIA:-2}
+    # sem servidor HTTP: o healthcheck da imagem (GET /api/saude) não vale aqui
+    healthcheck:
+      disable: true
+    # tempo para o trabalhador registrar o fim das execuções antes do SIGKILL
+    stop_grace_period: 60s
+
+volumes:
+  pg:
+  minio:
+  hf-cache:

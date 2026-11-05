@@ -24,8 +24,9 @@ import re
 import sys
 from pathlib import Path
 
-from cenas import norm, palavras
-from medir_roteiro import CABECALHO_BLOCO, ler_frontmatter, ler_roteiro, sem_acento
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # importável também de fora de ferramentas/ (os fluxos)
+from cenas import norm, palavras  # noqa: E402
+from medir_roteiro import CABECALHO_BLOCO, ler_frontmatter, ler_roteiro, sem_acento  # noqa: E402
 
 MARCA_TEMPO = re.compile(r"\*{0,2}\[\d{1,2}:\d{2}(?::\d{2})?\]\*{0,2}")
 NOME_NO_INICIO = re.compile(r"^\s*[-—–]?\s*\**\s*([^:*\n]{1,40}?)\s*\**\s*:\s*\**\s*")
