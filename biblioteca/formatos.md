@@ -1,6 +1,6 @@
 # Regras de formato
 
-Regras que estrategista, roteirista, crítico e cortador precisam respeitar. Quando uma regra daqui conflitar
+Regras que estrategista, roteirista e crítico precisam respeitar. Quando uma regra daqui conflitar
 com uma técnica da biblioteca, vale a regra daqui.
 
 Ritmo de referência: **150 palavras por minuto** em português falado. O vídeo de referência do Dor Pintada
@@ -33,9 +33,14 @@ palavras, meta de duração), a clareza vence. O crítico reprova (critério `cl
 - **Re-hook a cada 60 a 120 s** (150 a 300 palavras). Marque com `[RE-HOOK]` no roteiro.
 - **Nenhum trecho sem pergunta aberta.** Se todos os loops estão fechados, o espectador não tem motivo para
   ficar. Esse é o ponto de abandono.
+- **Nenhum trecho longo sem resposta.** Suspense não substitui valor: no máximo 3 minutos sem nenhum loop
+  fechado (o mini-payoff de cada bloco conta). A resposta principal pode esperar o fim; o espectador não pode
+  esperar tanto por nenhuma.
+- **Promessa anunciada é promessa paga.** O que o gancho e os re-hooks anunciam ("três motivos", "a melhor
+  parte") aparece, com a força anunciada. As obrigações do ângulo e do gancho escolhido são conferidas uma a
+  uma pelo crítico (critério `promessas-cumpridas`).
 - **Virada no meio** (entre 40% e 65% da duração): algo muda o significado do que veio antes.
-- **Blocos semiautônomos**, cada um com mini-gancho e mini-payoff. Isso segura a retenção do longo e permite
-  os cortes. Um roteiro em fluxo contínuo gera cortes sem contexto.
+- **Blocos semiautônomos**, cada um com mini-gancho e mini-payoff. Isso segura a retenção do longo.
 - **CTA de inscrição:** no máximo um, contextual, entre 3 e 6 min. Nunca nos primeiros 30 s.
 - **Duração honesta.** A partir de 8 min o vídeo permite anúncios no meio, mas esticar o conteúdo para bater
   essa marca derruba a retenção. Se o tema rende 6 minutos, o roteiro tem 6 minutos e o estrategista diz isso.
@@ -54,14 +59,6 @@ palavras, meta de duração), a clareza vence. O crítico reprova (critério `cl
 - **Sem CTA falado** (a não ser que seja a própria emenda do loop).
 - Métrica principal: **viu vs. passou** (no YouTube Studio, "Viewed vs. swiped away") e retenção. Views
   brutas enganam.
-
-## Corte (short derivado de um longo)
-
-- Parte de um bloco autônomo do longo, mas é **reescrito**: ganha gancho próprio de 1 a 2 s e não depende
-  de nada dito antes.
-- Não começa com "como eu disse", "nesse nível", nem referências a blocos anteriores.
-- Termina com payoff próprio. Opcionalmente, uma frase que leva ao longo, sem citar "vídeo completo no
-  canal" de forma genérica.
 
 ## Adequação a anunciantes
 

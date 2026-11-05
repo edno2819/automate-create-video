@@ -13,6 +13,11 @@ biblioteca/formato-cenas.md) e:
     precisam de "busca" e só valem se o pedido permitir (visual.imagens_da_internet);
   - anota quem fala em cada cena dos blocos com diálogo ([FALA: Nome] no roteiro) e avisa quando nenhum
     dos que falam aparece na imagem;
+  - confere os efeitos sonoros das cenas ("efeito"): o id existe na biblioteca de efeitos
+    (biblioteca/efeitos/efeitos.json), a palavra em que ele toca está no trecho e o volume vai de 1 a 100;
+  - confere os campos da animação (visual.animacao no pedido): "animar" (true ou false), "animacao" (o movimento,
+    em inglês) e as transições entre cenas (as de vídeo pedem a animação ligada e a cena anterior animada), e diz
+    quantas cenas vão animar;
   - monta o prompt da thumbnail (08-thumbnail.json), com o mesmo estilo e as mesmas fichas das cenas;
   - grava 08-cenas.json (com a thumbnail na chave "thumbnail"), 08-storyboard.md, 08-prompts.jsonl e
     08-referencias.jsonl.
@@ -28,12 +33,15 @@ from __future__ import annotations
 import argparse
 import bisect
 import json
+import os
 import re
 import sys
 from datetime import date
 from pathlib import Path
 
-from brief import RAIZ, config, ler_brief, ppm_do_brief
+import animacao
+import efeitos
+from brief import config, espaco, ler_brief, ppm_do_brief
 from medir_roteiro import MARCADOR, PPM_PADRAO, SEGUNDOS_POR_PAUSA, eh_palavra, fmt_tempo, ler_roteiro, sem_acento
 
 ENQUADRAMENTOS = {
@@ -61,6 +69,7 @@ MAX_PALAVRAS_PROMPT = 80
 # Onde fica o texto da thumbnail e a parte do quadro que a imagem gerada deixa livre para ele.
 AREAS_TEXTO_THUMB = {"alto": "top third", "baixo": "bottom third", "esquerda": "left third", "direita": "right third"}
 MAX_PALAVRAS_THUMB = 4
+MAX_FRACAO_EFEITOS = 1 / 3  # efeito sonoro em toda cena vira ruído: o que marca o momento é ser raro
 
 
 def norm(palavra: str) -> str:
@@ -72,17 +81,24 @@ def palavras(texto: str) -> list[str]:
     return [t for t in MARCADOR.sub(" ", texto).split() if eh_palavra(t)]
 
 
+def relativo(caminho: Path) -> str:
+    """O caminho relativo à raiz do espaço de trabalho (como os scripts e os agentes o recebem), se ele está dentro
+    dela; senão, o absoluto."""
+    rel = os.path.relpath(Path(caminho).resolve(), espaco())
+    return Path(rel).as_posix() if not rel.startswith("..") else str(Path(caminho).resolve())
+
+
 def imagem_da_biblioteca(slug: str | None) -> str | None:
-    """A imagem aprovada de um personagem de biblioteca/personagens/<slug>/, relativa à raiz."""
+    """A imagem aprovada de um personagem de biblioteca/personagens/<slug>/, relativa à raiz do espaço de trabalho."""
     if not slug:
         return None
-    pasta = RAIZ / "biblioteca" / "personagens" / slug
+    pasta = espaco() / "biblioteca" / "personagens" / slug
     achadas = sorted(pasta.glob("imagem.*")) if pasta.is_dir() else []
-    return str(achadas[0].relative_to(RAIZ)) if achadas else None
+    return relativo(achadas[0]) if achadas else None
 
 
 def prompt_ficha_personagem(descricao: str, estilo: str) -> str:
-    """Prompt da ficha de referência de um personagem. A biblioteca de personagens (skill criar-personagem) usa o
+    """Prompt da ficha de referência de um personagem. A criação de personagens (ferramentas/personagem.py) usa o
     mesmo, para que a imagem de um personagem da biblioteca sirva de ficha num projeto."""
     return (f"Character reference sheet. {descricao}. Front view and three-quarter view, full body, neutral expression, "
             f"plain light gray background. Style: {estilo}.")
@@ -92,7 +108,10 @@ class Montagem:
     def __init__(self, pasta: Path):
         self.pasta = pasta
         self.alertas: list[dict[str, str]] = []
-        self.internet_permitida = bool(config(ler_brief(pasta), "visual.imagens_da_internet", False))
+        brief = ler_brief(pasta)
+        self.internet_permitida = bool(config(brief, "visual.imagens_da_internet", False))
+        self.modo_animacao = animacao.modo(brief)
+        self.efeitos = efeitos.catalogo()
 
     def alertar(self, nivel: str, onde: str, msg: str) -> None:
         self.alertas.append({"nivel": nivel, "onde": onde, "mensagem": msg})
@@ -212,6 +231,8 @@ class Montagem:
                     pos += len(alvo)
                 fim_idx = palavra_em(pos) if sincronizado else None
                 cena = self.validar_cena(c, cid, b.id, ordem[b.id], ordem, estilo)
+                self.validar_efeito(cena, cid, trecho)
+                self.validar_animacao(cena, cid)
                 cena.update({
                     "id": cid, "bloco": b.id,
                     "palavras": [ini_idx, fim_idx] if ini_idx is not None else None,  # intervalo [ini, fim) nas palavras do bloco
@@ -242,6 +263,25 @@ class Montagem:
         for pid in self.personagens:
             if pid not in usados:
                 self.alertar("aviso", f"bíblia {pid}", "personagem não aparece em nenhuma cena")
+        if self.modo_animacao == "destaques":
+            ilustracoes = [c for c in todas if c.get("tipo") == "ilustracao" and c.get("fonte") != "internet"]
+            marcadas = [c for c in ilustracoes if c.get("animar") is True]
+            if not marcadas:
+                self.alertar("aviso", "animação", "o pedido anima os destaques, mas nenhuma cena tem \"animar\": true: "
+                                                  "vão animar a primeira ilustração de cada bloco e a última do vídeo")
+            elif len(marcadas) > len(ilustracoes) / 2:
+                self.alertar("aviso", "animação", f"{len(marcadas)} de {len(ilustracoes)} ilustrações marcadas para animar: "
+                                                  "em destaques, guarde para o gancho, as viradas e o payoff")
+        self.validar_transicoes(todas)
+        com_efeito = [c for c in todas if isinstance(c.get("efeito"), dict)]
+        if len(com_efeito) > max(1, len(todas) * MAX_FRACAO_EFEITOS):
+            self.alertar("aviso", "efeitos", f"{len(com_efeito)} efeitos sonoros em {len(todas)} cenas: guarde-os para os "
+                                             "momentos que pedem (no máximo um a cada três cenas)")
+        for a, b2 in zip(todas, todas[1:]):
+            ea, eb = a.get("efeito"), b2.get("efeito")
+            if isinstance(ea, dict) and isinstance(eb, dict) and ea["id"] == eb["id"]:
+                self.alertar("aviso", b2["id"], f"o mesmo efeito sonoro '{b2['efeito']['id']}' em duas cenas seguidas "
+                                                f"({a['id']} e {b2['id']})")
 
         self.duracao_total = t_bloco
         self.proporcao, self.estilo, self.biblia, self.blocos = proporcao, estilo, biblia, blocos
@@ -284,6 +324,68 @@ class Montagem:
         if falantes and cena.get("tipo") == "ilustracao" and not any(nome in na_imagem for nome in falantes):
             self.alertar("aviso", cena["id"], f"fala de {', '.join(sorted(falantes))}, mas quem fala não está na imagem "
                                               "(ok se for uma reação de quem ouve)")
+
+    def validar_efeito(self, cena: dict, cid: str, trecho: list[str]) -> None:
+        """O efeito sonoro da cena: um id da biblioteca de efeitos, a palavra do trecho em que ele toca (sem ela, toca
+        no corte para a cena) e o volume. Grava na cena o pedido completo ({id, palavra, volume})."""
+        uso = efeitos.da_cena(cena.get("efeito"))
+        if uso is None:
+            cena.pop("efeito", None)
+            return
+        if not isinstance(uso, dict):
+            self.alertar("erro", cid, 'efeito precisa ser um objeto ({"id": ..., "palavra": ..., "volume": ...}) ou o id do efeito')
+            return
+        if uso["id"] not in self.efeitos:
+            ids = sorted(self.efeitos)
+            existentes = ", ".join(ids[:30]) + ("…" if len(ids) > 30 else "") if ids else "a biblioteca está vazia"
+            self.alertar("erro", cid, f"efeito '{uso['id']}' não existe na biblioteca de efeitos ({efeitos.INDICE}: {existentes})")
+        if uso["palavra"] and len(uso["palavra"].split()) > 1:
+            self.alertar("erro", cid, f"a palavra do efeito é uma palavra só do trecho, não '{uso['palavra']}'")
+        elif uso["palavra"] and efeitos.forma(uso["palavra"]) not in {efeitos.forma(p) for p in trecho}:
+            self.alertar("erro", cid, f"a palavra '{uso['palavra']}' do efeito não está no trecho da cena")
+        volume = uso["volume"]
+        if isinstance(volume, bool) or not isinstance(volume, (int, float)) or not 1 <= volume <= 100:
+            self.alertar("erro", cid, f"volume do efeito '{volume}' inválido (de 1 a 100, em %)")
+        cena["efeito"] = uso
+
+    def validar_transicoes(self, cenas: list[dict]) -> None:
+        """A transição de cada cena (como ela entra): corte, fade ou as de biblioteca/animacao.md. As de vídeo são
+        geradas no clipe da cena anterior, que precisa animar; senão, viram corte."""
+        animadas = {c["id"] for c in animacao.selecionadas(cenas, self.modo_animacao, {})}
+        de_video = 0
+        for k, c in enumerate(cenas):
+            t = c.get("transicao")
+            if t in (None, "corte", "fade"):
+                continue
+            if t not in animacao.TRANSICOES:
+                self.alertar("aviso", c["id"], f"transição '{t}' desconhecida: vira corte (use corte ou fade; com a animação "
+                                               "ligada, também as de biblioteca/animacao.md)")
+            elif k == 0:
+                self.alertar("aviso", c["id"], f"a primeira cena não vem de outra: a transição {t} vira corte")
+            elif t in animacao.TRANSICOES_DE_VIDEO:
+                de_video += 1
+                if self.modo_animacao == "nenhuma":
+                    self.alertar("aviso", c["id"], f"a transição {t} só existe com a animação ligada (visual.animacao): vira corte")
+                elif cenas[k - 1]["id"] not in animadas:
+                    self.alertar("aviso", c["id"], f"a transição {t} é gerada no clipe da cena anterior ({cenas[k - 1]['id']}), "
+                                                   "que não anima: vira corte (marque a anterior com \"animar\": true)")
+        if de_video > max(2, len(cenas) / 4):
+            self.alertar("aviso", "transições", f"{de_video} transições de vídeo em {len(cenas)} cenas: guarde para os "
+                                                "momentos fortes e as trocas de bloco")
+
+    def validar_animacao(self, cena: dict, cid: str) -> None:
+        """"animar" (true ou false: a escolha do diretor visual no modo destaques) e "animacao" (o movimento da cena
+        em inglês, que vai ao modelo de vídeo; sem ele, um movimento leve do que a imagem mostra)."""
+        if "animar" in cena and not isinstance(cena["animar"], bool):
+            self.alertar("erro", cid, "animar é true ou false")
+        elif cena.get("animar") is True and (cena.get("tipo") != "ilustracao" or cena.get("fonte") == "internet"):
+            self.alertar("aviso", cid, "animar só vale em ilustração gerada por IA: esta cena fica parada")
+        movimento = cena.get("animacao")
+        if movimento is not None and not isinstance(movimento, str):
+            self.alertar("erro", cid, "animacao é um texto em inglês com o movimento da cena")
+        elif isinstance(movimento, str) and len(movimento.split()) > animacao.MAX_PALAVRAS:
+            self.alertar("aviso", cid, f"animacao com {len(movimento.split())} palavras; o máximo recomendado é "
+                                       f"{animacao.MAX_PALAVRAS}: descreva só o movimento")
 
     def validar_cena(self, c: dict, cid: str, bloco: str, ordem_bloco: int, ordem: dict[str, int], estilo: dict,
                      thumbnail: bool = False) -> dict:
@@ -380,6 +482,12 @@ class Montagem:
               f"{f'; {da_internet} com imagem da internet' if da_internet else ''})")
         if duracoes:
             print(f"duração por cena: média {sum(duracoes) / len(duracoes):.1f} s · mín {min(duracoes)} s · máx {max(duracoes)} s")
+        if self.modo_animacao != "nenhuma":
+            animadas = animacao.selecionadas(cenas, self.modo_animacao, {})
+            print(f"animação ({self.modo_animacao}): {len(animadas)} cena(s)"
+                  + (f" ({', '.join(c['id'] for c in animadas[:12])}{'…' if len(animadas) > 12 else ''})" if animadas else ""))
+        if usados := [c["efeito"]["id"] for c in cenas if isinstance(c.get("efeito"), dict)]:
+            print(f"efeitos sonoros: {len(usados)} ({', '.join(sorted(set(usados)))})")
         if cenas:
             print(f"arquivos: {self.pasta / '08-storyboard.md'} · 08-cenas.json · 08-prompts.jsonl · 08-referencias.jsonl")
         if t := getattr(self, "thumbnail", None):
@@ -395,7 +503,7 @@ class Montagem:
         hoje = date.today().isoformat()
         total = fmt_tempo(self.duracao_total)
         (self.pasta / "08-cenas.json").write_text(json.dumps({
-            "projeto": self.biblia.get("projeto", self.pasta.name), "roteiro": str(roteiro_path), "gerado_em": hoje,
+            "projeto": self.biblia.get("projeto", self.pasta.name), "roteiro": relativo(roteiro_path), "gerado_em": hoje,
             "proporcao": self.proporcao, "duracao_estimada": total, "total_cenas": len(cenas),
             "alertas": self.alertas, "thumbnail": self.thumbnail, "cenas": cenas,
         }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -469,6 +577,14 @@ class Montagem:
                     linhas += [f"**Na tela:** {c['texto_na_tela']}", ""]
                 if c.get("falas"):
                     linhas += [f"**Quem fala:** {' → '.join(c['falas'])}", ""]
+                if c.get("animar") is not None or c.get("animacao"):
+                    marca = {True: " (marcada para animar)", False: " (fica parada)"}.get(c.get("animar"), "")
+                    linhas += [f"**Animação:** {animacao.movimento(c)}{marca}", ""]
+                if isinstance(e := c.get("efeito"), dict):
+                    nome = (self.efeitos.get(e["id"]) or {}).get("nome") or e["id"]
+                    onde = f"na palavra \"{e['palavra']}\"" if e.get("palavra") else "no corte para a cena"
+                    volume = f", volume {e['volume']}%" if e.get("volume") != efeitos.VOLUME_PADRAO else ""
+                    linhas += [f"**Efeito sonoro:** {nome} (`{e['id']}`) {onde}{volume}", ""]
                 if c.get("fonte") == "internet":
                     reserva = "o prompt abaixo é a reserva, se a busca falhar" if c.get("prompt_final") else "sem prompt de reserva"
                     busca = c.get("busca")

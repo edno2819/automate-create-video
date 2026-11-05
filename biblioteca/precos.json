@@ -1,5 +1,5 @@
 {
-  "sobre": "Preços das APIs pagas, em dólares. Modelos de texto e de imagem: por milhão de tokens (entrada sem cache, saida, cache_leitura, cache_escrita) e 'busca' por busca na web. Narração: por milhão de tokens, 'por_minuto' de áudio ou 'por_mil_caracteres'. 'por_imagem' só vale quando a API não devolve o uso. Um modelo com preço que muda numa data tem uma lista de períodos, cada um com 'desde'. ferramentas/custos.py aplica a tabela na hora de somar; confira as fontes de tempos em tempos e atualize 'conferido_em'.",
+  "sobre": "Preços das APIs pagas, em dólares. Modelos de texto e de imagem: por milhão de tokens (entrada sem cache, saida, cache_leitura, cache_escrita) e 'busca' por busca na web; nos de imagem da OpenAI, 'entrada' é o texto e 'entrada_imagem' as imagens de referência (tabela Standard, sem cache). Narração: por milhão de tokens, 'por_minuto' de áudio ou 'por_mil_caracteres'. 'por_imagem' só vale quando a API não devolve o uso. Vídeo (animação das imagens): 'saida_video' por milhão de tokens e 'tokens_por_segundo' de vídeo em cada resolução; a resolução sem a conta publicada fica sem preço. Um modelo com preço que muda numa data tem uma lista de períodos, cada um com 'desde'. ferramentas/custos.py aplica a tabela na hora de somar; confira as fontes de tempos em tempos e atualize 'conferido_em'.",
   "conferido_em": "2026-10-22",
   "moeda": "USD",
   "modelos": {
@@ -30,6 +30,16 @@
         "2K": 0.134,
         "4K": 0.24
       }
+    },
+    "gemini-omni-1.1-flash": {
+      "entrada": 1.5,
+      "saida_texto": 9.0,
+      "saida_video": 17.5,
+      "tokens_por_segundo": {
+        "720p": 5792
+      },
+      "conferido_em": "2026-10-23",
+      "fonte": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     "gemini-nano-banana-2.1": {
       "entrada": 1.5,
@@ -291,6 +301,35 @@
     },
     "eleven_turbo_v2_5": {
       "por_mil_caracteres": 0.04
+    },
+    "gpt-image-1": {
+      "entrada": 5.0,
+      "entrada_imagem": 10.0,
+      "saida_imagem": 40.0,
+      "conferido_em": "2026-10-23",
+      "fonte": "https://developers.openai.com/api/docs/pricing"
+    },
+    "gpt-image-1-mini": {
+      "entrada": 2.0,
+      "entrada_imagem": 2.5,
+      "saida_imagem": 8.0,
+      "conferido_em": "2026-10-23",
+      "fonte": "https://developers.openai.com/api/docs/pricing"
+    },
+    "gpt-image-1.5": {
+      "entrada": 5.0,
+      "entrada_imagem": 8.0,
+      "saida_texto": 10.0,
+      "saida_imagem": 32.0,
+      "conferido_em": "2026-10-23",
+      "fonte": "https://developers.openai.com/api/docs/pricing"
+    },
+    "gpt-image-2": {
+      "entrada": 5.0,
+      "entrada_imagem": 8.0,
+      "saida_imagem": 30.0,
+      "conferido_em": "2026-10-23",
+      "fonte": "https://developers.openai.com/api/docs/pricing"
     }
   },
   "fontes": {

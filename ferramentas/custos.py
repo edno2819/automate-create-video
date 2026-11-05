@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """Custo de produção de um projeto: quanto cada chamada paga gastou, e o total.
 
-Os scripts que chamam APIs pagas (imagens e narração no Gemini) registram cada chamada em
-projetos/<slug>/custos.jsonl, com os tokens que a própria API devolve (usageMetadata). O preço é aplicado só na
-hora de somar, a partir de biblioteca/precos.json: corrigir a tabela recalcula tudo. O custo do Claude Code (os
-agentes) não passa por aqui: vem do total_cost_usd de cada execução, que a interface web guarda no banco.
+Cada chamada paga é registrada em dois lugares:
+- projetos/<slug>/custos.jsonl, com o uso que a própria API devolve (usageMetadata do Gemini, usage da OpenAI,
+  caracteres da ElevenLabs): é um artefato do projeto, que vai junto num fork ou numa cópia;
+- a tabela `custos` do banco, quando ele está acessível (o servidor e os scripts que ele chama), com o projeto,
+  a execução (variável EXECUCAO_ID, que o trabalhador passa aos scripts), o provedor e o custo calculado. É de lá
+  que a interface soma o custo do projeto, por etapa e por serviço.
+
+O preço vem de biblioteca/precos.json. No jsonl ele é aplicado só na hora de somar (corrigir a tabela recalcula
+tudo); no banco, o custo é calculado na hora do registro. Os agentes (LLM e busca na web) são registrados pelo
+motor com `registrar_llm`.
 
 Uso:
     python3 ferramentas/custos.py projetos/<slug>
@@ -15,35 +21,125 @@ A estimativa reconstrói o mínimo a partir do que ficou no projeto: uma imagem 
 09-imagens (pelo preço fixo por imagem) e a duração da narração (o Gemini cobra 25 tokens por segundo de
 áudio). Tentativas que falharam e imagens refeitas não deixam rastro, então o custo real é maior. As linhas
 estimadas levam "estimado": true, e só entram para o serviço que ainda não tem nenhum registro.
-
-Só usa a biblioteca padrão.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
+if str(RAIZ) not in sys.path:
+    sys.path.insert(0, str(RAIZ))
+
 PRECOS = RAIZ / "biblioteca" / "precos.json"
 REGISTRO = "custos.jsonl"
-SERVICOS = {"imagem": "Imagens (Gemini)", "narracao": "Narração (Gemini TTS)"}
+SERVICOS = {"imagem": "Imagens", "animacao": "Animação", "narracao": "Narração", "llm": "Agentes (LLM)",
+            "busca": "Busca na web"}
+NOMES_PROVEDOR = {"anthropic": "Claude", "openai": "OpenAI", "gemini": "Gemini", "elevenlabs": "ElevenLabs",
+                  "espeak": "espeak"}
 MILHAO = 1_000_000
 TOKENS_POR_SEGUNDO_DE_AUDIO = 25
+# campos de uma linha do jsonl que viram colunas no banco; o resto vai para `extra`
+_COLUNAS = {"quando", "servico", "modelo", "uso", "provedor", "item", "estimado", "agente"}
 
 
-def registrar(pasta: Path, servico: str, modelo: str, uso: dict | None, **extra) -> None:
-    """Acrescenta uma chamada ao registro do projeto. Nunca levanta erro: o custo não pode derrubar a produção."""
-    linha = {"quando": datetime.now().isoformat(timespec="seconds"), "servico": servico, "modelo": modelo,
-             "uso": uso or {}, **{k: v for k, v in extra.items() if v is not None}}
+def provedor_do_modelo(modelo: str | None) -> str:
+    """Quem cobra por um modelo, pelo nome dele (para registros antigos e scripts que não dizem)."""
+    m = (modelo or "").lower()
+    if m.startswith(("gemini", "imagen", "veo")):
+        return "gemini"
+    if m.startswith(("gpt", "tts-1", "chatgpt", "o1", "o3", "o4", "dall-e", "whisper")):
+        return "openai"
+    if m.startswith("eleven"):
+        return "elevenlabs"
+    if m.startswith("claude"):
+        return "anthropic"
+    if m.startswith("espeak"):
+        return "espeak"
+    return "desconhecido"
+
+
+def _projeto_da_pasta(pasta: Path) -> str | None:
+    """O slug, quando a pasta é projetos/<slug> (um rascunho de personagem, por exemplo, não é projeto)."""
     try:
-        with (pasta / REGISTRO).open("a", encoding="utf-8") as f:
+        resolvida = Path(pasta).resolve()
+    except OSError:
+        return None
+    return resolvida.name if resolvida.parent.name == "projetos" else None
+
+
+def _execucao_do_ambiente() -> int | None:
+    try:
+        return int(os.environ["EXECUCAO_ID"])
+    except (KeyError, ValueError):
+        return None
+
+
+def _gravar_no_banco(linha: dict, custo_usd: float | None, *, projeto_slug: str | None,
+                     execucao_id: int | None) -> None:
+    """Grava a linha na tabela custos, se o banco está acessível. Nunca levanta erro."""
+    try:
+        from nucleo import banco
+        if not banco.disponivel():
+            return
+        from nucleo.banco import repositorios
+        repositorios.registrar_custo(
+            linha["servico"], linha.get("provedor") or provedor_do_modelo(linha.get("modelo")), linha.get("modelo") or "",
+            linha.get("uso") or {}, custo_usd, execucao_id=execucao_id, projeto_slug=projeto_slug,
+            agente=linha.get("agente"), item=linha.get("item"), estimado=bool(linha.get("estimado")),
+            extra={k: v for k, v in linha.items() if k not in _COLUNAS}, quando=linha.get("quando"))
+    except Exception as e:  # noqa: BLE001 - o custo não pode derrubar a produção
+        print(f"aviso: não consegui registrar o custo no banco: {type(e).__name__}: {e}", file=sys.stderr)
+
+
+def registrar(pasta: Path, servico: str, modelo: str, uso: dict | None, provedor: str | None = None,
+              **extra) -> None:
+    """Acrescenta uma chamada ao registro do projeto (custos.jsonl) e ao banco. Nunca levanta erro: o custo não
+    pode derrubar a produção."""
+    linha = {"quando": datetime.now().astimezone().isoformat(timespec="seconds"), "servico": servico,
+             "modelo": modelo, "provedor": provedor or provedor_do_modelo(modelo), "uso": uso or {},
+             **{k: v for k, v in extra.items() if v is not None}}
+    try:
+        with (Path(pasta) / REGISTRO).open("a", encoding="utf-8") as f:
             f.write(json.dumps(linha, ensure_ascii=False) + "\n")
     except OSError as e:
-        print(f"aviso: não consegui registrar o custo em {pasta / REGISTRO}: {e}", file=sys.stderr)
+        print(f"aviso: não consegui registrar o custo em {Path(pasta) / REGISTRO}: {e}", file=sys.stderr)
+    try:
+        valor = custo(linha, tabela())
+    except Exception:  # noqa: BLE001 - tabela de preços quebrada: fica sem preço
+        valor = None
+    _gravar_no_banco(linha, valor, projeto_slug=_projeto_da_pasta(pasta), execucao_id=_execucao_do_ambiente())
+
+
+def registrar_llm(provedor: str, modelo: str, uso: dict, *, agente: str | None = None, servico: str = "llm",
+                  execucao_id: int | None = None, projeto_slug: str | None = None,
+                  pasta: Path | None = None) -> float | None:
+    """Uma chamada de agente (servico "llm") ou de busca na web ("busca"), com o uso normalizado (entrada,
+    saida, cache_leitura, cache_escrita, buscas). Grava no banco (e no custos.jsonl, se `pasta` vier) e devolve o
+    custo em dólares (None quando o modelo não tem preço). Nunca levanta erro."""
+    linha = {"quando": datetime.now().astimezone().isoformat(timespec="seconds"), "servico": servico,
+             "modelo": modelo, "provedor": provedor, "uso": uso or {}}
+    if agente:
+        linha["agente"] = agente
+    try:
+        valor = custo_llm(modelo, uso or {})
+    except Exception:  # noqa: BLE001
+        valor = None
+    if pasta is not None:
+        try:
+            with (Path(pasta) / REGISTRO).open("a", encoding="utf-8") as f:
+                f.write(json.dumps(linha, ensure_ascii=False) + "\n")
+        except OSError as e:
+            print(f"aviso: não consegui registrar o custo em {Path(pasta) / REGISTRO}: {e}", file=sys.stderr)
+        projeto_slug = projeto_slug or _projeto_da_pasta(pasta)
+    _gravar_no_banco(linha, valor, projeto_slug=projeto_slug,
+                     execucao_id=execucao_id if execucao_id is not None else _execucao_do_ambiente())
+    return valor
 
 
 def duracao_wav(caminho: Path) -> float:
@@ -78,10 +174,18 @@ def estimar(pasta: Path) -> list[str]:
 
 
 def ler(pasta: Path) -> list[dict]:
-    caminho = pasta / REGISTRO
+    caminho = Path(pasta) / REGISTRO
     if not caminho.exists():
         return []
-    return [json.loads(l) for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip()]
+    linhas = []
+    for l in caminho.read_text(encoding="utf-8").splitlines():
+        if not l.strip():
+            continue
+        try:
+            linhas.append(json.loads(l))
+        except json.JSONDecodeError:
+            continue  # uma linha cortada (processo morto no meio da escrita) não estraga o resto
+    return linhas
 
 
 def tabela() -> dict:
@@ -110,7 +214,7 @@ def tokens_saida(uso: dict) -> dict[str, int]:
 
 
 def custo_llm(modelo: str, uso: dict, quando: str | None = None, precos: dict | None = None) -> float | None:
-    """Custo de um uso já normalizado por ferramentas/llm.py (entrada sem cache, saida, cache, buscas)."""
+    """Custo de um uso já normalizado pelos provedores de LLM (entrada sem cache, saida, cache, buscas)."""
     p = preco_em(modelo, quando or datetime.now().isoformat(), precos or tabela())
     if p is None or "saida" not in p:
         return None
@@ -120,7 +224,32 @@ def custo_llm(modelo: str, uso: dict, quando: str | None = None, precos: dict | 
     return total + uso.get("buscas", 0) * p.get("busca", 0)
 
 
+def _custo_entrada(uso: dict, p: dict) -> float:
+    """Tokens de entrada × preço. Quando a tabela separa as imagens de referência (`entrada_imagem`, nos modelos
+    de imagem da OpenAI), cada modalidade tem o seu preço; senão, tudo pelo preço de entrada."""
+    detalhes = uso.get("promptTokensDetails") or []
+    if "entrada_imagem" in p and detalhes:
+        colunas = {"IMAGE": "entrada_imagem", "AUDIO": "entrada_audio"}
+        return sum((d.get("tokenCount") or 0) * p.get(colunas.get(d.get("modality", "TEXT"), "entrada"), p.get("entrada", 0))
+                   for d in detalhes)
+    return (uso.get("promptTokenCount") or 0) * p.get("entrada", 0)
+
+
+def preco_por_segundo(modelo: str, resolucao: str | None, quando: str | None = None,
+                      precos: dict | None = None) -> float | None:
+    """Dólares por segundo de vídeo gerado: os tokens por segundo da resolução × o preço do token de vídeo. None
+    quando a tabela não tem a conta dessa resolução (o Gemini publica só a de 720p)."""
+    p = preco_em(modelo, quando or datetime.now().isoformat(), precos or tabela())
+    tokens = ((p or {}).get("tokens_por_segundo") or {}).get(resolucao or "720p")
+    return tokens * p["saida_video"] / MILHAO if tokens and "saida_video" in p else None
+
+
 def custo(item: dict, precos: dict) -> float | None:
+    if item.get("servico") in ("llm", "busca"):
+        return custo_llm(item["modelo"], item.get("uso") or {}, item.get("quando"), precos)
+    if item.get("servico") == "animacao":  # pelo segundo de vídeo; a entrada (a imagem e o texto) fica em centavos
+        por_segundo = preco_por_segundo(item["modelo"], item.get("tamanho"), item.get("quando"), precos)
+        return por_segundo * item["segundos"] if por_segundo is not None and item.get("segundos") is not None else None
     p = preco_em(item["modelo"], item["quando"], precos)
     if p is None:
         return None
@@ -133,23 +262,39 @@ def custo(item: dict, precos: dict) -> float | None:
     if not uso:  # a API não devolveu o uso: vale o preço fixo por imagem, se houver
         return (p.get("por_imagem") or {}).get(item.get("tamanho") or "1K") if item["servico"] == "imagem" else None
     colunas = {"IMAGE": "saida_imagem", "AUDIO": "saida_audio", "TEXT": "saida_texto"}
-    total = (uso.get("promptTokenCount") or 0) * p.get("entrada", 0)
+    total = _custo_entrada(uso, p)
     total += sum(n * p.get(colunas.get(tipo, "saida_texto"), 0) for tipo, n in saida.items())
     return total / MILHAO
 
 
+def rotulo(servico: str, provedor: str | None) -> str:
+    base = SERVICOS.get(servico, servico)
+    nome = NOMES_PROVEDOR.get(provedor or "", provedor or "")
+    return f"{base} ({nome})" if nome and nome != "desconhecido" else base
+
+
 def resumo(pasta: Path) -> dict:
+    """O custo do projeto pelo custos.jsonl (o artefato), agrupado por serviço e modelo."""
     precos = tabela()
     grupos: dict[tuple[str, str], dict] = {}
     sem_preco = set()
     for item in ler(pasta):
+        if not item.get("servico") or not item.get("modelo") or not item.get("quando"):
+            continue
+        provedor = item.get("provedor") or provedor_do_modelo(item["modelo"])
         g = grupos.setdefault((item["servico"], item["modelo"]), {
-            "servico": item["servico"], "rotulo": SERVICOS.get(item["servico"], item["servico"]), "modelo": item["modelo"],
-            "chamadas": 0, "tokens_entrada": 0, "tokens_saida": 0, "usd": 0.0, "estimado": False})
+            "servico": item["servico"], "rotulo": rotulo(item["servico"], provedor), "provedor": provedor,
+            "modelo": item["modelo"], "chamadas": 0, "tokens_entrada": 0, "tokens_saida": 0, "usd": 0.0,
+            "estimado": False})
         g["chamadas"] += 1
         g["estimado"] = g["estimado"] or bool(item.get("estimado"))
-        g["tokens_entrada"] += (item.get("uso") or {}).get("promptTokenCount") or 0
-        g["tokens_saida"] += sum(tokens_saida(item.get("uso") or {}).values())
+        uso = item.get("uso") or {}
+        if item["servico"] in ("llm", "busca"):
+            g["tokens_entrada"] += (uso.get("entrada") or 0) + (uso.get("cache_leitura") or 0) + (uso.get("cache_escrita") or 0)
+            g["tokens_saida"] += uso.get("saida") or 0
+        else:
+            g["tokens_entrada"] += uso.get("promptTokenCount") or 0
+            g["tokens_saida"] += sum(tokens_saida(uso).values())
         valor = custo(item, precos)
         if valor is None:
             sem_preco.add(item["modelo"])
@@ -175,9 +320,9 @@ def main() -> int:
         print(json.dumps(r, ensure_ascii=False, indent=2))
         return 0
     for g in r["itens"]:
-        print(f"{g['rotulo']:24} {g['modelo']:30} {g['chamadas']:4} chamadas  US$ {g['usd']:.4f}"
+        print(f"{g['rotulo']:28} {g['modelo']:30} {g['chamadas']:4} chamadas  US$ {g['usd']:.4f}"
               + (" (estimativa mínima)" if g["estimado"] else ""))
-    print(f"{'total das APIs':24} {'':30} {'':14} US$ {r['total_usd']:.4f}")
+    print(f"{'total das APIs':28} {'':30} {'':14} US$ {r['total_usd']:.4f}")
     if r["sem_preco"]:
         print(f"aviso: sem preço em biblioteca/precos.json para {', '.join(r['sem_preco'])} (fora do total)")
     return 0

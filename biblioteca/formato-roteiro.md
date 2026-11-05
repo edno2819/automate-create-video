@@ -1,9 +1,9 @@
 # Formato do arquivo de roteiro
 
-Todo roteiro (longo, short ou corte) segue este formato. A ferramenta
+Todo roteiro (longo ou short) segue este formato. A ferramenta
 [ferramentas/medir_roteiro.py](../ferramentas/medir_roteiro.py) lê o arquivo, conta palavras por bloco,
-estima os tempos e aponta problemas objetivos (trechos longos sem re-hook, trechos sem loop aberto, frases
-proibidas no início). O roteirista escreve nesse formato e o crítico avalia a partir dele.
+estima os tempos e aponta problemas objetivos (trechos longos sem re-hook, trechos sem loop aberto, tempo
+demais sem nenhum loop fechado, frases proibidas no início). O roteirista escreve nesse formato e o crítico avalia a partir dele.
 
 ## Estrutura
 
@@ -18,6 +18,7 @@ titulo: "Como É Ser Cada Cargo de um Navio Pirata"
 thumbnail: "Rosto de grumete jovem em primeiro plano, capitão desfocado ao fundo. Texto: 'NÍVEL 1'"
 tecnicas: [escada-de-niveis-pov, pov-segunda-pessoa, cena-espelho, callback]
 tipo_gancho: pov-segunda-pessoa
+gatilhos: [identificacao, medo-de-perder]
 ---
 
 ## [B01] Nível 1: o grumete
@@ -39,7 +40,9 @@ Nível 1: o grumete. Você tem 14 anos...
 - **Linha de metadados**, logo abaixo do cabeçalho, começando com `>` e campos separados por `·`:
   - `função`: gancho, contexto, desenvolvimento, virada, clímax, payoff, final;
   - `abre`: ids dos loops que este bloco abre (L1, L2...). Use `—` se nenhum;
-  - `fecha`: ids dos loops que este bloco fecha;
+  - `fecha`: ids dos loops que este bloco fecha. O mini-payoff de um bloco é um loop que ele abre e fecha:
+    vai nos dois campos. No longo, o medidor acusa erro quando passam mais de 3 minutos sem nenhum loop
+    fechado (do começo ao primeiro payoff, entre dois payoffs ou do último ao fim);
   - `conector`: como o bloco se liga ao anterior: `mas`, `então` ou `—` no primeiro bloco. Se a relação
     for só sequência ("e depois"), escreva `e-depois`: o crítico vai cobrar;
   - `cortável`: `sim` se o bloco funciona sozinho como short depois de ganhar um gancho próprio.

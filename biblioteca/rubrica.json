@@ -1,6 +1,6 @@
 {
-  "versao": 2,
-  "atualizado_em": "2026-10-21",
+  "versao": 3,
+  "atualizado_em": "2026-10-23",
   "escala": {
     "0": "falha: o problema existe e afeta a retenção ou a promessa",
     "1": "parcial: funciona, mas tem um ponto fraco concreto",
@@ -105,6 +105,17 @@
       "bloqueante": true,
       "pergunta": "O payoff cumpre exatamente o que o título e a thumbnail prometem?",
       "como_verificar": "Releia título e conceito de thumb no cabeçalho. Liste a promessa em uma frase e aponte onde ela é cumprida. Promessa parcial é 1; promessa traída (clickbait) é 0."
+    },
+    {
+      "id": "promessas-cumpridas",
+      "formatos": [
+        "longo",
+        "short"
+      ],
+      "peso": 3,
+      "bloqueante": true,
+      "pergunta": "Cada promessa explícita do gancho, dos re-hooks e das obrigações do ângulo e do gancho escolhido é cumprida no roteiro?",
+      "como_verificar": "Confira em 'obrigacoes', uma a uma, as obrigações que a mensagem do orquestrador lista (O1, O2...) e as promessas que o próprio texto faz no gancho e nos [RE-HOOK] ('três motivos', 'a melhor parte', 'o pior cargo'), estas com ids R1, R2... Anunciada e não entregue, ou entregue pela metade ('três' e vêm dois), é 'nao'; entregue sem a força anunciada ('a melhor parte' e vem um detalhe morno) é 'parcial'. Qualquer 'nao' é nota 0; qualquer 'parcial' é no máximo 1; o sistema aplica essa regra às notas. Sem promessa explícita além do título, é 2."
     },
     {
       "id": "final-com-virada",
@@ -224,5 +235,75 @@
       "pergunta": "O roteiro descreve sexo ou nudez, ou põe personagem de visual infantil ou fofo (fruta, bicho, boneco) em situação sexual?",
       "como_verificar": "Romance e traição sugeridos (um olhar, um bilhete, a porta que se fecha) são 2. Sexo descrito é 0. Qualquer conotação sexual com personagem de visual infantil ou fofo é 0, mesmo sugerida. Veja a seção 'Adequação a anunciantes' em formatos.md."
     }
-  ]
+  ],
+  "ganchos": {
+    "sobre": "Rubrica dos ganchos candidatos da etapa Gancho, entre o ângulo e o roteiro. O crítico dá 0, 1 ou 2 a cada critério de cada gancho; o sistema calcula a nota ponderada, corta a clareza pelas confusões da leitura fria e a fluidez pelo tamanho medido, e separa os melhores para o usuário escolher. A nota é julgamento editorial, não probabilidade de viralizar.",
+    "candidatos": {
+      "minimo": 6,
+      "maximo": 8
+    },
+    "melhores": 3,
+    "janela_segundos": {
+      "longo": 5,
+      "short": 2
+    },
+    "criterios": [
+      {
+        "id": "clareza-imediata",
+        "peso": 3,
+        "bloqueante": true,
+        "pergunta": "Quem ouve uma vez, sem contexto, entende a frase e sabe do que o vídeo trata?",
+        "como_verificar": "Use a leitura fria isolada do gancho. Uma confusão dela é no máximo 1; duas ou mais é 0 (o sistema aplica). Sujeito ambíguo, ação que precisa ser deduzida ou 'você' sem papel claro também contam. Abrir com um rótulo, nome ou número que só faz sentido depois ('Nível 1: Beemote.'), antes de dizer do que o vídeo trata, é no máximo 1."
+      },
+      {
+        "id": "relevancia",
+        "peso": 3,
+        "bloqueante": false,
+        "pergunta": "Fala com o público do brief, sobre algo que importa para ele?",
+        "como_verificar": "Compare com 'publico' e 'descricao' do brief. Um gancho que serviria para qualquer público é no máximo 1."
+      },
+      {
+        "id": "curiosidade",
+        "peso": 3,
+        "bloqueante": false,
+        "pergunta": "Deixa uma pergunta concreta que o espectador quer ver respondida?",
+        "como_verificar": "Leia a última linha da leitura fria ('espero: ...'): o leitor sabe o que vai descobrir? Sem pergunta é 0; pergunta vaga ('fica até o final') é 1. Curiosidade é saber o que falta; não entender a frase é clareza, não curiosidade."
+      },
+      {
+        "id": "emocao-adequada",
+        "peso": 2,
+        "bloqueante": false,
+        "pergunta": "Os gatilhos declarados aparecem de fato no texto, na intensidade que o tom e a natureza do conteúdo pedem?",
+        "como_verificar": "Confira cada id em 'gatilhos' contra o texto e contra o 'cuidado' do gatilho em tecnicas.json. Gatilho declarado que o texto não aciona, ou tom alarmista num brief leve, é no máximo 1."
+      },
+      {
+        "id": "padroes-observados",
+        "peso": 3,
+        "bloqueante": false,
+        "pergunta": "A estrutura corresponde a um padrão com evidência (esqueleto, trends, aprendizados do canal), e a referência citada é verdadeira?",
+        "como_verificar": "O gancho que o usuário pediu (pedido_pelo_usuario) é 2: o pedido vale mais que qualquer padrão (o sistema aplica). Abra a fonte citada em 'referencia'. Padrão com evidência é 2; 'sem referência' (aposta honesta) é 1; referência que não existe ou não mostra esse padrão é 0."
+      },
+      {
+        "id": "credibilidade-da-promessa",
+        "peso": 3,
+        "bloqueante": true,
+        "pergunta": "O que o gancho afirma está no dossiê, e o que ele promete o vídeo consegue cumprir?",
+        "como_verificar": "Fato, número ou percentual fora do dossiê é 0. Exagero sem prova ('segredo', 'ninguém te conta', 'todos', 'nunca', 'infalível') é no máximo 1. Obrigação que o dossiê não tem material para cumprir é no máximo 1. Promessa diferente da do ângulo é 0."
+      },
+      {
+        "id": "fluidez-e-duracao",
+        "peso": 2,
+        "bloqueante": false,
+        "pergunta": "Cabe na janela do gancho (cerca de 5 s no longo, 2 s no short) e se fala sem tropeço?",
+        "como_verificar": "Use as palavras e os segundos medidos pelo sistema, nunca a sua conta. Mais que o dobro da janela é no máximo 1 (o sistema aplica). Trava-língua, intercalação antes do sujeito ou sigla ilegível é no máximo 1."
+      },
+      {
+        "id": "voz-do-canal",
+        "peso": 1,
+        "bloqueante": false,
+        "pergunta": "Soa como o tom do brief e do canal, sem virar a voz de outro canal?",
+        "como_verificar": "Compare com 'tom' do brief e com o padrão de linguagem dos esqueletos do canal. Tom trocado (calmo virou agressivo, irônico virou solene) é 0 ou 1."
+      }
+    ]
+  }
 }

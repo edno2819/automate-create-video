@@ -1,7 +1,7 @@
 {
-  "versao": 1,
-  "atualizado_em": "2026-10-21",
-  "sobre": "Biblioteca de técnicas narrativas. O estrategista escolhe e combina técnicas daqui pelo id; o roteirista segue os beats; o crítico checa os sinais de falha; o registro de desempenho agrupa métricas por id. Para adicionar uma técnica, copie o formato de uma existente e use um id novo em kebab-case. Não renomeie ids já usados: o histórico de desempenho depende deles.",
+  "versao": 2,
+  "atualizado_em": "2026-10-23",
+  "sobre": "Biblioteca de técnicas narrativas. O estrategista escolhe e combina técnicas daqui pelo id; o roteirista segue os beats; o crítico checa os sinais de falha; o registro de desempenho agrupa métricas por id. Os gatilhos emocionais descrevem o mecanismo que um gancho ou um ângulo aciona; o registro de desempenho também agrupa por eles. Para adicionar uma técnica, copie o formato de uma existente e use um id novo em kebab-case. Não renomeie ids já usados: o histórico de desempenho depende deles.",
   "categorias": {
     "estrutura": "Esqueleto do vídeo inteiro ou de um bloco grande.",
     "gancho": "Como abrir o vídeo ou um bloco.",
@@ -10,6 +10,18 @@
     "final": "Como fechar e cumprir a promessa.",
     "cta": "Pedidos de ação (inscrição, comentário) sem custar retenção."
   },
+  "gatilhos": [
+    {"id": "medo-de-perder", "nome": "Medo de perder", "descricao": "Alerta para uma consequência negativa concreta que o espectador quer evitar.", "exemplo": "Um cochilo de dez minutos e o seu rosto vai parar num cartaz no poste.", "cuidado": "A consequência precisa estar no dossiê; ameaça inventada é clickbait."},
+    {"id": "curiosidade", "nome": "Curiosidade", "descricao": "Uma informação incompleta e relevante: o espectador sabe o que falta e quer a resposta.", "exemplo": "O cargo mais alto da escada não tem arma. Tem uma caneta.", "cuidado": "Curiosidade é saber o que falta; frase obscura é confusão."},
+    {"id": "urgencia", "nome": "Urgência", "descricao": "Um motivo legítimo para prestar atenção agora.", "exemplo": "Se você assina o aluguel sem essa cláusula, o dono pode te tirar em trinta dias.", "cuidado": "Urgência falsa ('assista antes que apaguem') quebra a confiança."},
+    {"id": "esperanca", "nome": "Esperança", "descricao": "Uma possibilidade realista de melhora ou de saída.", "exemplo": "Teve quem saiu da escada vivo. Foram três, e os três fizeram a mesma coisa.", "cuidado": "Nunca prometa resultado garantido."},
+    {"id": "identificacao", "nome": "Identificação", "descricao": "Uma situação que o público reconhece como sua.", "exemplo": "Você trabalha a semana inteira e no dia 10 a parcela da moto já levou tudo.", "cuidado": "A situação é a do público do brief, não a de um público genérico."},
+    {"id": "surpresa", "nome": "Surpresa", "descricao": "Um contraste com o que o espectador espera.", "exemplo": "O homem mais temido do morro nunca segurou uma arma.", "cuidado": "O contraste precisa ser verdadeiro, não uma pegadinha que o vídeo desmente."},
+    {"id": "transformacao", "nome": "Transformação", "descricao": "Uma mudança de estado mostrada na história: o antes e o depois.", "exemplo": "Aos 19 você vigia a esquina. Aos 30, é a esquina que vigia você.", "cuidado": "A mudança é mostrada no vídeo, não só anunciada."},
+    {"id": "autoridade", "nome": "Autoridade", "descricao": "Experiência, documento ou evidência que dá peso ao que é dito.", "exemplo": "O processo tem quatro mil páginas. Três delas explicam tudo.", "cuidado": "Só fontes que estão no dossiê; nunca uma autoridade inventada."},
+    {"id": "exclusividade", "nome": "Exclusividade", "descricao": "Um detalhe específico e pouco conhecido.", "exemplo": "Existe uma regra que não está escrita em lugar nenhum, e todo mundo ali obedece.", "cuidado": "'Ninguém te conta' sem prova é exagero; prefira 'pouca gente explica'."},
+    {"id": "indignacao", "nome": "Indignação", "descricao": "A distância entre o que deveria ser e o que é.", "exemplo": "A propaganda dizia taxa zero. O extrato mostrou outra coisa.", "cuidado": "Acusação exige evidência no dossiê; sem ela, mostre o fato e deixe o espectador concluir."}
+  ],
   "tipos_gancho": [
     {"id": "pov-segunda-pessoa", "descricao": "Coloca o espectador dentro da situação já no primeiro segundo.", "exemplo": "Você tem 22 anos e acabou de assinar um contrato que não leu."},
     {"id": "in-medias-res", "descricao": "Abre no momento de maior tensão e só depois explica como se chegou lá.", "exemplo": "O navio já estava afundando quando o capitão mandou trancar os botes."},
@@ -19,7 +31,10 @@
     {"id": "promessa-de-revelacao", "descricao": "Mostra que existe um segredo e garante que ele será revelado.", "exemplo": "Existe um motivo para nenhum avião sobrevoar o Tibete, e não é a altitude."},
     {"id": "resultado-primeiro", "descricao": "Mostra o resultado final logo de cara e esconde o caminho.", "exemplo": "Essa casa custou 40 mil reais. Ela tem piscina."},
     {"id": "ameaca-pessoal", "descricao": "Diz o que o espectador perde se não assistir ou se continuar fazendo algo.", "exemplo": "Se você assina o contrato de aluguel sem essa cláusula, o dono pode te tirar em 30 dias."},
-    {"id": "cena-sensorial", "descricao": "Uma imagem concreta e vívida que cria atmosfera e tensão.", "exemplo": "Três da manhã, o rádio chia e o único som na laje é o seu próprio coração."}
+    {"id": "cena-sensorial", "descricao": "Uma imagem concreta e vívida que cria atmosfera e tensão.", "exemplo": "Três da manhã, o rádio chia e o único som na laje é o seu próprio coração."},
+    {"id": "negacao-revelacao", "descricao": "Descarta as respostas que o espectador espera ('não é X, não é Y') e só então aponta a verdadeira, ou promete apontá-la.", "exemplo": "Não é a arma. Não é o dinheiro. O que manda no morro é o rádio."},
+    {"id": "identificacao-condicional", "descricao": "'Se você...': escolhe o público por uma situação que ele vive e promete algo a quem está nela.", "exemplo": "Se você já pagou uma parcela com o dinheiro da outra, você está no primeiro degrau dessa escada."},
+    {"id": "prova-demonstracao", "descricao": "Promete mostrar algo verificável (um documento, uma comparação lado a lado, um número na tela) e mostra logo. Pede um [VISUAL] com a prova.", "exemplo": "Esse é o salário de um soldado da PM em 1995. Agora olha o de hoje."}
   ],
   "tecnicas": [
     {
@@ -301,6 +316,51 @@
       "combina_com": ["pov-segunda-pessoa", "lacuna-de-curiosidade"],
       "metricas_alvo": ["viu_vs_passou", "retencao_media"],
       "origem": "geral"
+    },
+    {
+      "id": "negacao-revelacao",
+      "nome": "Negação e revelação",
+      "categoria": "gancho",
+      "formatos": ["longo", "short"],
+      "descricao": "Descartar uma ou duas hipóteses que o espectador daria como resposta e só então entregar a verdadeira. Na abertura, segura pela pergunta; no meio do vídeo, corrige um pressuposto e reinicia a atenção.",
+      "quando_usar": ["Quando o público tem uma explicação pronta, e errada, para o tema.", "No meio de um bloco, para trocar uma resposta óbvia por uma melhor ('não é só X; Y também conta')."],
+      "quando_evitar": ["Quando as hipóteses descartadas são espantalhos que ninguém diria.", "Quando a resposta verdadeira é mais fraca que as descartadas."],
+      "beats": ["Primeira hipótese esperada, negada numa frase curta.", "Segunda hipótese, negada do mesmo jeito (o ritmo prepara a virada).", "A resposta verdadeira, ou a promessa de entregá-la, com um detalhe concreto.", "A prova da resposta, logo ou no bloco que fecha o loop."],
+      "exemplo": "'Não é a arma. Não é o dinheiro. O que manda no morro é o rádio. E quem segura o rádio tem dezenove anos.'",
+      "sinais_de_falha": ["As hipóteses negadas não são as que o público pensaria.", "Três ou mais negações: vira lista e perde o ritmo.", "A resposta verdadeira nunca é provada."],
+      "combina_com": ["loop-aberto", "tese-contraria", "lacuna-de-curiosidade"],
+      "metricas_alvo": ["retencao_30s", "retencao_media"],
+      "origem": "guia:engenharia-reversa-roteiros-virais"
+    },
+    {
+      "id": "revelacao-progressiva",
+      "nome": "Revelação progressiva",
+      "categoria": "retencao",
+      "formatos": ["longo", "short"],
+      "descricao": "Anunciar logo depois do gancho quantas partes o vídeo tem e entregá-las em ordem ('primeiro..., depois..., por último...'). O espectador vê o progresso e sabe quanto falta para a melhor parte.",
+      "quando_usar": ["Vídeos explicativos com 3 a 5 pontos claros.", "Quando o título promete uma lista ('os três motivos', 'cada cargo')."],
+      "quando_evitar": ["Narrativas em que a surpresa depende de não saber o que vem.", "Quando o vídeo não tem como entregar todas as partes anunciadas."],
+      "beats": ["Anunciar o número de partes e a ordem, numa frase, logo depois do gancho.", "Marcar cada passagem ('o segundo é pior'), de preferência com um re-hook.", "Entregar todas as partes, a mais forte por último.", "No fecho, uma frase que junta as partes e vira o sentido."],
+      "exemplo": "'São três coisas que decidem se você sai vivo dessa escada. A primeira parece bobagem.' Depois: 'A terceira é a única que ninguém consegue fingir.'",
+      "sinais_de_falha": ["Promete três e entrega dois.", "A parte mais forte vem no meio e o resto parece enchimento.", "Anúncio vago ('vou explicar tudo')."],
+      "combina_com": ["contagem-regressiva", "loop-aberto", "re-hook-de-transicao"],
+      "metricas_alvo": ["retencao_media"],
+      "origem": "guia:engenharia-reversa-roteiros-virais"
+    },
+    {
+      "id": "prova-visual",
+      "nome": "Prova visual",
+      "categoria": "retencao",
+      "formatos": ["longo", "short"],
+      "descricao": "Trocar uma afirmação abstrata por algo que o espectador vê e pode conferir: o documento, a foto da época, a comparação lado a lado, o número na tela. A narração aponta a prova e o [VISUAL] diz o que mostrar.",
+      "quando_usar": ["Quando o vídeo afirma algo surpreendente que tem registro (documento, foto, dado oficial).", "Como mudança de ritmo depois de um trecho só de narração."],
+      "quando_evitar": ["Sem a prova de verdade: simulação apresentada como real é prova fabricada.", "Quando a imagem não acrescenta nada ao que a voz já disse."],
+      "beats": ["Afirmação concreta na narração.", "'Olha isso' ou equivalente, com o [VISUAL: ...] da prova.", "Uma frase que diz o que a prova mostra, sem depender só da imagem.", "Consequência para a história."],
+      "exemplo": "'Em 1995, um soldado ganhava isso.' [VISUAL: o contracheque da época, da fonte do dossiê] 'Agora olha o do mesmo cargo hoje.'",
+      "sinais_de_falha": ["A narração só faz sentido olhando a imagem.", "A prova é uma ilustração gerada apresentada como documento.", "O [VISUAL] pede algo que não existe nas fontes do dossiê."],
+      "combina_com": ["quebra-de-padrao", "caso-concreto"],
+      "metricas_alvo": ["retencao_media"],
+      "origem": "guia:engenharia-reversa-roteiros-virais"
     }
   ]
 }

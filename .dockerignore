@@ -1,0 +1,38 @@
+# O que não entra na imagem. Segredos e dados do usuário ficam de fora: no servidor, o estado mora no banco e
+# no armazenamento de objetos, e o espaço de trabalho de /app é preenchido na sincronização.
+
+# segredos (as chaves chegam pelo ambiente ou pela interface, cifradas no banco)
+.env
+.env.*
+!.env.example
+**/*.key
+
+# ambiente local
+.git
+.gitignore
+.venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.vscode
+.idea
+**/.DS_Store
+
+# estado de uma instalação local (vai para o banco/armazenamento pelo ferramentas/migrar.py)
+dados/
+.espaco/
+projetos/
+rascunhos/
+pedidos/web/
+pedidos/contextos/*/
+transcripts/
+
+# o que não roda no servidor
+.claude/
+tests/
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+.dockerignore

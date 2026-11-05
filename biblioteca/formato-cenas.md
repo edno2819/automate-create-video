@@ -124,7 +124,8 @@ Uma lista de cenas na ordem da narração do bloco:
 | `fonte` | `ia` (padrão: imagem gerada) ou `internet` (imagem real de banco livre; só se o pedido permitir, em `visual.imagens_da_internet`). |
 | `busca` | Obrigatória na cena da internet: o texto procurado no Wikimedia Commons e no Openverse, em inglês, ou uma lista de 2 ou 3 alternativas, da mais específica à mais geral. |
 | `movimento` | Para a montagem: `estatico`, `zoom-in`, `zoom-out`, `pan-esquerda`, `pan-direita`, `subir` ou `descer`. |
-| `transicao` | Para a montagem: `corte` ou `fade`. |
+| `transicao` | Para a montagem: `corte` ou `fade`. Com a animação ligada, também as de `biblioteca/animacao.md`, que traz os campos `animar` e `animacao`. |
+| `efeito` | Opcional, só quando a biblioteca de efeitos sonoros foi indicada: `{"id": "<id>", "palavra": "<palavra>", "volume": 80}`, ou só o id, como texto. `id` de `biblioteca/efeitos/efeitos.json`; `palavra` (opcional), uma palavra do trecho: o efeito toca quando a voz chega a ela (a primeira vez na cena); sem ela, toca no corte para a cena. `volume` em %, de 1 a 100 (padrão 100). |
 
 Uma cena com imagem da internet:
 
@@ -147,6 +148,29 @@ A imagem é baixada por `skills/produzir-video/scripts/buscar_imagens.py`, só e
 Creative Commons com uso comercial, e o crédito vai para `09-imagens/creditos.md`. Se a proporção dela não
 for a do vídeo, a montagem a mostra inteira sobre uma cópia desfocada. Se a busca não achar nada, o
 `prompt_cena` gera a imagem por IA.
+
+Uma cena com efeito sonoro, que cai na palavra da revelação:
+
+```json
+{
+  "trecho": "E quem deu a ordem foi o seu irmão.",
+  "tipo": "ilustracao",
+  "descricao": "O irmão de costas, na porta, o rádio na mão.",
+  "enquadramento": "plano-medio",
+  "personagens": ["P02"],
+  "local": "L01",
+  "objetos": ["O01"],
+  "prompt_cena": "the older brother stands in the doorway seen from behind, holding the walkie-talkie, backlit",
+  "movimento": "zoom-in",
+  "transicao": "corte",
+  "efeito": {"id": "impacto-grave", "palavra": "irmão"}
+}
+```
+
+O script confere se o efeito existe na biblioteca, se a palavra está no trecho e se o volume vai de 1 a 100, e avisa
+quando há efeito em mais de um terço das cenas ou o mesmo efeito em duas cenas seguidas. A montagem leva o pico de
+cada efeito a -8 dBFS, aplica o volume e o soma por cima da voz e da música; os que entraram ficam em
+`10-video/efeitos.json`, que a Edição usa para pô-los também nas versões dubladas.
 
 O script calcula `id` (`B01-01`, `B01-02`...), `bloco`, `inicio`, `fim`, `duracao_s`, `prompt_final` e
 `negativo_final`. Os tempos são estimados pela contagem de palavras (150 por minuto, ou o `ppm` do
